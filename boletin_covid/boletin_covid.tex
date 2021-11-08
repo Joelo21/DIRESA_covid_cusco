@@ -1,0 +1,1124 @@
+\documentclass[12pt,a4paper,openany]{book}
+%------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+% PACKAGES
+%--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+% Selección de idioma
+\usepackage[spanish]{babel}
+
+% algo
+\usepackage[utf8]{inputenc}
+
+% Par acomodar la foto del editorial
+\usepackage{wrapfig}
+
+% Paquetes útiles
+\usepackage[table]{xcolor}
+\usepackage{amssymb}
+\usepackage{amsmath}
+%\usepackage{mathbbol}
+\usepackage{bbm}
+\usepackage{amsthm}
+\usepackage{pdfpages}
+\usepackage{graphicx,color,psfrag}
+\usepackage{epstopdf}
+\usepackage{pdflscape}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{breakurl}
+\usepackage{enumitem}
+\usepackage[normalem]{ulem}
+\usepackage{blindtext}
+\usepackage{mathtools,breqn}
+
+
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+
+\usepackage{fnpct}
+
+\usepackage{subcaption}
+
+\usepackage{newpxtext}
+\usepackage{lscape}
+
+% La mejor fuente de la letra: https://www3.gobiernodecanarias.org/medusa/ecoblog/lortrodm/files/2015/03/tarea-formatos-word.pdf
+% caption fonts
+%\usepackage[font={large,bf}]{caption} 
+\usepackage[T1]{fontenc}
+\usepackage{verdana}
+
+
+\usepackage{setspace}
+\usepackage{longtable}
+\usepackage{threeparttable}  
+\usepackage{tabulary}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{rotating}
+\usepackage[titletoc,title]{appendix}
+
+\usepackage{array,multirow}
+
+\usepackage[round]{natbib}
+\bibpunct{(}{)}{;}{a}{,}{;}
+\setcounter{MaxMatrixCols}{10}
+
+\topmargin=-1.8cm \textheight=23.8cm \oddsidemargin=-0.3cm
+\evensidemargin=-0.5cm \textwidth=17.1cm
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}{Proposition}
+\newtheorem{assumption}{Assumption}
+\newtheorem{assumption2}{Assumption A}
+
+\newtheorem{lemma}{Lemma}
+
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\tikzset{>=stealth}
+\usepackage{amsmath}
+\usepackage{verbatim}
+\usetikzlibrary{arrows,shapes}
+
+% Definir colores
+\definecolor{mycolor1}{RGB}{236, 244, 244}
+\definecolor{mycolor2}{RGB}{164, 92, 92}	
+\definecolor{mycolor3}{RGB}{252, 196, 108}
+\definecolor{mycolor4}{RGB}{76, 60, 52}
+\definecolor{mycolor5}{RGB}{164, 248, 208}
+\definecolor{mycolor6}{RGB}{116, 112, 112}
+\definecolor{mycolor7}{RGB}{116, 116, 52}
+\usepackage[colorlinks=true,linkcolor=myblue, allcolors=mycolor2]{hyperref}
+\usepackage{soul}
+
+% Tablas
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{multicol} 
+\usepackage{booktabs}%\usepackage{booktabs, calc} %This is the package to use to have nice-looking tables. More documentation on the tables in LateX: https://www.tug.org/pracjourn/2007-1/mori/mori.pdf
+\usepackage{threeparttable} 
+
+\usepackage{lmodern}
+\usepackage{booktabs}
+\usepackage{pgfplots}
+
+\graphicspath{{../figuras/}}
+
+\begin{document}
+	
+	%---------------------------------------------------------------------------
+	% TITLE PAGE
+	%---------------------------------------------------------------------------
+	\doublespacing
+	
+	\title{Boletín COVID-19}
+	\author{Autores}
+	
+	\date{}
+
+	%\maketitle
+	
+	
+	%\thispagestyle{empty}\baselineskip1.385\baselineskip \newpage{}
+	
+	\pagestyle{plain}\pagenumbering{arabic}
+	
+	%insertar el cover
+	\includepdf[pages={1}]{../editorial/portada.pdf}
+	\clearpage
+	
+	\pagestyle{plain}\pagenumbering{arabic}
+	
+	\clearpage
+	
+	
+	\begin{center}
+	
+		{\large Gerencia Regional de Salud}
+		
+		\textbf{MSP. Javier Ramírez Escóbar}
+		
+		Gerente Regional \vspace{1.0cm}
+		
+		Dirección Ejecutiva de Inteligencia Sanitaria
+		
+		\textbf{MSP. Darío Francisco Navarro Mendoza}
+		
+		Director
+		
+		\vspace{1.5cm}
+\noindent
+\begin{minipage}[t]{.45\textwidth}
+	\centering
+	Dirección de Epidemiología e Investigación  \\
+	\textbf{MSC. Fátima R. Concha Velasco}\\
+	Directora \vspace{1.0cm}\\
+	% Por orden alfabético del apellido
+	\textit{Equipo de Epidemiología e Investigación }\vspace{.5cm}\\
+	Econ. Karen Yorka Aguilar Zuñiga \\
+	M.C Edwards Adrian Aguirre Valenzuela \\
+	Lic. Nadia Isabel Cáceres Pillco \\
+	Econ. Johar Jurimao Cassa Avendaño \\
+	TAP. Edgar Waldo Capcha Salcedo \\
+	M.S.P. Pablo Fidel Grajeda Ancca \\
+	M.C. Katia Luque Quispe \\
+	M.C. Ana Gabriela Eulalia Moncada Arias \\
+	Lic. Enf. Ruth Nelly Oscco Abarca \\
+	Lic. Enf. Guinetta Margarita Yabar Herrera \vspace{1.5cm}\\	
+\end{minipage}
+\hfill
+\noindent
+\begin{minipage}[t]{.45\textwidth}
+	\centering
+	Dirección de Estadística, Informática y Telecomunicaciones\\
+	\textbf{Ing. Abel Rimasca Chacón} \\
+	Director \vspace{1.0cm} \\
+	% Por orden alfabético del apellido
+	\textit{Equipo de Estadística, Informática y Telecomunicaciones} \vspace{.5cm} \\
+	Ing. Iván Atayupanqui Rondón \\
+	Ing. Miguel Ángel Campana Alarcón \\
+	Ing. Uriel Lacuta Farfán \\
+	Ing. Jorge Fernando Lovatón Ramos \\
+	Ing. Danny Robert Moscoso Sánchez \\
+	Lic. Ray Milton Valderrama Álverez \vspace{1.5cm}\\
+\end{minipage}
+Secretaria: Sra. Ruth Baca Mendoza
+	\end{center}
+\let\cleardoublepage\clearpage
+	\tableofcontents
+	\listoffigures
+	
+	%\mainmatter
+	%---------------------------------------------------------------------------
+	% CAPÍTULO: EDITORIAL
+	%---------------------------------------------------------------------------
+
+	\pagebreak
+	
+	\section*{Editorial}	\addcontentsline{toc}{chapter}{Editorial}
+	\begin{wrapfigure}{l}{7.5cm}
+		\label{wrap-fig:1}
+		\includegraphics[width=7.5cm]{../editorial/imagen_editorial}
+		\caption*{
+			\centering
+				MC.Ana Gabriela Moncada Arias
+				
+				\textit{Oficina de epidemiología}
+				
+				GERESA, Cusco }
+	\end{wrapfigure}
+	
+	\noindent Hace más de 1 año desde que el SARS-CoV2 (causante de la Enfermedad por COVID-19) apareció en nuestras vidas para dar lugar a la pandemia del siglo XXI. Su expansión rápida llevo a los límites a los sistemas de salud de todo el planeta y generó la muerte de miles de personas.  Pero junto al principio de la pandemia, también se daría lugar al inicio de otra epidemia: la desinformación. A pesar de que la desinformación  ha estado presente por mucho tiempo en nuestras vidas, la pandemia la exacerbó a su máximo nivel. 
+	
+	Y es que los recursos tecnológicos actuales permite la transmisión de información a velocidades nunca antes vistas, y en diversos formatos incluyendo los audiovisuales. La creación de contenido informativo no solo está restringido a personas conocedoras del tema, sino también a personas que dinfunden información que solo beneficia intereses personales . Estos factores generan un nicho perfecto como para que contenido de dudosa calidad pero llamativos para el ciudadano de a pie se difundan fácilmente.  El miedo a las vacunas suele ser infundido por información incorrecta que no es verificada por la población, y que aunado a un desconocimiento y al  miedo a los cambios y a lo nuevo, terminan en una actitud que reta los grandes avances que se realizan en salud pública.
+	
+	
+	Uno de los ejemplos más concretos que podemos encontrar es el del movimiento antivacunas. Este movimiento inicia junto al inicio del proceso de vacunación durante el siglo XIX, y que tomo mayor énfasis durante el siglo XX debido a la publicación de un estudio que relacionaba el transtorno de espectro autista y otras enfermedades con las vacunas. Actualmente, nuevos estudios han demostrado que las vacunas son seguras, y no generan mayores efectos adversos a largo plazo.  Las vacunas salvan vidas y no hay dudas. En ellas se depositó la esperanza para vencer al Coronavirus. Pero, aun con todas las vidas que se perdieron durante la pandemia, el sufrimiento vivido  y  con vacunas disponibles, existe un porcentaje no despreciable de la población mundial y local que no desea vacunarse. 
+	
+	
+	En nuestra comunidad local, este riesgo es aún mayor debido a la poca alfabetización sanitaria que posee la población general. Pero como cualquier reto en salud pública, este debe ser afrontado de manera conjunta por todos los actores: ciudadanía, autoridades y organizaciones. Solo la información adecuada, dada de forma correcta por todos el sistema sanitario podrá combatir la epidemia de desinformación que solo prolonga el final de esta pandemia. 
+	
+	El mensaje debe transmitirse, las vacunas salvan vidas y la mejor vacuna es la que llega primero.
+	
+	%---------------------------------------------------------------------------
+	% CAPÍTULO: METODOLOGÍA
+	%---------------------------------------------------------------------------
+			%insertar el cover del capitulo
+	\includepdf[pages={1}]{../editorial/1.pdf}
+	\clearpage
+	
+	\section*{Metodología}	
+	\addcontentsline{toc}{chapter}{Metodología}
+	Se describe la metodologia 
+	\noindent El presente Boletín tiene el objetivo de informar sobre los principales indicadores epidemiológicos y de gestión hospitalaria,  para hacer el seguimiento de la pandemia en nuestra región y tomar mejores decisiones. Este Boletín tiene una metodología de tipo descriptiva. En él, se encuentra un análisis extensivo de la situación actual de la pandemia en nuestra región desde la semana epidemiológica (SE) 1 a la 43 del 2021 (3 de enero al 30 de octubre).
+	
+	Los datos analizados incluyeron: a) características generales: sexo, edad, casos confirmados, fallecidos; b) características clínicas: síntomas reportados, casos confirmados sintomáticos, casos confirmados asintomáticos y comorbilidades; c) indicadores epidemiológicos: sistema de vigilancia epidemiológica, tasa de mortalidad, tasa de positividad de pruebas diagnósticas, casos activos – recuperados, y exceso de muerte por todas las causas, y d) indicadores de gestión hospitalaria: , ocupación de camas UCI y No.UCI en la Región.
+	
+	Las fuentes de información son las bases de datos de NOTI WEB (aplicativo del Sistema de Vigilancia Epidemiológica - COVID-19), SISCOVID (Sistema Integrado para COVID-19), SINADEF (Sistema Informático Nacional de Defunciones) y Reporte de Disponibilidad de Camas de Hospitalización, Región Cusco - de Referencias y Contrarreferencias de la Dirección de Emergencias y Desastres de GERESA-Cusco.
+	
+	Se usaron frecuencias absolutas y relativas para la descripción de los datos cualitativos. Para la descripción de datos cuantitativos se calcularon tasas (mortalidad, pruebas diagnósticas, incidencia de casos), promedios (ocupación de camas hospitalarias, fallecidos por COVID y fallecidos por todas las causas). Para describir la tendencia se representaron los datos cuantitativos y frecuencias relativas en intervalos de 7 días (semana epidemiológica). En las variables de sistema de vigilancia epidemiológica (1 prueba por 100,000 habitantes) y ocupación de cama (adecuado, menor a $70\%$, moderado, entre $75$ a $90\%$ y limitado, más de $90\%$), siendo todos los puntos de referencia sugeridos por la Organización Mundial de la Salud. Para el análisis de exceso de mortalidad, se usó la metodología descrita por C. Giattino, H. Ritchie, M. Roser, E. Ortiz-Ospina, y J. Hasell en el artículo ``Excess mortality during the Coronavirus pandemic (COVID-19)''. Published online at OurWorldInData.org.
+	
+	La descripción de dichas variables se hace de manera regional y provincial. En la presente edición se hace una descripción de la tasa de incidencia, tasa de mortalidad, tasa de positividad por prueba molecular y antigénica, y exceso de defunciones de todas las provincias de nuestra región. El lector interesado en un análisis distrital de los casos y defunciones puede encontrar en los links correspondientes.
+	
+	La novedad en esta edición; se presenta el avance de cobertura de vacunación por sexo y por grupo etario, así como un análisis sobre las variantes de COVID-19 en la región. 
+
+	
+	%---------------------------------------------------------------------------
+	% CAPÍTULO: CARACTERÍSTICAS GENERALES
+	%---------------------------------------------------------------------------
+		%insertar el cover del capitulo
+	\includepdf[pages={1}]{../editorial/2.pdf}
+	\clearpage	
+	\section*{Características Generales}
+	\addcontentsline{toc}{chapter}{Características Generales}
+	
+	
+	
+ 	\noindent En la Figura \ref{fig:casos_edad_sexo} muestra la cantidad de casos confirmados de COVID-19 hasta la SE 43 por grupo etario (en intervalos de 10 años) y sexo. La mayor cantidad de casos se concentra en los grupos etarios de 30 a 39 años, con un total de 17 546 casos acumulados, seguido del grupo etario de 20 a 29 años, con un total de 16 022.   	Es preciso recalcar que en los grupos etarios de 30 hasta 59 años, el sexo masculino es el más afectado por COVID-19, en el resto de grupos etarios el sexo más afectado es el femenino. 
+ 	
+ 	
+ 	
+	\begin{figure}[h]
+		\caption{Casos Confirmados de COVID-19 según Grupo de Edad y Sexo en la Región Cusco, hasta la SE 43.}\label{fig:casos_edad_sexo}
+		\begin{center}
+			\includegraphics[width=0.65\linewidth]{../figuras/1_casos_por_sexo}
+		\end{center}
+		{\footnotesize {Fuente de datos: SISCOVID, NOTICOVID.}}
+	\end{figure}
+\pagebreak
+
+La Figura  \ref{fig:fallecidos_edad_sexo}  muestra el número de muertes hasta la SE 44 por grupo etario y sexo. Se puede apreciar que el mayor número de muertes se reporta en el grupo etario de 70 a 79 años(772 muertes acumuladas), seguido del grupo etario de 60 a 69 años (709 muertes acumuladas). Cabe mencionar que en casi todos los grupos etarios la cantidad de fallecidos de sexo masculino supera a la cantidad de fallecidos de sexo femenino.
+	\begin{figure}[h]
+		\caption{Casos fallecidos por COVID-19 según Grupo de Edad y Sexo en la Región Cusco, hasta la SE 43, 2021}\label{fig:fallecidos_edad_sexo}
+		\begin{center}
+			\includegraphics[width=0.65\linewidth]{../figuras/2_muertes_sexo}
+		\end{center}
+		{\footnotesize {Fuente de datos: SISCOVID, NOTICOVID.}}
+	\end{figure}
+
+
+\cleardoublepage
+%---------------------------------------------------------------------------
+% CAPÍTULO: CARACTERÍSTICAS CLÍNICAS
+%---------------------------------------------------------------------------
+	%insertar el cover del capitulo
+\includepdf[pages={1}]{../editorial/3.pdf}
+
+\clearpage
+
+\section*{Características Clínicas}
+\addcontentsline{toc}{chapter}{Características Clínicas}	
+
+
+%\noindent En la Figura \ref{fig:sintomas}, se presentan los síntomas más frecuentes de los pacientes diagnosticados con COVID-19, se observa que el síntomas más prevalente es la tos (14.9 $\%$) seguido de Dolor faríngeo (14.3 $\%$). Por su parte la figura  \ref{fig:signos}, presenta los signos más frecuentes de los pacientes, siento el exudado faríngeo el signos más frecuente (63.6 $\%$).
+
+\begin{figure}[h]
+	\caption{Síntomas más frecuentes de los pacientes diagnosticados por COVID-19 en la Región Cusco, hasta la SE 43, 2020-2021.  }\label{fig:sintomas}
+	\begin{center}
+		\includegraphics[width=0.65\linewidth]{../figuras/figura_sintoma.pdf}
+	\end{center}
+	{\footnotesize {Fuente de datos: SISCOVID, NOTICOVID.}}
+\end{figure}
+
+\begin{figure}[h]
+	\caption{Signos más frecuentes de los pacientes diagnosticados por COVID-19 en la Región Cusco, hasta la SE 43, 2021.}\label{fig:signos}
+	\begin{center}
+		\includegraphics[width=0.65\linewidth]{../figuras/figura_signo.pdf}
+	\end{center}
+	{\footnotesize {Fuente de datos: SISCOVID, NOTICOVID.}}
+\end{figure}
+
+La comorbilidades más frecuentes se encuentran graficadas en la Figura \ref{fig:comorbilidades} , la Diabetes y la Obesidad continúan siendo las comorbilidades más frecuentes ( con 24.3 $\%$ y 20.7 $\%$ respectivamente). 
+\begin{figure}[h]
+	\caption{Comorbilidades más frecuentes de los pacientes diagnosticados por COVID-19 en la Región Cusco, hasta la SE 43, 2021. }\label{fig:comorbilidades}
+	\begin{center}
+		\includegraphics[width=0.65\linewidth]{../figuras/figura_signo.pdf}
+	\end{center}
+	{\footnotesize {Fuente de datos: SISCOVID, NOTICOVID.}}
+\end{figure}
+\clearpage
+ En la Figura \ref{fig:sintomaticos_asintomati} se evidencia la curva epidémica de casos sintomáticos y asintomáticos durante toda la pandemia. Desde la SE 21 del 2021,  la cantidad de casos asintomáticos y sintomáticos tuvo una tendencia a ala disminución,sin embargo se observa un ligero incremento en el número de casos asintomáticos en la SE 42. 
+
+\begin{figure}[h]
+	\caption{Casos Sintomáticos y Asintomáticos de COVID-19, por Semana Epidemiológica en la Región Cusco, hasta la SE 43,2021.  }\label{fig:sintomaticos_asintomati}
+	
+	\begin{center}
+		\includegraphics[width=0.65\linewidth]{../figuras/sintomaticos_20_21.pdf}
+	\end{center}
+	{\footnotesize {Fuente de datos: SISCOVID, NOTICOVID.}}
+\end{figure}
+
+\clearpage
+
+%---------------------------------------------------------------------------
+% CAPÍTULO: ANÁLISIS DE INDICADORES
+%---------------------------------------------------------------------------
+%insertar el cover del capitulo
+\includepdf[pages={1}]{../editorial/4.pdf}
+\clearpage
+
+    \section*{Análisis de Indicadores}
+    \addcontentsline{toc}{chapter}{Análisis de Indicadores}
+   	\subsection*{Tasa de Incidencia y Tasa de Positividad}
+\noindent La tendencia de la tasa de incidencia en el tiempo se  encuentra graficada en la Figura \ref{fig:incidencia} se observa que tras la disminución de la tasa de Incidencia en la SE 41 (23 casos/100 000 * personas), se tiene un crecimiento sostenido de la los casos nuevos de COVID-19, llegando a registrarse una Tasa de 57 casos/100 000* personas, el número más alto registrado desde la SE 31.
+
+   \begin{figure}[h]
+   	\caption{Tasa de Incidencia de COVID-19 en la región Cusco hasta la SE 43. }\label{fig:incidencia}
+   	\begin{center}
+   		\includegraphics[width=0.65\linewidth]{../figuras/tasa_incidencia}
+   	\end{center}
+   	{\footnotesize {Fuente de datos: SISCOVID, NOTICOVID.}}
+   \end{figure}
+   
+   La Figura \ref{fig:total_muestras_procesada} muestra un comparativo de las tasas de positividad ($\%$) de pruebas moleculares y antigénicas. Se observa que desde la SE 27 la tasa de positividad de pruebas antigénicas tuvo una pendiente en descenso,llegando a reportar el porcentaje mas bajo durante todo el año durante la SE 43 (4 $\%$ de pruebas positivas.) En contraste la tasa se positividad de pruebas moleculares se ha mantenido variable, teniendo un discreto ascenso en  SE 40 (19 $\%$ de pruebas positivas.) Por su parte la Figura \ref{fig:positividad_ambas} el comparativo de las tasa de positividad y el número de pruebas tomadas. 
+   
+   \begin{figure}[h]
+   	\caption{Tasa de positividad para muestras antigénicas y moleculares por COVID-19 en la región Cusco hasta la SE 43. }\label{fig:total_muestras_procesada}
+   	\begin{center}
+   		\includegraphics[width=0.65\linewidth]{../figuras/positividad_diaria}
+   	\end{center}
+   	{\footnotesize {Fuente de datos: SISCOVID, NOTICOVID.}}
+   \end{figure}
+   \begin{figure}[h]
+   	\caption{Tasa de positividad y total de muestras antigénicas  moleculares tomadas por COVID-19 en la región Cusco hasta la SE 43. }\label{fig:positividad_ambas}
+   	\begin{center}
+   		\includegraphics[width=0.65\linewidth]{../figuras/positividad_ambas.pdf}
+   	\end{center}
+   	{\footnotesize {Fuente de datos: SISCOVID, NOTICOVID.}}
+   \end{figure}
+\clearpage
+
+	\subsection*{Análisis de la Mortalidad}
+
+	\noindent En la Figura \ref{fig:mortalidad_edad} muestra las mortalidad semanal para las edades agrupadas en diez años. Lo que se muestra es la tendencia al descenso de las muertes por COVID-19 - ajustadas por la cantidad de población que pertenece a ese grupo de edad -.  Ésta tendencia ha seguido en el grupo de población más vulnerable por edad (los adultos mayores),y también en los más jóvenes.\\
+	\begin{figure}[h]
+	\caption{Mortalidad por COVID-19 por Grupos de Edad, hasta la SE 43, 2021.}\label{fig:mortalidad_edad}
+	\begin{center}
+		\includegraphics[width=0.65\linewidth]{../figuras/mortalidad_edad.pdf}
+	\end{center}
+	{\footnotesize Fuente de datos: SINADEF} 
+	\end{figure}
+
+
+	La Figura \ref{fig:mortalidad_grupo_edad} muestra la relación entre la tendencia de la mortalidad y las vacunas. Las líneas de referencia representan las fechas del inicio de las vacunas (primera y segunda dosis) para el correspondiente grupo de edad. Se observa que tras la administración de dos dosis de vacuna contra COVID-19,  hay una pendiente marcada en descenso de la tasa de mortalidad. 
+
+	\begin{figure}[h]
+	\caption{Mortalidad por COVID-19 por Grupo de Edad, hasta la SE 43, 2021}
+	\label{fig:mortalidad_grupo_edad}
+	\centering
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../figuras/mortalidad_edad_80.pdf}
+		\caption{Más de 80 años}
+		%\label{fig:}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../figuras/mortalidad_edad_70.pdf}
+		\caption{70 a 79 años}
+		%\label{fig:70 a 79 años}
+	\end{subfigure}
+
+	\vspace{10mm}
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../figuras/mortalidad_edad_60.pdf}
+		\caption{60 a 69 años}
+		%\label{fig:60 a 69 años}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../figuras/mortalidad_edad_50.pdf}
+		\caption{50 a 59 años}
+		%\label{fig:50 a 59 años}
+	\end{subfigure}
+
+	\vspace{10mm}
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../figuras/mortalidad_edad_40.pdf}
+		\caption{40 a 49 años}
+		%\label{fig:40 a 49 años}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../figuras/mortalidad_edad_30.pdf}
+		\caption{30 a 39 años}
+		%\label{fig:40 a 49 años}
+	\end{subfigure}
+	\end{figure}
+
+\clearpage
+	
+	\subsection*{Exceso de Muertes por Todas las Causas}
+	\noindent  La Figura \ref{fig:exceso_regional} muestra que, a nivel regional, el exceso de defunciones por todas las causas ha disminuido en las últimas semanas. Para la SE 43 se registra un exceso de menos 3 fallecidos ,  respecto al año 2019, cifra bastante menor a las semanas previas.
+
+	\begin{figure}[h]
+	\caption{Exceso de Fallecidos por  Todas las Causas, Región Cusco hasta la SE 43, 2021.}\label{fig:exceso_regional}
+	\begin{center}
+		\includegraphics[width=0.65\linewidth]{../figuras/exceso_region.pdf}
+	\end{center}
+	{\footnotesize {Fuente de datos: SISCOVID, NOTICOVID.}}
+	\end{figure}
+\clearpage
+
+	\subsection*{Cobertura de Vacunación por COVID-19 en la Región Cusco, hasta la SE 43.}
+\noindent La Figura \ref{fig:vacuna_edad}, muestra la cobertura de vacunación por grupo etario, en la Región Cusco, se observa que el grupo etario de 70 a 79 años tiene la mayor cobertura de vacunación (78 $\%$ de la población con dos vacunas administradas.)Seguidos del grupo etario de 60 a 69 años (77.3 $\%$ de la población con dos vacunas administradas.)
+
+\begin{figure}[h]
+	\caption{Cobertura de Vacunación por Grupo Etario en la Región Cusco, hasta la SE 43. }\label{fig:vacuna_edad}
+	\begin{center}
+		\includegraphics[width=0.65\linewidth]{../figuras/vacunacion_grupo_edad.pdf}
+	\end{center}
+	{\footnotesize {Fuente de datos: SISCOVID, NOTICOVID.}}
+\end{figure}
+
+La Figura \ref{fig:cobertura_vacunaci_provincia}  muestra la cobertura de vacunación en cada una de las provincias de Cusco por grupo etario.  
+
+\begin{figure}[h]
+	\caption{Cobertura de vacunación por provincia y por Grupo Etario en la Región Cusco, hasta la SE 43. }
+	\label{fig:cobertura_vacunaci_provincia}
+	\centering
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../figuras/vacunacion_provincial_edad_1}
+		\caption{ De 12 a 19 años}
+		%\label{fig:}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../figuras/vacunacion_provincial_edad_2}
+		\caption{De 20 a 29 años}
+		%\label{fig:70 a 79 años}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../figuras/vacunacion_provincial_edad_3}
+		\caption{De 30 a 39 años}
+		%\label{fig:60 a 69 años}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../figuras/vacunacion_provincial_edad_4}
+		\caption{De 40 a 49 años}
+		%\label{fig:50 a 59 años}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../figuras/vacunacion_provincial_edad_5}
+		\caption{De 50 a 59 años}
+		%\label{fig:40 a 49 años}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{../figuras/vacunacion_provincial_edad_6}
+		\caption{De 60 a 69 años}
+		%\label{fig:40 a 49 años}
+	\end{subfigure}
+\begin{subfigure}[b]{0.45\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{../figuras/vacunacion_provincial_edad_6}
+	\caption{De 70 a 79 años}
+	%\label{fig:40 a 49 años}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.45\textwidth}
+	\centering
+	\includegraphics[width=\textwidth]{../figuras/vacunacion_provincial_edad_7}
+	\caption{Más de 80 años}
+	%\label{fig:40 a 49 años}
+\end{subfigure}
+\end{figure}
+
+\clearpage
+\subsection*{Ocupación de Camas}
+\noindent La disponibilidad y ocupación de camas UCI se ve resumida en la Figura \ref{fig:ocupacion_uci}, desde la SE 39 se observa una disminución en la ocupación de estas camas (74 $\%$ de camas ocupadas para la SE 43),asimismo no existe un incremento en el número de camas desde la SE 18. 
+
+\begin{figure}[h]
+	\caption{Ocupación de Camas UCI COVID-19 en la Región Cusco, hasta la SE 43, 2021.}\label{fig:ocupacion_uci}
+	\begin{center}
+		\includegraphics[width=0.85\linewidth]{../figuras/uci.pdf}
+	\end{center}
+	{\footnotesize {Fuente de datos: REFERENCIAS Y CONTRAREFERENCIAS.}}
+\end{figure}
+
+En la Figura \ref{fig:ocupacion_3_nivel}, se plasma el porcentaje de ocupación y número de camas no UCI, en el nivel Hospitalario III, el porcentaje de ocupación ha ido decreciendo desde la SE 20, llegando a ser 13 $\%$ de 391 camas disponibles durante la SE 43. 
+
+\begin{figure}[h]
+	\caption{Ocupación de Camas no UCI COVID-19 en el nivel III en la Región Cusco, hasta la SE 43, 2021.}\label{fig:ocupacion_3_nivel}
+	\begin{center}
+		\includegraphics[width=0.85\linewidth]{../figuras/nivel_3.pdf}
+	\end{center}
+	{\footnotesize {Fuente de datos: REFERENCIAS Y CONTRAREFERENCIAS.}}
+\end{figure}
+
+En la Figura \ref{fig:ocupacion_2nivel}, se observa el número de camas disponibles y porcentaje de ocupación en el Nivel II, en general el porcentaje de ocupación se ha mantenido bajo (menos del 15$\%$) desde la semana 30. Para la SE 43 el porcentaje de ocupación fue sólo del 7 $\%$. 
+
+\begin{figure}[h]
+	\caption{Disponibilidad y Ocupación de Camas a Nivel de Hospitales del Nivel II en la Región Cusco, hasta la SE 43, 2021}\label{fig:ocupacion_2nivel}
+	\begin{center}
+		\includegraphics[width=0.85\linewidth]{../figuras/nivel_2.pdf}
+	\end{center}
+	{\footnotesize {Fuente de datos: REFERENCIAS Y CONTRAREFERENCIAS.}}
+\end{figure}
+\clearpage
+\begin{landscape}
+	
+	\subsection*{Evaluación Provincial de la Infección por COVID-19} 
+	
+	\input{../tablas/tabla_letalidad_mortalidad_provincia.tex}
+	{\footnotesize Fuente de datos: NOTICOVID, SISCOVID, SINADEF.}
+	
+	\noindent El Cuadro  muestra la tasa de letalidad y mortalidad de todas las provincias de la Región Cusco. Se presentan las provincias ordenadas de mayor a menor tasa de mortalidad encontrándose la mayor Tasa de Mortalidalidad ( 278.9) en la provincia de Canchis. 
+	
+\end{landscape}
+%---------------------------------------------------------------------------
+% CAPÍTULO: EVALUACIÓN DE PROVINCIAS
+%---------------------------------------------------------------------------
+
+%insertar el cover del capitulo
+\includepdf[pages={1}]{../editorial/5.pdf}
+\clearpage
+
+	\section*{Evaluación para Provincias Priorizadas}
+\addcontentsline{toc}{chapter}{Evaluación para Provincias Priorizadas}
+\noindent La Figura \ref{fig:incidencia_provincias} muestra la Tasa de Incidencia por provincia de Cusco, ordenadas de mayor a menor incidencia,se observa la provincia de Cusco tiene la Tasa de incidencia más alta (910.7 casos /10 000* personas ). 
+
+\begin{figure}[h]
+	\caption{Tasa de Incidencia por Provincia de la Región Cusco, hasta el 2 de noviembre del 2021. }\label{fig:incidencia_provincias}
+	\begin{center}
+		\includegraphics[width=0.5\linewidth]{../figuras/incidencia_provincial}
+	\end{center}
+	{\footnotesize {Fuente de datos: SISCOVID, NOTICOVID.}}
+\end{figure}
+
+
+La Figura \ref{fig:mortalidad_ordenada} muestra a las provincias de la Región ordenadas de mayor a menor Tasa de Mortalidad. Se evidencia que la provincia de Canchis tiene la Tasa de Mortalidad más alta con una tasa de 27.9 defunciones / 10 000* personas.  
+
+\begin{figure}[h]
+	\caption{Tasa de Mortalidad por Provincia de la Región Cusco, hasta el 2 de noviembre del 2021. }\label{fig:mortalidad_ordenada}
+	\begin{center}
+		\includegraphics[width=0.5\linewidth]{../figuras/mortalidad_provincial}
+	\end{center}
+	{\footnotesize {Fuente de datos: SISCOVID, NOTICOVID.}}
+\end{figure}
+
+De la misma forma, la Figura \ref{fig:incidencia_provincial} muestra la tendencia de la Incidencia acumulada a través del año, donde se evidencia que desde la SE 20 que la pendiente de crecimiento de la tasa de Incidencia acumulada ha disminuido. 
+\begin{figure}[h]
+	\caption{Tendencia Provincial de Incidencia acumulada de COVID-19, hasta la SE 43, 2021. }\label{fig:incidencia_provincial}
+	\begin{center}
+		\includegraphics[width=0.5\linewidth]{../figuras/incidencia_provincial_2021.pdf}
+	\end{center}
+	{\footnotesize {Fuente de datos: SINADEF.}}
+\end{figure}
+
+\clearpage
+	
+section*{Evaluación Provincial de 5 Indicadores}
+		\noindent El objetivo de estas figuras es comparar a cada provincia consigo misma de acuerdo a su historia  en la primera ola (en el año 2020). Se evaluaron los siguientes indicadores: incidencia, tasa de mortalidad, tasa de positividad molecular, tasa de positividad antigénica, y exceso de defunciones para cada provincia.
+		
+		\subsection*{Provincia de Acomayo}
+		\noindent Las figuras inferiores (Figura \ref{fig:inc_mort_acomayo}, \ref{fig:positividad_acomayo}) muestra un comportamiento variable de la mortalidad a lo largo del años, presentando una disminución marcada desde la SE 37. En la Figura \ref{fig:exceso_acomayo} se muestra que hay un exceso de menos 3 defunciones respecto al año 2020.
+		
+		\begin{figure}[h]
+			\caption{Tasa de Incidencia y Mortalidad Comparativa en la Provincia de Acomayo 2020 y 2021, hasta la SE 43. }\label{fig:inc_mort_acomayo}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/incidencia_mortalidad_20_21_1}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID, SINADEF.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Tasa de Positividad de Prueba Molecular y Antigénica Comparativa en la Provincia de Acomayo 2020 y 2021, hasta la SE 43. }\label{fig:positividad_acomayo}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/positividad_20_21_1}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Exceso de Defunciones Comparativo en la Provincia de Acomayo 2020 y 2021, hasta la SE 43.}\label{fig:exceso_acomayo}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/exceso_1}
+			\end{center}
+			{\footnotesize {Fuente de datos: SINADEF.}}
+		\end{figure}
+		
+		% Anta
+		\clearpage
+		
+		\subsection*{Provincia de Anta}
+		\noindent Las figuras de abajo (Figura \ref{fig:inc_mort_anta}, \ref{fig:positividad_anta})  muestra una discreto aumento en la incidencia de casos de COVID-19, con respecto a la mortalidad, ésta se  ha mantenido variable el tiempo. En la Figura \ref{fig:exceso_anta} se muestra que no hay exceso de defunciones respecto al año 2020.
+		
+		\begin{figure}[h]
+			\caption{Tasa de Incidencia y Mortalidad Comparativa en la Provincia de Anta 2020 y 2021, hasta la SE 43.}\label{fig:inc_mort_anta}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/incidencia_mortalidad_20_21_2}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID, SINADEF.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Tasa de Positividad de Prueba Molecular y Antigénica Comparativa en la Provincia de Anta 2020 y 2021, hasta la SE 43.}\label{fig:positividad_anta}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/positividad_20_21_2}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Exceso de Defunciones Comparativo en la Provincia de Anta  2020 y 2021, hasta la SE 43.}\label{fig:exceso_anta}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/exceso_2}
+			\end{center}
+			{\footnotesize {Fuente de datos: SINADEF.}}
+		\end{figure}
+		
+		% Canas
+		\clearpage
+		
+		\subsection*{Provincia de Canas}
+		\noindent Las figuras de abajo (Figura \ref{fig:inc_mort_canas}, \ref{fig:positividad_canas}) se muestra un incremento discreto pero sostenido de la tasa de Incidencia de COVID-19 en la provincia de Canas, con respecto a la mortalidad no se registraron muertes desde la SE 38. En la Figura \ref{fig:exceso_canas} se muestra que hay un exceso de menos 5 defunciones respecto al año 2020.
+		
+		\begin{figure}[h]
+			\caption{Tasa de Incidencia y Mortalidad Comparativa en la Provincia de Canas 2020 y 2021, hasta la SE 43.}\label{fig:inc_mort_canas}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/incidencia_mortalidad_20_21_3}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID, SINADEF.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Tasa de Positividad de Prueba Molecular y Antigénica Comparativa en la Provincia de Canas 2020 y 2021, hasta la SE 43.}\label{fig:positividad_canas}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/positividad_20_21_3}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Exceso de Defunciones Comparativo en la Provincia de Canas 2020 y 2021, hasta la SE 43.}\label{fig:exceso_canas}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/exceso_3}
+			\end{center}
+			{\footnotesize {Fuente de datos: SINADEF.}}
+		\end{figure}
+		
+		% Calca
+		\clearpage
+		
+		\subsection*{Provincia de Calca}
+		\noindent Las figuras de abajo (Figura \ref{fig:inc_mort_calca}, \ref{fig:positividad_calca}) muestra que tantao la tasa de mortalidad como la de la incidencia se ha mantenido variable desde la SE 41, con picos entre semanas. En la Figura \ref{fig:exceso_calca} se muestra que hay un exceso de menos 2 defunciones respecto al año 2020.
+		
+		\begin{figure}[h]
+			\caption{Tasa de Incidencia y Mortalidad Comparativa en la Provincia de Canas 2020 y 2021, hasta la SE 43.}\label{fig:inc_mort_calca}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/incidencia_mortalidad_20_21_4}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID, SINADEF.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Tasa de Positividad de Prueba Molecular y Antigénica Comparativa en la Provincia de Canas 2020 y 2021, hasta la SE 43.}\label{fig:positividad_calca}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/positividad_20_21_4}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Exceso de Defunciones Comparativo en la Provincia de Canas 2020 y 2021, hasta la SE 43.}\label{fig:exceso_calca}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/exceso_4}
+			\end{center}
+			{\footnotesize {Fuente de datos: SINADEF.}}
+		\end{figure}
+		
+		% Canas
+		\clearpage
+		
+		\subsection*{Provincia de Canchis}
+		\noindent Las figuras de abajo (Figura \ref{fig:inc_mort_canchis}, \ref{fig:positividad_canchis}) muestra que desde la SE 21 hubo un descenso de la Tasa de Mortalidad y Tasa de incidencia respecto a la semanas previas; sin embargo para la SE 41, la Tasa de Mortalidad tiene una pendiente en ascenso. En la Figura \ref{fig:exceso_canchis} se muestra que hay un exceso de 7 defunciones respecto al año 2020.
+		
+		\begin{figure}[h]
+			\caption{Tasa de Incidencia y Mortalidad Comparativa en la Provincia de Canas 2020 y 2021, hasta la SE 43.}\label{fig:inc_mort_canchis}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/incidencia_mortalidad_20_21_5}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID, SINADEF.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Tasa de Positividad de Prueba Molecular y Antigénica Comparativa en la Provincia de Canas 2020 y 2021, hasta la SE 43.}\label{fig:positividad_canchis}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/positividad_20_21_5}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Exceso de Defunciones Comparativo en la Provincia de Canas 2020 y 2021, hasta la SE 43.}\label{fig:exceso_canchis}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/exceso_5}
+			\end{center}
+			{\footnotesize {Fuente de datos: SINADEF.}}
+		\end{figure}
+		
+		\clearpage
+		
+		% Chumbivilcas
+		\subsection*{Provincia de Chumbivilcas}
+		\noindent Las figuras de abajo (Figura \ref{fig:inc_mort_chumbivilcas}, \ref{fig:positividad_chumbivilcas}) muestra que desde la SE 21 hubo un descenso de la Tasa de Mortalidad y Tasa de incidencia respecto a la semanas previas; sin embargo para la SE 41, la Tasa de Mortalidad tiene una pendiente en ascenso. En la Figura \ref{fig:exceso_chumbivilcas} se muestra que hay un exceso de menos 1 defunciones respecto al año 2020.
+		
+		\begin{figure}[h]
+			\caption{Tasa de Incidencia y Mortalidad Comparativa en la Provincia de Chumbivilcas 2020 y 2021, hasta la SE 43.}\label{fig:inc_mort_chumbivilcas}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/incidencia_mortalidad_20_21_6}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID, SINADEF.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Tasa de Positividad de Prueba Molecular y Antigénica Comparativa en la Provincia de Chumbivilcas 2020 y 2021, hasta la SE 43.}\label{fig:positividad_chumbivilcas}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/positividad_20_21_6}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Exceso de Defunciones Comparativo en la Provincia de Chumbivilcas 2020 y 2021, hasta la SE 43.}\label{fig:exceso_chumbivilcas}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/exceso_6}
+			\end{center}
+			{\footnotesize {Fuente de datos: SINADEF.}}
+		\end{figure}
+		
+		% Cusco
+		\clearpage
+		
+		\subsection*{Provincia de Cusco}
+		\noindent Las figuras de abajo (Figura \ref{fig:inc_mort_cusco}, \ref{fig:positividad_cusco}) muestra que desde la SE 21 hubo un descenso de la Tasa de Mortalidad y Tasa de incidencia respecto a la semanas previas; sin embargo para la SE 41 la Tasa de Incidencia mostró un pico de ascenso. En la Figura \ref{fig:exceso_cusco} se muestra que hay exceso de 2 defunciones respecto al año 2020.
+		
+		\begin{figure}[h]
+			\caption{Tasa de Incidencia y Mortalidad Comparativa en la Provincia de Cusco 2020 y 2021, hasta la SE 43.}\label{fig:inc_mort_cusco}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/incidencia_mortalidad_20_21_7}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID, SINADEF.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Tasa de Positividad de Prueba Molecular y Antigénica Comparativa en la Provincia de Cusco 2020 y 2021, hasta la SE 43.}\label{fig:positividad_cusco}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/positividad_20_21_7}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Exceso de Defunciones Comparativo en la Provincia de Cusco  2020 y 2021, hasta la SE 43.}\label{fig:exceso_cusco}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/exceso_7}
+			\end{center}
+			{\footnotesize {Fuente de datos: SINADEF.}}
+		\end{figure}
+		
+		% Espinar
+		\clearpage
+		
+		\subsection*{Provincia de Espinar}
+		\noindent Las figuras de abajo (Figura \ref{fig:inc_mort_espinar}, \ref{fig:positividad_espinar}) muestra que desde la SE 25 la pendiente de la Tasa de Mortalidad e Incidencia ha ido en descenso respecto a las semanas previas. En la Figura \ref{fig:exceso_espinar} se muestra que hay exceso de 1 defunción respecto al año 2020.
+		
+		\begin{figure}[h]
+			\caption{Tasa de Incidencia y Mortalidad Comparativa en la Provincia de Espinar 2020 y 2021, hasta la SE 43.}\label{fig:inc_mort_espinar}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/incidencia_mortalidad_20_21_8}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID, SINADEF.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Tasa de Positividad de Prueba Molecular y Antigénica Comparativa en la Provincia de Espinar 2020 y 2021, hasta la SE 43.}\label{fig:positividad_espinar}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/positividad_20_21_8}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Exceso de Defunciones Comparativo en la Provincia de Espinar 2020 y 2021, hasta la SE 43.}\label{fig:exceso_espinar}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/exceso_8}
+			\end{center}
+			{\footnotesize {Fuente de datos: SINADEF.}}
+		\end{figure}
+		
+		% La Convención
+		\clearpage
+		
+		\subsection*{Provincia de La Convención}
+		\noindent Las figuras de abajo (Figura \ref{fig:inc_mort_laconv}, \ref{fig:positividad_laconv}) muestra que desde la SE 25 la pendiente de la Tasa de Mortalidad e Incidencia ha ido en descenso respecto a las semanas previas con picos aislados entre semanas. En la Figura \ref{fig:exceso_laconv} se muestra que hay exceso de menos 9 defunciones respecto al año 2020.
+		
+		\begin{figure}[h]
+			\caption{Tasa de Incidencia y Mortalidad Comparativa en la Provincia de La Convención 2020 y 2021, hasta la SE 43.}\label{fig:inc_mort_laconv}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/incidencia_mortalidad_20_21_9}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID, SINADEF.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Tasa de Positividad de Prueba Molecular y Antigénica Comparativa en la Provincia de La Convención 2020 y 2021, hasta la SE 43.}\label{fig:positividad_laconv}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/incidencia_mortalidad_20_21_9}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Exceso de Defunciones Comparativo en la Provincia de La Convención 2020 y 2021, hasta la SE 43.}\label{fig:exceso_laconv}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/exceso_9}
+			\end{center}
+			{\footnotesize {Fuente de datos: SINADEF.}}
+		\end{figure}
+		
+		% Paruro
+		\clearpage
+		
+		\subsection*{Provincia de Paruro}
+		\noindent Las figuras de abajo (Figura \ref{fig:inc_mort_paruro}, \ref{fig:positividad_paruro})  muestra que desde la SE 21 la Tasa de Mortalidad y Tasa muestran picos marcados entre semanas. Para la SE 41 la pendiente de la Tasa de Mortalidad se encuentra en ascenso. En la Figura \ref{fig:exceso_paruro} se muestra un exceso de 1 defunción respecto al año 2020.
+		
+		\begin{figure}[h]
+			\caption{Tasa de Incidencia y Mortalidad Comparativa en la Provincia de Paruro 2020 y 2021, hasta la SE 43.}\label{fig:inc_mort_paruro}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/incidencia_mortalidad_20_21_10}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID, SINADEF.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Tasa de Positividad de Prueba Molecular y Antigénica Comparativa en la Provincia de Paruro 2020 y 2021, hasta la SE 43.}\label{fig:positividad_paruro}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/positividad_20_21_10}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Exceso de Defunciones Comparativo en la Provincia de Paruro 2020 y 2021, hasta la SE 43.}\label{fig:exceso_paruro}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/exceso_10}
+			\end{center}
+			{\footnotesize {Fuente de datos: SINADEF.}}
+		\end{figure}
+		
+		
+		% Paucartambo
+		\clearpage
+		
+		\subsection*{Provincia de Paucartambo}
+		\noindent Las figuras de abajo (Figura \ref{fig:inc_mort_paucartam}, \ref{fig:positividad_paucartam}) muestra que desde la SE 25 la pendiente de la Tasa de Mortalidad e Incidencia ha ido en descenso respecto a las semanas previas con picos aislados entre semanas. En la Figura \ref{fig:exceso_paucartam} se muestra que no hay exceso de defunciones respecto al año 2020.
+		
+		\begin{figure}[h]
+			\caption{Tasa de Incidencia y Mortalidad Comparativa en la Provincia de Paucartambo 2020 y 2021, hasta la SE 43.}\label{fig:inc_mort_paucartam}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/incidencia_mortalidad_20_21_11}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID, SINADEF.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Tasa de Positividad de Prueba Molecular y Antigénica Comparativa en la Provincia de Paucartambo 2020 y 2021, hasta la SE 43.}\label{fig:positividad_paucartam}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/positividad_20_21_11}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Exceso de Defunciones Comparativo en la Provincia de Paucartambo 2020 y 2021, hasta la SE 43.}\label{fig:exceso_paucartam}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/exceso_11}
+			\end{center}
+			{\footnotesize {Fuente de datos: SINADEF.}}
+		\end{figure}
+		
+		% Quispicanchi
+		\clearpage
+		
+		\subsection*{Provincia de Quispicanchi}
+		\noindent Las figuras de abajo (Figura \ref{fig:inc_mort_quisp}, \ref{fig:positividad_quisp}) muestra que desde la SE 25 la pendiente de la Tasa de Mortalidad e Incidencia ha ido en descenso respecto a las semanas previas con picos aislados entre semanas. En la Figura \ref{fig:exceso_quisp} se muestra que hay un exceso de menos 1 defunción respecto al año 2020.
+		
+		\begin{figure}[h]
+			\caption{Tasa de Incidencia y Mortalidad Comparativa en la Provincia de Quispicanchi 2020 y 2021, hasta la SE 43.}\label{fig:inc_mort_quisp}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/incidencia_mortalidad_20_21_12}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID, SINADEF.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Tasa de Positividad de Prueba Molecular y Antigénica Comparativa en la Provincia de Quispicanchi 2020 y 2021, hasta la SE 43.}\label{fig:positividad_quisp}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/positividad_20_21_12}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Exceso de Defunciones Comparativo en la Provincia de Quispicanchis 2020 y 2021, hasta la SE 43.}\label{fig:exceso_quisp}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/exceso_12}
+			\end{center}
+			{\footnotesize {Fuente de datos: SINADEF.}}
+		\end{figure}
+		
+		% Urubamba
+		\clearpage
+		
+		\subsection*{Provincia de Urubamba}
+		\noindent Las figuras de abajo (Figura \ref{fig:inc_urub}, \ref{fig:positividad_urub}) muestra que desde la SE 25 la pendiente de la Tasa de Mortalidad e Incidencia ha ido en descenso respecto a las semanas previas con picos aislados entre semanas. En la Figura \ref{fig:exceso_urub} se muestra que hay exceso de menos 2 defunciones respecto al año 2020.
+		
+		\begin{figure}[h]
+			\caption{Tasa de Incidencia y Mortalidad Comparativa en la Provincia de Urubamba 2020 y 2021, hasta la SE 43.}\label{fig:inc_urub}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/incidencia_mortalidad_20_21_13}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID, SINADEF.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Tasa de Positividad de Prueba Molecular y Antigénica Comparativa en la Provincia de Urubamba 2020 y 2021, hasta la SE 43.}\label{fig:positividad_urub}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/positividad_20_21_13}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID.}}
+		\end{figure}
+		
+		\begin{figure}[h]
+			\caption{Exceso de Defunciones Comparativo en la Provincia de Urubamba 2020 y 2021, hasta la SE 43.}\label{fig:exceso_urub}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/exceso_13}
+			\end{center}
+			{\footnotesize {Fuente de datos: SINADEF.}}
+		\end{figure}
+		
+		\clearpage
+%---------------------------------------------------------------------------
+		% CAPÍTULO: VARIANTES DE COVID-19
+		%---------------------------------------------------------------------------
+		%insertar el cover del capitulo
+		\includepdf[pages={1}]{../editorial/6.pdf}
+		\clearpage
+		
+		\section* {Variantes de COVID-19 en la Región Cusco}
+		\addcontentsline{toc}{chapter}{Variantes de COVID-19}
+		\noindent La preocupación por las variantes de SARS CoV-2 se ha incrementado en el tiempo, en la Figura \ref{fig:variantes} se muestra la evolución del tipo de variantes aisladas en nuestra región, se evidencia que el número de variantes aisladas para la Variante Delta (Linea marron delgada) aumenta considerablemente desde el mes de julio, siendo la más prevalente de las variantes en el mes de Octubre. 
+
+
+Asímismo la Figura \ref{fig:mapa_variantes}  muestra el lugar de aislamiento de las Variantes encontradas en la Región. Se presenta el número de casos acumulados,  siendo la Variante Lamba la que preenta el mayor número de casos acumulados sobretodo provincia de Cusco y Canchis, seguida de la Variante es la Delta, con la mayoría de casos aislados en la Provincia Cusco
+		
+		\begin{figure}[h]
+			\caption{Prevalencia de las variantes de SARS Cov2 aisladas en la región de Cusco, hasta la SE 43. }\label{fig:variantes}
+			\begin{center}
+				\includegraphics[width=0.7\linewidth]{../figuras/variantes.pdf}
+			\end{center}
+			{\footnotesize {Fuente de datos: SINADEF.}}
+		\end{figure}
+  
+			\begin{figure}[h]
+				\caption{Distribución provincial de las variantes de SARS-Cov-2 aisladas en la Región Cusco, hasta la SE43.}
+				\label{fig:mapa_variantes}
+				\centering
+				\begin{subfigure}[b]{0.40\textwidth}
+					\centering
+					\includegraphics[width=\textwidth]{../figuras/variantes_provincial_lambda.pdf}
+					\caption{Variante Lambda}
+					%\label{fig:}
+				\end{subfigure}
+				\hfill
+				\begin{subfigure}[b]{0.40\textwidth}
+					\centering
+					\includegraphics[width=\textwidth]{../figuras/variantes_provincial_gamma.pdf}
+					\caption{Variante Gamma}
+					%\label{fig:70 a 79 años}
+				\end{subfigure}
+				
+				\vspace{10mm}
+				\begin{subfigure}[b]{0.40\textwidth}
+					\centering
+					\includegraphics[width=\textwidth]{../figuras/variantes_provincial_delta.pdf}
+					\caption{Variante Delta}
+					%\label{fig:60 a 69 años}
+				\end{subfigure}
+			\end{figure}
+\clearpage
+%---------------------------------------------------------------------------
+% CAPÍTULO: DEFUNCIONES CERO
+%-------------------------------------------
+
+%insertar el cover del capitulo
+\includepdf[pages={1}]{../editorial/7.pdf}
+\clearpage
+	\section*{Semanas con Cero Defunciones por COVID-19 por Semana a Nivel Provincial}
+	\addcontentsline{toc}{chapter}{Defunciones Cero}
+
+\noindent En la Figura \ref{fig:defunciones_cero} se muestra las provincias con Cero defunciones reportadas (casillas en amarillo) por cada semana epidemiológica. Se evidencia que para la SE 43, 10 de las 13 provincias de la Región Cusco no reportaron muertes en su territorio.
+\begin{figure}[h]
+			\caption{Defunciones reportadas por cada Provincia y Defunciones Cero en la Región Cusco, hasta la SE 43.}\label{fig:defunciones_cero}
+			\begin{center}
+				\includegraphics[width=0.95\linewidth]{../figuras/defunciones_cero}
+			\end{center}
+			{\footnotesize {Fuente de datos: NOTICOVID, SISCOVID, SINADEF.}}
+		\end{figure}
+\pagebreak
+
+%---------------------------------------------------------------------------
+% CAPÍTULO: AGRADECIMIENTOS
+%---------------------------------------------------------------------------
+	\section*{Agradecimientos}
+	\addcontentsline{toc}{chapter}{Agradecimientos}
+		
+	\centering
+		{\large El presente Boletín Epidemiológico COVID-19 se ha elaborado gracias a la información y esfuerzo conjunto de los Equipos de Inteligencia Sanitaria de los Hospitales y Redes de la GERESA Cusco:
+
+		\vspace{0.5cm}
+		\noindent
+		\begin{minipage}[t]{.45\textwidth}
+			\centering
+			Hospital Regional del Cusco \\
+			M.S.P. Marina Ochoa Linares \vspace{0.5cm}\\
+			Hospital Antonio Lorena \\
+			Dr. Homero Dueñas \vspace{.5cm}\\
+			Hospital Nacional Adolfo Guevara Velazco\\
+			M.S.P. Lucio Velasquez Cuentas \vspace{.5cm}\\
+			Red de Salud Norte \\
+			M.C. Guido Giraldo Alencastre\vspace{0.5cm}\\
+			Red de Salud Sur\\
+			Lic. Luz Marina Bernable Villasante \vspace{0.5cm}\\	
+		\end{minipage}
+		\hfill
+		\noindent
+		\begin{minipage}[t]{.45\textwidth}
+			\centering
+			Red de Salud La Convención\\
+			Dr. David Coanqui Pacori\vspace{0.5cm}\\
+			Red de Salud Chumbivilcas\\
+			Lic. Eduarda Benito Calderón \vspace{.5cm}\\
+			Red de Salud Canas Canchis Espinar\\
+			MC. William Achahui Mercado \vspace{.5cm}\\
+			Red de Salud Kimbiri Pichari \\
+			Lic Fiorela Alvarez Nihua\vspace{0.5cm}\\	
+		\end{minipage}
+%---------------------------------------------------------------------------
+% CAPÍTULO: AGRADECIMIENTOS
+%---------------------------------------------------------------------------
+	\chapter*{Diseño y Edición}
+	\addcontentsline{toc}{chapter}{Diseño y Edición}
+	\begin{center}
+	
+	% Como siempre, por orden alfabético del apellido
+	\href{https://sites.google.com/view/joharcassa}{Econ. Johar Jurimao Cassa Avendaño}
+	
+	MSC. Fátima R. Concha Velasco
+	
+	M.C. Ana Gabriela Eulalia Moncada Arias 
+	\end{center}
+
+	%insertar la última página
+	\includepdf[pages={1}]{../editorial/pagina_final.pdf}
+	\clearpage
+	
+\end{document}
