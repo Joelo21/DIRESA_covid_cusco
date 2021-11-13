@@ -9,30 +9,30 @@
 clear all
 set more off
 
-global user 1 
-
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
-	global path "C:\Users\HP\Documents\GitHub\covid_cusco"
+	global path "C:\Users\user\Documents\GitHub\covid_cusco"
 	
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
-    global datos  "D:\7. Work\covid_cusco\datos"
+    global datos  "G:\2021\DIRESA\covid_cusco\datos"
 
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
 *ssc install shp2dta
+*ssc install palettes
+*ssc install colrspace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 02nov2021
-global semana 43
+global fecha 06nov2021
+global semana 44
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
 
 * Definir los colores de las gráficas
 * Colores
-global mycolor1 "236 244 244"
+global mycolor1 "184 184 184"
 global mycolor2 "252 196 108" 
 global mycolor3 "164 92 92"
 global mycolor4 "76 60 52"
@@ -51,7 +51,7 @@ colorpalette ///
   , n(7)
   
 gr export "figuras/paleta_colores.png", as(png) replace
-*/
+
 
 * Se analiza los casos, defunciones, ocupación de camas, vacunas, variantes de COVID-19 en la Región Cusco
 * Para ello, se cuenta con distintas fuentes de información 
@@ -88,14 +88,17 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/3c_figura_positividad"
 	do "programas/3d_figura_promedio_casos_def"
 	do "programas/3e_sintomaticos"
-	x 
+	/*
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard"
 	** Cambiar la dirección si es necesario
 	do "C:\Users\HP\Documents\GitHub\covid-cusco\dashboard-covid-geresa\data\MasterDofile"
 	
 	* Ocupación de camas (semanalmente)
-	**do "C:\Users\HP\Documents\GitHub\covid-cusco\dashboard-covid-geresa\data\source1_camas\main"
+	**do 
+"C:\Users\HP\Documents\GitHub\covid-cusco\dashboard-covid-geresa\data\source1_camas\main"
+
+*/
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	do "programas/2d_series_semanales_region" // Generar datos semanales region
 	do "programas/4a_figura_casos_def_region"
@@ -105,7 +108,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/4c_figura_inci_mort_positi_provincial"
 	
 	** Datos para los excesos de defunciones
-	*do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
+	do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
 	do "programas/1m_datos_defunciones_2020_2021_regional"
 	do "programas/1n_datos_defunciones_2020_2021_provincial"
 	do "programas/4d_figura_exceso_regional"
@@ -116,7 +119,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	
 	* Tabla cero defunciones
 	do "programas\4z_tabla_cero_defunciones.do"
-
+/*
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
@@ -137,6 +140,6 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\7e_figura_sintomas_comorbilidad"
 	do "programas\7f_lugar_fallecimiento"
 	do "programas\7g_figura_inci_morta_series"
-
+*/
 timer off 1
 timer list
