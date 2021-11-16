@@ -10,12 +10,12 @@ clear all
 set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
-	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
 	
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
-    global datos  "G:\2021\DIRESA\covid_cusco\datos"
+    global datos  "D:\7. Work\covid_cusco\datos"
 
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -24,8 +24,8 @@ set more off
 *ssc install colrspace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 06nov2021
-global semana 44
+global fecha 13nov2021
+global semana 45
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -37,7 +37,7 @@ global mycolor2 "252 196 108"
 global mycolor3 "164 92 92"
 global mycolor4 "76 60 52"
 global mycolor5 "164 248 208"
-global mycolor6 "116 112 112"
+global mycolor6 "20 20 20"
 global mycolor7 "116 116 52"
 
 colorpalette ///

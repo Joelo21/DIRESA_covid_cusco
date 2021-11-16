@@ -141,7 +141,7 @@ format ocu2  %12.0fc
 twoway bar ocupacion_uci semana, bcolor("$mycolor7") yaxis(1) yscale(range(0) axis(1) off) barwidth(0.5) || ///
 rbar ocupacion_uci bar2 semana,  bcolor("$mycolor3") barwidth(0.5)  || ///
 scatter bar2 semana, ms(none) mla(bar2) mlabpos(12) mlabcolor("$mycolor3") mlabsize(*0.65)|| ///
-scatter ocu2 semana, ms(none) mla(ocupacion_uci) mlabpos(12) mlabcolor("$mycolor3") mlabsize(*0.65) || ///
+scatter ocu2 semana, ms(none) mla(ocupacion_uci) mlabpos(12) mlabcolor("$mycolor6") mlabsize(*0.65) || ///
 if semana>=1 & semana <=$semana									///
   ,xtitle("Semanas Epidemológicas", size(*0.7)) 			///
   xlabel(1(2)$semana, labsize(*0.55)) ///
@@ -288,7 +288,7 @@ format ocu2  %12.0fc
 twoway bar ocupacion_uci semana, bcolor("$mycolor4") yaxis(1) yscale(range(0) axis(1) off) barwidth(0.5) || ///
 rbar ocupacion_uci bar2 semana,  bcolor("$mycolor2") barwidth(0.5)  || ///
 scatter bar2 semana, ms(none) mla(bar2) mlabpos(12) mlabcolor("$mycolor2") mlabsize(*0.65)|| ///
-scatter ocu2 semana, ms(none) mla(ocupacion_uci) mlabpos(12) mlabcolor("$mycolor2") mlabsize(*0.65) || ///
+scatter ocu2 semana, ms(none) mla(ocupacion_uci) mlabpos(12) mlabcolor("$mycolor3") mlabsize(*0.65) || ///
 if semana>=1 & semana <=$semana									///
   ,xtitle("Semanas Epidemológicas", size(*0.7)) 			///
   xlabel(1(2)$semana, labsize(*0.55)) ///
