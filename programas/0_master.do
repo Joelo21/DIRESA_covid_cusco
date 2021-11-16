@@ -24,8 +24,8 @@ set more off
 *ssc install colrspace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 13nov2021
-global semana 45
+global fecha 06nov2021
+global semana 44
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1

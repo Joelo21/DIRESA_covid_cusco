@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  16 NOV 2021 11:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.15)  16 NOV 2021 12:14
 entering extended mode
 **./sala_covid.tex
 (sala_covid.tex
@@ -2528,8 +2528,14 @@ ut line 1345.
 \openout8 = `sala_covid.snm'.
 
  (sala_covid.aux)
-Package rerunfilecheck Info: File `sala_covid.out' has not changed.
-(rerunfilecheck)             Checksum: DF028F2DC59172ABDE9F436A988E49DE;3022.
+
+Package rerunfilecheck Warning: File `sala_covid.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `sala_covid.out':
+(rerunfilecheck)             Before: A310FBE40198F7395E9100510E810931;3045
+(rerunfilecheck)             After:  DF028F2DC59172ABDE9F436A988E49DE;3022.
  ) 
 Here is how much of TeX's memory you used:
  41850 strings out of 478699
@@ -2567,7 +2573,7 @@ ublic/lm/lmsy10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/lm/lmsy6.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/symbols/msam10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/newpx/npxsups-Regular.pfb>
-Output written on sala_covid.pdf (96 pages, 8937440 bytes).
+Output written on sala_covid.pdf (96 pages, 8940315 bytes).
 PDF statistics:
  1958 PDF objects out of 2073 (max. 8388607)
  291 named destinations out of 1000 (max. 500000)
