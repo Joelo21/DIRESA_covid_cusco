@@ -10,7 +10,7 @@ clear all
 set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
-	global path "C:\Users\user\Documents\GitHub\covid_cusco"
+	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	
 	cd "$path"
 
@@ -52,7 +52,7 @@ colorpalette ///
   
 gr export "figuras/paleta_colores.png", as(png) replace
 
-
+/*
 * Se analiza los casos, defunciones, ocupación de camas, vacunas, variantes de COVID-19 en la Región Cusco
 * Para ello, se cuenta con distintas fuentes de información 
 ** 1. NOTICOVID: casos por prueba molecular
@@ -113,7 +113,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/1n_datos_defunciones_2020_2021_provincial"
 	do "programas/4d_figura_exceso_regional"
 	do "programas/4e_figura_exceso_provincial"
-
+*/
 	* Hospitalización
 	do "programas/4f_figuras_hospitales"
 	
