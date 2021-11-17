@@ -12,7 +12,6 @@ keep dni mes linaje muestra
 
 save "${datos}\temporal\secuenciamiento_1", replace
 
-*******************************************************************************************
 import excel "${datos}\raw\base_netlab_julio.xlsx", sheet(Hoja1) clear 
 
 rename A dni
@@ -28,7 +27,7 @@ keep dni mes linaje muestra
 
 save "${datos}\temporal\secuenciamiento_2", replace
 
-*******************************************************************************************
+
 import excel "${datos}\raw\base_netlab_abril_mayo.xlsx", sheet(Hoja1) firstrow clear
 
 tostring DNI, replace
@@ -45,7 +44,6 @@ keep dni mes linaje muestra
 
 save "${datos}\temporal\secuenciamiento_3", replace
 
-*******************************************************************************************
 import excel "${datos}\raw\base_netlab_mayo_junio.xlsx", sheet(Hoja1) firstrow clear
 
 gen mes_0= month(FECHACOLECTA)
@@ -62,7 +60,6 @@ keep dni mes linaje muestra
 
 save "${datos}\temporal\secuenciamiento_4", replace
 
-*******************************************************************************************
 * agosto y septiembre
 import excel "${datos}\raw\base_netlab_agosto_septiembre.xlsx", sheet(Hoja1) firstrow clear
 
@@ -81,12 +78,10 @@ keep dni mes linaje muestra
 
 save "${datos}\temporal\secuenciamiento_5", replace
 
-*******************************************************************************************
 import excel "${datos}\raw\base_netlab_septiembre.xlsx", sheet(Hoja1) firstrow clear
 
 rename C dni
-*rename F linaje // solo descomentar para ver el ORIGINAL
-rename E linaje
+rename F linaje
 gen mes = 9
 
 gen muestra = "netlab"
@@ -94,8 +89,9 @@ keep dni mes linaje muestra
 
 save "${datos}\temporal\secuenciamiento_6", replace
 
-*******************************************************************************************
+
 import excel "${datos}\raw\base_netlab_unsaac.xlsx", sheet(Hoja1) firstrow clear
+
 
 keep PANGO_lineage id fechacolecta
 
@@ -117,7 +113,6 @@ sort id
 duplicates drop id, force
 
 save "${datos}\temporal\secuenciamiento_7", replace
-*******************************************************************************************
 
 * Importante
 use "${datos}\output\base_noticovid", clear
@@ -133,7 +128,7 @@ keep dni linaje mes muestra
 
 save "${datos}\temporal\secuenciamiento_7_1", replace
 */
-*******************************************************************************************
+
 import excel "${datos}\raw\base_netlab_octubre.xlsx", sheet(Hoja1) firstrow clear
 
 rename DNI dni
