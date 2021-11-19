@@ -6,19 +6,19 @@ rename numero dni
 * Fecha de nacimiento
 gen fecha_2 = fnac
 split fecha_2, parse(-) destring
-rename (fecha_2?) (año2 mes2  dia2)
-gen fecha_nacimiento = daily(fecha_2, "YMD")
+rename (fecha_2?) (dia2 mes2 año2)
+gen fecha_nacimiento = daily(fecha_2, "DMY")
 format fecha_nacimiento %td
 
 * Edad
-gen edad = 2020 - año2
+gen Edad = 2020 - año2
 
 
 * Fecha de vacunación
 gen fecha_1 = fvac
 split fecha_1, parse(-) destring
-rename (fecha_1?) (año1 mes1 dia1)
-gen fecha_vacuna = daily(fecha_1, "YMD")
+rename (fecha_1?) ( dia1 mes1 año1)
+gen fecha_vacuna = daily(fecha_1, "DMY")
 format fecha_vacuna %td
 
 * Ordenar por fecha de vacunación y DNI para indicar primera y segunda dosis
@@ -28,7 +28,7 @@ duplicates tag dni, gen(dupli)
 quietly by dni: gen num_dupli = cond(_N==1,0,_n)
 
 * Número de dosis del paciente
-rename dosis dosis_old
+*rename dosis dosis_old
 
 gen dosis = .
 replace dosis = 1 if dupli == 0

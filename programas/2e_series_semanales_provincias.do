@@ -1,4 +1,4 @@
-
+* Cargar los datos
 use "${datos}\output\data_series_provincias_2020_2021", clear
 
 * Genera datos semanales de todas las provincias
