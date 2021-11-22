@@ -81,7 +81,6 @@ if semana >=11 & semana<=53, ///
 	name(positivos20_20, replace)
 
 * 2021
-
 twoway (line positivo semana_2, lcolor("$mycolor6") lwidth(medthick)) ///
 (scatter positivo semana_2, msize(vsmall) mcolor("$mycolor6") mlabel(positivo) mlabcolor("$mycolor6") mlabsize(tiny) connect() xline(1, lcolor("$mycolor1") lpattern(shortdash) lwidth(thick)) xline(13, lcolor("$mycolor2") lpattern(shortdash) lwidth(thick)) xline(15, lcolor("$mycolor3") lpattern(shortdash) lwidth(thick)) xline(23, lcolor("$mycolor4") lpattern(dash_dot) lwidth(thick))) ///
 if semana_2 >=1 & semana_2<=$semana, ///

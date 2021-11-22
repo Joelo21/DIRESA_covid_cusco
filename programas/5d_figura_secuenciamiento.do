@@ -53,7 +53,7 @@ twoway (line lambda mes, yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1))
  ,	xtitle("Mes", size(*0.7)) ///
  ytitle("Porcentaje de las Variantes Econtradas", size(*0.7)) ///
 	graphregion(color(white)) ///
-	xlabel(735 "Abril" 736 "Mayo" 737 "Junio" 738 "Julio" 739 "Agosto" 740 "Septiembre" 741 "Octubre") ///
+	xlabel(735 "Abril" 736 "Mayo" 737 "Junio" 738 "Julio" 739 "Agosto" 740 "Septiembre" 741 "Octubre" 742 "Noviembre") ///
 	legend(cols(3) label(1 "Lambda") label(2 "") label(3 "Gamma") label(4 "") label(5 "Delta") label(6 "") label(7 "Otros") label(8 "") label(9 "Tota de Muestra") label(10 "") order(9 1 3 5 7) size(*0.75) region(col(white))) ///
 	title("Variantes en la Región Cusco", box bexpand bcolor("$mycolor3") color(white)) ///
 	bgcolor(white) ///

@@ -120,14 +120,14 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	* Tabla cero defunciones
 	do "programas\4z_tabla_cero_defunciones.do"
 
-
+*/
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
 	do "programas\5c_juntar"
 	do "programas\5d_figura_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
-*/
+/*
 * 6. Vacunados
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"
@@ -141,6 +141,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\7e_figura_sintomas_comorbilidad"
 	do "programas\7f_lugar_fallecimiento"
 	do "programas\7g_figura_inci_morta_series"
+*/
 */
 timer off 1
 timer list
