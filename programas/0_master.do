@@ -10,12 +10,12 @@ clear all
 set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
-	global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
-    global datos  "D:\7. Work\covid_cusco\datos"
+    global datos  "G:\2021\DIRESA\covid_cusco\datos"
 
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -24,8 +24,8 @@ set more off
 *ssc install colrspace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 13nov2021
-global semana 45
+global fecha 20nov2021
+global semana 46
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -61,7 +61,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 4. Referencias y Contrareferencias: ocupación de camas UCI, no-UCI, UCIN, en los hospitales de la Región
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
-/*
+
 * 1. Construir las base de datos
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -88,7 +88,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/3c_figura_positividad"
 	do "programas/3d_figura_promedio_casos_def"
 	do "programas/3e_sintomaticos"
-	
+/*	
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard"
 	** Cambiar la dirección si es necesario
@@ -97,7 +97,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	* Ocupación de camas (semanalmente)
 	**do 
 "C:\Users\HP\Documents\GitHub\covid-cusco\dashboard-covid-geresa\data\source1_camas\main"
-
+*/
 
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	do "programas/2d_series_semanales_region" // Generar datos semanales region
@@ -120,14 +120,14 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	* Tabla cero defunciones
 	do "programas\4z_tabla_cero_defunciones.do"
 
-*/
+/*
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
 	do "programas\5c_juntar"
 	do "programas\5d_figura_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
-/*
+*/
 * 6. Vacunados
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"
@@ -142,6 +142,6 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\7f_lugar_fallecimiento"
 	do "programas\7g_figura_inci_morta_series"
 */
-*/
+
 timer off 1
 timer list
