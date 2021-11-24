@@ -19,14 +19,14 @@ keep NroDocumento  Departamento Resultado ResultadoSegundaPrueba FechaEjecucionP
 * Juntar con la base de enero a junio
 append using "${datos}\temporal\base_siscovid_ag_enero_junio"
 
-* 3.1 Variable de Identificación
+* 3.1 Identificar los Duplicados | Variable de Identificación
 rename NroDocumento dni
 sort dni
 duplicates report dni
 duplicates tag dni, gen(repe_ag)
 quietly by dni: gen repeti_ag = cond(_N==1,0,_n)
 
-* 3.2 Variables Demográficas 
+* 3.2 Variables Demográficas  || Renombrar variables interes
 keep if Departamento == "Cusco"
 gen departamento = Departamento
 gen distrito = Distrito
@@ -51,23 +51,26 @@ replace positivo_ag = 1 if Resultado == "Reactivo" | ((Resultado == "Inválido" 
 replace positivo_ag = 0 if Resultado == "No Reactivo" | ((Resultado == "Inválido" |Resultado == "Indeterminado") & ResultadoSegundaPrueba == "No Reactivo")
 *tab positivo_ag
 
-*gen fecha_antigenica = FechaPrueba 
+* Fecha Inicio Pruebas Antigenica |gen fecha_antigenica = FechaPrueba
 gen fecha_antigena = FechaEjecucionPrueba
 split fecha_antigena, parse(-) destring
 rename (fecha_antigena?) (year month day)
 gen fecha_ag = daily(fecha_antigena, "YMD") if positivo_ag == 1 | positivo_ag == 0
 format fecha_ag %td
 
+* Fecha Inicio Sintomas Positivos_AG
 split FechaInicioSintomasdelaFich, parse(-) destring
 rename (FechaInicioSintomasdelaFich?) (year1 month1 day1)
 gen fecha_inicio_ag = daily(FechaInicioSintomasdelaFich, "YMD")  if positivo_ag == 1
 format fecha_inicio_ag %td
+
 *borrar fecha de inicio menos que el 2020 primero de enero
 replace fecha_inicio_ag = . if fecha_inicio_ag < 21915
 
 gen fecha_inicio = fecha_inicio_ag
 format fecha_inicio %td
 
+* Sintomático
 gen sintomatico =.
 replace sintomatico = 1 if (TieneSintomas == "SI"  & positivo_ag == 1) 
 replace sintomatico = 0 if ( TieneSintomas == "NO" & positivo_ag ==1 )
@@ -84,6 +87,7 @@ duplicates drop dni positivo_ag fecha_ag, force
 
 keep if positivo_ag == 1 | positivo_ag == 0
 
+* Eliminar si no tiene resultado o no tiene fecha de resultado
 drop if fecha_ag == .
 drop if positivo_ag == .
 

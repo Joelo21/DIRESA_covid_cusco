@@ -1,5 +1,5 @@
 * Cargar la base de datos
-use "datos/output/base_covid.dta", clear
+use "${datos}/output/base_covid.dta", clear
 
 * Mantener sólo a los positivos por los trés tipos de pruebas
 keep if positivo_molecular == 1 | positivo_rapida == 1 | positivo_antigenica == 1 
@@ -31,4 +31,4 @@ replace direccion = ustrlower(ustrregexra(ustrnormalize( direccion, "nfd" ) , "\
 *save "datos/output/data_mapa.dta", replace
 
 * Exportar la base en excel para enviar
-export excel using "datos/output/data_mapa_$fecha.xlsx", firstrow(variables) replace
+export excel using "${datos}/output/data_mapa_$fecha.xlsx", firstrow(variables) replace
