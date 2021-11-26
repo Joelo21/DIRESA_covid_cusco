@@ -24,8 +24,8 @@ set more off
 *ssc install colrspace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 20nov2021
-global semana 46
+global fecha 25nov2021
+global semana 47
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -62,6 +62,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
+
 * 1. Construir las base de datos
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -76,7 +77,8 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/1h_base_sinadef_covid_2021"
 	do "programas/1i_base_unir"
 	*do "programas/1j_datos_mapa_calor" // semanal 
-	
+
+
 * 2. Generar datos a nivel regional y provincial
 	do "programas/2a_series_diarias_region"
 	do "programas/2b_series_diarias_provincias"
@@ -88,6 +90,8 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/3c_figura_positividad"
 	do "programas/3d_figura_promedio_casos_def"
 	do "programas/3e_sintomaticos"
+	x
+
 /*	
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard"
@@ -100,13 +104,13 @@ gr export "figuras/paleta_colores.png", as(png) replace
 */
 
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
-	do "programas/2d_series_semanales_region" // Generar datos semanales region
-	do "programas/4a_figura_casos_def_region"
-	do "programas/4b_figura_mort_edad_region"
+	*do "programas/2d_series_semanales_region" // Generar datos semanales region
+	*do "programas/4a_figura_casos_def_region"
+	*do "programas/4b_figura_mort_edad_region"
 	
 	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	do "programas/4c_figura_inci_mort_positi_provincial"
-	
+/*	
 	** Datos para los excesos de defunciones
 	do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
 	do "programas/1m_datos_defunciones_2020_2021_regional"

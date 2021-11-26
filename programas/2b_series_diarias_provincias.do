@@ -15,7 +15,7 @@ forvalues i=1/13 {
 preserve
 keep if provincia_residencia == `i'
 
-collapse (sum) positivo defuncion positivo_pcr positivo_ag prueba_pcr prueba_ag, by(fecha_resultado)
+collapse (sum) positivo defuncion positivo_pcr positivo_ag prueba_pcr prueba_ag sintomatico_pcr sintomatico_ag sintomatico_pr, by(fecha_resultado)
 
 tsset fecha_resultado, daily
 tsfill
@@ -26,6 +26,9 @@ rename positivo_pcr positivo_pcr_`i'
 rename positivo_ag positivo_ag_`i'
 rename prueba_pcr prueba_pcr_`i'
 rename prueba_ag prueba_ag_`i'
+rename sintomatico_pcr sintomatico_pcr_`i'
+rename sintomatico_ag sintomatico_ag_`i'
+rename sintomatico_pr sintomatico_pr_`i'
 
 save "${datos}\temporal\provincia_`i'", replace
 restore 
@@ -58,6 +61,9 @@ keep if fecha_resultado >= d(01jan2021)
 forvalues i=1/13{
 gen total_positivo_`i' = sum(positivo_`i')
 gen total_defuncion_`i' = sum(defuncion_`i')
+gen total_sintomatico_pcr_`i' = sum(sintomatico_pcr_`i')
+gen total_sintomatico_ag_`i' = sum(sintomatico_ag_`i')
+gen total_sintomatico_pr_`i' = sum(sintomatico_pr_`i')
 }
 
 * Guardar 2021

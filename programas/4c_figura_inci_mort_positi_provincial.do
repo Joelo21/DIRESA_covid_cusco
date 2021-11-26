@@ -10,7 +10,7 @@
 use "${datos}/output/serie_semanal_provincias.dta", clear
 
 forvalues i=1/13 {
-
+/*
 ********************************************************************************
 * Incidencia y Mortalidad por Provincias
 ********************************************************************************
@@ -91,4 +91,31 @@ name(positividad_20_21_`i', replace)
 gr export "figuras\positividad_20_21_`i'.png", as(png) replace
 gr export "figuras\positividad_20_21_`i'.pdf", as(pdf) name("positividad_20_21_`i'") replace
 
-}
+
+*/
+********************************************************************************
+* Sintomaticos por tipo de prueba por Provincias
+********************************************************************************
+* 2021
+  
+twoway (scatter sintomatico_pcr_`i' semana_2, msize(vsmall) mcolor("$mycolor5") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor5")) ///
+(scatter sintomatico_pr_`i' semana_2, msize(vsmall) mcolor("$mycolor6") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor1")) ///
+(scatter sintomatico_ag_`i' semana_2, msize(vsmall) mcolor("$mycolor3") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor3") ) ///
+if semana_2>=1 & semana_2<=$semana, ///
+	ylabel(0(200)1000, labsize(*0.6)) ///
+	tlabel(1(4)53) ///
+	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
+	ytitle("") ///
+	graphregion(color(white)) ///
+	title("2021", box bexpand bcolor("$mycolor3") color(white)) ///
+	legend(label(1 "Sintomáticos PCR") label(2 "Sintomáticos PR") label(3 "Sintomaticos AG") size(*0.75) region(col(white))) ///
+	bgcolor(white) ///
+	ylabel(, nogrid) ///	
+	name(sinto_prueba20_21_`i', replace)
+	
+	gr export "figuras\sinto_prueba20_21_`i'", as(png) replace
+	*gr export "figuras\sinto_prueba20_21_`i'", as(pdf) name ("sinto_prueba20_21_`i'") replace
+}	
+
+	
+	
