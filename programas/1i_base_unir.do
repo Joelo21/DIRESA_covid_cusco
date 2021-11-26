@@ -1,4 +1,4 @@
-
+ 
 ********************************************************************************
 * 5. Unir las bases de datos
 ********************************************************************************
@@ -86,17 +86,19 @@ replace fecha_resultado = fecha_pr if positivo_pr == 1 | positivo_pr == 0
 replace fecha_resultado = fecha_sinadef if defuncion == 1
 format fecha_resultado %td
 
-* Fecha de recuperación
+* Fecha de recuperación alta epidemeologica casos 
 gen fecha_recuperado =.
 replace fecha_recuperado = fecha_resultado + 14 if (positivo_pcr == 1 | positivo_ag == 1) | (positivo_pr ==1 & tipo_anticuerpo == "IgM Reactivo")
 replace fecha_recuperado = fecha_resultado + 7 if (positivo_pr == 1 & tipo_anticuerpo== "IgG Reactivo") | (positivo_pr == 1 & tipo_anticuerpo== "IgM e IgG Reactivo")
 format fecha_recuperado %td
 
-* Generar varuables que tengan nombres más explícitos
+* Generar variables que tengan nombres más explícitos
 gen positivo_molecular = positivo_pcr
 gen positivo_rapida = positivo_pr 
 gen positivo_antigenica = positivo_ag 
 gen var_id = numero 
+
+* Generar pruebas PCR - PR(RAPIDAS) - AG(ANTIGENAS)
 gen prueba_pcr = .
 replace prueba_pcr = 1 if positivo_pcr == 1 | positivo_pcr == 0
 gen prueba_pr = .
@@ -110,7 +112,7 @@ gen positivo = 1 if positivo_pcr == 1 | positivo_pr == 1 | positivo_ag == 1
 * Generar prueba
 gen prueba = 1 if prueba_pcr == 1 | prueba_ag == 1 | prueba_pr == 1
 
-* Generar una variable que tome valores de los tres pruebas
+* Generar una variable que tome valores de las tres pruebas
 gen tipo_prueba = .
 replace tipo_prueba = 1 if prueba_pcr == 1
 replace tipo_prueba = 2 if prueba_pr == 1 
@@ -120,20 +122,21 @@ label define tipo_prueba 1 "Molecular" 2 "Rápida" 3 "Antigénica"
 label values tipo_prueba tipo_prueba tipo_prueba
 
 *****************************************************
-* 5.3 Analizar la vaiable fecha de inicio de síntomas
+* 5.3 Analizar la variable fecha de inicio de síntomas
 * Identificar cuantos tienen fecha de inicio y fecha de resultado
 gen tienen_inicio = .
 replace tienen_inicio = 1 if fecha_resultado != . & fecha_inicio != .
 
-* Identificar cuantos tienen fecha de inicio superior a la fecha re resultado y borrar su fecha de inicio (mantener su fecha de resultado)
+* Identificar cuantos tienen fecha de inicio superior a la fecha de resultado y borrar su fecha de inicio (mantener su fecha de resultado)
 gen mayor_inicio = .
 replace mayor_inicio = 1 if fecha_inicio > fecha_resultado & fecha_resultado != . & fecha_inicio != .
 replace fecha_inicio = . if mayor_inicio ==1
 
+*Identificar cuantos tienen fecha de inicio menor o igual a la fecha de resultado
 gen menor_igual_inicio = .
 replace menor_igual_inicio = 1 if fecha_inicio <= fecha_resultado & fecha_resultado != . & fecha_inicio != .
 
-* Idenfiticar quienes reportan una fecha de inicio más alejado de 30 días y borrar su fecha de inicio (mantener sy fecha de resultado)
+* Identificar quienes reportan una fecha de inicio más alejado de 30 días y borrar su fecha de inicio (mantener sy fecha de resultado)
 gen diferencia_mas_30 = .
 replace diferencia_mas_30 = 1 if (fecha_resultado - fecha_inicio) > 30 & menor_igual_inicio ==1
 replace fecha_inicio = . if diferencia_mas_30 == 1

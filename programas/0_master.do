@@ -10,12 +10,12 @@ clear all
 set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
-	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
 	
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
-    global datos  "G:\2021\DIRESA\covid_cusco\datos"
+    global datos  "D:\7. Work\covid_cusco\datos"
 
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -32,14 +32,20 @@ timer on 1
 
 * Definir los colores de las gráficas
 * Colores
-global mycolor1 "184 184 184"
-global mycolor2 "252 196 108" 
-global mycolor3 "164 92 92"
-global mycolor4 "76 60 52"
-global mycolor5 "164 248 208"
-global mycolor6 "20 20 20"
-global mycolor7 "116 116 52"
-
+*global mycolor1 "184 184 184" 
+global mycolor1 "221 165 230"
+*global mycolor2 "252 196 108"
+global mycolor2 "243 149 13" 
+*global mycolor3 "164 92 92"
+global mycolor3 "205 24 24"
+*global mycolor4 "76 60 52"
+global mycolor4 "164 93 93"
+*global mycolor5 "164 248 208"
+global mycolor5 "54 56 120"
+*global mycolor6 "20 20 20"
+global mycolor6 "3 83 151"
+*global mycolor7 "116 116 52"
+global mycolor7 "52 103 81"
 colorpalette ///
  "$mycolor1" ///
  "$mycolor2" ///
@@ -90,7 +96,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/3c_figura_positividad"
 	do "programas/3d_figura_promedio_casos_def"
 	do "programas/3e_sintomaticos"
-	x
+
 
 /*	
 	* Para la actualización del Dashboard COVID-19 en la página web
@@ -104,13 +110,13 @@ gr export "figuras/paleta_colores.png", as(png) replace
 */
 
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
-	*do "programas/2d_series_semanales_region" // Generar datos semanales region
-	*do "programas/4a_figura_casos_def_region"
-	*do "programas/4b_figura_mort_edad_region"
+	do "programas/2d_series_semanales_region" // Generar datos semanales region
+	do "programas/4a_figura_casos_def_region"
+	do "programas/4b_figura_mort_edad_region"
 	
 	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	do "programas/4c_figura_inci_mort_positi_provincial"
-/*	
+
 	** Datos para los excesos de defunciones
 	do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
 	do "programas/1m_datos_defunciones_2020_2021_regional"
@@ -124,19 +130,19 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	* Tabla cero defunciones
 	do "programas\4z_tabla_cero_defunciones.do"
 
-/*
+		/*
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
 	do "programas\5c_juntar"
 	do "programas\5d_figura_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
-*/
+	*/
 * 6. Vacunados
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"
 	do "programas\6c_figura_vacunacion_provincias"
-/*	
+	/*	
 * 7. Figuras para el "Boletin COVID-19" Mensual
 	do "programas\7a_base_noticovid_2021_variables"
 	do "programas\7b_base_siscovid_pr_2021_variables"
@@ -145,7 +151,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\7e_figura_sintomas_comorbilidad"
 	do "programas\7f_lugar_fallecimiento"
 	do "programas\7g_figura_inci_morta_series"
-*/
+	*/
 
 timer off 1
 timer list

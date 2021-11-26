@@ -67,7 +67,7 @@ duplicates report dni
 duplicates tag dni, gen(repe_sis)
 quietly by dni: gen repeti_sis = cond(_N==1,0,_n)
 
-* 2.2 Vairables demográficas
+* 2.2 Variables demográficas
 gen departamento = departamen 
 destring edad, replace
 rename comun_sexo sexo

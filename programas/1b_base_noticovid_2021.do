@@ -46,7 +46,7 @@ rename (fecha_inici?) (day7 month7 year7)
 gen fecha_inicio_noti = daily(fecha_inici, "YMD") if positivo_pcr == 1
 format fecha_inicio_noti %td
 
-* Indentificador de fecha de inicio por PCR (para comparar con las PR, y AG)
+* Identificador de fecha de inicio por PCR (para comparar con las PR, y AG)
 gen fecha_inicio = fecha_inicio_noti
 format fecha_inicio %td
 

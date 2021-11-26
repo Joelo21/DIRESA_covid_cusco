@@ -49,6 +49,7 @@ rename SEXO sexo
 *rename EDAD edad
 *destring edad, replace
 
+*Identificar Duplicados
 sort dni
 duplicates report dni
 duplicates tag dni, gen(repe_def)

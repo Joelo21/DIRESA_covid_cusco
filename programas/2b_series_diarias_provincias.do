@@ -61,9 +61,6 @@ keep if fecha_resultado >= d(01jan2021)
 forvalues i=1/13{
 gen total_positivo_`i' = sum(positivo_`i')
 gen total_defuncion_`i' = sum(defuncion_`i')
-gen total_sintomatico_pcr_`i' = sum(sintomatico_pcr_`i')
-gen total_sintomatico_ag_`i' = sum(sintomatico_ag_`i')
-gen total_sintomatico_pr_`i' = sum(sintomatico_pr_`i')
 }
 
 * Guardar 2021

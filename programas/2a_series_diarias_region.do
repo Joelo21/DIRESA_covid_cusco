@@ -58,7 +58,7 @@ merge 1:1 fecha using "`dpto_fecha_inicio'", nogenerate
 merge 1:1 fecha using "`dpto_fecha_recuperado'", nogenerate 
 sort fecha
 
-* Generar cumulativos
+* Generar Acumulativos
 gen total_positivo = sum(positivo)
 gen total_positivo_pcr = sum(positivo_pcr)
 gen total_positivo_pr = sum(positivo_pr) 

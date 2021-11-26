@@ -102,7 +102,7 @@ twoway (scatter sintomatico_pcr_`i' semana_2, msize(vsmall) mcolor("$mycolor5") 
 (scatter sintomatico_pr_`i' semana_2, msize(vsmall) mcolor("$mycolor6") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor1")) ///
 (scatter sintomatico_ag_`i' semana_2, msize(vsmall) mcolor("$mycolor3") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor3") ) ///
 if semana_2>=1 & semana_2<=$semana, ///
-	ylabel(0(200)1000, labsize(*0.6)) ///
+	ylabel(0(50)500, labsize(*0.6)) ///
 	tlabel(1(4)53) ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("") ///
@@ -113,7 +113,7 @@ if semana_2>=1 & semana_2<=$semana, ///
 	ylabel(, nogrid) ///	
 	name(sinto_prueba20_21_`i', replace)
 	
-	gr export "figuras\sinto_prueba20_21_`i'", as(png) replace
+	gr export "figuras\sinto_prueba20_21_`i'.png", as(png) replace
 	*gr export "figuras\sinto_prueba20_21_`i'", as(pdf) name ("sinto_prueba20_21_`i'") replace
 }	
 
