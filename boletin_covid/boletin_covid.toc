@@ -1,11 +1,11 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{Editorial}{9}{chapter*.4}%
-\contentsline {chapter}{Metodología}{11}{chapter*.6}%
-\contentsline {chapter}{Características Generales}{13}{chapter*.7}%
-\contentsline {chapter}{Características Clínicas}{15}{chapter*.10}%
-\contentsline {chapter}{Análisis de Indicadores}{18}{chapter*.15}%
-\contentsline {chapter}{Evaluación para Provincias Priorizadas}{31}{chapter*.34}%
-\contentsline {chapter}{Variantes de COVID-19}{59}{chapter*.90}%
-\contentsline {chapter}{Defunciones Cero}{60}{chapter*.91}%
-\contentsline {chapter}{Agradecimientos}{61}{chapter*.92}%
-\contentsline {chapter}{Diseño y Edición}{62}{chapter*.93}%
+\contentsline {chapter}{Editorial}{8}{section*.3}%
+\contentsline {chapter}{Metodología}{11}{section*.5}%
+\contentsline {chapter}{Características Generales}{14}{section*.6}%
+\contentsline {chapter}{Características Clínicas}{17}{section*.9}%
+\contentsline {chapter}{Análisis de Indicadores}{21}{section*.14}%
+\contentsline {chapter}{Evaluación para Provincias Priorizadas}{33}{section*.32}%
+\contentsline {chapter}{Variantes de COVID-19}{62}{section*.89}%
+\contentsline {chapter}{Defunciones Cero}{65}{section*.92}%
+\contentsline {chapter}{Agradecimientos}{66}{section*.94}%
+\contentsline {chapter}{Diseño y Edición}{67}{chapter*.95}%
