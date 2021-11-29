@@ -15,20 +15,20 @@ forvalues i=1/13 {
 preserve
 keep if provincia_residencia == `i'
 
-collapse (sum) positivo defuncion positivo_pcr positivo_ag prueba_pcr prueba_ag sintomatico_pcr sintomatico_ag sintomatico_pr, by(fecha_resultado)
+collapse (sum) positivo defuncion positivo_pcr positivo_ag prueba_pcr prueba_ag positivo_prueba_pcr positivo_prueba_pr positivo_prueba_ag, by(fecha_resultado)
 
 tsset fecha_resultado, daily
 tsfill
-
 rename positivo positivo_`i'
 rename defuncion defuncion_`i'
 rename positivo_pcr positivo_pcr_`i'
 rename positivo_ag positivo_ag_`i'
 rename prueba_pcr prueba_pcr_`i'
 rename prueba_ag prueba_ag_`i'
-rename sintomatico_pcr sintomatico_pcr_`i'
-rename sintomatico_ag sintomatico_ag_`i'
-rename sintomatico_pr sintomatico_pr_`i'
+rename positivo_prueba_pcr positivo_prueba_pcr_`i'
+rename positivo_prueba_pr positivo_prueba_pr_`i'
+rename positivo_prueba_ag positivo_prueba_ag_`i'
+
 
 save "${datos}\temporal\provincia_`i'", replace
 restore 

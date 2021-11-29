@@ -7,7 +7,7 @@ forvalues i=1/13 {
 preserve
 
 * Mantener las variables de interés
-keep fecha positivo_`i' positivo_pcr_`i' positivo_ag_`i' prueba_pcr_`i' prueba_ag_`i' defuncion_`i' sintomatico_pcr_`i' sintomatico_ag_`i' sintomatico_pr_`i'
+keep fecha positivo_`i' positivo_pcr_`i' positivo_ag_`i' prueba_pcr_`i' prueba_ag_`i' positivo_prueba_pcr_`i' positivo_prueba_pr_`i' positivo_prueba_ag_`i' defuncion_`i' 
 
 * Generar las semanas epidemiológicas del 2020
 gen semana = .
@@ -15,7 +15,7 @@ replace semana = 11 if fecha_resultado == 21987 | fecha_resultado == 21988
 replace semana = 12 if fecha_resultado > 21988 & fecha_resultado <= 21995
 replace semana = semana[_n-7] + 1 if fecha_resultado > 21995
 
-collapse (sum) positivo_`i' positivo_pcr_`i' positivo_ag_`i' prueba_ag_`i'  prueba_pcr_`i' defuncion_`i' sintomatico_pcr_`i' sintomatico_ag_`i' sintomatico_pr_`i', by(semana)
+collapse (sum) positivo_`i' positivo_pcr_`i' positivo_ag_`i' prueba_pcr_`i' prueba_ag_`i' positivo_prueba_pcr_`i' positivo_prueba_pr_`i' positivo_prueba_ag_`i' defuncion_`i', by(semana)
 
 gen positividad_pcr_`i' = positivo_pcr_`i'/prueba_pcr_`i'*100
 gen positividad_ag_`i' = positivo_ag_`i'/prueba_ag_`i'*100
@@ -55,16 +55,16 @@ gen incidencia_`i' = positivo_`i'/poblacion_`i'*10000
 label var mortalidad_`i' "Mortalidad (defunciones/pob.*10,000)"
 label var incidencia_`i' "Incidencia (casos/pob.*10,000)"
 
-label var sintomatico_pcr_`i' "Sintomaticos PCR"
-label var sintomatico_ag_`i' "Sintomatico AG"
-label var sintomatico_pr_`i' "Sintomatico PR"
+label var positivo_prueba_pcr_`i' "Sintomaticos PCR"
+label var positivo_prueba_ag_`i' "Sintomatico AG"
+label var positivo_prueba_pr_`i' "Sintomatico PR"
 
 format mortalidad_`i' %8.1f
 format incidencia_`i' %8.1f
 
-format sintomatico_pcr_`i' 
-format sintomatico_ag_`i' 
-format sintomatico_pr_`i' 
+format positivo_prueba_pcr_`i' 
+format positivo_prueba_ag_`i' 
+format positivo_prueba_pr_`i' 
 
 save "${datos}/temporal/data_semanal_`i'.dta", replace
 

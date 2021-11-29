@@ -27,7 +27,7 @@ replace linaje1 = linaje2 if linaje1 == "Linaje"
 gen variante = .
 replace variante = 1 if linaje1 == "C.37" | linaje1 == "C.37.1" | linaje1 == "C.37 "
 replace variante = 2 if linaje1 == "P-1" | linaje1 == "P.1" | linaje1 == "P.1.12" | linaje1 == "P.1.7" | linaje1 == "P.1 " 
-replace variante = 3 if linaje1 == "AY.12" | linaje1 == "AY.20" | linaje1 == "AY.20 " | linaje1 == "AY.4" | linaje1 == "B.1.617.2" | linaje1 == "B.1.617.2 " | linaje1 == "AY.25" | linaje1 == "AY.39"
+replace variante = 3 if linaje1 == "AY.12" | linaje1 == "AY.20" | linaje1 == "AY.20 " | linaje1 == "AY.4" | linaje1 == "B.1.617.2" | linaje1 == "B.1.617.2 " | linaje1 == "AY.25" | linaje1 == "AY.39" | linaje1 == "AY.102" | linaje1 == "AY 46.6"
 replace variante = 4 if linaje1 == "B.1.621" | linaje1 == "L.B.348"
 replace variante = 5 if linaje1 == "observacion"
 label define variante 1 "lambda" 2 "gamma" 3 "delta" 4 "otro" 5 "observacion"

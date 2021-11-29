@@ -98,11 +98,11 @@ gr export "figuras\positividad_20_21_`i'.pdf", as(pdf) name("positividad_20_21_`
 ********************************************************************************
 * 2021
   
-twoway (scatter sintomatico_pcr_`i' semana_2, msize(vsmall) mcolor("$mycolor5") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor5")) ///
-(scatter sintomatico_pr_`i' semana_2, msize(vsmall) mcolor("$mycolor6") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor1")) ///
-(scatter sintomatico_ag_`i' semana_2, msize(vsmall) mcolor("$mycolor3") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor3") ) ///
+twoway (scatter positivo_prueba_pcr_`i' semana_2, msize(vsmall) mcolor("$mycolor5") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor5")) ///
+(scatter positivo_prueba_pr_`i' semana_2, msize(vsmall) mcolor("$mycolor7") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor2")) ///
+(scatter positivo_prueba_ag_`i' semana_2, msize(vsmall) mcolor("$mycolor3") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor3") ) ///
 if semana_2>=1 & semana_2<=$semana, ///
-	ylabel(0(50)500, labsize(*0.6)) ///
+	ylabel(0(200)1000, labsize(*0.6)) ///
 	tlabel(1(4)53) ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("") ///

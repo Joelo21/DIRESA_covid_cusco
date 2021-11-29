@@ -106,6 +106,14 @@ replace prueba_pr = 1 if positivo_pr == 1 | positivo_pr == 0
 gen prueba_ag = .
 replace prueba_ag = 1 if positivo_ag == 1 | positivo_ag == 0
 
+*Generar Positivo PCR -PR(RAPIDAS) -AG(ANTIGENAS)
+gen positivo_prueba_pcr =.
+replace positivo_prueba_pcr = 1 if prueba_pcr == 1
+gen positivo_prueba_pr =.
+replace positivo_prueba_pr = 1  if prueba_pr == 1
+gen positivo_prueba_ag =.
+replace positivo_prueba_ag = 1 if prueba_ag == 1
+
 * Generar positivo 
 gen positivo = 1 if positivo_pcr == 1 | positivo_pr == 1 | positivo_ag == 1
 
