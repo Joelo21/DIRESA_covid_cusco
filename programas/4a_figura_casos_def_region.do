@@ -47,7 +47,7 @@ gr export "figuras\defunciones_20_21.pdf", as(pdf) name("defunciones_20_21") rep
 twoway (line defuncion_d semana_2, lcolor("$mycolor2") lwidth(medthick) lpattern(longdash)) ///
 (scatter defuncion_d semana_2, msize(vsmall) mcolor("$mycolor2") mlabel(defuncion_d) mlabcolor("$mycolor2") mlabsize(tiny) connect() xline(1, lcolor("$mycolor1") lpattern(shortdash) lwidth(thick)) xline(13, lcolor("$mycolor2") lpattern(shortdash) lwidth(thick)) xline(15, lcolor("$mycolor3") lpattern(shortdash) lwidth(thick)) xline(23, lcolor("$mycolor4") lpattern(dash_dot) lwidth(thick))) ///
  if semana_2 >=1 & semana_2<=$semana, ///
-	ylabel(-100(20)100, labsize(*0.6)) ///
+	ylabel(-300(50)100, labsize(*0.6)) ///
 	tlabel(1(4)53) ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("% Crecimiento de Defunciones") ///
@@ -109,7 +109,7 @@ gr export "figuras\positivos_20_21.pdf", as(pdf) name("positivos_20_21") replace
 twoway (line positivo_d semana_2, lcolor("$mycolor6") lwidth(medthick) lpattern(longdash)) ///
 (scatter positivo_d semana_2, msize(vsmall) mcolor("$mycolor6") mlabel(positivo_d) mlabcolor("$mycolor6") mlabsize(tiny) connect() xline(1, lcolor("$mycolor1") lpattern(shortdash) lwidth(thick)) xline(13, lcolor("$mycolor2") lpattern(shortdash) lwidth(thick)) xline(15, lcolor("$mycolor3") lpattern(shortdash) lwidth(thick)) xline(23, lcolor("$mycolor4") lpattern(dash_dot) lwidth(thick))) ///
  if semana_2 >=1 & semana_2<=$semana, ///
-	ylabel(-100(20)100, labsize(*0.6)) ///
+	ylabel(-200(50)100, labsize(*0.6)) ///
 	tlabel(1(4)53) ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("% Crecimiento de Casos") ///
