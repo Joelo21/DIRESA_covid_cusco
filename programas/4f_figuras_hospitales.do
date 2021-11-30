@@ -15,7 +15,7 @@ replace Limite2 = 100 * Limite2
 gen var1 = disponibilidad/45*100
 
 * Graficamos							
-twoway (bar var1 semana, yaxis(1) yscale(range(0) axis(1) off)  barwidth(0.5 0.8) bcolor("$mycolor1")) ///
+twoway (bar var1 semana, yaxis(1) yscale(range(0) axis(1) off)  barwidth(0.5 0.8) bcolor("$mycolor2")) ///
 (line ocupacion_per semana, lcolor("$mycolor4") sort yaxis(2) yscale(range(0) axis(2))) ///
 (line Limite1 semana, lcolor("$mycolor3") lpattern(dash) sort yaxis(2) yscale(range(0) axis(2) off)) ///
 (line Limite2 semana , lcolor("$mycolor2") lpattern(dash) sort yaxis(2) yscale(range(0) axis(2))) ///
@@ -57,7 +57,7 @@ gen var2 = disponibilidad/417*100
 
 * Graficamos
 									
-twoway (bar disponibilidad semana, yaxis(1) yscale(range(0) axis(1) off)  barwidth(0.5 0.8) bcolor("$mycolor2")) ///
+twoway (bar disponibilidad semana, yaxis(1) yscale(range(0) axis(1) off)  barwidth(0.5 0.8) bcolor("$mycolor6")) ///
 (line ocupacion_per semana, lcolor("$mycolor4") sort yaxis(2) yscale(range(0) axis(2) off)) ///
 (line Limite1 semana, lcolor("$mycolor3") lpattern(dash) sort yaxis(2) yscale(range(0) axis(2) off)) ///
 (line Limite2 semana , lcolor("$mycolor2") lpattern(dash) sort yaxis(2) yscale(range(0) axis(2) off)) ///
@@ -243,10 +243,10 @@ format ocu3  %12.0fc
 
 * Graficamos
   
-twoway bar ocupacion_nouci semana, bcolor("$mycolor5") yaxis(1) yscale(range(0) axis(1) off) barwidth(0.5) || ///
-rbar ocupacion_nouci bar3 semana,  bcolor("$mycolor6") barwidth(0.5)  || ///
-scatter bar3 semana, ms(none) mla(bar3) mlabpos(12) mlabcolor("$mycolor6") mlabsize(*0.6)|| ///
-scatter ocu3 semana, ms(none) mla(ocupacion_nouci) mlabpos(12) mlabcolor("$mycolor6") mlabsize(*0.6)|| ///
+twoway bar ocupacion_nouci semana, bcolor("$mycolor6") yaxis(1) yscale(range(0) axis(1) off) barwidth(0.5) || ///
+rbar ocupacion_nouci bar3 semana,  bcolor("$mycolor7") barwidth(0.5)  || ///
+scatter bar3 semana, ms(none) mla(bar3) mlabpos(12) mlabcolor("$mycolor3") mlabsize(*0.6)|| ///
+scatter ocu3 semana, ms(none) mla(ocupacion_nouci) mlabpos(12) mlabcolor("$mycolor3") mlabsize(*0.6)|| ///
 if semana>=1 & semana <=$semana									///
   ,xtitle("Semanas Epidemológicas", size(*0.7)) 			///
   xlabel(1(2)$semana	, labsize(*0.55)) ///

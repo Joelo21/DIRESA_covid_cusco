@@ -4,14 +4,15 @@ import delimited "${datos}\raw\vacunacovid.csv", varnames(1) encoding(UTF-8)  cl
 rename numero dni
 
 * Fecha de nacimiento
-gen fecha_2 = fnac
-split fecha_2, parse(-) destring
-rename (fecha_2?) (dia2 mes2 año2)
-gen fecha_nacimiento = daily(fecha_2, "DMY")
-format fecha_nacimiento %td
+*gen fecha_2 = fnac
+*split fecha_2, parse(-) destring
+*rename (fecha_2?) (dia2 mes2 año2)
+*gen fecha_nacimiento = daily(fecha_2, "DMY")
+*format fecha_nacimiento %td
 
 * Edad
-gen Edad = 2020 - año2
+*gen Edad = 2020 - año2
+
 
 
 * Fecha de vacunación
