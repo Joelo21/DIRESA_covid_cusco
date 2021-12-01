@@ -148,9 +148,10 @@ if semana>=1 & semana <=$semana									///
   legend(cols(4) label(1 "Total de camas") label (4 "") label(2 " Camas disponibles") label(3 "") size(*0.6) order(1 2 3 4) region(lcolor("$mycolor7"))) ///
   graphregion(color(white)) ///
   title("UCI", size(*.5) position(9) box bcolor("$mycolor7") color(white)) ///
-  name(uci1, replace) ///
-  bgcolor(white) xlabel(, nogrid) ylabel(, nogrid)
-
+  bgcolor(white) xlabel(, nogrid) ylabel(, nogrid) name(h_regional_uci, replace)   ///
+ 
+  graph export "figuras\h_regional_uci.png", as(png) replace
+  graph export "figuras\h_regional_uci.pdf", as(pdf) replace
 restore 
 
 preserve
@@ -180,17 +181,18 @@ if semana>=1 & semana <=$semana									///
   legend(cols(4) label(1 "Total de camas") label (4 "") label(2 " Camas disponibles") label(3 "") size(*0.6) order(1 2 3 4) region(lcolor(black))) ///
   graphregion(color(white)) ///
   title("NO UCI", size(*.35) position(9) box bcolor("$mycolor3") color(white)) ///
-  name(uci2, replace) ///
-  bgcolor(white) xlabel(, nogrid) ylabel(, nogrid)
+  bgcolor(white) xlabel(, nogrid) ylabel(, nogrid) name(h_regional_nouci, replace) ///
   
 * Combinamos las gráficas
-graph combine uci1 uci2, graphregion(color(white)) name(h_regional, replace)
-  
+graph combine h_regional_uci h_regional_nouci, graphregion(color(white)) name(h_regional, replace)
+
 graph export "figuras\h_regional.png", as(png) replace
 graph export "figuras\h_regional.pdf", as(pdf) replace
+  
+graph export "figuras\h_regional_nouci.png", as(png) replace
+graph export "figuras\h_regional_nouci.pdf", as(pdf) replace
 
 restore 
-
 
 ********************************************************************************
 import excel "${datos}\raw\base_sistema_referencias.xlsx", firstrow sheet("H-LORENA") clear
@@ -220,12 +222,14 @@ if semana>=1 & semana <=$semana ///
   legend(cols(4) label(1 "Total de camas") label (4 "") label(2 " Camas disponibles") label(3 "") size(*0.6) order(1 2 3 4) region(lcolor(black))) ///
   graphregion(color(white)) ///
   title("UCI", size(*.5) position(9) box bcolor("$mycolor6") color(white)) ///
-  name(uci1, replace) ///
-  bgcolor(white) xlabel(, nogrid) ylabel(, nogrid)
+  bgcolor(white) xlabel(, nogrid) ylabel(, nogrid) name(h_lorena_uci, replace) ///
+ 
+  graph export "figuras\h_lorena_uci.png", as(png) replace
+  graph export "figuras\h_lorena_uci.pdf", as(pdf) replace
 
 restore 
-
 preserve
+
 * NO UCI
 *************************
 
@@ -253,15 +257,16 @@ if semana>=1 & semana <=$semana									///
   legend(cols(4) label(1 "Total de camas") label (4 "") label(2 " Camas disponibles") label(3 "") size(*0.6) order(1 2 3 4) region(lcolor(black))) ///
   graphregion(color(white)) ///
   title("NO UCI", size(*.35) position(9) box bcolor("$mycolor5") color(white)) ///
-  name(uci2, replace)  ///
-  bgcolor(white) xlabel(, nogrid) ylabel(, nogrid)
+  bgcolor(white) xlabel(, nogrid) ylabel(, nogrid) name(h_lorena_nouci, replace)  ///
   
 * Combinamos las gráficas
 
-graph combine uci1 uci2, graphregion(color(white)) name(h_lorena, replace)
-
+graph combine h_lorena_uci h_lorena_nouci, graphregion(color(white)) name(h_lorena, replace)
 graph export "figuras\h_lorena.png", as(png) replace
 graph export "figuras\h_lorena.pdf", as(pdf) replace
+
+graph export "figuras\h_lorena_nouci.png", as(png) replace
+graph export "figuras\h_lorena_nouci.pdf", as(pdf) replace
 
 restore 
 
@@ -295,12 +300,12 @@ if semana>=1 & semana <=$semana									///
   legend(cols(4) label(1 "Total de camas") label (4 "") label(2 " Camas disponibles") label(3 "") size(*0.6) order(1 2 3 4) region(lcolor(black))) ///
   graphregion(color(white)) ///
   title("UCI", size(*.5) position(9) box bcolor("$mycolor4") color(white)) ///
-  name(uci1, replace) ///
-  bgcolor(white) xlabel(, nogrid) ylabel(, nogrid)
-
+  bgcolor(white) xlabel(, nogrid) ylabel(, nogrid) name(h_adolfo_uci, replace) ///
+  
+  graph export "figuras\h_adolfo_uci.png", as(png) replace
+  graph export "figuras\h_adolfo_uci.pdf", as(pdf) replace
 
 restore 
-
 preserve
 * NO UCI
 *************************
@@ -327,17 +332,18 @@ if semana>=1 & semana <=$semana									///
   xlabel(1(2)$semana, labsize(*0.55)) ///
   legend(cols(4) label(1 "Total de camas") label (4 "") label(2 " Camas disponibles") label(3 "") size(*0.6) order(1 2 3 4) region(lcolor(black))) ///
   graphregion(color(white)) ///
-  title("NO UCI", size(*.35) position(9) box bcolor("$mycolor2") color(white)) ///
-  name(uci2, replace)  ///
-  bgcolor(white) xlabel(, nogrid) ylabel(, nogrid)
+  title("NO UCI", size(*.35) position(9) box bcolor("$mycolor2") color(white)) ///  
+  bgcolor(white) xlabel(, nogrid) ylabel(, nogrid) name(h_adolfo_nouci, replace)  ///
   
 * Combinamos las gráficas
 
 * Graficamos
 
-graph combine uci1 uci2, graphregion(color(white)) name(h_alfonso, replace)
+graph combine h_adolfo_uci h_adolfo_nouci, graphregion(color(white)) name(h_alfonso, replace)
+graph export "figuras\h_alfonso.png", as(png) replace
+graph export "figuras\h_alfonso.pdf", as(pdf) replace
 
-graph export "figuras\h_adolfo.pdf", as(pdf) replace
-graph export "figuras\h_adolfo.png", as(png) replace
+graph export "figuras\h_adolfo_nouci.pdf", as(pdf) replace
+graph export "figuras\h_adolfo_nouci.png", as(png) replace
 
 restore 
