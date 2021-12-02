@@ -6,7 +6,7 @@ save "${datos}\temporal\data_sis_ag_boletin_1.dta", replace
 */
 import excel "${datos}\raw\base_siscovid_ag_2021_2.xlsx", sheet("Hoja1") firstrow clear
 
-append using "${datos}\temporal\data_sis_ag_boletin_1.dta"
+*append using "${datos}\temporal\data_sis_ag_boletin_1.dta"
 
 keep if Departamento == "Cusco"
 rename NroDocumento dni

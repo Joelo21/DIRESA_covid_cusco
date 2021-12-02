@@ -102,7 +102,7 @@ replace sin_ninguno = 1 if (sin_fiebre_2 != 1 & sin_malestar!= 1 &  sin_tos != 1
 
 * Comorbilidades
 gen com_obesidad = .
-replace com_obesidad = 1 if  OBESIDAD == 1 
+replace com_obesidad = 1 if  obesidad == 1 
 
 gen com_pulmonar = .
 *replace com_pulmonar = 1 if  pulmonar == 1 
@@ -126,7 +126,7 @@ gen com_embarazo = .
 replace com_embarazo = 1 if  embarazo == 1
 
 gen com_asma = .
-replace com_asma = 1 if  ASMA == 1
+replace com_asma = 1 if  comorbilidad_otra == "ASMA"
 
 gen com_renal = .
 *replace com_renal = 1 if  renal == 1 

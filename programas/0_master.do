@@ -22,6 +22,7 @@ set more off
 *ssc install shp2dta
 *ssc install palettes
 *ssc install colrspace
+*ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
 global fecha 27nov2021
@@ -58,7 +59,7 @@ colorpalette ///
   
 gr export "figuras/paleta_colores.png", as(png) replace
 
-
+/*
 * Se analiza los casos, defunciones, ocupación de camas, vacunas, variantes de COVID-19 en la Región Cusco
 * Para ello, se cuenta con distintas fuentes de información 
 ** 1. NOTICOVID: casos por prueba molecular
@@ -138,8 +139,8 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"
 	do "programas\6c_figura_vacunacion_provincias"
-
-	/*	
+*/
+	
 * 7. Figuras para el "Boletin COVID-19" Mensual
 	do "programas\7a_base_noticovid_2021_variables"
 	do "programas\7b_base_siscovid_pr_2021_variables"
@@ -148,7 +149,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\7e_figura_sintomas_comorbilidad"
 	do "programas\7f_lugar_fallecimiento"
 	do "programas\7g_figura_inci_morta_series"
-	*/
+
 
 timer off 1
 timer list

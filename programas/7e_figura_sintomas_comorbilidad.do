@@ -124,7 +124,7 @@ matrix colnames all = "Frecuencia"
 matrix rownames all = "Obesidad" "Pulmonar" "Diabetes" "Cardiovascular" "Inmunodeficiencia" "Cancer" "Embarazo" "Asma" "Renal" "Ninguno"
 
 * Exportar la tabla
-esttab matrix(all) using "datos\output\tabla_comorbilidad.csv", replace wide plain label fragment nonumbers nomtitles scsv
+esttab matrix(all) using "${datos}\output\tabla_comorbilidad.csv", replace wide plain label fragment nonumbers nomtitles scsv
 
 ****************************
 * Figura de los Sintomáticos
@@ -188,12 +188,12 @@ matrix rownames all = "Exudado Faringeo" "Inyeccion Conjuntival" "Convulsion" "D
 
 
 * Exportar la tabla
-esttab matrix(all) using "datos\output\tabla_signos.csv", replace wide plain label fragment nonumbers nomtitles scsv
+esttab matrix(all) using "${datos}\output\tabla_signos.csv", replace wide plain label fragment nonumbers nomtitles scsv
 
 ****************************
 * Figura
 
-import delimited "datos\output\tabla_signos.csv", clear
+import delimited "${datos}\output\tabla_signos.csv", clear
 
 * Nombrar la variable
 rename v1 signo
