@@ -3,9 +3,9 @@
 \contentsline {chapter}{Metodología}{6}{section*.4}%
 \contentsline {chapter}{Características Generales}{9}{section*.5}%
 \contentsline {chapter}{Características Clínicas}{12}{section*.8}%
-\contentsline {chapter}{Análisis de Indicadores}{17}{section*.13}%
-\contentsline {chapter}{Evaluación para Provincias Priorizadas}{30}{section*.31}%
-\contentsline {chapter}{Variantes de COVID-19}{59}{section*.88}%
-\contentsline {chapter}{Defunciones Cero}{62}{section*.91}%
-\contentsline {chapter}{Agradecimientos}{63}{section*.93}%
-\contentsline {chapter}{Diseño y Edición}{64}{chapter*.94}%
+\contentsline {chapter}{Análisis de Indicadores}{16}{section*.13}%
+\contentsline {chapter}{Evaluación para Provincias Priorizadas}{29}{section*.31}%
+\contentsline {chapter}{Variantes de COVID-19}{58}{section*.88}%
+\contentsline {chapter}{Defunciones Cero}{61}{section*.91}%
+\contentsline {chapter}{Agradecimientos}{62}{section*.93}%
+\contentsline {chapter}{Diseño y Edición}{63}{chapter*.94}%
