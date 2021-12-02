@@ -1,6 +1,6 @@
 
 use "${datos}\output\serie_semanal_region.dta", clear
-
+/*
 ********************************************************************************
 * Defunciones
 ********************************************************************************
@@ -213,6 +213,7 @@ name(sinto_prueba_20_21, replace)
 gr export "figuras\sinto_prueba_20_21.png", as(png) replace
 gr export "figuras\sinto_prueba_20_21.pdf", as(pdf) name("sinto_prueba_20_21") replace
 
+*/
 ********************************************************************************
 * Tasa de Positividad por PCR y AG: 2021
 ********************************************************************************
@@ -220,7 +221,7 @@ gr export "figuras\sinto_prueba_20_21.pdf", as(pdf) name("sinto_prueba_20_21") r
 twoway (bar positivo_pcr semana_2, yaxis(1) ylabel(0(600)600) yscale(range(0(600)600) axis(1) off) bcolor("$mycolor5") /*bfcolor(white) blcolor(black)*/ /*fintensity(inten60)*/  barwidth(0.5 0.8)) ///
 (line positividad_pcr semana_2, lcolor("$mycolor6") sort yaxis(2) ylabel(0(10)100, axis(2))) ///
 (scatter positivo_pcr semana_2, msymbol(none) mlabel(positivo_pcr) mlabcolor("$mycolor5") mlabsize(*0.65) mlabposition(12))				///
-(scatter positividad_pcr semana_2, msymbol(i) mlabel(positividad_pcr) mlabcolor("$mycolor6") mlabsize(*0.65) mlabposition(12)	sort yaxis(2) yscale(range(0) axis(2) off)) ///
+(scatter positividad_pcr semana_2, msymbol(i) mlabel() mlabcolor() mlabsize(*0.65) mlabposition(12)	sort yaxis(2) yscale(range(0) axis(2) off)) ///
 if semana_2>=1 & semana_2 <=$semana								///
   ,xtitle("Semanas Epidemiológicas", size(*0.6)) 				///
   xlabel(1(2)$semana, labsize(*0.6)) ///
@@ -236,7 +237,7 @@ if semana_2>=1 & semana_2 <=$semana								///
 twoway (bar positivo_ag semana_2, yaxis(1) ylabel(0(600)2200) yscale(range(0(600)2200) axis(1) off) bcolor("$mycolor3") /*bfcolor(white) blcolor(black)*/ /*fintensity(inten60)*/  barwidth(0.5 0.8)) ///
 (line positividad_ag semana_2, lcolor("$mycolor4") sort yaxis(2) ylabel(0(10)100, axis(2))) ///
 (scatter positivo_ag semana_2, msymbol(none) mlabel(positivo_ag) mlabcolor("$mycolor4") mlabsize(*0.65) mlabposition(12))				///
-(scatter positividad_ag semana_2, msymbol(i) mlabel(positividad_ag) mlabcolor(dark) mlabsize(*0.65) mlabposition(12)	sort yaxis(2) yscale(range(0) axis(2) off)) ///
+(scatter positividad_ag semana_2, msymbol(i) mlabel() mlabcolor(dark) mlabsize(*0.65) mlabposition(12)	sort yaxis(2) yscale(range(0) axis(2) off)) ///
 if semana_2>=1 & semana_2 <=$semana									///
   ,xtitle("Semanas Epidemiológicas", size(*0.6)) 				///
   xlabel(1(2)$semana, labsize(*0.6)) ///

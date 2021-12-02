@@ -10,12 +10,12 @@ clear all
 set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
-	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
 	
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
-    global datos "G:\2021\DIRESA\covid_cusco\datos"
+    global datos "D:\7. Work\covid_cusco\datos"
 
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -59,7 +59,7 @@ colorpalette ///
   
 gr export "figuras/paleta_colores.png", as(png) replace
 
-/*
+
 * Se analiza los casos, defunciones, ocupación de camas, vacunas, variantes de COVID-19 en la Región Cusco
 * Para ello, se cuenta con distintas fuentes de información 
 ** 1. NOTICOVID: casos por prueba molecular
@@ -108,9 +108,9 @@ gr export "figuras/paleta_colores.png", as(png) replace
     */
 
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
-	*do "programas/2d_series_semanales_region" // Generar datos semanales region
-	*do "programas/4a_figura_casos_def_region"
-	*do "programas/4b_figura_mort_edad_region"
+	do "programas/2d_series_semanales_region" // Generar datos semanales region
+	do "programas/4a_figura_casos_def_region"
+	do "programas/4b_figura_mort_edad_region"
 	
 	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	do "programas/4c_figura_inci_mort_positi_provincial"
@@ -126,7 +126,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/4f_figuras_hospitales"
 	
 	* Tabla cero defunciones
-	*do "programas\4z_tabla_cero_defunciones.do"
+	do "programas\4z_tabla_cero_defunciones.do"
 
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
@@ -139,7 +139,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"
 	do "programas\6c_figura_vacunacion_provincias"
-*/
+
 	
 * 7. Figuras para el "Boletin COVID-19" Mensual
 	do "programas\7a_base_noticovid_2021_variables"
@@ -149,7 +149,6 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\7e_figura_sintomas_comorbilidad"
 	do "programas\7f_lugar_fallecimiento"
 	do "programas\7g_figura_inci_morta_series"
-
 
 timer off 1
 timer list
