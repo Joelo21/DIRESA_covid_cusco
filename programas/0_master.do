@@ -102,15 +102,14 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/1k_datos_dashboard"
 	** Cambiar la dirección si es necesario
 	do "C:\Users\HP\Documents\GitHub\covid-cusco\dashboard-covid-geresa\data\MasterDofile"
-	
-	* Ocupación de camas (semanalmente)
-	**do  "C:\Users\HP\Documents\GitHub\covid-cusco\dashboard-covid-geresa\data\source1_camas\main"
-*/
+		* Ocupación de camas (semanalmente)
+	do  "C:\Users\HP\Documents\GitHub\covid-cusco\dashboard-covid-geresa\data\source1_camas\main"
+    */
 
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
-	do "programas/2d_series_semanales_region" // Generar datos semanales region
-	do "programas/4a_figura_casos_def_region"
-	do "programas/4b_figura_mort_edad_region"
+	*do "programas/2d_series_semanales_region" // Generar datos semanales region
+	*do "programas/4a_figura_casos_def_region"
+	*do "programas/4b_figura_mort_edad_region"
 	
 	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	do "programas/4c_figura_inci_mort_positi_provincial"
@@ -127,7 +126,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	
 	* Tabla cero defunciones
 	*do "programas\4z_tabla_cero_defunciones.do"
-/*
+
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
@@ -139,7 +138,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"
 	do "programas\6c_figura_vacunacion_provincias"
-*/	
+
 	/*	
 * 7. Figuras para el "Boletin COVID-19" Mensual
 	do "programas\7a_base_noticovid_2021_variables"
