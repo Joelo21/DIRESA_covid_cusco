@@ -152,6 +152,8 @@ if semana>=1 & semana <=$semana									///
   bgcolor(white) xlabel(, nogrid) ylabel(, nogrid)
 
 restore 
+graph export "figuras\h_regional_uci.png", as(png) replace
+graph export "figuras\h_regional_uci.pdf", as(pdf) replace
 
 preserve
 * NO UCI
@@ -186,8 +188,8 @@ if semana>=1 & semana <=$semana									///
 * Combinamos las gráficas
 graph combine uci1 uci2, graphregion(color(white)) name(h_regional, replace)
   
-graph export "figuras\h_regional.png", as(png) replace
-graph export "figuras\h_regional.pdf", as(pdf) replace
+graph export "figuras\h_regional_nouci.png", as(png) replace
+graph export "figuras\h_regional_nouci.pdf", as(pdf) replace
 
 restore 
 
@@ -224,7 +226,8 @@ if semana>=1 & semana <=$semana ///
   bgcolor(white) xlabel(, nogrid) ylabel(, nogrid)
 
 restore 
-
+graph export "figuras\h_lorena_uci.png", as(png) replace
+graph export "figuras\h_lorena_uci.pdf", as(pdf) replace
 preserve
 * NO UCI
 *************************
@@ -258,10 +261,10 @@ if semana>=1 & semana <=$semana									///
   
 * Combinamos las gráficas
 
-graph combine uci1 uci2, graphregion(color(white)) name(h_lorena, replace)
+*graph combine uci1 uci2, graphregion(color(white)) name(h_lorena, replace)
 
-graph export "figuras\h_lorena.png", as(png) replace
-graph export "figuras\h_lorena.pdf", as(pdf) replace
+graph export "figuras\h_lorena_nouci.png", as(png) replace
+graph export "figuras\h_lorena_nouci.pdf", as(pdf) replace
 
 restore 
 
@@ -298,9 +301,9 @@ if semana>=1 & semana <=$semana									///
   name(uci1, replace) ///
   bgcolor(white) xlabel(, nogrid) ylabel(, nogrid)
 
-
 restore 
-
+graph export "figuras\h_adolfo_uci.pdf", as(pdf) replace
+graph export "figuras\h_adolfo_uci.png", as(png) replace
 preserve
 * NO UCI
 *************************
@@ -337,7 +340,7 @@ if semana>=1 & semana <=$semana									///
 
 graph combine uci1 uci2, graphregion(color(white)) name(h_alfonso, replace)
 
-graph export "figuras\h_adolfo.pdf", as(pdf) replace
-graph export "figuras\h_adolfo.png", as(png) replace
+graph export "figuras\h_adolfo_nouci.pdf", as(pdf) replace
+graph export "figuras\h_adolfo_nouci.png", as(png) replace
 
 restore 

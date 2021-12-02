@@ -10,12 +10,12 @@ clear all
 set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
-	global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
-    global datos "D:\7. Work\covid_cusco\datos"
+    global datos "G:\2021\DIRESA\covid_cusco\datos"
 
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
