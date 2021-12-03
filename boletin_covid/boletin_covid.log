@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.8)  3 DEC 2021 10:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.8)  3 DEC 2021 10:12
 entering extended mode
 **./boletin_covid.tex
 (boletin_covid.tex
@@ -1543,12 +1543,12 @@ Underfull \vbox (badness 3690) has occurred while \output is active []
  [2
 
 ]
-<../editorial/foto_adrian_editorial.jpg, id=136, 5203.44pt x 3468.96pt>
+<../editorial/foto_adrian_editorial.jpg, id=136, 2681.01625pt x 2462.19875pt>
 File: ../editorial/foto_adrian_editorial.jpg Graphic file (type jpg)
 <use ../editorial/foto_adrian_editorial.jpg>
 Package pdftex.def Info: ../editorial/foto_adrian_editorial.jpg  used on input 
 line 207.
-(pdftex.def)             Requested size: 241.84842pt x 161.23087pt.
+(pdftex.def)             Requested size: 241.84842pt x 222.07674pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
 19.
 
@@ -2913,7 +2913,7 @@ e1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss10.pf
 b><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/M
 iKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/p
 ublic/lm/lmsso12.pfb>
-Output written on boletin_covid.pdf (65 pages, 25063378 bytes).
+Output written on boletin_covid.pdf (65 pages, 21286804 bytes).
 PDF statistics:
  1813 PDF objects out of 2073 (max. 8388607)
  159 named destinations out of 1000 (max. 500000)
