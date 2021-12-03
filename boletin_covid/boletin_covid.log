@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.8)  3 DEC 2021 10:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.8)  3 DEC 2021 10:21
 entering extended mode
 **./boletin_covid.tex
 (boletin_covid.tex
@@ -2892,6 +2892,9 @@ ne 1168.
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `boletin_covid.out' has not changed.
 (rerunfilecheck)             Checksum: CB7057841EC36C5ED2575F464A7764BB;1497.
  )
@@ -2913,7 +2916,7 @@ e1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss10.pf
 b><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/M
 iKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/p
 ublic/lm/lmsso12.pfb>
-Output written on boletin_covid.pdf (65 pages, 21286804 bytes).
+Output written on boletin_covid.pdf (65 pages, 21287511 bytes).
 PDF statistics:
  1813 PDF objects out of 2073 (max. 8388607)
  159 named destinations out of 1000 (max. 500000)
