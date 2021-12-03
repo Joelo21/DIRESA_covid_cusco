@@ -15,6 +15,7 @@ fillin fecha provincia_ubigeo
 * Analizar sólo datos del 2021
 keep if fecha >= d(01jan2021)
 
+
 *keep positivo_* defuncion fecha provincia_ubigeo
 
 * Generar cumulativos
@@ -107,4 +108,3 @@ text(1000 6 "{it:Acualizado al}" "{it:$fecha}", place(sw) box just(left) margin(
 
 * Exportar figura
 graph export "figuras\incidencia_provincial.png", as(png) replace
-

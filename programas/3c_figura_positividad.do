@@ -73,3 +73,31 @@ twoway (line positividad_pcr semana, lcolor("$mycolor6") lwidth(medthick)) ///
   text(5 $semana "{it:Acualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor4") fcolor("$mycolor4")) name(tasa_pos, replace)
   
 graph export "figuras\positividad_diaria.png", as(png) replace  
+
+********************************************************************************
+* Tasa de Incidencia
+********************************************************************************
+
+* Graficos 
+*gen total_pruebas = prueba_pcr + prueba_ag + prueba_pr
+gen total_positivos = positivo_pcr + positivo_ag
+gen poblacion_cusco= 1357498
+gen tasa_incidencia = total_positivos/poblacion_cusco*1000000
+format tasa_incidencia tasa_incidencia %12.0fc
+
+twoway (line tasa_incidencia semana, lcolor("$mycolor6") lwidth()) ///
+(line tasa_incidencia semana, lcolor("$mycolor6") lwidth()) ///
+(scatter tasa_incidencia semana, msymbol(none) mlabel(tasa_incidencia) mlabcolor("$mycolor3") mlabsize(*0.6) mlabposition(12)) ///
+  , ysize(5) xsize(6.1) ///
+  xtitle("Semanas Epidemiológicas", size(*0.6)) ///
+  ytitle("Tasa de Incidencia (%)", size(*0.6)) ///
+  ylabel(0(50)400, labsize(*0.60)) ///
+  xlabel(1(2)$semana, labsize(*0.60)) ///
+  plotregion(fcolor(white) lcolor(white)) ///
+  graphregion(fcolor(white) lcolor(white)) ///
+  bgcolor(white) ///
+  ylabel(, nogrid) xlabel(, nogrid) ///
+    legend(cols(2) label(1 "  Tasa de Incidencia (casos positivos/poblacion*1000000)") label(2 " ") label(3 " ") label (4 " ") size(*0.6) order(1 2 3 4) region(fcolor(white) lcolor(white))) ///
+  
+graph export "figuras\tasa_incidencia.png", as(png) replace
+graph export "figuras\tasa_incidencia.pdf", as(pdf) replace   

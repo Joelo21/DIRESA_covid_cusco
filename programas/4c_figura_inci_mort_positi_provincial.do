@@ -10,7 +10,7 @@
 use "${datos}/output/serie_semanal_provincias.dta", clear
 
 forvalues i=1/13 {
-/*
+
 ********************************************************************************
 * Incidencia y Mortalidad por Provincias
 ********************************************************************************
@@ -92,7 +92,7 @@ gr export "figuras\positividad_20_21_`i'.png", as(png) replace
 gr export "figuras\positividad_20_21_`i'.pdf", as(pdf) name("positividad_20_21_`i'") replace
 
 
-*/
+
 ********************************************************************************
 * Sintomaticos por tipo de prueba por Provincias
 ********************************************************************************
