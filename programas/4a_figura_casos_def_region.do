@@ -44,8 +44,8 @@ gr export "figuras\defunciones_20_21.pdf", as(pdf) name("defunciones_20_21") rep
 
 
 * Tasas de Crecimiento Semanal 2021
-twoway (line defuncion_d semana_2, lcolor("$mycolor2") lwidth(medthick) lpattern(longdash)) ///
-(scatter defuncion_d semana_2, msize(vsmall) mcolor("$mycolor2") mlabel(defuncion_d) mlabcolor("$mycolor2") mlabsize(tiny) connect() xline(1, lcolor("$mycolor1") lpattern(shortdash) lwidth(thick)) xline(13, lcolor("$mycolor2") lpattern(shortdash) lwidth(thick)) xline(15, lcolor("$mycolor3") lpattern(shortdash) lwidth(thick)) xline(23, lcolor("$mycolor4") lpattern(dash_dot) lwidth(thick))) ///
+twoway (line defuncion_d semana_2, lcolor("$mycolor6") lwidth(medthick) lpattern(longdash)) ///
+(scatter defuncion_d semana_2, msize(vsmall) mcolor("$mycolor6") mlabel(defuncion_d) mlabcolor("$mycolor2") mlabsize(tiny) connect() xline(1, lcolor("$mycolor1") lpattern(shortdash) lwidth(thick)) xline(13, lcolor("$mycolor2") lpattern(shortdash) lwidth(thick)) xline(15, lcolor("$mycolor3") lpattern(shortdash) lwidth(thick)) xline(23, lcolor("$mycolor4") lpattern(dash_dot) lwidth(thick))) ///
  if semana_2 >=1 & semana_2<=$semana, ///
 	ylabel(-300(50)100, labsize(*0.6)) ///
 	tlabel(1(4)53) ///
@@ -219,7 +219,7 @@ gr export "figuras\sinto_prueba_20_21.pdf", as(pdf) name("sinto_prueba_20_21") r
 ********************************************************************************
 * PCR
 twoway (bar positivo_pcr semana_2, yaxis(1) ylabel(0(600)600) yscale(range(0(600)600) axis(1) off) bcolor("$mycolor5") /*bfcolor(white) blcolor(black)*/ /*fintensity(inten60)*/  barwidth(0.5 0.8)) ///
-(line positividad_pcr semana_2, lcolor("$mycolor6") sort yaxis(2) ylabel(0(10)100, axis(2))) ///
+(line positividad_pcr semana_2, lcolor(black) sort yaxis(2) ylabel(0(10)100, axis(2))) ///
 (scatter positivo_pcr semana_2, msymbol(none) mlabel(positivo_pcr) mlabcolor("$mycolor5") mlabsize(*0.65) mlabposition(12))				///
 (scatter positividad_pcr semana_2, msymbol(i) mlabel() mlabcolor() mlabsize(*0.65) mlabposition(12)	sort yaxis(2) yscale(range(0) axis(2) off)) ///
 if semana_2>=1 & semana_2 <=$semana								///
@@ -231,11 +231,11 @@ if semana_2>=1 & semana_2 <=$semana								///
   bgcolor(white) ylabel(, nogrid) ///
   name(pcr, replace)
 
-*graph export "figuras\positividad_pcr.pdf", as(pdf) replace
+graph export "figuras\positividad_pcr.pdf", as(pdf) replace
  
 * AG
 twoway (bar positivo_ag semana_2, yaxis(1) ylabel(0(600)2200) yscale(range(0(600)2200) axis(1) off) bcolor("$mycolor3") /*bfcolor(white) blcolor(black)*/ /*fintensity(inten60)*/  barwidth(0.5 0.8)) ///
-(line positividad_ag semana_2, lcolor("$mycolor4") sort yaxis(2) ylabel(0(10)100, axis(2))) ///
+(line positividad_ag semana_2, lcolor(black) sort yaxis(2) ylabel(0(10)100, axis(2))) ///
 (scatter positivo_ag semana_2, msymbol(none) mlabel(positivo_ag) mlabcolor("$mycolor4") mlabsize(*0.65) mlabposition(12))				///
 (scatter positividad_ag semana_2, msymbol(i) mlabel() mlabcolor(dark) mlabsize(*0.65) mlabposition(12)	sort yaxis(2) yscale(range(0) axis(2) off)) ///
 if semana_2>=1 & semana_2 <=$semana									///
@@ -247,11 +247,11 @@ if semana_2>=1 & semana_2 <=$semana									///
   bgcolor(white) ylabel(, nogrid) ///
   name(ag, replace)
 
-*graph export "figuras\positividad_ag.pdf", as(pdf) replace
+graph export "figuras\positividad_ag.pdf", as(pdf) replace
 
 * Combinar figuras y exportar en PDF y PNG
-graph combine pcr ag, graphregion(margin(zero)) name(positividad, replace)
+**graph combine pcr ag, graphregion(margin(zero)) name(positividad, replace)
 
-gr export "figuras\positividad_ambas.png", as(png) replace
-graph export "figuras\positividad_ambas.pdf", as(pdf) replace
+**gr export "figuras\positividad_ambas.png", as(png) replace
+**graph export "figuras\positividad_ambas.pdf", as(pdf) replace
  

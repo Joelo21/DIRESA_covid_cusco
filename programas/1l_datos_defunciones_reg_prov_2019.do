@@ -3,6 +3,7 @@
 
 import excel "${datos}\raw\base_sinadef_2019.xlsx", firstrow clear
 
+
 * Borrar los registros que se anularon
 drop if ESTADO == "ANULACIÓN SOLICITADA" | ESTADO == "ANULADO"
 
@@ -13,6 +14,8 @@ rename PROVINCIADOMICILIO provincia
 gen fecha = mdy(MES, DIA, AÑO)
 format fecha %td
 sort fecha
+* Datos Ing Ray
+*append using "${datos}\output\data_25_10", force
 
 * Borramos duplicados de DNI
 rename DOCUMENTO dni

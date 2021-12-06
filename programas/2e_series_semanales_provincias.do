@@ -57,14 +57,13 @@ label var incidencia_`i' "Incidencia (casos/pob.*10,000)"
 
 label var positivo_prueba_pcr_`i' "Sintomaticos PCR"
 label var positivo_prueba_ag_`i' "Sintomatico AG"
-label var positivo_prueba_pr_`i' "Sintomatico PR"
 
 format mortalidad_`i' %8.1f
 format incidencia_`i' %8.1f
 
 format positivo_prueba_pcr_`i' 
 format positivo_prueba_ag_`i' 
-format positivo_prueba_pr_`i' 
+
 
 save "${datos}/temporal/data_semanal_`i'.dta", replace
 

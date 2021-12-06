@@ -25,8 +25,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 27nov2021
-global semana 47
+global fecha 04dec2021
+global semana 48	
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -85,7 +85,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/1i_base_unir"
 	*do "programas/1j_datos_mapa_calor" // semanal 
 
-
+	
 * 2. Generar datos a nivel regional y provincial
 	do "programas/2a_series_diarias_region"
 	do "programas/2b_series_diarias_provincias"
@@ -111,7 +111,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/2d_series_semanales_region" // Generar datos semanales region
 	do "programas/4a_figura_casos_def_region"
 	do "programas/4b_figura_mort_edad_region"
-	
+
 	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	do "programas/4c_figura_inci_mort_positi_provincial"
 
@@ -122,12 +122,14 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/4d_figura_exceso_regional"
 	do "programas/4e_figura_exceso_provincial"
 
+/*
 	* Hospitalización
 	do "programas/4f_figuras_hospitales"
 	
 	* Tabla cero defunciones
-	do "programas\4z_tabla_cero_defunciones.do"
-
+	*do "programas\4z_tabla_cero_defunciones.do"
+	
+/*
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
@@ -140,7 +142,6 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\6b_figura_vacunacion"
 	do "programas\6c_figura_vacunacion_provincias"
 
-	
 * 7. Figuras para el "Boletin COVID-19" Mensual
 	do "programas\7a_base_noticovid_2021_variables"
 	do "programas\7b_base_siscovid_pr_2021_variables"
@@ -149,6 +150,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\7e_figura_sintomas_comorbilidad"
 	do "programas\7f_lugar_fallecimiento"
 	do "programas\7g_figura_inci_morta_series"
+*/
 
 timer off 1
 timer list

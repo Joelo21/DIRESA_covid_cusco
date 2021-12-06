@@ -114,8 +114,12 @@ replace positivo_prueba_pr = 1  if positivo_pr == 1
 gen positivo_prueba_ag =.
 replace positivo_prueba_ag = 1 if positivo_ag == 1
 
-* Generar positivo 
-gen positivo = 1 if positivo_pcr == 1 | positivo_pr == 1 | positivo_ag == 1
+* Generar positivo Sala Covid Semanal
+gen positivo = 1 if positivo_pcr == 1 | positivo_ag == 1
+
+* Genera positivo Boletin Mensual
+*gen positivo = 1 if positivo_pcr == 1 | positivo_pr == 1 | positivo_ag == 1
+
 
 * Generar prueba
 gen prueba = 1 if prueba_pcr == 1 | prueba_ag == 1 | prueba_pr == 1
