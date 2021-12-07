@@ -10,12 +10,12 @@ clear all
 set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
-	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
 	
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
-    global datos "G:\2021\DIRESA\covid_cusco\datos"
+    global datos "D:\7. Work\covid_cusco\datos"
 
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -58,7 +58,6 @@ colorpalette ///
   , n(7)
   
 gr export "figuras/paleta_colores.png", as(png) replace
-/*
 
 * Se analiza los casos, defunciones, ocupación de camas, vacunas, variantes de COVID-19 en la Región Cusco
 * Para ello, se cuenta con distintas fuentes de información 
@@ -84,7 +83,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/1h_base_sinadef_covid_2021"
 	do "programas/1i_base_unir"
 	do "programas/1j_datos_mapa_calor" // semanal 
-
+x
 	
 * 2. Generar datos a nivel regional y provincial
 	do "programas/2a_series_diarias_region"
@@ -108,7 +107,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do  "C:\Users\HP\Documents\GitHub\covid-cusco\dashboard-covid-geresa\data\source1_camas\main"
 	*/
 
-*/
+
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	*do "programas/2d_series_semanales_region" // Generar datos semanales region
 	do "programas/4a_figura_casos_def_region"
