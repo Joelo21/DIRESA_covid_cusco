@@ -10,12 +10,12 @@ clear all
 set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
-	global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
-    global datos "D:\7. Work\covid_cusco\datos"
+    global datos "G:\2021\DIRESA\covid_cusco\datos"
 
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -25,7 +25,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 04dec2021
+global fecha 06dec2021
 global semana 48	
 
 * Tiempo de corrida: alrededor de 7 minutos
@@ -83,13 +83,14 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/1g_base_sinadef_covid_2020"
 	do "programas/1h_base_sinadef_covid_2021"
 	do "programas/1i_base_unir"
-	*do "programas/1j_datos_mapa_calor" // semanal 
+	do "programas/1j_datos_mapa_calor" // semanal 
 
 	
 * 2. Generar datos a nivel regional y provincial
 	do "programas/2a_series_diarias_region"
 	do "programas/2b_series_diarias_provincias"
 	do "programas/2c_panel_diario_provincias"
+
 
 * 3. Figuras para la "Sala Situacional COVID-19" diaria
 	do "programas/3a_figura_etapa_vida"
@@ -105,12 +106,13 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "C:\Users\HP\Documents\GitHub\covid-cusco\dashboard-covid-geresa\data\MasterDofile"
 		* Ocupación de camas (semanalmente)
 	do  "C:\Users\HP\Documents\GitHub\covid-cusco\dashboard-covid-geresa\data\source1_camas\main"
-    */
+	*/
+
 
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	do "programas/2d_series_semanales_region" // Generar datos semanales region
-	do "programas/4a_figura_casos_def_region"
-	do "programas/4b_figura_mort_edad_region"
+	**do "programas/4a_figura_casos_def_region"
+	**do "programas/4b_figura_mort_edad_region"
 
 	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	do "programas/4c_figura_inci_mort_positi_provincial"
@@ -122,7 +124,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/4d_figura_exceso_regional"
 	do "programas/4e_figura_exceso_provincial"
 
-/*
+
 	* Hospitalización
 	do "programas/4f_figuras_hospitales"
 	

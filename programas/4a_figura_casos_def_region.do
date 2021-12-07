@@ -174,7 +174,6 @@ gr export "figuras\sintomaticos_20_21.pdf", as(pdf) name("sintomaticos_20_21") r
 ********************************************************************************
 * 2020
 twoway (scatter sintomatico_pcr semana, msize(vsmall) mcolor("$mycolor5") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor5")) ///
-(scatter sintomatico_pr_sis semana, msize(vsmall) mcolor("$mycolor6") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor1")) ///
 (scatter sintomatico_ag semana, msize(vsmall) mcolor("$mycolor3") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor3") ) ///
 if semana>=1 & semana<=53, ///
 	ylabel(0(200)1000, labsize(*0.6)) ///
@@ -183,7 +182,7 @@ if semana>=1 & semana<=53, ///
 	ytitle("Casos sintomáticos", margin(0 4 0 0)) ///
 	graphregion(color(white)) ///
 	title("2020", box bexpand bcolor("$mycolor3") color(white)) ///
-	legend(label(1 "Sintomáticos PCR") label(2 "Sintomáticos PR") label(3 "Sintomaticos AG") size(*0.75) region(col(white))) ///
+	legend(label(1 "Sintomáticos PCR") label(2 "Sintomaticos AG") size(*0.75) region(col(white))) ///
 	bgcolor(white) ///
 	ylabel(, nogrid) ///	
 	name(sinto_prueba20_20, replace)
@@ -191,7 +190,6 @@ if semana>=1 & semana<=53, ///
 * 2021
   
 twoway (scatter sintomatico_pcr semana_2, msize(vsmall) mcolor("$mycolor5") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor5")) ///
-(scatter sintomatico_pr_sis semana_2, msize(vsmall) mcolor("$mycolor6") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor1")) ///
 (scatter sintomatico_ag semana_2, msize(vsmall) mcolor("$mycolor3") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor3") ) ///
 if semana_2>=1 & semana_2<=$semana, ///
 	ylabel(0(200)1000, labsize(*0.6)) ///
@@ -200,7 +198,7 @@ if semana_2>=1 & semana_2<=$semana, ///
 	ytitle("") ///
 	graphregion(color(white)) ///
 	title("2021", box bexpand bcolor("$mycolor3") color(white)) ///
-	legend(label(1 "Sintomáticos PCR") label(2 "Sintomáticos PR") label(3 "Sintomaticos AG") size(*0.75) region(col(white))) ///
+	legend(label(1 "Sintomáticos PCR") label(2 "Sintomaticos AG") size(*0.75) region(col(white))) ///
 	bgcolor(white) ///
 	ylabel(, nogrid) ///	
 	name(sinto_prueba20_21, replace)
