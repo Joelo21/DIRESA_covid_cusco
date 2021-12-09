@@ -14,8 +14,9 @@ rename PROVINCIADOMICILIO provincia
 gen fecha = mdy(MES, DIA, AÑO)
 format fecha %td
 sort fecha
+
 * Datos Ing Ray
-*append using "${datos}\output\data_25_10", force
+append using "${datos}\output\data_25_10", force
 
 * Borramos duplicados de DNI
 rename DOCUMENTO dni

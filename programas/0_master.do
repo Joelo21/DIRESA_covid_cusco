@@ -68,7 +68,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-
+/*
 * 1. Construir las base de datos
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -98,26 +98,24 @@ x
 	do "programas/3d_figura_promedio_casos_def"
 	do "programas/3e_sintomaticos"
 
-	/*
+*/
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard"
 	** Cambiar la dirección si es necesario
-	do "C:\Users\HP\Documents\GitHub\covid-cusco\dashboard-covid-geresa\data\MasterDofile"
-		* Ocupación de camas (semanalmente)
-	do  "C:\Users\HP\Documents\GitHub\covid-cusco\dashboard-covid-geresa\data\source1_camas\main"
-	*/
-
+	do "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco\dashboard-covid-19\data\MasterDofile"
+	** Ocupación de camas (semanalmente)
+	do  "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco\dashboard-covid-19\data\source1_camas\main"
+/*
 
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	*do "programas/2d_series_semanales_region" // Generar datos semanales region
-	do "programas/4a_figura_casos_def_region"
+	*do "programas/4a_figura_casos_def_region"
 	**do "programas/4b_figura_mort_edad_region"
-/*
-	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
-	do "programas/4c_figura_inci_mort_positi_provincial"
+	**do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
+	**do "programas/4c_figura_inci_mort_positi_provincial"
 
 	** Datos para los excesos de defunciones
-	*do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
+	do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
 	do "programas/1m_datos_defunciones_2020_2021_regional"
 	do "programas/1n_datos_defunciones_2020_2021_provincial"
 	do "programas/4d_figura_exceso_regional"
@@ -129,8 +127,8 @@ x
 	
 	* Tabla cero defunciones
 	*do "programas\4z_tabla_cero_defunciones.do"
-*/
-/*
+
+
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
