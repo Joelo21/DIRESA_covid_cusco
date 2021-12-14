@@ -40,7 +40,7 @@ if semana>=1 & semana <=$semana ///
 name(de21, replace) ///
 title("2021", box bexpand bcolor("$mycolor3") color(white)) ///
 bgcolor(white) xlabel(, nogrid) ylabel(, nogrid) ///
-text(180 $semana "{it:Exceso: `exceso_actual'}", place(se) box just(left) margin(l+2 t+1 b+1) width(25) size(small) color(white) bcolor("$mycolor2") fcolor("$mycolor2"))
+text(180 $semana "{it:Exceso:`exceso_actual'}", place(se) box just(left) margin(l+2 t+1 b+1) width(25) size(small) color(white) bcolor("$mycolor2") fcolor("$mycolor2"))
 
 * Combinamos los gráficos
 graph combine de20 de21, ///
