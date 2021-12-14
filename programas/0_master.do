@@ -58,7 +58,7 @@ colorpalette ///
   , n(7)
   
 gr export "figuras/paleta_colores.png", as(png) replace
-/*
+
 
 * Se analiza los casos, defunciones, ocupación de camas, vacunas, variantes de COVID-19 en la Región Cusco
 * Para ello, se cuenta con distintas fuentes de información 
@@ -107,13 +107,11 @@ x
 		* Ocupación de camas (semanalmente)
 	do  "C:\Users\HP\Documents\GitHub\covid-cusco\dashboard-covid-geresa\data\source1_camas\main"
 	*/
-
-
+X
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	do "programas/2d_series_semanales_region" // Generar datos semanales region
 	do "programas/4a_figura_casos_def_region"
 	do "programas/4b_figura_mort_edad_region"
-
 	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	do "programas/4c_figura_inci_mort_positi_provincial"
 
@@ -131,14 +129,12 @@ x
 	* Tabla cero defunciones
 	*do "programas\4z_tabla_cero_defunciones.do"
 
-
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
 	do "programas\5c_juntar"
 	do "programas\5d_figura_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
-*/
 
 * 6. Vacunados
 	do "programas\6a_base_vacunados"

@@ -70,7 +70,7 @@ twoway (line positividad_pcr semana, lcolor("$mycolor6") lwidth(medthick)) ///
   bgcolor(white) ///
   ylabel(, nogrid) xlabel(, nogrid) ///
   legend(cols(2) label(1 "Positividad PCR (%)") label(2 "Positividad AG (%)") label(3 " ") label (4 " ") size(*0.6) order(1 2 3 4) region(fcolor(white) lcolor(white))) ///
-  text(5 $semana "{it:Acualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor4") fcolor("$mycolor4")) name(tasa_pos, replace)
+  //text(5 $semana "{it:Acualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor4") fcolor("$mycolor4")) name(tasa_pos, replace)
   
 graph export "figuras\positividad_diaria.png", as(png) replace  
 

@@ -3,21 +3,21 @@
 \beamer@sectionintoc {3}{Cobertura de Vacunación, Región Cusco}{27}{0}{3}
 \beamer@sectionintoc {4}{Indicadores de Gestión Hospitalaria}{30}{0}{4}
 \beamer@sectionintoc {5}{Indicadores por Provincias}{40}{0}{5}
-\beamer@sectionintoc {6}{Resumen }{44}{0}{6}
-\beamer@sectionintoc {7}{Links Útiles}{49}{0}{7}
-\beamer@sectionintoc {8}{Apéndice}{51}{1}{8}
-\beamer@subsectionintoc {8}{1}{Vacunación por Provincias y Grupo de Edad}{52}{1}{8}
-\beamer@subsectionintoc {8}{2}{Acomayo}{59}{1}{8}
-\beamer@subsectionintoc {8}{3}{Anta}{63}{1}{8}
-\beamer@subsectionintoc {8}{4}{Calca}{67}{1}{8}
-\beamer@subsectionintoc {8}{5}{Canas}{71}{1}{8}
-\beamer@subsectionintoc {8}{6}{Canchis}{75}{1}{8}
-\beamer@subsectionintoc {8}{7}{Chumbivilcas}{79}{1}{8}
-\beamer@subsectionintoc {8}{8}{Cusco}{83}{1}{8}
-\beamer@subsectionintoc {8}{9}{Espinar}{87}{1}{8}
-\beamer@subsectionintoc {8}{10}{La Convención}{91}{1}{8}
-\beamer@subsectionintoc {8}{11}{Paruro}{95}{1}{8}
-\beamer@subsectionintoc {8}{12}{Paucartambo}{99}{1}{8}
-\beamer@subsectionintoc {8}{13}{Quispicanchi}{103}{1}{8}
-\beamer@subsectionintoc {8}{14}{Urubamba}{107}{1}{8}
-\beamer@subsectionintoc {8}{15}{Mapas Variantes}{111}{1}{8}
+\beamer@sectionintoc {6}{Resumen }{45}{0}{6}
+\beamer@sectionintoc {7}{Links Útiles}{50}{0}{7}
+\beamer@sectionintoc {8}{Apéndice}{52}{1}{8}
+\beamer@subsectionintoc {8}{1}{Vacunación por Provincias y Grupo de Edad}{53}{1}{8}
+\beamer@subsectionintoc {8}{2}{Acomayo}{60}{1}{8}
+\beamer@subsectionintoc {8}{3}{Anta}{64}{1}{8}
+\beamer@subsectionintoc {8}{4}{Calca}{68}{1}{8}
+\beamer@subsectionintoc {8}{5}{Canas}{72}{1}{8}
+\beamer@subsectionintoc {8}{6}{Canchis}{76}{1}{8}
+\beamer@subsectionintoc {8}{7}{Chumbivilcas}{80}{1}{8}
+\beamer@subsectionintoc {8}{8}{Cusco}{84}{1}{8}
+\beamer@subsectionintoc {8}{9}{Espinar}{88}{1}{8}
+\beamer@subsectionintoc {8}{10}{La Convención}{92}{1}{8}
+\beamer@subsectionintoc {8}{11}{Paruro}{96}{1}{8}
+\beamer@subsectionintoc {8}{12}{Paucartambo}{100}{1}{8}
+\beamer@subsectionintoc {8}{13}{Quispicanchi}{104}{1}{8}
+\beamer@subsectionintoc {8}{14}{Urubamba}{108}{1}{8}
+\beamer@subsectionintoc {8}{15}{Mapas Variantes}{112}{1}{8}

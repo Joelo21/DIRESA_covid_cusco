@@ -38,7 +38,7 @@ gen icd_new = ""
 replace icd_new = substr(NOMBDIST,1,3) if _merge == 3
 
 * Mapa distrital de cantidad de variantes
-spmap variantes using "mapas\distrital_co", id(id) fcolor("$mycolor3" "$mycolor2" "$mycolor4" "$mycolor5") label(xcoord( x_c ) ycoord( y_c ) label(icd_new)) name(mapa_distrital, replace)
+spmap variantes using "mapas\distrital_co", id(id) fcolor("$mycolor3" "$mycolor2" "$mycolor4" "$mycolor5") /*label(xcoord( x_c ) ycoord( y_c ) label(icd_new))*/ name(mapa_distrital, replace)
 
 gr export "figuras\variantes_distrital.png", as(png) replace
 gr export "figuras\variantes_distrital.pdf", as(pdf) replace
