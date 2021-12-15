@@ -1,6 +1,6 @@
 
 use "${datos}\output\serie_semanal_region.dta", clear
-
+/*
 ********************************************************************************
 * Defunciones
 ********************************************************************************
@@ -168,7 +168,7 @@ name(sintomaticos_20_21, replace)
 
 gr export "figuras\sintomaticos_20_21.png", as(png) replace
 gr export "figuras\sintomaticos_20_21.pdf", as(pdf) name("sintomaticos_20_21") replace
-
+*/
 ********************************************************************************
 * Sintomaticos por tipo de prueba
 ********************************************************************************
@@ -213,7 +213,7 @@ name(sinto_prueba_20_21, replace)
 gr export "figuras\sinto_prueba_20_21.png", as(png) replace
 gr export "figuras\sinto_prueba_20_21.pdf", as(pdf) name("sinto_prueba_20_21") replace
 
-
+/*
 ********************************************************************************
 * Tasa de Positividad por PCR y AG: 2021
 ********************************************************************************
@@ -254,5 +254,5 @@ graph export "figuras\positividad_ag.pdf", as(pdf) replace
 
 **gr export "figuras\positividad_ambas.png", as(png) replace
 **graph export "figuras\positividad_ambas.pdf", as(pdf) replace
-
+*/
  
