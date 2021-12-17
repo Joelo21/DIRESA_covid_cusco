@@ -25,7 +25,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 13dec2021
+global fecha 11dec2021
 global semana 49	
 
 * Tiempo de corrida: alrededor de 7 minutos
@@ -121,7 +121,7 @@ X
 	do "programas/1n_datos_defunciones_2020_2021_provincial"
 	
 	do "programas/4d_figura_exceso_regional"
-	
+		
 	*do "programas/4e_figura_exceso_provincial"
 	
 	* Hospitalización
@@ -135,6 +135,7 @@ X
 	do "programas\5c_juntar"
 	do "programas\5d_figura_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
+
 
 * 6. Vacunados
 	do "programas\6a_base_vacunados"

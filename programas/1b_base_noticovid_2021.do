@@ -1,4 +1,3 @@
-
 import excel "${datos}\raw\base_noticovid_2021.xlsx", sheet(base) firstrow clear
 
 * Mantener sólo pruebas de Cusco y por prueba molecular

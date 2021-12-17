@@ -4,22 +4,23 @@ import delimited "${datos}\raw\vacunacovid.csv", varnames(1) encoding(UTF-8)  cl
 rename numero dni
 
 * Fecha de nacimiento
-*gen fecha_2 = fnac
-*split fecha_2, parse(-) destring
-*rename (fecha_2?) (dia2 mes2 año2)
-*gen fecha_nacimiento = daily(fecha_2, "DMY")
-*format fecha_nacimiento %td
+gen fecha_2 = fnac
+split fecha_2, parse(-) destring
+rename (fecha_2?) (año2 mes2 dia2)
+gen fecha_nacimiento = daily(fecha_2, "YMD")
+format fecha_nacimiento %td
 
 * Edad
-*gen Edad = 2020 - año2
-
-
+gen yr =year(fecha_nacimiento)
+gen int yrint = round(yr)
+destring yrint, replace force
+gen EdadGE = 2021 - yrint
 
 * Fecha de vacunación
 gen fecha_1 = fvac
 split fecha_1, parse(-) destring
-rename (fecha_1?) ( dia1 mes1 año1)
-gen fecha_vacuna = daily(fecha_1, "DMY")
+rename (fecha_1?) (año1 mes1 dia1)
+gen fecha_vacuna = daily(fecha_1, "YMD")
 format fecha_vacuna %td
 
 * Ordenar por fecha de vacunación y DNI para indicar primera y segunda dosis
@@ -32,12 +33,12 @@ quietly by dni: gen num_dupli = cond(_N==1,0,_n)
 *rename dosis dosis_old
 
 gen dosis = .
-replace dosis = 1 if dupli == 0
+replace dosis = 1 if dupli == 0	
 replace dosis = 2 if dupli == 1 & num_dupli == 2
 replace dosis = 3 if num_dupli >2
 
 * Mantener una copia de los que tienen una dosis, dos dosis, y tres dosis
-keep if dosis == 1 | dosis == 2 | dosis == 3
+*keep if dosis == 1 | dosis == 2 | dosis == 3
 
 * Mantener las variables de interés
 rename fecha_vacuna fecha_ultima_vacuna
@@ -60,8 +61,9 @@ replace ubigeo = "0"+ubigeo
 * Normalizar los ubigeo como sale en el nacional
 *replace ubigeo = subinstr(ubigeo,"07","08",.)
 
-keep dni fecha_ultima_vacuna dosis edad ubigeo
+keep dni fecha_nacimiento fecha_ultima_vacuna dosis yrint edad EdadGE ubigeo
 
+destring EdadGE, replace force
 destring edad, replace force
 
 save "${datos}\output\base_vacunados", replace
