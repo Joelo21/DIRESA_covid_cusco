@@ -1,6 +1,6 @@
 
 use "${datos}\output\serie_semanal_region.dta", clear
-/*
+
 ********************************************************************************
 * Defunciones
 ********************************************************************************
@@ -123,8 +123,9 @@ twoway (line positivo_d semana_2, lcolor("$mycolor6") lwidth(medthick) lpattern(
 gr export "figuras\positivos_crecimiento_2021.png", as(png) replace
 gr export "figuras\positivos_crecimiento_2021.pdf", as(pdf) name("positivos20_21") replace
 
+/*
 ********************************************************************************
-* Sintomaticos y asintomaticos
+* Sintomaticos y asintomaticos :: Cambiar positivo desde base_unir y poder contar con ag+pcr+pr solo para este grafico | por lo demas dejamos el mismo
 ********************************************************************************
 * 2020
 twoway (line sintomatico semana, lcolor("$mycolor4") lwidth(medthick) lpattern(dot)) ///
@@ -169,6 +170,7 @@ name(sintomaticos_20_21, replace)
 gr export "figuras\sintomaticos_20_21.png", as(png) replace
 gr export "figuras\sintomaticos_20_21.pdf", as(pdf) name("sintomaticos_20_21") replace
 */
+
 ********************************************************************************
 * Sintomaticos por tipo de prueba
 ********************************************************************************
@@ -213,7 +215,7 @@ name(sinto_prueba_20_21, replace)
 gr export "figuras\sinto_prueba_20_21.png", as(png) replace
 gr export "figuras\sinto_prueba_20_21.pdf", as(pdf) name("sinto_prueba_20_21") replace
 
-/*
+
 ********************************************************************************
 * Tasa de Positividad por PCR y AG: 2021
 ********************************************************************************

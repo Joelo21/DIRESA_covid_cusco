@@ -66,7 +66,7 @@ if semana>=1 & semana <=$semana ///
   legend(label(1 "2019") label(2 "2021") size(*0.6) region(col(white))) ///
   title("2021", box bexpand bcolor("$mycolor3") color(white)) ///
   bgcolor(white) xlabel(, nogrid) ylabel(, nogrid) ///
-  text(`posicion' $semana "{it:Exceso: `exceso_prov_`i''}", place(se) box just(left) margin(l+1 t+1 b+1) width(23) size(small) color(white) bcolor("$mycolor2") fcolor("$mycolor2"))
+  text(`posicion' $semana "{it:Exceso: `exceso_prov_`i''}", place(n) box just(left) margin(l+1 t+1 b+1) width(20) size(small) color(white) bcolor("$mycolor2") fcolor("$mycolor2"))
 
 * Combinamos los gráficos
 graph combine p20_`i' p21_`i', ///
