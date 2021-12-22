@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.5.6)  22 DEC 2021 08:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.5.6)  22 DEC 2021 08:56
 entering extended mode
 **./sala_covid.tex
 (sala_covid.tex
@@ -2987,14 +2987,8 @@ ut line 1516.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `sala_covid.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `sala_covid.out':
-(rerunfilecheck)             Before: 21843922906B2688AE214B149AD38CAF;3297
-(rerunfilecheck)             After:  DDA493BA76D53F0BAA1D89750A06A8CA;1502.
+Package rerunfilecheck Info: File `sala_covid.out' has not changed.
+(rerunfilecheck)             Checksum: DDA493BA76D53F0BAA1D89750A06A8CA;1502.
  ) 
 Here is how much of TeX's memory you used:
  37765 strings out of 479618
@@ -3025,7 +3019,7 @@ e1/public/lm/lmsy10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/
 public/lm/lmsy6.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/symbols/msam10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/newpx/npxsups-Regular.pfb>
-Output written on sala_covid.pdf (116 pages, 9665016 bytes).
+Output written on sala_covid.pdf (116 pages, 9663245 bytes).
 PDF statistics:
  2211 PDF objects out of 2487 (max. 8388607)
  338 named destinations out of 1000 (max. 500000)
