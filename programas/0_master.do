@@ -10,12 +10,13 @@ clear all
 set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
-	global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
-	
+	*global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
-    global datos "G:\Mi unidad\Datos"
+    *global datos "G:\Mi unidad\Datos"
+	global datos "E:\Mi unidad\Datos"
 
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -112,15 +113,15 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/4b_figura_mort_edad_region"
 	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	do "programas/4c_figura_inci_mort_positi_provincial"
-	
+	*/
 	** Datos para los excesos de defunciones
-	do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
+	*do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
 	do "programas/1m_datos_defunciones_2020_2021_regional"
 	do "programas/1n_datos_defunciones_2020_2021_provincial"
 
 	do "programas/4d_figura_exceso_regional"
 	do "programas/4e_figura_exceso_provincial"
-*/
+/*
 	* Hospitalización
 	do "programas/4f_figuras_hospitales"
 	* Tabla cero defunciones
