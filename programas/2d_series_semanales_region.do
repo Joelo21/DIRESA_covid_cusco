@@ -44,7 +44,7 @@ replace semana_2 = . if semana_2 < 0
 * Generar la tasa de positividad semanal: casos semanales por tipo de prueba / numero de positivos y negativos por tipo de prueba x 100
 gen positividad_pcr = positivo_pcr/prueba_pcr*100
 gen positividad_ag = positivo_ag/prueba_ag*100
-*gen positividad_pr = positivo_pr/prueba_pr*100
+gen positividad_pr = positivo_pr/prueba_pr*100
 
 * Etiquetar las variables
 label var semana "Semana Epidemiológica"
