@@ -10,8 +10,9 @@ clear all
 set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
-	global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
 	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	 global path "E:\DIRESA\GERESA_covid_cusco"
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
@@ -26,8 +27,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 25dec2021
-global semana 51	
+global fecha 28dec2021
+global semana 52	
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -74,30 +75,30 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
 	*do "programas/1a_base_noticovid_2020"
-*   do "programas/1b_base_noticovid_2021"
+	do "programas/1b_base_noticovid_2021"
 	*do "programas/1c_base_siscovid_pr_2020"
-*	do "programas/1d_base_siscovid_pr_2021"
+	do "programas/1d_base_siscovid_pr_2021"
 	*do "programas/1e_base_siscovid_ag_2021_1"
-*	do "programas/1f_base_siscovid_ag_2021_2"
+	do "programas/1f_base_siscovid_ag_2021_2"
 	*do "programas/1g_base_sinadef_covid_2020"
-*	do "programas/1h_base_sinadef_covid_2021"
-*	do "programas/1i_base_unir"
-*	do "programas/1j_datos_mapa_calor" // semanal 
+	do "programas/1h_base_sinadef_covid_2021"
+	do "programas/1i_base_unir"
+	do "programas/1j_datos_mapa_calor" // semanal 
 
 
 * 2. Generar datos a nivel regional y provincial
-*	do "programas/2a_series_diarias_region"
-*	do "programas/2b_series_diarias_provincias"
-*	do "programas/2c_panel_diario_provincias"
+	do "programas/2a_series_diarias_region"
+	do "programas/2b_series_diarias_provincias"
+	do "programas/2c_panel_diario_provincias"
 
 
 * 3. Figuras para la "Sala Situacional COVID-19" diaria
-*	do "programas/3a_figura_etapa_vida"
-*	do "programas/3b_figura_inci_morta_diario"
-*	do "programas/3c_figura_positividad"
-*	do "programas/3d_figura_promedio_casos_def"
-*	do "programas/3e_sintomaticos"
-
+	do "programas/3a_figura_etapa_vida"
+	do "programas/3b_figura_inci_morta_diario"
+	do "programas/3c_figura_positividad"
+	do "programas/3d_figura_promedio_casos_def"
+	do "programas/3e_sintomaticos"
+x
 	/*
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard"
