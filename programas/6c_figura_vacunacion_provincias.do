@@ -3,21 +3,21 @@ use "${datos}\output\base_vacunados", clear
 
 merge m:1 ubigeo using "${datos}\output\ubigeos"
 
-drop if edad < 12
-drop if missing(edad)
-drop if edad > 109
+drop if EdadGE < 12
+drop if missing(EdadGE)
+drop if EdadGE > 109
 
 * Generar las categorías de las etapas de vida
 gen grupo_edad = .
-replace grupo_edad = 1 if edad >= 12 & edad <= 19
-replace grupo_edad = 2 if edad >= 20 & edad <= 29
-replace grupo_edad = 3 if edad >= 30 & edad <= 39
-replace grupo_edad = 4 if edad >= 40 & edad <= 49
-replace grupo_edad = 5 if edad >= 50 & edad <= 59
-replace grupo_edad = 6 if edad >= 60 & edad <= 69
-replace grupo_edad = 7 if edad >= 70 & edad <= 79
-replace grupo_edad = 8 if edad >= 80 
-label variable grupo_edad "Grupo de Edad"
+replace grupo_edad = 1 if EdadGE >= 12 & EdadGE <= 19
+replace grupo_edad = 2 if EdadGE >= 20 & EdadGE <= 29
+replace grupo_edad = 3 if EdadGE >= 30 & EdadGE <= 39
+replace grupo_edad = 4 if EdadGE >= 40 & EdadGE <= 49
+replace grupo_edad = 5 if EdadGE >= 50 & EdadGE <= 59
+replace grupo_edad = 6 if EdadGE >= 60 & EdadGE <= 69
+replace grupo_edad = 7 if EdadGE >= 70 & EdadGE <= 79
+replace grupo_edad = 8 if EdadGE >= 80 
+label variable grupo_edad "Grupo de EdadGE"
 label define grupo_edad 1 "12-19 años" 2 "20-29 años" 3 "30-39 años" 4 "40-49 años" 5 "50-59 años" 6 "60-69 años" 7 "70-79 años" 8 "80 a más años"
 label values grupo_edad grupo_edad
 tab grupo_edad
@@ -47,9 +47,9 @@ gen numero = _n
 
 replace dosis = 2 if dosis == 3
 
-save "${datos}\output\base_vacunados_variables", replace
+save "${datos}\output\base_vacunados_variables.dta", replace
 
-*use "datos\output\base_vacunados_variables", clear
+*use "${datos}\output\base_vacunados_variables.dta", clear
 
 forvalues i = 1/2 {
 

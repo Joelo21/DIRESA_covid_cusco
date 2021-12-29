@@ -10,9 +10,10 @@ clear all
 set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
-	*global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
 	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
-	 global path "E:\DIRESA\GERESA_covid_cusco"
+	*global path "E:\DIRESA\GERESA_covid_cusco"
+	
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
@@ -27,8 +28,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 28dec2021
-global semana 52	
+global fecha 25dec2021
+global semana 51	
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -60,7 +61,7 @@ colorpalette ///
   , n(7)
   
 gr export "figuras/paleta_colores.png", as(png) replace
-
+/*
 * Se analiza los casos, defunciones, ocupación de camas, vacunas, variantes de COVID-19 en la Región Cusco
 * Para ello, se cuenta con distintas fuentes de información 
 ** 1. NOTICOVID: casos por prueba molecular
@@ -98,7 +99,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/3c_figura_positividad"
 	do "programas/3d_figura_promedio_casos_def"
 	do "programas/3e_sintomaticos"
-x
+
 	/*
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard"
@@ -106,15 +107,15 @@ x
 	do "C:\Users\PC\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
 		* Ocupación de camas (semanalmente)
 	do  "C:\Users\PC\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
-*/
+	*/
 
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	do "programas/2d_series_semanales_region" // Generar datos semanales region
 	do "programas/4a_figura_casos_def_region"
-*	do "programas/4b_figura_mort_edad_region"
-*	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
-*	do "programas/4c_figura_inci_mort_positi_provincial"
-x
+	do "programas/4b_figura_mort_edad_region"
+	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
+	do "programas/4c_figura_inci_mort_positi_provincial"
+
 	** Datos para los excesos de defunciones
 	*do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
 	do "programas/1m_datos_defunciones_2020_2021_regional"
@@ -122,25 +123,25 @@ x
 
 	do "programas/4d_figura_exceso_regional"
 	do "programas/4e_figura_exceso_provincial"
-/*
+
 	* Hospitalización
 	do "programas/4f_figuras_hospitales"
 	* Tabla cero defunciones
 	*do "programas\4z_tabla_cero_defunciones.do"
 
-/*
+
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
 	do "programas\5c_juntar"
 	do "programas\5d_figura_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
-
-* 6. Vacunados
-	do "programas\6a_base_vacunados"
-	do "programas\6b_figura_vacunacion"
-	do "programas\6c_figura_vacunacion_provincias"	
 */
+* 6. Vacunados
+*	do "programas\6a_base_vacunados"
+*	do "programas\6b_figura_vacunacion"
+	do "programas\6c_figura_vacunacion_provincias"	
+
 
 /*
 * 7. Figuras para el "Boletin COVID-19" Mensual

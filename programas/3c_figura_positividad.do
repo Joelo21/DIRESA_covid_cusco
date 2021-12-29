@@ -90,7 +90,7 @@ twoway (line tasa_incidencia semana, lcolor("$mycolor6") lwidth()) ///
 (scatter tasa_incidencia semana, msymbol(none) mlabel(tasa_incidencia) mlabcolor("$mycolor3") mlabsize(*0.6) mlabposition(12)) ///
   , ysize(5) xsize(6.1) ///
   xtitle("Semanas Epidemiológicas", size(*0.6)) ///
-  ytitle("Tasa de Incidencia (%)", size(*0.6)) ///
+  ytitle("Tasa de Incidencia", size(*0.6)) ///
   ylabel(0(50)400, labsize(*0.60)) ///
   xlabel(1(2)$semana, labsize(*0.60)) ///
   plotregion(fcolor(white) lcolor(white)) ///

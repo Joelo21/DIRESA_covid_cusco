@@ -74,7 +74,7 @@ local total = r(mean)*r(N)
 gen porcentaje = 100*frecuencia/`total'
 
 graph hbar porcentaje, over(sintoma, sort(porcentaje) descending) graphregion(color(white)) ///
-blabel(bar, format(%4.1f)) bar(1, fcolor("$mycolor2") lcolor("$mycolor2") ) ///
+blabel(bar, format(%4.1f)) bar(1, fcolor("$mycolor6") lcolor("$mycolor6") ) ///
 ytitle("% de Pacientes con al menos el síntoma") ///
 bgcolor(white) ///
 ylabel(, nogrid)
@@ -143,7 +143,7 @@ local total = r(mean)*r(N)
 gen porcentaje = 100*frecuencia/`total'
 
 graph hbar porcentaje, over(comorbilidad, sort(porcentaje) descending) graphregion(color(white)) ///
-blabel(bar, format(%4.1f)) bar(1, fcolor("$mycolor3") lcolor("$mycolor3")) ///
+blabel(bar, format(%4.1f)) bar(1, fcolor("$mycolor7") lcolor("$mycolor7")) ///
 ytitle("% de Pacientes con al menos la comorbilidad") ///
 bgcolor(white) ///
 ylabel(, nogrid)
@@ -207,7 +207,7 @@ local total = r(mean)*r(N)
 gen porcentaje = 100*frecuencia/`total'
   
 graph hbar porcentaje, over(signo, sort(porcentaje) descending) graphregion(color(white)) ///
-blabel(bar, format(%4.1f)) bar(1, fcolor("$mycolor4") lcolor("$mycolor4")) ///
+blabel(bar, format(%4.1f)) bar(1, fcolor("$mycolor3") lcolor("$mycolor3")) ///
 ytitle("% de Pacientes con al menos un signo") ///
 bgcolor(white) ///
 ylabel(, nogrid)

@@ -73,7 +73,7 @@ sort lugar
 *tab lugar
 
 graph hbar (percent), over(lugar) graphregion(color(white)) ///
-blabel(bar, format(%4.1f)) bar(1, fcolor("$mycolor5") lcolor("$mycolor5")) ///
+blabel(bar, format(%4.1f)) bar(1, fcolor("$mycolor2") lcolor("$mycolor2")) ///
 bgcolor(white) ///
 ylabel(, nogrid) ///
 ytitle("Defunciones (%)")

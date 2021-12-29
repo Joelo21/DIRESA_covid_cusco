@@ -1,9 +1,10 @@
 
 use "${datos}\output\serie_semanal_region.dta", clear
-/*
+
 ********************************************************************************
 * Defunciones
 ********************************************************************************
+
 * 2020
 twoway (line defuncion semana, lcolor("$mycolor2") lwidth(medthick)) ///
 (scatter defuncion semana, msize(vsmall) mcolor("$mycolor2") mlabel(defuncion) mlabcolor("$mycolor3") mlabsize(tiny) connect() xline(52, lcolor("$mycolor1") lpattern(longdash) lwidth(thick))) ///
@@ -42,8 +43,10 @@ name(defunciones_20_21, replace)
 gr export "figuras\defunciones_20_21.png", as(png) replace
 gr export "figuras\defunciones_20_21.pdf", as(pdf) name("defunciones_20_21") replace
 
-
+********************************************************************************
 * Tasas de Crecimiento Semanal 2021
+********************************************************************************
+
 twoway (line defuncion_d semana_2, lcolor("$mycolor6") lwidth(medthick) lpattern(longdash)) ///
 (scatter defuncion_d semana_2, msize(vsmall) mcolor("$mycolor6") mlabel(defuncion_d) mlabcolor("$mycolor2") mlabsize(tiny) connect() xline(1, lcolor("$mycolor1") lpattern(shortdash) lwidth(thick)) xline(13, lcolor("$mycolor2") lpattern(shortdash) lwidth(thick)) xline(15, lcolor("$mycolor3") lpattern(shortdash) lwidth(thick)) xline(23, lcolor("$mycolor4") lpattern(dash_dot) lwidth(thick))) ///
  if semana_2 >=1 & semana_2<=$semana, ///
@@ -252,9 +255,9 @@ if semana_2>=1 & semana_2 <=$semana									///
 graph export "figuras\positividad_ag.pdf", as(pdf) replace
 
 * Combinar figuras y exportar en PDF y PNG
-**graph combine pcr ag, graphregion(margin(zero)) name(positividad, replace)
+graph combine pcr ag, graphregion(margin(zero)) name(positividad, replace)
 
-**gr export "figuras\positividad_ambas.png", as(png) replace
-**graph export "figuras\positividad_ambas.pdf", as(pdf) replace
+gr export "figuras\positividad_ambas.png", as(png) replace
+graph export "figuras\positividad_ambas.pdf", as(pdf) replace
 
  
