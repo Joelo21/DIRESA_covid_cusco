@@ -17,7 +17,7 @@ set more off
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
-    global datos "G:\Mi unidad\Datos"
+    global datos "G:\Mi unidad\Datos"	
 	*global datos "E:\Mi unidad\Datos"
 
 * Acción requerida: programas para realizar mapas
@@ -28,8 +28,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 25dec2021
-global semana 51	
+global fecha 31dec2021
+global semana 52	
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -61,7 +61,7 @@ colorpalette ///
   , n(7)
   
 gr export "figuras/paleta_colores.png", as(png) replace
-/*
+
 * Se analiza los casos, defunciones, ocupación de camas, vacunas, variantes de COVID-19 en la Región Cusco
 * Para ello, se cuenta con distintas fuentes de información 
 ** 1. NOTICOVID: casos por prueba molecular
@@ -71,7 +71,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-
+/*
 * 1. Construir las base de datos
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -84,9 +84,9 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/1g_base_sinadef_covid_2020"
 	do "programas/1h_base_sinadef_covid_2021"
 	do "programas/1i_base_unir"
-	do "programas/1j_datos_mapa_calor" // semanal 
+	*do "programas/1j_datos_mapa_calor" // semanal 
 
-
+x
 * 2. Generar datos a nivel regional y provincial
 	do "programas/2a_series_diarias_region"
 	do "programas/2b_series_diarias_provincias"
@@ -129,18 +129,18 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	* Tabla cero defunciones
 	*do "programas\4z_tabla_cero_defunciones.do"
 
-
+*/
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
 	do "programas\5c_juntar"
 	do "programas\5d_figura_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
-*/
+
 * 6. Vacunados
 *	do "programas\6a_base_vacunados"
 *	do "programas\6b_figura_vacunacion"
-	do "programas\6c_figura_vacunacion_provincias"	
+*	do "programas\6c_figura_vacunacion_provincias"	
 
 
 /*

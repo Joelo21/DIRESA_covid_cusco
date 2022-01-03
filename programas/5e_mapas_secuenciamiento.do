@@ -9,7 +9,7 @@ rename UBIGEO ubigeo
 
 sort ubigeo
 save "mapas\mapa_cusco_distrital", replace
-*/
+
 
 use "${datos}\output\datos_variantes", clear
 
@@ -102,7 +102,7 @@ rename PROVINCIA provincia
 
 sort provincia
 save "mapas\mapa_provincial", replace
-*/
+
 ***
 use "${datos}\output\datos_variantes", clear
 
