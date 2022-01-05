@@ -10,15 +10,15 @@ clear all
 set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
-	global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
-	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
+	 global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	*global path "E:\DIRESA\GERESA_covid_cusco"
 	
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
-    global datos "G:\Mi unidad\Datos"	
-	*global datos "E:\Mi unidad\Datos"
+    *global datos "G:\Mi unidad\Datos"	
+	global datos "E:\Mi unidad\Datos"
 
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -71,26 +71,26 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-/*
+
 * 1. Construir las base de datos
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
 	*do "programas/1a_base_noticovid_2020"
-	do "programas/1b_base_noticovid_2021"
+*	 do "programas/1b_base_noticovid_2021"
+	*do "programas/1b_base_noticovid_2022"
 	*do "programas/1c_base_siscovid_pr_2020"
-	do "programas/1d_base_siscovid_pr_2021"
+*	do "programas/1d_base_siscovid_pr_2021"
 	*do "programas/1e_base_siscovid_ag_2021_1"
-	do "programas/1f_base_siscovid_ag_2021_2"
+*	do "programas/1f_base_siscovid_ag_2021_2"
 	*do "programas/1g_base_sinadef_covid_2020"
-	do "programas/1h_base_sinadef_covid_2021"
+*	do "programas/1h_base_sinadef_covid_2021"
 	do "programas/1i_base_unir"
 	*do "programas/1j_datos_mapa_calor" // semanal 
 
-x
 * 2. Generar datos a nivel regional y provincial
 	do "programas/2a_series_diarias_region"
-	do "programas/2b_series_diarias_provincias"
-	do "programas/2c_panel_diario_provincias"
+*	do "programas/2b_series_diarias_provincias"
+*	do "programas/2c_panel_diario_provincias"
 
 
 * 3. Figuras para la "Sala Situacional COVID-19" diaria
@@ -99,7 +99,7 @@ x
 	do "programas/3c_figura_positividad"
 	do "programas/3d_figura_promedio_casos_def"
 	do "programas/3e_sintomaticos"
-
+*/
 	/*
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard"
@@ -112,6 +112,7 @@ x
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	do "programas/2d_series_semanales_region" // Generar datos semanales region
 	do "programas/4a_figura_casos_def_region"
+	x
 	do "programas/4b_figura_mort_edad_region"
 	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	do "programas/4c_figura_inci_mort_positi_provincial"
@@ -137,10 +138,11 @@ x
 	do "programas\5d_figura_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
 
+x
 * 6. Vacunados
-*	do "programas\6a_base_vacunados"
-*	do "programas\6b_figura_vacunacion"
-*	do "programas\6c_figura_vacunacion_provincias"	
+	do "programas\6a_base_vacunados"
+	do "programas\6b_figura_vacunacion"
+	do "programas\6c_figura_vacunacion_provincias"	
 
 
 /*
