@@ -9,7 +9,7 @@ use "${datos}\output\defunciones_totales_provincial_2019.dta", clear
 merge 1:1 semana using "${datos}\output\defunciones_totales_provincias_2020_2021.dta", nogen
 
 * Eliminar la semana mayor a 53
-drop if semana > 53
+drop if semana > 54
 
 * Generar los excesos para cada semana epidemiológica y para cada provincia
 forvalues t=1/13 {
@@ -55,7 +55,7 @@ if semana>=1 & semana <=53 ///
 
 * Graficamos 
 twoway (line d19_`i' semana, lcolor("$mycolor3")) ///
-(line d21_`i' semana, lcolor("$mycolor2")) ///
+(line d21_`i' semana, lcolor("$mycolor2") lpattern(solid) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(mthick)) ) ///
 if semana>=1 & semana <=$semana ///
   ,xtitle("Semanas Epidemológicas", size(*0.9)) ///
   ytitle("Número de Defunciones por Toda Causa", size(*0.8)) ///
@@ -64,7 +64,7 @@ if semana>=1 & semana <=$semana ///
   graphregion(color(white)) ///
   name(p21_`i', replace) ///
   legend(label(1 "2019") label(2 "2021") size(*0.6) region(col(white))) ///
-  title("2021", box bexpand bcolor("$mycolor3") color(white)) ///
+  title("2021-2022", box bexpand bcolor("$mycolor3") color(white)) ///
   bgcolor(white) xlabel(, nogrid) ylabel(, nogrid) ///
   text(`posicion' $semana "{it:Exceso: `exceso_prov_`i''}", place(n) box just(left) margin(l+1 t+1 b+1) width(20) size(small) color(white) bcolor("$mycolor2") fcolor("$mycolor2"))
 

@@ -1,4 +1,4 @@
-import excel "${datos}\raw\base_noticovid_2022.xlsx", sheet(base) firstrow clear
+import excel "${datos}\raw\base_noticovid_2022.xlsx", sheet(BASE) firstrow clear
 
 * Mantener sólo pruebas de Cusco y por prueba molecular
 keep if diresa == "CUSCO"
@@ -76,6 +76,7 @@ tostring dni, replace force
 ********************************************************************************
 * Juntar con la base del 2020
 ********************************************************************************
-*append using "${datos}\output\base_noticovid_2020.dta", force
+append using "${datos}\output\base_noticovid_2020.dta", force
+append using "${datos}\output\base_noticovid.dta", force
 
 save "${datos}\output\base_noticovid_2022.dta", replace

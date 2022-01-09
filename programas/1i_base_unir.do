@@ -181,4 +181,4 @@ quietly by dni positivo_ag fecha_ag positivo_pr fecha_pr: gen dup_first=cond(_N=
 drop if dup >= 1
 */
 
-save "${datos}\output/base_covid_2022.dta", replace
+save "${datos}/output/base_covid_2022.dta", replace

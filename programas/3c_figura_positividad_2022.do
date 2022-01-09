@@ -53,10 +53,11 @@ gen positividad_ag = positivo_ag/prueba_ag*100
 format positividad_pcr positividad_pcr %12.0fc
 format positividad_pcr positividad_ag %12.0fc
 
+save "${datos}\output\data_positividad_diario_2022.dta", replace
 
 * Graficamos
 twoway (line positividad_pcr semana, lcolor("$mycolor6") lwidth(medthick)) ///
-(line positividad_ag semana, lcolor("$mycolor7") lwidth(medthick)) ///
+(line positividad_ag semana, lcolor("$mycolor7") lwidth(medthick) lpattern(solid) xline(20426.5, lcolor("$mycolor3") lpattern(shortdash) lwidth(mthick))) ///
 (scatter positividad_pcr semana, msymbol(none) mlabel(positividad_pcr) mlabcolor("$mycolor6") mlabsize(*0.9) mlabposition(12)) ///
 (scatter positividad_ag semana, msymbol(i) mlabel(positividad_ag) mlabcolor("$mycolor7") mlabsize(*0.9) mlabposition(12)) ///
   ,  ysize(5) xsize(6.1) ///
@@ -85,7 +86,7 @@ gen tasa_incidencia = total_positivos/poblacion_cusco*1000000
 format tasa_incidencia tasa_incidencia %12.0fc
 
 twoway (line tasa_incidencia semana, lcolor("$mycolor6") lwidth()) ///
-(line tasa_incidencia semana, lcolor("$mycolor6") lwidth()) ///
+(line tasa_incidencia semana, lcolor("$mycolor6") lwidth() lpattern(solid) xline(20426.5, lcolor("$mycolor2") lpattern(shortdash) lwidth(mthick))) ///
 (scatter tasa_incidencia semana, msymbol(none) mlabel(tasa_incidencia) mlabcolor("$mycolor3") mlabsize(*0.6) mlabposition(12)) ///
   , ysize(5) xsize(6.1) ///
   xtitle("Semanas Epidemiológicas", size(*0.6)) ///
