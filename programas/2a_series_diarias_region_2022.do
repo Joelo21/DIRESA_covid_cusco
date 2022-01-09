@@ -75,7 +75,7 @@ gen total_activos = total_positivo - total_recuperado
 
 drop if fecha < d(13mar2020) 
 
-foreach var of varlist total_positivo total_positivo_pcr total_prueba total_prueba_pcr total_prueba_ag total_recuperado total_sintomatico total_defuncion total_inicio total_inicio_pcr total_inicio_ag total_activos {
+foreach var of varlist total_positivo total_positivo_pcr total_positivo_ag total_prueba total_prueba_pcr total_prueba_ag total_recuperado total_sintomatico total_defuncion total_inicio total_inicio_pcr total_inicio_ag total_activos {
 replace `var' = `var'[_n-1] if `var' ==.
 }
 

@@ -10,9 +10,8 @@
 * Importar la base de datos
 use "${datos}\output\base_covid_2022.dta", clear
 
-* Mantener sólo los datos del 2022
+* Mantener sólo los datos del 2021
 drop if fecha_resultado < d(01jan2021)
-
 
 * Generar las categorías de las etapas de vida
 gen grupo_edad = .
@@ -38,11 +37,9 @@ label var genero "Género"
 label define genero 1 "Femenino" 2 "Masculino"
 label values genero genero
 
-*Borrar Grafico cuando haya una data regristada por covid 2022 = 0 defunciones
-
 * Defunciones
 graph hbar (count) if defuncion == 1, ysize(5) xsize(6.1) ///
-over(genero) ascategory asyvar bar(1, color("$mycolor6")) bar(2, color("$mycolor3")) ///
+over(genero) ascategory asyvar bar(1, color("$mycolor3")) bar(2, color("$mycolor7")) ///
 over(grupo_edad) blabel(total) ///
 plotregion(fcolor(white)) ///
 graphregion(fcolor(white)) ///
@@ -54,7 +51,7 @@ ytitle("Defunciones por COVID") ///
 ylabel(, nogrid) ///
 legend(label(1 "Femenino") label(2 "Masculino") size(*0.8) region(col(white))) name(def, replace) 
 
-graph export "figuras\defunciones_etapavida_2022.png", as(png) replace
+graph export "figuras\defunciones_etapavida.png", as(png) replace
 
 * Casos
 graph hbar (count) if positivo == 1, ysize(5) xsize(6.1)  ///
@@ -70,4 +67,4 @@ ytitle("Casos COVID") ///
 ylabel(, nogrid) ///
 legend(label(1 "Femenino") label(2 "Masculino") size(*0.8) region(col(white))) name(cas, replace) 
 
-graph export "figuras\casos_etapavida_2022.png", as(png) replace
+graph export "figuras\casos_etapavida.png", as(png) replace

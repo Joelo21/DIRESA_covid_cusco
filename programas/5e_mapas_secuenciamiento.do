@@ -14,7 +14,7 @@ save "mapas\mapa_cusco_distrital", replace
 use "${datos}\output\datos_variantes", clear
 
 * Mantener sólo a las que tienen variante 
-drop if variante == 5
+drop if variante == 6
 
 tostring dni, replace force
 
@@ -59,7 +59,7 @@ save "mapas\mapa_cusco_cusco", replace
 use "${datos}\output\datos_variantes", clear
 
 * Mantener sólo a las que tienen variante 
-drop if variante == 5
+drop if variante == 6
 
 tostring dni, replace force
 
@@ -107,7 +107,7 @@ save "mapas\mapa_provincial", replace
 use "${datos}\output\datos_variantes", clear
 
 * Mantener sólo a las que tienen variante 
-drop if variante == 5
+drop if variante == 6
 
 tostring dni, replace force
 
@@ -139,7 +139,7 @@ gr export "figuras\variantes_provincial.pdf", as(pdf) replace
 use "${datos}\output\datos_variantes", clear
 
 * Mantener sólo a las que tienen variante 
-drop if variante == 5
+drop if variante == 6
 
 tostring dni, replace force
 
@@ -169,7 +169,7 @@ gr export "figuras\variantes_provincial_lambda.pdf", as(pdf) replace
 use "${datos}\output\datos_variantes", clear
 
 * Mantener sólo a las que tienen variante 
-drop if variante == 5
+drop if variante == 6
 
 tostring dni, replace force
 
@@ -200,7 +200,7 @@ gr export "figuras\variantes_provincial_gamma.pdf", as(pdf) replace
 use "${datos}\output\datos_variantes", clear
 
 * Mantener sólo a las que tienen variante 
-drop if variante == 5
+drop if variante == 6
 
 tostring dni, replace force
 
@@ -225,3 +225,34 @@ spmap variantes using "mapas\provincial_co", id(id) fcolor("$mycolor3" "$mycolor
 
 gr export "figuras\variantes_provincial_delta.png", as(png) replace
 gr export "figuras\variantes_provincial_delta.pdf", as(pdf) replace
+
+
+* Omicron
+use "${datos}\output\datos_variantes", clear
+
+* Mantener sólo a las que tienen variante 
+drop if variante == 6
+
+tostring dni, replace force
+
+merge 1:m dni using "${datos}\output\base_noticovid"
+
+keep if _merge == 3
+
+keep if variante == 4
+
+sort provincia
+
+collapse (count) edad, by(provincia)
+
+rename edad variantes 
+
+save "${datos}\output\datos_variantes_provincias", replace
+
+merge 1:1 provincia using "mapas\mapa_provincial"
+
+* Dibujar el mapa
+spmap variantes using "mapas\provincial_co", id(id) fcolor("$mycolor3" "$mycolor2" "$mycolor4" "$mycolor5") label(xcoord( x_c ) ycoord( y_c ) label(provincia)) name(omicron, replace)
+
+gr export "figuras\variantes_provincial_omicron.png", as(png) replace
+gr export "figuras\variantes_provincial_omicron.pdf", as(pdf) replace
