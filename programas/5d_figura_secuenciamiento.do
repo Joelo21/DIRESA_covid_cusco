@@ -38,8 +38,24 @@ format mes %tm
 format lambda gamma delta otros %8.2f
 label var suma_total "Número de Sepas Secuenciadas"
 
-* Definimos nuestra paleta
+gen lambda2 = variante_1
+gen gamma2 = variante_2
+gen delta2 = variante_3
+gen otros2 = variante_4
 
+********************************************************
+
+graph pie lambda2 gamma2 delta2 otros2,
+	plabel(_all percent, size(*1.5) color(White))
+	legend(off)
+	plotregion(lstyle(none))
+	bgcolor(white)
+	title("Expenditures, XYZ Corp.")
+	subtitle("2002")	
+	
+
+* Definimos nuestra paleta
+/*
 twoway (line lambda mes, yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) lcolor("$mycolor2")) ///
 (scatter lambda mes, msize(vsmall) mcolor("$mycolor2") mlabel(lambda) mlabcolor("$mycolor2") mlabsize(vsmall) connect()) ///
 (line gamma mes, yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) lcolor("$mycolor3")) ///
@@ -61,3 +77,4 @@ twoway (line lambda mes, yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1))
 	
 gr export "figuras\variantes.png", as(png) replace
 gr export "figuras\variantes.pdf", as(pdf) replace
+*/

@@ -68,7 +68,7 @@ keep if positivo_pcr == 1 | positivo_pcr == 0
 
 * BOrrar
 drop if fecha_pcr == .
-drop if fecha_pcr < d(31dec2021)
+drop if fecha_pcr < d(01jan2021)
 drop if fecha_pcr > d($fecha)
 
 tostring dni, replace force
@@ -76,6 +76,6 @@ tostring dni, replace force
 ********************************************************************************
 * Juntar con la base del 2020
 ********************************************************************************
-append using "${datos}\output\base_noticovid_2020.dta", force
+*append using "${datos}\output\base_noticovid_2020.dta", force
 
-save "${datos}\output\base_noticovid.dta", replace
+save "${datos}\output\base_noticovid_2022.dta", replace
