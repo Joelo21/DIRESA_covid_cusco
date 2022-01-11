@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.17)  11 JAN 2022 01:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.17)  11 JAN 2022 02:06
 entering extended mode
 **./sala_covid.tex
 (sala_covid.tex
@@ -1558,41 +1558,41 @@ e 339.
 
 ]
 
-pdfTeX warning: pdflatex.exe (file ../figuras/sintomaticos_20_21.pdf): PDF incl
-usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/sintomaticos_20_21.pdf, id=224, 397.485pt x 289.08pt>
-File: ../figuras/sintomaticos_20_21.pdf Graphic file (type pdf)
-<use ../figuras/sintomaticos_20_21.pdf>
-Package pdftex.def Info: ../figuras/sintomaticos_20_21.pdf  used on input line 
-354.
+pdfTeX warning: pdflatex.exe (file ../figuras/sintomaticos_20_21_2022.pdf): PDF
+ inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../figuras/sintomaticos_20_21_2022.pdf, id=224, 397.485pt x 289.08pt>
+File: ../figuras/sintomaticos_20_21_2022.pdf Graphic file (type pdf)
+<use ../figuras/sintomaticos_20_21_2022.pdf>
+Package pdftex.def Info: ../figuras/sintomaticos_20_21_2022.pdf  used on input 
+line 354.
 (pdftex.def)             Requested size: 245.83282pt x 178.79105pt.
 [13
 
- <../figuras/sintomaticos_20_21.pdf>]
+ <../figuras/sintomaticos_20_21_2022.pdf>]
 
-pdfTeX warning: pdflatex.exe (file ../figuras/positivos_20_21.pdf): PDF inclusi
-on: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positivos_20_21.pdf, id=241, 397.485pt x 289.08pt>
-File: ../figuras/positivos_20_21.pdf Graphic file (type pdf)
-<use ../figuras/positivos_20_21.pdf>
-Package pdftex.def Info: ../figuras/positivos_20_21.pdf  used on input line 364
-.
+pdfTeX warning: pdflatex.exe (file ../figuras/positivos_20_21_2022.pdf): PDF in
+clusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../figuras/positivos_20_21_2022.pdf, id=241, 397.485pt x 289.08pt>
+File: ../figuras/positivos_20_21_2022.pdf Graphic file (type pdf)
+<use ../figuras/positivos_20_21_2022.pdf>
+Package pdftex.def Info: ../figuras/positivos_20_21_2022.pdf  used on input lin
+e 364.
 (pdftex.def)             Requested size: 276.559pt x 201.13718pt.
 [14
 
- <../figuras/positivos_20_21.pdf>]
+ <../figuras/positivos_20_21_2022.pdf>]
 
-pdfTeX warning: pdflatex.exe (file ../figuras/sinto_prueba_20_21.pdf): PDF incl
-usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/sinto_prueba_20_21.pdf, id=259, 397.485pt x 289.08pt>
-File: ../figuras/sinto_prueba_20_21.pdf Graphic file (type pdf)
-<use ../figuras/sinto_prueba_20_21.pdf>
-Package pdftex.def Info: ../figuras/sinto_prueba_20_21.pdf  used on input line 
-385.
+pdfTeX warning: pdflatex.exe (file ../figuras/sinto_prueba_20_21_2022.pdf): PDF
+ inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../figuras/sinto_prueba_20_21_2022.pdf, id=259, 397.485pt x 289.08pt>
+File: ../figuras/sinto_prueba_20_21_2022.pdf Graphic file (type pdf)
+<use ../figuras/sinto_prueba_20_21_2022.pdf>
+Package pdftex.def Info: ../figuras/sinto_prueba_20_21_2022.pdf  used on input 
+line 385.
 (pdftex.def)             Requested size: 215.10196pt x 156.4405pt.
 [15
 
- <../figuras/sinto_prueba_20_21.pdf>]
+ <../figuras/sinto_prueba_20_21_2022.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positivos_crecimiento_2021.pdf): 
 PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
@@ -1606,29 +1606,29 @@ ut line 395.
 
  <../figuras/positivos_crecimiento_2021.pdf>]
 
-pdfTeX warning: pdflatex.exe (file ../figuras/positividad_pcr.pdf): PDF inclusi
-on: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_pcr.pdf, id=319, 397.485pt x 289.08pt>
-File: ../figuras/positividad_pcr.pdf Graphic file (type pdf)
-<use ../figuras/positividad_pcr.pdf>
-Package pdftex.def Info: ../figuras/positividad_pcr.pdf  used on input line 404
-.
+pdfTeX warning: pdflatex.exe (file ../figuras/positividad_pcr_2022.pdf): PDF in
+clusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../figuras/positividad_pcr_2022.pdf, id=319, 397.485pt x 289.08pt>
+File: ../figuras/positividad_pcr_2022.pdf Graphic file (type pdf)
+<use ../figuras/positividad_pcr_2022.pdf>
+Package pdftex.def Info: ../figuras/positividad_pcr_2022.pdf  used on input lin
+e 404.
 (pdftex.def)             Requested size: 245.83282pt x 178.79105pt.
 [17
 
- <../figuras/positividad_pcr.pdf>]
+ <../figuras/positividad_pcr_2022.pdf>]
 
-pdfTeX warning: pdflatex.exe (file ../figuras/positividad_ag.pdf): PDF inclusio
-n: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_ag.pdf, id=335, 397.485pt x 289.08pt>
-File: ../figuras/positividad_ag.pdf Graphic file (type pdf)
-<use ../figuras/positividad_ag.pdf>
-Package pdftex.def Info: ../figuras/positividad_ag.pdf  used on input line 412.
-
+pdfTeX warning: pdflatex.exe (file ../figuras/positividad_ag_2022.pdf): PDF inc
+lusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../figuras/positividad_ag_2022.pdf, id=335, 397.485pt x 289.08pt>
+File: ../figuras/positividad_ag_2022.pdf Graphic file (type pdf)
+<use ../figuras/positividad_ag_2022.pdf>
+Package pdftex.def Info: ../figuras/positividad_ag_2022.pdf  used on input line
+ 412.
 (pdftex.def)             Requested size: 245.83282pt x 178.79105pt.
 [18
 
- <../figuras/positividad_ag.pdf>]
+ <../figuras/positividad_ag_2022.pdf>]
 <../figuras/variantes.png, id=351, 555.57562pt x 398.99063pt>
 File: ../figuras/variantes.png Graphic file (type png)
 <use ../figuras/variantes.png>
@@ -1659,29 +1659,29 @@ Package pdftex.def Info: ../sala_nacional/rt_cusco.png  used on input line 446.
 
  <../sala_nacional/rt_cusco.png (PNG copy)>]
 
-pdfTeX warning: pdflatex.exe (file ../figuras/defunciones_20_21.pdf): PDF inclu
-sion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/defunciones_20_21.pdf, id=399, 397.485pt x 289.08pt>
-File: ../figuras/defunciones_20_21.pdf Graphic file (type pdf)
-<use ../figuras/defunciones_20_21.pdf>
-Package pdftex.def Info: ../figuras/defunciones_20_21.pdf  used on input line 4
-56.
+pdfTeX warning: pdflatex.exe (file ../figuras/defunciones_20_21_2022.pdf): PDF 
+inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../figuras/defunciones_20_21_2022.pdf, id=399, 397.485pt x 289.08pt>
+File: ../figuras/defunciones_20_21_2022.pdf Graphic file (type pdf)
+<use ../figuras/defunciones_20_21_2022.pdf>
+Package pdftex.def Info: ../figuras/defunciones_20_21_2022.pdf  used on input l
+ine 456.
 (pdftex.def)             Requested size: 276.559pt x 187.27939pt.
 [22
 
- <../figuras/defunciones_20_21.pdf>]
+ <../figuras/defunciones_20_21_2022.pdf>]
 
-pdfTeX warning: pdflatex.exe (file ../figuras/defunciones_crecimiento_2021.pdf)
+pdfTeX warning: pdflatex.exe (file ../figuras/defunciones_crecimiento_2022.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/defunciones_crecimiento_2021.pdf, id=417, 397.485pt x 289.08pt>
-File: ../figuras/defunciones_crecimiento_2021.pdf Graphic file (type pdf)
-<use ../figuras/defunciones_crecimiento_2021.pdf>
-Package pdftex.def Info: ../figuras/defunciones_crecimiento_2021.pdf  used on i
+<../figuras/defunciones_crecimiento_2022.pdf, id=417, 397.485pt x 289.08pt>
+File: ../figuras/defunciones_crecimiento_2022.pdf Graphic file (type pdf)
+<use ../figuras/defunciones_crecimiento_2022.pdf>
+Package pdftex.def Info: ../figuras/defunciones_crecimiento_2022.pdf  used on i
 nput line 466.
 (pdftex.def)             Requested size: 276.559pt x 201.13718pt.
 [23
 
- <../figuras/defunciones_crecimiento_2021.pdf>]
+ <../figuras/defunciones_crecimiento_2022.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_region.pdf): PDF inclusion
 : found PDF version <1.6>, but at most version <1.5> allowed
@@ -1694,17 +1694,17 @@ Package pdftex.def Info: ../figuras/exceso_region.pdf  used on input line 475.
 
  <../figuras/exceso_region.pdf>]
 
-pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad.pdf): PDF inclusi
-on: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad.pdf, id=458, 397.485pt x 289.08pt>
-File: ../figuras/mortalidad_edad.pdf Graphic file (type pdf)
-<use ../figuras/mortalidad_edad.pdf>
-Package pdftex.def Info: ../figuras/mortalidad_edad.pdf  used on input line 484
-.
+pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_2022.pdf): PDF in
+clusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../figuras/mortalidad_edad_2022.pdf, id=458, 397.485pt x 289.08pt>
+File: ../figuras/mortalidad_edad_2022.pdf Graphic file (type pdf)
+<use ../figuras/mortalidad_edad_2022.pdf>
+Package pdftex.def Info: ../figuras/mortalidad_edad_2022.pdf  used on input lin
+e 484.
 (pdftex.def)             Requested size: 276.559pt x 201.13718pt.
 [25
 
- <../figuras/mortalidad_edad.pdf>]
+ <../figuras/mortalidad_edad_2022.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_80.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
@@ -2833,7 +2833,7 @@ Package rerunfilecheck Info: File `sala_covid.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  42135 strings out of 478699
- 995645 string characters out of 2856821
+ 995890 string characters out of 2856821
  1361185 words of memory out of 3000000
  58959 multiletter control sequences out of 15000+600000
  473543 words of font info for 95 fonts, out of 8000000 for 9000
@@ -2855,7 +2855,7 @@ fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
 lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Prog
 ram Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Fil
 es/MiKTeX/fonts/type1/public/newpx/npxsups-Regular.pfb>
-Output written on sala_covid.pdf (117 pages, 10459560 bytes).
+Output written on sala_covid.pdf (117 pages, 10463616 bytes).
 PDF statistics:
  2231 PDF objects out of 2487 (max. 8388607)
  342 named destinations out of 1000 (max. 500000)

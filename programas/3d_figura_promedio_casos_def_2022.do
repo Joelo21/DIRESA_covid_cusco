@@ -184,3 +184,31 @@ if fecha>=d(20mar2020) & fecha <=d($fecha) ///
 	legend(off) name(defun_p, replace)
 	
 gr export "figuras\promedio_defunciones_2022.png", as(png) replace
+
+********************************************************************************
+*GRAFICO COMBINADO PROMEDIO DE CASOS Y MUERTE COVID-19
+twoway ///
+(line promedio_defunciones fecha, lcolor("$mycolor2") lpattern(solid) lpattern(solid) xline(`fecha_m_1', lcolor("$mycolor3") lpattern(shortdash) lwidth(mthick)) xline(`fecha_m_2', lcolor("$mycolor3") lpattern(shortdash) lwidth(mthick))) ///
+(line promedio_casos fecha, lcolor("$mycolor5") lpattern(solid) lpattern(solid) xline(22426, lcolor("$mycolor5") lpattern(shortdash) lwidth(mthick)) xline(22149, lcolor("$mycolor5") lpattern(shortdash) lwidth(mthick))) ///
+(scatter defunciones_max_1 fecha if fecha == fecha_defunciones_max_1, mlabel(defunciones_max_1) msize(vsmall) mcolor("$mycolor2") mlabcolor("$mycolor2")) ///
+(line casos_max_1 fecha, lcolor("$mycolor2") lpattern(shortdash) lwidth(mthick)) ///
+(scatter casos_max_1 fecha if fecha == fecha_casos_max_1, mlabel(casos_max_1) msize(vsmall) mcolor("$mycolor2") mlabcolor("$mycolor2")) ///
+(scatter defunciones_max_2 fecha if fecha == fecha_defunciones_max_2, mlabel(defunciones_max_2) msize(vsmall) mcolor("$mycolor3") mlabcolor("$mycolor3")) ///
+(scatter casos_max_2 fecha if fecha == fecha_casos_max_2, mlabel(casos_max_2) msize(vsmall) mcolor("$mycolor3") mlabcolor("$mycolor3")) ///
+(line casos_max_2 fecha, lcolor("$mycolor3") lpattern(shortdash) lwidth(mthick)) ///
+(scatter defunciones_max_3 fecha if fecha == fecha_defunciones_max_3, mlabel(defunciones_max_3) msize(vsmall) mcolor("$mycolor6") mlabcolor("$mycolor6")) ///
+(scatter casos_max_3 fecha if fecha == fecha_casos_max_3, mlabel(casos_max_3) msize(vsmall) mcolor("$mycolor6") mlabcolor("$mycolor6")) ///
+(line casos_max_3 fecha, lcolor("$mycolor6") lpattern(shortdash) lwidth(mthick)) ///
+(scatter defunciones_actual fecha if fecha == fecha_defunciones_actual, mlabel(defunciones_actual) msize(vsmall) mcolor("$mycolor5") mlabcolor("$mycolor5")) ///
+if fecha>=d(20mar2020) & fecha <=d($fecha) ///
+	,ylabel(0(500)1800, labsize(*0.6)) ///
+	tlabel(20mar2020(150)$fecha) ///
+	ylabel(, nogrid) xlabel(, nogrid) ///
+	xtitle("") ///
+	ytitle("Promedio de Casos y Muertes por Covid-19") ///
+	graphregion(color(white)) ///
+	title("Promedio de Casos y Muertes por COVID-19", box bexpand bcolor("$mycolor3") color(white)) ///
+	text(1500 21994 "{it:Actualizado al}" "{it:$fecha}", place(ne) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor7") fcolor("$mycolor7")) ///
+	legend(off) name(Promedio_Casos_Defuncion, replace)
+
+gr export "figuras\promedio_casos_defuncion_2022.png", as(png) replace

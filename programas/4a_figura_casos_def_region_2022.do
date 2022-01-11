@@ -4,7 +4,7 @@ use "${datos}\output\serie_semanal_region_2022.dta", clear
 ********************************************************************************
 * Defunciones
 ********************************************************************************
-
+/*
 * 2020
 twoway (line defuncion semana, lcolor("$mycolor2") lwidth(medthick)) ///
 (scatter defuncion semana, msize(vsmall) mcolor("$mycolor2") mlabel(defuncion) mlabcolor("$mycolor3") mlabsize(tiny) connect() xline(52, lcolor("$mycolor1") lpattern(longdash) lwidth(thick)) ) ///
@@ -127,7 +127,7 @@ twoway (line positivo_d semana_2, lcolor("$mycolor6") lwidth(medthick) lpattern(
 gr export "figuras\positivos_crecimiento_2021.png", as(png) replace
 gr export "figuras\positivos_crecimiento_2021.pdf", as(pdf) name("positivos20_21") replace
 
-
+*/
 ********************************************************************************
 * Sintomaticos y asintomaticos :: Cambiar positivo desde base_unir y poder contar con ag+pcr+pr solo para este grafico | por lo demas dejamos el mismo
 ********************************************************************************
@@ -174,12 +174,13 @@ name(sintomaticos_20_21_2022, replace)
 gr export "figuras\sintomaticos_20_21_2022.png", as(png) replace
 gr export "figuras\sintomaticos_20_21_2022.pdf", as(pdf) name("sintomaticos_20_21_2022") replace
 	
-
+/*
 ********************************************************************************
 * Sintomaticos por tipo de prueba
 ********************************************************************************
 * 2020
 twoway (scatter sintomatico_pcr semana, msize(vsmall) mcolor("$mycolor5") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor5")) ///
+(scatter sintomatico_pr_sis semana, msize(vsmall) mcolor("$mycolor6") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor1")) ///
 (scatter sintomatico_ag semana, msize(vsmall) mcolor("$mycolor3") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor3") ) ///
 if semana>=1 & semana<=53, ///
 	ylabel(0(200)1000, labsize(*0.6)) ///
@@ -188,7 +189,7 @@ if semana>=1 & semana<=53, ///
 	ytitle("Casos sintomáticos", margin(0 4 0 0)) ///
 	graphregion(color(white)) ///
 	title("2020", box bexpand bcolor("$mycolor3") color(white)) ///
-	legend(label(1 "Sintomáticos PCR") label(2 "Sintomaticos AG") size(*0.75) region(col(white))) ///
+	legend(label(1 "Sintomáticos PCR") label(2 "Sintomáticos PR") label(3 "Sintomaticos AG") size(*0.75) region(col(white))) ///
 	bgcolor(white) ///
 	ylabel(, nogrid) ///	
 	name(sinto_prueba20_20, replace)
@@ -196,17 +197,18 @@ if semana>=1 & semana<=53, ///
 * 2021
   
 twoway (scatter sintomatico_pcr semana_2, msize(vsmall) mcolor("$mycolor5") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor5")) ///
-(scatter sintomatico_ag semana_2, msize(vsmall) mcolor("$mycolor3") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor3")    lpattern(solid) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(mthick)) ) ///
+(scatter sintomatico_pr_sis semana_2, msize(vsmall) mcolor("$mycolor6") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor1")) ///
+(scatter sintomatico_ag semana_2, msize(vsmall) mcolor("$mycolor3") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor3") ) ///
 if semana_2>=1 & semana_2<=$semana, ///
 	ylabel(0(200)1000, labsize(*0.6)) ///
 	tlabel(1(4)53) ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("") ///
 	graphregion(color(white)) ///
-	title("2021-2022", box bexpand bcolor("$mycolor3") color(white)) ///
-	legend(label(1 "Sintomáticos PCR") label(2 "Sintomaticos AG") size(*0.75) region(col(white))) ///
+	title("2021", box bexpand bcolor("$mycolor3") color(white)) ///
+	legend(label(1 "Sintomáticos PCR") label(2 "Sintomáticos PR") label(3 "Sintomaticos AG") size(*0.75) region(col(white))) ///
 	bgcolor(white) ///
-	ylabel(, nogrid) ///	
+	ylabel(, nogrid) ///
 	name(sinto_prueba20_21_22, replace)
 	
 * 2020 y 2021

@@ -20,6 +20,7 @@ use "${datos}\output\base_noticovid_2022", clear
 * Juntar
 append using "${datos}\output\base_siscovid_ag_2022", force
 append using "${datos}\output\base_sinadef_2022", force
+append using "${datos}\output\base_siscovid_pr", force
 
 gen numero = _n
 
@@ -94,54 +95,54 @@ replace	provincia_ubigeo = "9999" if provincia_ubigeo == ""
 gen fecha_resultado =.
 replace fecha_resultado = fecha_pcr if positivo_pcr == 1 | positivo_pcr == 0
 replace fecha_resultado = fecha_ag if positivo_ag == 1 | positivo_ag == 0
-*replace fecha_resultado = fecha_pr if positivo_pr == 1 | positivo_pr == 0
+replace fecha_resultado = fecha_pr if positivo_pr == 1 | positivo_pr == 0
 replace fecha_resultado = fecha_sinadef if defuncion == 1
 format fecha_resultado %td
 
 * Fecha de recuperación alta epidemeologica casos 
 gen fecha_recuperado =.
-*replace fecha_recuperado = fecha_resultado + 14 if (positivo_pcr == 1 | positivo_ag == 1) | (positivo_pr ==1 & tipo_anticuerpo == "IgM Reactivo")
-*replace fecha_recuperado = fecha_resultado + 7 if (positivo_pr == 1 & tipo_anticuerpo== "IgG Reactivo") | (positivo_pr == 1 & tipo_anticuerpo== "IgM e IgG Reactivo")
+replace fecha_recuperado = fecha_resultado + 14 if (positivo_pcr == 1 | positivo_ag == 1) | (positivo_pr ==1 & tipo_anticuerpo == "IgM Reactivo")
+replace fecha_recuperado = fecha_resultado + 7 if (positivo_pr == 1 & tipo_anticuerpo== "IgG Reactivo") | (positivo_pr == 1 & tipo_anticuerpo== "IgM e IgG Reactivo")
 replace fecha_recuperado = fecha_resultado + 14 if (positivo_pcr == 1 | positivo_ag == 1)
 format fecha_recuperado %td
 
 * Generar variables que tengan nombres más explícitos
 gen positivo_molecular = positivo_pcr
-*gen positivo_rapida = positivo_pr 
+gen positivo_rapida = positivo_pr 
 gen positivo_antigenica = positivo_ag 
 gen var_id = numero 
 
 * Generar pruebas PCR - PR(RAPIDAS) - AG(ANTIGENAS)
 gen prueba_pcr = .
 replace prueba_pcr = 1 if positivo_pcr == 1 | positivo_pcr == 0
-*gen prueba_pr = .
-*replace prueba_pr = 1 if positivo_pr == 1 | positivo_pr == 0
+gen prueba_pr = .
+replace prueba_pr = 1 if positivo_pr == 1 | positivo_pr == 0
 gen prueba_ag = .
 replace prueba_ag = 1 if positivo_ag == 1 | positivo_ag == 0
 
 *Generar Positivo PCR -PR(RAPIDAS) -AG(ANTIGENAS)
 gen positivo_prueba_pcr =.
 replace positivo_prueba_pcr = 1 if positivo_pcr == 1 
-*gen positivo_prueba_pr =.
-*replace positivo_prueba_pr = 1  if positivo_pr == 1
+gen positivo_prueba_pr =.
+replace positivo_prueba_pr = 1  if positivo_pr == 1
 gen positivo_prueba_ag =.
 replace positivo_prueba_ag = 1 if positivo_ag == 1
 
 * Generar positivo Sala Covid Semanal
-gen positivo = 1 if positivo_pcr == 1 | positivo_ag == 1
+*gen positivo = 1 if positivo_pcr == 1 | positivo_ag == 1
 
 * Genera positivo Boletin Mensual
-*gen positivo = 1 if positivo_pcr == 1 | positivo_pr == 1 | positivo_ag == 1
+gen positivo = 1 if positivo_pcr == 1 | positivo_pr == 1 | positivo_ag == 1
 
 
 * Generar prueba
-*gen prueba = 1 if prueba_pcr == 1 | prueba_ag == 1 | prueba_pr == 1
-gen prueba = 1 if prueba_pcr == 1 | prueba_ag == 1 
+gen prueba = 1 if prueba_pcr == 1 | prueba_ag == 1 | prueba_pr == 1
+*gen prueba = 1 if prueba_pcr == 1 | prueba_ag == 1 
 
 * Generar una variable que tome valores de las tres pruebas
 gen tipo_prueba = .
 replace tipo_prueba = 1 if prueba_pcr == 1
-*replace tipo_prueba = 2 if prueba_pr == 1 
+replace tipo_prueba = 2 if prueba_pr == 1 
 replace tipo_prueba = 2 if prueba_ag == 1
 label variable tipo_prueba "Tipo de Prueba"
 label define tipo_prueba 1 "Molecular" 2 "Antigénica"
