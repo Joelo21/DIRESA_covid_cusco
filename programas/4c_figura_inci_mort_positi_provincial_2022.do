@@ -7,7 +7,7 @@
 
 *-------------------------------------------------------------------------------%
 
-use "${datos}/output/serie_semanal_provincias.dta", clear
+use "${datos}/output/serie_semanal_provincias_2022.dta", clear
 
 forvalues i=1/13 {
 

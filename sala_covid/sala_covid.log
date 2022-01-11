@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.15)  10 JAN 2022 19:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.17)  11 JAN 2022 01:10
 entering extended mode
 **./sala_covid.tex
 (sala_covid.tex
 LaTeX2e <2021-11-15>
 L3 programming layer <2021-11-12>
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamer.cls
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamer.cls
 Document Class: beamer 2021/10/18 v3.64 A class for typesetting presentations
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbasemodes.sty
-(C:\Program Files\MiKTeX2\tex/latex/etoolbox\etoolbox.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbasemodes.sty
+(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count183
 )
@@ -15,7 +15,7 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \beamer@tempcount=\count184
 \c@beamerpauses=\count185
 
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbasedecode.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbasedecode.sty
 \beamer@slideinframe=\count186
 \beamer@minimum=\count187
 \beamer@decode@box=\box51
@@ -23,10 +23,10 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \beamer@commentbox=\box52
 \beamer@modecount=\count188
 )
-(C:\Program Files\MiKTeX2\tex/generic/iftex\ifpdf.sty
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 
-(C:\Program Files\MiKTeX2\tex/generic/iftex\iftex.sty
+(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \headdp=\dimen138
@@ -73,18 +73,18 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \beamer@toclastsection=\count273
 \beamer@tocsectionnumber=\count274
 
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbaseoptions.sty
-(C:\Program Files\MiKTeX2\tex/latex/graphics\keyval.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbaseoptions.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 ))
 \beamer@paperwidth=\skip48
 \beamer@paperheight=\skip49
 
-(C:\Program Files\MiKTeX2\tex/latex/geometry\geometry.sty
+(C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Program Files\MiKTeX2\tex/generic/iftex\ifvtex.sty
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count275
@@ -100,54 +100,54 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen161
 \Gm@dimlist=\toks17
 
-(C:\Program Files\MiKTeX2\tex/latex/geometry\geometry.cfg))
-(C:\Program Files\MiKTeX2\tex/latex/base\size11.clo
+(C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Program Files\MiKTeX\tex/latex/base\size11.clo
 File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-(C:\Program Files\MiKTeX2\tex/latex/pgf/basiclayer\pgfcore.sty
-(C:\Program Files\MiKTeX2\tex/latex/graphics\graphicx.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Program Files\MiKTeX2\tex/latex/graphics\graphics.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Program Files\MiKTeX2\tex/latex/graphics\trig.sty
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Program Files\MiKTeX2\tex/latex/graphics-cfg\graphics.cfg
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:\Program Files\MiKTeX2\tex/latex/graphics-def\pdftex.def
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen162
 \Gin@req@width=\dimen163
 )
-(C:\Program Files\MiKTeX2\tex/latex/pgf/systemlayer\pgfsys.sty
-(C:\Program Files\MiKTeX2\tex/latex/pgf/utilities\pgfrcs.sty
-(C:\Program Files\MiKTeX2\tex/generic/pgf/utilities\pgfutil-common.tex
+(C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks18
 \pgfutil@tempdima=\dimen164
 \pgfutil@tempdimb=\dimen165
 
-(C:\Program Files\MiKTeX2\tex/generic/pgf/utilities\pgfutil-common-lists.tex))
-(C:\Program Files\MiKTeX2\tex/generic/pgf/utilities\pgfutil-latex.def
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box59
 )
-(C:\Program Files\MiKTeX2\tex/generic/pgf/utilities\pgfrcs.code.tex
-(C:\Program Files\MiKTeX2\tex/generic/pgf\pgf.revision.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
-(C:\Program Files\MiKTeX2\tex/generic/pgf/systemlayer\pgfsys.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Program Files\MiKTeX2\tex/generic/pgf/utilities\pgfkeys.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks19
 \pgfkeys@temptoks=\toks20
 
-(C:\Program Files\MiKTeX2\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks21
 ))
 \pgf@x=\dimen166
@@ -171,36 +171,37 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 \t@pgf@tokc=\toks24
 \pgf@sys@id@count=\count282
 
-(C:\Program Files\MiKTeX2\tex/generic/pgf/systemlayer\pgf.cfg
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Program Files\MiKTeX2\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Program Files\MiKTeX2\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 )))
-(C:\Program Files\MiKTeX2\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfsyssoftpath@smallbuffer@items=\count283
 \pgfsyssoftpath@bigbuffer@items=\count284
 )
-(C:\Program Files\MiKTeX2\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)) (C:\Program Files\MiKTeX2\tex/latex/xcolor\xcolor.sty
+))
+(C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 
-(C:\Program Files\MiKTeX2\tex/latex/graphics-cfg\color.cfg
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 
-(C:\Program Files\MiKTeX2\tex/latex/colortbl\colortbl.sty
+(C:\Program Files\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 
-(C:\Program Files\MiKTeX2\tex/latex/tools\array.sty
+(C:\Program Files\MiKTeX\tex/latex/tools\array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen176
 \ar@mcellbox=\box60
@@ -224,13 +225,13 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 )
-(C:\Program Files\MiKTeX2\tex/generic/pgf/basiclayer\pgfcore.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Program Files\MiKTeX2\tex/generic/pgf/math\pgfmath.code.tex
-(C:\Program Files\MiKTeX2\tex/generic/pgf/math\pgfmathcalc.code.tex
-(C:\Program Files\MiKTeX2\tex/generic/pgf/math\pgfmathutil.code.tex)
-(C:\Program Files\MiKTeX2\tex/generic/pgf/math\pgfmathparser.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen178
 \pgfmath@count=\count286
 \pgfmath@box=\box62
@@ -238,25 +239,24 @@ Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 \pgfmath@stack@operand=\toks28
 \pgfmath@stack@operation=\toks29
 )
-(C:\Program Files\MiKTeX2\tex/generic/pgf/math\pgfmathfunctions.code.tex
-(C:\Program Files\MiKTeX2\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.co
+de.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
 
-(C:\Program Files\MiKTeX2\tex/generic/pgf/math\pgfmathfunctions.trigonometric.c
-ode.tex)
-(C:\Program Files\MiKTeX2\tex/generic/pgf/math\pgfmathfunctions.random.code.tex
-)
-(C:\Program Files\MiKTeX2\tex/generic/pgf/math\pgfmathfunctions.comparison.code
-.tex)
-(C:\Program Files\MiKTeX2\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
-(C:\Program Files\MiKTeX2\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
-(C:\Program Files\MiKTeX2\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
-(C:\Program Files\MiKTeX2\tex/generic/pgf/math\pgfmathfunctions.integerarithmet
-ics.code.tex)))
-(C:\Program Files\MiKTeX2\tex/generic/pgf/math\pgfmathfloat.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.
+tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmeti
+cs.code.tex)))
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count287
 ))
-(C:\Program Files\MiKTeX2\tex/generic/pgf/math\pgfint.code.tex)
-(C:\Program Files\MiKTeX2\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@picminx=\dimen179
 \pgf@picmaxx=\dimen180
@@ -273,143 +273,139 @@ File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@zx=\dimen191
 \pgf@zy=\dimen192
 )
-(C:\Program Files\MiKTeX2\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.
-tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.t
+ex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@path@lastx=\dimen193
 \pgf@path@lasty=\dimen194
 )
-(C:\Program Files\MiKTeX2\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@shorten@end@additional=\dimen195
 \pgf@shorten@start@additional=\dimen196
-) (C:\Program Files\MiKTeX2\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box63
 \pgf@hbox=\box64
 \pgf@layerbox@main=\box65
 \pgf@picture@serial@count=\count288
 )
-(C:\Program Files\MiKTeX2\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.t
-ex
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.te
+x
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgflinewidth=\dimen197
 )
-(C:\Program Files\MiKTeX2\tex/generic/pgf/basiclayer\pgfcoretransformations.cod
-e.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code
+.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@pt@x=\dimen198
 \pgf@pt@y=\dimen199
 \pgf@pt@temp=\dimen256
-)
-(C:\Program Files\MiKTeX2\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(C:\Program Files\MiKTeX2\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Program Files\MiKTeX2\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code
-.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.
+tex
 File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(C:\Program Files\MiKTeX2\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfarrowsep=\dimen257
-)
-(C:\Program Files\MiKTeX2\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen258
 \pgf@sys@shading@range@num=\count289
 \pgf@shadingcount=\count290
 )
-(C:\Program Files\MiKTeX2\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Program Files\MiKTeX2\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfexternal@startupbox=\box66
-)) (C:\Program Files\MiKTeX2\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+))
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Program Files\MiKTeX2\tex/generic/pgf/basiclayer\pgfcoretransparency.code.t
-ex
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.te
+x
 File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(C:\Program Files\MiKTeX2\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)
-(C:\Program Files\MiKTeX2\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
-(C:\Program Files\MiKTeX2\tex/latex/pgf/utilities\xxcolor.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
 \XC@nummixins=\count291
 \XC@countmixins=\count292
 )
-(C:\Program Files\MiKTeX2\tex/latex/base\atbegshi-ltx.sty
+(C:\Program Files\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-(C:\Program Files\MiKTeX2\tex/latex/hyperref\hyperref.sty
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
-(C:\Program Files\MiKTeX2\tex/generic/ltxcmds\ltxcmds.sty
+(C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(C:\Program Files\MiKTeX2\tex/generic/pdftexcmds\pdftexcmds.sty
+(C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Program Files\MiKTeX2\tex/generic/infwarerr\infwarerr.sty
+(C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(C:\Program Files\MiKTeX2\tex/generic/kvsetkeys\kvsetkeys.sty
+(C:\Program Files\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-(C:\Program Files\MiKTeX2\tex/generic/kvdefinekeys\kvdefinekeys.sty
+(C:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Program Files\MiKTeX2\tex/generic/pdfescape\pdfescape.sty
+(C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(C:\Program Files\MiKTeX2\tex/latex/hycolor\hycolor.sty
+(C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Program Files\MiKTeX2\tex/latex/letltxmacro\letltxmacro.sty
+(C:\Program Files\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(C:\Program Files\MiKTeX2\tex/latex/auxhook\auxhook.sty
+(C:\Program Files\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(C:\Program Files\MiKTeX2\tex/latex/kvoptions\kvoptions.sty
+(C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen259
 \Hy@linkcounter=\count293
 \Hy@pagecounter=\count294
 
-(C:\Program Files\MiKTeX2\tex/latex/hyperref\pd1enc.def
+(C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\Program Files\MiKTeX2\tex/latex/hyperref\hyperref-langpatches.def
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref-langpatches.def
 File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
 nguages
 )
-(C:\Program Files\MiKTeX2\tex/generic/intcalc\intcalc.sty
+(C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(C:\Program Files\MiKTeX2\tex/generic/etexcmds\etexcmds.sty
+(C:\Program Files\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count295
 
-(C:\Program Files\MiKTeX2\tex/latex/hyperref\puenc.def
+(C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -426,17 +422,17 @@ Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4445.
 \c@Hy@tempcnt=\count296
 
-(C:\Program Files\MiKTeX2\tex/latex/url\url.sty
+(C:\Program Files\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen260
 
-(C:\Program Files\MiKTeX2\tex/generic/bitset\bitset.sty
+(C:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Program Files\MiKTeX2\tex/generic/bigintcalc\bigintcalc.sty
+(C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -459,10 +455,10 @@ Package hyperref Message: Stopped early.
 
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Program Files\MiKTeX2\tex/latex/hyperref\hpdftex.def
+ (C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 
-(C:\Program Files\MiKTeX2\tex/latex/base\atveryend-ltx.sty
+(C:\Program Files\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
@@ -470,22 +466,22 @@ with kernel methods
 \Fld@listcount=\count299
 \c@bookmark@seq@number=\count300
 
-(C:\Program Files\MiKTeX2\tex/latex/rerunfilecheck\rerunfilecheck.sty
+(C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(C:\Program Files\MiKTeX2\tex/generic/uniquecounter\uniquecounter.sty
+(C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 ))
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbaserequires.sty
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbasecompatibility.sty)
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbasefont.sty
-(C:\Program Files\MiKTeX2\tex/latex/amsfonts\amssymb.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbaserequires.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbasecompatibility.sty)
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbasefont.sty
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(C:\Program Files\MiKTeX2\tex/latex/amsfonts\amsfonts.sty
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks30
 \symAMSa=\mathgroup4
@@ -494,43 +490,43 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(C:\Program Files\MiKTeX2\tex/latex/sansmathaccent\sansmathaccent.sty
+(C:\Program Files\MiKTeX\tex/latex/sansmathaccent\sansmathaccent.sty
 Package: sansmathaccent 2020/01/31
 
-(C:\Program Files\MiKTeX2\tex/latex/koma-script\scrlfile.sty
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrlfile.sty
 Package: scrlfile 2021/06/25 v3.34 KOMA-Script package (file load hooks)
 
-(C:\Program Files\MiKTeX2\tex/latex/koma-script\scrlfile-hook.sty
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
 Package: scrlfile-hook 2021/06/25 v3.34 KOMA-Script package (using LaTeX hooks)
 
 
-(C:\Program Files\MiKTeX2\tex/latex/koma-script\scrlogo.sty
+(C:\Program Files\MiKTeX\tex/latex/koma-script\scrlogo.sty
 Package: scrlogo 2021/06/25 v3.34 KOMA-Script package (logo)
 )))
 
 LaTeX hooks Warning: Generic hook 'file/before/bm.sty' is deprecated.
 (hooks)              Use hook 'file/bm.sty/before' instead.
 
-)) (C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbasetranslator.sty
-(C:\Program Files\MiKTeX2\tex/latex/translator\translator.sty
+)) (C:\Program Files\MiKTeX\tex/latex/beamer\beamerbasetranslator.sty
+(C:\Program Files\MiKTeX\tex/latex/translator\translator.sty
 Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 ))
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbasemisc.sty)
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbasetwoscreens.sty)
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbaseoverlay.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbasemisc.sty)
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbasetwoscreens.sty)
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbaseoverlay.sty
 \beamer@argscount=\count301
 \beamer@lastskipcover=\skip53
 \beamer@trivlistdepth=\count302
 )
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbasetitle.sty)
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbasesection.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbasetitle.sty)
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbasesection.sty
 \c@lecture=\count303
 \c@part=\count304
 \c@section=\count305
 \c@subsection=\count306
 \c@subsubsection=\count307
 )
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbaseframe.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbaseframe.sty
 \beamer@framebox=\box67
 \beamer@frametitlebox=\box68
 \beamer@zoombox=\box69
@@ -546,29 +542,29 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 \framewidth=\dimen264
 \c@framenumber=\count311
 )
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbaseverbatim.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbaseverbatim.sty
 \beamer@verbatimfileout=\write4
 )
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbaseframesize.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbaseframesize.sty
 \beamer@splitbox=\box70
 \beamer@autobreakcount=\count312
 \beamer@autobreaklastheight=\dimen265
 \beamer@frametitletoks=\toks32
 \beamer@framesubtitletoks=\toks33
 )
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbaseframecomponents.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbaseframecomponents.sty
 \beamer@footins=\box71
 )
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbasecolor.sty)
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbasenotes.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbasecolor.sty)
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbasenotes.sty
 \beamer@frameboxcopy=\box72
 )
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbasetoc.sty)
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbasetemplates.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbasetoc.sty)
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbasetemplates.sty
 \beamer@sbttoks=\toks34
 
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbaseauxtemplates.sty
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbaseboxes.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbaseauxtemplates.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbaseboxes.sty
 \bmb@box=\box73
 \bmb@colorbox=\box74
 \bmb@boxwidth=\dimen266
@@ -581,8 +577,8 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 )
 \beamer@blockheadheight=\dimen273
 ))
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbaselocalstructure.sty
-(C:\Program Files\MiKTeX2\tex/latex/tools\enumerate.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbaselocalstructure.sty
+(C:\Program Files\MiKTeX\tex/latex/tools\enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks35
 )
@@ -592,28 +588,28 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \abovecaptionskip=\skip59
 \belowcaptionskip=\skip60
 )
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbasenavigation.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbasenavigation.sty
 \beamer@section@min@dim=\dimen274
 )
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbasetheorems.sty
-(C:\Program Files\MiKTeX2\tex/latex/amsmath\amsmath.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbasetheorems.sty
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
 \@mathmargin=\skip61
 
 For additional information on amsmath, use the `?' option.
-(C:\Program Files\MiKTeX2\tex/latex/amsmath\amstext.sty
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Program Files\MiKTeX2\tex/latex/amsmath\amsgen.sty
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks36
 \ex@=\dimen275
 ))
-(C:\Program Files\MiKTeX2\tex/latex/amsmath\amsbsy.sty
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen276
 )
-(C:\Program Files\MiKTeX2\tex/latex/amsmath\amsopn.sty
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
 \inf@bad=\count315
@@ -654,7 +650,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 )
-(C:\Program Files\MiKTeX2\tex/latex/amscls\amsthm.sty
+(C:\Program Files\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks41
 \thm@bodyfont=\toks42
@@ -668,23 +664,23 @@ Package: amsthm 2020/05/29 v2.20.6
 )
 \c@theorem=\count327
 )
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerbasethemes.sty))
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerthemedefault.sty
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerfontthemedefault.sty)
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamercolorthemedefault.sty)
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerinnerthemedefault.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerbasethemes.sty))
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerthemedefault.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerfontthemedefault.sty)
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamercolorthemedefault.sty)
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerinnerthemedefault.sty
 \beamer@dima=\dimen284
 \beamer@dimb=\dimen285
 )
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerouterthemedefault.sty)))
-(C:\Program Files\MiKTeX2\tex/latex/appendixnumberbeamer\appendixnumberbeamer.s
-ty) (C:\Program Files\MiKTeX2\tex/latex/caption\subcaption.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerouterthemedefault.sty)))
+(C:\Program Files\MiKTeX\tex/latex/appendixnumberbeamer\appendixnumberbeamer.st
+y) (C:\Program Files\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
 
-(C:\Program Files\MiKTeX2\tex/latex/caption\caption.sty
+(C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
-(C:\Program Files\MiKTeX2\tex/latex/caption\caption3.sty
+(C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \captionmargin=\dimen286
 \captionmargin@=\dimen287
@@ -695,7 +691,7 @@ Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \caption@hangindent=\dimen292
 Package caption Info: beamer document class detected.
 
-(C:\Program Files\MiKTeX2\tex/latex/caption\caption-beamer.sto
+(C:\Program Files\MiKTeX\tex/latex/caption\caption-beamer.sto
 File: caption-beamer.sto 2020/08/22 v2.0 Adaption of the caption package to the
  beamer document classes (AR)
 ))
@@ -708,13 +704,13 @@ Package caption Info: Hyperref support is turned off
 \c@subfigure=\count330
 \c@subtable=\count331
 )
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamercolorthemedolphin.sty)
-(C:\Program Files\MiKTeX2\tex/latex/fnpct\fnpct.sty
-(C:\Program Files\MiKTeX2\tex/latex/l3packages/l3keys2e\l3keys2e.sty
-(C:\Program Files\MiKTeX2\tex/latex/l3kernel\expl3.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamercolorthemedolphin.sty)
+(C:\Program Files\MiKTeX\tex/latex/fnpct\fnpct.sty
+(C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+(C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2021-11-12 L3 programming layer (loader) 
 
-(C:\Program Files\MiKTeX2\tex/latex/l3backend\l3backend-pdftex.def
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count332
 \l__pdf_internal_box=\box77
@@ -731,7 +727,7 @@ Package: fnpct 2021/01/21 v1.0 footnote kerning
 \l__fnpct_before_collect_dim=\dimen298
 \l__fnpct_after_collect_dim=\dimen299
 
-(C:\Program Files\MiKTeX2\tex/latex/translations\translations.sty
+(C:\Program Files\MiKTeX\tex/latex/translations\translations.sty
 Package: translations 2021/01/17 v1.10a internationalization of LaTeX2e package
 s (CN)
 )
@@ -747,12 +743,12 @@ LaTeX hooks Warning: Generic hook 'package/after/pagenote' is deprecated.
 LaTeX hooks Warning: Generic hook 'package/after/sepfootnotes' is deprecated.
 (hooks)              Use hook 'package/sepfootnotes/after' instead.
 
-) (C:\Program Files\MiKTeX2\tex/latex/newpx\newpxtext.sty
+) (C:\Program Files\MiKTeX\tex/latex/newpx\newpxtext.sty
 Package: newpxtext 2021/05/29 v1.422
 
 `newpxtext' v1.422, 2021/05/29 Text macros taking advantage of TeXGyre Pagella 
 and its extensions (msharpe)
-(C:\Program Files\MiKTeX2\tex/latex/fontaxes\fontaxes.sty
+(C:\Program Files\MiKTeX\tex/latex/fontaxes\fontaxes.sty
 Package: fontaxes 2020/07/21 v1.0e Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
 LaTeX Info: Redefining \itshape on input line 31.
@@ -765,25 +761,25 @@ LaTeX Info: Redefining \textsw on input line 47.
 LaTeX Info: Redefining \textssc on input line 48.
 LaTeX Info: Redefining \textulc on input line 49.
 )
-(C:\Program Files\MiKTeX2\tex/latex/xkeyval\xkeyval.sty
+(C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-(C:\Program Files\MiKTeX2\tex/generic/xkeyval\xkeyval.tex
-(C:\Program Files\MiKTeX2\tex/generic/xkeyval\xkvutils.tex
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks47
 \XKV@tempa@toks=\toks48
 )
 \XKV@depth=\count334
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(C:\Program Files\MiKTeX2\tex/latex/base\fontenc.sty
+(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(C:\Program Files\MiKTeX2\tex/latex/base\textcomp.sty
+(C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ))
-(C:\Program Files\MiKTeX2\tex/latex/beamer\beamerfontthemeprofessionalfonts.sty
-) (C:\Program Files\MiKTeX2\tex/latex/tools\bm.sty
+(C:\Program Files\MiKTeX\tex/latex/beamer\beamerfontthemeprofessionalfonts.sty)
+(C:\Program Files\MiKTeX\tex/latex/tools\bm.sty
 Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
@@ -793,16 +789,16 @@ Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
-(C:\Program Files\MiKTeX2\tex/latex/placeins\placeins.sty
+(C:\Program Files\MiKTeX\tex/latex/placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-(C:\Program Files\MiKTeX2\tex/latex/epstopdf-pkg\epstopdf.sty
+(C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf.sty
 Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
 
-(C:\Program Files\MiKTeX2\tex/latex/grfext\grfext.sty
+(C:\Program Files\MiKTeX\tex/latex/grfext\grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 )
-(C:\Program Files\MiKTeX2\tex/latex/epstopdf-pkg\epstopdf-base.sty
+(C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -811,19 +807,19 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 
-(C:\Program Files\MiKTeX2\tex/latex/00miktex\epstopdf-sys.cfg
+(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )))
-(C:\Program Files\MiKTeX2\tex/latex/grffile\grffile.sty
+(C:\Program Files\MiKTeX\tex/latex/grffile\grffile.sty
 Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
 y)
 Package grffile Info: This package is an empty stub for compatibility on input 
 line 40.
 )
-(C:\Program Files\MiKTeX2\tex/latex/marvosym\marvosym.sty
+(C:\Program Files\MiKTeX\tex/latex/marvosym\marvosym.sty
 Package: marvosym 2011/07/20 v2.2 Martin Vogel's Symbols font definitions
 )
-(C:\Program Files\MiKTeX2\tex/latex/csquotes\csquotes.sty
+(C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
 \csq@reset=\count335
 \csq@gtype=\count336
@@ -833,13 +829,13 @@ Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
 \csq@tshold=\count340
 \csq@ltx@everypar=\toks49
 
-(C:\Program Files\MiKTeX2\tex/latex/csquotes\csquotes.def
+(C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(C:\Program Files\MiKTeX2\tex/latex/csquotes\csquotes.cfg
+(C:\Program Files\MiKTeX\tex/latex/csquotes\csquotes.cfg
 File: csquotes.cfg 
 )
 Package csquotes Info: Disabling multilingual quotes.
@@ -847,7 +843,7 @@ Package csquotes Info: Redefining alias 'default' -> 'british'.
 )
 \mybox=\box78
 
-(C:\Program Files\MiKTeX2\tex/latex/verse\verse.sty
+(C:\Program Files\MiKTeX\tex/latex/verse\verse.sty
 Package: verse 2009/09/04 v2.4a verse typesetting
 \c@vslineno=\count341
 \c@poemline=\count342
@@ -864,43 +860,43 @@ Package: verse 2009/09/04 v2.4a verse typesetting
 \beforepoemtitleskip=\skip73
 \afterpoemtitleskip=\skip74
 )
-(C:\Program Files\MiKTeX2\tex/latex/pgf/frontendlayer\tikz.sty
-(C:\Program Files\MiKTeX2\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
 Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Program Files\MiKTeX2\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfnodeparttextbox=\box79
 )
-(C:\Program Files\MiKTeX2\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Program Files\MiKTeX2\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@nodesepstart=\dimen300
 \pgf@nodesepend=\dimen301
-) (C:\Program Files\MiKTeX2\tex/latex/pgf/compatibility\pgfcomp-version-1-18.st
-y
+)
+(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
-)) (C:\Program Files\MiKTeX2\tex/latex/pgf/utilities\pgffor.sty
-(C:\Program Files\MiKTeX2\tex/latex/pgf/utilities\pgfkeys.sty
-(C:\Program Files\MiKTeX2\tex/generic/pgf/utilities\pgfkeys.code.tex))
-(C:\Program Files\MiKTeX2\tex/latex/pgf/math\pgfmath.sty
-(C:\Program Files\MiKTeX2\tex/generic/pgf/math\pgfmath.code.tex))
-(C:\Program Files\MiKTeX2\tex/generic/pgf/utilities\pgffor.code.tex
+)) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex))
+(C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Program Files\MiKTeX2\tex/generic/pgf/math\pgfmath.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
 \pgffor@iter=\dimen302
 \pgffor@skip=\dimen303
 \pgffor@stack=\toks50
 \pgffor@toks=\toks51
 ))
-(C:\Program Files\MiKTeX2\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Program Files\MiKTeX2\tex/generic/pgf/libraries\pgflibraryplothandlers.code
-.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.
+tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@plot@mark@count=\count347
 \pgfplotmarksize=\dimen304
@@ -921,8 +917,7 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikznumberofchildren=\count349
 \tikznumberofcurrentchild=\count350
 \tikz@fig@count=\count351
-
-(C:\Program Files\MiKTeX2\tex/generic/pgf/modules\pgfmodulematrix.code.tex
+ (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfmatrixcurrentrow=\count352
 \pgfmatrixcurrentcolumn=\count353
@@ -930,17 +925,17 @@ File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 \tikz@expandcount=\count355
 
-(C:\Program Files\MiKTeX2\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibr
-arytopaths.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))) (C:\Program Files\MiKTeX2\tex/latex/bbm\bbm.sty
+))) (C:\Program Files\MiKTeX\tex/latex/bbm\bbm.sty
 Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
 LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 (Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
-(C:\Program Files\MiKTeX2\tex/latex/tools\tabularx.sty
+(C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@col@width=\dimen313
 \TX@old@table=\dimen314
@@ -950,14 +945,14 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@cols=\count356
 \TX@ftn=\toks52
 )
-(C:\Program Files\MiKTeX2\tex/latex/multirow\multirow.sty
+(C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip75
 \multirow@cntb=\count357
 \multirow@dima=\skip76
 \bigstrutjot=\dimen318
 )
-(C:\Program Files\MiKTeX2\tex/latex/tools\multicol.sty
+(C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \c@tracingmulticols=\count358
 \mult@box=\box84
@@ -1026,7 +1021,7 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \colbreak@box=\box128
 \mc@col@check@num=\count367
 )
-(C:\Program Files\MiKTeX2\tex/latex/booktabs\booktabs.sty
+(C:\Program Files\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen328
 \lightrulewidth=\dimen329
@@ -1046,11 +1041,11 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count371
 \@thisrulewidth=\dimen340
 )
-(C:\Program Files\MiKTeX2\tex/latex/threeparttable\threeparttable.sty
+(C:\Program Files\MiKTeX\tex/latex/threeparttable\threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box129
 )
-(C:\Program Files\MiKTeX2\tex/latex/lm\lmodern.sty
+(C:\Program Files\MiKTeX\tex/latex/lm\lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -1085,12 +1080,12 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-(C:\Program Files\MiKTeX2\tex/latex/pgfplots\pgfplots.sty
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots\pgfplots.revision.tex)
+(C:\Program Files\MiKTeX\tex/latex/pgfplots\pgfplots.sty
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots\pgfplots.code.tex
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots\pgfplotscore.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
 \t@pgfplots@toka=\toks53
 \t@pgfplots@tokb=\toks54
 \t@pgfplots@tokc=\toks55
@@ -1098,56 +1093,54 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 \c@pgfplots@coordindex=\count372
 \c@pgfplots@scanlineindex=\count373
 
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)
-) (C:\Program Files\MiKTeX2\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex)
-
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsup
-p_loader.code.tex
-(C:\Program Files\MiKTeX2\tex/generic/pgf/libraries\pgflibraryfpu.code.tex))
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots/util\pgfplotsutil.code.tex
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots/liststructure\pgfplotsliststruct
-ure.code.tex)
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots/liststructure\pgfplotsliststruct
-ureext.code.tex)
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots/liststructure\pgfplotsarray.code
-.tex
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp
+_loader.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructu
+re.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructu
+reext.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.
+tex
 \c@pgfplotsarray@tmp=\count374
 )
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots/liststructure\pgfplotsmatrix.cod
-e.tex)
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots/numtable\pgfplotstableshared.cod
-e.tex
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code
+.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code
+.tex
 \c@pgfplotstable@counta=\count375
 \t@pgfplotstable@a=\toks56
 )
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots/liststructure\pgfplotsdeque.code
-.tex)
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots/util\pgfplotsbinary.code.tex
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots/util\pgfplotsbinary.data.code.te
-x))
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.
+tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex
 
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshad
-ing.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex
+))
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshadi
+ng.code.tex
 \c@pgfplotslibrarysurf@no=\count376
 
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshadi
-ng.pgfsys-pdftex.def)))
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots/util\pgfplotscolormap.code.tex
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots/util\pgfplotscolor.code.tex))
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots\pgfplotsstackedplots.code.tex)
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots\pgfplotsplothandlers.code.tex
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))
-) (C:\Program Files\MiKTeX2\tex/generic/pgfplots\pgfplots.scaling.code.tex)
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex
-) (C:\Program Files\MiKTeX2\tex/generic/pgfplots\pgfplots.errorbars.code.tex)
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots\pgfplots.markers.code.tex)
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots\pgfplotsticks.code.tex)
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots\pgfplots.paths.code.tex)
-(C:\Program Files\MiKTeX2\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibr
-arydecorations.code.tex
-(C:\Program Files\MiKTeX2\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshadin
+g.pgfsys-pdftex.def)))
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex)))
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rydecorations.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen342
 \pgfdecoratedremainingdistance=\dimen343
 \pgfdecoratedinputsegmentcompleteddistance=\dimen344
@@ -1159,16 +1152,16 @@ arydecorations.code.tex
 )
 \tikz@lib@dec@box=\box130
 )
-(C:\Program Files\MiKTeX2\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibr
-arydecorations.pathmorphing.code.tex
-(C:\Program Files\MiKTeX2\tex/generic/pgf/libraries/decorations\pgflibrarydecor
-ations.pathmorphing.code.tex))
-(C:\Program Files\MiKTeX2\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibr
-arydecorations.pathreplacing.code.tex
-(C:\Program Files\MiKTeX2\tex/generic/pgf/libraries/decorations\pgflibrarydecor
-ations.pathreplacing.code.tex))
-(C:\Program Files\MiKTeX2\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contour
-lua.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rydecorations.pathmorphing.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecora
+tions.pathmorphing.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rydecorations.pathreplacing.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecora
+tions.pathreplacing.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourl
+ua.code.tex)
 \pgfplots@numplots=\count378
 \pgfplots@xmin@reg=\dimen349
 \pgfplots@xmax@reg=\dimen350
@@ -1177,12 +1170,11 @@ lua.code.tex)
 \pgfplots@zmin@reg=\dimen353
 \pgfplots@zmax@reg=\dimen354
 )
-(C:\Program Files\MiKTeX2\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibr
-aryplotmarks.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+ryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Program Files\MiKTeX2\tex/generic/pgf/libraries\pgflibraryplotmarks.code.te
-x
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 
@@ -1193,7 +1185,7 @@ Package translations Info: No language package found. I am going to use `englis
 h' as default language. on input line 154.
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
 54.
-(C:\Program Files\MiKTeX2\tex/latex/lm\t1lmss.fd
+(C:\Program Files\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (sala_covid.aux
 
@@ -1324,7 +1316,7 @@ LaTeX Font Info:    ... okay on input line 154.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Program Files\MiKTeX2\tex/context/base/mkii\supp-pdf.mkii
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count379
 \scratchdimen=\dimen355
@@ -1339,13 +1331,13 @@ LaTeX Font Info:    ... okay on input line 154.
 \everyMPtoPDFconversion=\toks58
 )
 Package hyperref Info: Link coloring OFF on input line 154.
- (C:\Program Files\MiKTeX2\tex/latex/hyperref\nameref.sty
+ (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
-(C:\Program Files\MiKTeX2\tex/latex/refcount\refcount.sty
+(C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Program Files\MiKTeX2\tex/generic/gettitlestring\gettitlestring.sty
+(C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count385
@@ -1359,28 +1351,28 @@ LaTeX Info: Redefining \nameref on input line 154.
 \openout5 = `sala_covid.out'.
 
 
-(C:\Program Files\MiKTeX2\tex/latex/translator\translator-basic-dictionary-Engl
-ish.dict
+(C:\Program Files\MiKTeX\tex/latex/translator\translator-basic-dictionary-Engli
+sh.dict
 Dictionary: translator-basic-dictionary, Language: English 
 )
-(C:\Program Files\MiKTeX2\tex/latex/translator\translator-bibliography-dictiona
-ry-English.dict
+(C:\Program Files\MiKTeX\tex/latex/translator\translator-bibliography-dictionar
+y-English.dict
 Dictionary: translator-bibliography-dictionary, Language: English 
 )
-(C:\Program Files\MiKTeX2\tex/latex/translator\translator-environment-dictionar
-y-English.dict
+(C:\Program Files\MiKTeX\tex/latex/translator\translator-environment-dictionary
+-English.dict
 Dictionary: translator-environment-dictionary, Language: English 
 )
-(C:\Program Files\MiKTeX2\tex/latex/translator\translator-months-dictionary-Eng
-lish.dict
+(C:\Program Files\MiKTeX\tex/latex/translator\translator-months-dictionary-Engl
+ish.dict
 Dictionary: translator-months-dictionary, Language: English 
 )
-(C:\Program Files\MiKTeX2\tex/latex/translator\translator-numbers-dictionary-En
-glish.dict
+(C:\Program Files\MiKTeX\tex/latex/translator\translator-numbers-dictionary-Eng
+lish.dict
 Dictionary: translator-numbers-dictionary, Language: English 
 )
-(C:\Program Files\MiKTeX2\tex/latex/translator\translator-theorem-dictionary-En
-glish.dict
+(C:\Program Files\MiKTeX\tex/latex/translator\translator-theorem-dictionary-Eng
+lish.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -1396,8 +1388,8 @@ LaTeX hooks Warning: Generic hook
 (hooks)              instead.
 
 
-(C:\Program Files\MiKTeX2\tex/latex/translations/dicts\translations-basic-dicti
-onary-english.trsl
+(C:\Program Files\MiKTeX\tex/latex/translations/dicts\translations-basic-dictio
+nary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
@@ -1415,7 +1407,7 @@ your preamble.
 (sala_covid.nav)
 LaTeX Font Info:    Trying to load font information for T1+zplsups on input lin
 e 161.
- (C:\Program Files\MiKTeX2\tex/latex/newpx\t1zplsups.fd
+ (C:\Program Files\MiKTeX\tex/latex/newpx\t1zplsups.fd
 File: t1zplsups.fd 2015/01/17 v1.0
 )
 LaTeX Font Info:    Font shape `T1/zplsups/m/n' will be
@@ -1425,29 +1417,29 @@ LaTeX Font Info:    Font shape `T1/zplsups/m/n' will be
 
 [1
 
-{C:/Users/UNSAAC/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+{C:/Users/user/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
 89.
 
-(C:\Program Files\MiKTeX2\tex/latex/lm\ot1lmr.fd
+(C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
 89.
 
-(C:\Program Files\MiKTeX2\tex/latex/lm\omllmm.fd
+(C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
 189.
 
-(C:\Program Files\MiKTeX2\tex/latex/lm\omslmsy.fd
+(C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
 189.
 
-(C:\Program Files\MiKTeX2\tex/latex/lm\omxlmex.fd
+(C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1459,13 +1451,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    Trying to load font information for U+msa on input line 189
 .
 
-(C:\Program Files\MiKTeX2\tex/latex/amsfonts\umsa.fd
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 189
 .
 
-(C:\Program Files\MiKTeX2\tex/latex/amsfonts\umsb.fd
+(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1495,12 +1487,12 @@ ut line 221.
 
  <../sala_nacional/variantes_lima.png> <../sala_nacional/variantes_sierra_sur.p
 ng>]
-<../sala_nacional/vacunas_nacional.png, id=166, 1208.515pt x 699.61375pt>
+<../sala_nacional/vacunas_nacional.png, id=166, 1207.51125pt x 705.63625pt>
 File: ../sala_nacional/vacunas_nacional.png Graphic file (type png)
 <use ../sala_nacional/vacunas_nacional.png>
 Package pdftex.def Info: ../sala_nacional/vacunas_nacional.png  used on input l
 ine 235.
-(pdftex.def)             Requested size: 307.28987pt x 177.89207pt.
+(pdftex.def)             Requested size: 307.28987pt x 179.56339pt.
  [5
 
  <../sala_nacional/vacunas_nacional.png>]
@@ -1521,7 +1513,7 @@ ut line 274.
 (pdftex.def)             Requested size: 184.3758pt x 122.63861pt.
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
 274.
- (C:\Program Files\MiKTeX2\tex/latex/lm\ts1lmss.fd
+(C:\Program Files\MiKTeX\tex/latex/lm\ts1lmss.fd
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [7
 
@@ -1541,8 +1533,7 @@ File: ../sala_nacional/camas_regional.png Graphic file (type png)
 Package pdftex.def Info: ../sala_nacional/camas_regional.png  used on input lin
 e 310.
 (pdftex.def)             Requested size: 172.08157pt x 125.14374pt.
-
-[9
+ [9
 
  <../sala_nacional/camas_regional.png>]
 <../sala_nacional/uci_regional.png, id=203, 364.36125pt x 264.99pt>
@@ -1560,7 +1551,8 @@ File: ../sala_nacional/nouci_regional.png Graphic file (type png)
 Package pdftex.def Info: ../sala_nacional/nouci_regional.png  used on input lin
 e 339.
 (pdftex.def)             Requested size: 230.46739pt x 167.61174pt.
- [11
+
+[11
 
  <../sala_nacional/nouci_regional.png>] [12
 
@@ -1621,7 +1613,7 @@ File: ../figuras/positividad_pcr.pdf Graphic file (type pdf)
 <use ../figuras/positividad_pcr.pdf>
 Package pdftex.def Info: ../figuras/positividad_pcr.pdf  used on input line 404
 .
-(pdftex.def)             Requested size: 276.559pt x 201.13718pt.
+(pdftex.def)             Requested size: 245.83282pt x 178.79105pt.
 [17
 
  <../figuras/positividad_pcr.pdf>]
@@ -1633,7 +1625,7 @@ File: ../figuras/positividad_ag.pdf Graphic file (type pdf)
 <use ../figuras/positividad_ag.pdf>
 Package pdftex.def Info: ../figuras/positividad_ag.pdf  used on input line 412.
 
-(pdftex.def)             Requested size: 276.559pt x 201.13718pt.
+(pdftex.def)             Requested size: 245.83282pt x 178.79105pt.
 [18
 
  <../figuras/positividad_ag.pdf>]
@@ -1655,15 +1647,15 @@ clusion: found PDF version <1.6>, but at most version <1.5> allowed
 File: ../figuras/variantes_provincial.pdf Graphic file (type pdf)
 <use ../figuras/variantes_provincial.pdf>
 Package pdftex.def Info: ../figuras/variantes_provincial.pdf  used on input lin
-e 434.
+e 435.
 (pdftex.def)             Requested size: 122.91406pt x 143.53177pt.
 [20
 
  <../figuras/variantes_provincial.pdf>]
-<../sala_nacional/rt_cusco.png, id=397, 505.89pt x 361.35pt>
+<../sala_nacional/rt_cusco.png, id=398, 505.89pt x 361.35pt>
 File: ../sala_nacional/rt_cusco.png Graphic file (type png)
 <use ../sala_nacional/rt_cusco.png>
-Package pdftex.def Info: ../sala_nacional/rt_cusco.png  used on input line 445.
+Package pdftex.def Info: ../sala_nacional/rt_cusco.png  used on input line 446.
 
 (pdftex.def)             Requested size: 230.46739pt x 155.55032pt.
  [21
@@ -1672,11 +1664,11 @@ Package pdftex.def Info: ../sala_nacional/rt_cusco.png  used on input line 445.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/defunciones_20_21.pdf): PDF inclu
 sion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/defunciones_20_21.pdf, id=407, 397.485pt x 289.08pt>
+<../figuras/defunciones_20_21.pdf, id=408, 397.485pt x 289.08pt>
 File: ../figuras/defunciones_20_21.pdf Graphic file (type pdf)
 <use ../figuras/defunciones_20_21.pdf>
 Package pdftex.def Info: ../figuras/defunciones_20_21.pdf  used on input line 4
-55.
+56.
 (pdftex.def)             Requested size: 276.559pt x 187.27939pt.
 [22
 
@@ -1684,11 +1676,11 @@ Package pdftex.def Info: ../figuras/defunciones_20_21.pdf  used on input line 4
 
 pdfTeX warning: pdflatex.exe (file ../figuras/defunciones_crecimiento_2021.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/defunciones_crecimiento_2021.pdf, id=425, 397.485pt x 289.08pt>
+<../figuras/defunciones_crecimiento_2021.pdf, id=426, 397.485pt x 289.08pt>
 File: ../figuras/defunciones_crecimiento_2021.pdf Graphic file (type pdf)
 <use ../figuras/defunciones_crecimiento_2021.pdf>
 Package pdftex.def Info: ../figuras/defunciones_crecimiento_2021.pdf  used on i
-nput line 465.
+nput line 466.
 (pdftex.def)             Requested size: 276.559pt x 201.13718pt.
 [23
 
@@ -1696,10 +1688,10 @@ nput line 465.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_region.pdf): PDF inclusion
 : found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_region.pdf, id=441, 397.485pt x 289.08pt>
+<../figuras/exceso_region.pdf, id=442, 397.485pt x 289.08pt>
 File: ../figuras/exceso_region.pdf Graphic file (type pdf)
 <use ../figuras/exceso_region.pdf>
-Package pdftex.def Info: ../figuras/exceso_region.pdf  used on input line 474.
+Package pdftex.def Info: ../figuras/exceso_region.pdf  used on input line 475.
 (pdftex.def)             Requested size: 276.559pt x 201.13718pt.
 [24
 
@@ -1707,10 +1699,10 @@ Package pdftex.def Info: ../figuras/exceso_region.pdf  used on input line 474.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad.pdf, id=466, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad.pdf, id=467, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad.pdf>
-Package pdftex.def Info: ../figuras/mortalidad_edad.pdf  used on input line 483
+Package pdftex.def Info: ../figuras/mortalidad_edad.pdf  used on input line 484
 .
 (pdftex.def)             Requested size: 276.559pt x 201.13718pt.
 [25
@@ -1719,61 +1711,61 @@ Package pdftex.def Info: ../figuras/mortalidad_edad.pdf  used on input line 483
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_80.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_80.pdf, id=483, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_80.pdf, id=484, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_80.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_80.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_80.pdf  used on input line 
-538.
+539.
 (pdftex.def)             Requested size: 92.1879pt x 67.04279pt.
 
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_70.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_70.pdf, id=484, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_70.pdf, id=485, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_70.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_70.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_70.pdf  used on input line 
-538.
+539.
 (pdftex.def)             Requested size: 92.1879pt x 67.04279pt.
 
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_60.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_60.pdf, id=485, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_60.pdf, id=486, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_60.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_60.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_60.pdf  used on input line 
-538.
+539.
 (pdftex.def)             Requested size: 92.1879pt x 67.04279pt.
 
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_50.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_50.pdf, id=486, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_50.pdf, id=487, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_50.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_50.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_50.pdf  used on input line 
-538.
+539.
 (pdftex.def)             Requested size: 92.1879pt x 67.04279pt.
 
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_40.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_40.pdf, id=487, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_40.pdf, id=488, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_40.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_40.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_40.pdf  used on input line 
-538.
+539.
 (pdftex.def)             Requested size: 92.1879pt x 67.04279pt.
 
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_30.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_30.pdf, id=488, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_30.pdf, id=489, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_30.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_30.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_30.pdf  used on input line 
-538.
+539.
 (pdftex.def)             Requested size: 92.1879pt x 67.04279pt.
 [26
 
@@ -1785,11 +1777,11 @@ ortalidad_edad_40.pdf> <../figuras/mortalidad_edad_30.pdf>] [27
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_grupo_edad.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion_grupo_edad.pdf, id=561, 397.485pt x 289.08pt>
+<../figuras/vacunacion_grupo_edad.pdf, id=562, 397.485pt x 289.08pt>
 File: ../figuras/vacunacion_grupo_edad.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion_grupo_edad.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_grupo_edad.pdf  used on input li
-ne 553.
+ne 554.
 (pdftex.def)             Requested size: 245.83282pt x 171.37672pt.
 [28
 
@@ -1797,11 +1789,11 @@ ne 553.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_8.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion_provincial_edad_8.pdf, id=580, 397.485pt x 289.08pt>
+<../figuras/vacunacion_provincial_edad_8.pdf, id=581, 397.485pt x 289.08pt>
 File: ../figuras/vacunacion_provincial_edad_8.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion_provincial_edad_8.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_8.pdf  used on i
-nput line 568.
+nput line 569.
 (pdftex.def)             Requested size: 245.83282pt x 171.37672pt.
 [29
 
@@ -1811,10 +1803,10 @@ nput line 568.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/uci.pdf): PDF inclusion: found PD
 F version <1.6>, but at most version <1.5> allowed
-<../figuras/uci.pdf, id=620, 397.485pt x 289.08pt>
+<../figuras/uci.pdf, id=621, 397.485pt x 289.08pt>
 File: ../figuras/uci.pdf Graphic file (type pdf)
 <use ../figuras/uci.pdf>
-Package pdftex.def Info: ../figuras/uci.pdf  used on input line 595.
+Package pdftex.def Info: ../figuras/uci.pdf  used on input line 596.
 (pdftex.def)             Requested size: 276.559pt x 187.27939pt.
 [31
 
@@ -1822,10 +1814,10 @@ Package pdftex.def Info: ../figuras/uci.pdf  used on input line 595.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/nivel_3.pdf): PDF inclusion: foun
 d PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/nivel_3.pdf, id=640, 397.485pt x 289.08pt>
+<../figuras/nivel_3.pdf, id=641, 397.485pt x 289.08pt>
 File: ../figuras/nivel_3.pdf Graphic file (type pdf)
 <use ../figuras/nivel_3.pdf>
-Package pdftex.def Info: ../figuras/nivel_3.pdf  used on input line 604.
+Package pdftex.def Info: ../figuras/nivel_3.pdf  used on input line 605.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [32
 
@@ -1833,10 +1825,10 @@ Package pdftex.def Info: ../figuras/nivel_3.pdf  used on input line 604.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/h_regional_uci.pdf): PDF inclusio
 n: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/h_regional_uci.pdf, id=658, 397.485pt x 289.08pt>
+<../figuras/h_regional_uci.pdf, id=659, 397.485pt x 289.08pt>
 File: ../figuras/h_regional_uci.pdf Graphic file (type pdf)
 <use ../figuras/h_regional_uci.pdf>
-Package pdftex.def Info: ../figuras/h_regional_uci.pdf  used on input line 613.
+Package pdftex.def Info: ../figuras/h_regional_uci.pdf  used on input line 614.
 
 (pdftex.def)             Requested size: 236.6145pt x 160.23007pt.
 [33
@@ -1845,11 +1837,11 @@ Package pdftex.def Info: ../figuras/h_regional_uci.pdf  used on input line 613.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/h_regional_nouci.pdf): PDF inclus
 ion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/h_regional_nouci.pdf, id=676, 397.485pt x 289.08pt>
+<../figuras/h_regional_nouci.pdf, id=677, 397.485pt x 289.08pt>
 File: ../figuras/h_regional_nouci.pdf Graphic file (type pdf)
 <use ../figuras/h_regional_nouci.pdf>
 Package pdftex.def Info: ../figuras/h_regional_nouci.pdf  used on input line 63
-3.
+4.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [34
 
@@ -1857,10 +1849,10 @@ Package pdftex.def Info: ../figuras/h_regional_nouci.pdf  used on input line 63
 
 pdfTeX warning: pdflatex.exe (file ../figuras/h_lorena_uci.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/h_lorena_uci.pdf, id=694, 397.485pt x 289.08pt>
+<../figuras/h_lorena_uci.pdf, id=695, 397.485pt x 289.08pt>
 File: ../figuras/h_lorena_uci.pdf Graphic file (type pdf)
 <use ../figuras/h_lorena_uci.pdf>
-Package pdftex.def Info: ../figuras/h_lorena_uci.pdf  used on input line 642.
+Package pdftex.def Info: ../figuras/h_lorena_uci.pdf  used on input line 643.
 (pdftex.def)             Requested size: 236.6145pt x 160.23007pt.
 [35
 
@@ -1868,10 +1860,10 @@ Package pdftex.def Info: ../figuras/h_lorena_uci.pdf  used on input line 642.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/h_lorena_nouci.pdf): PDF inclusio
 n: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/h_lorena_nouci.pdf, id=712, 397.485pt x 289.08pt>
+<../figuras/h_lorena_nouci.pdf, id=713, 397.485pt x 289.08pt>
 File: ../figuras/h_lorena_nouci.pdf Graphic file (type pdf)
 <use ../figuras/h_lorena_nouci.pdf>
-Package pdftex.def Info: ../figuras/h_lorena_nouci.pdf  used on input line 661.
+Package pdftex.def Info: ../figuras/h_lorena_nouci.pdf  used on input line 662.
 
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [36
@@ -1880,10 +1872,10 @@ Package pdftex.def Info: ../figuras/h_lorena_nouci.pdf  used on input line 661.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/h_adolfo_uci.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/h_adolfo_uci.pdf, id=730, 397.485pt x 289.08pt>
+<../figuras/h_adolfo_uci.pdf, id=731, 397.485pt x 289.08pt>
 File: ../figuras/h_adolfo_uci.pdf Graphic file (type pdf)
 <use ../figuras/h_adolfo_uci.pdf>
-Package pdftex.def Info: ../figuras/h_adolfo_uci.pdf  used on input line 670.
+Package pdftex.def Info: ../figuras/h_adolfo_uci.pdf  used on input line 671.
 (pdftex.def)             Requested size: 236.6145pt x 160.23007pt.
 [37
 
@@ -1891,10 +1883,10 @@ Package pdftex.def Info: ../figuras/h_adolfo_uci.pdf  used on input line 670.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/h_adolfo_nouci.pdf): PDF inclusio
 n: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/h_adolfo_nouci.pdf, id=749, 397.485pt x 289.08pt>
+<../figuras/h_adolfo_nouci.pdf, id=750, 397.485pt x 289.08pt>
 File: ../figuras/h_adolfo_nouci.pdf Graphic file (type pdf)
 <use ../figuras/h_adolfo_nouci.pdf>
-Package pdftex.def Info: ../figuras/h_adolfo_nouci.pdf  used on input line 690.
+Package pdftex.def Info: ../figuras/h_adolfo_nouci.pdf  used on input line 691.
 
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [38
@@ -1903,10 +1895,10 @@ Package pdftex.def Info: ../figuras/h_adolfo_nouci.pdf  used on input line 690.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/nivel_2.pdf): PDF inclusion: foun
 d PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/nivel_2.pdf, id=767, 397.485pt x 289.08pt>
+<../figuras/nivel_2.pdf, id=768, 397.485pt x 289.08pt>
 File: ../figuras/nivel_2.pdf Graphic file (type pdf)
 <use ../figuras/nivel_2.pdf>
-Package pdftex.def Info: ../figuras/nivel_2.pdf  used on input line 699.
+Package pdftex.def Info: ../figuras/nivel_2.pdf  used on input line 700.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [39
 
@@ -1941,7 +1933,7 @@ Package pdftex.def Info: ../figuras/nivel_2.pdf  used on input line 699.
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\translate ' on input line 868.
+(hyperref)                removing `\translate ' on input line 869.
 
 [52
 
@@ -1949,11 +1941,11 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_7.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion_provincial_edad_7.pdf, id=885, 397.485pt x 289.08pt>
+<../figuras/vacunacion_provincial_edad_7.pdf, id=886, 397.485pt x 289.08pt>
 File: ../figuras/vacunacion_provincial_edad_7.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion_provincial_edad_7.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_7.pdf  used on i
-nput line 881.
+nput line 882.
 (pdftex.def)             Requested size: 245.83282pt x 171.37672pt.
 [53
 
@@ -1961,11 +1953,11 @@ nput line 881.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_6.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion_provincial_edad_6.pdf, id=905, 397.485pt x 289.08pt>
+<../figuras/vacunacion_provincial_edad_6.pdf, id=906, 397.485pt x 289.08pt>
 File: ../figuras/vacunacion_provincial_edad_6.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion_provincial_edad_6.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_6.pdf  used on i
-nput line 891.
+nput line 892.
 (pdftex.def)             Requested size: 245.83282pt x 171.37672pt.
 [54
 
@@ -1973,11 +1965,11 @@ nput line 891.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_5.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion_provincial_edad_5.pdf, id=925, 397.485pt x 289.08pt>
+<../figuras/vacunacion_provincial_edad_5.pdf, id=926, 397.485pt x 289.08pt>
 File: ../figuras/vacunacion_provincial_edad_5.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion_provincial_edad_5.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_5.pdf  used on i
-nput line 901.
+nput line 902.
 (pdftex.def)             Requested size: 245.83282pt x 171.37672pt.
 [55
 
@@ -1985,11 +1977,11 @@ nput line 901.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_4.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion_provincial_edad_4.pdf, id=946, 397.485pt x 289.08pt>
+<../figuras/vacunacion_provincial_edad_4.pdf, id=947, 397.485pt x 289.08pt>
 File: ../figuras/vacunacion_provincial_edad_4.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion_provincial_edad_4.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_4.pdf  used on i
-nput line 911.
+nput line 912.
 (pdftex.def)             Requested size: 245.83282pt x 171.37672pt.
 [56
 
@@ -1997,11 +1989,11 @@ nput line 911.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_3.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion_provincial_edad_3.pdf, id=966, 397.485pt x 289.08pt>
+<../figuras/vacunacion_provincial_edad_3.pdf, id=967, 397.485pt x 289.08pt>
 File: ../figuras/vacunacion_provincial_edad_3.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion_provincial_edad_3.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_3.pdf  used on i
-nput line 921.
+nput line 922.
 (pdftex.def)             Requested size: 245.83282pt x 171.37672pt.
 [57
 
@@ -2009,11 +2001,11 @@ nput line 921.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_2.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion_provincial_edad_2.pdf, id=986, 397.485pt x 289.08pt>
+<../figuras/vacunacion_provincial_edad_2.pdf, id=987, 397.485pt x 289.08pt>
 File: ../figuras/vacunacion_provincial_edad_2.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion_provincial_edad_2.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_2.pdf  used on i
-nput line 931.
+nput line 932.
 (pdftex.def)             Requested size: 245.83282pt x 171.37672pt.
 [58
 
@@ -2021,21 +2013,21 @@ nput line 931.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_1.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion_provincial_edad_1.pdf, id=1006, 397.485pt x 289.08pt>
+<../figuras/vacunacion_provincial_edad_1.pdf, id=1007, 397.485pt x 289.08pt>
 File: ../figuras/vacunacion_provincial_edad_1.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion_provincial_edad_1.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_1.pdf  used on i
-nput line 941.
+nput line 942.
 (pdftex.def)             Requested size: 245.83282pt x 171.37672pt.
 [59
 
  <../figuras/vacunacion_provincial_edad_1.pdf>]
-<../figuras/sinto_prueba20_21_1.png, id=1026, 855.195pt x 621.32124pt>
+<../figuras/sinto_prueba20_21_1.png, id=1027, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_1.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_1.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_1.png  used on input line
- 952.
-(pdftex.def)             Requested size: 245.83282pt x 172.87949pt.
+ 953.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [60
 
  <../figuras/sinto_prueba20_21_1.png (PNG copy)>]pdfTeX warning (ext4): destina
@@ -2043,21 +2035,21 @@ tion with the same identifier (name{Acomayo<1>}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.961 \end{frame}
+l.962 \end{frame}
                  pdfTeX warning (ext4): destination with the same identifier (n
 ame{Acomayo}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.961 \end{frame}
+l.962 \end{frame}
                  
 
 pdfTeX warning: pdflatex.exe (file ../figuras/incidencia_mortalidad_20_21_1.pdf
 ): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/incidencia_mortalidad_20_21_1.pdf, id=1036, 397.485pt x 289.08pt>
+<../figuras/incidencia_mortalidad_20_21_1.pdf, id=1037, 397.485pt x 289.08pt>
 File: ../figuras/incidencia_mortalidad_20_21_1.pdf Graphic file (type pdf)
 <use ../figuras/incidencia_mortalidad_20_21_1.pdf>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_1.pdf  used on 
-input line 961.
+input line 962.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [61
 
@@ -2065,11 +2057,11 @@ input line 961.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_20_21_1.pdf): PDF inc
 lusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_20_21_1.pdf, id=1055, 397.485pt x 289.08pt>
+<../figuras/positividad_20_21_1.pdf, id=1056, 397.485pt x 289.08pt>
 File: ../figuras/positividad_20_21_1.pdf Graphic file (type pdf)
 <use ../figuras/positividad_20_21_1.pdf>
 Package pdftex.def Info: ../figuras/positividad_20_21_1.pdf  used on input line
- 970.
+ 971.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [62
 
@@ -2077,20 +2069,20 @@ Package pdftex.def Info: ../figuras/positividad_20_21_1.pdf  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_1.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_1.pdf, id=1073, 397.485pt x 289.08pt>
+<../figuras/exceso_1.pdf, id=1074, 397.485pt x 289.08pt>
 File: ../figuras/exceso_1.pdf Graphic file (type pdf)
 <use ../figuras/exceso_1.pdf>
-Package pdftex.def Info: ../figuras/exceso_1.pdf  used on input line 981.
+Package pdftex.def Info: ../figuras/exceso_1.pdf  used on input line 982.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [63
 
  <../figuras/exceso_1.pdf>]
-<../figuras/sinto_prueba20_21_2.png, id=1101, 855.195pt x 621.32124pt>
+<../figuras/sinto_prueba20_21_2.png, id=1102, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_2.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_2.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_2.png  used on input line
- 992.
-(pdftex.def)             Requested size: 245.83282pt x 172.87949pt.
+ 993.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [64
 
  <../figuras/sinto_prueba20_21_2.png (PNG copy)>]pdfTeX warning (ext4): destina
@@ -2098,21 +2090,21 @@ tion with the same identifier (name{Anta<1>}) has been already used, duplicate
 ignored
 <to be read again> 
                    \relax 
-l.1001 \end{frame}
+l.1002 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Anta}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1001 \end{frame}
+l.1002 \end{frame}
                   
 
 pdfTeX warning: pdflatex.exe (file ../figuras/incidencia_mortalidad_20_21_2.pdf
 ): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/incidencia_mortalidad_20_21_2.pdf, id=1111, 397.485pt x 289.08pt>
+<../figuras/incidencia_mortalidad_20_21_2.pdf, id=1112, 397.485pt x 289.08pt>
 File: ../figuras/incidencia_mortalidad_20_21_2.pdf Graphic file (type pdf)
 <use ../figuras/incidencia_mortalidad_20_21_2.pdf>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_2.pdf  used on 
-input line 1001.
+input line 1002.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [65
 
@@ -2120,11 +2112,11 @@ input line 1001.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_20_21_2.pdf): PDF inc
 lusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_20_21_2.pdf, id=1129, 397.485pt x 289.08pt>
+<../figuras/positividad_20_21_2.pdf, id=1130, 397.485pt x 289.08pt>
 File: ../figuras/positividad_20_21_2.pdf Graphic file (type pdf)
 <use ../figuras/positividad_20_21_2.pdf>
 Package pdftex.def Info: ../figuras/positividad_20_21_2.pdf  used on input line
- 1010.
+ 1011.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [66
 
@@ -2132,20 +2124,20 @@ Package pdftex.def Info: ../figuras/positividad_20_21_2.pdf  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_2.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_2.pdf, id=1147, 397.485pt x 289.08pt>
+<../figuras/exceso_2.pdf, id=1148, 397.485pt x 289.08pt>
 File: ../figuras/exceso_2.pdf Graphic file (type pdf)
 <use ../figuras/exceso_2.pdf>
-Package pdftex.def Info: ../figuras/exceso_2.pdf  used on input line 1021.
+Package pdftex.def Info: ../figuras/exceso_2.pdf  used on input line 1022.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [67
 
  <../figuras/exceso_2.pdf>]
-<../figuras/sinto_prueba20_21_3.png, id=1176, 855.195pt x 621.32124pt>
+<../figuras/sinto_prueba20_21_3.png, id=1177, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_3.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_3.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_3.png  used on input line
- 1033.
-(pdftex.def)             Requested size: 245.83282pt x 172.87949pt.
+ 1034.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [68
 
  <../figuras/sinto_prueba20_21_3.png (PNG copy)>]pdfTeX warning (ext4): destina
@@ -2153,21 +2145,21 @@ tion with the same identifier (name{Calca<1>}) has been already used, duplicate
  ignored
 <to be read again> 
                    \relax 
-l.1042 \end{frame}
+l.1043 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Calca}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1042 \end{frame}
+l.1043 \end{frame}
                   
 
 pdfTeX warning: pdflatex.exe (file ../figuras/incidencia_mortalidad_20_21_3.pdf
 ): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/incidencia_mortalidad_20_21_3.pdf, id=1186, 397.485pt x 289.08pt>
+<../figuras/incidencia_mortalidad_20_21_3.pdf, id=1187, 397.485pt x 289.08pt>
 File: ../figuras/incidencia_mortalidad_20_21_3.pdf Graphic file (type pdf)
 <use ../figuras/incidencia_mortalidad_20_21_3.pdf>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_3.pdf  used on 
-input line 1042.
+input line 1043.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [69
 
@@ -2175,11 +2167,11 @@ input line 1042.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_20_21_3.pdf): PDF inc
 lusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_20_21_3.pdf, id=1204, 397.485pt x 289.08pt>
+<../figuras/positividad_20_21_3.pdf, id=1205, 397.485pt x 289.08pt>
 File: ../figuras/positividad_20_21_3.pdf Graphic file (type pdf)
 <use ../figuras/positividad_20_21_3.pdf>
 Package pdftex.def Info: ../figuras/positividad_20_21_3.pdf  used on input line
- 1051.
+ 1052.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [70
 
@@ -2187,20 +2179,20 @@ Package pdftex.def Info: ../figuras/positividad_20_21_3.pdf  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_3.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_3.pdf, id=1222, 397.485pt x 289.08pt>
+<../figuras/exceso_3.pdf, id=1223, 397.485pt x 289.08pt>
 File: ../figuras/exceso_3.pdf Graphic file (type pdf)
 <use ../figuras/exceso_3.pdf>
-Package pdftex.def Info: ../figuras/exceso_3.pdf  used on input line 1062.
+Package pdftex.def Info: ../figuras/exceso_3.pdf  used on input line 1063.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [71
 
  <../figuras/exceso_3.pdf>]
-<../figuras/sinto_prueba20_21_4.png, id=1250, 855.195pt x 621.32124pt>
+<../figuras/sinto_prueba20_21_4.png, id=1251, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_4.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_4.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_4.png  used on input line
- 1073.
-(pdftex.def)             Requested size: 245.83282pt x 172.87949pt.
+ 1074.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [72
 
  <../figuras/sinto_prueba20_21_4.png (PNG copy)>]pdfTeX warning (ext4): destina
@@ -2208,21 +2200,21 @@ tion with the same identifier (name{Canas<1>}) has been already used, duplicate
  ignored
 <to be read again> 
                    \relax 
-l.1082 \end{frame}
+l.1083 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Canas}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1082 \end{frame}
+l.1083 \end{frame}
                   
 
 pdfTeX warning: pdflatex.exe (file ../figuras/incidencia_mortalidad_20_21_4.pdf
 ): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/incidencia_mortalidad_20_21_4.pdf, id=1260, 397.485pt x 289.08pt>
+<../figuras/incidencia_mortalidad_20_21_4.pdf, id=1261, 397.485pt x 289.08pt>
 File: ../figuras/incidencia_mortalidad_20_21_4.pdf Graphic file (type pdf)
 <use ../figuras/incidencia_mortalidad_20_21_4.pdf>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_4.pdf  used on 
-input line 1082.
+input line 1083.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [73
 
@@ -2230,11 +2222,11 @@ input line 1082.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_20_21_4.pdf): PDF inc
 lusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_20_21_4.pdf, id=1279, 397.485pt x 289.08pt>
+<../figuras/positividad_20_21_4.pdf, id=1280, 397.485pt x 289.08pt>
 File: ../figuras/positividad_20_21_4.pdf Graphic file (type pdf)
 <use ../figuras/positividad_20_21_4.pdf>
 Package pdftex.def Info: ../figuras/positividad_20_21_4.pdf  used on input line
- 1091.
+ 1092.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [74
 
@@ -2242,20 +2234,20 @@ Package pdftex.def Info: ../figuras/positividad_20_21_4.pdf  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_4.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_4.pdf, id=1297, 397.485pt x 289.08pt>
+<../figuras/exceso_4.pdf, id=1298, 397.485pt x 289.08pt>
 File: ../figuras/exceso_4.pdf Graphic file (type pdf)
 <use ../figuras/exceso_4.pdf>
-Package pdftex.def Info: ../figuras/exceso_4.pdf  used on input line 1102.
+Package pdftex.def Info: ../figuras/exceso_4.pdf  used on input line 1103.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [75
 
  <../figuras/exceso_4.pdf>]
-<../figuras/sinto_prueba20_21_5.png, id=1325, 855.195pt x 621.32124pt>
+<../figuras/sinto_prueba20_21_5.png, id=1326, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_5.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_5.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_5.png  used on input line
- 1113.
-(pdftex.def)             Requested size: 245.83282pt x 172.87949pt.
+ 1114.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [76
 
  <../figuras/sinto_prueba20_21_5.png (PNG copy)>]pdfTeX warning (ext4): destina
@@ -2263,21 +2255,21 @@ tion with the same identifier (name{Canchis<1>}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.1122 \end{frame}
+l.1123 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Canchis}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1122 \end{frame}
+l.1123 \end{frame}
                   
 
 pdfTeX warning: pdflatex.exe (file ../figuras/incidencia_mortalidad_20_21_5.pdf
 ): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/incidencia_mortalidad_20_21_5.pdf, id=1335, 397.485pt x 289.08pt>
+<../figuras/incidencia_mortalidad_20_21_5.pdf, id=1336, 397.485pt x 289.08pt>
 File: ../figuras/incidencia_mortalidad_20_21_5.pdf Graphic file (type pdf)
 <use ../figuras/incidencia_mortalidad_20_21_5.pdf>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_5.pdf  used on 
-input line 1122.
+input line 1123.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [77
 
@@ -2285,11 +2277,11 @@ input line 1122.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_20_21_5.pdf): PDF inc
 lusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_20_21_5.pdf, id=1353, 397.485pt x 289.08pt>
+<../figuras/positividad_20_21_5.pdf, id=1354, 397.485pt x 289.08pt>
 File: ../figuras/positividad_20_21_5.pdf Graphic file (type pdf)
 <use ../figuras/positividad_20_21_5.pdf>
 Package pdftex.def Info: ../figuras/positividad_20_21_5.pdf  used on input line
- 1131.
+ 1132.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [78
 
@@ -2297,20 +2289,20 @@ Package pdftex.def Info: ../figuras/positividad_20_21_5.pdf  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_5.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_5.pdf, id=1371, 397.485pt x 289.08pt>
+<../figuras/exceso_5.pdf, id=1372, 397.485pt x 289.08pt>
 File: ../figuras/exceso_5.pdf Graphic file (type pdf)
 <use ../figuras/exceso_5.pdf>
-Package pdftex.def Info: ../figuras/exceso_5.pdf  used on input line 1142.
+Package pdftex.def Info: ../figuras/exceso_5.pdf  used on input line 1143.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [79
 
  <../figuras/exceso_5.pdf>]
-<../figuras/sinto_prueba20_21_6.png, id=1400, 855.195pt x 621.32124pt>
+<../figuras/sinto_prueba20_21_6.png, id=1401, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_6.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_6.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_6.png  used on input line
- 1153.
-(pdftex.def)             Requested size: 245.83282pt x 172.87949pt.
+ 1154.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [80
 
  <../figuras/sinto_prueba20_21_6.png (PNG copy)>]pdfTeX warning (ext4): destina
@@ -2318,21 +2310,21 @@ tion with the same identifier (name{Chumbivilcas<1>}) has been already used, du
 plicate ignored
 <to be read again> 
                    \relax 
-l.1162 \end{frame}
+l.1163 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Chumbivilcas}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1162 \end{frame}
+l.1163 \end{frame}
                   
 
 pdfTeX warning: pdflatex.exe (file ../figuras/incidencia_mortalidad_20_21_6.pdf
 ): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/incidencia_mortalidad_20_21_6.pdf, id=1410, 397.485pt x 289.08pt>
+<../figuras/incidencia_mortalidad_20_21_6.pdf, id=1411, 397.485pt x 289.08pt>
 File: ../figuras/incidencia_mortalidad_20_21_6.pdf Graphic file (type pdf)
 <use ../figuras/incidencia_mortalidad_20_21_6.pdf>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_6.pdf  used on 
-input line 1162.
+input line 1163.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [81
 
@@ -2340,11 +2332,11 @@ input line 1162.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_20_21_6.pdf): PDF inc
 lusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_20_21_6.pdf, id=1428, 397.485pt x 289.08pt>
+<../figuras/positividad_20_21_6.pdf, id=1429, 397.485pt x 289.08pt>
 File: ../figuras/positividad_20_21_6.pdf Graphic file (type pdf)
 <use ../figuras/positividad_20_21_6.pdf>
 Package pdftex.def Info: ../figuras/positividad_20_21_6.pdf  used on input line
- 1171.
+ 1172.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [82
 
@@ -2352,19 +2344,19 @@ Package pdftex.def Info: ../figuras/positividad_20_21_6.pdf  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_6.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_6.pdf, id=1446, 397.485pt x 289.08pt>
+<../figuras/exceso_6.pdf, id=1447, 397.485pt x 289.08pt>
 File: ../figuras/exceso_6.pdf Graphic file (type pdf)
 <use ../figuras/exceso_6.pdf>
-Package pdftex.def Info: ../figuras/exceso_6.pdf  used on input line 1182.
+Package pdftex.def Info: ../figuras/exceso_6.pdf  used on input line 1183.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [83
 
  <../figuras/exceso_6.pdf>]
-<../figuras/sinto_prueba20_21_7.png, id=1474, 855.195pt x 621.32124pt>
+<../figuras/sinto_prueba20_21_7.png, id=1475, 855.195pt x 621.32124pt>
 File: ../figuras/sinto_prueba20_21_7.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_7.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_7.png  used on input line
- 1193.
+ 1194.
 (pdftex.def)             Requested size: 245.83282pt x 172.87949pt.
  [84
 
@@ -2373,21 +2365,21 @@ tion with the same identifier (name{Cusco<1>}) has been already used, duplicate
  ignored
 <to be read again> 
                    \relax 
-l.1202 \end{frame}
+l.1203 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Cusco}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1202 \end{frame}
+l.1203 \end{frame}
                   
 
 pdfTeX warning: pdflatex.exe (file ../figuras/incidencia_mortalidad_20_21_7.pdf
 ): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/incidencia_mortalidad_20_21_7.pdf, id=1484, 397.485pt x 289.08pt>
+<../figuras/incidencia_mortalidad_20_21_7.pdf, id=1485, 397.485pt x 289.08pt>
 File: ../figuras/incidencia_mortalidad_20_21_7.pdf Graphic file (type pdf)
 <use ../figuras/incidencia_mortalidad_20_21_7.pdf>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_7.pdf  used on 
-input line 1202.
+input line 1203.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [85
 
@@ -2395,11 +2387,11 @@ input line 1202.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_20_21_7.pdf): PDF inc
 lusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_20_21_7.pdf, id=1503, 397.485pt x 289.08pt>
+<../figuras/positividad_20_21_7.pdf, id=1504, 397.485pt x 289.08pt>
 File: ../figuras/positividad_20_21_7.pdf Graphic file (type pdf)
 <use ../figuras/positividad_20_21_7.pdf>
 Package pdftex.def Info: ../figuras/positividad_20_21_7.pdf  used on input line
- 1211.
+ 1212.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [86
 
@@ -2407,20 +2399,20 @@ Package pdftex.def Info: ../figuras/positividad_20_21_7.pdf  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_7.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_7.pdf, id=1521, 397.485pt x 289.08pt>
+<../figuras/exceso_7.pdf, id=1522, 397.485pt x 289.08pt>
 File: ../figuras/exceso_7.pdf Graphic file (type pdf)
 <use ../figuras/exceso_7.pdf>
-Package pdftex.def Info: ../figuras/exceso_7.pdf  used on input line 1222.
+Package pdftex.def Info: ../figuras/exceso_7.pdf  used on input line 1223.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [87
 
  <../figuras/exceso_7.pdf>]
-<../figuras/sinto_prueba20_21_8.png, id=1549, 855.195pt x 621.32124pt>
+<../figuras/sinto_prueba20_21_8.png, id=1550, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_8.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_8.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_8.png  used on input line
- 1233.
-(pdftex.def)             Requested size: 245.83282pt x 172.87949pt.
+ 1234.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [88
 
  <../figuras/sinto_prueba20_21_8.png (PNG copy)>]pdfTeX warning (ext4): destina
@@ -2428,21 +2420,21 @@ tion with the same identifier (name{Espinar<1>}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.1242 \end{frame}
+l.1243 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Espinar}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1242 \end{frame}
+l.1243 \end{frame}
                   
 
 pdfTeX warning: pdflatex.exe (file ../figuras/incidencia_mortalidad_20_21_8.pdf
 ): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/incidencia_mortalidad_20_21_8.pdf, id=1559, 397.485pt x 289.08pt>
+<../figuras/incidencia_mortalidad_20_21_8.pdf, id=1560, 397.485pt x 289.08pt>
 File: ../figuras/incidencia_mortalidad_20_21_8.pdf Graphic file (type pdf)
 <use ../figuras/incidencia_mortalidad_20_21_8.pdf>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_8.pdf  used on 
-input line 1242.
+input line 1243.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [89
 
@@ -2450,11 +2442,11 @@ input line 1242.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_20_21_8.pdf): PDF inc
 lusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_20_21_8.pdf, id=1577, 397.485pt x 289.08pt>
+<../figuras/positividad_20_21_8.pdf, id=1578, 397.485pt x 289.08pt>
 File: ../figuras/positividad_20_21_8.pdf Graphic file (type pdf)
 <use ../figuras/positividad_20_21_8.pdf>
 Package pdftex.def Info: ../figuras/positividad_20_21_8.pdf  used on input line
- 1251.
+ 1252.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [90
 
@@ -2462,19 +2454,19 @@ Package pdftex.def Info: ../figuras/positividad_20_21_8.pdf  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_8.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_8.pdf, id=1595, 397.485pt x 289.08pt>
+<../figuras/exceso_8.pdf, id=1596, 397.485pt x 289.08pt>
 File: ../figuras/exceso_8.pdf Graphic file (type pdf)
 <use ../figuras/exceso_8.pdf>
-Package pdftex.def Info: ../figuras/exceso_8.pdf  used on input line 1262.
+Package pdftex.def Info: ../figuras/exceso_8.pdf  used on input line 1263.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [91
 
  <../figuras/exceso_8.pdf>]
-<../figuras/sinto_prueba20_21_9.png, id=1624, 855.195pt x 621.32124pt>
+<../figuras/sinto_prueba20_21_9.png, id=1625, 855.195pt x 621.32124pt>
 File: ../figuras/sinto_prueba20_21_9.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_9.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_9.png  used on input line
- 1274.
+ 1275.
 (pdftex.def)             Requested size: 245.83282pt x 172.87949pt.
  [92
 
@@ -2482,11 +2474,11 @@ Package pdftex.def Info: ../figuras/sinto_prueba20_21_9.png  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/incidencia_mortalidad_20_21_9.pdf
 ): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/incidencia_mortalidad_20_21_9.pdf, id=1634, 397.485pt x 289.08pt>
+<../figuras/incidencia_mortalidad_20_21_9.pdf, id=1635, 397.485pt x 289.08pt>
 File: ../figuras/incidencia_mortalidad_20_21_9.pdf Graphic file (type pdf)
 <use ../figuras/incidencia_mortalidad_20_21_9.pdf>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_9.pdf  used on 
-input line 1282.
+input line 1283.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [93
 
@@ -2494,11 +2486,11 @@ input line 1282.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_20_21_9.pdf): PDF inc
 lusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_20_21_9.pdf, id=1653, 397.485pt x 289.08pt>
+<../figuras/positividad_20_21_9.pdf, id=1654, 397.485pt x 289.08pt>
 File: ../figuras/positividad_20_21_9.pdf Graphic file (type pdf)
 <use ../figuras/positividad_20_21_9.pdf>
 Package pdftex.def Info: ../figuras/positividad_20_21_9.pdf  used on input line
- 1291.
+ 1292.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [94
 
@@ -2506,20 +2498,20 @@ Package pdftex.def Info: ../figuras/positividad_20_21_9.pdf  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_9.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_9.pdf, id=1671, 397.485pt x 289.08pt>
+<../figuras/exceso_9.pdf, id=1672, 397.485pt x 289.08pt>
 File: ../figuras/exceso_9.pdf Graphic file (type pdf)
 <use ../figuras/exceso_9.pdf>
-Package pdftex.def Info: ../figuras/exceso_9.pdf  used on input line 1302.
+Package pdftex.def Info: ../figuras/exceso_9.pdf  used on input line 1303.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [95
 
  <../figuras/exceso_9.pdf>]
-<../figuras/sinto_prueba20_21_10.png, id=1699, 855.195pt x 621.32124pt>
+<../figuras/sinto_prueba20_21_10.png, id=1700, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_10.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_10.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_10.png  used on input lin
-e 1313.
-(pdftex.def)             Requested size: 245.83282pt x 172.87949pt.
+e 1314.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [96
 
  <../figuras/sinto_prueba20_21_10.png (PNG copy)>]pdfTeX warning (ext4): destin
@@ -2527,21 +2519,21 @@ ation with the same identifier (name{Paruro<1>}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
-l.1322 \end{frame}
+l.1323 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Paruro}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1322 \end{frame}
+l.1323 \end{frame}
                   
 
 pdfTeX warning: pdflatex.exe (file ../figuras/incidencia_mortalidad_20_21_10.pd
 f): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/incidencia_mortalidad_20_21_10.pdf, id=1709, 397.485pt x 289.08pt>
+<../figuras/incidencia_mortalidad_20_21_10.pdf, id=1710, 397.485pt x 289.08pt>
 File: ../figuras/incidencia_mortalidad_20_21_10.pdf Graphic file (type pdf)
 <use ../figuras/incidencia_mortalidad_20_21_10.pdf>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_10.pdf  used on
- input line 1322.
+ input line 1323.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [97
 
@@ -2549,11 +2541,11 @@ Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_10.pdf  used on
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_20_21_10.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_20_21_10.pdf, id=1728, 397.485pt x 289.08pt>
+<../figuras/positividad_20_21_10.pdf, id=1729, 397.485pt x 289.08pt>
 File: ../figuras/positividad_20_21_10.pdf Graphic file (type pdf)
 <use ../figuras/positividad_20_21_10.pdf>
 Package pdftex.def Info: ../figuras/positividad_20_21_10.pdf  used on input lin
-e 1331.
+e 1332.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [98
 
@@ -2561,20 +2553,20 @@ e 1331.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_10.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_10.pdf, id=1746, 397.485pt x 289.08pt>
+<../figuras/exceso_10.pdf, id=1747, 397.485pt x 289.08pt>
 File: ../figuras/exceso_10.pdf Graphic file (type pdf)
 <use ../figuras/exceso_10.pdf>
-Package pdftex.def Info: ../figuras/exceso_10.pdf  used on input line 1342.
+Package pdftex.def Info: ../figuras/exceso_10.pdf  used on input line 1343.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [99
 
  <../figuras/exceso_10.pdf>]
-<../figuras/sinto_prueba20_21_11.png, id=1774, 855.195pt x 621.32124pt>
+<../figuras/sinto_prueba20_21_11.png, id=1775, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_11.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_11.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_11.png  used on input lin
-e 1353.
-(pdftex.def)             Requested size: 245.83282pt x 172.87949pt.
+e 1354.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [100
 
  <../figuras/sinto_prueba20_21_11.png (PNG copy)>]pdfTeX warning (ext4): destin
@@ -2582,21 +2574,21 @@ ation with the same identifier (name{Paucartambo<1>}) has been already used, du
 plicate ignored
 <to be read again> 
                    \relax 
-l.1362 \end{frame}
+l.1363 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Paucartambo}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1362 \end{frame}
+l.1363 \end{frame}
                   
 
 pdfTeX warning: pdflatex.exe (file ../figuras/incidencia_mortalidad_20_21_11.pd
 f): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/incidencia_mortalidad_20_21_11.pdf, id=1784, 397.485pt x 289.08pt>
+<../figuras/incidencia_mortalidad_20_21_11.pdf, id=1785, 397.485pt x 289.08pt>
 File: ../figuras/incidencia_mortalidad_20_21_11.pdf Graphic file (type pdf)
 <use ../figuras/incidencia_mortalidad_20_21_11.pdf>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_11.pdf  used on
- input line 1362.
+ input line 1363.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [101
 
@@ -2604,11 +2596,11 @@ Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_11.pdf  used on
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_20_21_11.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_20_21_11.pdf, id=1802, 397.485pt x 289.08pt>
+<../figuras/positividad_20_21_11.pdf, id=1803, 397.485pt x 289.08pt>
 File: ../figuras/positividad_20_21_11.pdf Graphic file (type pdf)
 <use ../figuras/positividad_20_21_11.pdf>
 Package pdftex.def Info: ../figuras/positividad_20_21_11.pdf  used on input lin
-e 1371.
+e 1372.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [102
 
@@ -2616,19 +2608,19 @@ e 1371.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_11.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_11.pdf, id=1820, 397.485pt x 289.08pt>
+<../figuras/exceso_11.pdf, id=1821, 397.485pt x 289.08pt>
 File: ../figuras/exceso_11.pdf Graphic file (type pdf)
 <use ../figuras/exceso_11.pdf>
-Package pdftex.def Info: ../figuras/exceso_11.pdf  used on input line 1382.
+Package pdftex.def Info: ../figuras/exceso_11.pdf  used on input line 1383.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [103
 
  <../figuras/exceso_11.pdf>]
-<../figuras/sinto_prueba20_21_12.png, id=1849, 855.195pt x 621.32124pt>
+<../figuras/sinto_prueba20_21_12.png, id=1850, 855.195pt x 621.32124pt>
 File: ../figuras/sinto_prueba20_21_12.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_12.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_12.png  used on input lin
-e 1394.
+e 1395.
 (pdftex.def)             Requested size: 245.83282pt x 172.87949pt.
  [104
 
@@ -2637,21 +2629,21 @@ ation with the same identifier (name{Quispicanchi<1>}) has been already used, d
 uplicate ignored
 <to be read again> 
                    \relax 
-l.1403 \end{frame}
+l.1404 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Quispicanchi}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1403 \end{frame}
+l.1404 \end{frame}
                   
 
 pdfTeX warning: pdflatex.exe (file ../figuras/incidencia_mortalidad_20_21_12.pd
 f): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/incidencia_mortalidad_20_21_12.pdf, id=1859, 397.485pt x 289.08pt>
+<../figuras/incidencia_mortalidad_20_21_12.pdf, id=1860, 397.485pt x 289.08pt>
 File: ../figuras/incidencia_mortalidad_20_21_12.pdf Graphic file (type pdf)
 <use ../figuras/incidencia_mortalidad_20_21_12.pdf>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_12.pdf  used on
- input line 1403.
+ input line 1404.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [105
 
@@ -2659,11 +2651,11 @@ Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_12.pdf  used on
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_20_21_12.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_20_21_12.pdf, id=1877, 397.485pt x 289.08pt>
+<../figuras/positividad_20_21_12.pdf, id=1878, 397.485pt x 289.08pt>
 File: ../figuras/positividad_20_21_12.pdf Graphic file (type pdf)
 <use ../figuras/positividad_20_21_12.pdf>
 Package pdftex.def Info: ../figuras/positividad_20_21_12.pdf  used on input lin
-e 1412.
+e 1413.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [106
 
@@ -2671,19 +2663,19 @@ e 1412.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_12.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_12.pdf, id=1895, 397.485pt x 289.08pt>
+<../figuras/exceso_12.pdf, id=1896, 397.485pt x 289.08pt>
 File: ../figuras/exceso_12.pdf Graphic file (type pdf)
 <use ../figuras/exceso_12.pdf>
-Package pdftex.def Info: ../figuras/exceso_12.pdf  used on input line 1423.
+Package pdftex.def Info: ../figuras/exceso_12.pdf  used on input line 1424.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [107
 
  <../figuras/exceso_12.pdf>]
-<../figuras/sinto_prueba20_21_13.png, id=1923, 855.195pt x 621.32124pt>
+<../figuras/sinto_prueba20_21_13.png, id=1924, 855.195pt x 621.32124pt>
 File: ../figuras/sinto_prueba20_21_13.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_13.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_13.png  used on input lin
-e 1434.
+e 1435.
 (pdftex.def)             Requested size: 245.83282pt x 172.87949pt.
  [108
 
@@ -2692,21 +2684,21 @@ ation with the same identifier (name{Urubamba<1>}) has been already used, dupli
 cate ignored
 <to be read again> 
                    \relax 
-l.1443 \end{frame}
+l.1444 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Urubamba}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1443 \end{frame}
+l.1444 \end{frame}
                   
 
 pdfTeX warning: pdflatex.exe (file ../figuras/incidencia_mortalidad_20_21_13.pd
 f): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/incidencia_mortalidad_20_21_13.pdf, id=1933, 397.485pt x 289.08pt>
+<../figuras/incidencia_mortalidad_20_21_13.pdf, id=1934, 397.485pt x 289.08pt>
 File: ../figuras/incidencia_mortalidad_20_21_13.pdf Graphic file (type pdf)
 <use ../figuras/incidencia_mortalidad_20_21_13.pdf>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_13.pdf  used on
- input line 1443.
+ input line 1444.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [109
 
@@ -2714,11 +2706,11 @@ Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_13.pdf  used on
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_20_21_13.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_20_21_13.pdf, id=1952, 397.485pt x 289.08pt>
+<../figuras/positividad_20_21_13.pdf, id=1953, 397.485pt x 289.08pt>
 File: ../figuras/positividad_20_21_13.pdf Graphic file (type pdf)
 <use ../figuras/positividad_20_21_13.pdf>
 Package pdftex.def Info: ../figuras/positividad_20_21_13.pdf  used on input lin
-e 1452.
+e 1453.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [110
 
@@ -2726,10 +2718,10 @@ e 1452.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_13.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_13.pdf, id=1970, 397.485pt x 289.08pt>
+<../figuras/exceso_13.pdf, id=1971, 397.485pt x 289.08pt>
 File: ../figuras/exceso_13.pdf Graphic file (type pdf)
 <use ../figuras/exceso_13.pdf>
-Package pdftex.def Info: ../figuras/exceso_13.pdf  used on input line 1463.
+Package pdftex.def Info: ../figuras/exceso_13.pdf  used on input line 1464.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [111
 
@@ -2737,11 +2729,11 @@ Package pdftex.def Info: ../figuras/exceso_13.pdf  used on input line 1463.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_distrital_cusco.pdf): P
 DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/variantes_distrital_cusco.pdf, id=1999, 478.14204pt x 289.08pt>
+<../figuras/variantes_distrital_cusco.pdf, id=2000, 478.14204pt x 289.08pt>
 File: ../figuras/variantes_distrital_cusco.pdf Graphic file (type pdf)
 <use ../figuras/variantes_distrital_cusco.pdf>
 Package pdftex.def Info: ../figuras/variantes_distrital_cusco.pdf  used on inpu
-t line 1474.
+t line 1475.
 (pdftex.def)             Requested size: 199.73653pt x 120.75552pt.
 [112
 
@@ -2749,14 +2741,14 @@ t line 1474.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_distrital.pdf): PDF inc
 lusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/variantes_distrital.pdf, id=2017, 289.08pt x 337.5748pt>
+<../figuras/variantes_distrital.pdf, id=2018, 289.08pt x 337.5748pt>
 File: ../figuras/variantes_distrital.pdf Graphic file (type pdf)
 <use ../figuras/variantes_distrital.pdf>
 Package pdftex.def Info: ../figuras/variantes_distrital.pdf  used on input line
- 1484.
+ 1485.
 (pdftex.def)             Requested size: 169.01036pt x 197.3594pt.
 
-Overfull \vbox (13.28629pt too high) detected at line 1484
+Overfull \vbox (13.28629pt too high) detected at line 1485
  []
 
 [113
@@ -2765,39 +2757,67 @@ Overfull \vbox (13.28629pt too high) detected at line 1484
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_provincial_lambda.pdf):
  PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/variantes_provincial_lambda.pdf, id=2035, 289.08pt x 337.5748pt>
+<../figuras/variantes_provincial_lambda.pdf, id=2036, 289.08pt x 337.5748pt>
 File: ../figuras/variantes_provincial_lambda.pdf Graphic file (type pdf)
 <use ../figuras/variantes_provincial_lambda.pdf>
 Package pdftex.def Info: ../figuras/variantes_provincial_lambda.pdf  used on in
-put line 1494.
+put line 1495.
 (pdftex.def)             Requested size: 169.01036pt x 197.3594pt.
+
+Overfull \vbox (13.28629pt too high) detected at line 1495
+ []
+
 [114
 
  <../figuras/variantes_provincial_lambda.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_provincial_gamma.pdf): 
 PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/variantes_provincial_gamma.pdf, id=2053, 289.08pt x 337.5748pt>
+<../figuras/variantes_provincial_gamma.pdf, id=2054, 289.08pt x 337.5748pt>
 File: ../figuras/variantes_provincial_gamma.pdf Graphic file (type pdf)
 <use ../figuras/variantes_provincial_gamma.pdf>
 Package pdftex.def Info: ../figuras/variantes_provincial_gamma.pdf  used on inp
-ut line 1504.
+ut line 1505.
 (pdftex.def)             Requested size: 169.01036pt x 197.3594pt.
+
+Overfull \vbox (13.28629pt too high) detected at line 1505
+ []
+
 [115
 
  <../figuras/variantes_provincial_gamma.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_provincial_delta.pdf): 
 PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/variantes_provincial_delta.pdf, id=2072, 289.08pt x 337.5748pt>
+<../figuras/variantes_provincial_delta.pdf, id=2073, 289.08pt x 337.5748pt>
 File: ../figuras/variantes_provincial_delta.pdf Graphic file (type pdf)
 <use ../figuras/variantes_provincial_delta.pdf>
 Package pdftex.def Info: ../figuras/variantes_provincial_delta.pdf  used on inp
-ut line 1514.
+ut line 1515.
 (pdftex.def)             Requested size: 169.01036pt x 197.3594pt.
+
+Overfull \vbox (13.28629pt too high) detected at line 1515
+ []
+
 [116
 
  <../figuras/variantes_provincial_delta.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ../figuras/variantes_provincial_omicron.pdf)
+: PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<../figuras/variantes_provincial_omicron.pdf, id=2091, 289.08pt x 337.5748pt>
+File: ../figuras/variantes_provincial_omicron.pdf Graphic file (type pdf)
+<use ../figuras/variantes_provincial_omicron.pdf>
+Package pdftex.def Info: ../figuras/variantes_provincial_omicron.pdf  used on i
+nput line 1525.
+(pdftex.def)             Requested size: 169.01036pt x 197.3594pt.
+
+Overfull \vbox (13.28629pt too high) detected at line 1525
+ []
+
+[117
+
+ <../figuras/variantes_provincial_omicron.pdf>]
 \tf@nav=\write6
 \openout6 = `sala_covid.nav'.
 
@@ -2815,32 +2835,32 @@ Package rerunfilecheck Info: File `sala_covid.out' has not changed.
 (rerunfilecheck)             Checksum: 9202FF30B77E56338FEDF51285C2B544;3273.
  ) 
 Here is how much of TeX's memory you used:
- 42111 strings out of 478701
- 995572 string characters out of 2856395
- 1362186 words of memory out of 3000000
- 58940 multiletter control sequences out of 15000+600000
+ 42135 strings out of 478699
+ 995669 string characters out of 2856821
+ 1361185 words of memory out of 3000000
+ 58959 multiletter control sequences out of 15000+600000
  473543 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,122p,709b,757s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{provincias} has been referenced but does not exis
 t, replaced by a fixed one
 
-{C:/Program Files/MiKTeX2/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/Mi
-KTeX2/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX2/fonts/enc/dvips/l
-m/lm-mathit.enc}{C:/Program Files/MiKTeX2/fonts/enc/dvips/lm/lm-rm.enc}{C:/Prog
-ram Files/MiKTeX2/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX2/fonts/
-enc/dvips/newpx/npxsups_t1.enc}<C:/Program Files/MiKTeX2/fonts/type1/public/lm/
-lmmi10.pfb><C:/Program Files/MiKTeX2/fonts/type1/public/lm/lmr10.pfb><C:/Progra
-m Files/MiKTeX2/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX2/font
-s/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX2/fonts/type1/public/lm/lm
-ss8.pfb><C:/Program Files/MiKTeX2/fonts/type1/public/lm/lmss9.pfb><C:/Program F
-iles/MiKTeX2/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX2/fonts
-/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX2/fonts/type1/public/lm/lms
-y6.pfb><C:/Program Files/MiKTeX2/fonts/type1/public/amsfonts/symbols/msam10.pfb
-><C:/Program Files/MiKTeX2/fonts/type1/public/newpx/npxsups-Regular.pfb>
-Output written on sala_covid.pdf (116 pages, 9702675 bytes).
+{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiK
+TeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/l
+m-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program 
+Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dv
+ips/newpx/npxsups_t1.enc}<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi10.
+pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/
+MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
+blic/lm/lmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:
+/Program Files/MiKTeX/fonts/type1/public/lm/lmss9.pfb><C:/Program Files/MiKTeX/
+fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
+lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy6.pfb><C:/Prog
+ram Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/public/newpx/npxsups-Regular.pfb>
+Output written on sala_covid.pdf (117 pages, 10385977 bytes).
 PDF statistics:
- 2220 PDF objects out of 2487 (max. 8388607)
- 338 named destinations out of 1000 (max. 500000)
- 1188 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2240 PDF objects out of 2487 (max. 8388607)
+ 342 named destinations out of 1000 (max. 500000)
+ 1193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
