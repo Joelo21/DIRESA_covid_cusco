@@ -37,7 +37,7 @@ replace mes = mes + 731
 format mes %tm
 
 
-format lambda gamma delta otros %8.2f
+format lambda gamma delta omicron otros %8.2f
 label var suma_total "Número de Sepas Secuenciadas"
 /*
 gen lambda2 = variante_1
@@ -65,7 +65,7 @@ twoway (line lambda mes, yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1))
 (line delta mes, yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) lcolor("$mycolor4")) ///
 (scatter delta mes, msize(vsmall) mcolor("$mycolor4") mlabel(delta) mlabcolor("$mycolor4") mlabsize(vsmall) connect()) ///
 (line omicron mes, yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) lcolor("$mycolor5")) ///
-(scatter omicron mes, msize(vsmall) mcolor("$mycolor5") mlabel(delta) mlabcolor("$mycolor5") mlabsize(vsmall) connect()) ///
+(scatter omicron mes, msize(vsmall) mcolor("$mycolor5") mlabel(omicron) mlabcolor("$mycolor5") mlabsize(vsmall) connect()) ///
 (line otros mes, yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) lcolor("$mycolor6")) ///
 (scatter otros mes, msize(vsmall) mcolor("$mycolor6") mlabel(otros) mlabcolor("$mycolor6") mlabsize(vsmall) connect()) ///
 (line suma_total mes, lcolor("$mycolor7") lwidth(thick) yaxis(2) yscale(axis(2)) ylabel(0(40)120, axis(2))) ///
