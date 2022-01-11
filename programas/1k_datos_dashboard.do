@@ -1,5 +1,5 @@
 
-use "${datos}\output\base_covid.dta", clear
+use "${datos}\output\base_covid_2022.dta", clear
 
 * Mantener las variables de interés
 keep distrito tipo_anticuerpo fecha_resultado fecha_inicio positivo_rapida sintomatico positivo_molecular positivo_antigenica defuncion tipo_prueba fecha_recuperado ubigeo

@@ -70,8 +70,8 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 4. Referencias y Contrareferencias: ocupación de camas UCI, no-UCI, UCIN, en los hospitales de la Región
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
-/*
 
+/*
 * 1. Construir las base de datos
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -80,7 +80,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/1b_base_noticovid_2022"
 
 	*do "programas/1c_base_siscovid_pr_2020"
-	do "programas/1d_base_siscovid_pr_2021"
+	*do "programas/1d_base_siscovid_pr_2021"
 
 	*do "programas/1e_base_siscovid_ag_2021_1"
 	*do "programas/1f_base_siscovid_ag_2021_2"
@@ -93,11 +93,11 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/1i_base_unir"
 	*do "programas/1j_datos_mapa_calor" // semanal
 	*do "programas/1j_datos_mapa_calor_2022"
-
+*/
 * 2. Generar datos a nivel regional y provincial
 	*do "programas/2a_series_diarias_region"
 	do "programas/2a_series_diarias_region_2022"
-/*
+
 	*do "programas/2b_series_diarias_provincias"
 	do "programas/2b_series_diarias_provincias_2022"
 
@@ -113,21 +113,21 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	*do "programas/3c_figura_positividad"
 	do "programas/3c_figura_positividad_2022"
-*/
-	*do "programas/3d_figura_promedio_casos_def"
-	do "programas/3d_figura_promedio_casos_def_2022"
-x	
-	do "programas/3e_sintomaticos"
 
+	*do "programas/3d_figura_promedio_casos_def"
+	*do "programas/3d_figura_promedio_casos_def_2022"
+	
+	do "programas/3e_sintomaticos"
+	X
 	/*
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard"
 	** Cambiar la dirección si es necesario
-	do "C:\Users\PC\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
+	do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
 		* Ocupación de camas (semanalmente)
-	do  "C:\Users\PC\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
-    */
-*/
+	do  "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
+	*/
+
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	*do "programas/2d_series_semanales_region" // Generar datos semanales region
 	do "programas/2d_series_semanales_region_2022"

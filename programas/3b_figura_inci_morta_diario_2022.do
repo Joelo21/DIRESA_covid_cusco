@@ -101,7 +101,7 @@ bar(1, color("$mycolor4")) ///
 blabel(bar, size(vsmall) format(%4.1f)) ///
 ytitle("Tasa de Incidencia (casos/población*10,000)") ///
 ylabel(, nogrid) ///
-text(1000 6 "{it:Actualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor4") fcolor("$mycolor4")) ///
+text(800 6 "{it:Actualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor4") fcolor("$mycolor4")) ///
 name(incidencia, replace)
 * Exportar figura
 graph export "figuras\incidencia_provincial.png", as(png) replace

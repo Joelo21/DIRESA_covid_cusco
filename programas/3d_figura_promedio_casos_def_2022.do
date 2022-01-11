@@ -93,7 +93,7 @@ if fecha>=d(20mar2020) & fecha <=d($fecha) ///
 	graphregion(color(white)) ///
 	title("Promedio de Casos por COVID-19 Confirmados", box bexpand bcolor("$mycolor3") color(white)) ///
 	text(1500 21994 "{it:Actualizado al}" "{it:$fecha}", place(ne) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor7") fcolor("$mycolor7")) ///
-	legend(off) name(casos_p, replace)
+	legend(cols(3)) name(casos_p, replace)
 
 gr export "figuras\promedio_casos_2022.png", as(png) replace
 
@@ -209,6 +209,6 @@ if fecha>=d(20mar2020) & fecha <=d($fecha) ///
 	graphregion(color(white)) ///
 	title("Promedio de Casos y Muertes por COVID-19", box bexpand bcolor("$mycolor3") color(white)) ///
 	text(1500 21994 "{it:Actualizado al}" "{it:$fecha}", place(ne) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor7") fcolor("$mycolor7")) ///
-	legend(off) name(Promedio_Casos_Defuncion, replace)
+	legend(cols(3)) name(Promedio_Casos_Defuncion, replace)
 
 gr export "figuras\promedio_casos_defuncion_2022.png", as(png) replace
