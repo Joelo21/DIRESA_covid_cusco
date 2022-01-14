@@ -28,8 +28,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 10jan2022
-global semana 53
+global fecha 13jan2022
+global semana 54
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -71,7 +71,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-/*
+
 * 1. Construir las base de datos
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -93,7 +93,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/1i_base_unir"
 	*do "programas/1j_datos_mapa_calor" // semanal
 	*do "programas/1j_datos_mapa_calor_2022"
-*/
+
 * 2. Generar datos a nivel regional y provincial
 	*do "programas/2a_series_diarias_region"
 	do "programas/2a_series_diarias_region_2022"
@@ -118,7 +118,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/3d_figura_promedio_casos_def_2022"
 	
 	do "programas/3e_sintomaticos"
-	X
+x
 	/*
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard"

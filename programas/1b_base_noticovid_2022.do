@@ -1,4 +1,4 @@
-import excel "${datos}\raw\base_noticovid_2022.xlsx", sheet(BASE) firstrow clear
+import excel "${datos}\raw\base_noticovid_2022.xlsx", sheet(base) firstrow clear
 
 * Mantener sólo pruebas de Cusco y por prueba molecular
 keep if diresa == "CUSCO"
