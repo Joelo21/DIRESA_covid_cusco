@@ -11,13 +11,10 @@
 ********************************************************************************
 
 * Importar la base de julio hasta la fecha actual 
-import excel "${datos}\raw\base_siscovid_ag_2021_2.xlsx", sheet("Hoja1") firstrow clear
+import excel "${datos}\raw\base_siscovid_ag_2022_1.xlsx", sheet("Hoja1") firstrow clear
 
 * Mantener las variables de interés
 keep NroDocumento  Departamento Resultado ResultadoSegundaPrueba FechaEjecucionPrueba FechaInicioSintomasdelaFich Edad comun_sexo_paciente TieneSintomas Latitud Longitud Direccion id_ubigeo Provincia Distrito cod_establecimiento_ejecuta
-
-* Juntar con la base de enero a junio
-append using "${datos}\temporal\base_siscovid_ag_enero_junio"
 
 * 3.1 Identificar los Duplicados | Variable de Identificación
 rename NroDocumento dni
@@ -101,6 +98,9 @@ sort codigo_red
 keep dni positivo_ag fecha_ag fecha_inicio_ag fecha_inicio edad sexo departamento  distrito sintomatico sintomatico_ag provincia ubigeo latitud longitud direccion
 
 drop if dni == ""
+
+* Juntar con la base del 2021
+append using "${datos}\output\base_siscovid_ag_2021"
 
 * 3.5 Guardar 
 save "${datos}\output\base_siscovid_ag_2022.dta", replace

@@ -7,7 +7,7 @@
 
 *-------------------------------------------------------------------------------%
 
-use "${datos}\output\base_covid.dta", clear
+use "${datos}\output\base_covid_2022.dta", clear
 
 * MODIFICAR
 drop if dni == "75751020"
@@ -21,7 +21,8 @@ destring provincia_ubigeo, replace
 
 * Fecha de resultado
 preserve
-collapse (first) provincia (count) positivo positivo_pcr positivo_ag positivo_pr prueba prueba_ag prueba_pcr prueba_pr sintomatico sintomatico_pcr sintomatico_ag sintomatico_pr defuncion, by(fecha_resultado provincia_ubigeo)
+*collapse (first) provincia (count) positivo positivo_pcr positivo_ag positivo_pr prueba prueba_ag prueba_pcr prueba_pr sintomatico sintomatico_pcr sintomatico_ag sintomatico_pr defuncion, by(fecha_resultado provincia_ubigeo)
+collapse (first) provincia (count) positivo positivo_pcr positivo_ag prueba prueba_ag prueba_pcr sintomatico sintomatico_pcr sintomatico_ag defuncion, by(fecha_resultado provincia_ubigeo)
 
 xtset provincia_ubigeo fecha_resultado, daily
 tsfill
@@ -54,7 +55,8 @@ restore
 
 * Fecha_inicio de síntomas
 preserve
-collapse (count) positivo positivo_pcr positivo_ag positivo_pr, by(fecha_inicio provincia_ubigeo)
+*collapse (count) positivo positivo_pcr positivo_ag positivo_pr, by(fecha_inicio provincia_ubigeo)
+collapse (count) positivo positivo_pcr positivo_ag, by(fecha_inicio provincia_ubigeo)
 
 xtset provincia_ubigeo fecha_inicio, daily
 tsfill
@@ -64,7 +66,7 @@ rename fecha_inicio fecha
 rename positivo inicio
 rename positivo_pcr inicio_pcr
 rename positivo_ag inicio_ag
-rename positivo_pr inicio_pr
+*rename positivo_pr inicio_pr
 
 replace fecha = . if fecha < d(01jan2020)
 
@@ -79,4 +81,4 @@ merge 1:1 fecha provincia_ubigeo using "`prov_fecha_recuperado'", nogenerate
 sort provincia_ubigeo fecha
 
 * Exportar la data
-save "${datos}\output\data_panel_provincial.dta", replace
+save "${datos}\output\data_panel_provincial_2020_2021_2022.dta", replace

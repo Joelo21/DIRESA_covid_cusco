@@ -7,8 +7,8 @@
 
 *-------------------------------------------------------------------------------%
 
-* Importar la base de datos
-use "${datos}\output\data_panel_provincial.dta", clear
+* Importar la base de datos 2020 - 2021 - 2022
+use "${datos}\output\data_panel_provincial_2020_2021_2022.dta", clear
 
 fillin fecha provincia_ubigeo
 
@@ -21,18 +21,18 @@ keep if fecha >= d(01jan2021)
 * Generar cumulativos
 bysort provincia_ubigeo (fecha): gen total_positivo = sum(positivo)
 bysort provincia_ubigeo (fecha): gen total_positivo_pcr = sum(positivo_pcr)
-bysort provincia_ubigeo (fecha): gen total_positivo_pr = sum(positivo_pr) 
+*bysort provincia_ubigeo (fecha): gen total_positivo_pr = sum(positivo_pr) 
 bysort provincia_ubigeo (fecha): gen total_positivo_ag = sum(positivo_ag) 
 bysort provincia_ubigeo (fecha): gen total_prueba = sum(prueba)
 bysort provincia_ubigeo (fecha): gen total_prueba_pcr = sum(prueba_pcr)
-bysort provincia_ubigeo (fecha): gen total_prueba_pr = sum(prueba_pr)
+*bysort provincia_ubigeo (fecha): gen total_prueba_pr = sum(prueba_pr)
 bysort provincia_ubigeo (fecha): gen total_prueba_ag = sum(prueba_ag)
 bysort provincia_ubigeo (fecha): gen total_recuperado = sum(recuperado)
 bysort provincia_ubigeo (fecha): gen total_sintomatico = sum(sintomatico)
 bysort provincia_ubigeo (fecha): gen total_defuncion = sum(defuncion)
 bysort provincia_ubigeo (fecha): gen total_inicio = sum(inicio)
 bysort provincia_ubigeo (fecha): gen total_inicio_pcr = sum(inicio_pcr)
-bysort provincia_ubigeo (fecha): gen total_inicio_pr = sum(inicio_pr)
+*bysort provincia_ubigeo (fecha): gen total_inicio_pr = sum(inicio_pr)
 bysort provincia_ubigeo (fecha): gen total_inicio_ag = sum(inicio_ag)
 
 *************
@@ -74,7 +74,7 @@ ylabel(, nogrid) ///
 text(30 6 "{it:Acualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor7") fcolor("$mycolor7")) name(mortalidad, replace)
 
 * Exportar Figura
-graph export "figuras\mortalidad_provincial.png", as(png) replace
+graph export "figuras\mortalidad_provincial_2021_2022.png", as(png) replace
 
 ********************************************************************************
 * Incidencia
@@ -104,7 +104,7 @@ bar(1, color("$mycolor4")) ///
 blabel(bar, size(vsmall) format(%4.1f)) ///
 ytitle("Tasa de Incidencia (casos/población*10,000)") ///
 ylabel(, nogrid) ///
-text(1000 6 "{it:Acualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor4") fcolor("$mycolor4"))
-
+text(1000 6 "{it:Acualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor4") fcolor("$mycolor4")) ///
+name(incidencia, replace)
 * Exportar figura
-graph export "figuras\incidencia_provincial.png", as(png) replace
+graph export "figuras\incidencia_provincial_2021_2022.png", as(png) replace

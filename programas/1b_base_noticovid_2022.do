@@ -1,4 +1,4 @@
-import excel "${datos}\raw\base_noticovid_2022.xlsx", sheet(base) firstrow clear
+import excel "${datos}\raw\base_noticovid_2022.xlsx", sheet(BD_coronavirus) firstrow clear
 
 * Mantener sólo pruebas de Cusco y por prueba molecular
 keep if diresa == "CUSCO"
@@ -18,7 +18,7 @@ quietly by id: gen dup_noti = cond(_N==1,0,_n)
 * Borrar duplicados por fecha id resultado y fecha de resultado
 duplicates drop id resultado fecha_con if dup_noti != 0, force
 
-rename fecha_con fecha_res
+rename fecha_con fecha_ress
 *duplicates drop id, force
 
 rename numdoc dni
@@ -32,7 +32,7 @@ replace positivo_pcr = 0 if resultado == "NEGATIVO" & (muestra == "ASPIRADO TRAQ
 tab positivo_pcr
 
 * Fecha de la prueba molecular
-gen fecha_molecular1 = fecha_res
+gen fecha_molecular1 = fecha_ress
 split fecha_molecular1, parse(-) destring
 rename (fecha_molecular1?) (dayl monthl yearl)
 gen fecha_pcr = daily(fecha_molecular1, "YMD") if positivo_pcr == 1 | positivo_pcr == 0
@@ -68,15 +68,15 @@ keep if positivo_pcr == 1 | positivo_pcr == 0
 
 * BOrrar
 drop if fecha_pcr == .
-drop if fecha_pcr < d(01jan2021)
+drop if fecha_pcr < d(11dec2021)
 drop if fecha_pcr > d($fecha)
 
 tostring dni, replace force
 
 ********************************************************************************
-* Juntar con la base del 2020
+* Juntar con la base del 2020 - 2021
 ********************************************************************************
 append using "${datos}\output\base_noticovid_2020.dta", force
-append using "${datos}\output\base_noticovid.dta", force
+append using "${datos}\output\base_noticovid_2021.dta", force
 
 save "${datos}\output\base_noticovid_2022.dta", replace

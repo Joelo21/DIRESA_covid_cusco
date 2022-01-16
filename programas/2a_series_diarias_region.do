@@ -9,7 +9,7 @@
 
 ********************************************************************************
 	
-use "${datos}/output/base_covid.dta", clear
+use "${datos}/output/base_covid_2022.dta", clear
 
 tempfile dpto_fecha_resultado dpto_fecha_recuperado dpto_fecha_inicio
 
@@ -19,7 +19,8 @@ recode sintomatico* (0=.)
 
 * Fecha de resultado
 preserve
-collapse (count) positivo positivo_pcr positivo_ag positivo_pr prueba prueba_ag prueba_pcr prueba_pr sintomatico sintomatico_pcr sintomatico_ag sintomatico_pr defuncion, by(fecha_resultado)
+*collapse (count) positivo positivo_pcr positivo_ag positivo_pr prueba prueba_ag prueba_pcr prueba_pr sintomatico sintomatico_pcr sintomatico_ag sintomatico_pr defuncion, by(fecha_resultado)
+collapse (count) positivo positivo_pcr positivo_ag prueba prueba_ag prueba_pcr sintomatico sintomatico_pcr sintomatico_ag defuncion, by(fecha_resultado)
 sort fecha_resultado
 rename fecha_resultado fecha
 
@@ -40,13 +41,14 @@ restore
 
 * Fecha_inicio de síntomas
 preserve
-collapse (count) positivo positivo_pcr positivo_ag positivo_pr, by(fecha_inicio)
+*collapse (count) positivo positivo_pcr positivo_ag positivo_pr, by(fecha_inicio)
+collapse (count) positivo positivo_pcr positivo_ag, by(fecha_inicio)
 sort fecha_inicio
 rename fecha_inicio fecha
 rename positivo inicio
 rename positivo_pcr inicio_pcr
 rename positivo_ag inicio_ag
-rename positivo_pr inicio_pr
+*rename positivo_pr inicio_pr
 
 tempfile dpto_fecha_inicio
 save "`dpto_fecha_inicio'"
@@ -61,25 +63,29 @@ sort fecha
 * Generar Acumulativos
 gen total_positivo = sum(positivo)
 gen total_positivo_pcr = sum(positivo_pcr)
-gen total_positivo_pr = sum(positivo_pr) 
+*gen total_positivo_pr = sum(positivo_pr) 
 gen total_positivo_ag = sum(positivo_ag) 
 gen total_prueba = sum(prueba)
 gen total_prueba_pcr = sum(prueba_pcr)
-gen total_prueba_pr = sum(prueba_pr)
+*gen total_prueba_pr = sum(prueba_pr)
 gen total_prueba_ag = sum(prueba_ag)
 gen total_recuperado = sum(recuperado)
 gen total_sintomatico = sum(sintomatico)
 gen total_defuncion = sum(defuncion)
 gen total_inicio = sum(inicio)
 gen total_inicio_pcr = sum(inicio_pcr)
-gen total_inicio_pr = sum(inicio_pr)
+*gen total_inicio_pr = sum(inicio_pr)
 gen total_inicio_ag = sum(inicio_ag)
 
 gen total_activos = total_positivo - total_recuperado
 
 drop if fecha < d(13mar2020) 
-
+/*
 foreach var of varlist total_positivo total_positivo_pcr total_positivo_pr total_prueba total_prueba_pcr total_prueba_ag total_prueba_pr total_recuperado total_sintomatico total_defuncion total_inicio total_inicio_pcr total_inicio_pr total_inicio_ag total_activos {
+replace `var' = `var'[_n-1] if `var' ==.
+}
+*/
+foreach var of varlist total_positivo total_positivo_pcr total_prueba total_prueba_pcr total_prueba_ag total_recuperado total_sintomatico total_defuncion total_inicio total_inicio_pcr total_inicio_ag total_activos {
 replace `var' = `var'[_n-1] if `var' ==.
 }
 

@@ -28,7 +28,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 13jan2022
+global fecha 15jan2022
 global semana 54
 
 * Tiempo de corrida: alrededor de 7 minutos
@@ -72,7 +72,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
 
-* 1. Construir las base de datos
+* 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
 	*do "programas/1a_base_noticovid_2020"
@@ -90,35 +90,38 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/1h_base_sinadef_covid_2021"
 	do "programas/1h_base_sinadef_covid_2022"
 
-	do "programas/1i_base_unir"
+	*do "programas/1i_base_unir"
+	do "programas/1i_base_unir_2022"
 	*do "programas/1j_datos_mapa_calor" // semanal
 	*do "programas/1j_datos_mapa_calor_2022"
-
+	
 * 2. Generar datos a nivel regional y provincial
-	*do "programas/2a_series_diarias_region"
-	do "programas/2a_series_diarias_region_2022"
+	do "programas/2a_series_diarias_region"
+	*do "programas/2a_series_diarias_region_2022"
 
-	*do "programas/2b_series_diarias_provincias"
-	do "programas/2b_series_diarias_provincias_2022"
+	do "programas/2b_series_diarias_provincias"
+	*do "programas/2b_series_diarias_provincias_2022"
 
-	*do "programas/2c_panel_diario_provincias"
-	do "programas/2c_panel_diario_provincias_2022"
+	do "programas/2c_panel_diario_provincias"
+	*do "programas/2c_panel_diario_provincias_2022"
 
-* 3. Figuras para la "Sala Situacional COVID-19" diaria
-	*do "programas/3a_figura_etapa_vida"
-	do "programas/3a_figura_etapa_vida_2022"
 
-	*do "programas/3b_figura_inci_morta_diario"
-	do "programas/3b_figura_inci_morta_diario_2022" 
+* 3. Figuras para la "Sala Situacional COVID-19" diaria 
+	do "programas/3a_figura_etapa_vida"
+	*do "programas/3a_figura_etapa_vida_2022"
 
-	*do "programas/3c_figura_positividad"
-	do "programas/3c_figura_positividad_2022"
+	do "programas/3b_figura_inci_morta_diario"
+	*do "programas/3b_figura_inci_morta_diario_2022" 
 
-	*do "programas/3d_figura_promedio_casos_def"
+	do "programas/3c_figura_positividad"
+	*do "programas/3c_figura_positividad_2022"
+
+	do "programas/3d_figura_promedio_casos_def"
 	*do "programas/3d_figura_promedio_casos_def_2022"
 	
 	do "programas/3e_sintomaticos"
 x
+*/
 	/*
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard"
@@ -129,15 +132,15 @@ x
 	*/
 
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
-	*do "programas/2d_series_semanales_region" // Generar datos semanales region
-	do "programas/2d_series_semanales_region_2022"
+	do "programas/2d_series_semanales_region" // Generar datos semanales region
+	*do "programas/2d_series_semanales_region_2022"
 	
-	*do "programas/4a_figura_casos_def_region"
-	do "programas/4a_figura_casos_def_region_2022"
-X
-	*do "programas/4b_figura_mort_edad_region"
-	do "programas/4b_figura_mort_edad_region_2022"
+	do "programas/4a_figura_casos_def_region"
+	*do "programas/4a_figura_casos_def_region_2022"
 
+	do "programas/4b_figura_mort_edad_region"
+	*do "programas/4b_figura_mort_edad_region_2022"
+X
 	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	do "programas/4c_figura_inci_mort_positi_provincial"
 

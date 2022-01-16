@@ -8,7 +8,7 @@
 *-------------------------------------------------------------------------------%
 
 * Importar la base de datos
-use "${datos}\output\base_covid.dta", clear
+use "${datos}\output\base_covid_2022.dta", clear
 
 * Generar las categorías de las etapas de vida
 gen grupo_edad = .

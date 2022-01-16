@@ -7,7 +7,7 @@
 
 *-------------------------------------------------------------------------------%
 
-* Importar la base de datos
+* Importar la base de datos 2022
 use "${datos}\output\base_covid_2022.dta", clear
 
 forvalues i=1/13 {
@@ -46,16 +46,16 @@ drop if fecha_resultado > d($fecha)
 
 recode * (.=0)
 
-********** Guardar 2020 y 2021 **********
-save "${datos}\output\data_series_provincias_2020_2021_2022", replace
+********** Guardar 2022 **********
+save "${datos}\output\data_series_provincias_2022", replace
 
 * Eliminar de la memoria temporal
 forvalues i=1/13{
 	erase "${datos}\temporal\provincia_`i'.dta"
 }
 
-* Mantener sólo del 2021
-keep if fecha_resultado >= d(01jan2021)
+* Mantener sólo del 2022
+keep if fecha_resultado >= d(01jan2022)
 
 forvalues i=1/13{
 gen total_positivo_`i' = sum(positivo_`i')

@@ -13,20 +13,15 @@
 * 2020
 
 * Importar la base de datos
-import excel "${datos}\raw\base_sinadef_2021.xlsx", sheet("DATA") firstrow clear
+import excel "${datos}\raw\base_sinadef_2022.xlsx", sheet("DATA") firstrow clear
 
 keep if DEPARTAMENTO == "CUSCO"
-
 drop if Nº == .
-
 drop if ESTADO == "ANULACIÓN SOLICITADA" | ESTADO == "ANULADO"
 
 gen distrito = DISTRITORESDIDENCIAHABITUAL
 gen departamento = DEPARTAMENTO
 gen direccion = DIRECCIONDEDOMICILIO
-*gen provincia = PROVINCIADERESIDENCIAHABITUAL
-
-append using "${datos}\output/base_sinadef_2020.dta", force
 
 * Generar la variable de identificación
 rename DOCUMENTO dni
@@ -63,10 +58,11 @@ replace dni = u1 if dni == "SIN REGISTRO"
 replace dni = u1 if dni == ""
 duplicates drop dni, force
 
+
 keep dni fecha_sinadef defuncion sexo edad distrito departamento provincia ubigeo direccion
 
-* Guardar temporalmente
-*tempfile data_sinadef
-*save "`data_sinadef'", replace
+*Unir datos 2021
+append using "${datos}\output/base_sinadef_2021.dta", force
+drop if defuncion ==.
 
 save "${datos}\output\base_sinadef_2022.dta", replace

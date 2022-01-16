@@ -76,6 +76,6 @@ tostring dni, replace force
 ********************************************************************************
 * Juntar con la base del 2020
 ********************************************************************************
-append using "${datos}\output\base_noticovid_2020.dta", force
+*append using "${datos}\output\base_noticovid_2020.dta", force
 
-save "${datos}\output\base_noticovid.dta", replace
+save "${datos}\output\base_noticovid_2021.dta", replace

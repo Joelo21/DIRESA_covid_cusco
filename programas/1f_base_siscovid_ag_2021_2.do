@@ -66,7 +66,6 @@ format fecha_inicio_ag %td
 
 *borrar fecha de inicio menos que el 2020 primero de enero
 replace fecha_inicio_ag = . if fecha_inicio_ag < 21915
-
 gen fecha_inicio = fecha_inicio_ag
 format fecha_inicio %td
 
@@ -103,4 +102,4 @@ keep dni positivo_ag fecha_ag fecha_inicio_ag fecha_inicio edad sexo departament
 drop if dni == ""
 
 * 3.5 Guardar 
-save "${datos}\output\base_siscovid_ag.dta", replace
+save "${datos}\output\base_siscovid_ag_2021.dta", replace	

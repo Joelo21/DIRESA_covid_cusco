@@ -13,7 +13,7 @@ use "${datos}\output\data_panel_provincial_2022.dta", clear
 fillin fecha provincia_ubigeo
 
 * Analizar sólo datos del 2021
-keep if fecha >= d(01jan2021)
+keep if fecha >= d(01jan2022)
 
 
 *keep positivo_* defuncion fecha provincia_ubigeo
@@ -71,7 +71,7 @@ ylabel(, nogrid) ///
 text(30 6 "{it:Actualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor7") fcolor("$mycolor7")) name(mortalidad, replace)
 
 * Exportar Figura
-graph export "figuras\mortalidad_provincial.png", as(png) replace
+graph export "figuras\mortalidad_provincial_2022.png", as(png) replace
 
 ********************************************************************************
 * Incidencia
@@ -104,4 +104,4 @@ ylabel(, nogrid) ///
 text(800 6 "{it:Actualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor4") fcolor("$mycolor4")) ///
 name(incidencia, replace)
 * Exportar figura
-graph export "figuras\incidencia_provincial.png", as(png) replace
+graph export "figuras\incidencia_provincial_2022.png", as(png) replace

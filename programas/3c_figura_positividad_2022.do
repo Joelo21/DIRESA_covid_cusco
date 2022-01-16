@@ -13,40 +13,19 @@ use "${datos}\output\data_series_region_2022.dta", clear
 * Para dias a inicios de semana
 drop if fecha < d(01jan2021)
 
-*rename fecha_resultado fecha 
 
 gen numero = _n
-*replace semana = 11 if fecha == 21987 | fecha == 21988
-*replace semana = 12 if fecha > 21988 & fecha <= 21995
-
 gen semana =.
 replace semana = 1 if numero >= 1 & numero <= 7
- 
 replace semana = semana[_n-7] + 1 if numero > 7
 
-*collapse (mean) positivo positivo_pcr positivo_pr positivo_ag prueba prueba_pcr prueba_pr prueba_ag, by(semana)
-
-*recode positivo* (0=.)
-
 collapse (mean) positivo_pcr positivo_ag  prueba_pcr prueba_ag, by(semana)
-
-*drop if positivo == 0
-
-*save "${datos}\output\data_diaria_acumulado.dta", replace
-
-*use "datos\output\data_diaria_acumulado.dta", clear
-
 label var semana "Semana Epidemiológica"
-
-*drop if semana < 53
-
-*replace semana = _n 
 
 drop if semana > $semana
 
 * Generamos las variables pertinentes.
 
-*gen positividad = positivo/prueba*100
 gen positividad_pcr = positivo_pcr/prueba_pcr*100
 gen positividad_ag = positivo_ag/prueba_ag*100
 
@@ -79,7 +58,6 @@ graph export "figuras\positividad_diaria_2022.png", as(png) replace
 ********************************************************************************
 
 * Graficos 
-
 gen total_positivos = positivo_pcr + positivo_ag
 gen poblacion_cusco= 1357498
 gen tasa_incidencia = total_positivos/poblacion_cusco*1000000

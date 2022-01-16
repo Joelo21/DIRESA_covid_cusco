@@ -69,4 +69,4 @@ keep dni fecha_sinadef defuncion sexo edad distrito departamento provincia ubige
 *tempfile data_sinadef
 *save "`data_sinadef'", replace
 
-save "${datos}\output\base_sinadef.dta", replace
+save "${datos}\output\base_sinadef_2021.dta", replace

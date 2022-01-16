@@ -7,15 +7,16 @@
 
 *-------------------------------------------------------------------------------%
 
-* Importar la base de datos
-use "${datos}\output\base_covid.dta", clear
+* Importar la base de datos 2020 - 2021 - 2022
+use "${datos}\output\base_covid_2022.dta", clear
 
 forvalues i=1/13 {
 
 preserve
 keep if provincia_residencia == `i'
 
-collapse (sum) positivo defuncion positivo_pcr positivo_ag prueba_pcr prueba_ag positivo_prueba_pcr positivo_prueba_pr positivo_prueba_ag, by(fecha_resultado)
+*collapse (sum) positivo defuncion positivo_pcr positivo_ag prueba_pcr prueba_ag positivo_prueba_pcr positivo_prueba_pr positivo_prueba_ag, by(fecha_resultado)
+collapse (sum) positivo defuncion positivo_pcr positivo_ag prueba_pcr prueba_ag positivo_prueba_pcr positivo_prueba_ag, by(fecha_resultado)
 
 tsset fecha_resultado, daily
 tsfill
@@ -26,7 +27,7 @@ rename positivo_ag positivo_ag_`i'
 rename prueba_pcr prueba_pcr_`i'
 rename prueba_ag prueba_ag_`i'
 rename positivo_prueba_pcr positivo_prueba_pcr_`i'
-rename positivo_prueba_pr positivo_prueba_pr_`i'
+*rename positivo_prueba_pr positivo_prueba_pr_`i'
 rename positivo_prueba_ag positivo_prueba_ag_`i'
 
 
@@ -48,7 +49,7 @@ drop if fecha_resultado > d($fecha)
 recode * (.=0)
 
 * Guardar 2020 y 2021
-save "${datos}\output\data_series_provincias_2020_2021", replace
+save "${datos}\output\data_series_provincias_2020_2021_2022", replace
 
 * Eliminar de la memoria temporal
 forvalues i=1/13{
@@ -62,9 +63,9 @@ forvalues i=1/13{
 gen total_positivo_`i' = sum(positivo_`i')
 gen total_defuncion_`i' = sum(defuncion_`i')
 gen total_positivo_prueba_pcr_`i' = sum(positivo_prueba_pcr_`i')
-gen total_positivo_prueba_pr_`i' = sum(positivo_prueba_pr_`i')
+*gen total_positivo_prueba_pr_`i' = sum(positivo_prueba_pr_`i')
 gen total_positivo_prueba_ag_`i' = sum(positivo_prueba_ag_`i')
 }
 
-* Guardar 2021
-save "${datos}\output\data_series_provincias_2021", replace
+* Guardar 2021 - 2022
+save "${datos}\output\data_series_provincias_2021_2022", replace
