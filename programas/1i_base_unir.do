@@ -4,12 +4,12 @@
 ********************************************************************************
 ********UNIR 2021
 /*
-use "${datos}\output\base_noticovid", clear
+use "${datos}\output\base_noticovid_2021", clear
 
 * Juntar
-append using "${datos}\output\base_siscovid_ag", force
+append using "${datos}\output\base_siscovid_ag_2021", force
 append using "${datos}\output\base_siscovid_pr", force
-append using "${datos}\output\base_sinadef", force
+append using "${datos}\output\base_sinadef_2021", force
 
 gen numero = _n
 */
@@ -178,4 +178,4 @@ quietly by dni positivo_ag fecha_ag positivo_pr fecha_pr: gen dup_first=cond(_N=
 drop if dup >= 1
 */
 
-save "${datos}/output/base_covid_2022.dta", replace
+save "${datos}/output/base_covid_2020_2021.dta", replace
