@@ -3,7 +3,6 @@
 * 5. Unir las bases de datos
 ********************************************************************************
 ********UNIR 2021
-/*
 use "${datos}\output\base_noticovid_2021", clear
 
 * Juntar
@@ -12,18 +11,18 @@ append using "${datos}\output\base_siscovid_pr", force
 append using "${datos}\output\base_sinadef_2021", force
 
 gen numero = _n
-*/
 
+/*
 ********UNIR 2022
 use "${datos}\output\base_noticovid_2022", clear
 
 * Juntar DATOS DEL 2020 - 2021 - 2022
 append using "${datos}\output\base_siscovid_ag_2022", force
 append using "${datos}\output\base_sinadef_2022", force
-append using "${datos}\output\base_siscovid_pr", force
+*append using "${datos}\output\base_siscovid_pr", force
 
 gen numero = _n
-
+*/
 **********************************************
 * 5.1 Generar los ubigeos de los departamentos, provincias, y distritos con los nombres bien escritos
 
@@ -178,4 +177,4 @@ quietly by dni positivo_ag fecha_ag positivo_pr fecha_pr: gen dup_first=cond(_N=
 drop if dup >= 1
 */
 
-save "${datos}/output/base_covid_2020_2021.dta", replace
+save "${datos}/output/base_covid.dta", replace
