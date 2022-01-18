@@ -59,7 +59,7 @@ twoway (line d19_`i' semana, lcolor("$mycolor3")) ///
 if semana>=1 & semana <=$semana ///
   ,xtitle("Semanas Epidemológicas", size(*0.9)) ///
   ytitle("Número de Defunciones por Toda Causa", size(*0.8)) ///
-  xlabel(1(4)53, labsize(*0.8)) ///
+  xlabel(1(4)54, labsize(*0.8)) ///
   ylabel(0(`division')`maximo', labsize(*0.8)) ///
   graphregion(color(white)) ///
   name(p21_`i', replace) ///

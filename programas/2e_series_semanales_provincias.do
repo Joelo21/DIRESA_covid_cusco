@@ -1,5 +1,5 @@
 * Cargar los datos
-use "${datos}\output\data_series_provincias_2020_2021", clear
+use "${datos}\output\data_series_provincias_2020_2021_2022", clear
 
 * Genera datos semanales de todas las provincias
 forvalues i=1/13 {
@@ -7,7 +7,8 @@ forvalues i=1/13 {
 preserve
 
 * Mantener las variables de interés
-keep fecha positivo_`i' positivo_pcr_`i' positivo_ag_`i' prueba_pcr_`i' prueba_ag_`i' positivo_prueba_pcr_`i' positivo_prueba_pr_`i' positivo_prueba_ag_`i' defuncion_`i' 
+*keep fecha positivo_`i' positivo_pcr_`i' positivo_ag_`i' prueba_pcr_`i' prueba_ag_`i' positivo_prueba_pcr_`i' positivo_prueba_pr_`i' positivo_prueba_ag_`i' defuncion_`i' 
+keep fecha positivo_`i' positivo_pcr_`i' positivo_ag_`i' prueba_pcr_`i' prueba_ag_`i' positivo_prueba_pcr_`i' positivo_prueba_ag_`i' defuncion_`i' 
 
 * Generar las semanas epidemiológicas del 2020
 gen semana = .
@@ -15,7 +16,8 @@ replace semana = 11 if fecha_resultado == 21987 | fecha_resultado == 21988
 replace semana = 12 if fecha_resultado > 21988 & fecha_resultado <= 21995
 replace semana = semana[_n-7] + 1 if fecha_resultado > 21995
 
-collapse (sum) positivo_`i' positivo_pcr_`i' positivo_ag_`i' prueba_pcr_`i' prueba_ag_`i' positivo_prueba_pcr_`i' positivo_prueba_pr_`i' positivo_prueba_ag_`i' defuncion_`i', by(semana)
+*collapse (sum) positivo_`i' positivo_pcr_`i' positivo_ag_`i' prueba_pcr_`i' prueba_ag_`i' positivo_prueba_pcr_`i' positivo_prueba_pr_`i' positivo_prueba_ag_`i' defuncion_`i', by(semana)
+collapse (sum) positivo_`i' positivo_pcr_`i' positivo_ag_`i' prueba_pcr_`i' prueba_ag_`i' positivo_prueba_pcr_`i' positivo_prueba_ag_`i' defuncion_`i', by(semana)
 
 gen positividad_pcr_`i' = positivo_pcr_`i'/prueba_pcr_`i'*100
 gen positividad_ag_`i' = positivo_ag_`i'/prueba_ag_`i'*100

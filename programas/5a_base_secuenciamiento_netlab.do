@@ -127,7 +127,7 @@ keep if _merge == 2 | _merge == 3
 keep dni linaje mes muestra
 
 save "${datos}\temporal\secuenciamiento_7_1", replace
-*/
+
 
 import excel "${datos}\raw\base_netlab_octubre.xlsx", sheet(Hoja1) firstrow clear
 
@@ -165,7 +165,7 @@ import excel "${datos}\raw\base_netlab_enero_2022.xlsx", sheet(Hoja1) firstrow c
 
 rename DNI dni
 rename LINAJE linaje
-gen mes = 01
+gen mes = 13
 gen muestra = "netlab"
 
 keep dni mes linaje muestra

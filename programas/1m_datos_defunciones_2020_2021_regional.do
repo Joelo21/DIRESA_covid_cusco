@@ -1,6 +1,6 @@
 *
 * Cargar la base de datos del 2020 y 2021
-import excel "${datos}\raw\base_sinadef_2020_2021_total.xlsx", firstrow clear
+import excel "${datos}\raw\base_sinadef_2020_2021_total.xlsx", sheet(DATA) firstrow clear
 
 * Borrar los registros que se anularon
 drop if ESTADO == "ANULACIÓN SOLICITADA" | ESTADO == "ANULADO"
@@ -49,7 +49,7 @@ replace semana_2 = semana - 53
 replace semana_2 = . if semana_2 < 0
 
 * Máximo número de semanas del 2020, 53
-replace semana = . if semana >53
+replace semana = . if semana > 53
 
 * Datos del 2020
 preserve
@@ -64,10 +64,10 @@ rename semana_2 semana
 rename de_20 de_21
 save "${datos}\temporal\defuncion_semanal_region_2021", replace
 restore 
-
+***OJO CAMBIAMOS AQUI DE 55 A 53
 use "${datos}\temporal\defuncion_semanal_region_2020", clear
 merge 1:1 semana using "${datos}\temporal\defuncion_semanal_region_2021", nogen
-drop if semana > 53 | semana == 0
+drop if semana > 55 | semana == 0
 
 * Guardar la base de datos
 save "${datos}\output\defunciones_totales_2020_2021.dta", replace

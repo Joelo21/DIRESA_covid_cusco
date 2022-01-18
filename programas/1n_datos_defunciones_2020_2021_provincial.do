@@ -1,5 +1,5 @@
 
-import excel "${datos}\raw\base_sinadef_2020_2021_total.xlsx", firstrow clear
+import excel "${datos}\raw\base_sinadef_2020_2021_total.xlsx", sheet(DATA) firstrow clear
 
 * Provincia
 rename PROVINCIADOMICILIO provincia
@@ -118,7 +118,7 @@ restore
 
 use "${datos}\temporal\defuncion_semanal_provincias_2020", clear
 merge 1:1 semana using "${datos}\temporal\defuncion_semanal_provincias_2021", nogen
-drop if semana > 53 | semana == 0
+drop if semana > 55 | semana == 0
 
 * Guardar la base de datos
 save "${datos}\output\defunciones_totales_provincias_2020_2021.dta", replace

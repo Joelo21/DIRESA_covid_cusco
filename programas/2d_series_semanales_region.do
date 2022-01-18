@@ -52,7 +52,7 @@ replace semana_3 = . if semana_3 < 0
 * Generar la tasa de positividad semanal: casos semanales por tipo de prueba / numero de positivos y negativos por tipo de prueba x 100
 gen positividad_pcr = positivo_pcr/prueba_pcr*100
 gen positividad_ag = positivo_ag/prueba_ag*100
-*gn positividad_pr = positivo_pr/prueba_pr*100
+*gen positividad_pr = positivo_pr/prueba_pr*100
 
 * Etiquetar las variables
 label var semana "Semana Epidemiológica"
@@ -65,7 +65,7 @@ label var positivo_d "% Crecimiento de Casos"
 label var sintomatico "Sintomáticos"
 label var asintomatico "Asintomáticos"
 label var sintomatico_pcr "Sintompaticos PCR"
-*lbel var sintomatico_pr_sis "Sintomatico PR"
+*label var sintomatico_pr_sis "Sintomatico PR"
 label var sintomatico_ag "Sintomatico AG"
 
 * Definir los formatos de las variables, con comas y como porcentajes
