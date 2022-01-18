@@ -4,7 +4,7 @@
 \beamer@sectionintoc {4}{Indicadores de Gestión Hospitalaria}{29}{0}{4}
 \beamer@sectionintoc {5}{Indicadores por Provincias}{39}{0}{5}
 \beamer@sectionintoc {6}{Resumen }{44}{0}{6}
-\beamer@sectionintoc {7}{Links Útiles}{49}{0}{7}
+\beamer@sectionintoc {7}{Links Útiles\footnote {Agradecimiento: Diseño: Johar Cassa y Jason Cruz}}{49}{0}{7}
 \beamer@sectionintoc {8}{Apéndice}{51}{1}{8}
 \beamer@subsectionintoc {8}{1}{Vacunación por Provincias y Grupo de Edad}{52}{1}{8}
 \beamer@subsectionintoc {8}{2}{Acomayo}{59}{1}{8}
