@@ -11,9 +11,9 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	*global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
 	****CASA******
-	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	****TRABAJO****
 	*global path "E:\DIRESA\GERESA_covid_cusco"
 	
@@ -21,9 +21,9 @@ set more off
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	*global datos "G:\Mi unidad\Datos"
+	global datos "G:\Mi unidad\Datos"
 	****CASA******
-	global datos "E:\Mi unidad\Datos"
+	**global datos "E:\Mi unidad\Datos"
 
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -31,10 +31,10 @@ set more off
 *ssc install palettes
 *ssc install colrspace
 *ssc install estout, replace
-
+/*
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 17jan2022
-global semana 54
+global fecha 24jan2022
+global semana 55
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -76,16 +76,16 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-/*
+
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
 	*do "programas/1a_base_noticovid_2020"
 	*do "programas/1b_base_noticovid_2021"
-	do "programas/1b_base_noticovid_2022"
+	**do "programas/1b_base_noticovid_2022"
 
 	*do "programas/1c_base_siscovid_pr_2020"
-	*do "programas/1d_base_siscovid_pr_2021"
+	**do "programas/1d_base_siscovid_pr_2021"
 
 	*do "programas/1e_base_siscovid_ag_2021_1"
 	*do "programas/1f_base_siscovid_ag_2021_2"
@@ -101,18 +101,18 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	**do "programas/1j_datos_mapa_calor" // semanal
 	*do "programas/1j_datos_mapa_calor_2022"
 	
-*/
+
 * 2. Generar datos a nivel regional y provincial
 	do "programas/2a_series_diarias_region"
 	*do "programas/2a_series_diarias_region_2022"
-/*
+
 	do "programas/2b_series_diarias_provincias"
 	*do "programas/2b_series_diarias_provincias_2022"
 
 	do "programas/2c_panel_diario_provincias"
 	*do "programas/2c_panel_diario_provincias_2022"
-*/
-/*
+
+
 * 3. Figuras para la "Sala Situacional COVID-19" diaria 
 	do "programas/3a_figura_etapa_vida"
 	*do "programas/3a_figura_etapa_vida_2022"
@@ -127,7 +127,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/3d_figura_promedio_casos_def_2022"
 	
 	do "programas/3e_sintomaticos"
-*/
+x
 	 /*
 	* Para la actualización del Dashboard COVID-19 en la página web
 	*do "programas/1k_datos_dashboard"
@@ -144,39 +144,39 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	
 	do "programas/4a_figura_casos_def_region"
 	*do "programas/4a_figura_casos_def_region_2022"
-x
-	**do "programas/4b_figura_mort_edad_region"
+
+	do "programas/4b_figura_mort_edad_region"
 	*do "programas/4b_figura_mort_edad_region_2022"
 
-	**do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
-	**do "programas/4c_figura_inci_mort_positi_provincial"
+	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
+	do "programas/4c_figura_inci_mort_positi_provincial"
 
 	** Datos para los excesos de defunciones
 	*do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
-	**do "programas/1m_datos_defunciones_2020_2021_regional"
-	**do "programas/1n_datos_defunciones_2020_2021_provincial"
+	do "programas/1m_datos_defunciones_2020_2021_regional"
+	do "programas/1n_datos_defunciones_2020_2021_provincial"
 
-	**do "programas/4d_figura_exceso_regional"
-	**do "programas/4e_figura_exceso_provincial"
+	do "programas/4d_figura_exceso_regional"
+	do "programas/4e_figura_exceso_provincial"
 
 	* Hospitalización
-	**do "programas/4f_figuras_hospitales"
+	do "programas/4f_figuras_hospitales"
 	* Tabla cero defunciones
 	*do "programas\4z_tabla_cero_defunciones.do"
+*/
 
-/*
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
 	do "programas\5c_juntar"
 	do "programas\5d_figura_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
-
+/*
 * 6. Vacunados
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"
 	do "programas\6c_figura_vacunacion_provincias"	
-*/
+
 /*
 * 7. Figuras para el "Boletin COVID-19" Mensual
 	do "programas\7a_base_noticovid_2021_variables"

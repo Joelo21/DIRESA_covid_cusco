@@ -14,10 +14,12 @@
 import excel "${datos}\raw\base_siscovid_ag_2022_1.xlsx", sheet("Hoja1") firstrow clear
 
 * Mantener las variables de interés
-keep NroDocumento  Departamento Resultado ResultadoSegundaPrueba FechaEjecucionPrueba FechaInicioSintomasdelaFich Edad comun_sexo_paciente TieneSintomas Latitud Longitud Direccion id_ubigeo Provincia Distrito cod_establecimiento_ejecuta
+*keep NroDocumento  Departamento Resultado ResultadoSegundaPrueba FechaEjecucionPrueba FechaInicioSintomasdelaFich Edad comun_sexo_paciente TieneSintomas Latitud Longitud Direccion id_ubigeo Provincia Distrito cod_establecimiento_ejecuta
+keep NroDocumento  Departamento Resultado ResultadoSegundaPrueba FechaEjecucionPrueba Fecha_inicio_sintomas Edad comun_sexo_paciente ClasificacionClinicaSeveridad Latitud Longitud Direccion id_ubigeo Provincia Distrito cod_establecimiento_ejecuta
 
 * 3.1 Identificar los Duplicados | Variable de Identificación
 rename NroDocumento dni
+rename ClasificacionClinicaSeveridad TieneSintomas
 sort dni
 duplicates report dni
 duplicates tag dni, gen(repe_ag)
@@ -56,9 +58,9 @@ gen fecha_ag = daily(fecha_antigena, "YMD") if positivo_ag == 1 | positivo_ag ==
 format fecha_ag %td
 
 * Fecha Inicio Sintomas Positivos_AG
-split FechaInicioSintomasdelaFich, parse(-) destring
-rename (FechaInicioSintomasdelaFich?) (year1 month1 day1)
-gen fecha_inicio_ag = daily(FechaInicioSintomasdelaFich, "YMD")  if positivo_ag == 1
+split Fecha_inicio_sintomas, parse(-) destring
+rename (Fecha_inicio_sintomas?) (year1 month1 day1)
+gen fecha_inicio_ag = daily(Fecha_inicio_sintomas, "YMD")  if positivo_ag == 1
 format fecha_inicio_ag %td
 
 *borrar fecha de inicio menos que el 2020 primero de enero
@@ -69,8 +71,8 @@ format fecha_inicio %td
 
 * Sintomático
 gen sintomatico =.
-replace sintomatico = 1 if (TieneSintomas == "SI"  & positivo_ag == 1) 
-replace sintomatico = 0 if ( TieneSintomas == "NO" & positivo_ag ==1 )
+replace sintomatico = 1 if ((TieneSintomas == "Leve" | TieneSintomas == "Leve o Asintomática" | TieneSintomas == "Severa" | TieneSintomas == "Moderada")  & positivo_ag == 1) 
+replace sintomatico = 0 if ( TieneSintomas == "Asintomático" & positivo_ag ==1 )
 label variable sintomatico "Tiene sintoma antigenica"
 label define sintomatico 0 "No" 1 "Si"
 label values sintomatico sintomatico
