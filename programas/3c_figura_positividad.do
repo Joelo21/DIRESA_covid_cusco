@@ -66,7 +66,7 @@ twoway (line positividad_pcr semana, lcolor("$mycolor6") lwidth(medthick)) ///
   ytitle("Tasa de Positividad (%)", size(*0.6)) ///
   ylabel(0(10)80, labsize(*0.60)) ///
   xlabel(1(2)$semana, labsize(*0.60)) ///
-  xline(21459.9, lcolor("$mycolor3") lpattern(shortdash) lwidth(mthick)) ///
+  xline(21471.9, lcolor("$mycolor3") lpattern(shortdash) lwidth(mthick)) ///
   plotregion(fcolor(white) lcolor(white)) ///
   graphregion(fcolor(white) lcolor(white)) ///
   bgcolor(white) ///

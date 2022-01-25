@@ -164,7 +164,7 @@ spmap variantes using "mapas\provincial_co", id(id) fcolor("$mycolor3" "$mycolor
 
 gr export "figuras\variantes_provincial_lambda.png", as(png) replace
 gr export "figuras\variantes_provincial_lambda.pdf", as(pdf) replace
-
+********************************************************************************
 * Gamma
 use "${datos}\output\datos_variantes", clear
 
@@ -195,7 +195,7 @@ spmap variantes using "mapas\provincial_co", id(id) fcolor("$mycolor3" "$mycolor
 gr export "figuras\variantes_provincial_gamma.png", as(png) replace
 gr export "figuras\variantes_provincial_gamma.pdf", as(pdf) replace
 
-
+********************************************************************************
 * Delta
 use "${datos}\output\datos_variantes", clear
 
@@ -226,7 +226,7 @@ spmap variantes using "mapas\provincial_co", id(id) fcolor("$mycolor3" "$mycolor
 gr export "figuras\variantes_provincial_delta.png", as(png) replace
 gr export "figuras\variantes_provincial_delta.pdf", as(pdf) replace
 
-
+********************************************************************************
 * Omicron
 use "${datos}\output\datos_variantes", clear
 
