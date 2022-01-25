@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.8)  3 JAN 2022 13:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.8)  25 JAN 2022 10:11
 entering extended mode
 **./boletin_covid.tex
 (boletin_covid.tex
@@ -1688,24 +1688,24 @@ File: ../editorial/2.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../editorial/2.pdf , page1 used on input line 248.
 (pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
  [8 <../editorial/2.pdf>]
-<../figuras/casos_etapavida.png, id=270, 585.18625pt x 478.78876pt>
+<../figuras/casos_etapavida.png, id=270, 1132.23pt x 927.465pt>
 File: ../figuras/casos_etapavida.png Graphic file (type png)
 <use ../figuras/casos_etapavida.png>
 Package pdftex.def Info: ../figuras/casos_etapavida.png  used on input line 262
 .
-(pdftex.def)             Requested size: 364.90672pt x 298.5701pt.
+(pdftex.def)             Requested size: 364.90672pt x 298.9035pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9
 
  <../figuras/casos_etapavida.png (PNG copy)>]
-<../figuras/defunciones_etapavida.png, id=278, 585.18625pt x 478.78876pt>
+<../figuras/defunciones_etapavida.png, id=278, 1132.23pt x 927.465pt>
 File: ../figuras/defunciones_etapavida.png Graphic file (type png)
 <use ../figuras/defunciones_etapavida.png>
 Package pdftex.def Info: ../figuras/defunciones_etapavida.png  used on input li
 ne 272.
-(pdftex.def)             Requested size: 364.90672pt x 298.5701pt.
+(pdftex.def)             Requested size: 364.90672pt x 298.9035pt.
  [10 <../figuras/defunciones_etapavida.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../editorial/3.pdf): PDF inclusion: found PD
@@ -1865,12 +1865,12 @@ Package pdftex.def Info: ../figuras/tasa_incidencia.pdf  used on input line 346
 [16
 
  <../figuras/tasa_incidencia.pdf>]
-<../figuras/positividad_diaria.png, id=491, 585.18625pt x 478.78876pt>
+<../figuras/positividad_diaria.png, id=491, 1132.23pt x 927.465pt>
 File: ../figuras/positividad_diaria.png Graphic file (type png)
 <use ../figuras/positividad_diaria.png>
 Package pdftex.def Info: ../figuras/positividad_diaria.png  used on input line 
 359.
-(pdftex.def)             Requested size: 389.23532pt x 318.4782pt.
+(pdftex.def)             Requested size: 389.23532pt x 318.84361pt.
  [17 <../figuras/positividad_diaria.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_ambas.pdf): PDF inclu
@@ -2081,18 +2081,18 @@ Package pdftex.def Info: ../editorial/5.pdf , page1 used on input line 578.
 [27
 
  <../editorial/5.pdf>]
-<../figuras/incidencia_provincial.png, id=769, 585.18625pt x 478.78876pt>
+<../figuras/incidencia_provincial.png, id=769, 1132.23pt x 927.465pt>
 File: ../figuras/incidencia_provincial.png Graphic file (type png)
 <use ../figuras/incidencia_provincial.png>
 Package pdftex.def Info: ../figuras/incidencia_provincial.png  used on input li
 ne 588.
-(pdftex.def)             Requested size: 364.90672pt x 298.5701pt.
-<../figuras/mortalidad_provincial.png, id=771, 585.18625pt x 478.78876pt>
+(pdftex.def)             Requested size: 364.90672pt x 298.9035pt.
+<../figuras/mortalidad_provincial.png, id=771, 1132.23pt x 927.465pt>
 File: ../figuras/mortalidad_provincial.png Graphic file (type png)
 <use ../figuras/mortalidad_provincial.png>
 Package pdftex.def Info: ../figuras/mortalidad_provincial.png  used on input li
 ne 601.
-(pdftex.def)             Requested size: 316.24951pt x 258.76125pt.
+(pdftex.def)             Requested size: 316.24951pt x 259.05159pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2750,11 +2750,6 @@ Package pdftex.def Info: ../editorial/7.pdf , page1 used on input line 1102.
 [59
 
  <../editorial/7.pdf>] (../tablas/tabla_defunciones_cero_provincia.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 1111--1115
-[][]
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [60
@@ -2826,7 +2821,7 @@ e1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss10.pf
 b><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/M
 iKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
 ic/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso12.pfb>
-Output written on boletin_covid.pdf (64 pages, 11736082 bytes).
+Output written on boletin_covid.pdf (64 pages, 12041792 bytes).
 PDF statistics:
  1820 PDF objects out of 2073 (max. 8388607)
  157 named destinations out of 1000 (max. 500000)
