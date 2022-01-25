@@ -34,7 +34,7 @@ twoway (line defuncion semana_2, lcolor("$mycolor2") lwidth(medthick)) ///
 	bgcolor(white) ///
 	ylabel(, nogrid) ///	
 	name(defunciones_2021, replace)
-*/
+
 /*
 * 2022
 twoway (line defuncion semana_3, lcolor("$mycolor2") lwidth(medthick)) ///
@@ -51,7 +51,7 @@ twoway (line defuncion semana_3, lcolor("$mycolor2") lwidth(medthick)) ///
 	ylabel(, nogrid) ///	
 	name(defunciones_2022, replace)
 
-
+*/
 * 2020 y 2021
 graph combine defunciones_2020 defunciones_2021, ///
 graphregion(color(white)) ///
@@ -59,17 +59,18 @@ name(defunciones_20_21_22, replace)
 
 gr export "figuras\defunciones_20_21_22.png", as(png) replace
 gr export "figuras\defunciones_20_21_22.pdf", as(pdf) name("defunciones_20_21_22") replace
+
 */
-/*
 
 ********************************************************************************
 * Tasas de Crecimiento Semanal 2021
 ********************************************************************************
+/*
 *2021
 twoway (line defuncion_d semana_2, lcolor("$mycolor6") lwidth(medthick) lpattern(longdash)) ///
 (scatter defuncion_d semana_2, msize(vsmall) mcolor("$mycolor6") mlabel(defuncion_d) mlabcolor("$mycolor2") mlabsize(tiny) connect() xline(1, lcolor("$mycolor1") lpattern(shortdash) lwidth(thick)) xline(13, lcolor("$mycolor2") lpattern(shortdash) lwidth(thick)) xline(15, lcolor("$mycolor3") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
  if semana_2 >=1 & semana_2<=55, ///
-	ylabel(-300(50)100, labsize(*0.6)) ///
+	ylabel(-700(100)100, labsize(*0.6)) ///
 	tlabel(1(4)55) ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("% Crecimiento de Defunciones") ///
@@ -95,10 +96,9 @@ twoway (line defuncion_d semana_3, lcolor("$mycolor6") lwidth(medthick) lpattern
 	legend(off) ///
 	name(defunciones_tasa_2022, replace)
 */
+
 gr export "figuras\defunciones_crecimiento_21_22.png", as(png) replace
 gr export "figuras\defunciones_crecimiento_21_22.pdf", as(pdf) name("defunciones_21_22") replace
-
-
 */
 ********************************************************************************
 * Tasas de Crecimiento Semanal 2021
@@ -117,7 +117,7 @@ twoway (line positivo_d semana_2, lcolor("$mycolor6") lwidth(medthick) lpattern(
 	bgcolor(white) ///
 	ylabel(, nogrid) ///	
 	name(positivos_2020_21_22, replace)
-*/
+
 /*	
 *2022
 twoway (line positivo_d semana_3, lcolor("$mycolor6") lwidth(medthick) lpattern(longdash)) ///
@@ -133,16 +133,17 @@ twoway (line positivo_d semana_3, lcolor("$mycolor6") lwidth(medthick) lpattern(
 	bgcolor(white) ///
 	ylabel(, nogrid) ///	
 	name(positivos_2022, replace)
-		
+*/	
 
 gr export "figuras\positivos_crecimiento_2021_2022.png", as(png) replace
 gr export "figuras\positivos_crecimiento_2021_2022.pdf", as(pdf) name("positivos_2020_21_22") replace
 */
+*/
 
-/*
 ********************************************************************************
 * Casos ::  +PR
 ********************************************************************************
+/*
 * 2020
 twoway (line positivo semana, lcolor("$mycolor6") lwidth(medthick)) ///
 (scatter positivo semana, msize(vsmall) mcolor("$mycolor6") mlabel(positivo) mlabcolor("$mycolor6") mlabsize(tiny) connect() xline(52, lcolor("$mycolor1") lpattern(longdash) lwidth(thick))) ///
@@ -172,7 +173,7 @@ if semana_2 >=1 & semana_2<=55, ///
 	bgcolor(white) ///
 	ylabel(, nogrid) ///	
 	name(positivos_2021_2022, replace)
-
+*/
 /*
 * 2022
 twoway (line positivo semana_3, lcolor("$mycolor6") lwidth(medthick)) ///
@@ -189,7 +190,7 @@ if semana_2 >=1 & semana_3<=$semana, ///
 	ylabel(, nogrid) ///	
 	name(positivos_2022, replace)
 */
-
+/*
 * 2020 y 2021
 graph combine positivos_2020 positivos_2021_2022, ///
 graphregion(color(white)) ///
@@ -197,12 +198,12 @@ name(positivos_20_21_22, replace)
 
 gr export "figuras\positivos_20_21_22.png", as(png) replace
 gr export "figuras\positivos_20_21_22.pdf", as(pdf) name("positivos_20_21_22") replace
-
 */
+
 ********************************************************************************
 * Sintomaticos y asintomaticos : +PR
 ********************************************************************************
-
+/*
 * 2020
 twoway (line sintomatico semana, lcolor("$mycolor4") lwidth(medthick) lpattern(dot)) ///
 (scatter sintomatico semana, msymbol(Th) msize(vsmall) mcolor("$mycolor4") mlabcolor("$mycolor2") mlabsize(tiny) connect()) ///
@@ -226,7 +227,7 @@ twoway (line sintomatico semana_2, lcolor("$mycolor4") lwidth(medthick) lpattern
 (line asintomatico semana_2, lcolor("$mycolor7") lwidth(medthick) lpattern(dot)) ///
 (scatter asintomatico semana_2, msize(vsmall) mcolor("$mycolor7") mlabcolor("$mycolor7") mlabsize(tiny) msymbol(Sh) connect()) ///
 if semana_2 >=1 & semana_2 <=55, ///
-	ylabel(0(2000)9000, labsize(*0.6)) ///
+	ylabel(0(2000)10000, labsize(*0.6)) ///
 	tlabel(1(4)55) ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("") ///
@@ -236,6 +237,7 @@ if semana_2 >=1 & semana_2 <=55, ///
 	bgcolor(white) ///
 	ylabel(, nogrid) ///	
 	name(sintomaticos_2021, replace)
+
 
 /*
 * 2022
@@ -255,16 +257,16 @@ if semana_2 >=1 & semana_3 <=$semana, ///
 	ylabel(, nogrid) ///	
 	name(sintomaticos20_21, replace)
 
-
+*/
 * 2020 y 2021
 graph combine sintomaticos_2020 sintomaticos_2021, ///
 graphregion(color(white)) ///
 name(sintomaticos_20_21_22, replace)
-*/
+
 
 gr export "figuras\sintomaticos_20_21_22.png", as(png) replace
 gr export "figuras\sintomaticos_20_21_22.pdf", as(pdf) name("sintomaticos_20_21_22") replace
-
+*/
 ********************************************************************************
 * Sintomaticos por tipo de prueba  +PR
 ********************************************************************************
@@ -291,7 +293,7 @@ twoway (scatter sintomatico_pcr semana_2, msize(vsmall) mcolor("$mycolor5") msym
 (scatter sintomatico_pr_sis semana_2, msize(vsmall) mcolor("$mycolor6") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor1")) ///
 (scatter sintomatico_ag semana_2, msize(vsmall) mcolor("$mycolor3") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor3") ) ///
 if semana_2>=1 & semana_2<=55, ///
-	ylabel(0(500)3000, labsize(*0.6)) ///
+	ylabel(0(1000)9000, labsize(*0.6)) ///
 	tlabel(1(4)55) ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("") ///
@@ -338,9 +340,9 @@ twoway (bar positivo_pcr semana_2, yaxis(1) ylabel(0(600)600) yscale(range(0(600
 (line positividad_pcr semana_2, lcolor(black) sort yaxis(2) ylabel(0(10)100, axis(2))) ///
 (scatter positivo_pcr semana_2, msymbol(none) mlabel(positivo_pcr) mlabcolor("$mycolor5") mlabsize(*0.65) mlabposition(12))				///
 (scatter positividad_pcr semana_2, msymbol(i) mlabel() mlabcolor() mlabsize(*0.65) mlabposition(12)	sort yaxis(2) yscale(range(0) axis(2) off)) ///
-if semana_2>=1 & semana_2 <=54								///
+if semana_2>=1 & semana_2 <=$semana								///
   ,xtitle("Semanas Epidemiológicas", size(*0.6)) 				///
-  xlabel(1(2)54, labsize(*0.6)) ///
+  xlabel(1(2)$semana, labsize(*0.6)) ///
   graphregion(color(white)) ///
   legend(cols(1) label(1 "Positivos en pruebas moleculares") label(2 " ") label(3 "Tasa de positividad en pruebas moleculares (%)") label (4 " ") size(*0.8) order(1 3) region(lcolor("$mycolor6"))) ///
   title("Pruebas Moleculares", size(*.7) box bcolor("$mycolor6") color(white)) ///
@@ -354,9 +356,9 @@ twoway (bar positivo_ag semana_2, yaxis(1) ylabel(0(600)2200) yscale(range(0(600
 (line positividad_ag semana_2, lcolor(black) sort yaxis(2) ylabel(0(10)100, axis(2))) ///
 (scatter positivo_ag semana_2, msymbol(none) mlabel(positivo_ag) mlabcolor("$mycolor4") mlabsize(*0.65) mlabposition(12))				///
 (scatter positividad_ag semana_2, msymbol(i) mlabel() mlabcolor(dark) mlabsize(*0.65) mlabposition(12)	sort yaxis(2) yscale(range(0) axis(2) off)) ///
-if semana_2>=1 & semana_2 <=54									///
+if semana_2>=1 & semana_2 <=$semana										///
   ,xtitle("Semanas Epidemiológicas", size(*0.6)) 				///
-  xlabel(1(2)54, labsize(*0.6)) ///
+  xlabel(1(2)$semana, labsize(*0.6)) ///
   graphregion(color(white)) ///
   legend(cols(1) label(1 "Positivos en pruebas antigénicas") label(2 " ") label(3 "Tasa de positividad en pruebas antigénicas (%)") label (4 " ") size(*0.8) order(1 3) region(lcolor("$mycolor4"))) ///
   title("Pruebas Antigénicas", size(*.7) box bcolor("$mycolor3") color(white)) ///
@@ -402,4 +404,5 @@ graph combine pcr ag, graphregion(margin(zero)) name(positividad, replace)
 gr export "figuras\positividad_ambas.png", as(png) replace
 graph export "figuras\positividad_ambas.pdf", as(pdf) replace
 
+*/
  

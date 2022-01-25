@@ -22,8 +22,8 @@ replace semana = 12 if fecha > 21988 & fecha <= 21995
 replace semana = semana[_n-7] + 1 if fecha > 21995
 
 * Contar las variables por semana epidemiológica
-collapse (sum) positivo positivo_pcr positivo_pr positivo_ag prueba prueba_pcr prueba_pr prueba_ag recuperado sintomatico asintomatico sintomatico_pcr sintomatico_ag sintomatico_pr defuncion, by(semana)
-*collapse (sum) positivo positivo_pcr positivo_ag prueba prueba_pcr prueba_ag recuperado sintomatico asintomatico sintomatico_pcr sintomatico_ag defuncion, by(semana)
+*collapse (sum) positivo positivo_pcr positivo_pr positivo_ag prueba prueba_pcr prueba_pr prueba_ag recuperado sintomatico asintomatico sintomatico_pcr sintomatico_ag sintomatico_pr defuncion, by(semana)
+collapse (sum) positivo positivo_pcr positivo_ag prueba prueba_pcr prueba_ag recuperado sintomatico asintomatico sintomatico_pcr sintomatico_ag defuncion, by(semana)
 
 * Eliminar datos más de la semana actual, la variable global "$semana", + 53 porque son 53 semanas del año 2020
 drop if semana > $semana +53
@@ -48,11 +48,10 @@ gen semana_3 = .
 replace semana_3 = semana_2 - 52
 replace semana_3 = . if semana_3 < 0
 
-
 * Generar la tasa de positividad semanal: casos semanales por tipo de prueba / numero de positivos y negativos por tipo de prueba x 100
 gen positividad_pcr = positivo_pcr/prueba_pcr*100
 gen positividad_ag = positivo_ag/prueba_ag*100
-gen positividad_pr = positivo_pr/prueba_pr*100
+*gen positividad_pr = positivo_pr/prueba_pr*100
 
 * Etiquetar las variables
 label var semana "Semana Epidemiológica"
@@ -65,7 +64,7 @@ label var positivo_d "% Crecimiento de Casos"
 label var sintomatico "Sintomáticos"
 label var asintomatico "Asintomáticos"
 label var sintomatico_pcr "Sintompaticos PCR"
-label var sintomatico_pr_sis "Sintomatico PR"
+*label var sintomatico_pr_sis "Sintomatico PR"
 label var sintomatico_ag "Sintomatico AG"
 
 * Definir los formatos de las variables, con comas y como porcentajes
