@@ -29,7 +29,7 @@ tsfill
 sort provincia_ubigeo fecha_resultado
 rename fecha_resultado fecha
 
-replace fecha = . if fecha < d(01jan2022)
+replace fecha = . if fecha < d(01jan2021)
 
 tempfile prov_fecha_resultado
 save "`prov_fecha_resultado'"
@@ -46,7 +46,7 @@ sort  fecha_recuperado
 rename fecha_recuperado fecha
 rename positivo recuperado
 
-replace fecha = . if fecha < d(01jan2022)
+replace fecha = . if fecha < d(01jan2021)
 
 tempfile prov_fecha_recuperado
 save "`prov_fecha_recuperado'"
@@ -65,7 +65,7 @@ rename positivo inicio
 rename positivo_pcr inicio_pcr
 rename positivo_ag inicio_ag
 
-replace fecha = . if fecha < d(01jan2022)
+replace fecha = . if fecha < d(01jan2021)
 
 tempfile prov_fecha_inicio
 save "`prov_fecha_inicio'"

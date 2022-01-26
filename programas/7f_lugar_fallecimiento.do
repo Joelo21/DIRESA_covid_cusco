@@ -1,5 +1,5 @@
 
-import excel "${datos}\raw\base_sinadef_2021.xlsx", sheet("DATA") firstrow clear
+import excel "${datos}\raw\base_sinadef_2022.xlsx", sheet("DATA") firstrow clear
 
 keep if DEPARTAMENTO == "CUSCO"
 
@@ -48,7 +48,7 @@ replace dni = u1 if dni == "SIN REGISTRO"
 replace dni = u1 if dni == ""
 duplicates drop dni, force
 
-keep if fecha_sinadef >= d(01jan2021) & fecha_sinadef <= d(17jul2021)
+keep if fecha_sinadef >= d(01jan2021) & fecha_sinadef <= d($fecha)
 
 tab LUGARDEFALLECIMIENTO
 

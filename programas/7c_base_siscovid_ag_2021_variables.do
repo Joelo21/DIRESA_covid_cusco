@@ -4,9 +4,7 @@ import excel "${datos}\raw\base_siscovid_ag_2021_1.xlsx", sheet("Hoja1") firstro
 
 save "${datos}\temporal\data_sis_ag_boletin_1.dta", replace
 */
-import excel "${datos}\raw\base_siscovid_ag_2021_2.xlsx", sheet("Hoja1") firstrow clear
-
-*append using "${datos}\temporal\data_sis_ag_boletin_1.dta"
+import excel "${datos}\raw\base_siscovid_ag_2022_1.xlsx", sheet("Hoja1") firstrow clear
 
 keep if Departamento == "Cusco"
 rename NroDocumento dni
@@ -47,57 +45,57 @@ drop if positivo_ag_sis == .
 * Sintomas 
 
 gen sin_fiebre_2 = .
-replace sin_fiebre_2 = 1 if FiebreEscalofrio == "SI"
+replace sin_fiebre_2 = 1 if fiebre == "SI"
 
 gen sin_malestar = .
-replace sin_malestar = 1 if MalestarGeneral == "SI"
+replace sin_malestar = 1 if malestar_general == "SI"
 
 gen sin_tos = .
-replace sin_tos = 1 if Tos == "SI"
+replace sin_tos = 1 if tos == "SI"
 
 
 gen sin_garganta = .
-replace sin_garganta = 1 if DolorGarganta == "SI"
+replace sin_garganta = 1 if dolor_garganta == "SI"
 
 
 gen sin_congestion = .
-replace sin_congestion = 1 if CongestionNasal == "SI"
+replace sin_congestion = 1 if congestion_nasal == "SI"
 
 gen sin_respiratoria = .
-replace sin_respiratoria = 1 if DificultadRespiratoria == "SI"
+replace sin_respiratoria = 1 if dificultad_respiratoria == "SI"
 
 gen sin_diarrea = .
-replace sin_diarrea = 1 if Diarrea == "SI"
+replace sin_diarrea = 1 if diarrea == "SI"
 
 gen sin_nauseas = .
-replace sin_nauseas = 1 if NauseasVomito == "SI"
+replace sin_nauseas = 1 if nausea_vomito == "SI"
 
 gen sin_cefalea = .
-replace sin_cefalea = 1 if PresentaCefalea == "SI"
+replace sin_cefalea = 1 if cefalea == "SI"
 
 gen sin_irritabilidad = .
-replace sin_irritabilidad = 1 if IrritabilidadConfusion == "SI"
+replace sin_irritabilidad = 1 if irritabilidad_confusion == "SI"
 
 gen sin_muscular = .
-replace sin_muscular = 1 if DolorPresentaMuscular == "SI"
+replace sin_muscular = 1 if dolor_muscular == "SI"
 
 gen sin_abdominal = .
-replace sin_abdominal = 1 if DolorPresentaAbdominal == "SI"
+replace sin_abdominal = 1 if dolor_abdominal == "SI"
 
 gen sin_pecho = .
-replace sin_pecho = 1 if DolorPresentaPecho == "SI"
+replace sin_pecho = 1 if dolor_pecho == "SI"
 
 gen sin_articulaciones = .
-replace sin_articulaciones = 1 if DolorPresentaArticulaciones == "SI"
+replace sin_articulaciones = 1 if dolor_articulaciones == "SI"
 
 gen sin_otro = .
-replace sin_otro = 1 if PresentaOtros == "SI"
+replace sin_otro = 1 if otro_sintoma == "SI"
 
 gen sin_ninguno = .
 replace sin_ninguno = 1 if (sin_fiebre_2 != 1 & sin_malestar!= 1 &  sin_tos != 1 &  sin_garganta != 1 &  sin_congestion != 1 &   sin_respiratoria != 1 &   sin_diarrea != 1 &  sin_nauseas != 1 &   sin_cefalea != 1 & sin_irritabilidad != 1 &   sin_muscular != 1 &  sin_abdominal != 1 &   sin_pecho != 1 &  sin_articulaciones != 1 &  sin_otro != 1)
 
-* 
-
+********************************************************************************
+*Comorbilidades
 gen com_obesidad = .
 replace com_obesidad = 1 if RiesgoObesidad == "SI"
 

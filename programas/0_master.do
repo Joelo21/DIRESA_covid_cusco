@@ -33,7 +33,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 24jan2022
+global fecha 25jan2022
 global semana 55
 
 * Tiempo de corrida: alrededor de 7 minutos
@@ -95,32 +95,32 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/1h_base_sinadef_covid_2021"
 	do "programas/1h_base_sinadef_covid_2022"
 
-	do "programas/1i_base_unir"
-	*do "programas/1i_base_unir_2022"
+	*do "programas/1i_base_unir"
+	do "programas/1i_base_unir_2022"
 
 	**do "programas/1j_datos_mapa_calor" // semanal
 	*do "programas/1j_datos_mapa_calor_2022"
-*/
 
-/*
+
+
 * 2. Generar datos a nivel regional y provincial
-	do "programas/2a_series_diarias_region"
-	*do "programas/2a_series_diarias_region_2022"
+	*do "programas/2a_series_diarias_region"
+	do "programas/2a_series_diarias_region_2022"
 
-	do "programas/2b_series_diarias_provincias"
-	*do "programas/2b_series_diarias_provincias_2022"
+	*do "programas/2b_series_diarias_provincias"
+	do "programas/2b_series_diarias_provincias_2022"
 
-	do "programas/2c_panel_diario_provincias"
-	*do "programas/2c_panel_diario_provincias_2022"
-*/	
+	*do "programas/2c_panel_diario_provincias"
+	do "programas/2c_panel_diario_provincias_2022"
 
+*/
 /*
 * 3. Figuras para la "Sala Situacional COVID-19" diaria 
-	do "programas/3a_figura_etapa_vida"
-	*do "programas/3a_figura_etapa_vida_2022"
+	*do "programas/3a_figura_etapa_vida"
+	do "programas/3a_figura_etapa_vida_2022"
 
-	do "programas/3b_figura_inci_morta_diario"
-	*do "programas/3b_figura_inci_morta_diario_2022" 
+	*do "programas/3b_figura_inci_morta_diario"
+	do "programas/3b_figura_inci_morta_diario_2022" 
 
 	do "programas/3c_figura_positividad"
 	*do "programas/3c_figura_positividad_2022"
@@ -131,15 +131,18 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	**do "programas/3e_sintomaticos"
 */
 
-	 /*
+/*
 	* Para la actualización del Dashboard COVID-19 en la página web
-	*do "programas/1k_datos_dashboard"
+	**do "programas/1k_datos_dashboard"
 	** Cambiar la dirección si es necesario
-	do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
-		* Ocupación de camas (semanalmente)
-	do  "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
-	*/
-
+	*CASA
+	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
+	 do "C:\Users\PC\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
+	* Ocupación de camas (semanalmente)
+	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
+	 do "C:\Users\PC\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
+*/
+	 
 /*
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	do "programas/2d_series_semanales_region" // Generar datos semanales region
@@ -155,6 +158,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/4c_figura_inci_mort_positi_provincial"
 
 	*/
+	/*
 	** Datos para los excesos de defunciones
 	*do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
 	do "programas/1m_datos_defunciones_2020_2021_regional"
@@ -162,7 +166,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	do "programas/4d_figura_exceso_regional"
 	do "programas/4e_figura_exceso_provincial"
-
+*/
 
 /*
 	* Hospitalización
@@ -183,21 +187,22 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 /*
 * 6. Vacunados
-	*do "programas\6a_base_vacunados"
+	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"
 	do "programas\6c_figura_vacunacion_provincias"	
 */
 
-/*
+
 * 7. Figuras para el "Boletin COVID-19" Mensual
 	do "programas\7a_base_noticovid_2021_variables"
-	do "programas\7b_base_siscovid_pr_2021_variables"
+	*do "programas\7b_base_siscovid_pr_2021_variables"
 	do "programas\7c_base_siscovid_ag_2021_variables"
 	do "programas\7d_unir_bases"
 	do "programas\7e_figura_sintomas_comorbilidad"
 	do "programas\7f_lugar_fallecimiento"
-	do "programas\7g_figura_inci_morta_series"
-*/
+	*do "programas\7g_figura_inci_morta_series"
+	*do "programas\7g_figura_inci_morta_series_2022"
+
 
 timer off 1
 timer list

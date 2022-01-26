@@ -2,7 +2,7 @@
 * Base de datos NOTICOVID
 
 * Importar la base de datos de excel
-import excel "${datos}\raw\base_noticovid_2021_sin_com.xlsx", sheet(BD_coronavirus) firstrow clear
+import excel "${datos}\raw\base_noticovid_2022_sin_com.xlsx", sheet(BD_coronavirus) firstrow clear
 
 * Seleccionar solo a los que pertencen al departamento Cusco
 keep if diresa == "CUSCO"
@@ -99,7 +99,7 @@ replace sin_otro = 1 if otros_sintom == 1
 
 gen sin_ninguno = .
 replace sin_ninguno = 1 if (sin_fiebre_2 != 1 & sin_malestar!= 1 &  sin_tos != 1 &  sin_garganta != 1 &  sin_congestion != 1 &   sin_respiratoria != 1 &   sin_diarrea != 1 &  sin_nauseas != 1 &   sin_cefalea != 1 & sin_irritabilidad != 1 &   sin_muscular != 1 &  sin_abdominal != 1 &   sin_pecho != 1 &  sin_articulaciones != 1 &  sin_otro != 1)
-
+********************************************************************************
 * Comorbilidades
 gen com_obesidad = .
 replace com_obesidad = 1 if  obesidad == 1 
