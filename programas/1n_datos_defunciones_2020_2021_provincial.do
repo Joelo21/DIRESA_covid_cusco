@@ -1,5 +1,5 @@
 
-import excel "${datos}\raw\base_sinadef_2020_2021_total.xlsx", sheet(DATA) firstrow clear
+import excel "${datos}\raw\base_sinadef_2020_2021_2022_total.xlsx", sheet(DATA) firstrow clear
 
 * Provincia
 rename PROVINCIADOMICILIO provincia
@@ -97,7 +97,7 @@ replace semana_2 = semana - 53
 replace semana_2 = . if semana_2 < 0
 
 * Máximo número de semanas del 2020, 53
-replace semana = . if semana >53
+replace semana = . if semana > 53
 
 * Datos del 2020
 preserve

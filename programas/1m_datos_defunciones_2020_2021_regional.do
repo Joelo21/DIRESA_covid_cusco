@@ -1,6 +1,6 @@
 *
 * Cargar la base de datos del 2020 y 2021
-import excel "${datos}\raw\base_sinadef_2020_2021_total.xlsx", sheet(DATA) firstrow clear
+import excel "${datos}\raw\base_sinadef_2020_2021_2022_total.xlsx", sheet(DATA) firstrow clear
 
 * Borrar los registros que se anularon
 drop if ESTADO == "ANULACIÓN SOLICITADA" | ESTADO == "ANULADO"
@@ -36,20 +36,26 @@ collapse (count) numero, by(fecha)
 rename numero de_20
 tsset fecha, daily
 tsfill
-
+ 
 * Generamos datos semanales
 gen semana = .
 replace semana = 1 if fecha >= d(29dec2019) & fecha <= d(04jan2020)
 replace semana = semana[_n-7] + 1 if fecha > d(04jan2020)
 
 * Generar las semanas epidemiológicas del 2021
-gen numero = _n
 gen semana_2 = .
 replace semana_2 = semana - 53
 replace semana_2 = . if semana_2 < 0
+save "${datos}\output\xzxzxzx.dta", replace
+*Generar las semanas epidemiologicas del 2022
+gen numero = _n
+gen semana_3 = .
+replace semana_3 = 1 if fecha >= d(02jan2022)
+replace semana_3 = semana_3[_n-7] + 1 if fecha > d(02jan2022)
 
 * Máximo número de semanas del 2020, 53
 replace semana = . if semana > 53
+replace semana_2 = . if semana_2 > 52
 
 * Datos del 2020
 preserve
@@ -64,9 +70,19 @@ rename semana_2 semana
 rename de_20 de_21
 save "${datos}\temporal\defuncion_semanal_region_2021", replace
 restore 
+
+*Datos del 2022
+preserve
+collapse (sum) de_20, by(semana_3)
+rename semana_3 semana
+rename de_20 de_22
+save "${datos}\temporal\defuncion_semanal_region_2022", replace
+restore
+
 ***OJO CAMBIAMOS AQUI DE 55 A 53
 use "${datos}\temporal\defuncion_semanal_region_2020", clear
 merge 1:1 semana using "${datos}\temporal\defuncion_semanal_region_2021", nogen
+merge 1:1 semana using "${datos}\temporal\defuncion_semanal_region_2022", nogen
 drop if semana > 55 | semana == 0
 
 * Guardar la base de datos

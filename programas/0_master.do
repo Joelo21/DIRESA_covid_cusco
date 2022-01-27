@@ -76,7 +76,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-/*
+
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -95,8 +95,8 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/1h_base_sinadef_covid_2021"
 	do "programas/1h_base_sinadef_covid_2022"
 
-	*do "programas/1i_base_unir"
-	do "programas/1i_base_unir_2022"
+	do "programas/1i_base_unir"
+	*do "programas/1i_base_unir_2022"
 
 	**do "programas/1j_datos_mapa_calor" // semanal
 	*do "programas/1j_datos_mapa_calor_2022"
@@ -104,16 +104,16 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 
 * 2. Generar datos a nivel regional y provincial
-	*do "programas/2a_series_diarias_region"
-	do "programas/2a_series_diarias_region_2022"
+	do "programas/2a_series_diarias_region"
+	*do "programas/2a_series_diarias_region_2022"
 
 	*do "programas/2b_series_diarias_provincias"
-	do "programas/2b_series_diarias_provincias_2022"
+	*do "programas/2b_series_diarias_provincias_2022"
 
 	*do "programas/2c_panel_diario_provincias"
-	do "programas/2c_panel_diario_provincias_2022"
+	*do "programas/2c_panel_diario_provincias_2022"
 
-*/
+
 /*
 * 3. Figuras para la "Sala Situacional COVID-19" diaria 
 	*do "programas/3a_figura_etapa_vida"
@@ -142,31 +142,31 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
 	 do "C:\Users\PC\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
 */
-	 
-/*
+
+
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	do "programas/2d_series_semanales_region" // Generar datos semanales region
 	*do "programas/2d_series_semanales_region_2022"
 	
 	do "programas/4a_figura_casos_def_region"
 	*do "programas/4a_figura_casos_def_region_2022"
-
-	do "programas/4b_figura_mort_edad_region"
+/* 
+	**do "programas/4b_figura_mort_edad_region"
 	*do "programas/4b_figura_mort_edad_region_2022"
 
-	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
-	do "programas/4c_figura_inci_mort_positi_provincial"
+	**do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
+	**do "programas/4c_figura_inci_mort_positi_provincial"
+*/
 
-	*/
-	/*
+
 	** Datos para los excesos de defunciones
 	*do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
 	do "programas/1m_datos_defunciones_2020_2021_regional"
 	do "programas/1n_datos_defunciones_2020_2021_provincial"
 
 	do "programas/4d_figura_exceso_regional"
-	do "programas/4e_figura_exceso_provincial"
-*/
+	*do "programas/4e_figura_exceso_provincial"
+
 
 /*
 	* Hospitalización
@@ -192,7 +192,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\6c_figura_vacunacion_provincias"	
 */
 
-
+/*
 * 7. Figuras para el "Boletin COVID-19" Mensual
 	do "programas\7a_base_noticovid_2021_variables"
 	*do "programas\7b_base_siscovid_pr_2021_variables"
@@ -202,7 +202,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\7f_lugar_fallecimiento"
 	*do "programas\7g_figura_inci_morta_series"
 	*do "programas\7g_figura_inci_morta_series_2022"
-
+*/
 
 timer off 1
 timer list

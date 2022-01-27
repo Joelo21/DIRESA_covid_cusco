@@ -155,7 +155,7 @@ twoway (line mortalidad_1 semana_2, lcolor("$mycolor1") lwidth(medthick) xline(5
 (line mortalidad_9 semana_2, lcolor("$mycolor5") lwidth(medthick) lpattern(dash_dot)) ///
 if semana_2 >=1, ///
 	ylabel(0(3)24, labsize(*0.6)) ///
-	tlabel(1(2)55) ///
+	tlabel(1(2)$semana) ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
 	ytitle("Mortalidad (defunciones/población*10,000)") ///
 	graphregion(color(white)) ///

@@ -13,7 +13,6 @@ use "${datos}\output\data_series_region_2022.dta", clear
 * Para dias a inicios de semana
 drop if fecha < d(01jan2021)
 
-
 gen numero = _n
 gen semana =.
 replace semana = 1 if numero >= 1 & numero <= 7

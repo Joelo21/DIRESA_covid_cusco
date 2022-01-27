@@ -72,14 +72,14 @@ twoway (line positividad_pcr semana, lcolor("$mycolor6") lwidth(medthick)) ///
   bgcolor(white) ///
   ylabel(, nogrid) xlabel(, nogrid) ///
   legend(cols(2) label(1 "Positividad PCR (%)") label(2 "Positividad AG (%)") label(3 " ") label (4 " ") size(*0.6) order(1 2 3 4) region(fcolor(white) lcolor(white))) ///
-  text(80 $semana "{it:Actualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor4") fcolor("$mycolor4")) name(tasa_positividad, replace)
-   
+  /*text(80 $semana "{it:Actualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor4") fcolor("$mycolor4")) */name(tasa_positividad, replace)
+   */
 graph export "figuras\positividad_diaria_2021_2022.png", as(png) replace  
 
 ********************************************************************************
 * Tasa de Incidencia
 ********************************************************************************
-
+/*
 * Graficos 
 gen total_positivos = positivo_pcr + positivo_ag
 gen poblacion_cusco= 1357498
@@ -94,12 +94,12 @@ twoway ///
   ytitle("Tasa de Incidencia", size(*0.6)) ///
   ylabel(0(200)1600, labsize(*0.60)) ///
   xlabel(1(2)$semana, labsize(*0.60)) ///
-  xline(21459.9, lcolor("$mycolor1") lpattern(shortdash) lwidth(mthick)) ///
+  xline(21471.9, lcolor("$mycolor7") lpattern(shortdash) lwidth(mthick)) ///
   plotregion(fcolor(white) lcolor(white)) ///
   graphregion(fcolor(white) lcolor(white)) ///
   bgcolor(white) ///
   ylabel(, nogrid) xlabel(, nogrid) ///
     legend(cols(2) label(1 " Tasa de Incidencia (casos positivos/poblacion*1000000)") label(2 "") size(*0.6) order(1 2 3 4) region(fcolor(white) lcolor(white))) ///
-    text(1000 $semana "{it:Actualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor4") fcolor("$mycolor4")) name(tasa_incidencia, replace)
+    /*text(1000 $semana "{it:Actualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor4") fcolor("$mycolor4"))*/ name(tasa_incidencia, replace)
 
-graph export "figuras\tasa_incidencia__2021_2022.png", as(png) replace
+graph export "figuras\tasa_incidencia_2021_2022.png", as(png) replace
