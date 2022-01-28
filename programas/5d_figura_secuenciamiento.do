@@ -74,7 +74,7 @@ twoway (line lambda mes, yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1))
  ytitle("Porcentaje de las Variantes Econtradas", size(*0.7)) ///
 	graphregion(color(white)) ///
 	xlabel(735 "Abril" 736 "Mayo" 737 "Junio" 738 "Julio" 739 "Agosto" 740 "Sept" 741 "Oct" 742 "Nov" 743 "Dic" 744 "Enero") ///
-	legend(cols(3) label(1 "Lambda") label(2 "") label(3 "Gamma") label(4 "") label(5 "Delta") label(6 "")  label(7 "Omicron") label(8 "") label(9 "Otros") label(10 "Total de Muestra") label(11 "") order(10 1 3 5 7 9) size(*0.75) region(col(white))) ///
+	legend(cols(3) label(1 "Lambda") label(2 "") label(3 "Gamma") label(4 "") label(5 "Delta") label(6 "")  label(7 "Omicron") label(8 "") label(9 "Otros") label(11 "Total de Muestra") label(12 "") order(11 1 3 5 7 9) size(*0.75) region(col(white))) ///
 	title("Variantes en la Región Cusco", box bexpand bcolor("$mycolor3") color(white)) ///
 	bgcolor(white) ///
 	ylabel(, nogrid) name(variantes, replace)

@@ -34,7 +34,7 @@ set more off
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
 global fecha 25jan2022
-global semana 04
+global semana 55
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -158,7 +158,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/4c_figura_inci_mort_positi_provincial"
 
 
-
+/*
 	** Datos para los excesos de defunciones
 	*do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
 	*do "programas/1m_datos_defunciones_2020_2021_regional"
@@ -166,7 +166,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	*do "programas/4d_figura_exceso_regional"
 	do "programas/4e_figura_exceso_provincial"
-*
+*/
 
 /*
 	* Hospitalización
@@ -175,14 +175,14 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas\4z_tabla_cero_defunciones.do"
 */
 
-/*
+
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
 	do "programas\5c_juntar"
 	do "programas\5d_figura_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
-*/
+
 
 /*
 * 6. Vacunados

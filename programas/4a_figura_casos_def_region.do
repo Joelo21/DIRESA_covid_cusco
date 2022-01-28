@@ -4,8 +4,7 @@ use "${datos}\output\serie_semanal_region.dta", clear
 ********************************************************************************
 * Defunciones
 ********************************************************************************
-
-
+/*
 * 2020
 twoway (line defuncion semana, lcolor("$mycolor2") lwidth(medthick)) ///
 (scatter defuncion semana, msize(vsmall) mcolor("$mycolor2") mlabel(defuncion) mlabcolor("$mycolor3") mlabsize(tiny) connect() xline(52, lcolor("$mycolor1") lpattern(longdash) lwidth(thick))) ///
@@ -339,13 +338,11 @@ gr export "figuras\sinto_prueba_20_21_22.pdf", as(pdf) name("sinto_prueba_20_21_
 ********************************************************************************
 * Tasa de Positividad por PCR y AG: 2021 - 2022
 ********************************************************************************
-/*
-*2021
 * PCR
 twoway (bar positivo_pcr semana_2, yaxis(1) ylabel(0(600)600) yscale(range(0(600)600) axis(1) off) bcolor("$mycolor5") /*bfcolor(white) blcolor(black)*/ /*fintensity(inten60)*/  barwidth(0.5 0.8)) ///
 (line positividad_pcr semana_2, lcolor(black) sort yaxis(2) ylabel(0(10)100, axis(2))) ///
-(scatter positivo_pcr semana_2, msymbol(none) mlabel(positivo_pcr) mlabcolor("$mycolor5") mlabsize(*0.65) mlabposition(12))				/// 
-(scatter positividad_pcr semana_2, msymbol(i) mlabel() mlabcolor() mlabsize(*0.65) mlabposition(12)	sort yaxis(2) yscale(range(0) axis(2) off)) ///
+(scatter positivo_pcr semana_2, msymbol(none) mlabel() mlabcolor("$mycolor5") mlabsize(*0.65) mlabposition(12))				/// 
+(scatter positividad_pcr semana_2, msymbol(i) mlabel(positividad_pcr) mlabcolor("$mycolor2") mlabsize(*0.65) mlabposition(12)	sort yaxis(2) yscale(range(0) axis(2) off)) ///
 if semana_2>=1 & semana_2 <=$semana								///
   ,xtitle("Semanas Epidemiológicas", size(*0.6)) 				///
   xlabel(1(2)$semana, labsize(*0.6)) ///
@@ -360,8 +357,8 @@ graph export "figuras\positividad_pcr.pdf", as(pdf) replace
 * AG
 twoway (bar positivo_ag semana_2, yaxis(1) ylabel(0(600)2200) yscale(range(0(600)2200) axis(1) off) bcolor("$mycolor3") /*bfcolor(white) blcolor(black)*/ /*fintensity(inten60)*/  barwidth(0.5 0.8)) ///
 (line positividad_ag semana_2, lcolor(black) sort yaxis(2) ylabel(0(10)100, axis(2))) ///
-(scatter positivo_ag semana_2, msymbol(none) mlabel(positivo_ag) mlabcolor("$mycolor4") mlabsize(*0.65) mlabposition(12))				///
-(scatter positividad_ag semana_2, msymbol(i) mlabel() mlabcolor(dark) mlabsize(*0.65) mlabposition(12)	sort yaxis(2) yscale(range(0) axis(2) off)) ///
+(scatter positivo_ag semana_2, msymbol(none) mlabel() mlabcolor("$mycolor4") mlabsize(*0.65) mlabposition(12))				///
+(scatter positividad_ag semana_2, msymbol(i) mlabel(positividad_ag) mlabcolor("$mycolor7") mlabsize(*0.65) mlabposition(12)	sort yaxis(2) yscale(range(0) axis(2) off)) ///
 if semana_2>=1 & semana_2 <=$semana										///
   ,xtitle("Semanas Epidemiológicas", size(*0.6)) 				///
   xlabel(1(2)$semana, labsize(*0.6)) ///
@@ -372,7 +369,7 @@ if semana_2>=1 & semana_2 <=$semana										///
   name(ag, replace)
 
 graph export "figuras\positividad_ag.pdf", as(pdf) replace
-
+*/
 /*
 *2022
 *PCR
@@ -403,7 +400,7 @@ if semana_3>=1 & semana_3 <=$semana									///
   bgcolor(white) ylabel(, nogrid) ///
   name(ag_2022, replace)
 */ 
-
+/*
 * Combinar figuras y exportar en PDF y PNG
 graph combine pcr ag, graphregion(margin(zero)) name(positividad, replace)
 
