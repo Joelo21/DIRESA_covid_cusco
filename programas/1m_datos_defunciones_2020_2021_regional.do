@@ -46,7 +46,7 @@ replace semana = semana[_n-7] + 1 if fecha > d(04jan2020)
 gen semana_2 = .
 replace semana_2 = semana - 53
 replace semana_2 = . if semana_2 < 0
-save "${datos}\output\xzxzxzx.dta", replace
+
 *Generar las semanas epidemiologicas del 2022
 gen numero = _n
 gen semana_3 = .

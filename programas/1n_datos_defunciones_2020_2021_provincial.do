@@ -12,7 +12,6 @@ append using "${datos}\temporal\defunciones_totales_region_2019_2020.dta", force
 sort fecha
 
 * Identificador 
-
 gen var_id = _n
 
 * Para identificar los migrantes
@@ -96,8 +95,14 @@ gen semana_2 = .
 replace semana_2 = semana - 53
 replace semana_2 = . if semana_2 < 0
 
+*Generar las semanas epidemiologicas del 2022
+gen semana_3 =.
+replace semana_3 = semana_2 - 53
+replace semana_3 = . if semana_3 < 0
+
 * Máximo número de semanas del 2020, 53
 replace semana = . if semana > 53
+replace semana_2 = . if semana_2 > 53
 
 * Datos del 2020
 preserve
@@ -108,17 +113,28 @@ restore
 * Datos del 2021
 preserve
 collapse (sum) d20_*, by(semana_2)
+save "${datos}\temporal\defuncion_semanal_provincias_2021", replace
 rename semana_2 semana
+restore
+
+*DATOS DEL 2022
+preserve
+collapse (sum) d20_*, by(semana_3)
+rename semana_3 semana
+
 
 forvalues i=1/13 {
-rename d20_`i' d21_`i'
+rename d20_`i' d22_`i'
 }
-save "${datos}\temporal\defuncion_semanal_provincias_2021", replace
+
+save "${datos}\temporal\defuncion_semanal_provincias_2022", replace
 restore 
 
+
 use "${datos}\temporal\defuncion_semanal_provincias_2020", clear
-merge 1:1 semana using "${datos}\temporal\defuncion_semanal_provincias_2021", nogen
+*merge 1:1 semana using "${datos}\temporal\defuncion_semanal_provincias_2021", nogen
+merge 1:1 semana using "${datos}\temporal\defuncion_semanal_provincias_2022", nogen
 drop if semana > 55 | semana == 0
 
 * Guardar la base de datos
-save "${datos}\output\defunciones_totales_provincias_2020_2021.dta", replace
+save "${datos}\output\defunciones_totales_provincias_2020_2021_2022.dta", replace

@@ -30,7 +30,7 @@ if semana >=11 & semana<=53, ///
 
 * 2021
 twoway (line mortalidad_`i' semana_2, yaxis(1) ylabel(0(0.5)2) yscale(range(0(0.5)3) axis(1) off) lcolor("$mycolor2")) ///
-(line incidencia_`i' semana_2, lcolor("$mycolor6") yaxis(2) yscale(axis(2)) ylabel(0(10)60, axis(2))) ///
+(line incidencia_`i' semana_2, lcolor("$mycolor6") yaxis(2) yscale(axis(2)) ylabel(0(50)200, axis(2))) ///
 if semana_2 >=1 & semana_2<=$semana, ///
 	tlabel(1(4)$semana) ///
 	xtitle("Semanas Epidemológicas", size(*0.7)) ///
@@ -74,7 +74,7 @@ if semana >=11 & semana <=53, ///
 * 2021
 twoway (line positividad_pcr_`i' semana_2, lcolor("$mycolor5")  lpattern(shortdash)) ///
 (line positividad_ag_`i' semana_2,  lcolor("$mycolor3")  lpattern(shortdash)) ///
-if semana_2 >=1 & semana_2<=54, ///
+if semana_2 >=1 & semana_2<=55, ///
 	tlabel(1(4)54) ///
 	ylabel(0(20)100) ///
 	xtitle("Semanas Epidemológicas", size(*0.7)) ///
@@ -99,7 +99,7 @@ gr export "figuras\positividad_20_21_`i'.pdf", as(pdf) name("positividad_20_21_`
 * Sintomaticos por tipo de prueba por Provincias
 ********************************************************************************
 * 2021
-/*  
+/*
 twoway (scatter positivo_prueba_pcr_`i' semana_2, msize(vsmall) mcolor("$mycolor5") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor5")) ///
 (scatter positivo_prueba_ag_`i' semana_2, msize(vsmall) mcolor("$mycolor3") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor3") ) ///
 if semana_2>=1 & semana_2<=54, ///
@@ -153,6 +153,5 @@ if semana_2>=1 & semana_2<=54, ///
 	ylabel(, nogrid) ///	
 	name(sinto_prueba20_21_`i', replace)
 	gr export "figuras\sinto_prueba20_21_`i'.png", as(png) replace	
-	*/
+*/
 }
-

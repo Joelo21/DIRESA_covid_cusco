@@ -59,7 +59,7 @@ replace mortalidad = total_defuncion/52989*10000 if provincia_ubigeo == 811
 replace mortalidad = total_defuncion/92989*10000 if provincia_ubigeo == 812
 replace mortalidad = total_defuncion/66439*10000 if provincia_ubigeo == 813
 
-
+/*
 label define provincia_ubigeo 801 "Cusco" 802 "Acomayo" 803 "Anta" 804 "Calca" 805 "Canas" 806 "Canchis" 807 "Chumbivilcas" 808 "Espinar" 809 "La Convención" 810 "Paruro" 811 "Paucartambo" 812 "Quispicanchi" 813 "Urubamba"
 label values provincia_ubigeo provincia_ubigeo
 
@@ -75,7 +75,7 @@ text(30 6 "{it:Acualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+
 
 * Exportar Figura
 graph export "figuras\mortalidad_provincial_2021_2022.png", as(png) replace
-
+*/
 ********************************************************************************
 * Incidencia
 ********************************************************************************
