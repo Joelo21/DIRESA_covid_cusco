@@ -343,7 +343,7 @@ twoway (bar positivo_pcr semana_2, yaxis(1) ylabel(0(600)600) yscale(range(0(600
 (line positividad_pcr semana_2, lcolor(black) sort yaxis(2) ylabel(0(10)100, axis(2))) ///
 (scatter positivo_pcr semana_2, msymbol(none) mlabel() mlabcolor("$mycolor5") mlabsize(*0.65) mlabposition(12))				/// 
 (scatter positividad_pcr semana_2, msymbol(i) mlabel(positividad_pcr) mlabcolor("$mycolor2") mlabsize(*0.65) mlabposition(12)	sort yaxis(2) yscale(range(0) axis(2) off)) ///
-if semana_2>=1 & semana_2 <=$semana								///
+if semana_2>=1 & semana_2 <=55							///
   ,xtitle("Semanas Epidemiológicas", size(*0.6)) 				///
   xlabel(1(2)$semana, labsize(*0.6)) ///
   graphregion(color(white)) ///
@@ -359,7 +359,7 @@ twoway (bar positivo_ag semana_2, yaxis(1) ylabel(0(600)2200) yscale(range(0(600
 (line positividad_ag semana_2, lcolor(black) sort yaxis(2) ylabel(0(10)100, axis(2))) ///
 (scatter positivo_ag semana_2, msymbol(none) mlabel() mlabcolor("$mycolor4") mlabsize(*0.65) mlabposition(12))				///
 (scatter positividad_ag semana_2, msymbol(i) mlabel(positividad_ag) mlabcolor("$mycolor7") mlabsize(*0.65) mlabposition(12)	sort yaxis(2) yscale(range(0) axis(2) off)) ///
-if semana_2>=1 & semana_2 <=$semana										///
+if semana_2>=1 & semana_2 <=55										///
   ,xtitle("Semanas Epidemiológicas", size(*0.6)) 				///
   xlabel(1(2)$semana, labsize(*0.6)) ///
   graphregion(color(white)) ///

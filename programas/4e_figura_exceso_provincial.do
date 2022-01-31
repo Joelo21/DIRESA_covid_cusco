@@ -67,11 +67,11 @@ if semana>=1 & semana <=$semana ///
   bgcolor(white) xlabel(, nogrid) ylabel(, nogrid) ///
   text(`posicion' $semana "{it:Exceso: `exceso_prov_`i''}", place(n) box just(left) margin(l+1 t+1 b+1) width(20) size(small) color(white) bcolor("$mycolor2") fcolor("$mycolor2"))
 */
- /*
+ 
 * 2022
 * Graficamos 
 twoway (line d19_`i' semana, lcolor("$mycolor3")) ///
-(line d22_`i' semana, lcolor("$mycolor2") lpattern(solid) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(mthick)) ) ///
+(line d22_`i' semana, lcolor("$mycolor2") lpattern(solid)) ///
 if semana>=1 & semana <=53 ///
   ,xtitle("Semanas Epidemológicas", size(*0.9)) ///
   ytitle("Número de Defunciones por Toda Causa", size(*0.8)) ///
@@ -93,5 +93,5 @@ name(exceso_`i', replace)
 
 * Guardamos en el formato requerido
 gr export "figuras\exceso_`i'.png", as(png) replace
-*/
+
 }

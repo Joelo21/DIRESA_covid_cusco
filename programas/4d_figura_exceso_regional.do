@@ -57,10 +57,10 @@ local exceso_actual_2 = r(mean)
 
 twoway (line de_19 semana, yaxis(1) yscale(range(0) axis(1)) lcolor("$mycolor3")) ///
 (line de_22 semana, yaxis(1) yscale(range(0) axis(1)) lcolor("$mycolor2")) ///
-if semana>=1 & semana <=53 ///
+if semana>=1 & semana <=$semana ///
   ,xtitle("Semanas Epidemológicas", size(*0.9)) ///
    ytitle("Número de Defunciones por Toda Causa", size(*0.8)) 				///
-  xlabel(1(4)$semana, labsize(*0.8)) ///
+  xlabel(1(4)53, labsize(*0.8)) ///
   ylabel(0(100)400, labsize(*0.8)) ///
   graphregion(color(white)) ///
   legend(label(1 "2019") label(2 "2022") size(*0.8) region(col(white))) ///
