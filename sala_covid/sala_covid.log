@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.1)  27 JAN 2022 11:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.1)  31 JAN 2022 13:03
 entering extended mode
 **./sala_covid.tex
 (sala_covid.tex
@@ -1674,12 +1674,12 @@ Overfull \vbox (9.90826pt too high) detected at line 279
 
  <../sala_nacional/Positividad_Antigenica_3ra_ola.jpg> <../sala_nacional/Porcen
 taje_Positivos_3ra_ola_regiones.jpg.png>]
-<../sala_nacional/vacunas_nacional.png, id=182, 1326.9575pt x 769.87625pt>
+<../sala_nacional/vacunas_nacional.png, id=182, 1329.96875pt x 772.8875pt>
 File: ../sala_nacional/vacunas_nacional.png Graphic file (type png)
 <use ../sala_nacional/vacunas_nacional.png>
 Package pdftex.def Info: ../sala_nacional/vacunas_nacional.png  used on input l
 ine 294.
-(pdftex.def)             Requested size: 307.28987pt x 178.27779pt.
+(pdftex.def)             Requested size: 307.28987pt x 178.57411pt.
  [7
 
  <../sala_nacional/vacunas_nacional.png>]
@@ -1975,80 +1975,80 @@ nput line 635.
  <../figuras/vacunacion_provincial_edad_8.pdf>] [32
 
 ]
-<../figuras/uci.png, id=607, 1269.74374pt x 923.45pt>
+<../figuras/uci.png, id=607, 1274.7625pt x 927.465pt>
 File: ../figuras/uci.png Graphic file (type png)
 <use ../figuras/uci.png>
 Package pdftex.def Info: ../figuras/uci.png  used on input line 662.
-(pdftex.def)             Requested size: 276.559pt x 196.79262pt.
+(pdftex.def)             Requested size: 276.559pt x 196.8916pt.
  [33
 
  <../figuras/uci.png (PNG copy)>]
-<../figuras/nivel_3.png, id=616, 1269.74374pt x 923.45pt>
+<../figuras/nivel_3.png, id=616, 1274.7625pt x 927.465pt>
 File: ../figuras/nivel_3.png Graphic file (type png)
 <use ../figuras/nivel_3.png>
 Package pdftex.def Info: ../figuras/nivel_3.png  used on input line 671.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [34
 
  <../figuras/nivel_3.png (PNG copy)>]
-<../figuras/h_regional_uci.png, id=624, 1269.74374pt x 923.45pt>
+<../figuras/h_regional_uci.png, id=624, 1274.7625pt x 927.465pt>
 File: ../figuras/h_regional_uci.png Graphic file (type png)
 <use ../figuras/h_regional_uci.png>
 Package pdftex.def Info: ../figuras/h_regional_uci.png  used on input line 680.
 
-(pdftex.def)             Requested size: 236.6145pt x 168.36426pt.
+(pdftex.def)             Requested size: 236.6145pt x 168.44771pt.
  [35
 
  <../figuras/h_regional_uci.png (PNG copy)>]
-<../figuras/h_regional_nouci.png, id=632, 1269.74374pt x 923.45pt>
+<../figuras/h_regional_nouci.png, id=632, 1274.7625pt x 927.465pt>
 File: ../figuras/h_regional_nouci.png Graphic file (type png)
 <use ../figuras/h_regional_nouci.png>
 Package pdftex.def Info: ../figuras/h_regional_nouci.png  used on input line 70
 0.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [36
 
  <../figuras/h_regional_nouci.png (PNG copy)>]
-<../figuras/h_lorena_uci.png, id=640, 1269.74374pt x 923.45pt>
+<../figuras/h_lorena_uci.png, id=640, 1274.7625pt x 927.465pt>
 File: ../figuras/h_lorena_uci.png Graphic file (type png)
 <use ../figuras/h_lorena_uci.png>
 Package pdftex.def Info: ../figuras/h_lorena_uci.png  used on input line 709.
-(pdftex.def)             Requested size: 236.6145pt x 168.36426pt.
+(pdftex.def)             Requested size: 236.6145pt x 168.44771pt.
 
 [37
 
  <../figuras/h_lorena_uci.png (PNG copy)>]
-<../figuras/h_lorena_nouci.png, id=649, 1269.74374pt x 923.45pt>
+<../figuras/h_lorena_nouci.png, id=649, 1274.7625pt x 927.465pt>
 File: ../figuras/h_lorena_nouci.png Graphic file (type png)
 <use ../figuras/h_lorena_nouci.png>
 Package pdftex.def Info: ../figuras/h_lorena_nouci.png  used on input line 728.
 
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [38
 
  <../figuras/h_lorena_nouci.png (PNG copy)>]
-<../figuras/h_adolfo_uci.png, id=657, 1269.74374pt x 923.45pt>
+<../figuras/h_adolfo_uci.png, id=657, 1274.7625pt x 927.465pt>
 File: ../figuras/h_adolfo_uci.png Graphic file (type png)
 <use ../figuras/h_adolfo_uci.png>
 Package pdftex.def Info: ../figuras/h_adolfo_uci.png  used on input line 737.
-(pdftex.def)             Requested size: 236.6145pt x 168.36426pt.
+(pdftex.def)             Requested size: 236.6145pt x 168.44771pt.
  [39
 
  <../figuras/h_adolfo_uci.png (PNG copy)>]
-<../figuras/h_adolfo_nouci.png, id=665, 1269.74374pt x 923.45pt>
+<../figuras/h_adolfo_nouci.png, id=665, 1274.7625pt x 927.465pt>
 File: ../figuras/h_adolfo_nouci.png Graphic file (type png)
 <use ../figuras/h_adolfo_nouci.png>
 Package pdftex.def Info: ../figuras/h_adolfo_nouci.png  used on input line 757.
 
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [40
 
  <../figuras/h_adolfo_nouci.png (PNG copy)>]
-<../figuras/nivel_2.png, id=673, 1269.74374pt x 923.45pt>
+<../figuras/nivel_2.png, id=673, 1274.7625pt x 927.465pt>
 File: ../figuras/nivel_2.png Graphic file (type png)
 <use ../figuras/nivel_2.png>
 Package pdftex.def Info: ../figuras/nivel_2.png  used on input line 766.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [41
 
  <../figuras/nivel_2.png (PNG copy)>] [42
@@ -2986,14 +2986,8 @@ Overfull \vbox (13.28629pt too high) detected at line 1591
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `sala_covid.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `sala_covid.out':
-(rerunfilecheck)             Before: 57C2BBAF2A7C7A11B2A9F98BB088228E;1577
-(rerunfilecheck)             After:  008AF6E64B463D41EF7B58AA4562D160;3534.
+Package rerunfilecheck Info: File `sala_covid.out' has not changed.
+(rerunfilecheck)             Checksum: 008AF6E64B463D41EF7B58AA4562D160;3534.
  ) 
 Here is how much of TeX's memory you used:
  42151 strings out of 478681
@@ -3022,7 +3016,7 @@ X/fonts/type1/public/lm/lmsy10.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/lm/lmsy6.pfb><C:/Users/PC/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/symbols/msam10.pfb><C:/Users/PC/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/newpx/npxsups-Regular.pfb>
-Output written on sala_covid.pdf (119 pages, 11715098 bytes).
+Output written on sala_covid.pdf (119 pages, 11708088 bytes).
 PDF statistics:
  2133 PDF objects out of 2487 (max. 8388607)
  346 named destinations out of 1000 (max. 500000)
