@@ -111,7 +111,7 @@ drop if variante == 6
 
 tostring dni, replace force
 
-merge 1:m dni using "${datos}\output\base_noticovid"
+merge 1:m dni using "${datos}\output\base_noticovid_2022"
 
 keep if _merge == 3
 
@@ -143,7 +143,7 @@ drop if variante == 6
 
 tostring dni, replace force
 
-merge 1:m dni using "${datos}\output\base_noticovid"
+merge 1:m dni using "${datos}\output\base_noticovid_2022"
 
 keep if _merge == 3
 
@@ -173,7 +173,7 @@ drop if variante == 6
 
 tostring dni, replace force
 
-merge 1:m dni using "${datos}\output\base_noticovid"
+merge 1:m dni using "${datos}\output\base_noticovid_2022"
 
 keep if _merge == 3
 
@@ -204,7 +204,7 @@ drop if variante == 6
 
 tostring dni, replace force
 
-merge 1:m dni using "${datos}\output\base_noticovid"
+merge 1:m dni using "${datos}\output\base_noticovid_2022"
 
 keep if _merge == 3
 
@@ -235,7 +235,7 @@ drop if variante == 6
 
 tostring dni, replace force
 
-merge 1:m dni using "${datos}\output\base_noticovid"
+merge 1:m dni using "${datos}\output\base_noticovid_2022"
 
 keep if _merge == 3
 
