@@ -142,7 +142,7 @@ gen incidencia_7 = positivo_7/81263*10000
 gen incidencia_8 = positivo_8/42520*10000
 gen incidencia_9 = positivo_9/19982*10000
 ********************************************************************************
-
+/*
 * Mortalidad 2021
 twoway (line mortalidad_1 semana_2, lcolor("$mycolor1") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
 (line mortalidad_2 semana_2, lcolor("$mycolor2") lwidth(medthick)) ///
@@ -166,7 +166,7 @@ if semana_2 >=1, ///
 * Guardar
 gr export "figuras\mortalidad_edad_2021_2022.png", as(png) replace
 gr export "figuras\mortalidad_edad_2021_2022.pdf", as(pdf) replace
-
+*/
 
 /*
 * Mortalidad 2022
@@ -189,7 +189,7 @@ if semana_3 >=1, ///
 	legend(label(1 "0 a 9 años") label(2 "10 a 19 años") label(3 "20 a 29 años")  label(4 "30 a 39 años")  label(5 "40 a 49 años") label(6 "50 a 59 años")  label(7 "60 a 69 años")  label(8 "70 a 79 años") label(9 "Más de 80 años") size(*0.75) ring(0) position(1) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(gedad_2022, replace)
 */
 **************************************2021**************************************
-
+/*
 * Más de 80  
 twoway (line mortalidad_9 semana_2, lcolor("$mycolor5") lwidth(medthick) lpattern(dash_dot) xline(17, lcolor("$mycolor5") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
 if semana_2 >=1, ///
@@ -277,6 +277,48 @@ if semana_2 >=1, ///
 
 gr export "figuras\mortalidad_edad_30.png", as(png) replace
 gr export "figuras\mortalidad_edad_30.pdf", as(pdf) replace
+
+* Grupo de edad: 20 a 29 años
+twoway (line mortalidad_3 semana_2, lcolor("$mycolor4") lwidth(medthick) xline(36, lcolor("$mycolor4") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
+if semana_2 >=1, ///
+	ylabel(0(.1)1, labsize(*0.6)) ///
+	tlabel(1(2)$semana) ///
+	xtitle("Semana Epidemiológica", size(*0.7)) ///
+	ytitle("Mortalidad (defunciones/población*10,000)") ///
+	graphregion(color(white)) ///
+	title("Mortalidad en población entre 20 y 29 años, 2021 - 2022", box bexpand bcolor("$mycolor3") color(white)) ///
+	legend(label(1 "0 a 9 años") label(1 "0 a 9 años") size(*0.75) ring(0) position(11) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(gedad_20, replace)
+
+gr export "figuras\mortalidad_edad_20.png", as(png) replace
+gr export "figuras\mortalidad_edad_20.pdf", as(pdf) replace
+
+* Grupo de edad: 10 a 19 años
+twoway (line mortalidad_2 semana_2, lcolor("$mycolor4") lwidth(medthick) xline(36, lcolor("$mycolor4") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
+if semana_2 >=1, ///
+	ylabel(0(.1)1, labsize(*0.6)) ///
+	tlabel(1(2)$semana) ///
+	xtitle("Semana Epidemiológica", size(*0.7)) ///
+	ytitle("Mortalidad (defunciones/población*10,000)") ///
+	graphregion(color(white)) ///
+	title("Mortalidad en población entre 10 y 19 años, 2021 - 2022", box bexpand bcolor("$mycolor3") color(white)) ///
+	legend(label(1 "0 a 9 años") label(1 "0 a 9 años") size(*0.75) ring(0) position(11) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(gedad_10, replace)
+
+gr export "figuras\mortalidad_edad_10.png", as(png) replace
+gr export "figuras\mortalidad_edad_10.pdf", as(pdf) replace
+
+* Grupo de edad: 0 a 9 años
+twoway (line mortalidad_1 semana_2, lcolor("$mycolor4") lwidth(medthick) xline(36, lcolor("$mycolor4") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
+if semana_2 >=1, ///
+	ylabel(0(.1)1, labsize(*0.6)) ///
+	tlabel(1(2)$semana) ///
+	xtitle("Semana Epidemiológica", size(*0.7)) ///
+	ytitle("Mortalidad (defunciones/población*10,000)") ///
+	graphregion(color(white)) ///
+	title("Mortalidad en población entre 0 y 09 años, 2021 - 2022", box bexpand bcolor("$mycolor3") color(white)) ///
+	legend(label(1 "0 a 9 años") label(1 "0 a 9 años") size(*0.75) ring(0) position(11) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(gedad_0, replace)
+
+gr export "figuras\mortalidad_edad_0.png", as(png) replace
+gr export "figuras\mortalidad_edad_0.pdf", as(pdf) replace
 
 /*
 **************************************2022**************************************

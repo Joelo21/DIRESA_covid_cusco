@@ -1,6 +1,6 @@
 *
 * Cargar la base de datos del 2020 y 2021
-import excel "${datos}\raw\base_sinadef_2020_2021_2022_total.xlsx", sheet(DATA) firstrow clear
+import excel "${datos}\raw\base_sinadef_2020_2021_2022_total.xlsx", sheet(Data1) firstrow clear
 
 * Borrar los registros que se anularon
 drop if ESTADO == "ANULACIÓN SOLICITADA" | ESTADO == "ANULADO"

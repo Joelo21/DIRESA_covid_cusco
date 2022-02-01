@@ -74,8 +74,8 @@ if semana >=11 & semana <=53, ///
 * 2021
 twoway (line positividad_pcr_`i' semana_2, lcolor("$mycolor5")  lpattern(shortdash)) ///
 (line positividad_ag_`i' semana_2,  lcolor("$mycolor3")  lpattern(shortdash)) ///
-if semana_2 >=1 & semana_2<=55, ///
-	tlabel(1(4)54) ///
+if semana_2 >=1 & semana_2<=$semana, ///
+	tlabel(1(4)$semana) ///
 	ylabel(0(20)100) ///
 	xtitle("Semanas Epidemológicas", size(*0.7)) ///
 	ytitle("Tasa de Positividad") ///
@@ -102,9 +102,9 @@ gr export "figuras\positividad_20_21_`i'.pdf", as(pdf) name("positividad_20_21_`
 /*
 twoway (scatter positivo_prueba_pcr_`i' semana_2, msize(vsmall) mcolor("$mycolor5") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor5")) ///
 (scatter positivo_prueba_ag_`i' semana_2, msize(vsmall) mcolor("$mycolor3") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor3") ) ///
-if semana_2>=1 & semana_2<=54, ///
+if semana_2>=1 & semana_2<=$semana, ///
 	ylabel(0(50)600, labsize(*0.6)) ///
-	tlabel(1(4)54) ///
+	tlabel(1(4)$semana) ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("") ///
 	graphregion(color(white)) ///
@@ -123,9 +123,9 @@ if semana_2>=1 & semana_2<=54, ///
 forvalues i=7/7 {
 twoway (scatter positivo_prueba_pcr_`i' semana_2, msize(vsmall) mcolor("$mycolor5") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor5")) ///
 (scatter positivo_prueba_ag_`i' semana_2, msize(vsmall) mcolor("$mycolor3") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor3") ) ///
-if semana_2>=1 & semana_2<=54, ///
+if semana_2>=1 & semana_2<=$semana, ///
 	ylabel(0(1000)10000, labsize(*0.6)) ///
-	tlabel(1(4)54) ///
+	tlabel(1(4)$semana) ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("") ///
 	graphregion(color(white)) ///
@@ -141,9 +141,9 @@ if semana_2>=1 & semana_2<=54, ///
 forvalues i=9/9 {
 twoway (scatter positivo_prueba_pcr_`i' semana_2, msize(vsmall) mcolor("$mycolor5") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor5")) ///
 (scatter positivo_prueba_ag_`i' semana_2, msize(vsmall) mcolor("$mycolor3") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor3") ) ///
-if semana_2>=1 & semana_2<=54, ///
+if semana_2>=1 & semana_2<=$semana, ///
 	ylabel(0(500)3000, labsize(*0.6)) ///
-	tlabel(1(4)54) ///
+	tlabel(1(4)$semana) ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("") ///
 	graphregion(color(white)) ///
@@ -154,4 +154,5 @@ if semana_2>=1 & semana_2<=54, ///
 	name(sinto_prueba20_21_`i', replace)
 	gr export "figuras\sinto_prueba20_21_`i'.png", as(png) replace	
 */
+
 }
