@@ -277,12 +277,13 @@ if semana_2 >=1, ///
 
 gr export "figuras\mortalidad_edad_30.png", as(png) replace
 gr export "figuras\mortalidad_edad_30.pdf", as(pdf) replace
-
+*/
+/*
 * Grupo de edad: 20 a 29 años
 twoway (line mortalidad_3 semana_2, lcolor("$mycolor4") lwidth(medthick) xline(36, lcolor("$mycolor4") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
 if semana_2 >=1, ///
-	ylabel(0(.1)1, labsize(*0.6)) ///
-	tlabel(1(2)$semana) ///
+	ylabel(0(.1).5, labsize(*0.6)) ///
+	tlabel(1(2)56) ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
 	ytitle("Mortalidad (defunciones/población*10,000)") ///
 	graphregion(color(white)) ///
@@ -295,8 +296,8 @@ gr export "figuras\mortalidad_edad_20.pdf", as(pdf) replace
 * Grupo de edad: 10 a 19 años
 twoway (line mortalidad_2 semana_2, lcolor("$mycolor4") lwidth(medthick) xline(36, lcolor("$mycolor4") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
 if semana_2 >=1, ///
-	ylabel(0(.1)1, labsize(*0.6)) ///
-	tlabel(1(2)$semana) ///
+	ylabel(0(.1).5, labsize(*0.6)) ///
+	tlabel(1(2)56) ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
 	ytitle("Mortalidad (defunciones/población*10,000)") ///
 	graphregion(color(white)) ///
@@ -309,7 +310,7 @@ gr export "figuras\mortalidad_edad_10.pdf", as(pdf) replace
 * Grupo de edad: 0 a 9 años
 twoway (line mortalidad_1 semana_2, lcolor("$mycolor4") lwidth(medthick) xline(36, lcolor("$mycolor4") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
 if semana_2 >=1, ///
-	ylabel(0(.1)1, labsize(*0.6)) ///
+	ylabel(0(.1).5, labsize(*0.6)) ///
 	tlabel(1(2)$semana) ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
 	ytitle("Mortalidad (defunciones/población*10,000)") ///
@@ -319,7 +320,7 @@ if semana_2 >=1, ///
 
 gr export "figuras\mortalidad_edad_0.png", as(png) replace
 gr export "figuras\mortalidad_edad_0.pdf", as(pdf) replace
-
+*/
 /*
 **************************************2022**************************************
 * Más de 80  

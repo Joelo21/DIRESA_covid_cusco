@@ -113,8 +113,11 @@ restore
 * Datos del 2021
 preserve
 collapse (sum) d20_*, by(semana_2)
-save "${datos}\temporal\defuncion_semanal_provincias_2021", replace
 rename semana_2 semana
+forvalues i=1/13{
+rename d20_`i' d21_`i'
+}
+save "${datos}\temporal\defuncion_semanal_provincias_2021", replace
 restore
 
 *DATOS DEL 2022
@@ -132,7 +135,7 @@ restore
 
 
 use "${datos}\temporal\defuncion_semanal_provincias_2020", clear
-*merge 1:1 semana using "${datos}\temporal\defuncion_semanal_provincias_2021", nogen
+merge 1:1 semana using "${datos}\temporal\defuncion_semanal_provincias_2021", nogen
 merge 1:1 semana using "${datos}\temporal\defuncion_semanal_provincias_2022", nogen
 drop if semana > 55 | semana == 0
 

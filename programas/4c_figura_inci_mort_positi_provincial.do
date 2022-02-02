@@ -10,7 +10,6 @@
 use "${datos}/output/serie_semanal_provincias.dta", clear
 
 forvalues i=1/13 {
-
 ********************************************************************************
 * Incidencia y Mortalidad por Provincias
 ********************************************************************************
@@ -117,7 +116,10 @@ if semana_2>=1 & semana_2<=$semana, ///
 	*gr export "figuras\sinto_prueba20_21_`i'", as(pdf) name ("sinto_prueba20_21_`i'") replace
 
 }
+*/
 
+
+/*
 
 * 2021 CUSCO
 forvalues i=7/7 {
