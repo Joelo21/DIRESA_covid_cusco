@@ -100,12 +100,14 @@ gen total_defuncion_`i' = sum(defuncion_`i')
 
 ********************************************************************************
 *Casos Positivos Niños
-*0 a 9 años
-twoway (line positivo_1 semana_2, lcolor("$mycolor3") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
+*2021 - 0 a 9 años
+twoway (line positivo_1 semana_2, lcolor("$mycolor1") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
+(line defuncion_1 semana_2, lcolor("$mycolor3") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
 (scatter positivo_1 semana_2, msymbol(none) mlabel(positivo_1) mlabcolor("$mycolor6") mlabsize(*0.9) mlabposition(12)) ///
-if semana_2 >=1, ///
-	ylabel(0(50)300, labsize(*0.6)) ///
-	tlabel(1(3)$semana) ///
+(scatter defuncion_1 semana_2, msymbol(none) mlabel(defuncion_1) mlabcolor("$mycolor3") mlabsize(*0.9) mlabposition(12)) ///
+if semana_2 >=1 & semana_2 <=52, ///
+	ylabel(0(10)50, labsize(*0.6)) ///
+	tlabel(1(3)52) ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
 	ytitle("Casos Semanales") ///
 	graphregion(fcolor(white)) ///
@@ -113,13 +115,36 @@ if semana_2 >=1, ///
 	bgcolor(white) ///
 	legend(off) ///
 	name(positivo_1, replace) ///
-	title("2021 - 2022", box bexpand bcolor("$mycolor3") color(white))
+	title("2021", box bexpand bcolor("$mycolor3") color(white))
+	
+	 gr export "C:\Users\PC\Desktop\BASE NIÑOS\figuras\pos_def_0_9años_2021.png", as (png) replace
+	 
+*2022 - 0 a 9 años
+twoway (line positivo_1 semana_3, lcolor("$mycolor1") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
+(line defuncion_1 semana_3, lcolor("$mycolor3") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
+(scatter positivo_1 semana_3, msymbol(none) mlabel(positivo_1) mlabcolor("$mycolor6") mlabsize(*0.9) mlabposition(12)) ///
+(scatter defuncion_1 semana_3, msymbol(none) mlabel(defuncion_1) mlabcolor("$mycolor3") mlabsize(*0.9) mlabposition(12)) ///
+if semana_3 >=1, ///
+	ylabel(0(25)350, labsize(*0.6)) ///
+	tlabel(1(3)52) ///
+	xtitle("Semana Epidemiológica", size(*0.7)) ///
+	ytitle("Casos Semanales") ///
+	graphregion(fcolor(white)) ///
+	plotregion(fcolor(white) lcolor(white)) ///
+	bgcolor(white) ///
+	legend(off) ///
+	name(positivo_1_2, replace) ///
+	title("2022", box bexpand bcolor("$mycolor3") color(white))
 
-*10 a 19 años
-twoway (line positivo_2 semana_2, lcolor("$mycolor3") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
+	 gr export "C:\Users\PC\Desktop\BASE NIÑOS\figuras\pos_def_0_9años_2022.png", as (png) replace
+
+*2021 - 10 a 19 años
+twoway (line positivo_2 semana_2, lcolor("$mycolor1") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
+(line defuncion_2 semana_2, lcolor("$mycolor3") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
 (scatter positivo_2 semana_2, msymbol(none) mlabel(positivo_2) mlabcolor("$mycolor6") mlabsize(*0.9) mlabposition(12)) ///
-if semana_2 >=1, ///
-	ylabel(0(200)1500, labsize(*0.6)) ///
+(scatter defuncion_2 semana_2, msymbol(none) mlabel(defuncion_2) mlabcolor("$mycolor3") mlabsize(*0.9) mlabposition(12)) ///
+if semana_2 >=1 & semana_2 <=52, ///
+	ylabel(0(150)1350, labsize(*0.6)) ///
 	tlabel(1(3)$semana) ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
 	ytitle("Casos Semanales") ///
@@ -127,13 +152,36 @@ if semana_2 >=1, ///
 	plotregion(fcolor(white) lcolor(white)) ///
 	bgcolor(white) ///
 	legend(off) ///
-	name(positivo_2, replace) ///
-	title("2021 - 2022", box bexpand bcolor("$mycolor3") color(white))
+	name(positivo_2_1, replace) ///
+	title("2021", box bexpand bcolor("$mycolor3") color(white))
+
+	gr export "C:\Users\PC\Desktop\BASE NIÑOS\figuras\pos_def_10_19años_2021.png", as (png) replace
+	
+*2022 - 10 a 19 años
+twoway (line positivo_2 semana_3, lcolor("$mycolor1") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
+(line defuncion_2 semana_3, lcolor("$mycolor3") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
+(scatter positivo_2 semana_3, msymbol(none) mlabel(positivo_2) mlabcolor("$mycolor6") mlabsize(*0.9) mlabposition(12)) ///
+(scatter defuncion_2 semana_3, msymbol(none) mlabel(defuncion_2) mlabcolor("$mycolor3") mlabsize(*0.9) mlabposition(12)) ///
+if semana_3 >=1, ///
+	ylabel(0(150)1200, labsize(*0.6)) ///
+	tlabel(1(3)52) ///
+	xtitle("Semana Epidemiológica", size(*0.7)) ///
+	ytitle("Casos Semanales") ///
+	graphregion(fcolor(white)) ///
+	plotregion(fcolor(white) lcolor(white)) ///
+	bgcolor(white) ///
+	legend(off) ///
+	name(positivo_2_2, replace) ///
+	title("2022", box bexpand bcolor("$mycolor3") color(white))
+
+	gr export "C:\Users\PC\Desktop\BASE NIÑOS\figuras\pos_def_10_19años_2022.png", as (png) replace
+	
+/*
 *Defunciones Niños
 *0 a 9 años
 twoway (line defuncion_1 semana_2, lcolor("$mycolor3") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
 (scatter defuncion_1 semana_2, msymbol(none) mlabel(defuncion_1) mlabcolor("$mycolor6") mlabsize(*0.9) mlabposition(12)) ///
-if semana_2 >=1, ///
+if semana_2 >=1 & semana_2 <=52, ///
 	ylabel(0(1)5, labsize(*0.6)) ///
 	tlabel(1(3)$semana) ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
@@ -159,7 +207,7 @@ if semana_2 >=1, ///
 	legend(off) ///
 	name(defuncion_2, replace) ///
 	title("2021 - 2022", box bexpand bcolor("$mycolor3") color(white))
-
+*/
 ********************************************************************************
 /*
 * Mortalidad acumulada
