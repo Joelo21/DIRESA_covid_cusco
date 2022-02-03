@@ -11,9 +11,9 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
 	****CASA******
-	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	****TRABAJO****
 	*global path "E:\DIRESA\GERESA_covid_cusco"
 	
@@ -21,9 +21,9 @@ set more off
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	global datos "G:\Mi unidad\Datos"
+	*global datos "G:\Mi unidad\Datos"
 	****CASA******
-	*global datos "E:\Mi unidad\Datos"
+	global datos "E:\Mi unidad\Datos"
 
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -33,8 +33,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 29jan2022
-global semana 56
+global fecha 02feb2022
+global semana 57
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -76,7 +76,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-/*
+
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -112,15 +112,15 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	do "programas/2c_panel_diario_provincias"
 	*do "programas/2c_panel_diario_provincias_2022"
-*/
 
-/*
+
+
 * 3. Figuras para la "Sala Situacional COVID-19" diaria 
 	*do "programas/3a_figura_etapa_vida"
-	do "programas/3a_figura_etapa_vida_2022"
+	*do "programas/3a_figura_etapa_vida_2022"
 
 	*do "programas/3b_figura_inci_morta_diario"
-	do "programas/3b_figura_inci_morta_diario_2022" 
+	*do "programas/3b_figura_inci_morta_diario_2022" 
 
 	do "programas/3c_figura_positividad"
 	*do "programas/3c_figura_positividad_2022"
@@ -128,8 +128,8 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	**do "programas/3d_figura_promedio_casos_def"
 	*do "programas/3d_figura_promedio_casos_def_2022"
 
-	**do "programas/3e_sintomaticos"
-*/
+	do "programas/3e_sintomaticos"
+
 
 /*
 	* Para la actualización del Dashboard COVID-19 en la página web

@@ -97,6 +97,70 @@ gen total_positivo_`i' = sum(positivo_`i')
 gen total_defuncion_`i' = sum(defuncion_`i')
 }
 */
+
+********************************************************************************
+*Casos Positivos Niños
+*0 a 9 años
+twoway (line positivo_1 semana_2, lcolor("$mycolor3") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
+(scatter positivo_1 semana_2, msymbol(none) mlabel(positivo_1) mlabcolor("$mycolor6") mlabsize(*0.9) mlabposition(12)) ///
+if semana_2 >=1, ///
+	ylabel(0(50)300, labsize(*0.6)) ///
+	tlabel(1(3)$semana) ///
+	xtitle("Semana Epidemiológica", size(*0.7)) ///
+	ytitle("Casos Semanales") ///
+	graphregion(fcolor(white)) ///
+	plotregion(fcolor(white) lcolor(white)) ///
+	bgcolor(white) ///
+	legend(off) ///
+	name(positivo_1, replace) ///
+	title("2021 - 2022", box bexpand bcolor("$mycolor3") color(white))
+
+*10 a 19 años
+twoway (line positivo_2 semana_2, lcolor("$mycolor3") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
+(scatter positivo_2 semana_2, msymbol(none) mlabel(positivo_2) mlabcolor("$mycolor6") mlabsize(*0.9) mlabposition(12)) ///
+if semana_2 >=1, ///
+	ylabel(0(200)1500, labsize(*0.6)) ///
+	tlabel(1(3)$semana) ///
+	xtitle("Semana Epidemiológica", size(*0.7)) ///
+	ytitle("Casos Semanales") ///
+	graphregion(fcolor(white)) ///
+	plotregion(fcolor(white) lcolor(white)) ///
+	bgcolor(white) ///
+	legend(off) ///
+	name(positivo_2, replace) ///
+	title("2021 - 2022", box bexpand bcolor("$mycolor3") color(white))
+*Defunciones Niños
+*0 a 9 años
+twoway (line defuncion_1 semana_2, lcolor("$mycolor3") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
+(scatter defuncion_1 semana_2, msymbol(none) mlabel(defuncion_1) mlabcolor("$mycolor6") mlabsize(*0.9) mlabposition(12)) ///
+if semana_2 >=1, ///
+	ylabel(0(1)5, labsize(*0.6)) ///
+	tlabel(1(3)$semana) ///
+	xtitle("Semana Epidemiológica", size(*0.7)) ///
+	ytitle("Casos Semanales") ///
+	graphregion(fcolor(white)) ///
+	plotregion(fcolor(white) lcolor(white)) ///
+	bgcolor(white) ///
+	legend(off) ///
+	name(defuncion_1, replace) ///
+	title("2021 - 2022", box bexpand bcolor("$mycolor3") color(white))
+
+*10 a 19 años
+twoway (line defuncion_2 semana_2, lcolor("$mycolor3") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
+(scatter defuncion_2 semana_2, msymbol(none) mlabel(defuncion_2) mlabcolor("$mycolor6") mlabsize(*0.9) mlabposition(12)) ///
+if semana_2 >=1, ///
+	ylabel(0(1)5, labsize(*0.6)) ///
+	tlabel(1(3)$semana) ///
+	xtitle("Semana Epidemiológica", size(*0.7)) ///
+	ytitle("Casos Semanales") ///
+	graphregion(fcolor(white)) ///
+	plotregion(fcolor(white) lcolor(white)) ///
+	bgcolor(white) ///
+	legend(off) ///
+	name(defuncion_2, replace) ///
+	title("2021 - 2022", box bexpand bcolor("$mycolor3") color(white))
+
+********************************************************************************
 /*
 * Mortalidad acumulada
 gen mortalidad_1 = total_defuncion_1/239193*10000
