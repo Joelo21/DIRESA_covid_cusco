@@ -1,3 +1,4 @@
+
 	*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------%
 * Programa:		  Programa para analizar toda la información sobre COVID-19 en la Región Cusco
 * Creado el:	  27 de octubre del 2021
@@ -11,9 +12,9 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	*global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
 	****CASA******
-	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	****TRABAJO****
 	*global path "E:\DIRESA\GERESA_covid_cusco"
 	
@@ -21,9 +22,9 @@ set more off
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	*global datos "G:\Mi unidad\Datos"
+	global datos "G:\Mi unidad\Datos"
 	****CASA******
-	global datos "E:\Mi unidad\Datos"
+	*global datos "E:\Mi unidad\Datos"
 
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -33,8 +34,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 07feb2022
-global semana 57
+global fecha 08feb2022
+global semana 58
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -98,11 +99,10 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/1i_base_unir"
 	*do "programas/1i_base_unir_2022"
 
-	**do "programas/1j_datos_mapa_calor" // semanal
+	*do "programas/1j_datos_mapa_calor" // semanal
 	*do "programas/1j_datos_mapa_calor_2022"
-
-
-
+*/
+/*
 * 2. Generar datos a nivel regional y provincial
 	do "programas/2a_series_diarias_region"
 	*do "programas/2a_series_diarias_region_2022"
@@ -112,7 +112,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	do "programas/2c_panel_diario_provincias"
 	*do "programas/2c_panel_diario_provincias_2022"
-
+*/
 
 
 * 3. Figuras para la "Sala Situacional COVID-19" diaria 
@@ -122,26 +122,25 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/3b_figura_inci_morta_diario"
 	*do "programas/3b_figura_inci_morta_diario_2022" 
 
-	do "programas/3c_figura_positividad"
+	*do "programas/3c_figura_positividad"
 	*do "programas/3c_figura_positividad_2022"
 
 	**do "programas/3d_figura_promedio_casos_def"
 	*do "programas/3d_figura_promedio_casos_def_2022"
 
-	do "programas/3e_sintomaticos"
-*/
+	*do "programas/3e_sintomaticos"
 
-/*
+
 	* Para la actualización del Dashboard COVID-19 en la página web
-	**do "programas/1k_datos_dashboard"
+	*do "programas/1k_datos_dashboard"
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
-	 do "C:\Users\PC\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
+	do "C:\Users\PC\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
 	* Ocupación de camas (semanalmente)
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
-	 do "C:\Users\PC\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
-*/
+	do "C:\Users\PC\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
+
 
 /*
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
@@ -179,7 +178,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\5d_figura_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
 */
-
+/*
 * 6. Vacunados
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"
