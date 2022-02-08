@@ -97,12 +97,12 @@ replace semana_2 = . if semana_2 < 0
 
 *Generar las semanas epidemiologicas del 2022
 gen semana_3 =.
-replace semana_3 = semana_2 - 53
+replace semana_3 = semana_2 - 52
 replace semana_3 = . if semana_3 < 0
 
 * Máximo número de semanas del 2020, 53
 replace semana = . if semana > 53
-replace semana_2 = . if semana_2 > 53
+replace semana_2 = . if semana_2 > 52
 
 * Datos del 2020
 preserve

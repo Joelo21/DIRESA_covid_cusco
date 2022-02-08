@@ -193,9 +193,8 @@ twoway ///
 (line casos_max_2 fecha, lcolor("$mycolor3") lpattern(shortdash) lwidth(mthick)) ///
 (line casos_max_3 fecha, lcolor("$mycolor6") lpattern(shortdash) lwidth(mthick)) ///
 (scatter casos_actual fecha if fecha == fecha_casos_actual, mlabel(casos_actual) msize(vsmall) mcolor("$mycolor7") mlabcolor("$mycolor7")) ///
-/*
 (scatter defunciones_actual fecha if fecha == fecha_defunciones_actual, mlabel(defunciones_actual) msize(vsmall) mcolor("$mycolor5") mlabcolor("$mycolor5")) ///
-*/ ///
+ ///
 if fecha>=d(20mar2020) & fecha <=d($fecha) ///
 	,ylabel(0(200)2500, labsize(*0.6)) ///
 	tlabel(20mar2020(200)$fecha) ///

@@ -99,6 +99,7 @@ gen total_defuncion_`i' = sum(defuncion_`i')
 */
 
 ********************************************************************************
+/*
 *Casos Positivos Niños
 *2021 - 0 a 9 años
 twoway (line positivo_1 semana_2, lcolor("$mycolor1") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
@@ -117,8 +118,9 @@ if semana_2 >=1 & semana_2 <=52, ///
 	name(positivo_1, replace) ///
 	title("2021", box bexpand bcolor("$mycolor3") color(white))
 	
-	 gr export "C:\Users\PC\Desktop\BASE NIÑOS\figuras\pos_def_0_9años_2021.png", as (png) replace
-	 
+	gr export "figuras\pos_def_0_9años_2021.png", as (png) replace
+/* gr export "C:\Users\PC\Desktop\BASE NIÑOS\figuras\pos_def_0_9años_2021.png", as (png) replace
+*/ 
 *2022 - 0 a 9 años
 twoway (line positivo_1 semana_3, lcolor("$mycolor1") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
 (line defuncion_1 semana_3, lcolor("$mycolor3") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
@@ -136,8 +138,9 @@ if semana_3 >=1, ///
 	name(positivo_1_2, replace) ///
 	title("2022", box bexpand bcolor("$mycolor3") color(white))
 
-	 gr export "C:\Users\PC\Desktop\BASE NIÑOS\figuras\pos_def_0_9años_2022.png", as (png) replace
-
+	gr export "figuras\pos_def_0_9años_2022.png", as (png) replace
+	/* gr export "C:\Users\PC\Desktop\BASE NIÑOS\figuras\pos_def_0_9años_2022.png", as (png) replace
+	*/
 *2021 - 10 a 19 años
 twoway (line positivo_2 semana_2, lcolor("$mycolor1") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
 (line defuncion_2 semana_2, lcolor("$mycolor3") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
@@ -155,8 +158,9 @@ if semana_2 >=1 & semana_2 <=52, ///
 	name(positivo_2_1, replace) ///
 	title("2021", box bexpand bcolor("$mycolor3") color(white))
 
-	gr export "C:\Users\PC\Desktop\BASE NIÑOS\figuras\pos_def_10_19años_2021.png", as (png) replace
-	
+	gr export "figuras\pos_def_10_19años_2021.png", replace
+	/*gr export "C:\Users\PC\Desktop\BASE NIÑOS\figuras\pos_def_10_19años_2021.png", as (png) replace
+	*/
 *2022 - 10 a 19 años
 twoway (line positivo_2 semana_3, lcolor("$mycolor1") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
 (line defuncion_2 semana_3, lcolor("$mycolor3") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
@@ -174,9 +178,10 @@ if semana_3 >=1, ///
 	name(positivo_2_2, replace) ///
 	title("2022", box bexpand bcolor("$mycolor3") color(white))
 
-	gr export "C:\Users\PC\Desktop\BASE NIÑOS\figuras\pos_def_10_19años_2022.png", as (png) replace
-	
-/*
+	gr export "figuras\pos_def_10_19años_2022.png", as (png) replace
+/*	gr export "C:\Users\PC\Desktop\BASE NIÑOS\figuras\pos_def_10_19años_2022.png", as (png) replace
+	*/
+
 *Defunciones Niños
 *0 a 9 años
 twoway (line defuncion_1 semana_2, lcolor("$mycolor3") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
@@ -192,6 +197,7 @@ if semana_2 >=1 & semana_2 <=52, ///
 	legend(off) ///
 	name(defuncion_1, replace) ///
 	title("2021 - 2022", box bexpand bcolor("$mycolor3") color(white))
+
 
 *10 a 19 años
 twoway (line defuncion_2 semana_2, lcolor("$mycolor3") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(vthin))) ///
@@ -390,49 +396,8 @@ if semana_2 >=1, ///
 gr export "figuras\mortalidad_edad_30.png", as(png) replace
 gr export "figuras\mortalidad_edad_30.pdf", as(pdf) replace
 */
-/*
-* Grupo de edad: 20 a 29 años
-twoway (line mortalidad_3 semana_2, lcolor("$mycolor4") lwidth(medthick) xline(36, lcolor("$mycolor4") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
-if semana_2 >=1, ///
-	ylabel(0(.1).5, labsize(*0.6)) ///
-	tlabel(1(2)56) ///
-	xtitle("Semana Epidemiológica", size(*0.7)) ///
-	ytitle("Mortalidad (defunciones/población*10,000)") ///
-	graphregion(color(white)) ///
-	title("Mortalidad en población entre 20 y 29 años, 2021 - 2022", box bexpand bcolor("$mycolor3") color(white)) ///
-	legend(label(1 "0 a 9 años") label(1 "0 a 9 años") size(*0.75) ring(0) position(11) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(gedad_20, replace)
 
-gr export "figuras\mortalidad_edad_20.png", as(png) replace
-gr export "figuras\mortalidad_edad_20.pdf", as(pdf) replace
 
-* Grupo de edad: 10 a 19 años
-twoway (line mortalidad_2 semana_2, lcolor("$mycolor4") lwidth(medthick) xline(36, lcolor("$mycolor4") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
-if semana_2 >=1, ///
-	ylabel(0(.1).5, labsize(*0.6)) ///
-	tlabel(1(2)56) ///
-	xtitle("Semana Epidemiológica", size(*0.7)) ///
-	ytitle("Mortalidad (defunciones/población*10,000)") ///
-	graphregion(color(white)) ///
-	title("Mortalidad en población entre 10 y 19 años, 2021 - 2022", box bexpand bcolor("$mycolor3") color(white)) ///
-	legend(label(1 "0 a 9 años") label(1 "0 a 9 años") size(*0.75) ring(0) position(11) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(gedad_10, replace)
-
-gr export "figuras\mortalidad_edad_10.png", as(png) replace
-gr export "figuras\mortalidad_edad_10.pdf", as(pdf) replace
-
-* Grupo de edad: 0 a 9 años
-twoway (line mortalidad_1 semana_2, lcolor("$mycolor4") lwidth(medthick) xline(36, lcolor("$mycolor4") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
-if semana_2 >=1, ///
-	ylabel(0(.1).5, labsize(*0.6)) ///
-	tlabel(1(2)$semana) ///
-	xtitle("Semana Epidemiológica", size(*0.7)) ///
-	ytitle("Mortalidad (defunciones/población*10,000)") ///
-	graphregion(color(white)) ///
-	title("Mortalidad en población entre 0 y 09 años, 2021 - 2022", box bexpand bcolor("$mycolor3") color(white)) ///
-	legend(label(1 "0 a 9 años") label(1 "0 a 9 años") size(*0.75) ring(0) position(11) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(gedad_0, replace)
-
-gr export "figuras\mortalidad_edad_0.png", as(png) replace
-gr export "figuras\mortalidad_edad_0.pdf", as(pdf) replace
-*/
 /*
 **************************************2022**************************************
 * Más de 80  
@@ -519,4 +484,47 @@ if semana_3 >=1, ///
 
 	*gr export "figuras\mortalidad_edad_30_2022.png", as(png) replace
 	*gr export "figuras\mortalidad_edad_30_2022.pdf", as(pdf) replace
+*/
+/*
+* Grupo de edad: 20 a 29 años
+twoway (line mortalidad_3 semana_2, lcolor("$mycolor4") lwidth(medthick) xline(36, lcolor("$mycolor4") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
+if semana_2 >=1, ///
+	ylabel(0(.1).5, labsize(*0.6)) ///
+	tlabel(1(2)$semana) ///
+	xtitle("Semana Epidemiológica", size(*0.7)) ///
+	ytitle("Mortalidad (defunciones/población*10,000)") ///
+	graphregion(color(white)) ///
+	title("Mortalidad en población entre 20 y 29 años, 2021 - 2022", box bexpand bcolor("$mycolor3") color(white)) ///
+	legend(label(1 "0 a 9 años") label(1 "0 a 9 años") size(*0.75) ring(0) position(11) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(gedad_20, replace)
+
+gr export "figuras\mortalidad_edad_20.png", as(png) replace
+gr export "figuras\mortalidad_edad_20.pdf", as(pdf) replace
+
+* Grupo de edad: 10 a 19 años
+twoway (line mortalidad_2 semana_2, lcolor("$mycolor4") lwidth(medthick) xline(36, lcolor("$mycolor4") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
+if semana_2 >=1, ///
+	ylabel(0(.1).5, labsize(*0.6)) ///
+	tlabel(1(2)$semana) ///
+	xtitle("Semana Epidemiológica", size(*0.7)) ///
+	ytitle("Mortalidad (defunciones/población*10,000)") ///
+	graphregion(color(white)) ///
+	title("Mortalidad en población entre 10 y 19 años, 2021 - 2022", box bexpand bcolor("$mycolor3") color(white)) ///
+	legend(label(1 "0 a 9 años") label(1 "0 a 9 años") size(*0.75) ring(0) position(11) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(gedad_10, replace)
+
+gr export "figuras\mortalidad_edad_10.png", as(png) replace
+gr export "figuras\mortalidad_edad_10.pdf", as(pdf) replace
+
+* Grupo de edad: 0 a 9 años
+twoway (line mortalidad_1 semana_2, lcolor("$mycolor4") lwidth(medthick) xline(36, lcolor("$mycolor4") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
+if semana_2 >=1, ///
+	ylabel(0(.1).5, labsize(*0.6)) ///
+	tlabel(1(2)$semana) ///
+	xtitle("Semana Epidemiológica", size(*0.7)) ///
+	ytitle("Mortalidad (defunciones/población*10,000)") ///
+	graphregion(color(white)) ///
+	title("Mortalidad en población entre 0 y 09 años, 2021 - 2022", box bexpand bcolor("$mycolor3") color(white)) ///
+	legend(label(1 "0 a 9 años") label(1 "0 a 9 años") size(*0.75) ring(0) position(11) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(gedad_0, replace)
+
+gr export "figuras\mortalidad_edad_0.png", as(png) replace
+gr export "figuras\mortalidad_edad_0.pdf", as(pdf) replace
 */

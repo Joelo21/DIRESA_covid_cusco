@@ -11,9 +11,9 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
 	****CASA******
-	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	****TRABAJO****
 	*global path "E:\DIRESA\GERESA_covid_cusco"
 	
@@ -21,9 +21,9 @@ set more off
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	global datos "G:\Mi unidad\Datos"
+	*global datos "G:\Mi unidad\Datos"
 	****CASA******
-	*global datos "E:\Mi unidad\Datos"
+	global datos "E:\Mi unidad\Datos"
 
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -33,7 +33,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 03feb2022
+global fecha 07feb2022
 global semana 57
 
 * Tiempo de corrida: alrededor de 7 minutos
@@ -76,7 +76,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-
+/*
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -85,7 +85,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/1b_base_noticovid_2022"
 
 	*do "programas/1c_base_siscovid_pr_2020"
-	**do "programas/1d_base_siscovid_pr_2021"
+	do "programas/1d_base_siscovid_pr_2021"
 
 	*do "programas/1e_base_siscovid_ag_2021_1"
 	*do "programas/1f_base_siscovid_ag_2021_2"
@@ -129,7 +129,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/3d_figura_promedio_casos_def_2022"
 
 	do "programas/3e_sintomaticos"
-
+*/
 
 /*
 	* Para la actualización del Dashboard COVID-19 en la página web
@@ -143,12 +143,12 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	 do "C:\Users\PC\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
 */
 
-
+/*
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
-	*do "programas/2d_series_semanales_region" // Generar datos semanales region
+	do "programas/2d_series_semanales_region" // Generar datos semanales region
 	*do "programas/2d_series_semanales_region_2022"
 	
-	*do "programas/4a_figura_casos_def_region"
+	do "programas/4a_figura_casos_def_region"
 	*do "programas/4a_figura_casos_def_region_2022"
 
 	*do "programas/4b_figura_mort_edad_region"
@@ -156,25 +156,21 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	*do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	*do "programas/4c_figura_inci_mort_positi_provincial"
-
+*/
 
 /*
 	** Datos para los excesos de defunciones
 	*do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
 	do "programas/1m_datos_defunciones_2020_2021_regional"
-	do "programas/1n_datos_defunciones_2020_2021_provincial"
+	*o "programas/1n_datos_defunciones_2020_2021_provincial"
 
 	do "programas/4d_figura_exceso_regional"
-	*do "programas/4e_figura_exceso_provincial"
+	do "programas/4e_figura_exceso_provincial"
 */
-
-/*
 	* Hospitalización
-	do "programas/4f_figuras_hospitales"
+	*do "programas/4f_figuras_hospitales"
 	* Tabla cero defunciones
 	*do "programas\4z_tabla_cero_defunciones.do"
-*/
-
 /*
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
@@ -183,7 +179,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\5d_figura_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
 */
-/*
+
 * 6. Vacunados
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"

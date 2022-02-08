@@ -14,7 +14,7 @@ drop if semana > 54
 * Generar los excesos para cada semana epidemiológica y para cada provincia
 forvalues t=1/13 {
 gen exceso_`t' = d22_`t' - d19_`t'
-sum exceso_`t' if semana == 4
+sum exceso_`t' if semana == 5
 local exceso_prov_`t' = r(mean)
 }
 
@@ -56,7 +56,7 @@ if semana>=1 & semana <=53 ///
 * 2021
 * Graficamos 
 twoway (line d19_`i' semana, lcolor("$mycolor3")) ///
-(line d21_`i' semana, lcolor("$mycolor2") lpattern(solid) ) ///
+(line d21_`i' semana, lcolor("$mycolor6") lpattern(solid) ) ///
 if semana>=1 & semana <=52 ///
   ,xtitle("Semanas Epidemológicas", size(*0.9)) ///
   ytitle("Número de Defunciones por Toda Causa", size(*0.8)) ///
@@ -73,8 +73,8 @@ if semana>=1 & semana <=52 ///
 * 2022
 * Graficamos 
 twoway (line d19_`i' semana, lcolor("$mycolor3")) ///
-(line d22_`i' semana, lcolor("$mycolor2") lpattern(solid)) ///
-if semana>=1 & semana <=$semana ///
+(line d22_`i' semana, lcolor("$mycolor6") lpattern(solid)) ///
+if semana>=1 & semana <=52 ///
   ,xtitle("Semanas Epidemológicas", size(*0.9)) ///
   ytitle("Número de Defunciones por Toda Causa", size(*0.8)) ///
   xlabel(1(4)52, labsize(*0.8)) ///

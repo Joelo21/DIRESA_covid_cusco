@@ -66,7 +66,7 @@ gr export "figuras\defunciones_20_21_22.pdf", as(pdf) name("defunciones_20_21_22
 ********************************************************************************
 * Tasas de Crecimiento Semanal 2021
 ********************************************************************************
-
+/*
 *2021
 twoway (line defuncion_d semana_2, lcolor("$mycolor6") lwidth(medthick) lpattern(longdash)) ///
 (scatter defuncion_d semana_2, msize(vsmall) mcolor("$mycolor6") mlabel(defuncion_d) mlabcolor("$mycolor2") mlabsize(tiny) connect() xline(1, lcolor("$mycolor1") lpattern(shortdash) lwidth(thick)) xline(13, lcolor("$mycolor2") lpattern(shortdash) lwidth(thick)) xline(15, lcolor("$mycolor3") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
@@ -97,10 +97,10 @@ twoway (line defuncion_d semana_3, lcolor("$mycolor6") lwidth(medthick) lpattern
 	legend(off) ///
 	name(defunciones_tasa_2022, replace)
 */
-
+/*
 gr export "figuras\defunciones_crecimiento_21_22.png", as(png) replace
 gr export "figuras\defunciones_crecimiento_21_22.pdf", as(pdf) name("defunciones_21_22") replace
-
+*/
 ********************************************************************************
 * Tasas de Crecimiento Semanal 2021
 /*
@@ -172,7 +172,7 @@ if semana_2 >=1 & semana_2<=$semana, ///
 	bgcolor(white) ///
 	ylabel(, nogrid) ///	
 	name(positivos_2021_2022, replace)
-
+*/
 /*
 * 2022
 twoway (line positivo semana_3, lcolor("$mycolor6") lwidth(medthick)) ///
@@ -189,7 +189,7 @@ if semana_2 >=1 & semana_3<=$semana, ///
 	ylabel(, nogrid) ///	
 	name(positivos_2022, replace)
 */
-
+/*
 * 2020 y 2021
 graph combine positivos_2020 positivos_2021_2022, ///
 graphregion(color(white)) ///
@@ -328,7 +328,6 @@ name(sinto_prueba_20_21_22, replace)
 gr export "figuras\sinto_prueba_20_21_22.png", as(png) replace
 gr export "figuras\sinto_prueba_20_21_22.pdf", as(pdf) name("sinto_prueba_20_21_22") replace
 */
-
 ********************************************************************************
 * Tasa de Positividad por PCR y AG: 2021 - 2022
 ********************************************************************************
