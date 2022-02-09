@@ -1,6 +1,7 @@
 *
 * Cargar la base de datos del 2020 y 2021
 import excel "${datos}\raw\base_sinadef_2020_2021_2022_total.xlsx", sheet(Data1) firstrow clear
+*OJO SE ELIMINO ANTES LOS DATOS EXCDENTES DE LA SEMANA SIGUIENTE.
 
 * Borrar los registros que se anularon
 drop if ESTADO == "ANULACIÓN SOLICITADA" | ESTADO == "ANULADO"
@@ -48,10 +49,11 @@ replace semana_2 = semana - 53
 replace semana_2 = . if semana_2 < 0
 
 *Generar las semanas epidemiologicas del 2022
-gen numero = _n
+
 gen semana_3 = .
-replace semana_3 = 1 if fecha >= d(02jan2022)
-replace semana_3 = semana_3[_n-7] + 1 if fecha > d(02jan2022)
+replace semana_3 = semana_2 - 52
+replace semana_3 = . if semana_3 < 0
+
 
 * Máximo número de semanas del 2020, 53
 replace semana = . if semana > 53
@@ -83,7 +85,7 @@ restore
 use "${datos}\temporal\defuncion_semanal_region_2020", clear
 merge 1:1 semana using "${datos}\temporal\defuncion_semanal_region_2021", nogen
 merge 1:1 semana using "${datos}\temporal\defuncion_semanal_region_2022", nogen
-drop if semana > 55 | semana == 0
+drop if semana > 53 | semana == 0
 
 * Guardar la base de datos
 save "${datos}\output\defunciones_totales_2020_2021.dta", replace
