@@ -12,9 +12,9 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	*global path "C:\Users\PC\Documents\GitHub\GERESA_covid_cusco"
-	****CASA******
-	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
+	*****CASA******
+	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	****TRABAJO****
 	*global path "E:\DIRESA\GERESA_covid_cusco"
 	
@@ -22,9 +22,9 @@ set more off
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	*global datos "G:\Mi unidad\Datos"
+	global datos "G:\Mi unidad\Datos"
 	****CASA******
-	global datos "E:\Mi unidad\Datos"
+	*global datos "E:\Mi unidad\Datos"
 
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -77,7 +77,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-
+/*
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -129,7 +129,8 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	do "programas/3e_sintomaticos"
 x
-
+*/
+/*
 	* Para la actualización del Dashboard COVID-19 en la página web
 	*do "programas/1k_datos_dashboard"
 	** Cambiar la dirección si es necesario
@@ -139,7 +140,7 @@ x
 	* Ocupación de camas (semanalmente)
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
 	do "C:\Users\PC\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
-
+*/
 
 /*
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
@@ -165,10 +166,22 @@ x
 	do "programas/4d_figura_exceso_regional"
 	do "programas/4e_figura_exceso_provincial"
 */
+
 	* Hospitalización
 	*do "programas/4f_figuras_hospitales"
+	
+	*Hospitalizados diarios
+	*do "programas/4g_figuras_hospitalizados"
+	
+	*Hospitalizados - Fallecidos - AltasMedicas - Vacunados
+	*do "programas/4h_datos_hospitalizados_vacunados"
+	*do "programas/4i_datos_fallecidos_vacunados"
+	*do "programas/4j_datos_altas_fallecidos_vacunados"
+	
 	* Tabla cero defunciones
 	*do "programas\4z_tabla_cero_defunciones.do"
+
+	
 /*
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
