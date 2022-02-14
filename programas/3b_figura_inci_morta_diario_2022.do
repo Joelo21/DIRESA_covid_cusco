@@ -68,7 +68,7 @@ bar(1, color("$mycolor7")) ///
 blabel(bar, size(vsmall) format(%4.1f)) ///
 ytitle("Tasa de Mortalidad (defunciones/población*10,000)") ///
 ylabel(, nogrid) ///
-text(30 6 "{it:Actualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor7") fcolor("$mycolor7")) name(mortalidad, replace)
+/*text(30 6 "{it:Actualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor7") fcolor("$mycolor7")) name(mortalidad, replace) */
 
 * Exportar Figura
 graph export "figuras\mortalidad_provincial_2022.png", as(png) replace

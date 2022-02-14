@@ -101,7 +101,7 @@ keep dni positivo_ag fecha_ag fecha_inicio_ag fecha_inicio edad sexo departament
 drop if dni == ""
 
 * Juntar con la base del 2021
-append using "${datos}\output\base_siscovid_ag_2021"
+*append using "${datos}\output\base_siscovid_ag_2021"
 
 * 3.5 Guardar 
 save "${datos}\output\base_siscovid_ag_2022.dta", replace
