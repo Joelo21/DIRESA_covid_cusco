@@ -1,6 +1,4 @@
-
 * Cargamos la data, previamente se hizo la limpieza en Excel (es un atarea hacerlo aquí).
-
 import excel "${datos}\raw\base_sistema_referencias.xlsx", firstrow sheet("BASE-UCI") clear
 
 * Cambiamos el formato de la variable 
