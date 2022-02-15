@@ -11,9 +11,9 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
 	*****CASA******
-	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	****TRABAJO****
 	*global path "E:\DIRESA\GERESA_covid_cusco"
 	
@@ -21,9 +21,9 @@ set more off
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	global datos "G:\Mi unidad\Datos"
+	*global datos "G:\Mi unidad\Datos"
 	****CASA******
-	*global datos "E:\Mi unidad\Datos"
+	global datos "E:\Mi unidad\Datos"
 
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -76,7 +76,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-/*
+
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -85,7 +85,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/1b_base_noticovid_2022"
 
 	*do "programas/1c_base_siscovid_pr_2020"
-	*do "programas/1d_base_siscovid_pr_2021"
+	do "programas/1d_base_siscovid_pr_2021"
 
 	*do "programas/1e_base_siscovid_ag_2021_1"
 	*do "programas/1f_base_siscovid_ag_2021_2"
@@ -95,32 +95,32 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/1h_base_sinadef_covid_2021"
 	do "programas/1h_base_sinadef_covid_2022"
 
-	*do "programas/1i_base_unir"
-	do "programas/1i_base_unir_2022"
+	do "programas/1i_base_unir"
+	*do "programas/1i_base_unir_2022"
 
 	*do "programas/1j_datos_mapa_calor" // semanal
 	do "programas/1j_datos_mapa_calor_2022"
 
 * 2. Generar datos a nivel regional y provincial
-	*do "programas/2a_series_diarias_region"
-	do "programas/2a_series_diarias_region_2022"
+	do "programas/2a_series_diarias_region"
+	*do "programas/2a_series_diarias_region_2022"
 
-	*do "programas/2b_series_diarias_provincias"
-	do "programas/2b_series_diarias_provincias_2022"
+	do "programas/2b_series_diarias_provincias"
+	*do "programas/2b_series_diarias_provincias_2022"
 
-	*do "programas/2c_panel_diario_provincias"
-	do "programas/2c_panel_diario_provincias_2022"
+	do "programas/2c_panel_diario_provincias"
+	*do "programas/2c_panel_diario_provincias_2022"
 
 
 
 * 3. Figuras para la "Sala Situacional COVID-19" diaria 
 	*do "programas/3a_figura_etapa_vida"
-	do "programas/3a_figura_etapa_vida_2022"
+	*do "programas/3a_figura_etapa_vida_2022"
 
 	*do "programas/3b_figura_inci_morta_diario"
-	do "programas/3b_figura_inci_morta_diario_2022" 
+	*do "programas/3b_figura_inci_morta_diario_2022" 
 
-	*do "programas/3c_figura_positividad"
+	do "programas/3c_figura_positividad"
 	*do "programas/3c_figura_positividad_2022"
 
 	**do "programas/3d_figura_promedio_casos_def"
