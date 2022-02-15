@@ -71,7 +71,7 @@ gr export "figuras\defunciones_20_21_22.pdf", as(pdf) name("defunciones_20_21_22
 twoway (line defuncion_d semana_2, lcolor("$mycolor6") lwidth(medthick) lpattern(longdash)) ///
 (scatter defuncion_d semana_2, msize(vsmall) mcolor("$mycolor6") mlabel(defuncion_d) mlabcolor("$mycolor2") mlabsize(tiny) connect() xline(1, lcolor("$mycolor1") lpattern(shortdash) lwidth(thick)) xline(13, lcolor("$mycolor2") lpattern(shortdash) lwidth(thick)) xline(15, lcolor("$mycolor3") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
  if semana_2 >=1 & semana_2<=$semana, ///
-	ylabel(-700(100)100, labsize(*0.6)) ///
+	ylabel(-300(100)200, labsize(*0.6)) ///
 	tlabel(1(4)$semana) ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("% Crecimiento de Defunciones") ///
@@ -101,6 +101,7 @@ twoway (line defuncion_d semana_3, lcolor("$mycolor6") lwidth(medthick) lpattern
 gr export "figuras\defunciones_crecimiento_21_22.png", as(png) replace
 gr export "figuras\defunciones_crecimiento_21_22.pdf", as(pdf) name("defunciones_21_22") replace
 */
+*/
 ********************************************************************************
 * Tasas de Crecimiento Semanal 2021
 /*
@@ -108,7 +109,7 @@ gr export "figuras\defunciones_crecimiento_21_22.pdf", as(pdf) name("defunciones
 twoway (line positivo_d semana_2, lcolor("$mycolor6") lwidth(medthick) lpattern(longdash)) ///
 (scatter positivo_d semana_2, msize(vsmall) mcolor("$mycolor6") mlabel(positivo_d) mlabcolor("$mycolor6") mlabsize(tiny) connect() xline(1, lcolor("$mycolor1") lpattern(shortdash) lwidth(thick)) xline(13, lcolor("$mycolor2") lpattern(shortdash) lwidth(thick)) xline(15, lcolor("$mycolor3") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
  if semana_2 >=1 & semana_2<=$semana, ///
-	ylabel(-200(50)100, labsize(*0.6)) ///
+	ylabel(-300(50)100, labsize(*0.6)) ///
 	tlabel(1(4)$semana) ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("% Crecimiento de Casos") ///
@@ -269,7 +270,7 @@ gr export "figuras\sintomaticos_20_21_22.pdf", as(pdf) name("sintomaticos_20_21_
 ********************************************************************************
 * Sintomaticos por tipo de prueba  +PR
 ********************************************************************************
-/*
+
 * 2020
 twoway (scatter sintomatico_pcr semana, msize(vsmall) mcolor("$mycolor5") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor5")) ///
 (scatter sintomatico_pr_sis semana, msize(vsmall) mcolor("$mycolor6") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor1")) ///

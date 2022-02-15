@@ -188,7 +188,9 @@ twoway ///
 (scatter casos_max_2 fecha if fecha == fecha_casos_max_2, mlabel(casos_max_2) msize(vsmall) mcolor("$mycolor3") mlabcolor("$mycolor3")) ///
 (scatter defunciones_max_2 fecha if fecha == fecha_defunciones_max_2, mlabel(defunciones_max_2) msize(vsmall) mcolor("$mycolor3") mlabcolor("$mycolor3")) ///
 (scatter casos_max_3 fecha if fecha == fecha_casos_max_3, mlabel(casos_max_3) msize(vsmall) mcolor("$mycolor6") mlabcolor("$mycolor6")) ///
+/*
 (scatter defunciones_max_3 fecha if fecha == fecha_defunciones_max_3, mlabel(defunciones_max_3) msize(vsmall) mcolor("$mycolor6") mlabcolor("$mycolor6")) ///
+*/ ///
 (line casos_max_1 fecha, lcolor("$mycolor2") lpattern(shortdash) lwidth(mthick)) ///
 (line casos_max_2 fecha, lcolor("$mycolor3") lpattern(shortdash) lwidth(mthick)) ///
 (line casos_max_3 fecha, lcolor("$mycolor6") lpattern(shortdash) lwidth(mthick)) ///

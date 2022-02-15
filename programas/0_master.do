@@ -11,9 +11,9 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	*global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
 	*****CASA******
-	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	****TRABAJO****
 	*global path "E:\DIRESA\GERESA_covid_cusco"
 	
@@ -21,9 +21,9 @@ set more off
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	*global datos "G:\Mi unidad\Datos"
+	global datos "G:\Mi unidad\Datos"
 	****CASA******
-	global datos "E:\Mi unidad\Datos"
+	*global datos "E:\Mi unidad\Datos"
 
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -33,7 +33,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 14feb2022
+global fecha 12feb2022
 global semana 58
 
 * Tiempo de corrida: alrededor de 7 minutos
@@ -112,7 +112,6 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/2c_panel_diario_provincias_2022"
 
 
-
 * 3. Figuras para la "Sala Situacional COVID-19" diaria 
 	*do "programas/3a_figura_etapa_vida"
 	*do "programas/3a_figura_etapa_vida_2022"
@@ -142,7 +141,7 @@ x
 	do "C:\Users\PC\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
 */
 
-/*
+
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	do "programas/2d_series_semanales_region" // Generar datos semanales region
 	*do "programas/2d_series_semanales_region_2022"
@@ -161,14 +160,14 @@ x
 	** Datos para los excesos de defunciones
 	*do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
 	do "programas/1m_datos_defunciones_2020_2021_regional"
-	*o "programas/1n_datos_defunciones_2020_2021_provincial"
-
+	do "programas/1n_datos_defunciones_2020_2021_provincial"
+	
 	do "programas/4d_figura_exceso_regional"
 	do "programas/4e_figura_exceso_provincial"
 */
 
 	* Hospitalización
-	do "programas/4f_figuras_hospitales"
+	*do "programas/4f_figuras_hospitales"
 	
 	*Hospitalizados diarios
 	*do "programas/4g_figuras_hospitalizados"
