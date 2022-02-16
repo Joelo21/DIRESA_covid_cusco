@@ -116,9 +116,9 @@ if semana_2>=1 & semana_2<=$semana, ///
 	*gr export "figuras\sinto_prueba20_21_`i'", as(pdf) name ("sinto_prueba20_21_`i'") replace
 
 }
-*/
 
-/*
+
+
 * 2021 CUSCO
 forvalues i=7/7 {
 twoway (scatter positivo_prueba_pcr_`i' semana_2, msize(vsmall) mcolor("$mycolor5") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor5")) ///
