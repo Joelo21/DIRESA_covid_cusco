@@ -2,17 +2,6 @@
 ********************************************************************************
 * 5. Unir las bases de datos
 ********************************************************************************
-********UNIR 2021
-use "${datos}\output\base_noticovid_2021", clear
-/*
-* Juntar
-append using "${datos}\output\base_siscovid_ag_2021", force
-append using "${datos}\output\base_siscovid_pr", force
-append using "${datos}\output\base_sinadef_2021", force
-
-gen numero = _n
-*/
-
 ********UNIR 2022
 use "${datos}\output\base_noticovid_2022", clear
 
@@ -102,7 +91,6 @@ format fecha_resultado %td
 gen fecha_recuperado =.
 replace fecha_recuperado = fecha_resultado + 14 if (positivo_pcr == 1 | positivo_ag == 1) | (positivo_pr ==1 & tipo_anticuerpo == "IgM Reactivo")
 replace fecha_recuperado = fecha_resultado + 7 if (positivo_pr == 1 & tipo_anticuerpo== "IgG Reactivo") | (positivo_pr == 1 & tipo_anticuerpo== "IgM e IgG Reactivo")
-*replace fecha_recuperado = fecha_resultado + 14 if (positivo_pcr == 1 | positivo_ag == 1)
 format fecha_recuperado %td
 
 * Generar variables que tengan nombres más explícitos
@@ -128,12 +116,10 @@ gen positivo_prueba_ag =.
 replace positivo_prueba_ag = 1 if positivo_ag == 1
 
 * Generar positivo Sala Covid Semanal
-*gen positivo = 1 if positivo_pcr == 1 | positivo_ag == 1
 gen positivo = 1 if positivo_pcr == 1 | positivo_pr == 1 | positivo_ag == 1
 
 * Generar prueba
 gen prueba = 1 if prueba_pcr == 1 | prueba_ag == 1 | prueba_pr == 1
-*gen prueba = 1 if prueba_pcr == 1 | prueba_ag == 1 
 
 * Generar una variable que tome valores de las tres pruebas
 gen tipo_prueba = .
@@ -142,7 +128,6 @@ replace tipo_prueba = 2 if prueba_pr == 1
 replace tipo_prueba = 3 if prueba_ag == 1
 label variable tipo_prueba "Tipo de Prueba"
 label define tipo_prueba 1 "Molecular" 2 "Rapidas" 3 "Antigénica" 
-*label define tipo_prueba 1 "Molecular" 2 "Antigénica" 
 label values tipo_prueba tipo_prueba
 
 *****************************************************
@@ -164,18 +149,14 @@ replace menor_igual_inicio = 1 if fecha_inicio <= fecha_resultado & fecha_result
 gen diferencia_mas_30 = .
 replace diferencia_mas_30 = 1 if (fecha_resultado - fecha_inicio) > 30 & menor_igual_inicio ==1
 replace fecha_inicio = . if diferencia_mas_30 == 1
-
 replace fecha_inicio = . if sintomatico == 0 & fecha_inicio != .
 
 *******************************************
 * 5.4 Eliminar duplicados con todas las pruebas
 /*
 sort dni positivo_ag fecha_ag positivo_pr fecha_pr
-
 duplicates tag dni positivo_ag fecha_ag positivo_pr fecha_pr, gen(dup)
-
 quietly by dni positivo_ag fecha_ag positivo_pr fecha_pr: gen dup_first=cond(_N==1,0,_n) 
-
 drop if dup >= 1
 */
 

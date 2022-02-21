@@ -5,10 +5,7 @@
 *------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------%	
 
 * Cargamos la data, previamente se hizo la limpieza en Excel (es un atarea hacerlo aquí).
-	
 use "${datos}\output\data_series_region.dta", clear
-
-*use "D:\covid_cusco\datos\output\data_series_region.dta", clear
 
 * Para dias a inicios de semana
 drop if fecha < d(01jan2021)
@@ -21,7 +18,6 @@ gen numero = _n
 
 gen semana =.
 replace semana = 1 if numero >= 1 & numero <= 7
- 
 replace semana = semana[_n-7] + 1 if numero > 7
 
 *collapse (mean) positivo positivo_pcr positivo_pr positivo_ag prueba prueba_pcr prueba_pr prueba_ag, by(semana)
@@ -56,7 +52,6 @@ format positividad_pcr positividad_ag %12.0fc
 
 
 * Graficamos
-* Graficamos
 twoway (line positividad_pcr semana, lcolor("$mycolor6") lwidth(medthick)) ///
 (line positividad_ag semana, lcolor("$mycolor7") lwidth(medthick) lpattern(solid)) ///
 (scatter positividad_pcr semana, msymbol(none) mlabel(positividad_pcr) mlabcolor("$mycolor6") mlabsize(*0.9) mlabposition(12)) ///
@@ -73,13 +68,12 @@ twoway (line positividad_pcr semana, lcolor("$mycolor6") lwidth(medthick)) ///
   ylabel(, nogrid) xlabel(, nogrid) ///
   legend(cols(2) label(1 "Positividad PCR (%)") label(2 "Positividad AG (%)") label(3 " ") label (4 " ") size(*0.6) order(1 2 3 4) region(fcolor(white) lcolor(white))) ///
   /*text(80 $semana "{it:Actualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor4") fcolor("$mycolor4")) */name(tasa_positividad, replace)
-   */
+
 graph export "figuras\positividad_diaria_2021_2022.png", as(png) replace  
 
 ********************************************************************************
 * Tasa de Incidencia
 ********************************************************************************
-/*
 * Graficos 
 gen total_positivos = positivo_pcr + positivo_ag
 gen poblacion_cusco= 1357498

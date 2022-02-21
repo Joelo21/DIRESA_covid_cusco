@@ -87,7 +87,6 @@ ytitle("Porcentaje (%)") ///
 ylabel(0(20)100, nogrid) ///
 legend(label(1 "Dos dosis") label(2 "Brecha entre primera y segunda dosis") label(3 "No Vacunados") size(*0.8) region(col(white))) name(vacunacion_grupo_edad, replace)
 
-
 /*
 graph hbar dos_dosis brecha_primera_segunda tres_dosis faltante, ///
 over(grupo_edad) stack ///

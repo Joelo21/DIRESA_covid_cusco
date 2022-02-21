@@ -39,6 +39,8 @@ format mes %tm
 
 format lambda gamma delta omicron otros %8.2f
 label var suma_total "Número de Sepas Secuenciadas"
+
+save"${datos}\output\xzyxzx.dta", replace
 /*
 gen lambda2 = variante_1
 gen gamma2 = variante_2

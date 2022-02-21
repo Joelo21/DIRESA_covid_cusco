@@ -1,19 +1,6 @@
  
 ********************************************************************************
 * 5. Unir las bases de datos
-********************************************************************************
-********UNIR 2021
-/*
-use "${datos}\output\base_noticovid", clear
-
-* Juntar
-append using "${datos}\output\base_siscovid_ag", force
-append using "${datos}\output\base_siscovid_pr", force
-append using "${datos}\output\base_sinadef", force
-
-gen numero = _n
-*/
-
 ********UNIR 2022
 use "${datos}\output\base_noticovid_2022", clear
 
@@ -153,7 +140,8 @@ replace menor_igual_inicio = 1 if fecha_inicio <= fecha_resultado & fecha_result
 gen diferencia_mas_30 = .
 replace diferencia_mas_30 = 1 if (fecha_resultado - fecha_inicio) > 30 & menor_igual_inicio ==1
 replace fecha_inicio = . if diferencia_mas_30 == 1
-
 replace fecha_inicio = . if sintomatico == 0 & fecha_inicio != .
+
+*Eliminar fechas < al 2022
 
 save "${datos}/output/base_covid_2022.dta", replace

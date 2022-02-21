@@ -5,10 +5,7 @@
 *------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------%	
 
 * Cargamos la data, previamente se hizo la limpieza en Excel (es un atarea hacerlo aquí).
-	
 use "${datos}\output\data_series_region_2022.dta", clear
-
-*use "D:\covid_cusco\datos\output\data_series_region.dta", clear
 
 * Para dias a inicios de semana
 drop if fecha < d(01jan2021)

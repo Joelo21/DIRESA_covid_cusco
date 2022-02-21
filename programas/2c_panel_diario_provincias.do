@@ -21,8 +21,7 @@ destring provincia_ubigeo, replace
 
 * Fecha de resultado
 preserve
-*collapse (first) provincia (count) positivo positivo_pcr positivo_ag positivo_pr prueba prueba_ag prueba_pcr prueba_pr sintomatico sintomatico_pcr sintomatico_ag sintomatico_pr defuncion, by(fecha_resultado provincia_ubigeo)
-collapse (first) provincia (count) positivo positivo_pcr positivo_ag prueba prueba_ag prueba_pcr sintomatico sintomatico_pcr sintomatico_ag defuncion, by(fecha_resultado provincia_ubigeo)
+collapse (first) provincia (count) positivo positivo_pcr positivo_ag positivo_pr prueba prueba_ag prueba_pcr prueba_pr sintomatico sintomatico_pcr sintomatico_ag sintomatico_pr defuncion, by(fecha_resultado provincia_ubigeo)
 
 xtset provincia_ubigeo fecha_resultado, daily
 tsfill
@@ -55,8 +54,7 @@ restore
 
 * Fecha_inicio de síntomas
 preserve
-*collapse (count) positivo positivo_pcr positivo_ag positivo_pr, by(fecha_inicio provincia_ubigeo)
-collapse (count) positivo positivo_pcr positivo_ag, by(fecha_inicio provincia_ubigeo)
+collapse (count) positivo positivo_pcr positivo_ag positivo_pr, by(fecha_inicio provincia_ubigeo)
 
 xtset provincia_ubigeo fecha_inicio, daily
 tsfill
@@ -66,7 +64,7 @@ rename fecha_inicio fecha
 rename positivo inicio
 rename positivo_pcr inicio_pcr
 rename positivo_ag inicio_ag
-*rename positivo_pr inicio_pr
+rename positivo_pr inicio_pr
 
 replace fecha = . if fecha < d(01jan2020)
 

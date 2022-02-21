@@ -1,6 +1,5 @@
 
 use "${datos}\output\base_vacunados", clear
-
 merge m:1 ubigeo using "${datos}\output\ubigeos"
 
 drop if EdadGE < 5
