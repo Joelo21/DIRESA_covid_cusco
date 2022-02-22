@@ -1,0 +1,33 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.15)  21 FEB 2022 23:53
+entering extended mode
+**./tabla_positividad_provincia.tex
+(tabla_positividad_provincia.tex
+LaTeX2e <2021-11-15>
+L3 programming layer <2021-11-12>)
+Runaway argument?
+{tab\begin {tabular}{lrrrr} \rowcolor [HTML]{ECF4FF} \textbf {PROVINC\ETC.
+! File ended while scanning use of \begin .
+<inserted text> 
+                \par 
+<*> ./tabla_positividad_provincia.tex
+                                     
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+! Emergency stop.
+<*> ./tabla_positividad_provincia.tex
+                                     
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 20 strings out of 478701
+ 574 string characters out of 2856395
+ 295714 words of memory out of 3000000
+ 18208 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 13i,0n,12p,427b,10s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
