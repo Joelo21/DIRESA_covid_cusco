@@ -97,11 +97,11 @@ twoway (line defuncion_d semana_3, lcolor("$mycolor6") lwidth(medthick) lpattern
 	legend(off) ///
 	name(defunciones_tasa_2022, replace)
 */
-/*
+
 gr export "figuras\defunciones_crecimiento_21_22.png", as(png) replace
 gr export "figuras\defunciones_crecimiento_21_22.pdf", as(pdf) name("defunciones_21_22") replace
 */
-*/
+
 ********************************************************************************
 * Tasas de Crecimiento Semanal 2021
 /*
@@ -270,7 +270,7 @@ gr export "figuras\sintomaticos_20_21_22.pdf", as(pdf) name("sintomaticos_20_21_
 ********************************************************************************
 * Sintomaticos por tipo de prueba  +PR
 ********************************************************************************
-
+/*
 * 2020
 twoway (scatter sintomatico_pcr semana, msize(vsmall) mcolor("$mycolor5") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor5")) ///
 (scatter sintomatico_pr_sis semana, msize(vsmall) mcolor("$mycolor6") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor1")) ///
@@ -332,7 +332,7 @@ gr export "figuras\sinto_prueba_20_21_22.pdf", as(pdf) name("sinto_prueba_20_21_
 ********************************************************************************
 * Tasa de Positividad por PCR y AG: 2021 - 2022
 ********************************************************************************
-/*
+
 * PCR
 twoway (bar positivo_pcr semana_2, yaxis(1) ylabel(0(600)600) yscale(range(0(600)600) axis(1) off) bcolor("$mycolor5") /*bfcolor(white) blcolor(black)*/ /*fintensity(inten60)*/  barwidth(0.5 0.8)) ///
 (line positividad_pcr semana_2, lcolor(black) sort yaxis(2) ylabel(0(10)100, axis(2))) ///

@@ -48,13 +48,12 @@ text(180 $semana "{it:Exceso:`exceso_actual'}", place(n) box just(left) margin(l
 
 * 2022
 *drop if semana > $semana
-*gen exceso = de_22 - de_19
+gen exceso = de_22 - de_19
 *Aqui cambia el # por cada semana#"
-sum exceso if semana == 6
+sum exceso if semana == 7
 local exceso_actual_2 = r(mean)
 
 * Graficamos
-
 twoway (line de_19 semana, yaxis(1) yscale(range(0) axis(1)) lcolor("$mycolor3")) ///
 (line de_22 semana, yaxis(1) yscale(range(0) axis(1)) lcolor("$mycolor2")) ///
 if semana>=1 & semana <=52 ///

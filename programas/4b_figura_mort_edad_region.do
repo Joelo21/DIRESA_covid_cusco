@@ -280,11 +280,10 @@ if semana_2 >=1, ///
 	title("2021 - 2022", box bexpand bcolor("$mycolor3") color(white)) ///
 	legend(label(1 "0 a 9 años") label(2 "10 a 19 años") label(3 "20 a 29 años")  label(4 "30 a 39 años")  label(5 "40 a 49 años") label(6 "50 a 59 años")  label(7 "60 a 69 años")  label(8 "70 a 79 años") label(9 "Más de 80 años") size(*0.75) ring(0) position(2) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(gedad_2021, replace)
 
-
 * Guardar
 gr export "figuras\mortalidad_edad_2021_2022.png", as(png) replace
 gr export "figuras\mortalidad_edad_2021_2022.pdf", as(pdf) replace
-*/
+
 
 /*
 * Mortalidad 2022
@@ -437,7 +436,7 @@ if semana_2 >=1, ///
 
 gr export "figuras\mortalidad_edad_0.png", as(png) replace
 gr export "figuras\mortalidad_edad_0.pdf", as(pdf) replace
-*/
+
 
 
 /*

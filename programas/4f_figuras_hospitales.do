@@ -9,7 +9,6 @@ replace Limite1= 100 * Limite1
 replace Limite2 = 100 * Limite2 
 
 * Generamos una variable (var1) que escale y deflacte los valores en función del valor mayor de la original (/45*100).
-
 gen var1 = disponibilidad/45*100
 
 * Graficamos							

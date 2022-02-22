@@ -18,7 +18,7 @@ drop if variante == 6
 
 tostring dni, replace force
 
-merge 1:m dni using "${datos}\output\base_noticovid"
+merge 1:m dni using "${datos}\output\base_noticovid_2022"
 
 keep if _merge == 3
 
@@ -205,13 +205,9 @@ drop if variante == 6
 tostring dni, replace force
 
 merge 1:m dni using "${datos}\output\base_noticovid_2022"
-
 keep if _merge == 3
-
 keep if variante == 3
-
 sort provincia
-
 collapse (count) edad, by(provincia)
 
 rename edad variantes 
@@ -236,15 +232,10 @@ drop if variante == 6
 tostring dni, replace force
 
 merge 1:m dni using "${datos}\output\base_noticovid_2022"
-
 keep if _merge == 3
-
 keep if variante == 4
-
 sort provincia
-
 collapse (count) edad, by(provincia)
-
 rename edad variantes 
 
 save "${datos}\output\datos_variantes_provincias", replace
