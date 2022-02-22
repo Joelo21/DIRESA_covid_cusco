@@ -23,7 +23,7 @@ tab grupo_edad
 
 * Contar cuántos son
 * IMPORTANTE: Las personas con tres dosis se cuentan en personas con dos dosis
-replace dosis = 2 if dosis == 3
+*replace dosis = 2 if dosis == 3
 
 preserve 
 gen numero = _n
@@ -62,7 +62,7 @@ replace objetivo = 139437 if grupo_edad == 6
 replace objetivo = 91654 if grupo_edad == 7
 replace objetivo = 51166 if grupo_edad == 8
 replace objetivo = 27404 if grupo_edad == 9
-
+		
 gen dos_dosis = dos/objetivo*100
 gen brecha_primera_segunda = uno/objetivo*100
 *gen tres_dosis = tres/objetivo*100

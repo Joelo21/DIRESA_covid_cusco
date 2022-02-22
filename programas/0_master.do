@@ -11,9 +11,9 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	*global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
 	*****CASA******
-	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	****TRABAJO****
 	*global path "E:\DIRESA\GERESA_covid_cusco"
 	
@@ -21,10 +21,10 @@ set more off
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	*global datos "G:\Mi unidad\Datos"
+	global datos "G:\Mi unidad\Datos"
 	****CASA******
-	global datos "E:\Mi unidad\Datos"
-
+	*global datos "E:\Mi unidad\Datos"
+	
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
 *ssc install shp2dta
@@ -33,7 +33,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 19feb2022
+global fecha 21feb2022
 global semana 59
 
 * Tiempo de corrida: alrededor de 7 minutos
@@ -98,9 +98,9 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/1i_base_unir"
 	*do "programas/1i_base_unir_2022"
 
-	*do "programas/1j_datos_mapa_calor" // semanal
+	do "programas/1j_datos_mapa_calor" // semanal
 	*do "programas/1j_datos_mapa_calor_2022"
-
+x
 * 2. Generar datos a nivel regional y provincial
 	do "programas/2a_series_diarias_region"
 	*do "programas/2a_series_diarias_region_2022"
@@ -129,7 +129,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 */
 
 	* Para la actualización del Dashboard COVID-19 en la página web
-	*do "programas/1k_datos_dashboard"
+	do "programas/1k_datos_dashboard"
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\MasterDofile"

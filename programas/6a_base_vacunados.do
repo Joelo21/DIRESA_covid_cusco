@@ -38,7 +38,7 @@ replace dosis = 2 if dupli == 1 & num_dupli == 2
 replace dosis = 3 if num_dupli >2
 
 * Mantener una copia de los que tienen una dosis, dos dosis, y tres dosis
-*keep if dosis == 1 | dosis == 2 | dosis == 3
+keep if dosis == 1 | dosis == 2 | dosis == 3
 
 * Mantener las variables de interés
 rename fecha_vacuna fecha_ultima_vacuna
