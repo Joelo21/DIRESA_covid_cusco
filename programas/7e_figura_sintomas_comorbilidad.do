@@ -77,10 +77,11 @@ graph hbar porcentaje, over(sintoma, sort(porcentaje) descending) graphregion(co
 blabel(bar, format(%4.1f)) bar(1, fcolor("$mycolor6") lcolor("$mycolor6") ) ///
 ytitle("% de Pacientes con al menos el síntoma") ///
 bgcolor(white) ///
-ylabel(, nogrid)
+ylabel(, nogrid) ///
+name(sintomas, replace)
 
-graph export "figuras\figura_sintoma.png", as(png) name("Graph") replace
-graph export "figuras\figura_sintoma.pdf", as(pdf) name("Graph") replace
+graph export "figuras\figura_sintoma.png", as(png) name("sintomas") replace
+graph export "figuras\figura_sintoma.pdf", as(pdf) name("sintomas") replace
 
 ********************************************************************************
 use "${datos}\output\data_boletin.dta", clear
@@ -146,10 +147,11 @@ graph hbar porcentaje, over(comorbilidad, sort(porcentaje) descending) graphregi
 blabel(bar, format(%4.1f)) bar(1, fcolor("$mycolor7") lcolor("$mycolor7")) ///
 ytitle("% de Pacientes con al menos la comorbilidad") ///
 bgcolor(white) ///
-ylabel(, nogrid)
+ylabel(, nogrid) ///
+name(comorbilidad, replace)
 
-graph export "figuras\figura_comorbilidad.png", as(png) name("Graph") replace
-graph export "figuras\figura_comorbilidad.pdf", as(pdf) name("Graph") replace
+graph export "figuras\figura_comorbilidad.png", as(png) name("comorbilidad") replace
+graph export "figuras\figura_comorbilidad.pdf", as(pdf) name("comorbilidad") replace
 
 
 ******************************************************************************** 
@@ -210,7 +212,8 @@ graph hbar porcentaje, over(signo, sort(porcentaje) descending) graphregion(colo
 blabel(bar, format(%4.1f)) bar(1, fcolor("$mycolor3") lcolor("$mycolor3")) ///
 ytitle("% de Pacientes con al menos un signo") ///
 bgcolor(white) ///
-ylabel(, nogrid)
+ylabel(, nogrid) ///
+name(signo, replace)
 
-graph export "figuras\figura_signo.png", as(png) name("Graph") replace
-graph export "figuras\figura_signo.pdf", as(pdf) name("Graph") replace
+graph export "figuras\figura_signo.png", as(png) name("signo") replace
+graph export "figuras\figura_signo.pdf", as(pdf) name("signo") replace

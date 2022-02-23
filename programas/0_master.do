@@ -33,8 +33,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 21feb2022
-global semana 59
+global fecha 22feb2022
+global semana 60
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -129,14 +129,14 @@ x
 */
 
 	* Para la actualización del Dashboard COVID-19 en la página web
-	do "programas/1k_datos_dashboard"
+	*do "programas/1k_datos_dashboard"
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
-	**do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
+	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
 	* Ocupación de camas (semanalmente)
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
-	**do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
+	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
 
 
 /*
@@ -202,8 +202,8 @@ x
 	do "programas\7d_unir_bases"
 	do "programas\7e_figura_sintomas_comorbilidad"
 	do "programas\7f_lugar_fallecimiento"
-	*do "programas\7g_figura_inci_morta_series"
-	*do "programas\7g_figura_inci_morta_series_2022"
+	do "programas\7g_figura_inci_morta_series"
+	do "programas\7g_figura_inci_morta_series_2022"
 */
 
 timer off 1
