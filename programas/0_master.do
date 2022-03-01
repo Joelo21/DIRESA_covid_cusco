@@ -177,8 +177,7 @@ x
 	
 	* Tabla cero defunciones
 	*do "programas\4z_tabla_cero_defunciones.do"
-	
-/*
+/*	
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
