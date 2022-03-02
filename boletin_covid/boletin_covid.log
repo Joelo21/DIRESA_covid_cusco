@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.5.6)  2 MAR 2022 08:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.5.6)  2 MAR 2022 11:47
 entering extended mode
 **./boletin_covid.tex
 (boletin_covid.tex
@@ -3004,14 +3004,8 @@ LaTeX Info: Redefining \% on input line 25.
 
 LaTeX Warning: There were undefined references.
 
-
-Package rerunfilecheck Warning: File `boletin_covid.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `boletin_covid.out':
-(rerunfilecheck)             Before: EA7457F2138B562083CCD4176CFF6907;1508
-(rerunfilecheck)             After:  2C5079CE0080D0F7570ACB2D72D91ECE;590.
+Package rerunfilecheck Info: File `boletin_covid.out' has not changed.
+(rerunfilecheck)             Checksum: 2C5079CE0080D0F7570ACB2D72D91ECE;590.
  )
 (\end occurred inside a group at level 1)
 
@@ -3033,7 +3027,7 @@ sers/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/User
 s/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Users/PC
 /AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/PC/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb>
-Output written on boletin_covid.pdf (70 pages, 26346888 bytes).
+Output written on boletin_covid.pdf (70 pages, 26346353 bytes).
 PDF statistics:
  1759 PDF objects out of 2073 (max. 8388607)
  170 named destinations out of 1000 (max. 500000)
