@@ -261,7 +261,7 @@ gen incidencia_7 = positivo_7/81263*10000
 gen incidencia_8 = positivo_8/42520*10000
 gen incidencia_9 = positivo_9/19982*10000
 ********************************************************************************
-/*
+
 * Mortalidad 2021
 twoway (line mortalidad_1 semana_2, lcolor("$mycolor1") lwidth(medthick) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
 (line mortalidad_2 semana_2, lcolor("$mycolor2") lwidth(medthick)) ///

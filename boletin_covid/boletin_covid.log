@@ -1,40 +1,36 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.11.8)  1 MAR 2022 15:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.17)  1 MAR 2022 15:37
 entering extended mode
 **./boletin_covid.tex
 (boletin_covid.tex
-LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-08-27>
+LaTeX2e <2021-11-15>
+L3 programming layer <2021-11-12>
 (C:\Program Files\MiKTeX\tex/latex/base\book.cls
-Document Class: book 2021/02/12 v1.4n Standard LaTeX document class
+Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\bk12.clo
-File: bk12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count182
-\c@chapter=\count183
-\c@section=\count184
-\c@subsection=\count185
-\c@subsubsection=\count186
-\c@paragraph=\count187
-\c@subparagraph=\count188
-\c@figure=\count189
-\c@table=\count190
+\c@part=\count183
+\c@chapter=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\c@figure=\count190
+\c@table=\count191
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
 (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2021/07/22 3.63 The Babel package
-
-(C:\Program Files\MiKTeX\tex/generic/babel\babel.def
-File: babel.def 2021/07/22 3.63 Babel common definitions
-\babel@savecnt=\count191
+Package: babel 2021/11/08 3.66 The Babel package
+\babel@savecnt=\count192
 \U@D=\dimen139
 \l@unhyphenated=\language79
 
 (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-)
-\bbl@dirlevel=\count192
+\bbl@dirlevel=\count193
 
 *************************************
 * Local config file bblopts.cfg used
@@ -46,7 +42,7 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 (C:\Program Files\MiKTeX\tex/latex/babel-spanish\spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks16
-\es@quotdepth=\count193
+\es@quotdepth=\count194
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
@@ -60,18 +56,18 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 (C:\Program Files\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen140
 \WF@size=\dimen141
-\c@WF@wrappedlines=\count194
+\c@WF@wrappedlines=\count195
 \WF@box=\box50
 \WF@everypar=\toks19
 Package: wrapfig 2003/01/31  v 3.6
 )
 (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 
 (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Driver file: pdftex.def on input line 227.
 
 (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
@@ -80,7 +76,7 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 
 (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
-Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen142
 \ar@mcellbox=\box51
 \extrarowheight=\dimen143
@@ -92,16 +88,16 @@ Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
 \everycr=\toks21
 \minrowclearance=\skip51
 )
-\rownum=\count195
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+\rownum=\count196
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 )
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -116,12 +112,12 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2021/04/20 v2.17j AMS math features
+Package: amsmath 2021/10/15 v2.17l AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
-Package: amstext 2000/06/29 v2.01 AMS text
+Package: amstext 2021/08/26 v2.01 AMS text
 
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
@@ -133,15 +129,15 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen145
 )
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
-Package: amsopn 2016/03/08 v2.02 operator names
+Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count196
+\inf@bad=\count197
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count197
-\leftroot@=\count198
+\uproot@=\count198
+\leftroot@=\count199
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count199
-\DOTSCASE@=\count266
+\classnum@=\count266
+\DOTSCASE@=\count267
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -150,15 +146,15 @@ LaTeX Info: Redefining \cdots on input line 620.
 \big@size=\dimen146
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count267
-\c@MaxMatrixCols=\count268
+\macc@depth=\count268
+\c@MaxMatrixCols=\count269
 \dotsspace@=\muskip16
-\c@parentequation=\count269
-\dspbrk@lvl=\count270
+\c@parentequation=\count270
+\dspbrk@lvl=\count271
 \tag@help=\toks24
-\row@=\count271
-\column@=\count272
-\maxfields@=\count273
+\row@=\count272
+\column@=\count273
+\maxfields@=\count274
 \andhelp@=\toks25
 \eqnshift@=\dimen147
 \alignsep@=\dimen148
@@ -170,8 +166,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \multlinegap=\skip53
 \multlinetaggap=\skip54
 \mathdisplay@stack=\toks27
-LaTeX Info: Redefining \[ on input line 2923.
-LaTeX Info: Redefining \] on input line 2924.
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
 )
 (C:\Program Files\MiKTeX\tex/latex/bbm\bbm.sty
 Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
@@ -200,15 +196,15 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count274
-\calc@Bcount=\count275
+\calc@Acount=\count275
+\calc@Bcount=\count276
 \calc@Adimen=\dimen153
 \calc@Bdimen=\dimen154
 \calc@Askip=\skip58
 \calc@Bskip=\skip59
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count276
+\calc@Ccount=\count277
 \calc@Cskip=\skip60
 )
 (C:\Program Files\MiKTeX\tex/latex/eso-pic\eso-pic.sty
@@ -221,13 +217,13 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks34
 ))
 (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
 (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
 (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
@@ -244,18 +240,18 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 (C:\Program Files\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count277
+\pdfpages@includegraphics@status=\count278
 \AM@pagebox=\box55
 \AM@global@opts=\toks35
-\AM@pagecnt=\count278
+\AM@pagecnt=\count279
 \AM@toc@title=\toks36
-\c@AM@survey=\count279
+\c@AM@survey=\count280
 \AM@templatesizebox=\box56
 )
 (C:\Program Files\MiKTeX\tex/latex/psfrag\psfrag.sty
 Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
-\pfg@pcount=\count280
-\pfg@scount=\count281
+\pfg@pcount=\count281
+\pfg@scount=\count282
 \pfg@temp=\write3
 )
 (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf.sty
@@ -317,26 +313,26 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@old@col=\dimen164
 \TX@target=\dimen165
 \TX@delta=\dimen166
-\TX@cols=\count282
+\TX@cols=\count283
 \TX@ftn=\toks37
 )
 (C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty
-Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTleft=\skip61
 \LTright=\skip62
 \LTpre=\skip63
 \LTpost=\skip64
-\LTchunksize=\count283
+\LTchunksize=\count284
 \LTcapwidth=\dimen167
 \LT@head=\box57
 \LT@firsthead=\box58
 \LT@foot=\box59
 \LT@lastfoot=\box60
 \LT@gbox=\box61
-\LT@cols=\count284
-\LT@rows=\count285
-\c@LT@tables=\count286
-\c@LT@chunks=\count287
+\LT@cols=\count285
+\LT@rows=\count286
+\c@LT@tables=\count287
+\c@LT@chunks=\count288
 \LT@p@ftn=\toks38
 )
 (C:\Program Files\MiKTeX\tex/latex/breakurl\breakurl.sty
@@ -350,7 +346,7 @@ Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 \XKV@toks=\toks39
 \XKV@tempa@toks=\toks40
 )
-\XKV@depth=\count288
+\XKV@depth=\count289
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (C:\Program Files\MiKTeX\tex/generic/iftex\ifpdf.sty
@@ -368,8 +364,8 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@outerparindent=\dimen168
 \enit@toks=\toks41
 \enit@inbox=\box62
-\enit@count@id=\count289
-\enitdp@description=\count290
+\enit@count@id=\count290
+\enitdp@description=\count291
 )
 (C:\Program Files\MiKTeX\tex/latex/ulem\ulem.sty
 \UL@box=\box63
@@ -377,7 +373,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \UL@skip=\skip66
 \UL@hook=\toks42
 \UL@height=\dimen169
-\UL@pe=\count291
+\UL@pe=\count292
 \UL@pixel=\dimen170
 \ULC@box=\box65
 Package: ulem 2019/11/18
@@ -389,24 +385,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 (C:\Program Files\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count292
-\c@Blindtext=\count293
-\c@blind@countparstart=\count294
-\blind@countxx=\count295
-\blindtext@numBlindtext=\count296
-\blind@countyy=\count297
-\c@blindlist=\count298
-\c@blindlistlevel=\count299
-\c@blindlist@level=\count300
-\blind@listitem=\count301
-\c@blind@listcount=\count302
-\c@blind@levelcount=\count303
-\blind@mathformula=\count304
-\blind@Mathformula=\count305
-\c@blind@randomcount=\count306
-\c@blind@randommax=\count307
-\c@blind@pangramcount=\count308
-\c@blind@pangrammax=\count309
+\c@blindtext=\count293
+\c@Blindtext=\count294
+\c@blind@countparstart=\count295
+\blind@countxx=\count296
+\blindtext@numBlindtext=\count297
+\blind@countyy=\count298
+\c@blindlist=\count299
+\c@blindlistlevel=\count300
+\c@blindlist@level=\count301
+\blind@listitem=\count302
+\c@blind@listcount=\count303
+\c@blind@levelcount=\count304
+\blind@mathformula=\count305
+\blind@Mathformula=\count306
+\c@blind@randomcount=\count307
+\c@blind@randommax=\count308
+\c@blind@pangramcount=\count309
+\c@blind@pangrammax=\count310
 )
 (C:\Program Files\MiKTeX\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2021/04/12 v1.27 mathematical typesetting tools
@@ -418,7 +414,7 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 130.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
-\g_MT_multlinerow_int=\count310
+\g_MT_multlinerow_int=\count311
 \l_MT_multwidth_dim=\dimen172
 \origjot=\skip67
 \l_MT_shortvdotswithinadjustabove_dim=\dimen173
@@ -432,11 +428,11 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 130.
 )
 (C:\Program Files\MiKTeX\tex/latex/breqn\breqn.sty
 (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2021-08-27 L3 programming layer (loader) 
+Package: expl3 2021-11-12 L3 programming layer (loader) 
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count311
+File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count312
 \l__pdf_internal_box=\box67
 ))
 Package: breqn 2021/10/28 v0.98l Breaking equations
@@ -480,8 +476,8 @@ LaTeX Info: Redefining \scriptstyle on input line 99.
 LaTeX Info: Redefining \scriptscriptstyle on input line 101.
 LaTeX Info: Redefining \genfrac on input line 149.
 ))
-\inf@bad=\count312
-\maxint=\count313
+\inf@bad=\count313
+\maxint=\count314
 \listwidth=\dimen180
 \eqnumsep=\dimen181
 \eqmargin=\dimen182
@@ -492,12 +488,12 @@ LaTeX Info: Redefining \genfrac on input line 149.
 \eqdelimoffset=\muskip18
 \eqindentstep=\dimen184
 \eqstyle=\toks43
-\eqbreakdepth=\count314
-\eqinterlinepenalty=\count315
-\intereqpenalty=\count316
+\eqbreakdepth=\count315
+\eqinterlinepenalty=\count316
+\intereqpenalty=\count317
 \intereqskip=\skip70
-\prerelpenalty=\count317
-\prebinoppenalty=\count318
+\prerelpenalty=\count318
+\prebinoppenalty=\count319
 \Dmedmuskip=\muskip19
 \Dthickmuskip=\muskip20
 \eqleftskip=\skip71
@@ -510,10 +506,10 @@ LaTeX Info: Redefining \genfrac on input line 149.
 \eq@wdNum=\dimen185
 \GRP@numbox=\box71
 \grp@wdNum=\dimen186
-\eq@lines=\count319
-\eq@curline=\count320
-\eq@badness=\count321
-\EQ@vims=\count322
+\eq@lines=\count320
+\eq@curline=\count321
+\eq@badness=\count322
+\EQ@vims=\count323
 \eq@dp=\dimen187
 \eq@wdL=\dimen188
 \eq@wdT=\dimen189
@@ -530,16 +526,16 @@ LaTeX Info: Redefining \genfrac on input line 149.
 \eq@hshift=\dimen256
 \eq@given@sidespace=\dimen257
 \mathindent=\dimen258
-\eq@final@linecount=\count323
+\eq@final@linecount=\count324
 \eq@wdR=\dimen259
 \EQ@continue=\toks44
-\lr@level=\count324
+\lr@level=\count325
 \GRP@queue=\toks45
 \GRP@box=\box72
 \GRP@wholebox=\box73
 \darraycolsep=\skip74
-\cur@row=\count325
-\cur@col=\count326
+\cur@row=\count326
+\cur@col=\count327
 \conditionsep=\skip75
 )
 (C:\Program Files\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
@@ -557,10 +553,10 @@ rs
 )
 (C:\Program Files\MiKTeX\tex/latex/fnpct\fnpct.sty
 (C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
-Package: l3keys2e 2021-08-27 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2021-11-12 LaTeX2e option processing using LaTeX3 keys
 )
 Package: fnpct 2021/01/21 v1.0 footnote kerning
-\l__fnpct_collection_int=\count327
+\l__fnpct_collection_int=\count328
 \l__fnpct_before_footnote_dim=\dimen260
 \l__fnpct_before_dot_dim=\dimen261
 \l__fnpct_after_dot_dim=\dimen262
@@ -575,9 +571,21 @@ s (CN)
 
 (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count328
-)))
-(C:\Program Files\MiKTeX\tex/latex/caption\subcaption.sty
+\etb@tempcnta=\count329
+))
+
+LaTeX hooks Warning: Generic hook 'package/after/fixfoot' is deprecated.
+(hooks)              Use hook 'package/fixfoot/after' instead.
+
+
+LaTeX hooks Warning: Generic hook 'package/after/pagenote' is deprecated.
+(hooks)              Use hook 'package/pagenote/after' instead.
+
+
+LaTeX hooks Warning: Generic hook 'package/after/sepfootnotes' is deprecated.
+(hooks)              Use hook 'package/sepfootnotes/after' instead.
+
+) (C:\Program Files\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
 
 (C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
@@ -594,8 +602,8 @@ Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \caption@hangindent=\dimen273
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count329
-\c@continuedfloat=\count330
+\c@caption@flags=\count330
+\c@continuedfloat=\count331
 Package caption Info: longtable package is loaded.
 
 (C:\Program Files\MiKTeX\tex/latex/caption\ltcaption.sty
@@ -603,8 +611,8 @@ Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
 )
 Package caption Info: wrapfig package is loaded.
 )
-\c@subfigure=\count331
-\c@subtable=\count332
+\c@subfigure=\count332
+\c@subtable=\count333
 )
 (C:\Program Files\MiKTeX\tex/latex/newpx\newpxtext.sty
 Package: newpxtext 2021/05/29 v1.422
@@ -653,7 +661,7 @@ Package: threeparttable 2003/06/13  v 3.0
 )
 (C:\Program Files\MiKTeX\tex/latex/tabulary\tabulary.sty
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
-\TY@count=\count333
+\TY@count=\count334
 \TY@linewidth=\dimen274
 \tymin=\dimen275
 \tymax=\dimen276
@@ -671,17 +679,17 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen285
 \cmidrulekern=\dimen286
 \defaultaddspace=\dimen287
-\@cmidla=\count334
-\@cmidlb=\count335
+\@cmidla=\count335
+\@cmidlb=\count336
 \@aboverulesep=\dimen288
 \@belowrulesep=\dimen289
-\@thisruleclass=\count336
-\@lastruleclass=\count337
+\@thisruleclass=\count337
+\@lastruleclass=\count338
 \@thisrulewidth=\dimen290
 )
 (C:\Program Files\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count338
+\c@float@type=\count339
 \float@exts=\toks46
 \float@box=\box75
 \@float@everytoks=\toks47
@@ -689,7 +697,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 (C:\Program Files\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count339
+\c@r@tfl@t=\count340
 \rotFPtop=\skip85
 \rotFPbot=\skip86
 \rot@float@box=\box77
@@ -697,14 +705,14 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 )
 (C:\Program Files\MiKTeX\tex/latex/appendix\appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count340
-\c@@ppsavesec=\count341
-\c@@ppsaveapp=\count342
+\c@@pps=\count341
+\c@@ppsavesec=\count342
+\c@@ppsaveapp=\count343
 )
 (C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip87
-\multirow@cntb=\count343
+\multirow@cntb=\count344
 \multirow@dima=\skip88
 \bigstrutjot=\dimen291
 )
@@ -713,13 +721,13 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip89
 \bibsep=\skip90
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count344
+\c@NAT@ctr=\count345
 )
-\c@theorem=\count345
-\c@proposition=\count346
-\c@assumption=\count347
-\c@assumption2=\count348
-\c@lemma=\count349
+\c@theorem=\count346
+\c@proposition=\count347
+\c@assumption=\count348
+\c@assumption2=\count349
+\c@lemma=\count350
 
 (C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty
 (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
@@ -763,14 +771,14 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@yd=\dimen303
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count350
-\c@pgf@countb=\count351
-\c@pgf@countc=\count352
-\c@pgf@countd=\count353
+\c@pgf@counta=\count351
+\c@pgf@countb=\count352
+\c@pgf@countc=\count353
+\c@pgf@countd=\count354
 \t@pgf@toka=\toks53
 \t@pgf@tokb=\toks54
 \t@pgf@tokc=\toks55
-\pgf@sys@id@count=\count354
+\pgf@sys@id@count=\count355
 
 (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
@@ -785,8 +793,8 @@ File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfsyssoftpath@smallbuffer@items=\count355
-\pgfsyssoftpath@bigbuffer@items=\count356
+\pgfsyssoftpath@smallbuffer@items=\count356
+\pgfsyssoftpath@bigbuffer@items=\count357
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -799,7 +807,7 @@ Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex)
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen304
-\pgfmath@count=\count357
+\pgfmath@count=\count358
 \pgfmath@box=\box79
 \pgfmath@toks=\toks56
 \pgfmath@stack@operand=\toks57
@@ -819,7 +827,7 @@ tex)
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmeti
 cs.code.tex)))
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count358
+\c@pgfmathroundto@lastzeros=\count359
 ))
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
@@ -855,7 +863,7 @@ File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box80
 \pgf@hbox=\box81
 \pgf@layerbox@main=\box82
-\pgf@picture@serial@count=\count359
+\pgf@picture@serial@count=\count360
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.te
 x
@@ -882,8 +890,8 @@ File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen328
-\pgf@sys@shading@range@num=\count360
-\pgf@shadingcount=\count361
+\pgf@sys@shading@range@num=\count361
+\pgf@shadingcount=\count362
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
@@ -937,7 +945,7 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.
 tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count362
+\pgf@plot@mark@count=\count363
 \pgfplotmarksize=\dimen333
 )
 \tikz@lastx=\dimen334
@@ -952,17 +960,17 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@figbox@bg=\box86
 \tikz@tempbox=\box87
 \tikz@tempbox@bg=\box88
-\tikztreelevel=\count363
-\tikznumberofchildren=\count364
-\tikznumberofcurrentchild=\count365
-\tikz@fig@count=\count366
+\tikztreelevel=\count364
+\tikznumberofchildren=\count365
+\tikznumberofcurrentchild=\count366
+\tikz@fig@count=\count367
  (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count367
-\pgfmatrixcurrentcolumn=\count368
-\pgf@matrix@numberofcolumns=\count369
+\pgfmatrixcurrentrow=\count368
+\pgfmatrixcurrentcolumn=\count369
+\pgf@matrix@numberofcolumns=\count370
 )
-\tikz@expandcount=\count370
+\tikz@expandcount=\count371
 
 (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
 rytopaths.code.tex
@@ -1068,8 +1076,8 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen343
-\Hy@linkcounter=\count371
-\Hy@pagecounter=\count372
+\Hy@linkcounter=\count372
+\Hy@pagecounter=\count373
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
@@ -1086,7 +1094,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (C:\Program Files\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count373
+\Hy@SavedSpaceFactor=\count374
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
@@ -1101,7 +1109,7 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count374
+\c@Hy@tempcnt=\count375
 
 (C:\Program Files\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip22
@@ -1117,7 +1125,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count375
+\Fld@menulength=\count376
 \Field@Width=\dimen345
 \Fld@charsize=\dimen346
 Package hyperref Info: Hyper figures OFF on input line 6076.
@@ -1134,9 +1142,9 @@ LaTeX Info: Redefining \pageref on input line 6150.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count376
-\c@Item=\count377
-\c@Hfootnote=\count378
+\Hy@abspage=\count377
+\c@Item=\count378
+\c@Hfootnote=\count379
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -1144,12 +1152,12 @@ Package hyperref Info: Driver (autodetected): hpdftex.
 File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 
 (C:\Program Files\MiKTeX\tex/latex/base\atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
-e
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
 with kernel methods
 )
-\Fld@listcount=\count379
-\c@bookmark@seq@number=\count380
+\Fld@listcount=\count380
+\c@bookmark@seq@number=\count381
 
 (C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -1175,15 +1183,15 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@ulht=\dimen349
 )
 (C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
-Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
-\c@tracingmulticols=\count381
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count382
 \mult@box=\box109
 \multicol@leftmargin=\dimen350
-\c@unbalance=\count382
-\c@collectmore=\count383
-\doublecol@number=\count384
-\multicoltolerance=\count385
-\multicolpretolerance=\count386
+\c@unbalance=\count383
+\c@collectmore=\count384
+\doublecol@number=\count385
+\multicoltolerance=\count386
+\multicolpretolerance=\count387
 \full@width=\dimen351
 \page@free=\dimen352
 \premulticols=\dimen353
@@ -1195,8 +1203,8 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \maxbalancingoverflow=\dimen355
 \mult@rightbox=\box112
 \mult@grightbox=\box113
-\mult@gfirstbox=\box114
-\mult@firstbox=\box115
+\mult@firstbox=\box114
+\mult@gfirstbox=\box115
 \@tempa=\box116
 \@tempa=\box117
 \@tempa=\box118
@@ -1233,16 +1241,15 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \@tempa=\box149
 \@tempa=\box150
 \@tempa=\box151
-\@tempa=\box152
-\c@minrows=\count387
-\c@columnbadness=\count388
-\c@finalcolumnbadness=\count389
+\c@minrows=\count388
+\c@columnbadness=\count389
+\c@finalcolumnbadness=\count390
 \last@try=\dimen356
 \multicolovershoot=\dimen357
 \multicolundershoot=\dimen358
-\mult@nat@firstbox=\box153
-\colbreak@box=\box154
-\mc@col@check@num=\count390
+\mult@nat@firstbox=\box152
+\colbreak@box=\box153
+\mc@col@check@num=\count391
 )
 (C:\Program Files\MiKTeX\tex/latex/lm\lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
@@ -1289,8 +1296,8 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 \t@pgfplots@tokb=\toks69
 \t@pgfplots@tokc=\toks70
 \pgfplots@tmpa=\dimen359
-\c@pgfplots@coordindex=\count391
-\c@pgfplots@scanlineindex=\count392
+\c@pgfplots@coordindex=\count392
+\c@pgfplots@scanlineindex=\count393
 
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex))
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex)
@@ -1304,13 +1311,13 @@ re.code.tex)
 reext.code.tex)
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.
 tex
-\c@pgfplotsarray@tmp=\count393
+\c@pgfplotsarray@tmp=\count394
 )
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code
 .tex)
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code
 .tex
-\c@pgfplotstable@counta=\count394
+\c@pgfplotstable@counta=\count395
 \t@pgfplotstable@a=\toks71
 )
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.
@@ -1321,7 +1328,7 @@ tex) (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex)
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshadi
 ng.code.tex
-\c@pgfplotslibrarysurf@no=\count395
+\c@pgfplotslibrarysurf@no=\count396
 
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshadin
 g.pgfsys-pdftex.def)))
@@ -1345,11 +1352,11 @@ rydecorations.code.tex
 \pgfdecoratedinputsegmentcompleteddistance=\dimen362
 \pgfdecoratedinputsegmentremainingdistance=\dimen363
 \pgf@decorate@distancetomove=\dimen364
-\pgf@decorate@repeatstate=\count396
+\pgf@decorate@repeatstate=\count397
 \pgfdecorationsegmentamplitude=\dimen365
 \pgfdecorationsegmentlength=\dimen366
 )
-\tikz@lib@dec@box=\box155
+\tikz@lib@dec@box=\box154
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
 rydecorations.pathmorphing.code.tex
@@ -1361,7 +1368,7 @@ rydecorations.pathreplacing.code.tex
 tions.pathreplacing.code.tex))
 (C:\Program Files\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourl
 ua.code.tex)
-\pgfplots@numplots=\count397
+\pgfplots@numplots=\count398
 \pgfplots@xmin@reg=\dimen367
 \pgfplots@xmax@reg=\dimen368
 \pgfplots@ymin@reg=\dimen369
@@ -1409,18 +1416,27 @@ LaTeX Info: Redefining \% on input line 111.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count398
+\scratchcounter=\count399
 \scratchdimen=\dimen373
-\scratchbox=\box156
-\nofMPsegments=\count399
-\nofMParguments=\count400
+\scratchbox=\box155
+\nofMPsegments=\count400
+\nofMParguments=\count401
 \everyMPshowfont=\toks72
-\MPscratchCnt=\count401
+\MPscratchCnt=\count402
 \MPscratchDim=\dimen374
-\MPnumerator=\count402
-\makeMPintoPDFobject=\count403
+\MPnumerator=\count403
+\makeMPintoPDFobject=\count404
 \everyMPtoPDFconversion=\toks73
 )
+
+LaTeX hooks Warning: Generic hook
+(hooks)              'file/after/translations-basic-dictionary-spanish.trsl'
+(hooks)              is deprecated.
+(hooks)              Use hook
+(hooks)              'file/translations-basic-dictionary-spanish.trsl/after'
+(hooks)              instead.
+
+
 (C:\Program Files\MiKTeX\tex/latex/translations/dicts\translations-basic-dictio
 nary-spanish.trsl
 File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
@@ -1434,8 +1450,8 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@mv@tabular=\count404
-\c@mv@boldtabular=\count405
+\c@mv@tabular=\count405
+\c@mv@boldtabular=\count406
 Package hyperref Info: Link coloring ON on input line 111.
  (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1446,7 +1462,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count406
+\c@section@level=\count407
 )
 LaTeX Info: Redefining \ref on input line 111.
 LaTeX Info: Redefining \pageref on input line 111.
@@ -1529,7 +1545,7 @@ l.193 	\tableofcontents
                         [1
 
 
-{C:/Users/DELL/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (boletin_covid.t
+{C:/Users/user/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (boletin_covid.t
 oc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
@@ -2889,18 +2905,24 @@ ne 1306.
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-Package rerunfilecheck Info: File `boletin_covid.out' has not changed.
-(rerunfilecheck)             Checksum: 615C8DFFC6BAD247DF48B55EE73FB003;1497.
+
+Package rerunfilecheck Warning: File `boletin_covid.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `boletin_covid.out':
+(rerunfilecheck)             Before: 26B8881F2B2D0BF80DF198D776CFF25D;1507
+(rerunfilecheck)             After:  615C8DFFC6BAD247DF48B55EE73FB003;1497.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1259 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 42367 strings out of 478927
- 960119 string characters out of 2862395
- 1432689 words of memory out of 3000000
- 59173 multiletter control sequences out of 15000+600000
+ 43448 strings out of 478699
+ 999629 string characters out of 2856821
+ 1439271 words of memory out of 3000000
+ 60484 multiletter control sequences out of 15000+600000
  455548 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,17n,131p,1167b,660s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -173,7 +173,7 @@ if semana_2 >=1 & semana_2<=$semana, ///
 	bgcolor(white) ///
 	ylabel(, nogrid) ///	
 	name(positivos_2021_2022, replace)
-*/
+
 /*
 * 2022
 twoway (line positivo semana_3, lcolor("$mycolor6") lwidth(medthick)) ///
@@ -190,7 +190,7 @@ if semana_2 >=1 & semana_3<=$semana, ///
 	ylabel(, nogrid) ///	
 	name(positivos_2022, replace)
 */
-/*
+
 * 2020 y 2021
 graph combine positivos_2020 positivos_2021_2022, ///
 graphregion(color(white)) ///
@@ -332,7 +332,7 @@ gr export "figuras\sinto_prueba_20_21_22.pdf", as(pdf) name("sinto_prueba_20_21_
 ********************************************************************************
 * Tasa de Positividad por PCR y AG: 2021 - 2022
 ********************************************************************************
-
+/*
 * PCR
 twoway (bar positivo_pcr semana_2, yaxis(1) ylabel(0(600)600) yscale(range(0(600)600) axis(1) off) bcolor("$mycolor5") /*bfcolor(white) blcolor(black)*/ /*fintensity(inten60)*/  barwidth(0.5 0.8)) ///
 (line positividad_pcr semana_2, lcolor(black) sort yaxis(2) ylabel(0(10)100, axis(2))) ///
