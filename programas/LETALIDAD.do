@@ -145,9 +145,9 @@ format letalidad_`i' %9.2g
 forvalues i= 1/3 {
 
 *2020
-twoway (bar positivo_`i' semana, yaxis(1) yscale(range(0) axis(1) off) barwidth(0.5 0.8) bcolor("$mycolor6")) ///
-(line defuncion_`i' semana, lcolor("$mycolor2") lpattern(dash) sort yaxis(2) yscale(range(100) axis(2) off)) ///
-(scatter defuncion_`i' semana, msymbol(none) mlabel(defuncion_`i') mlabcolor("$mycolor2") mlabsize(*0.75) mlabposition(.3)) ///
+twoway (bar positivo_`i' semana, yaxis(1) yscale(range(0) axis(1) off) barwidth(0.5 0.8) bcolor("$mycolor1")) ///
+(line defuncion_`i' semana, lcolor(black) lpattern(dash) sort yaxis(2) yscale(range(100) axis(2) off)) ///
+(scatter defuncion_`i' semana, msymbol(none) mlabel(defuncion_`i') mlabcolor(black) mlabsize(*0.75) mlabposition(.3)) ///
 (scatter positivo_`i' semana, msymbol(none) mlabel(positivo_`i') mlabcolor("$mycolor3") mlabsize(*0.75) mlabposition(.3)) ///
 if semana>=10 & semana <=53 					///
 	,xtitle("Semanas Epidemiologicas", size(*0.7))	///
@@ -157,12 +157,12 @@ if semana>=10 & semana <=53 					///
 	bgcolor(white) ylabel(, nogrid) name(graph_2020_`i', replace)
 
 	gr export "figuras\graph_2020_`i'.pdf", as(pdf) replace	
-}
+
 
 *2021
-twoway (bar positivo_`i' semana_2, yaxis(1) yscale(range(0) axis(1) off) barwidth(0.5 0.8) bcolor("$mycolor6")) ///
-(line defuncion_`i' semana_2, lcolor("$mycolor2") lpattern(dash) sort yaxis(2) yscale(range(100) axis(2) off)) ///
-(scatter defuncion_`i' semana_2, msymbol(none) mlabel(defuncion_`i') mlabcolor("$mycolor2") mlabsize(*0.75) mlabposition(.3)) ///
+twoway (bar positivo_`i' semana_2, yaxis(1) yscale(range(0) axis(1) off) barwidth(0.5 0.8) bcolor("$mycolor1")) ///
+(line defuncion_`i' semana_2, lcolor(black) lpattern(dash) sort yaxis(2) yscale(range(100) axis(2) off)) ///
+(scatter defuncion_`i' semana_2, msymbol(none) mlabel(defuncion_`i') mlabcolor(black) mlabsize(*0.75) mlabposition(.3)) ///
 (scatter positivo_`i' semana_2, msymbol(none) mlabel(positivo_`i') mlabcolor("$mycolor3") mlabsize(*0.75) mlabposition(.3)) ///
 if semana_2>=1 & semana_2 <=52 					///
 	,xtitle("Semanas Epidemiologicas", size(*0.7))	///
@@ -172,12 +172,12 @@ if semana_2>=1 & semana_2 <=52 					///
 	bgcolor(white) ylabel(, nogrid) name(graph_2021_`i', replace)
 
 	gr export "figuras\graph_2021_`i'.pdf", as(pdf) replace	
-}
+
 
 *2022
-twoway (bar positivo_`i' semana_3, yaxis(1) yscale(range(0) axis(1) off) barwidth(0.5 0.8) bcolor("$mycolor6")) ///
-(line defuncion_`i' semana_3, lcolor("$mycolor2") lpattern(dash) sort yaxis(2) yscale(range(100) axis(2) off)) ///
-(scatter defuncion_`i' semana_3, msymbol(none) mlabel(defuncion_`i') mlabcolor("$mycolor2") mlabsize(*0.75) mlabposition(.3)) ///
+twoway (bar positivo_`i' semana_3, yaxis(1) yscale(range(0) axis(1) off) barwidth(0.5 0.8) bcolor("$mycolor1")) ///
+(line defuncion_`i' semana_3, lcolor(black) lpattern(dash) sort yaxis(2) yscale(range(100) axis(2) off)) ///
+(scatter defuncion_`i' semana_3, msymbol(none) mlabel(defuncion_`i') mlabcolor(black) mlabsize(*0.75) mlabposition(.3)) ///
 (scatter positivo_`i' semana_3, msymbol(none) mlabel(positivo_`i') mlabcolor("$mycolor3") mlabsize(*0.75) mlabposition(.3)) ///
 if semana_3>=1 & semana_3 <=53 					///
 	,xtitle("Semanas Epidemiologicas", size(*0.7))	///
