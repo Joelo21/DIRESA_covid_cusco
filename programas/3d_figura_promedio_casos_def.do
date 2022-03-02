@@ -181,12 +181,12 @@ gr export "figuras\promedio_defunciones_2020_2021_2022.png", as(png) replace
 ********************************************************************************
 *GRAFICO COMBINADO PROMEDIO DE CASOS Y MUERTE COVID-19
 twoway ///
-(line promedio_defunciones fecha, lcolor("$mycolor2") lpattern(solid) lpattern(solid) xline(`fecha_m_1', lcolor("$mycolor3") lpattern(shortdash) lwidth(mthick)) xline(`fecha_m_2', lcolor("$mycolor3") lpattern(shortdash) lwidth(mthick))) ///
+(line promedio_defunciones fecha,	yaxis(2) yscale(axis(2)) ylabel(0(20)100, axis(2)) lcolor("$mycolor2") lpattern(solid) lpattern(solid) xline(`fecha_m_1', lcolor("$mycolor3") lpattern(shortdash) lwidth(mthick)) xline(`fecha_m_2', lcolor("$mycolor3") lpattern(shortdash) lwidth(mthick))) ///
 (line promedio_casos fecha, lcolor("$mycolor5") lpattern(solid) lpattern(solid) xline(22426, lcolor("$mycolor5") lpattern(shortdash) lwidth(mthick)) xline(22149, lcolor("$mycolor5") lpattern(shortdash) lwidth(mthick))) ///
 (scatter casos_max_1 fecha if fecha == fecha_casos_max_1, mlabel(casos_max_1) msize(vsmall) mcolor("$mycolor2") mlabcolor("$mycolor2")) ///
-(scatter defunciones_max_1 fecha if fecha == fecha_defunciones_max_1, mlabel(defunciones_max_1) msize(vsmall) mcolor("$mycolor2") mlabcolor("$mycolor2")) ///
 (scatter casos_max_2 fecha if fecha == fecha_casos_max_2, mlabel(casos_max_2) msize(vsmall) mcolor("$mycolor3") mlabcolor("$mycolor3")) ///
-(scatter defunciones_max_2 fecha if fecha == fecha_defunciones_max_2, mlabel(defunciones_max_2) msize(vsmall) mcolor("$mycolor3") mlabcolor("$mycolor3")) ///
+(scatter defunciones_max_1 fecha if fecha == fecha_defunciones_max_1, mlabel(defunciones_max_1) msize(vsmall) mcolor("$mycolor2") mlabcolor("$mycolor2") yaxis(2)) ///
+(scatter defunciones_max_2 fecha if fecha == fecha_defunciones_max_2, mlabel(defunciones_max_2) msize(vsmall) mcolor("$mycolor3") mlabcolor("$mycolor3") yaxis(2)) ///
 (scatter casos_max_3 fecha if fecha == fecha_casos_max_3, mlabel(casos_max_3) msize(vsmall) mcolor("$mycolor6") mlabcolor("$mycolor6")) ///
 /*
 (scatter defunciones_max_3 fecha if fecha == fecha_defunciones_max_3, mlabel(defunciones_max_3) msize(vsmall) mcolor("$mycolor6") mlabcolor("$mycolor6")) ///
@@ -195,7 +195,7 @@ twoway ///
 (line casos_max_2 fecha, lcolor("$mycolor3") lpattern(shortdash) lwidth(mthick)) ///
 (line casos_max_3 fecha, lcolor("$mycolor6") lpattern(shortdash) lwidth(mthick)) ///
 (scatter casos_actual fecha if fecha == fecha_casos_actual, mlabel(casos_actual) msize(vsmall) mcolor("$mycolor7") mlabcolor("$mycolor7")) ///
-(scatter defunciones_actual fecha if fecha == fecha_defunciones_actual, mlabel(defunciones_actual) msize(vsmall) mcolor("$mycolor5") mlabcolor("$mycolor5")) ///
+(scatter defunciones_actual fecha if fecha == fecha_defunciones_actual, mlabel(defunciones_actual) msize(vsmall) mcolor("$mycolor5") mlabcolor("$mycolor5") yaxis(2)) ///
  ///
 if fecha>=d(20mar2020) & fecha <=d($fecha) ///
 	,ylabel(0(200)2500, labsize(*0.6)) ///
