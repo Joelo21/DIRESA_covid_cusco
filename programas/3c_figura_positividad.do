@@ -39,7 +39,12 @@ label var semana "Semana Epidemiológica"
 *replace semana = _n 
 
 drop if semana > $semana
-
+/*
+*Datos recorte BOLETIN MENSUAL
+drop if semana > $semana
+drop if semana < 32
+drop if semana > 59
+*/
 * Generamos las variables pertinentes.
 
 *gen positividad = positivo/prueba*100

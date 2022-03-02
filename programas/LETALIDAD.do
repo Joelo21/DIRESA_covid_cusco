@@ -156,7 +156,7 @@ if semana>=10 & semana <=53 					///
 	legend(off)										///
 	bgcolor(white) ylabel(, nogrid) name(graph_2020_`i', replace)
 
-	gr export "figuras\graph_2020_`i'.pdf", as(pdf) replace	
+	gr export "figuras\niños_2020_`i'.pdf", as(pdf) replace	
 
 
 *2021
@@ -171,7 +171,7 @@ if semana_2>=1 & semana_2 <=52 					///
 	legend(off)										///
 	bgcolor(white) ylabel(, nogrid) name(graph_2021_`i', replace)
 
-	gr export "figuras\graph_2021_`i'.pdf", as(pdf) replace	
+	gr export "figuras\niños_2021_`i'.pdf", as(pdf) replace	
 
 
 *2022
@@ -181,12 +181,12 @@ twoway (bar positivo_`i' semana_3, yaxis(1) yscale(range(0) axis(1) off) barwidt
 (scatter positivo_`i' semana_3, msymbol(none) mlabel(positivo_`i') mlabcolor("$mycolor3") mlabsize(*0.75) mlabposition(.3)) ///
 if semana_3>=1 & semana_3 <=53 					///
 	,xtitle("Semanas Epidemiologicas", size(*0.7))	///
-	xlabel(1(1)52, labsize(*0.40))				///
+	xlabel(1(1)15, labsize(*0.40))				///
 	graphregion(color(white))						///
 	legend(off)										///
 	bgcolor(white) ylabel(, nogrid) name(graph_2022_`i', replace)
 
-	gr export "figuras\graph_2022_`i'.pdf", as(pdf) replace	
+	gr export "figuras\niños_2022_`i'.pdf", as(pdf) replace	
 }
 save "${datos}\output\base_covid_letalidad.dta", replace
 
