@@ -1,6 +1,6 @@
 *
 * Cargar la base de datos del 2020 y 2021
-import excel "${datos}\raw\base_sinadef_2020_2021_2022_total.xlsx", sheet(DATA) firstrow clear
+import excel "${datos}\raw\base_sinadef_2020_2021_2022_total.xlsx", sheet(Data1) firstrow clear
 *OJO SE ELIMINO ANTES LOS DATOS EXCDENTES DE LA SEMANA SIGUIENTE.
 
 * Borrar los registros que se anularon
@@ -12,7 +12,7 @@ rename PROVINCIADOMICILIO provincia
 * Generamos la fecha adecuando al formato conveniente y la ordenamos
 gen fecha = mdy(MES, DIA, AÑO)
 format fecha %td
-sort fecha
+sort fecha 
 
 * Borramos duplicados de DNI
 rename DOCUMENTO dni

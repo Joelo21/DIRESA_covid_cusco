@@ -33,8 +33,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 26feb2022
-global semana 60
+global fecha 01marb2022
+global semana 61
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -94,22 +94,22 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/1g_base_sinadef_covid_2020"
 	*do "programas/1h_base_sinadef_covid_2021"
 	do "programas/1h_base_sinadef_covid_2022"
-
-	do "programas/1i_base_unir"
-	*do "programas/1i_base_unir_2022"
+*/
+	*do "programas/1i_base_unir"
+	do "programas/1i_base_unir_2022"
 
 	do "programas/1j_datos_mapa_calor" // semanal
 	*do "programas/1j_datos_mapa_calor_2022"
-x
+
 * 2. Generar datos a nivel regional y provincial
-	do "programas/2a_series_diarias_region"
-	*do "programas/2a_series_diarias_region_2022"
+	*do "programas/2a_series_diarias_region"
+	do "programas/2a_series_diarias_region_2022"
 
 	*do "programas/2b_series_diarias_provincias"
-	*do "programas/2b_series_diarias_provincias_2022"
+	do "programas/2b_series_diarias_provincias_2022"
 
-	do "programas/2c_panel_diario_provincias"
-	*do "programas/2c_panel_diario_provincias_2022"
+	*do "programas/2c_panel_diario_provincias"
+	do "programas/2c_panel_diario_provincias_2022"
 
 
 * 3. Figuras para la "Sala Situacional COVID-19" diaria 
@@ -120,7 +120,7 @@ x
 	do "programas/3b_figura_inci_morta_diario_2022" 
 
 	*do "programas/3c_figura_positividad"
-	do "programas/3c_figura_positividad_2022"
+	*do "programas/3c_figura_positividad_2022"
 
 	**do "programas/3d_figura_promedio_casos_def"
 	*do "programas/3d_figura_promedio_casos_def_2022"
