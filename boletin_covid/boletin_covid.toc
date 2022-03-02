@@ -1,4 +1,4 @@
-\babel@toc {spanish}{}\relax 
+\babel@toc {spanish}{}
 \contentsline {chapter}{Editorial}{3}{section*.2}%
 \contentsline {chapter}{Metodología}{5}{section*.4}%
 \contentsline {chapter}{Características Generales}{8}{section*.5}%
