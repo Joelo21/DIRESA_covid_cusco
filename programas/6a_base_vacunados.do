@@ -1,3 +1,4 @@
+
 import delimited "${datos}\raw\vacunacovid.csv", varnames(1) encoding(UTF-8)  clear
 
 * DNI
@@ -14,7 +15,7 @@ format fecha_nacimiento %td
 gen yr =year(fecha_nacimiento)
 gen int yrint = round(yr)
 destring yrint, replace force
-gen EdadGE = 2021 - yrint
+gen EdadGE = 2022 - yrint
 
 * Fecha de vacunación
 gen fecha_1 = fvac

@@ -33,7 +33,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 01mar2022
+global fecha 07mar2022
 global semana 61
 
 * Tiempo de corrida: alrededor de 7 minutos
@@ -51,7 +51,7 @@ global mycolor3 "205 24 24"
 global mycolor4 "164 93 93"
 *global mycolor5 "164 248 208"
 global mycolor5 "54 56 120"
-*global mycolor6 "20 20 20"
+*global mycolor6 "20 20 20"  
 global mycolor6 "3 83 151"
 *global mycolor7 "116 116 52"
 global mycolor7 "52 103 81"
@@ -94,7 +94,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/1g_base_sinadef_covid_2020"
 	*do "programas/1h_base_sinadef_covid_2021"
 	do "programas/1h_base_sinadef_covid_2022"
-*/
+
 	*do "programas/1i_base_unir"
 	do "programas/1i_base_unir_2022"
 
@@ -187,7 +187,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\5e_mapas_secuenciamiento"
 */
 
-/*
+
 * 6. Vacunados
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"

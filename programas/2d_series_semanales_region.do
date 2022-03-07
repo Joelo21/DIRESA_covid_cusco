@@ -72,5 +72,8 @@ format positivo sintomatico asintomatico %11.0gc
 format defuncion_d positivo_d positividad_pcr positividad_ag %8.1f
 recode sintomatico_ag (0=.) if semana <=53
 
+
+*Ordenardo
+order semana semana_2 semana_3	
 * Guardar la base de datos generada con todos los cambios
 save "${datos}\output\serie_semanal_region.dta", replace

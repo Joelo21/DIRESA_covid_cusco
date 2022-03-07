@@ -39,14 +39,19 @@ label var semana "Semana Epidemiológica"
 *replace semana = _n 
 
 drop if semana > $semana
+
+
+label define semana 53 "1" 54 "2" 55 "3" 56 "4" 57 "5" 58 "6" 59 "7" 60 "8" 61 "9" 
+label values semana semana
+
 /*
 *Datos recorte BOLETIN MENSUAL
 drop if semana > $semana
 drop if semana < 32
 drop if semana > 59
 */
-* Generamos las variables pertinentes.
 
+* Generamos las variables pertinentes.
 *gen positividad = positivo/prueba*100
 gen positividad_pcr = positivo_pcr/prueba_pcr*100
 *gen positividad_pr = positivo_pr/prueba_pr*100
@@ -54,7 +59,6 @@ gen positividad_ag = positivo_ag/prueba_ag*100
 
 format positividad_pcr positividad_pcr %12.0fc
 format positividad_pcr positividad_ag %12.0fc
-
 
 * Graficamos
 twoway (line positividad_pcr semana, lcolor("$mycolor6") lwidth(medthick)) ///
@@ -66,7 +70,6 @@ twoway (line positividad_pcr semana, lcolor("$mycolor6") lwidth(medthick)) ///
   ytitle("Tasa de Positividad (%)", size(*0.6)) ///
   ylabel(0(10)80, labsize(*0.60)) ///
   xlabel(1(2)$semana, labsize(*0.60)) ///
-  xline(21471.9, lcolor("$mycolor3") lpattern(shortdash) lwidth(mthick)) ///
   plotregion(fcolor(white) lcolor(white)) ///
   graphregion(fcolor(white) lcolor(white)) ///
   bgcolor(white) ///

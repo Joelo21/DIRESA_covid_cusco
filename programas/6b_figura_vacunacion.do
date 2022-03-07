@@ -8,16 +8,15 @@ drop if EdadGE > 109
 * Generar las categorías de las etapas de vida
 gen grupo_edad = .
 replace grupo_edad = 1 if EdadGE >=  5 & EdadGE <= 11
-replace grupo_edad = 2 if EdadGE >= 12 & EdadGE <= 19
-replace grupo_edad = 3 if EdadGE >= 20 & EdadGE <= 29
+replace grupo_edad = 2 if EdadGE >= 12 & EdadGE <= 17
+replace grupo_edad = 3 if EdadGE >= 18 & EdadGE <= 29
 replace grupo_edad = 4 if EdadGE >= 30 & EdadGE <= 39
 replace grupo_edad = 5 if EdadGE >= 40 & EdadGE <= 49
 replace grupo_edad = 6 if EdadGE >= 50 & EdadGE <= 59
-replace grupo_edad = 7 if EdadGE >= 60 & EdadGE <= 69
-replace grupo_edad = 8 if EdadGE >= 70 & EdadGE <= 79
-replace grupo_edad = 9 if EdadGE >= 80 
+replace grupo_edad = 7 if EdadGE >= 60 & EdadGE <= 79
+replace grupo_edad = 8 if EdadGE >= 80 
 label variable grupo_edad "Grupo de Edad"
-label define grupo_edad 1 "5 a 11 años" 2 "12-19 años" 3 "20-29 años" 4 "30-39 años" 5 "40-49 años" 6 "50-59 años" 7 "60-69 años" 8 "70-79 años" 9 "80 a más años"
+label define grupo_edad 1 "5 a 11 años" 2 "12-17 años" 3 "18-29 años" 4 "30-39 años" 5 "40-49 años" 6 "50-59 años" 7 "60-79 años" 8 "80 a más años"	
 label values grupo_edad grupo_edad
 tab grupo_edad
 
@@ -53,15 +52,15 @@ merge 1:1 grupo_edad using "${datos}\temporal\vacunados_segunda", nogen
 **merge 1:1 grupo_edad using "datos\temporal\vacunados_tercera", nogen
 
 gen objetivo = .
-replace objetivo = 178438 if grupo_edad == 1
-replace objetivo = 208903 if grupo_edad == 2
-replace objetivo = 263801 if grupo_edad == 3
-replace objetivo = 223780 if grupo_edad == 4
-replace objetivo = 181824 if grupo_edad == 5
-replace objetivo = 139437 if grupo_edad == 6
-replace objetivo = 91654 if grupo_edad == 7
-replace objetivo = 51166 if grupo_edad == 8
-replace objetivo = 27404 if grupo_edad == 9
+replace objetivo = 177961 if grupo_edad == 1
+replace objetivo = 154802 if grupo_edad == 2
+replace objetivo = 318123 if grupo_edad == 3
+replace objetivo = 228775 if grupo_edad == 4
+replace objetivo = 187360 if grupo_edad == 5
+replace objetivo = 143692 if grupo_edad == 6
+replace objetivo = 150666 if grupo_edad == 7
+replace objetivo = 31271 if grupo_edad == 8
+
 		
 gen dos_dosis = dos/objetivo*100
 gen brecha_primera_segunda = uno/objetivo*100
