@@ -15,7 +15,7 @@ replace grupo_edad = 4 if EdadGE >= 30 & EdadGE <= 39
 replace grupo_edad = 5 if EdadGE >= 40 & EdadGE <= 49
 replace grupo_edad = 6 if EdadGE >= 50 & EdadGE <= 59
 replace grupo_edad = 7 if EdadGE >= 60 & EdadGE <= 79
-replace grupo_edad = 9 if EdadGE >= 80 
+replace grupo_edad = 8 if EdadGE >= 80 
 label variable grupo_edad "Grupo de EdadGE"
 label define grupo_edad 1 "5 a 11 años" 2 "12-17 años" 3 "18-29 años" 4 "30-39 años" 5 "40-49 años" 6 "50-59 años" 7 "60-79 años" 8 "80 a más años"	
 label values grupo_edad grupo_edad
@@ -52,7 +52,7 @@ save "${datos}\output\base_vacunados_variables.dta", replace
 
 forvalues i = 1/2 {
 
-forvalues j=1/9 {
+forvalues j=1/8 {
 preserve
 keep if dosis == `i'
 keep if grupo_edad == `j'
@@ -76,7 +76,7 @@ forvalues i=1/2 {
 
 	use "${datos}\temporal\vacunados_`i'_1.dta", clear
 
-		forvalues j = 2/9 {
+		forvalues j = 2/8 {
 
 		merge 1:1 provincia_residencia using "${datos}\temporal\vacunados_`i'_`j'.dta", nogen
 
@@ -214,7 +214,7 @@ replace objetivo_8 = 1696 if provincia_residencia == 13
 
 * Generar los porcentajes
 
-forvalues i=1/9 {
+forvalues i=1/8 {
 
 gen dos_dosis_`i' = numero_2_`i' /objetivo_`i'*100
 gen brecha_`i' = numero_1_`i'/objetivo_`i'*100
@@ -225,7 +225,7 @@ gen faltante_`i' = 100 - dos_dosis_`i' - brecha_`i'
 format dos_dosis_* brecha_* faltante_* %4.2f
 
 
-forvalues i=1/9 {
+forvalues i=1/8 {
 graph hbar dos_dosis_`i' brecha_`i' faltante_`i', ///
 over(provincia_residencia) stack ///
 plotregion(fcolor(white)) ///
