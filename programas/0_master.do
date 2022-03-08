@@ -150,9 +150,9 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/4b_figura_mort_edad_region"
 	*do "programas/4b_figura_mort_edad_region_2022"
 
-	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
-	do "programas/4c_figura_inci_mort_positi_provincial"
-*/
+	*do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
+	*do "programas/4c_figura_inci_mort_positi_provincial"
+
 
 /*
 	** Datos para los excesos de defunciones
