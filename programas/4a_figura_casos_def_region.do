@@ -34,7 +34,7 @@ twoway (line defuncion semana_2, lcolor("$mycolor2") lwidth(medthick)) ///
 	bgcolor(white) ///
 	ylabel(, nogrid) ///	
 	name(defunciones_2021, replace)
-/*
+
 gr export "figuras\defunciones_21.png", as(png) replace
 */
 /*
@@ -54,7 +54,7 @@ twoway (line defuncion semana_3, lcolor("$mycolor2") lwidth(medthick)) ///
 name(defunciones_2022, replace)
 */
 * 2020 y 2021
-
+/*
 graph combine defunciones_2020 defunciones_2021, ///
 graphregion(color(white)) ///
 name(defunciones_20_21_22, replace)
@@ -71,7 +71,7 @@ gr export "figuras\defunciones_20_21_22.pdf", as(pdf) name("defunciones_20_21_22
 twoway (line defuncion_d semana_2, lcolor("$mycolor6") lwidth(medthick) lpattern(longdash)) ///
 (scatter defuncion_d semana_2, msize(vsmall) mcolor("$mycolor6") mlabel(defuncion_d) mlabcolor("$mycolor2") mlabsize(tiny) connect() xline(1, lcolor("$mycolor1") lpattern(shortdash) lwidth(thick)) xline(13, lcolor("$mycolor2") lpattern(shortdash) lwidth(thick)) xline(15, lcolor("$mycolor3") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
  if semana_2 >=1 & semana_2<=$semana, ///
-	ylabel(-300(100)200, labsize(*0.6)) ///
+	ylabel(-500(100)200, labsize(*0.6)) ///
 	tlabel(1(4)$semana) ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("% Crecimiento de Defunciones") ///

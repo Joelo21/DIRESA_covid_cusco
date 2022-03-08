@@ -9,7 +9,7 @@
 
 use "${datos}/output/serie_semanal_provincias.dta", clear
 
-forvalues i=4/4 {
+forvalues i=1/13 {
 ********************************************************************************
 * Incidencia y Mortalidad por Provincias
 ********************************************************************************
@@ -54,7 +54,7 @@ gr export "figuras\incidencia_mortalidad_20_21_`i'.pdf", as(pdf) name("figura_20
 ********************************************************************************
 * Tasa de Positividad PCR y AG por Provincias
 ********************************************************************************
-
+/*
 *2020
 twoway (line positividad_pcr_`i' semana, lcolor("$mycolor5") lpattern(shortdash) ) ///
 (line positividad_ag_`i' semana,  lcolor("`r(p3)'")  lpattern(shortdash) ) ///
