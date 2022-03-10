@@ -29,7 +29,6 @@ graph export "figuras\uci.png", as(png) replace
 graph export "figuras\uci.pdf", as(pdf) replace
 
 
-
 * HOSPITALIZACIÓN PARA NIVEL III
 *-----------------------------------------------------
 

@@ -11,9 +11,9 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	*global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
 	*****CASA******
-	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	****TRABAJO****
 	*global path "E:\DIRESA\GERESA_covid_cusco"
 	
@@ -21,9 +21,9 @@ set more off
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	*global datos "G:\Mi unidad\Datos"
+	global datos "G:\Mi unidad\Datos"
 	****CASA******
-	global datos "E:\Mi unidad\Datos"
+	*global datos "E:\Mi unidad\Datos"
 	
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -95,35 +95,34 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/1h_base_sinadef_covid_2021"
 	do "programas/1h_base_sinadef_covid_2022"
 
-	*do "programas/1i_base_unir"
-	do "programas/1i_base_unir_2022"
+	do "programas/1i_base_unir"
+	*do "programas/1i_base_unir_2022"
 
-	do "programas/1j_datos_mapa_calor" // semanal
+	*do "programas/1j_datos_mapa_calor" // semanal
 	*do "programas/1j_datos_mapa_calor_2022"
 
 * 2. Generar datos a nivel regional y provincial
-	*do "programas/2a_series_diarias_region"
-	do "programas/2a_series_diarias_region_2022"
+	do "programas/2a_series_diarias_region"
+	*do "programas/2a_series_diarias_region_2022"
 
-	*do "programas/2b_series_diarias_provincias"
-	do "programas/2b_series_diarias_provincias_2022"
+	do "programas/2b_series_diarias_provincias"
+	*do "programas/2b_series_diarias_provincias_2022"
 
-	*do "programas/2c_panel_diario_provincias"
-	do "programas/2c_panel_diario_provincias_2022"
-
+	do "programas/2c_panel_diario_provincias"
+	*do "programas/2c_panel_diario_provincias_2022"
 
 * 3. Figuras para la "Sala Situacional COVID-19" diaria 
-	*do "programas/3a_figura_etapa_vida"
-	do "programas/3a_figura_etapa_vida_2022"
+	*do "programas/3a_figura_etapa_vida"--
+	*do "programas/3a_figura_etapa_vida_2022"
 
-	*do "programas/3b_figura_inci_morta_diario"
-	do "programas/3b_figura_inci_morta_diario_2022" 
+	*do "programas/3b_figura_inci_morta_diario"--
+	*do "programas/3b_figura_inci_morta_diario_2022" 
 
 	*do "programas/3c_figura_positividad"
-	*do "programas/3c_figura_positividad_2022"
+	*do "programas/3c_figura_positividad_2022"--
 
 	**do "programas/3d_figura_promedio_casos_def"
-	*do "programas/3d_figura_promedio_casos_def_2022"
+	*do "programas/3d_figura_promedio_casos_def_2022"--
 
 	do "programas/3e_sintomaticos"
 */
@@ -138,17 +137,15 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
 	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
 
-
-
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	*do "programas/2d_series_semanales_region" // Generar datos semanales region
 	*do "programas/2d_series_semanales_region_2022"
 	
 	*do "programas/4a_figura_casos_def_region"
-	*do "programas/4a_figura_casos_def_region_2022"
+	*do "programas/4a_figura_casos_def_region_2022"--
 
 	*do "programas/4b_figura_mort_edad_region"
-	*do "programas/4b_figura_mort_edad_region_2022"
+	*do "programas/4b_figura_mort_edad_region_2022"--
 
 	*do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	*do "programas/4c_figura_inci_mort_positi_provincial"

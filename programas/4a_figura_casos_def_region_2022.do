@@ -1,4 +1,4 @@
-
+			
 use "${datos}\output\serie_semanal_region_2022.dta", clear
 
 ********************************************************************************
@@ -43,11 +43,11 @@ name(defunciones_20_21_2022, replace)
 gr export "figuras\defunciones_20_21_2022.png", as(png) replace
 gr export "figuras\defunciones_20_21_2022.pdf", as(pdf) name("defunciones_20_21_2022") replace
 
-
+*/
 ********************************************************************************
 * Tasas de Crecimiento Semanal 2021
 ********************************************************************************
-
+/*
 twoway (line defuncion_d semana_2, lcolor("$mycolor6") lwidth(medthick) lpattern(longdash)) ///
 (scatter defuncion_d semana_2, msize(vsmall) mcolor("$mycolor6") mlabel(defuncion_d) mlabcolor("$mycolor2") mlabsize(tiny) connect() xline(1, lcolor("$mycolor1") lpattern(shortdash) lwidth(thick)) xline(13, lcolor("$mycolor2") lpattern(shortdash) lwidth(thick)) xline(15, lcolor("$mycolor3") lpattern(shortdash) lwidth(thick)) xline(23, lcolor("$mycolor4") lpattern(dash_dot) lwidth(thick))    lpattern(solid) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(mthick))) ///
  if semana_2 >=1 & semana_2<=$semana, ///
@@ -131,6 +131,7 @@ gr export "figuras\positivos_crecimiento_2021.pdf", as(pdf) name("positivos20_21
 ********************************************************************************
 * Sintomaticos y asintomaticos :: Cambiar positivo desde base_unir y poder contar con ag+pcr+pr solo para este grafico | por lo demas dejamos el mismo
 ********************************************************************************
+/*
 * 2020
 twoway (line sintomatico semana, lcolor("$mycolor4") lwidth(medthick) lpattern(dot)) ///
 (scatter sintomatico semana, msymbol(Th) msize(vsmall) mcolor("$mycolor4") mlabcolor("$mycolor2") mlabsize(tiny) connect()) ///
@@ -173,11 +174,12 @@ name(sintomaticos_20_21_2022, replace)
 
 gr export "figuras\sintomaticos_20_21_2022.png", as(png) replace
 gr export "figuras\sintomaticos_20_21_2022.pdf", as(pdf) name("sintomaticos_20_21_2022") replace
-	
-/*
+*/
+
 ********************************************************************************
 * Sintomaticos por tipo de prueba
 ********************************************************************************
+/*
 * 2020
 twoway (scatter sintomatico_pcr semana, msize(vsmall) mcolor("$mycolor5") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor5")) ///
 (scatter sintomatico_pr_sis semana, msize(vsmall) mcolor("$mycolor6") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor1")) ///

@@ -18,7 +18,7 @@ if semana >=11 & semana<=53, ///
 	title("2020", box bexpand bcolor("$mycolor3") color(white)) ///
 	bgcolor(white) ///
 	ylabel(, nogrid) ///	
-	name(defunciones_2020, replace)
+	name(defunciones_20, replace)
  
 * 2021
 twoway (line defuncion semana_2, lcolor("$mycolor2") lwidth(medthick)) ///
@@ -33,10 +33,11 @@ twoway (line defuncion semana_2, lcolor("$mycolor2") lwidth(medthick)) ///
 	title("2021 - 2022", box bexpand bcolor("$mycolor3") color(white)) ///
 	bgcolor(white) ///
 	ylabel(, nogrid) ///	
-	name(defunciones_2021, replace)
-
+	name(defunciones_21_22, replace)
+/*
 gr export "figuras\defunciones_21.png", as(png) replace
 */
+ 
 /*
 * 2022
 twoway (line defuncion semana_3, lcolor("$mycolor2") lwidth(medthick)) ///
@@ -54,13 +55,13 @@ twoway (line defuncion semana_3, lcolor("$mycolor2") lwidth(medthick)) ///
 name(defunciones_2022, replace)
 */
 * 2020 y 2021
-/*
+
 graph combine defunciones_2020 defunciones_2021, ///
 graphregion(color(white)) ///
-name(defunciones_20_21_22, replace)
+name(defunciones_semanales_20_21_22, replace)
 
-gr export "figuras\defunciones_20_21_22.png", as(png) replace
-gr export "figuras\defunciones_20_21_22.pdf", as(pdf) name("defunciones_20_21_22") replace
+gr export "figuras\defunciones_semanales_20_21_22.png", as(png) replace
+gr export "figuras\defunciones_semanales_20_21_22.pdf", as(pdf) name("defunciones_semanales_20_21_22") replace
 */
 
 ********************************************************************************
@@ -80,7 +81,7 @@ twoway (line defuncion_d semana_2, lcolor("$mycolor6") lwidth(medthick) lpattern
 	bgcolor(white) ///
 	ylabel(, nogrid) ///	
 	legend(off) ///
-	name(defunciones_21_22, replace)
+	name(defunciones_tasa_21_22, replace)
 /*
 *2022
 twoway (line defuncion_d semana_3, lcolor("$mycolor6") lwidth(medthick) lpattern(longdash)) ///
@@ -98,8 +99,8 @@ twoway (line defuncion_d semana_3, lcolor("$mycolor6") lwidth(medthick) lpattern
 	name(defunciones_tasa_2022, replace)
 */
 
-gr export "figuras\defunciones_crecimiento_21_22.png", as(png) replace
-gr export "figuras\defunciones_crecimiento_21_22.pdf", as(pdf) name("defunciones_21_22") replace
+gr export "figuras\defunciones_tasa_crecimiento_21_22.png", as(png) replace
+gr export "figuras\defunciones_tasa_crecimiento_21_22.pdf", as(pdf) name("defunciones_tasa_21_22") replace
 */
 
 ********************************************************************************
@@ -157,7 +158,7 @@ if semana >=11 & semana<=53, ///
 	title("2020", box bexpand bcolor("$mycolor3") color(white)) ///
 	bgcolor(white) ///
 	ylabel(, nogrid) ///	
-	name(positivos_2020, replace)
+	name(positivos_semanales_2020, replace)
 
 * 2021
 twoway (line positivo semana_2, lcolor("$mycolor6") lwidth(medthick)) ///
@@ -172,7 +173,7 @@ if semana_2 >=1 & semana_2<=$semana, ///
 	title("2021 - 2022", box bexpand bcolor("$mycolor3") color(white)) ///
 	bgcolor(white) ///
 	ylabel(, nogrid) ///	
-	name(positivos_2021_2022, replace)
+	name(positivos_semanales_2021_2022, replace)
 
 /*
 * 2022
@@ -188,16 +189,16 @@ if semana_2 >=1 & semana_3<=$semana, ///
 	title("2022", box bexpand bcolor("$mycolor3") color(white)) ///
 	bgcolor(white) ///
 	ylabel(, nogrid) ///	
-	name(positivos_2022, replace)
+	name(positivos_semanales_2022, replace)
 */
 
 * 2020 y 2021
-graph combine positivos_2020 positivos_2021_2022, ///
+graph combine positivos_semanales_2020 positivos_semanales_2021_2022, ///
 graphregion(color(white)) ///
-name(positivos_20_21_22, replace)
+name(positivos_semanales_2021_2022	, replace)
 
-gr export "figuras\positivos_20_21_22.png", as(png) replace
-gr export "figuras\positivos_20_21_22.pdf", as(pdf) name("positivos_20_21_22") replace
+gr export "figuras\positivos_semanales_20_21_22.png", as(png) replace
+gr export "figuras\positivos_semanales_20_21_22.pdf", as(pdf) name("positivos_semanales_2021_2022") replace
 */
 ********************************************************************************
 * Sintomaticos y asintomaticos : +PR
@@ -365,6 +366,7 @@ if semana_2>=1 & semana_2 <=$semana										///
 
 graph export "figuras\positividad_ag.pdf", as(pdf) replace
 */
+
 /*
 *2022
 *PCR

@@ -10,3 +10,4 @@ sort tipo_prueba
 drop if fecha_resultado < 21987  
 
 save "${datos}\output\data_dashboard.dta", replace
+

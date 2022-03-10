@@ -27,7 +27,6 @@ sum exceso if semana == $semana
 local exceso_actual = r(mean)
 
 * Graficamos
-
 twoway (line de_19 semana, yaxis(1) yscale(range(0) axis(1)) lcolor("$mycolor3")) ///
 (line de_21 semana, yaxis(1) yscale(range(0) axis(1)) lcolor("$mycolor2")) ///
 if semana>=1 & semana <=$semana ///
