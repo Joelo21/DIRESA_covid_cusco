@@ -82,6 +82,7 @@ graph export "figuras\positividad_diaria_2021_2022.png", as(png) replace
 ********************************************************************************
 * Tasa de Incidencia
 ********************************************************************************
+/*
 * Graficos 
 gen total_positivos = positivo_pcr + positivo_ag
 gen poblacion_cusco= 1357498

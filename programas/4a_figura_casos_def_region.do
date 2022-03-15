@@ -56,7 +56,7 @@ name(defunciones_2022, replace)
 */
 * 2020 y 2021
 
-graph combine defunciones_2020 defunciones_2021, ///
+graph combine defunciones_20 defunciones_21_22, ///
 graphregion(color(white)) ///
 name(defunciones_semanales_20_21_22, replace)
 

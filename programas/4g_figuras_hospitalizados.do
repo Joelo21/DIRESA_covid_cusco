@@ -102,6 +102,6 @@ if semana_3 >=1 & semana_3 <=52, ///
 	graphregion (color(white)) ///
 	name(hospilizados_21_22_`i', replace)
 	
-	gr export "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco\figuras\hospilizados_21_22_`i'.png", as(png) replace
+	gr export "figuras\hospilizados_21_22_`i'.png", as(png) replace
 	
 }

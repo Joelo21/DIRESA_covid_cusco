@@ -10,11 +10,11 @@ replace ESTADOVACUNA= 2 if fecha_ultima_vacuna !=.
 replace dosis = 0 if dosis ==.
 
 **Obtener datos 2022
-drop if fecha_sinadef <d(01jul2021)
+*drop if fecha_sinadef <d(01jul2021)
 drop if fallecidos !=1
 drop if dni == ""
 
-/*
+
 **Cantidad de Dosis
 gen dosis0 = .
 replace dosis0 = 1 if dosis == 0
@@ -24,14 +24,14 @@ gen dosis2 = .
 replace dosis2 = 1 if dosis == 2
 gen dosis3 = .
 replace dosis3 = 1 if dosis == 3
-*/
 
+/*
 *Fecha de Ingreso
 preserve
 collapse (count) fallecidos, by(fecha_sinadef)
 rename fecha_sinadef FECHA
 gen total_fallecidos = sum(fallecidos)
-
+*/
 
 save "${datos}\output\base_fallecidos_vacunados.dta", replace
 
