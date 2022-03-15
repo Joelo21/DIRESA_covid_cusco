@@ -11,9 +11,9 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	*global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
 	*****CASA******
-	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	****TRABAJO****
 	*global path "E:\DIRESA\GERESA_covid_cusco"
 	
@@ -21,9 +21,9 @@ set more off
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	*global datos "G:\Mi unidad\Datos"
+	global datos "G:\Mi unidad\Datos"
 	****CASA******
-	global datos "E:\Mi unidad\Datos"
+	*global datos "E:\Mi unidad\Datos"
 	
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -33,7 +33,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 14mar2022
+global fecha 15mar2022
 global semana 62
 
 * Tiempo de corrida: alrededor de 7 minutos
@@ -118,7 +118,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/3b_figura_inci_morta_diario"--
 	*do "programas/3b_figura_inci_morta_diario_2022" 
 
-	do "programas/3c_figura_positividad"
+	*do "programas/3c_figura_positividad"
 	*do "programas/3c_figura_positividad_2022"--
 
 	**do "programas/3d_figura_promedio_casos_def"
@@ -151,7 +151,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/4c_figura_inci_mort_positi_provincial"
 
 
-/*
+
 	** Datos para los excesos de defunciones
 	*do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
 	do "programas/1m_datos_defunciones_2020_2021_regional"

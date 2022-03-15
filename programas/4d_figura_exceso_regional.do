@@ -50,7 +50,7 @@ text(180 $semana "{it:Exceso:`exceso_actual'}", place(n) box just(left) margin(l
 *borrar y poner para soluconar problema
 *gen exceso = de_22 - de_19
 *Aqui cambia el # por cada semana#"
-sum exceso if semana == 9
+sum exceso if semana == 10
 local exceso_actual_2 = r(mean)
 
 * Graficamos
@@ -63,7 +63,7 @@ if semana>=1 & semana <=52 ///
   ylabel(0(100)400, labsize(*0.8)) ///
   graphregion(color(white)) ///
   legend(label(1 "2019") label(2 "2022") size(*0.8) region(col(white))) ///
-name(de21, replace) ///
+name(de22, replace) ///
 title("2022", box bexpand bcolor("$mycolor3") color(white)) ///
 bgcolor(white) xlabel(, nogrid) ylabel(, nogrid) ///
 text(180 49 "{it:Exceso:`exceso_actual_2'}", place(n) box just(left) margin(l+2 t+1 b+1) width(20) size(small) color(white) bcolor("$mycolor2") fcolor("$mycolor2"))
