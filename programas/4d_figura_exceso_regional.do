@@ -18,7 +18,6 @@ if semana>=1 & semana <=53 ///
   legend(label(1 "2019") label(2 "2020") size(*0.8) region(col(white))) ///
   title("2020", box bexpand bcolor("$mycolor3") color(white)) ///
   bgcolor(white) xlabel(, nogrid) ylabel(, nogrid)
-  
 
 * 2021
 *drop if semana > $semana
@@ -41,14 +40,15 @@ title("2021 - 2022", box bexpand bcolor("$mycolor3") color(white)) ///
 bgcolor(white) xlabel(, nogrid) ylabel(, nogrid) ///
 text(180 $semana "{it:Exceso:`exceso_actual'}", place(n) box just(left) margin(l+2 t+1 b+1) width(20) size(small) color(white) bcolor("$mycolor2") fcolor("$mycolor2"))
 */
+
 *gr export "figuras\exceso_region_21_22.png", as(png) replace
 *gr export "figuras\exceso_region_21_22.pdf", as(pdf) replace
 
 
 * 2022
-*drop if semana > $semana
-*borrar y poner para soluconar problema
-*gen exceso = de_22 - de_19
+drop if semana > $semana
+replace exceso = de_22 - de_19
+
 *Aqui cambia el # por cada semana#"
 sum exceso if semana == 10
 local exceso_actual_2 = r(mean)
