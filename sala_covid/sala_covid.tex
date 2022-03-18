@@ -112,17 +112,17 @@
 \usepackage{amsmath, amssymb}
 \usepackage{bbm}
 
-%Tables
-\usepackage{tabularx}
-\usepackage{multirow}
-\usepackage{multicol} 
-\usepackage{booktabs}%\usepackage{booktabs, calc} %This is the package to use to have nice-looking tables. More documentation on the tables in LateX: https://www.tug.org/pracjourn/2007-1/mori/mori.pdf
-\usepackage{threeparttable}  
-\usepackage[table]{xcolor}
-\usepackage{colortbl}
-\usepackage{lmodern}
-\usepackage{booktabs}
-\usepackage{pgfplots}
+	%Tables
+	\usepackage{tabularx}
+	\usepackage{multirow}
+	\usepackage{multicol} 
+	\usepackage{booktabs}%\usepackage{booktabs, calc} %This is the package to use to have nice-looking tables. More documentation on the tables in LateX: https://www.tug.org/pracjourn/2007-1/mori/mori.pdf
+	\usepackage{threeparttable}  
+	\usepackage[table]{xcolor}
+	\usepackage{colortbl}
+	\usepackage{lmodern}
+	\usepackage{booktabs}
+	\usepackage{pgfplots}
 
 % Count slides
 \setcounter{MaxMatrixCols}{10}
@@ -643,6 +643,48 @@ $\rightarrow$ {\color{mycolor5}Cusco}: Las defunciones representan un $5.03\% $ 
 	{\tiny Fuente de datos: SINADEF, Dirección Ejecutiva de Atención Integral de Salud.\\}
 	{\tiny Nota: Líneas punteadas (- -) es el inicio de la primera dosis de vacuna contra COVID-19 y línea continua (--) es el inicio de la segunda dosis en el respectivo grupo de edad. Nota 2: Las escalas en el eje y son diferentes.\\}
 	$\rightarrow$ {\small La tasa de mortalidad presenta descenso en el número de fallecidos. Se observa que en los grupos etarios que accedieron a la \textbf{\color{mycolor3}vacunación anticipada} presentaron menos número de fallecidos}  \hyperlink{indice}{\beamergotobutton{Índice}}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Tabla por Defunciones y Tasa de Letalidad Perú, 2020 - 2022}
+	\vspace{-.5cm}
+	
+	% en el input de las tablas sólo debe comenzar y terminar con tabular, borrar el tabular de input de la tabla
+	\begin{table}[]
+		\resizebox{\textwidth}{!}{%
+			\input{../tablas/tabla_letalidad_curso_vida.tex}
+		}
+	\end{table}	
+	{\tiny Fuente de datos: SISCOVID, NOTICOVID.}
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{Tabla por Casos y Tasa de Incidencia Perú, 2020 - 2022}
+	\vspace{-.5cm}
+	
+	% en el input de las tablas sólo debe comenzar y terminar con tabular, borrar el tabular de input de la tabla
+	\begin{table}[]
+		\resizebox{\textwidth}{!}{%
+			\input{../tablas/tabla_incidencia_curso_vida.tex}
+		}
+	\end{table}	
+	{\tiny Fuente de datos: SISCOVID, NOTICOVID.}
+	
+\end{frame}
+
+\begin{frame}
+	\frametitle{Tabla por Defunciones y Tasa de Mortalidad Perú, 2020 - 2022}
+	\vspace{-.5cm}
+	
+	% en el input de las tablas sólo debe comenzar y terminar con tabular, borrar el tabular de input de la tabla
+	\begin{table}[]
+		\resizebox{\textwidth}{!}{%
+			\input{../tablas/tabla_mortalidad_curso_vida.tex}
+		}
+	\end{table}	
+	{\tiny Fuente de datos: SISCOVID, NOTICOVID.}
+	
 \end{frame}
 %------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 % SECCIÓN 2: Indicadores Epidemiológicos, Región Cusco

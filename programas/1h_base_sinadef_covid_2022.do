@@ -59,7 +59,8 @@ replace dni = u1 if dni == ""
 duplicates drop dni, force
 
 
-keep dni fecha_sinadef defuncion sexo edad distrito departamento provincia ubigeo direccion
+keep dni fecha_sinadef defuncion sexo edad distrito departamento provincia ubigeo
+
 
 *Unir datos 2021
 append using "${datos}\output/base_sinadef_2021.dta", force

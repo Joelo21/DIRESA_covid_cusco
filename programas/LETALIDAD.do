@@ -1,7 +1,7 @@
 ********************************************************************************
 *TASA DE LETALIDAD AÑOS 2020 / 2021 / 2022
 ********************************************************************************
-/*
+
 *2020
 use "${datos}\output\base_covid.dta", clear
 *Generar categorias de las etapas de vida menores a 30 años
