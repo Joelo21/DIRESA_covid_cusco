@@ -11,17 +11,17 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
 	*****CASA******
-	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	global datos "G:\Mi unidad\Datos"
+	*global datos "G:\Mi unidad\Datos"
 	****CASA******
-	*global datos "E:\Mi unidad\Datos"
+	global datos "E:\Mi unidad\Datos"
 	
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -31,8 +31,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 15mar2022
-global semana 62
+global fecha 21mar2022
+global semana 63
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -96,7 +96,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/1i_base_unir"
 	*do "programas/1i_base_unir_2022"
 
-	do "programas/1j_datos_mapa_calor" // semanal
+	*do "programas/1j_datos_mapa_calor" // semanal
 	*do "programas/1j_datos_mapa_calor_2022"
 
 * 2. Generar datos a nivel regional y provincial
@@ -116,7 +116,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/3b_figura_inci_morta_diario"--
 	*do "programas/3b_figura_inci_morta_diario_2022" 
 
-	*do "programas/3c_figura_positividad"
+	do "programas/3c_figura_positividad"
 	*do "programas/3c_figura_positividad_2022"--
 
 	**do "programas/3d_figura_promedio_casos_def"
@@ -124,7 +124,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	do "programas/3e_sintomaticos"
 */
-
+x
 	* Para la actualización del Dashboard COVID-19 en la página web
 	*do "programas/1k_datos_dashboard"
 	** Cambiar la dirección si es necesario
