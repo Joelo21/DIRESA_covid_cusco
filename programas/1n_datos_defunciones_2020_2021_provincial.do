@@ -1,4 +1,4 @@
-
+ 
 import excel "${datos}\raw\base_sinadef_2020_2021_2022_total.xlsx", sheet(Data1) firstrow clear
 
 * Provincia

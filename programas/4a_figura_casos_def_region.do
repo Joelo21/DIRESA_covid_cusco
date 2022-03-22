@@ -104,7 +104,8 @@ gr export "figuras\defunciones_tasa_crecimiento_21_22.pdf", as(pdf) name("defunc
 */
 
 ********************************************************************************
-* Tasas de Crecimiento Semanal 2021
+* Tasa de Crecimiento Total de Casos por Semana
+********************************************************************************
 /*
 *2021
 twoway (line positivo_d semana_2, lcolor("$mycolor6") lwidth(medthick) lpattern(longdash)) ///
@@ -142,7 +143,7 @@ gr export "figuras\positivos_crecimiento_2021_2022.png", as(png) replace
 gr export "figuras\positivos_crecimiento_2021_2022.pdf", as(pdf) name("positivos_2020_21_22") replace
 */
 ********************************************************************************
-* Casos ::  +PR
+* Curva Total de Casos Positivos Semanales ::  +PR
 ********************************************************************************
 /*
 * 2020
@@ -201,7 +202,7 @@ gr export "figuras\positivos_semanales_20_21_22.png", as(png) replace
 gr export "figuras\positivos_semanales_20_21_22.pdf", as(pdf) name("positivos_semanales_2021_2022") replace
 */
 ********************************************************************************
-* Sintomaticos y asintomaticos : +PR
+* Curva de Sintomaticos y Asintomaticos Semanales : +PR
 ********************************************************************************
 /*
 * 2020
@@ -269,7 +270,7 @@ gr export "figuras\sintomaticos_20_21_22.pdf", as(pdf) name("sintomaticos_20_21_
 */
 
 ********************************************************************************
-* Sintomaticos por tipo de prueba  +PR
+* Curva Epidemica de Sintomaticos por tipo de prueba  +PR
 ********************************************************************************
 /*
 * 2020
@@ -288,8 +289,7 @@ if semana>=1 & semana<=53, ///
 	ylabel(, nogrid) ///	
 	name(sinto_prueba_2020, replace)
 
-* 2021
-  
+* 2021  
 twoway (scatter sintomatico_pcr semana_2, msize(vsmall) mcolor("$mycolor5") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor5")) ///
 (scatter sintomatico_pr_sis semana_2, msize(vsmall) mcolor("$mycolor6") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor1")) ///
 (scatter sintomatico_ag semana_2, msize(vsmall) mcolor("$mycolor3") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor3") ) ///
@@ -331,7 +331,7 @@ gr export "figuras\sinto_prueba_20_21_22.png", as(png) replace
 gr export "figuras\sinto_prueba_20_21_22.pdf", as(pdf) name("sinto_prueba_20_21_22") replace
 */
 ********************************************************************************
-* Tasa de Positividad por PCR y AG: 2021 - 2022
+* Tasa de Positividad Semanal por Tipo de Prueba PCR y AG: 2021 - 2022
 ********************************************************************************
 /*
 * PCR

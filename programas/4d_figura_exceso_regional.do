@@ -44,13 +44,15 @@ text(180 $semana "{it:Exceso:`exceso_actual'}", place(n) box just(left) margin(l
 *gr export "figuras\exceso_region_21_22.png", as(png) replace
 *gr export "figuras\exceso_region_21_22.pdf", as(pdf) replace
 
-
+********************************************************************************
+* Exceso de Defunciones por todas las Causas  2022
+********************************************************************************
 * 2022
 drop if semana > $semana
 replace exceso = de_22 - de_19
 
 *Aqui cambia el # por cada semana#"
-sum exceso if semana == 10
+sum exceso if semana == 11
 local exceso_actual_2 = r(mean)
 
 * Graficamos

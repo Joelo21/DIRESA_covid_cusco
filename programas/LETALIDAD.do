@@ -4,6 +4,7 @@
 
 *2020
 use "${datos}\output\base_covid.dta", clear
+
 *Generar categorias de las etapas de vida menores a 30 años
 gen grupo_edad = .
 replace grupo_edad = 1 if edad >= 0 & edad <= 5

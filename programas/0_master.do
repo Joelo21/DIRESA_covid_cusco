@@ -11,17 +11,17 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	*global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
 	*****CASA******
-	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	*global datos "G:\Mi unidad\Datos"
+	global datos "G:\Mi unidad\Datos"
 	****CASA******
-	global datos "E:\Mi unidad\Datos"
+	*global datos "E:\Mi unidad\Datos"
 	
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -124,16 +124,16 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	do "programas/3e_sintomaticos"
 */
-x
+
 	* Para la actualización del Dashboard COVID-19 en la página web
-	*do "programas/1k_datos_dashboard"
+	do "programas/1k_datos_dashboard"
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
-	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
+	do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
 	* Ocupación de camas (semanalmente)
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
-	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
+	do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
 
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	*do "programas/2d_series_semanales_region" // Generar datos semanales region
