@@ -32,7 +32,7 @@ set more off
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
 global fecha 21mar2022
-global semana 63
+global semana 64
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -74,7 +74,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-/*
+
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -93,12 +93,12 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/1h_base_sinadef_covid_2021"
 	do "programas/1h_base_sinadef_covid_2022"
 
-	do "programas/1i_base_unir"
-	*do "programas/1i_base_unir_2022"
+	*do "programas/1i_base_unir"
+	do "programas/1i_base_unir_2022"---
 
 	*do "programas/1j_datos_mapa_calor" // semanal
 	*do "programas/1j_datos_mapa_calor_2022"
-
+x
 * 2. Generar datos a nivel regional y provincial
 	do "programas/2a_series_diarias_region"
 	*do "programas/2a_series_diarias_region_2022"
@@ -126,14 +126,14 @@ gr export "figuras/paleta_colores.png", as(png) replace
 */
 
 	* Para la actualización del Dashboard COVID-19 en la página web
-	do "programas/1k_datos_dashboard"
+	*do "programas/1k_datos_dashboard"
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
-	do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
+	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
 	* Ocupación de camas (semanalmente)
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
-	do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
+	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
 
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	*do "programas/2d_series_semanales_region" // Generar datos semanales region
@@ -147,7 +147,6 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	*do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	*do "programas/4c_figura_inci_mort_positi_provincial"
-
 
 /*
 	** Datos para los excesos de defunciones
