@@ -22,19 +22,21 @@ sort fecha_resultado grupo_edad
 collapse (count) positivo defuncion, by (grupo_edad)
 sort grupo_edad
 
+*Datos Por Region
 *Letalidad
 gen letalidad= defuncion / positivo * 100
 format letalidad %9.2g
 *Mortalidad
 gen mortalidad = (defuncion / 1357498) * 1000000
 format mortalidad %9.2g
+*Incidencia
+gen pobl_regional = 1357498
+gen incidencia = positivo / pobl_regional * 1000000
+format incidencia %9.2g
 
 *Totales
 gen total_def = sum(defuncion)
 gen total_pos = sum(positivo)
-gen total_mor = total_def / 1357498 * 1000000
-gen total_let = total_def / total_pos * 100
-format total_mor total_let  %9.2g
 
 save "${datos}\output\letalidad_curso_vida_2020.dta", replace
 
@@ -59,19 +61,21 @@ sort fecha_resultado grupo_edad
 collapse (count) positivo defuncion, by (grupo_edad)
 sort grupo_edad
 
+*Datos Por Region
 *Letalidad
 gen letalidad= defuncion / positivo * 100
 format letalidad %9.2g
 *Mortalidad
 gen mortalidad = (defuncion / 1357498) * 1000000
 format mortalidad %9.2g
+*Incidencia
+gen pobl_regional = 1357498
+gen incidencia = positivo / pobl_regional * 1000000
+format incidencia %9.2g
 
 *Totales
 gen total_def = sum(defuncion)
 gen total_pos = sum(positivo)
-gen total_mor = total_def / 1357498 * 1000000
-gen total_let = total_def / total_pos * 100
-format total_mor total_let  %9.2g
 
 save "${datos}\output\letalidad_curso_vida_2021.dta", replace
 
@@ -98,18 +102,20 @@ sort grupo_edad
 collapse (count) positivo defuncion, by (grupo_edad)
 sort grupo_edad
 
+*Datos Por Region
 *Letalidad
 gen letalidad= defuncion / positivo * 100
 format letalidad %9.2g
 *Mortalidad
 gen mortalidad = (defuncion / 1357498) * 1000000
 format mortalidad %9.2g
+*Incidencia
+gen pobl_regional = 1357498
+gen incidencia = positivo / pobl_regional * 1000000
+format incidencia %9.2g
 
 *Totales
 gen total_def = sum(defuncion)
 gen total_pos = sum(positivo)
-gen total_mor = total_def / 1357498 * 1000000
-gen total_let = total_def / total_pos * 100
-format total_mor total_let  %9.2g
 
 save "${datos}\output\letalidad_curso_vida_2022.dta", replace

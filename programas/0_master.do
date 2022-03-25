@@ -130,10 +130,10 @@ x
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
-	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
+	do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
 	* Ocupación de camas (semanalmente)
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
-	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
+	do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
 
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	*do "programas/2d_series_semanales_region" // Generar datos semanales region
