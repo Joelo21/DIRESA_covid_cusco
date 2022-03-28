@@ -1,7 +1,7 @@
 * Cargar los datos 
-use "${datos}\output\defunciones_totales_region_2019.dta", clear
+use "${datos}\output\defunciones_totales_2020_2021.dta", clear
 
-merge 1:1 semana using "${datos}\output\defunciones_totales_2020_2021.dta", nogen
+merge 1:1 semana using "${datos}\output\defunciones_totales_region_2019.dta", nogen
 
 * Importante: No graficar la SE53 del 2019 porque no la tuvo
 /*
@@ -52,7 +52,7 @@ drop if semana > $semana
 replace exceso = de_22 - de_19
 
 *Aqui cambia el # por cada semana#"
-sum exceso if semana == 11
+sum exceso if semana == 12
 local exceso_actual_2 = r(mean)
 
 * Graficamos
