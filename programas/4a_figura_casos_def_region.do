@@ -204,7 +204,7 @@ gr export "figuras\positivos_semanales_20_21_22.pdf", as(pdf) name("positivos_se
 ********************************************************************************
 * Curva de Sintomaticos y Asintomaticos Semanales : +PR
 ********************************************************************************
-/*
+
 * 2020
 twoway (line sintomatico semana, lcolor("$mycolor4") lwidth(medthick) lpattern(dot)) ///
 (scatter sintomatico semana, msymbol(Th) msize(vsmall) mcolor("$mycolor4") mlabcolor("$mycolor2") mlabsize(tiny) connect()) ///
