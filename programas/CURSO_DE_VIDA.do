@@ -2,6 +2,7 @@
 *CURSO DE VIDA - TASA DE LETALIDAD POR 
 ********************************************************************************
 ******2020
+/*
 use "${datos}\output\base_covid.dta", clear
 **Generando Curso de Vida
 gen grupo_edad=.
@@ -78,7 +79,7 @@ gen total_def = sum(defuncion)
 gen total_pos = sum(positivo)
 
 save "${datos}\output\letalidad_curso_vida_2021.dta", replace
-
+*/
 ******2022
 use "${datos}\output\base_covid.dta", clear
 
