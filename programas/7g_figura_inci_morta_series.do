@@ -154,7 +154,7 @@ if semana >=1, ///
 	title("2021", box bexpand bcolor("$mycolor3") color(white)) ///
 	legend(label(1 "Acomayo") label(2 "Anta") label(3 "Calca")  label(4 "Canas")  label(5 "Canchis") label(6 "Chumbivilcas")  label(7 "Cusco")  label(8 "Espinar") label(9 "La Convención") label(10 "Quispicanchi") label(11 "Paruro") label(12 "Paucartambo") label(13 "Urubamba") size(*0.75) ring(0) position(11) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(morta_prov, replace)
 
-gr export "figuras\mortalidad_provincial_2021.png", as(png) replace
+*gr export "figuras\mortalidad_provincial_2021.png", as(png) replace
 gr export "figuras\mortalidad_provincial_2021.pdf", as(pdf) replace
 
 * Incidencia Pronvincial
@@ -181,5 +181,5 @@ if semana >=1, ///
 	title("2021", box bexpand bcolor("$mycolor3") color(white)) ///
 	legend(label(1 "Acomayo") label(2 "Anta") label(3 "Calca")  label(4 "Canas")  label(5 "Canchis") label(6 "Chumbivilcas")  label(7 "Cusco")  label(8 "Espinar") label(9 "La Convención") label(10 "Quispicanchi") label(11 "Paruro") label(12 "Paucartambo") label(13 "Urubamba") size(*0.75) ring(0) position(11) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(inci_provi, replace)
 	
-gr export "figuras\incidencia_provincial_2021.png", as(png) replace
+*gr export "figuras\incidencia_provincial_2021.png", as(png) replace
 gr export "figuras\incidencia_provincial_2021.pdf", as(pdf) replace

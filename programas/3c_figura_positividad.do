@@ -50,7 +50,7 @@ drop if semana > $semana
 drop if semana < 32
 drop if semana > 59
 */
-
+/*
 * Generamos las variables pertinentes.
 *gen positividad = positivo/prueba*100
 gen positividad_pcr = positivo_pcr/prueba_pcr*100
@@ -78,11 +78,11 @@ twoway (line positividad_pcr semana, lcolor("$mycolor6") lwidth(medthick)) ///
   /*text(80 $semana "{it:Actualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor4") fcolor("$mycolor4")) */name(tasa_positividad, replace)
 
 graph export "figuras\positividad_diaria_2021_2022.png", as(png) replace  
-
+*/
 ********************************************************************************
 * Tasa de Incidencia
 ********************************************************************************
-/*
+
 * Graficos 
 gen total_positivos = positivo_pcr + positivo_ag
 gen poblacion_cusco= 1357498
@@ -97,7 +97,9 @@ twoway ///
   ytitle("Tasa de Incidencia", size(*0.6)) ///
   ylabel(0(200)1600, labsize(*0.60)) ///
   xlabel(1(2)$semana, labsize(*0.60)) ///
+  /*
   xline(21471.9, lcolor("$mycolor7") lpattern(shortdash) lwidth(mthick)) ///
+  */ ///
   plotregion(fcolor(white) lcolor(white)) ///
   graphregion(fcolor(white) lcolor(white)) ///
   bgcolor(white) ///

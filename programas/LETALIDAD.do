@@ -1,7 +1,7 @@
 ********************************************************************************
 *TASA DE LETALIDAD AÑOS 2020 / 2021 / 2022
 ********************************************************************************
-
+/*
 *2020
 use "${datos}\output\base_covid.dta", clear
 
@@ -43,7 +43,6 @@ keep if grupo_edad !=.
 sort fecha_resultado grupo_edad
 
 *Fecha Resultado
-preserve
 collapse (count) positivo defuncion, by (grupo_edad)
 sort grupo_edad
 
@@ -67,7 +66,6 @@ keep if grupo_edad !=.
 sort grupo_edad
 
 *Fecha Resultado
-preserve
 collapse (count) positivo defuncion, by (grupo_edad)
 sort grupo_edad
 gen letalidad= defuncion / positivo * 100

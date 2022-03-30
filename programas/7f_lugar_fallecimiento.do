@@ -78,6 +78,6 @@ bgcolor(white) ///
 ylabel(, nogrid) ///
 ytitle("Defunciones (%)")
 
-graph export "figuras\lugar_defuncion.png", as(png) replace
+*graph export "figuras\lugar_defuncion.png", as(png) replace
 graph export "figuras\lugar_defuncion.pdf", as(pdf) replace
 

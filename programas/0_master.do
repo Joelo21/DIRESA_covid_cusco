@@ -93,21 +93,21 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/1h_base_sinadef_covid_2021"
 	do "programas/1h_base_sinadef_covid_2022"
 
-	do "programas/1i_base_unir"
-	*do "programas/1i_base_unir_2022"---
+	*do "programas/1i_base_unir"
+	*do "programas/1i_base_unir_2022"----
 
 	*do "programas/1j_datos_mapa_calor" // semanal
 	*do "programas/1j_datos_mapa_calor_2022"
 
 * 2. Generar datos a nivel regional y provincial
-	do "programas/2a_series_diarias_region"
-	*do "programas/2a_series_diarias_region_2022"
+	*do "programas/2a_series_diarias_region"
+	do "programas/2a_series_diarias_region_2022"
 
-	do "programas/2b_series_diarias_provincias"
-	*do "programas/2b_series_diarias_provincias_2022"
+	*do "programas/2b_series_diarias_provincias"
+	do "programas/2b_series_diarias_provincias_2022"
 
-	do "programas/2c_panel_diario_provincias"
-	*do "programas/2c_panel_diario_provincias_2022"
+	*do "programas/2c_panel_diario_provincias"
+	do "programas/2c_panel_diario_provincias_2022"
 
 * 3. Figuras para la "Sala Situacional COVID-19" diaria 
 	*do "programas/3a_figura_etapa_vida"--
@@ -146,7 +146,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/4b_figura_mort_edad_region_2022"--
 
 	*do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
-	do "programas/4c_figura_inci_mort_positi_provincial"
+	*do "programas/4c_figura_inci_mort_positi_provincial"
 
 /*
 	** Datos para los excesos de defunciones
@@ -188,7 +188,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\6c_figura_vacunacion_provincias"	
 */
 	
-/*
+
 * 7. Figuras para el "Boletin COVID-19" Mensual
 	do "programas\7a_base_noticovid_2021_variables"
 	*do "programas\7b_base_siscovid_pr_2021_variables"
@@ -196,7 +196,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\7d_unir_bases"
 	do "programas\7e_figura_sintomas_comorbilidad"
 	do "programas\7f_lugar_fallecimiento"
-	do "programas\7g_figura_inci_morta_series"
+	*do "programas\7g_figura_inci_morta_series"
 	do "programas\7g_figura_inci_morta_series_2022"
 */
 

@@ -80,7 +80,7 @@ bgcolor(white) ///
 ylabel(, nogrid) ///
 name(sintomas, replace)
 
-graph export "figuras\figura_sintoma.png", as(png) name("sintomas") replace
+*graph export "figuras\figura_sintoma.png", as(png) name("sintomas") replace
 graph export "figuras\figura_sintoma.pdf", as(pdf) name("sintomas") replace
 
 ********************************************************************************
@@ -150,7 +150,7 @@ bgcolor(white) ///
 ylabel(, nogrid) ///
 name(comorbilidad, replace)
 
-graph export "figuras\figura_comorbilidad.png", as(png) name("comorbilidad") replace
+*graph export "figuras\figura_comorbilidad.png", as(png) name("comorbilidad") replace
 graph export "figuras\figura_comorbilidad.pdf", as(pdf) name("comorbilidad") replace
 
 
@@ -215,5 +215,5 @@ bgcolor(white) ///
 ylabel(, nogrid) ///
 name(signo, replace)
 
-graph export "figuras\figura_signo.png", as(png) name("signo") replace
+*graph export "figuras\figura_signo.png", as(png) name("signo") replace
 graph export "figuras\figura_signo.pdf", as(pdf) name("signo") replace
