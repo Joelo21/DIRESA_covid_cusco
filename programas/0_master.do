@@ -14,7 +14,6 @@ set more off
 	global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
 	*****CASA******
 	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
-	
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible

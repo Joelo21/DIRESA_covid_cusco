@@ -44,7 +44,6 @@ replace Limite1 = 100 * Limite1
 replace Limite2 = 100 * Limite2 
 
 * Cambiamos el formato de la variable ocupacion_per, de tal forma que se redondeen los valores.
-
 format ocupacion_per %12.0fc
 
 * Generamos una variable (var1) que escale y deflacte los valores en función del valor mayor de la original (/417*100).
@@ -59,9 +58,9 @@ twoway (bar disponibilidad semana, yaxis(1) yscale(range(0) axis(1) off)  barwid
 (line Limite2 semana , lcolor("$mycolor2") lpattern(dash) sort yaxis(2) yscale(range(0) axis(2) off)) ///
 (scatter disponibilidad semana, msymbol(none) mlabel(disponibilidad) mlabcolor("$mycolor4") mlabsize(*0.75) mlabposition(.3))				///
 (scatter ocupacion_per semana, msymbol(none) mlabel(ocupacion_per) mlabcolor("$mycolor3") mlabsize(*0.75) mlabposition(0.3) sort yaxis(2) yscale(range(0) axis(2) off)) ///
-if semana>=1 & semana <=$semana									///
+if semana>=32 & semana <=$semana									///
   ,xtitle("Semanas Epidemológicas", size(*0.7)) 				///
-  xlabel(1(1)$semana, labsize(*0.40)) /// 
+  xlabel(32(1)$semana, labsize(*0.40)) /// 
   graphregion(color(white)) ///
   legend(cols(4) label(1 "Total de camas") label (4 "Límite 1: 75%") label(5 "Límite 2: 90%") label(6 "") label(2 "") label(3 "Ocupación (%)") size(*0.6) order(1 4 5 3) region(lcolor("$mycolor2"))  region(col(white))) ///
   bgcolor(white) ylabel(, nogrid) name(nivel_3, replace)
@@ -99,10 +98,10 @@ twoway (bar disponibilidad semana, yaxis(1) yscale(range(0) axis(1) off)  barwid
 (line Limite2 semana , lcolor("$mycolor2") lpattern(dash) sort yaxis(2) yscale(range(0) axis(2) off)) ///
 (scatter disponibilidad semana, msymbol(none) mlabel(disponibilidad) mlabcolor("$mycolor7") mlabsize(*0.75) mlabposition(.3))				///
 (scatter ocupacion_per semana, msymbol(none) mlabel(ocupacion_per) mlabcolor(black) mlabsize(*0.75) mlabposition(.3) sort yaxis(2) yscale(range(0) axis(2) off)) ///
-if semana>=1 & semana <=$semana								///
+if semana>=32 & semana <=$semana								///
   ,xtitle("Semanas Epidemológicas", size(*0.7) color("`r(p1)'")) 				///
   ylabel(0(100)400, labsize(*0.6)) ///
-  xlabel(1(1)$semana, labsize(*0.40)) ///
+  xlabel(32(1)$semana, labsize(*0.40)) ///
   graphregion(color(white)) ///
   legend(cols(4) label(1 "Total de camas") label (4 "Límte 1: 75%") label(5 "Límte 2: 90%") label(6 "") label(2 "") label(3 "Ocupación (%)") size(*0.7) order(1 4 5 3) region(lcolor(black))  region(col(white))) ///
   bgcolor(white) ylabel(, nogrid)  name(nivel_2, replace)

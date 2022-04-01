@@ -1,7 +1,7 @@
 ********************************************************************************
 *TASA DE LETALIDAD AÑOS 2020 / 2021 / 2022
 ********************************************************************************
-/*
+
 *2020
 use "${datos}\output\base_covid.dta", clear
 
@@ -72,6 +72,7 @@ gen letalidad= defuncion / positivo * 100
 format letalidad %9.2g
 save "${datos}\output\letalidad_2022.dta", replace
 */
+/*
 ********************************************************************************
 *Grafico Letalidad
 use "${datos}\output\base_covid.dta", clear
