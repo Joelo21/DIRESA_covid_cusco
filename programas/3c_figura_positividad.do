@@ -44,13 +44,13 @@ drop if semana > $semana
 label define semana 53 "1" 54 "2" 55 "3" 56 "4" 57 "5" 58 "6" 59 "7" 60 "8" 61 "9" 
 label values semana semana
 
-/*
+
 *Datos recorte BOLETIN MENSUAL
 drop if semana > $semana
 drop if semana < 32
-drop if semana > 59
+drop if semana > 64
 */
-/*
+
 * Generamos las variables pertinentes.
 *gen positividad = positivo/prueba*100
 gen positividad_pcr = positivo_pcr/prueba_pcr*100
@@ -69,7 +69,7 @@ twoway (line positividad_pcr semana, lcolor("$mycolor6") lwidth(medthick)) ///
   xtitle("Semanas Epidemiológicas", size(*0.6)) ///
   ytitle("Tasa de Positividad (%)", size(*0.6)) ///
   ylabel(0(10)80, labsize(*0.60)) ///
-  xlabel(1(2)$semana, labsize(*0.60)) ///
+  xlabel(32(2)$semana, labsize(*0.60)) ///
   plotregion(fcolor(white) lcolor(white)) ///
   graphregion(fcolor(white) lcolor(white)) ///
   bgcolor(white) ///
@@ -96,7 +96,7 @@ twoway ///
   xtitle("Semanas Epidemiológicas", size(*0.6)) ///
   ytitle("Tasa de Incidencia", size(*0.6)) ///
   ylabel(0(200)1600, labsize(*0.60)) ///
-  xlabel(1(2)$semana, labsize(*0.60)) ///
+  xlabel(32(2)$semana, labsize(*0.60)) ///
   /*
   xline(21471.9, lcolor("$mycolor7") lpattern(shortdash) lwidth(mthick)) ///
   */ ///

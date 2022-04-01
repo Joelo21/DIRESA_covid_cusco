@@ -188,7 +188,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\6c_figura_vacunacion_provincias"	
 */
 	
-
+/*
 * 7. Figuras para el "Boletin COVID-19" Mensual
 	do "programas\7a_base_noticovid_2021_variables"
 	*do "programas\7b_base_siscovid_pr_2021_variables"
