@@ -7,5 +7,5 @@
 \contentsline {chapter}{Evaluación para Provincias Priorizadas}{35}{section*.37}%
 \contentsline {chapter}{Variantes de COVID-19}{64}{section*.94}%
 \contentsline {chapter}{Defunciones Cero}{67}{section*.97}%
-\contentsline {chapter}{Agradecimientos}{68}{section*.99}%
-\contentsline {chapter}{Diseño y Edición}{69}{chapter*.100}%
+\contentsline {chapter}{Agradecimientos}{68}{table.caption.98}%
+\contentsline {chapter}{Diseño y Edición}{69}{chapter*.99}%
