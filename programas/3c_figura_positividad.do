@@ -21,35 +21,21 @@ replace semana = 1 if numero >= 1 & numero <= 7
 replace semana = semana[_n-7] + 1 if numero > 7
 
 *collapse (mean) positivo positivo_pcr positivo_pr positivo_ag prueba prueba_pcr prueba_pr prueba_ag, by(semana)
-
 *recode positivo* (0=.)
 
 collapse (mean) positivo_pcr positivo_ag  prueba_pcr prueba_ag, by(semana)
 
-*drop if positivo == 0
-
+*drop if positivo == 0 
 *save "${datos}\output\data_diaria_acumulado.dta", replace
-
-*use "datos\output\data_diaria_acumulado.dta", clear
+*use "${datos}\output\data_diaria_acumulado.dta", clear
 
 label var semana "Semana Epidemiológica"
-
 *drop if semana < 53
-
 *replace semana = _n 
 
 drop if semana > $semana
-
-
-label define semana 53 "1" 54 "2" 55 "3" 56 "4" 57 "5" 58 "6" 59 "7" 60 "8" 61 "9" 
+label define semana 53 "1" 54 "2" 55 "3" 56 "4" 57 "5" 58 "6" 59 "7" 60 "8" 61 "9" 62 "10" 63 "11" 64 "12" 65 "13", replace
 label values semana semana
-
-
-*Datos recorte BOLETIN MENSUAL
-drop if semana > $semana
-drop if semana < 32
-drop if semana > 64
-*/
 
 * Generamos las variables pertinentes.
 *gen positividad = positivo/prueba*100
@@ -60,16 +46,17 @@ gen positividad_ag = positivo_ag/prueba_ag*100
 format positividad_pcr positividad_pcr %12.0fc
 format positividad_pcr positividad_ag %12.0fc
 
+
 * Graficamos
 twoway (line positividad_pcr semana, lcolor("$mycolor6") lwidth(medthick)) ///
 (line positividad_ag semana, lcolor("$mycolor7") lwidth(medthick) lpattern(solid)) ///
 (scatter positividad_pcr semana, msymbol(none) mlabel(positividad_pcr) mlabcolor("$mycolor6") mlabsize(*0.9) mlabposition(12)) ///
 (scatter positividad_ag semana, msymbol(i) mlabel(positividad_ag) mlabcolor("$mycolor7") mlabsize(*0.9) mlabposition(12)) ///
-  ,  ysize(5) xsize(6.1) ///
-  xtitle("Semanas Epidemiológicas", size(*0.6)) ///
+  if semana>=32 & semana <=$semana ///
+  ,xtitle("Semanas Epidemiológicas", size(*0.6)) ///
   ytitle("Tasa de Positividad (%)", size(*0.6)) ///
   ylabel(0(10)80, labsize(*0.60)) ///
-  xlabel(32(2)$semana, labsize(*0.60)) ///
+  xlabel(32(2)$semana 53 "1" 54 "2" 55 "3" 56 "4" 57 "5" 58 "6" 59 "7" 60 "8" 61 "9" 62 "10" 63 "11" 64 "12" 65 "13", labsize(*0.60)) ///
   plotregion(fcolor(white) lcolor(white)) ///
   graphregion(fcolor(white) lcolor(white)) ///
   bgcolor(white) ///
@@ -78,7 +65,7 @@ twoway (line positividad_pcr semana, lcolor("$mycolor6") lwidth(medthick)) ///
   /*text(80 $semana "{it:Actualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor4") fcolor("$mycolor4")) */name(tasa_positividad, replace)
 
 graph export "figuras\positividad_diaria_2021_2022.png", as(png) replace  
-*/
+
 ********************************************************************************
 * Tasa de Incidencia
 ********************************************************************************
@@ -92,11 +79,11 @@ format tasa_incidencia tasa_incidencia %12.0fc
 twoway ///
 (line tasa_incidencia semana, lcolor("$mycolor6") lwidth() lpattern(solid)) ///
 (scatter tasa_incidencia semana, msymbol(none) mlabel(tasa_incidencia) mlabcolor("$mycolor3") mlabsize(*0.6) mlabposition(12)) ///
-  , ysize(5) xsize(6.1) ///
-  xtitle("Semanas Epidemiológicas", size(*0.6)) ///
+  if semana>=1 & semana <=$semana ///
+  ,xtitle("Semanas Epidemiológicas", size(*0.6)) ///
   ytitle("Tasa de Incidencia", size(*0.6)) ///
   ylabel(0(200)1600, labsize(*0.60)) ///
-  xlabel(32(2)$semana, labsize(*0.60)) ///
+  xlabel(1(2)$semana 53 "1" 54 "2" 55 "3" 56 "4" 57 "5" 58 "6" 59 "7" 60 "8" 61 "9" 62 "10" 63 "11" 64 "12" 65 "13", labsize(*0.60)) ///
   /*
   xline(21471.9, lcolor("$mycolor7") lpattern(shortdash) lwidth(mthick)) ///
   */ ///
