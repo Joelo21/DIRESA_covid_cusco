@@ -4,7 +4,7 @@ use "${datos}\output\serie_semanal_region.dta", clear
 ********************************************************************************
 * Defunciones Semanales por COVID-19
 ********************************************************************************
-
+/*
 * 2020
 twoway (line defuncion semana, lcolor("$mycolor2") lwidth(medthick)) ///
 (scatter defuncion semana, msize(vsmall) mcolor("$mycolor2") mlabel(defuncion) mlabcolor("$mycolor3") mlabsize(tiny) connect() xline(52, lcolor("$mycolor1") lpattern(longdash) lwidth(thick))) ///
@@ -63,7 +63,7 @@ name(defunciones_semanales_20_21_22, replace)
 gr export "figuras\defunciones_semanales_20_21_22.png", as(png) replace
 gr export "figuras\defunciones_semanales_20_21_22.pdf", as(pdf) name("defunciones_semanales_20_21_22") replace
 
-
+*/
 ********************************************************************************
 * Tasas de Crecimiento Semanal 2021
 ********************************************************************************

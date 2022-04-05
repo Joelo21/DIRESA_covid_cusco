@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.28)  4 APR 2022 14:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.28)  5 APR 2022 10:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2230,12 +2230,12 @@ nput line 1095.
 [61
 
  <../figuras/vacunacion_provincial_edad_1.pdf>]
-<../figuras/sinto_prueba20_21_1.png, id=966, 1269.74374pt x 923.45pt>
+<../figuras/sinto_prueba20_21_1.png, id=966, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_1.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_1.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_1.png  used on input line
  1106.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [62
 
  <../figuras/sinto_prueba20_21_1.png (PNG copy)>]
@@ -2281,12 +2281,12 @@ Package pdftex.def Info: ../figuras/exceso_1.pdf  used on input line 1135.
 [65
 
  <../figuras/exceso_1.pdf>]
-<../figuras/sinto_prueba20_21_2.png, id=1020, 1269.74374pt x 923.45pt>
+<../figuras/sinto_prueba20_21_2.png, id=1020, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_2.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_2.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_2.png  used on input line
  1146.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [66
 
  <../figuras/sinto_prueba20_21_2.png (PNG copy)>]
@@ -2332,12 +2332,12 @@ Package pdftex.def Info: ../figuras/exceso_2.pdf  used on input line 1175.
 [69
 
  <../figuras/exceso_2.pdf>]
-<../figuras/sinto_prueba20_21_3.png, id=1075, 1269.74374pt x 923.45pt>
+<../figuras/sinto_prueba20_21_3.png, id=1075, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_3.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_3.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_3.png  used on input line
  1186.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [70
 
  <../figuras/sinto_prueba20_21_3.png (PNG copy)>]
@@ -2383,12 +2383,12 @@ Package pdftex.def Info: ../figuras/exceso_3.pdf  used on input line 1215.
 [73
 
  <../figuras/exceso_3.pdf>]
-<../figuras/sinto_prueba20_21_4.png, id=1130, 1269.74374pt x 923.45pt>
+<../figuras/sinto_prueba20_21_4.png, id=1130, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_4.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_4.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_4.png  used on input line
  1226.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [74
 
  <../figuras/sinto_prueba20_21_4.png (PNG copy)>]
@@ -2434,12 +2434,12 @@ Package pdftex.def Info: ../figuras/exceso_4.pdf  used on input line 1255.
 [77
 
  <../figuras/exceso_4.pdf>]
-<../figuras/sinto_prueba20_21_5.png, id=1184, 1269.74374pt x 923.45pt>
+<../figuras/sinto_prueba20_21_5.png, id=1184, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_5.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_5.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_5.png  used on input line
  1266.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [78
 
  <../figuras/sinto_prueba20_21_5.png (PNG copy)>]
@@ -2455,22 +2455,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{Canchis}) has
                    \relax 
 l.1275 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_5.png, id=1194, 1269.74374pt x 923.45pt
+<../figuras/incidencia_mortalidad_20_21_5.png, id=1194, 1274.7625pt x 927.465pt
 >
 File: ../figuras/incidencia_mortalidad_20_21_5.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_5.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_5.png  used on 
 input line 1275.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [79
 
  <../figuras/incidencia_mortalidad_20_21_5.png (PNG copy)>]
-<../figuras/positividad_20_21_5.png, id=1203, 1269.74374pt x 923.45pt>
+<../figuras/positividad_20_21_5.png, id=1203, 1274.7625pt x 927.465pt>
 File: ../figuras/positividad_20_21_5.png Graphic file (type png)
 <use ../figuras/positividad_20_21_5.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_5.png  used on input line
  1284.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [80
 
  <../figuras/positividad_20_21_5.png (PNG copy)>]
@@ -2485,12 +2485,12 @@ Package pdftex.def Info: ../figuras/exceso_5.pdf  used on input line 1295.
 [81
 
  <../figuras/exceso_5.pdf>]
-<../figuras/sinto_prueba20_21_6.png, id=1239, 1269.74374pt x 923.45pt>
+<../figuras/sinto_prueba20_21_6.png, id=1239, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_6.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_6.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_6.png  used on input line
  1306.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [82
 
  <../figuras/sinto_prueba20_21_6.png (PNG copy)>]
@@ -2506,22 +2506,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{Chumbivilcas}
                    \relax 
 l.1315 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_6.png, id=1249, 1269.74374pt x 923.45pt
+<../figuras/incidencia_mortalidad_20_21_6.png, id=1249, 1274.7625pt x 927.465pt
 >
 File: ../figuras/incidencia_mortalidad_20_21_6.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_6.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_6.png  used on 
 input line 1315.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [83
 
  <../figuras/incidencia_mortalidad_20_21_6.png (PNG copy)>]
-<../figuras/positividad_20_21_6.png, id=1257, 1269.74374pt x 923.45pt>
+<../figuras/positividad_20_21_6.png, id=1257, 1274.7625pt x 927.465pt>
 File: ../figuras/positividad_20_21_6.png Graphic file (type png)
 <use ../figuras/positividad_20_21_6.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_6.png  used on input line
  1324.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [84
 
  <../figuras/positividad_20_21_6.png (PNG copy)>]
@@ -2536,12 +2536,12 @@ Package pdftex.def Info: ../figuras/exceso_6.pdf  used on input line 1335.
 [85
 
  <../figuras/exceso_6.pdf>]
-<../figuras/sinto_prueba20_21_7.png, id=1294, 1269.74374pt x 923.45pt>
+<../figuras/sinto_prueba20_21_7.png, id=1294, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_7.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_7.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_7.png  used on input line
  1346.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [86
 
  <../figuras/sinto_prueba20_21_7.png (PNG copy)>]
@@ -2557,22 +2557,22 @@ een already used, duplicate ignored
                    \relax 
 l.1355 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_7.png, id=1304, 1269.74374pt x 923.45pt
+<../figuras/incidencia_mortalidad_20_21_7.png, id=1304, 1274.7625pt x 927.465pt
 >
 File: ../figuras/incidencia_mortalidad_20_21_7.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_7.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_7.png  used on 
 input line 1355.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [87
 
  <../figuras/incidencia_mortalidad_20_21_7.png (PNG copy)>]
-<../figuras/positividad_20_21_7.png, id=1312, 1269.74374pt x 923.45pt>
+<../figuras/positividad_20_21_7.png, id=1312, 1274.7625pt x 927.465pt>
 File: ../figuras/positividad_20_21_7.png Graphic file (type png)
 <use ../figuras/positividad_20_21_7.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_7.png  used on input line
  1364.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [88
 
  <../figuras/positividad_20_21_7.png (PNG copy)>]
@@ -2587,12 +2587,12 @@ Package pdftex.def Info: ../figuras/exceso_7.pdf  used on input line 1375.
 [89
 
  <../figuras/exceso_7.pdf>]
-<../figuras/sinto_prueba20_21_8.png, id=1348, 1269.74374pt x 923.45pt>
+<../figuras/sinto_prueba20_21_8.png, id=1348, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_8.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_8.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_8.png  used on input line
  1386.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [90
 
  <../figuras/sinto_prueba20_21_8.png (PNG copy)>]
@@ -2608,22 +2608,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{Espinar}) has
                    \relax 
 l.1395 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_8.png, id=1358, 1269.74374pt x 923.45pt
+<../figuras/incidencia_mortalidad_20_21_8.png, id=1358, 1274.7625pt x 927.465pt
 >
 File: ../figuras/incidencia_mortalidad_20_21_8.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_8.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_8.png  used on 
 input line 1395.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [91
 
  <../figuras/incidencia_mortalidad_20_21_8.png (PNG copy)>]
-<../figuras/positividad_20_21_8.png, id=1367, 1269.74374pt x 923.45pt>
+<../figuras/positividad_20_21_8.png, id=1367, 1274.7625pt x 927.465pt>
 File: ../figuras/positividad_20_21_8.png Graphic file (type png)
 <use ../figuras/positividad_20_21_8.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_8.png  used on input line
  1404.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [92
 
  <../figuras/positividad_20_21_8.png (PNG copy)>]
@@ -2638,31 +2638,31 @@ Package pdftex.def Info: ../figuras/exceso_8.pdf  used on input line 1415.
 [93
 
  <../figuras/exceso_8.pdf>]
-<../figuras/sinto_prueba20_21_9.png, id=1403, 1269.74374pt x 923.45pt>
+<../figuras/sinto_prueba20_21_9.png, id=1403, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_9.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_9.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_9.png  used on input line
  1427.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [94
 
  <../figuras/sinto_prueba20_21_9.png (PNG copy)>]
-<../figuras/incidencia_mortalidad_20_21_9.png, id=1413, 1269.74374pt x 923.45pt
+<../figuras/incidencia_mortalidad_20_21_9.png, id=1413, 1274.7625pt x 927.465pt
 >
 File: ../figuras/incidencia_mortalidad_20_21_9.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_9.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_9.png  used on 
 input line 1435.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [95
 
  <../figuras/incidencia_mortalidad_20_21_9.png (PNG copy)>]
-<../figuras/positividad_20_21_9.png, id=1422, 1269.74374pt x 923.45pt>
+<../figuras/positividad_20_21_9.png, id=1422, 1274.7625pt x 927.465pt>
 File: ../figuras/positividad_20_21_9.png Graphic file (type png)
 <use ../figuras/positividad_20_21_9.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_9.png  used on input line
  1444.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [96
 
  <../figuras/positividad_20_21_9.png (PNG copy)>]
@@ -2677,12 +2677,12 @@ Package pdftex.def Info: ../figuras/exceso_9.pdf  used on input line 1455.
 [97
 
  <../figuras/exceso_9.pdf>]
-<../figuras/sinto_prueba20_21_10.png, id=1459, 1269.74374pt x 923.45pt>
+<../figuras/sinto_prueba20_21_10.png, id=1459, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_10.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_10.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_10.png  used on input lin
 e 1466.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [98
 
  <../figuras/sinto_prueba20_21_10.png (PNG copy)>]
@@ -2698,22 +2698,22 @@ been already used, duplicate ignored
                    \relax 
 l.1475 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_10.png, id=1469, 1269.74374pt x 923.45p
+<../figuras/incidencia_mortalidad_20_21_10.png, id=1469, 1274.7625pt x 927.465p
 t>
 File: ../figuras/incidencia_mortalidad_20_21_10.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_10.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_10.png  used on
  input line 1475.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [99
 
  <../figuras/incidencia_mortalidad_20_21_10.png (PNG copy)>]
-<../figuras/positividad_20_21_10.png, id=1477, 1269.74374pt x 923.45pt>
+<../figuras/positividad_20_21_10.png, id=1477, 1274.7625pt x 927.465pt>
 File: ../figuras/positividad_20_21_10.png Graphic file (type png)
 <use ../figuras/positividad_20_21_10.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_10.png  used on input lin
 e 1484.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [100
 
  <../figuras/positividad_20_21_10.png (PNG copy)>]
@@ -2728,12 +2728,12 @@ Package pdftex.def Info: ../figuras/exceso_10.pdf  used on input line 1495.
 [101
 
  <../figuras/exceso_10.pdf>]
-<../figuras/sinto_prueba20_21_11.png, id=1513, 1269.74374pt x 923.45pt>
+<../figuras/sinto_prueba20_21_11.png, id=1513, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_11.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_11.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_11.png  used on input lin
 e 1506.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [102
 
  <../figuras/sinto_prueba20_21_11.png (PNG copy)>]
@@ -2749,22 +2749,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{Paucartambo})
                    \relax 
 l.1515 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_11.png, id=1523, 1269.74374pt x 923.45p
+<../figuras/incidencia_mortalidad_20_21_11.png, id=1523, 1274.7625pt x 927.465p
 t>
 File: ../figuras/incidencia_mortalidad_20_21_11.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_11.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_11.png  used on
  input line 1515.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [103
 
  <../figuras/incidencia_mortalidad_20_21_11.png (PNG copy)>]
-<../figuras/positividad_20_21_11.png, id=1532, 1269.74374pt x 923.45pt>
+<../figuras/positividad_20_21_11.png, id=1532, 1274.7625pt x 927.465pt>
 File: ../figuras/positividad_20_21_11.png Graphic file (type png)
 <use ../figuras/positividad_20_21_11.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_11.png  used on input lin
 e 1524.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [104
 
  <../figuras/positividad_20_21_11.png (PNG copy)>]
@@ -2779,12 +2779,12 @@ Package pdftex.def Info: ../figuras/exceso_11.pdf  used on input line 1535.
 [105
 
  <../figuras/exceso_11.pdf>]
-<../figuras/sinto_prueba20_21_12.png, id=1568, 1269.74374pt x 923.45pt>
+<../figuras/sinto_prueba20_21_12.png, id=1568, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_12.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_12.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_12.png  used on input lin
 e 1547.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [106
 
  <../figuras/sinto_prueba20_21_12.png (PNG copy)>]
@@ -2800,22 +2800,22 @@ pdfTeX warning (ext4): destination with the same identifier (name{Quispicanchi}
                    \relax 
 l.1556 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_12.png, id=1578, 1269.74374pt x 923.45p
+<../figuras/incidencia_mortalidad_20_21_12.png, id=1578, 1274.7625pt x 927.465p
 t>
 File: ../figuras/incidencia_mortalidad_20_21_12.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_12.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_12.png  used on
  input line 1556.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [107
 
  <../figuras/incidencia_mortalidad_20_21_12.png (PNG copy)>]
-<../figuras/positividad_20_21_12.png, id=1586, 1269.74374pt x 923.45pt>
+<../figuras/positividad_20_21_12.png, id=1586, 1274.7625pt x 927.465pt>
 File: ../figuras/positividad_20_21_12.png Graphic file (type png)
 <use ../figuras/positividad_20_21_12.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_12.png  used on input lin
 e 1565.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [108
 
  <../figuras/positividad_20_21_12.png (PNG copy)>]
@@ -2830,12 +2830,12 @@ Package pdftex.def Info: ../figuras/exceso_12.pdf  used on input line 1576.
 [109
 
  <../figuras/exceso_12.pdf>]
-<../figuras/sinto_prueba20_21_13.png, id=1623, 1269.74374pt x 923.45pt>
+<../figuras/sinto_prueba20_21_13.png, id=1623, 1274.7625pt x 927.465pt>
 File: ../figuras/sinto_prueba20_21_13.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_13.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_13.png  used on input lin
 e 1587.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [110
 
  <../figuras/sinto_prueba20_21_13.png (PNG copy)>]
@@ -2851,24 +2851,24 @@ s been already used, duplicate ignored
                    \relax 
 l.1596 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_13.png, id=1633, 1269.74374pt x 923.45p
+<../figuras/incidencia_mortalidad_20_21_13.png, id=1633, 1274.7625pt x 927.465p
 t>
 File: ../figuras/incidencia_mortalidad_20_21_13.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_13.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_13.png  used on
  input line 1596.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
 LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 1596.
  [111
 
  <../figuras/incidencia_mortalidad_20_21_13.png (PNG copy)>]
-<../figuras/positividad_20_21_13.png, id=1641, 1269.74374pt x 923.45pt>
+<../figuras/positividad_20_21_13.png, id=1641, 1274.7625pt x 927.465pt>
 File: ../figuras/positividad_20_21_13.png Graphic file (type png)
 <use ../figuras/positividad_20_21_13.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_13.png  used on input lin
 e 1605.
-(pdftex.def)             Requested size: 245.83282pt x 174.92677pt.
+(pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
  [112
 
  <../figuras/positividad_20_21_13.png (PNG copy)>]
@@ -3025,7 +3025,7 @@ fonts/symbols/msam10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/newpx/npxsups-Regular.pfb><C:/Users/DEI-02/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/newpx/zplb.pfb><C:/Users/DEI-02/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/newpx/zplr.pfb>
-Output written on sala_covid.pdf (119 pages, 13256546 bytes).
+Output written on sala_covid.pdf (119 pages, 13235225 bytes).
 PDF statistics:
  1912 PDF objects out of 2073 (max. 8388607)
  345 named destinations out of 1000 (max. 500000)

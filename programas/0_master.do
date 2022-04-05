@@ -72,8 +72,8 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 4. Referencias y Contrareferencias: ocupación de camas UCI, no-UCI, UCIN, en los hospitales de la Región
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
-/*
-/*
+
+
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -92,21 +92,22 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/1h_base_sinadef_covid_2021"
 	do "programas/1h_base_sinadef_covid_2022"
 
-	*do "programas/1i_base_unir"
+	do "programas/1i_base_unir"
 	*do "programas/1i_base_unir_2022"----
 
 	*do "programas/1j_datos_mapa_calor" // semanal
-	*do "programas/1j_datos_mapa_calor_2022"
+	do "programas/1j_datos_mapa_calor_2022"
 
 * 2. Generar datos a nivel regional y provincial
-	*do "programas/2a_series_diarias_region"
-	do "programas/2a_series_diarias_region_2022"
+	do "programas/2a_series_diarias_region"
+	*do "programas/2a_series_diarias_region_2022"
 
-	*do "programas/2b_series_diarias_provincias"
-	do "programas/2b_series_diarias_provincias_2022"
+	do "programas/2b_series_diarias_provincias"
+	*do "programas/2b_series_diarias_provincias_2022"
 
-	*do "programas/2c_panel_diario_provincias"
-	do "programas/2c_panel_diario_provincias_2022"
+	do "programas/2c_panel_diario_provincias"
+	*do "programas/2c_panel_diario_provincias_2022"
+
 
 * 3. Figuras para la "Sala Situacional COVID-19" diaria 
 	*do "programas/3a_figura_etapa_vida"--
@@ -122,9 +123,9 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/3d_figura_promedio_casos_def_2022"--
 
 	do "programas/3e_sintomaticos"
-*/
+
 	* Para la actualización del Dashboard COVID-19 en la página web
-	do "programas/1k_datos_dashboard"
+	**do "programas/1k_datos_dashboard"
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
@@ -152,12 +153,12 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/1m_datos_defunciones_2020_2021_regional"
 	do "programas/1n_datos_defunciones_2020_2021_provincial"
 	
-	*do "programas/4d_figura_exceso_regional"
-	*do "programas/4e_figura_exceso_provincial"
+	do "programas/4d_figura_exceso_regional"
+	do "programas/4e_figura_exceso_provincial"
 
 
 	* Graficos Hospitalización
-	do "programas/4f_figuras_hospitales"
+	**do "programas/4f_figuras_hospitales"
 	
 	*Data Hospitalizados diarios
 	*do "programas/4g_figuras_hospitalizados"
@@ -168,9 +169,9 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/4j_datos_altas_fallecidos_vacunados"
 	
 	* Tabla cero defunciones
-	do "programas\4z_tabla_cero_defunciones.do"
+	**do "programas\4z_tabla_cero_defunciones.do"
 
-
+/*
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
