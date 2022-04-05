@@ -6,7 +6,7 @@
 \contentsline {chapter}{Análisis de Indicadores}{16}{section*.13}%
 \contentsline {chapter}{Evaluación para Provincias Priorizadas}{35}{section*.37}%
 \contentsline {chapter}{Variantes de COVID-19}{64}{section*.94}%
-\contentsline {chapter}{Resumen de Indicadores Covid19}{67}{section*.97}%
-\contentsline {chapter}{Defunciones Cero}{69}{section*.99}%
-\contentsline {chapter}{Agradecimientos}{70}{table.caption.100}%
-\contentsline {chapter}{Diseño y Edición}{71}{chapter*.101}%
+\contentsline {chapter}{Defunciones Cero}{67}{section*.97}%
+\contentsline {chapter}{Resumen de Indicadores Covid19}{68}{section*.99}%
+\contentsline {chapter}{Agradecimientos}{69}{table.caption.100}%
+\contentsline {chapter}{Diseño y Edición}{70}{chapter*.101}%
