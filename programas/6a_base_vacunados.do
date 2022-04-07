@@ -1,4 +1,3 @@
-
 import delimited "${datos}\raw\vacunacovid.csv", varnames(1) encoding(UTF-8)  clear
 
 * DNI
@@ -45,7 +44,6 @@ keep if dosis == 1 | dosis == 2 | dosis == 3
 rename fecha_vacuna fecha_ultima_vacuna
 
 * Aumentar provincias
-
 * Poner los ubigeos correctos
 
 * Convertir a numerico para borrar ubigeos de otros departamentos
