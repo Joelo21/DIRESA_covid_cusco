@@ -30,7 +30,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 07apr2022
+global fecha 08apr2022
 global semana 66
 
 * Tiempo de corrida: alrededor de 7 minutos
