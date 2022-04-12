@@ -8,7 +8,7 @@
 *-------------------------------------------------------------------------------%
 
 * Importar la base de datos
-use "${datos}\output\data_panel_provincial_2022.dta", clear
+use "${datos}\output\data_panel_provincial_2020_2021_2022.dta", clear
 
 fillin fecha provincia_ubigeo
 

@@ -34,7 +34,7 @@ label var semana "Semana Epidemiológica"
 *replace semana = _n 
 
 drop if semana > $semana
-label define semana 53 "1" 54 "2" 55 "3" 56 "4" 57 "5" 58 "6" 59 "7" 60 "8" 61 "9" 62 "10" 63 "11" 64 "12" 65 "13", replace
+label define semana 53 "1" 54 "2" 55 "3" 56 "4" 57 "5" 58 "6" 59 "7" 60 "8" 61 "9" 62 "10" 63 "11" 64 "12" 65 "13" 66"14" 67"15", replace
 label values semana semana
 
 * Generamos las variables pertinentes.
