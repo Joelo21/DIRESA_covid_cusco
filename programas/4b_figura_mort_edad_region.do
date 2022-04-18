@@ -293,7 +293,7 @@ twoway (line mortalidad_1 semana_2, lcolor("$mycolor1") lwidth(medthick)) ///
 (line mortalidad_9 semana_2, lcolor("$mycolor5") lwidth(medthick) lpattern(dash_dot)) ///
 if semana_2 >=1, ///
 	ylabel(0(3)24, labsize(*0.6)) ///
-	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13", labsize(*0.6)) ///
+	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13" 67 "15", labsize(*0.6)) ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
 	ytitle("Mortalidad (defunciones/población*10,000)") ///
 	graphregion(color(white)) ///
@@ -310,7 +310,7 @@ gr export "figuras\mortalidad_edad_2021_2022.pdf", as(pdf) replace
 twoway (line mortalidad_9 semana_2, lcolor("$mycolor5") lwidth(medthick) lpattern(dash_dot) xline(17, lcolor("$mycolor5") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
 if semana_2 >=1, ///
 	ylabel(0(1)24, labsize(*0.6)) ///
-	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13") ///
+	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13" 67 "15") ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
 	ytitle("Mortalidad (defunciones/población*10,000)") ///
 	graphregion(color(white)) ///
@@ -325,7 +325,7 @@ gr export "figuras\mortalidad_edad_80.pdf", as(pdf) replace
 twoway (line mortalidad_8 semana_2, lcolor("$mycolor4") lwidth(medthick) lpattern(dash) xline(19, lcolor("$mycolor4") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
 if semana_2 >=1, ///
 	ylabel(0(1)12, labsize(*0.6)) ///
-	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13") ///
+	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13" 67 "15") ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
 	ytitle("Mortalidad (defunciones/población*10,000)") ///
 	graphregion(color(white)) ///
@@ -340,7 +340,7 @@ gr export "figuras\mortalidad_edad_70.pdf", as(pdf) replace
 twoway (line mortalidad_7 semana_2, lcolor("$mycolor3") lwidth(medthick) lpattern(dash) xline(22, lcolor("$mycolor3") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
 if semana_2 >=1, ///
 	ylabel(0(1)6, labsize(*0.6)) ///
-	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13") ///
+	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13" 67 "15") ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
 	ytitle("Mortalidad (defunciones/población*10,000)") ///
 	graphregion(color(white)) ///
@@ -355,7 +355,7 @@ gr export "figuras\mortalidad_edad_60.pdf", as(pdf) replace
 twoway (line mortalidad_6 semana_2, lcolor("$mycolor2") lwidth(medthick) lpattern(dash) xline(27, lcolor("$mycolor2") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
 if semana_2 >=1, ///
 	ylabel(0(1)4, labsize(*0.6)) ///
-	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13") ///
+	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13" 67 "15") ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
 	ytitle("Mortalidad (defunciones/población*10,000)") ///
 	graphregion(color(white)) ///
@@ -371,7 +371,7 @@ gr export "figuras\mortalidad_edad_50.pdf", as(pdf) replace
 twoway (line mortalidad_5 semana_2, lcolor("$mycolor1") lwidth(medthick) lpattern(dash) xline(28, lcolor("$mycolor1") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick)) ) ///
 if semana_2 >=1, ///
 	ylabel(0(1)2, labsize(*0.6)) ///
-	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13") ///
+	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13" 67 "15") ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
 	ytitle("Mortalidad (defunciones/población*10,000)") ///
 	graphregion(color(white)) ///
@@ -385,7 +385,7 @@ gr export "figuras\mortalidad_edad_40.pdf", as(pdf) replace
 twoway (line mortalidad_4 semana_2, lcolor("$mycolor4") lwidth(medthick) xline(32, lcolor("$mycolor4") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
 if semana_2 >=1, ///
 	ylabel(0(1)1, labsize(*0.6)) ///
-	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13") ///
+	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13" 67 "15") ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
 	ytitle("Mortalidad (defunciones/población*10,000)") ///
 	graphregion(color(white)) ///
@@ -399,7 +399,7 @@ gr export "figuras\mortalidad_edad_30.pdf", as(pdf) replace
 twoway (line mortalidad_3 semana_2, lcolor("$mycolor4") lwidth(medthick) xline(37, lcolor("$mycolor4") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
 if semana_2 >=1, ///
 	ylabel(0(.1).5, labsize(*0.6)) ///
-	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13") ///
+	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13" 67 "15") ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
 	ytitle("Mortalidad (defunciones/población*10,000)") ///
 	graphregion(color(white)) ///
@@ -413,7 +413,7 @@ gr export "figuras\mortalidad_edad_20.pdf", as(pdf) replace
 twoway (line mortalidad_2 semana_2, lcolor("$mycolor7") lwidth(medthick) xline(41, lcolor("$mycolor4") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
 if semana_2 >=1, ///
 	ylabel(0(.1).5, labsize(*0.6)) ///
-	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13") ///
+	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13" 67 "15") ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
 	ytitle("Mortalidad (defunciones/población*10,000)") ///
 	graphregion(color(white)) ///
@@ -427,7 +427,7 @@ gr export "figuras\mortalidad_edad_10.pdf", as(pdf) replace
 twoway (line mortalidad_1 semana_2, lcolor("$mycolor2") lwidth(medthick) xline(57, lcolor("$mycolor4") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
 if semana_2 >=1, ///
 	ylabel(0(.1).5, labsize(*0.6)) ///
-	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13") ///
+	tlabel(1(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13" 67 "15") ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
 	ytitle("Mortalidad (defunciones/población*10,000)") ///
 	graphregion(color(white)) ///

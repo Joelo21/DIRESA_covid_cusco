@@ -1,6 +1,6 @@
 
 use "${datos}\output\base_vacunados", clear
-merge m:1 ubigeo using "${datos}\output\ubigeos"
+*merge m:1 ubigeo using "${datos}\output\ubigeos"
 
 drop if EdadGE < 5
 drop if missing(EdadGE)
@@ -22,22 +22,22 @@ label values grupo_edad grupo_edad
 tab grupo_edad
 
 * Añadir el distrito de Kimpirushiato a LC
-replace provincia = "LA CONVENCION" if ubigeo == "080915"
+*replace provincia = "LA CONVENCION" if ubigeo == "080915"
 
 gen provincia_residencia =.
-replace provincia_residencia = 1 if provincia == "ACOMAYO"
-replace provincia_residencia = 2 if provincia == "ANTA"
-replace provincia_residencia = 3 if provincia == "CALCA"
-replace provincia_residencia = 4 if provincia == "CANAS"
-replace provincia_residencia = 5 if provincia == "CANCHIS"
-replace provincia_residencia = 6 if provincia == "CHUMBIVILCAS"
-replace provincia_residencia = 7 if provincia == "CUSCO"
-replace provincia_residencia = 8 if provincia == "ESPINAR"
-replace provincia_residencia = 9 if provincia == "LA CONVENCION"
-replace provincia_residencia = 10 if provincia == "PARURO"
-replace provincia_residencia = 11 if provincia == "PAUCARTAMBO"
-replace provincia_residencia = 12 if provincia == "QUISPICANCHI"
-replace provincia_residencia = 13 if provincia == "URUBAMBA"
+replace provincia_residencia = 1 if prov == "ACOMAYO"
+replace provincia_residencia = 2 if prov == "ANTA"
+replace provincia_residencia = 3 if prov == "CALCA"
+replace provincia_residencia = 4 if prov == "CANAS"
+replace provincia_residencia = 5 if prov == "CANCHIS"
+replace provincia_residencia = 6 if prov == "CHUMBIVILCAS"
+replace provincia_residencia = 7 if prov == "CUSCO"
+replace provincia_residencia = 8 if prov == "ESPINAR"
+replace provincia_residencia = 9 if prov == "LA CONVENCION"
+replace provincia_residencia = 10 if prov == "PARURO"
+replace provincia_residencia = 11 if prov == "PAUCARTAMBO"
+replace provincia_residencia = 12 if prov == "QUISPICANCHI"
+replace provincia_residencia = 13 if prov == "URUBAMBA"
 label variable provincia_residencia "provincia de residencia"
 label define provincia_residencia 1 "Acomayo" 2 "Anta" 3 "Calca" 4 "Canas" 5 "Canchis" 6 "Chumbivilcas" 7 "Cusco" 8 "Espinar" 9 "La Convención" 10 "Paruro" 11 "Paucartambo" 12 "Quispicanchi" 13 "Urubambda"
 label values provincia_residencia provincia_residencia

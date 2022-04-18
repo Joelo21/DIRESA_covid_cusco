@@ -46,7 +46,7 @@ rename fecha_vacuna fecha_ultima_vacuna
 * Aumentar provincias
 * Poner los ubigeos correctos
 
-* Convertir a numerico para borrar ubigeos de otros departamentos
+/** Convertir a numerico para borrar ubigeos de otros departamentos
 destring ubigeo, replace force 
 * Mantener solo de Cusco
 keep if ubigeo>=70000 & ubigeo <80000
@@ -57,10 +57,11 @@ replace ubigeo = ubigeo + 10000
 tostring ubigeo, replace force
 * Incluir un cero 
 replace ubigeo = "0"+ubigeo
+*/
 * Normalizar los ubigeo como sale en el nacional
 *replace ubigeo = subinstr(ubigeo,"07","08",.)
 
-keep dni fecha_nacimiento fecha_ultima_vacuna dosis yrint edad EdadGE ubigeo
+*keep dni fecha_nacimiento fecha_ultima_vacuna dosis yrint edad EdadGE ubigeo
 
 destring EdadGE, replace force
 destring edad, replace force
