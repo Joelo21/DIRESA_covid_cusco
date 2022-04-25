@@ -22,7 +22,7 @@ tab grupo_edad
 
 * Contar cuántos son
 * IMPORTANTE: Las personas con tres dosis se cuentan en personas con dos dosis
-*replace dosis = 2 if dosis == 3
+replace dosis = 2 if dosis == 3
 
 preserve 
 gen numero = _n
