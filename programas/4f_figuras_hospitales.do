@@ -21,7 +21,7 @@ twoway (bar var1 semana, yaxis(1) yscale(range(0) axis(1) off)  barwidth(0.5 0.8
 (scatter ocupacion_per semana, msymbol(none) mlabel(ocupacion_per) mlabcolor(dark) mlabsize(*0.75) mlabposition(.3)) ///
 if semana>=32 & semana <=$semana									///
   ,xtitle("Semanas Epidemológicas", size(*0.7)) 				///
-  xlabel(32(1)$semana 53 "1" 54 "2" 55 "3" 56 "4" 57 "5" 58 "6" 59 "7" 60 "8" 61 "9" 62 "10" 63 "11" 64 "12" 65 "13" 66 "14" 67 "15", labsize(*0.40)) ///
+  xlabel(32(1)$semana 53 "1" 54 "2" 55 "3" 56 "4" 57 "5" 58 "6" 59 "7" 60 "8" 61 "9" 62 "10" 63 "11" 64 "12" 65 "13" 66 "14" 67 "15" 68 "16", labsize(*0.40)) ///
   graphregion(color(white)) ///
   legend(cols(4) label(1 "Total de camas") label (4 "Ocupación (%)") label(5 "Límte 1: 75%") 	label(6 "Límite 2: 90%") label(2 "") label(3 "") size(*0.6) order(1 4 5 6) region(lcolor("$mycolor2"))  region(col(white))) ///
   bgcolor(white) ylabel(, nogrid)  name(uci, replace)
@@ -61,7 +61,7 @@ twoway (bar disponibilidad semana, yaxis(1) yscale(range(0) axis(1) off)  barwid
 (scatter ocupacion_per semana, msymbol(none) mlabel(ocupacion_per) mlabcolor("$mycolor3") mlabsize(*0.75) mlabposition(0.3) sort yaxis(2) yscale(range(0) axis(2) off)) ///
 if semana>=32 & semana <=$semana									///
   ,xtitle("Semanas Epidemológicas", size(*0.7)) 				///
-  xlabel(32(1)$semana 53 "1" 54 "2" 55 "3" 56 "4" 57 "5" 58 "6" 59 "7" 60 "8" 61 "9" 62 "10" 63 "11" 64 "12" 65 "13" 66 "14" 67 "15", labsize(*0.40)) /// 
+  xlabel(32(1)$semana 53 "1" 54 "2" 55 "3" 56 "4" 57 "5" 58 "6" 59 "7" 60 "8" 61 "9" 62 "10" 63 "11" 64 "12" 65 "13" 66 "14" 67 "15" 68 "16", labsize(*0.40)) /// 
   graphregion(color(white)) ///
   legend(cols(4) label(1 "Total de camas") label (4 "Límite 1: 75%") label(5 "Límite 2: 90%") label(6 "") label(2 "") label(3 "Ocupación (%)") size(*0.6) order(1 4 5 3) region(lcolor("$mycolor2"))  region(col(white))) ///
   bgcolor(white) ylabel(, nogrid) name(nivel_3, replace)
@@ -102,7 +102,7 @@ twoway (bar disponibilidad semana, yaxis(1) yscale(range(0) axis(1) off)  barwid
 if semana>=32 & semana <=$semana								///
   ,xtitle("Semanas Epidemológicas", size(*0.7) color("`r(p1)'")) 				///
   ylabel(0(100)400, labsize(*0.6)) ///
-  xlabel(32(1)$semana 53 "1" 54 "2" 55 "3" 56 "4" 57 "5" 58 "6" 59 "7" 60 "8" 61 "9" 62 "10" 63 "11" 64 "12" 65 "13" 66 "14" 67 "15", labsize(*0.40)) ///
+  xlabel(32(1)$semana 53 "1" 54 "2" 55 "3" 56 "4" 57 "5" 58 "6" 59 "7" 60 "8" 61 "9" 62 "10" 63 "11" 64 "12" 65 "13" 66 "14" 67 "15" 68 "16", labsize(*0.40)) ///
   graphregion(color(white)) ///
   legend(cols(4) label(1 "Total de camas") label (4 "Límte 1: 75%") label(5 "Límte 2: 90%") label(6 "") label(2 "") label(3 "Ocupación (%)") size(*0.7) order(1 4 5 3) region(lcolor(black))  region(col(white))) ///
   bgcolor(white) ylabel(, nogrid)  name(nivel_2, replace)
@@ -140,7 +140,7 @@ scatter bar2 semana, ms(none) mla(bar2) mlabpos(12) mlabcolor("$mycolor3") mlabs
 scatter ocu2 semana, ms(none) mla(ocupacion_uci) mlabpos(12) mlabcolor(black) mlabsize(*0.65) || ///
 if semana>=32 & semana <=$semana									///
   ,xtitle("Semanas Epidemológicas", size(*0.7)) 			///
-  xlabel(32(2)$semana 54 "2" 56 "4" 58 "6" 60 "8" 62 "10" 64 "12" 66 "14", labsize(*0.55)) ///
+  xlabel(32(2)$semana 54 "2" 56 "4" 58 "6" 60 "8" 62 "10" 64 "12" 66 "14" 68 "16", labsize(*0.55)) ///
   legend(cols(4) label(1 "Total de camas") label (4 "") label(2 " Camas disponibles") label(3 "") size(*0.6) order(1 2 3 4) region(lcolor("$mycolor7"))) ///
   graphregion(color(white)) ///
   title("UCI", size(*.5) position(9) box bcolor("$mycolor7") color(white)) ///
@@ -175,7 +175,7 @@ scatter bar3 semana, ms(none) mla(bar3) mlabpos(12) mlabcolor("$mycolor7") mlabs
 scatter ocu3 semana, ms(none) mla(ocupacion_nouci) mlabpos(12) mlabcolor(black) mlabsize(*0.55)|| ///
 if semana>=32 & semana <=$semana									///
   ,xtitle("Semanas Epidemológicas", size(*0.7)) 			///
-  xlabel(32(2)$semana 54 "2" 56 "4" 58 "6" 60 "8" 62 "10" 64 "12" 66 "14", labsize(*0.55)) ///
+  xlabel(32(2)$semana 54 "2" 56 "4" 58 "6" 60 "8" 62 "10" 64 "12" 66 "14" 68 "16", labsize(*0.55)) ///
   legend(cols(4) label(1 "Total de camas") label (4 "") label(2 " Camas disponibles") label(3 "") size(*0.6) order(1 2 3 4) region(lcolor(black))) ///
   graphregion(color(white)) ///
   title("NO UCI", size(*.35) position(9) box bcolor("$mycolor3") color(white)) ///
@@ -218,7 +218,7 @@ scatter bar2 semana, ms(none) mla(bar2) mlabpos(12) mlabcolor("$mycolor3") mlabs
 scatter ocu2 semana, ms(none) mla(ocupacion_uci) mlabpos(12) mlabcolor("$mycolor3") mlabsize(*0.65) || ///
 if semana>=32 & semana <=$semana ///
   ,xtitle("Semanas Epidemológicas", size(*0.7)) 			///
-  xlabel(32(2)$semana 54 "2" 56 "4" 58 "6" 60 "8" 62 "10" 64 "12" 66 "14", labsize(*0.55)) ///
+  xlabel(32(2)$semana 54 "2" 56 "4" 58 "6" 60 "8" 62 "10" 64 "12" 66 "14" 68 "16", labsize(*0.55)) ///
   legend(cols(4) label(1 "Total de camas") label (4 "") label(2 " Camas disponibles") label(3 "") size(*0.6) order(1 2 3 4) region(lcolor(black))) ///
   graphregion(color(white)) ///
   title("UCI", size(*.5) position(9) box bcolor("$mycolor6") color(white)) ///
@@ -255,7 +255,7 @@ scatter bar3 semana, ms(none) mla(bar3) mlabpos(12) mlabcolor("$mycolor3") mlabs
 scatter ocu3 semana, ms(none) mla(ocupacion_nouci) mlabpos(12) mlabcolor(black) mlabsize(*0.6)|| ///
 if semana>=32 & semana <=$semana									///
   ,xtitle("Semanas Epidemológicas", size(*0.7)) 			///
-  xlabel(32(2)$semana 54 "2" 56 "4" 58 "6" 60 "8" 62 "10" 64 "12" 66 "14", labsize(*0.55)) ///
+  xlabel(32(2)$semana 54 "2" 56 "4" 58 "6" 60 "8" 62 "10" 64 "12" 66 "14" 68 "16", labsize(*0.55)) ///
   legend(cols(4) label(1 "Total de camas") label (4 "") label(2 " Camas disponibles") label(3 "") size(*0.6) order(1 2 3 4) region(lcolor(black))) ///
   graphregion(color(white)) ///
   title("NO UCI", size(*.35) position(9) box bcolor("$mycolor5") color(white)) ///
@@ -302,7 +302,7 @@ scatter bar2 semana, ms(none) mla(bar2) mlabpos(12) mlabcolor("$mycolor2") mlabs
 scatter ocu2 semana, ms(none) mla(ocupacion_uci) mlabpos(12) mlabcolor(black) mlabsize(*0.65) || ///
 if semana>=32 & semana <=$semana									///
   ,xtitle("Semanas Epidemológicas", size(*0.7)) 			///
-  xlabel(32(2)$semana 54 "2" 56 "4" 58 "6" 60 "8" 62 "10" 64 "12" 66 "14", labsize(*0.55)) ///
+  xlabel(32(2)$semana 54 "2" 56 "4" 58 "6" 60 "8" 62 "10" 64 "12" 66 "14" 68 "16", labsize(*0.55)) ///
   legend(cols(4) label(1 "Total de camas") label (4 "") label(2 " Camas disponibles") label(3 "") size(*0.6) order(1 2 3 4) region(lcolor(black))) ///
   graphregion(color(white)) ///
   title("UCI", size(*.5) position(9) box bcolor("$mycolor4") color(white)) ///
@@ -335,7 +335,7 @@ scatter bar3 semana, ms(none) mla(bar3) mlabpos(12) mlabcolor("$mycolor4") mlabs
 scatter ocu3 semana, ms(none) mla(ocupacion_nouci) mlabpos(12) mlabcolor(black) mlabsize(*0.6)|| ///
 if semana>=32 & semana <=$semana									///
   ,xtitle("Semanas Epidemológicas", size(*0.7)) 			///
-  xlabel(32(2)$semana 54 "2" 56 "4" 58 "6" 60 "8" 62 "10" 64 "12" 66 "14", labsize(*0.55)) ///
+  xlabel(32(2)$semana 54 "2" 56 "4" 58 "6" 60 "8" 62 "10" 64 "12" 66 "14" 68 "16", labsize(*0.55)) ///
   legend(cols(4) label(1 "Total de camas") label (4 "") label(2 " Camas disponibles") label(3 "") size(*0.6) order(1 2 3 4) region(lcolor(black))) ///
   graphregion(color(white)) ///
   title("NO UCI", size(*.35) position(9) box bcolor("$mycolor2") color(white)) ///  
