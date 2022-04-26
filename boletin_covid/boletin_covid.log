@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.28)  5 APR 2022 10:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.28)  26 APR 2022 12:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2247,14 +2247,14 @@ ne 606.
  [28
 
  <../figuras/vacunacion_grupo_edad.png (PNG copy)>]
-<../sala_covid/../sala_nacional/Cobertura_Vacunacion_Provincias.jpg, id=853, 76
-1.901pt x 459.024pt>
+<../sala_covid/../sala_nacional/Cobertura_Vacunacion_Provincias.jpg, id=853, 91
+5.858pt x 513.774pt>
 File: ../sala_covid/../sala_nacional/Cobertura_Vacunacion_Provincias.jpg Graphi
 c file (type jpg)
 <use ../sala_covid/../sala_nacional/Cobertura_Vacunacion_Provincias.jpg>
 Package pdftex.def Info: ../sala_covid/../sala_nacional/Cobertura_Vacunacion_Pr
 ovincias.jpg  used on input line 616.
-(pdftex.def)             Requested size: 609.45396pt x 367.18468pt.
+(pdftex.def)             Requested size: 609.45396pt x 341.89845pt.
  [29 <../sala_covid/../sala_nacional/Cobertura_Vacunacion_Provincias.jpg>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/uci.pdf): PDF inclusion: found PD
@@ -2350,12 +2350,12 @@ File: ../figuras/incidencia_provincial_2022.png Graphic file (type png)
 Package pdftex.def Info: ../figuras/incidencia_provincial_2022.png  used on inp
 ut line 779.
 (pdftex.def)             Requested size: 291.92834pt x 239.12563pt.
-<../figuras/mortalidad_provincial_2022.png, id=986, 1132.23pt x 927.465pt>
+<../figuras/mortalidad_provincial_2022.png, id=986, 1274.7625pt x 927.465pt>
 File: ../figuras/mortalidad_provincial_2022.png Graphic file (type png)
 <use ../figuras/mortalidad_provincial_2022.png>
 Package pdftex.def Info: ../figuras/mortalidad_provincial_2022.png  used on inp
 ut line 790.
-(pdftex.def)             Requested size: 291.92834pt x 239.12563pt.
+(pdftex.def)             Requested size: 291.92834pt x 212.39258pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2964,6 +2964,11 @@ Package pdftex.def Info: ../editorial/7.pdf , page1 used on input line 1294.
 [66
 
  <../editorial/7.pdf>] (../tablas/tabla_defunciones_cero_provincia.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 1301--1305
+[][]
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [67
@@ -3055,7 +3060,7 @@ lmss10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
 m/lmss8.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
 m/lmssbx10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/lm/lmsso12.pfb>
-Output written on boletin_covid.pdf (72 pages, 13546329 bytes).
+Output written on boletin_covid.pdf (72 pages, 13679459 bytes).
 PDF statistics:
  1842 PDF objects out of 2073 (max. 8388607)
  173 named destinations out of 1000 (max. 500000)

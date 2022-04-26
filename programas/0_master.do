@@ -73,7 +73,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-
+/*
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -133,7 +133,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	* Ocupación de camas (semanalmente)
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
 	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
-
+x
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	do "programas/2d_series_semanales_region" // Generar datos semanales region
 	*do "programas/2d_series_semanales_region_2022"--
@@ -146,7 +146,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	do "programas/4c_figura_inci_mort_positi_provincial"
-x
+
 	** Datos para los excesos de defunciones
 	*do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
 	do "programas/1m_datos_defunciones_2020_2021_regional"
@@ -186,7 +186,7 @@ x
 	do "programas\6c_figura_vacunacion_provincias"	
 */
 	
-/*
+
 * 7. Figuras para el "Boletin COVID-19" Mensual
 	do "programas\7a_base_noticovid_2021_variables"
 	*do "programas\7b_base_siscovid_pr_2021_variables"
