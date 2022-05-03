@@ -79,11 +79,11 @@ format tasa_incidencia tasa_incidencia %12.0fc
 twoway ///
 (line tasa_incidencia semana, lcolor("$mycolor6") lwidth() lpattern(solid)) ///
 (scatter tasa_incidencia semana, msymbol(none) mlabel(tasa_incidencia) mlabcolor("$mycolor3") mlabsize(*0.6) mlabposition(12)) ///
-  if semana>=1 & semana <=$semana ///
+  if semana>=31 & semana <=$semana ///
   ,xtitle("Semanas Epidemiológicas", size(*0.6)) ///
   ytitle("Tasa de Incidencia", size(*0.6)) ///
   ylabel(0(200)1600, labsize(*0.60)) ///
-  xlabel(1(2)$semana 54 "2" 56 "4" 58 "6" 60 "8" 62 "10" 64 "12" 66 "14", labsize(*0.60)) ///
+  xlabel(31(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13" 67 "15" 69 "17", labsize(*0.60)) ///
   /*
   xline(21471.9, lcolor("$mycolor7") lpattern(shortdash) lwidth(mthick)) ///
   */ ///
