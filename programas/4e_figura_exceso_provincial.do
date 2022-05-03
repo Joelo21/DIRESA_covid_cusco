@@ -10,11 +10,37 @@ merge 1:1 semana using "${datos}\output\defunciones_totales_provincias_2020_2021
 
 * Eliminar la semana mayor a 53
 drop if semana > 54
-
+drop exceso_1 
+drop exceso_2
+drop exceso_3 
+drop exceso_4 
+drop exceso_5 
+drop exceso_6 
+drop exceso_7 
+drop exceso_8 
+drop exceso_9 
+drop exceso_10 
+drop exceso_11
+drop exceso_12
+drop exceso_13
+drop var_max_1
+drop var_max_2
+drop var_max_3
+drop var_max_4
+drop var_max_5
+drop var_max_6
+drop var_max_7
+drop var_max_8
+drop var_max_9
+drop var_max_10
+drop var_max_11
+drop var_max_12
+drop var_max_13
+  
 * Generar los excesos para cada semana epidemiológica y para cada provincia
 forvalues t=1/13 {
 gen exceso_`t' = d22_`t' - d19_`t'
-sum exceso_`t' if semana == 16
+sum exceso_`t' if semana == 17
 local exceso_prov_`t' = r(mean)
 }
 

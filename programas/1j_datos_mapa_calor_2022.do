@@ -35,4 +35,4 @@ replace direccion = ustrlower(ustrregexra(ustrnormalize( direccion, "nfd" ) , "\
 *save "datos/output/data_mapa.dta", replace
 
 * Exportar la base en excel para enviar
-export excel using "${datos}/output/data_mapa_$fecha.xlsx", firstrow(variables) replace
+*export excel using "${datos}/output/data_mapa_$fecha.xlsx", firstrow(variables) replace

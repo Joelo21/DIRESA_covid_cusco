@@ -30,8 +30,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 25apr2022
-global semana 68
+global fecha 03may2022
+global semana 69
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -179,14 +179,14 @@ x
 	do "programas\5e_mapas_secuenciamiento"
 */
 
-/*
+
 * 6. Vacunados
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"
 	do "programas\6c_figura_vacunacion_provincias"	
 */
 	
-
+/*
 * 7. Figuras para el "Boletin COVID-19" Mensual
 	do "programas\7a_base_noticovid_2021_variables"
 	*do "programas\7b_base_siscovid_pr_2021_variables"
