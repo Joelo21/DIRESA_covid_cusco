@@ -119,4 +119,10 @@ format incidencia %9.2g
 gen total_def = sum(defuncion)
 gen total_pos = sum(positivo)
 
+*TOTALES
+*Coger ultimos datos "(Totales)"
+gen letalidad_total = total_def / total_pos * 100
+gen mortalidad_total = total_def / 1357498 * 1000000
+gen incidencia_total = total_pos / 1357498 * 1000000
+
 save "${datos}\output\letalidad_curso_vida_2022.dta", replace

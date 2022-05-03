@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.28)  30 MAR 2022 10:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.28)  3 MAY 2022 12:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -13,8 +13,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1 	\begin{tabular}
-                    {ccc|cccccc|}
+l.1 \begin{tabular}
+                   {lrrrrr}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -23,9 +23,122 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 1.
 ! Undefined control sequence.
+l.2 	\rowcolor
+              [HTML]{ECF4FF}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+! Undefined control sequence.
 \@sharp ->\cellcolor 
-                     [HTML]{F2F2F2}
-l.6 ...ulticolumn{6}{c|}{\cellcolor[HTML]{F2F2F2}}
+                     [HTML]{ECF4FF}\textbf {Población}
+l.3 ...cellcolor[HTML]{ECF4FF}\textbf{Población}}
+                                                   & \multicolumn{1}{l}{\cel...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+! Undefined control sequence.
+\@sharp ->\cellcolor 
+                     [HTML]{ECF4FF}\textbf {Total de pruebas positivas}
+l.3 ...ECF4FF}\textbf{Total de pruebas positivas}}
+                                                   & \multicolumn{1}{l}{\cel...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+! Undefined control sequence.
+\@sharp ->\cellcolor 
+                     [HTML]{ECF4FF}\textbf {Defunciones}
+l.3 ...ellcolor[HTML]{ECF4FF}\textbf{Defunciones}}
+                                                   & \multicolumn{1}{l}{\cel...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+! Undefined control sequence.
+\@sharp ->\cellcolor 
+                     [HTML]{ECF4FF}\textbf {Tasa de letalidad}
+l.3 ...or[HTML]{ECF4FF}\textbf{Tasa de letalidad}}
+                                                   & \multicolumn{1}{l}{\cel...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+! Undefined control sequence.
+\@sharp ->\cellcolor 
+                     [HTML]{ECF4FF}\textbf {\begin {tabular}[c]{@{}l@{}}Tasa...
+l.3 ...ortalidad x \\   100.000 hab\end{tabular}}}
                                                    \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -39,31 +152,17 @@ Missing character: There is no T in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no ] in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no C in font nullfont!
 Missing character: There is no F in font nullfont!
-Missing character: There is no 2 in font nullfont!
+Missing character: There is no 4 in font nullfont!
 Missing character: There is no F in font nullfont!
-Missing character: There is no 2 in font nullfont!
 Missing character: There is no F in font nullfont!
-Missing character: There is no 2 in font nullfont!
 ! Undefined control sequence.
-\@sharp ->\multirow 
-                    {-2}{*}{\cellcolor [HTML]{F2F2F2}\textbf {Etapa de Vida}}
-l.10 ...olor[HTML]{F2F2F2}\textbf{Etapa de Vida}}}
-                                                   \\ \cline{4-9}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no - in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no * in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow {-2}{*}{\cellcolor 
-                                       [HTML]{F2F2F2}\textbf {Etapa de Vida}}
-l.10 ...olor[HTML]{F2F2F2}\textbf{Etapa de Vida}}}
-                                                   \\ \cline{4-9}
+<recently read> \cellcolor 
+                           
+l.4 	\cellcolor
+               [HTML]{FD6864}CANCHIS       & 105,049                        ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -77,16 +176,45 @@ Missing character: There is no M in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no F in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 9 in font nullfont!
 Missing character: There is no 2 in font nullfont!
-Missing character: There is no F in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no 2 in font nullfont!
-Missing character: There is no F in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no % in font nullfont!
 Missing character: There is no 2 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 7 in font nullfont!
 ! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{F2F2F2}\textbf {Niño}
-l.14 ...|}{\cellcolor[HTML]{F2F2F2}\textbf{Niño}}
-                                                   &
+<recently read> \cellcolor 
+                           
+l.5 	\cellcolor
+               [HTML]{FD6864}QUISPICANCHI  & 92,566                         ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -100,16 +228,49 @@ Missing character: There is no M in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no F in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no Q in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no 9 in font nullfont!
 Missing character: There is no 2 in font nullfont!
-Missing character: There is no F in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 4 in font nullfont!
 Missing character: There is no 2 in font nullfont!
-Missing character: There is no F in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no % in font nullfont!
 Missing character: There is no 2 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 7 in font nullfont!
 ! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{F2F2F2}\textbf {Adolescente}
-l.15 ...llcolor[HTML]{F2F2F2}\textbf{Adolescente}}
-                                                   &
+<recently read> \cellcolor 
+                           
+l.6 	\cellcolor
+               [HTML]{FFCE93}LA CONVENCIÓN & 185,793                       ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -123,16 +284,69 @@ Missing character: There is no M in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no F in font nullfont!
-Missing character: There is no 2 in font nullfont!
 Missing character: There is no F in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no I in font nullfont!
+LaTeX Font Info:    Trying to load font information for +cmr on input line 6.
+LaTeX Font Info:    No file cmr.fd. on input line 6.
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `/cmr/m/n' instead on input line 6.
+
+! Corrupted NFSS tables.
+wrong@fontshape ...message {Corrupted NFSS tables}
+                                                  error@fontshape else let f...
+l.6 	\cellcolor[HTML]{FFCE93}LA CONVENCIÓ
+                                          N & 185,793                       ...
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 6.
+
+Missing character: There is no N in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 3 in font nullfont!
 Missing character: There is no 2 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 2 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no % in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
 ! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{F2F2F2}\textbf {Joven}
-l.16 ...|}{\cellcolor[HTML]{F2F2F2}\textbf{Joven}}
-                                                   &
+<recently read> \cellcolor 
+                           
+l.7 	\cellcolor
+               [HTML]{FFCE93}CUSCO         & 463,656                        ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -146,16 +360,44 @@ Missing character: There is no M in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no F in font nullfont!
-Missing character: There is no 2 in font nullfont!
 Missing character: There is no F in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 6 in font nullfont!
 Missing character: There is no 2 in font nullfont!
-Missing character: There is no F in font nullfont!
 Missing character: There is no 2 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no % in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
 ! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{F2F2F2}\textbf {Adulto}
-l.17 ...}{\cellcolor[HTML]{F2F2F2}\textbf{Adulto}}
-                                                   &
+<recently read> \cellcolor 
+                           
+l.8 	\cellcolor
+               [HTML]{FFFFC7}URUBAMBA      & 66,439                         ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -169,16 +411,44 @@ Missing character: There is no M in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no F in font nullfont!
-Missing character: There is no 2 in font nullfont!
 Missing character: There is no F in font nullfont!
-Missing character: There is no 2 in font nullfont!
 Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
 Missing character: There is no 2 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no % in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
 ! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{F2F2F2}\textbf {Adulto Mayor}
-l.18 ...lcolor[HTML]{F2F2F2}\textbf{Adulto Mayor}}
-                                                   &
+<recently read> \cellcolor 
+                           
+l.9 	\cellcolor
+               [HTML]{FFFFC7}CHUMBIVILCAS  & 84,925                         ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -192,14 +462,49 @@ Missing character: There is no M in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no F in font nullfont!
-Missing character: There is no 2 in font nullfont!
 Missing character: There is no F in font nullfont!
-Missing character: There is no 2 in font nullfont!
 Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 9 in font nullfont!
 Missing character: There is no 2 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no % in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 8 in font nullfont!
 ! Undefined control sequence.
-l.19 		\cellcolor
-                 [HTML]{F2F2F2}\textbf{Total} \\ \hline
+<recently read> \cellcolor 
+                           
+l.10 	\cellcolor
+                [HTML]{FFFFC7}PAUCARTAMBO   & 52,989                        ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -213,16 +518,322 @@ Missing character: There is no M in font nullfont!
 Missing character: There is no L in font nullfont!
 Missing character: There is no ] in font nullfont!
 Missing character: There is no F in font nullfont!
-Missing character: There is no 2 in font nullfont!
 Missing character: There is no F in font nullfont!
-Missing character: There is no 2 in font nullfont!
 Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no 5 in font nullfont!
 Missing character: There is no 2 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no % in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 3 in font nullfont!
+! Undefined control sequence.
+<recently read> \cellcolor 
+                           
+l.11 	\cellcolor
+                [HTML]{FFFFC7}ANTA          & 57,731                        ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no % in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 4 in font nullfont!
+! Undefined control sequence.
+<recently read> \cellcolor 
+                           
+l.12 	\cellcolor
+                [HTML]{FFFFC7}CANAS         & 40,420                        ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no % in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+! Undefined control sequence.
+<recently read> \cellcolor 
+                           
+l.13 	\cellcolor
+                [HTML]{FFFFC7}ESPINAR       & 71,304                        ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no % in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 8 in font nullfont!
+! Undefined control sequence.
+<recently read> \cellcolor 
+                           
+l.14 	\cellcolor
+                [HTML]{FFFFC7}PARURO        & 31,264                        ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 3 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no % in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 6 in font nullfont!
+! Undefined control sequence.
+<recently read> \cellcolor 
+                           
+l.15 	\cellcolor
+                [HTML]{FFFFC7}CALCA         & 76,462                        ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 6 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no % in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
+! Undefined control sequence.
+<recently read> \cellcolor 
+                           
+l.16 	\cellcolor
+                [HTML]{FFFFC7}ACOMAYO       & 28,477                        ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no H in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no F in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no Y in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no 4 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 9 in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no % in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
 ! Undefined control sequence.
 <recently read> \rowcolor 
                           
-l.20 		\rowcolor
-                [HTML]{ECF4FF}
+l.18 	\rowcolor
+               [HTML]{ECF4FF}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -241,1919 +852,19 @@ Missing character: There is no F in font nullfont!
 Missing character: There is no 4 in font nullfont!
 Missing character: There is no F in font nullfont!
 Missing character: There is no F in font nullfont!
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.21 ...ticolumn{1}{|c|}{\cellcolor[HTML]{ECF4FF}}
-                                                   &
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}
-l.21 ...ticolumn{1}{|c|}{\cellcolor[HTML]{ECF4FF}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}
-l.22 ...lticolumn{1}{c|}{\cellcolor[HTML]{ECF4FF}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}0.4
-l.24 ...column{1}{c|}{\cellcolor[HTML]{ECF4FF}0.4}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 4 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}0.049
-l.25 ...lumn{1}{c|}{\cellcolor[HTML]{ECF4FF}0.049}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}0.12
-l.26 ...olumn{1}{c|}{\cellcolor[HTML]{ECF4FF}0.12}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}0.57
-l.27 ...olumn{1}{c|}{\cellcolor[HTML]{ECF4FF}0.57}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}7.9
-l.28 ...column{1}{c|}{\cellcolor[HTML]{ECF4FF}7.9}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 3 in font nullfont!
-! Undefined control sequence.
-l.30 		\rowcolor
-                [HTML]{ECF4FF}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.31 ...ticolumn{1}{|c|}{\cellcolor[HTML]{ECF4FF}}
-                                                   &
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}
-l.31 ...ticolumn{1}{|c|}{\cellcolor[HTML]{ECF4FF}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow 
-                    {-2}{*}{\cellcolor [HTML]{ECF4FF}\textbf {Letalidad}}
-l.32 ...ellcolor[HTML]{ECF4FF}\textbf{Letalidad}}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no - in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no * in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow {-2}{*}{\cellcolor 
-                                       [HTML]{ECF4FF}\textbf {Letalidad}}
-l.32 ...ellcolor[HTML]{ECF4FF}\textbf{Letalidad}}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-l.33 		\cellcolor
-                 [HTML]{ECF4FF} &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}
-l.34 ...lticolumn{1}{c|}{\cellcolor[HTML]{ECF4FF}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}
-l.35 ...lticolumn{1}{c|}{\cellcolor[HTML]{ECF4FF}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}
-l.36 ...lticolumn{1}{c|}{\cellcolor[HTML]{ECF4FF}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}
-l.37 ...lticolumn{1}{c|}{\cellcolor[HTML]{ECF4FF}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}
-l.38 ...lticolumn{1}{c|}{\cellcolor[HTML]{ECF4FF}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-l.39 		\cellcolor
-                 [HTML]{ECF4FF} \\ \cline{2-2}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-l.40 		\rowcolor
-                [HTML]{ECF4FF}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.41 ...ticolumn{1}{|c|}{\cellcolor[HTML]{ECF4FF}}
-                                                   &
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}
-l.41 ...ticolumn{1}{|c|}{\cellcolor[HTML]{ECF4FF}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}
-l.42 ...lticolumn{1}{c|}{\cellcolor[HTML]{ECF4FF}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-l.43 		\multirow
-                {-2}{*}{\cellcolor[HTML]{ECF4FF}\textbf{Defunciones}} &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no - in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no * in font nullfont!
-! Undefined control sequence.
-l.43 		\multirow{-2}{*}{\cellcolor
-                                  [HTML]{ECF4FF}\textbf{Defunciones}} &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow 
-                    {-2}{*}{\cellcolor [HTML]{ECF4FF}07}
-l.44 ...ltirow{-2}{*}{\cellcolor[HTML]{ECF4FF}07}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no - in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no * in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow {-2}{*}{\cellcolor 
-                                       [HTML]{ECF4FF}07}
-l.44 ...ltirow{-2}{*}{\cellcolor[HTML]{ECF4FF}07}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow 
-                    {-2}{*}{\cellcolor [HTML]{ECF4FF}01}
-l.45 ...ltirow{-2}{*}{\cellcolor[HTML]{ECF4FF}01}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no - in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no * in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow {-2}{*}{\cellcolor 
-                                       [HTML]{ECF4FF}01}
-l.45 ...ltirow{-2}{*}{\cellcolor[HTML]{ECF4FF}01}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow 
-                    {-2}{*}{\cellcolor [HTML]{ECF4FF}29}
-l.46 ...ltirow{-2}{*}{\cellcolor[HTML]{ECF4FF}29}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no - in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no * in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow {-2}{*}{\cellcolor 
-                                       [HTML]{ECF4FF}29}
-l.46 ...ltirow{-2}{*}{\cellcolor[HTML]{ECF4FF}29}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow 
-                    {-2}{*}{\cellcolor [HTML]{ECF4FF}375}
-l.47 ...tirow{-2}{*}{\cellcolor[HTML]{ECF4FF}375}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no - in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no * in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow {-2}{*}{\cellcolor 
-                                       [HTML]{ECF4FF}375}
-l.47 ...tirow{-2}{*}{\cellcolor[HTML]{ECF4FF}375}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow 
-                    {-2}{*}{\cellcolor [HTML]{ECF4FF}973}
-l.48 ...tirow{-2}{*}{\cellcolor[HTML]{ECF4FF}973}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no - in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no * in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow {-2}{*}{\cellcolor 
-                                       [HTML]{ECF4FF}973}
-l.48 ...tirow{-2}{*}{\cellcolor[HTML]{ECF4FF}973}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-! Undefined control sequence.
-l.49 		\multirow
-                {-2}{*}{\cellcolor[HTML]{ECF4FF}1385} \\ \cline{3-9}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no - in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no * in font nullfont!
-! Undefined control sequence.
-l.49 		\multirow{-2}{*}{\cellcolor
-                                  [HTML]{ECF4FF}1385} \\ \cline{3-9}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-! Undefined control sequence.
-l.50 		\rowcolor
-                [HTML]{ECF4FF}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.51 ...ticolumn{1}{|c|}{\cellcolor[HTML]{ECF4FF}}
-                                                   &
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}
-l.51 ...ticolumn{1}{|c|}{\cellcolor[HTML]{ECF4FF}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow 
-                    {-2}{*}{\cellcolor [HTML]{ECF4FF}\textbf {Mortalidad}}
-l.52 ...llcolor[HTML]{ECF4FF}\textbf{Mortalidad}}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no - in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no * in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow {-2}{*}{\cellcolor 
-                                       [HTML]{ECF4FF}\textbf {Mortalidad}}
-l.52 ...llcolor[HTML]{ECF4FF}\textbf{Mortalidad}}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}5.2
-l.54 ...column{1}{c|}{\cellcolor[HTML]{ECF4FF}5.2}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 2 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}0.74
-l.55 ...olumn{1}{c|}{\cellcolor[HTML]{ECF4FF}0.74}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}21
-l.56 ...icolumn{1}{c|}{\cellcolor[HTML]{ECF4FF}21}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}276
-l.57 ...column{1}{c|}{\cellcolor[HTML]{ECF4FF}276}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 6 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}717
-l.58 ...column{1}{c|}{\cellcolor[HTML]{ECF4FF}717}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-! Undefined control sequence.
-l.60 		\rowcolor
-                [HTML]{ECF4FF}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.61 ...ticolumn{1}{|c|}{\cellcolor[HTML]{ECF4FF}}
-                                                   &
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}
-l.61 ...ticolumn{1}{|c|}{\cellcolor[HTML]{ECF4FF}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}
-l.62 ...lticolumn{1}{c|}{\cellcolor[HTML]{ECF4FF}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}1749
-l.64 ...olumn{1}{c|}{\cellcolor[HTML]{ECF4FF}1749}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}2029
-l.65 ...olumn{1}{c|}{\cellcolor[HTML]{ECF4FF}2029}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}25091
-l.66 ...lumn{1}{c|}{\cellcolor[HTML]{ECF4FF}25091}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}66024
-l.67 ...lumn{1}{c|}{\cellcolor[HTML]{ECF4FF}66024}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}12255
-l.68 ...lumn{1}{c|}{\cellcolor[HTML]{ECF4FF}12255}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-! Undefined control sequence.
-l.70 		\rowcolor
-                [HTML]{ECF4FF}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.71 ...*}{\cellcolor[HTML]{ECF4FF}\textbf{2020}}}
-                                                   &
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Undefined control sequence.
-\@sharp ->\multirow 
-                    {-6}{*}{\cellcolor [HTML]{ECF4FF}\textbf {2020}}
-l.71 ...*}{\cellcolor[HTML]{ECF4FF}\textbf{2020}}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no - in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no * in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow {-6}{*}{\cellcolor 
-                                       [HTML]{ECF4FF}\textbf {2020}}
-l.71 ...*}{\cellcolor[HTML]{ECF4FF}\textbf{2020}}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow 
-                    {-2}{*}{\cellcolor [HTML]{ECF4FF}\textbf {Incidencia}}
-l.72 ...llcolor[HTML]{ECF4FF}\textbf{Incidencia}}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no - in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no * in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow {-2}{*}{\cellcolor 
-                                       [HTML]{ECF4FF}\textbf {Incidencia}}
-l.72 ...llcolor[HTML]{ECF4FF}\textbf{Incidencia}}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}1288
-l.74 ...olumn{1}{c|}{\cellcolor[HTML]{ECF4FF}1288}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}1495
-l.75 ...olumn{1}{c|}{\cellcolor[HTML]{ECF4FF}1495}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}18483
-l.76 ...lumn{1}{c|}{\cellcolor[HTML]{ECF4FF}18483}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}48637
-l.77 ...lumn{1}{c|}{\cellcolor[HTML]{ECF4FF}48637}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{ECF4FF}9028
-l.78 ...olumn{1}{c|}{\cellcolor[HTML]{ECF4FF}9028}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 9 in font nullfont!
-! Undefined control sequence.
-<recently read> \rowcolor 
-                          
-l.80 		\rowcolor
-                [HTML]{FFFFC7}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no 7 in font nullfont!
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.81 ...ticolumn{1}{|c|}{\cellcolor[HTML]{FFFFC7}}
-                                                   &
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{FFFFC7}
-l.81 ...ticolumn{1}{|c|}{\cellcolor[HTML]{FFFFC7}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no 7 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{FFFFC7}
-l.82 ...lticolumn{1}{c|}{\cellcolor[HTML]{FFFFC7}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no 7 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{FFFFC7}0.94
-l.84 ...olumn{1}{c|}{\cellcolor[HTML]{FFFFC7}0.94}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 4 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{FFFFC7}0.087
-l.85 ...lumn{1}{c|}{\cellcolor[HTML]{FFFFC7}0.087}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-Missing character: There is no 7 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{FFFFC7}0.13
-l.86 ...olumn{1}{c|}{\cellcolor[HTML]{FFFFC7}0.13}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{FFFFC7}1.9
-l.87 ...column{1}{c|}{\cellcolor[HTML]{FFFFC7}1.9}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 9 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{FFFFC7}19
-l.88 ...icolumn{1}{c|}{\cellcolor[HTML]{FFFFC7}19}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no 9 in font nullfont!
-Missing character: There is no 3 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 8 in font nullfont!
-! Undefined control sequence.
-l.90 		\rowcolor
-                [HTML]{FFFFC7}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no 7 in font nullfont!
-! Misplaced \omit.
-\multispan ->\omit 
-                   \@multispan 
-l.91 ...ticolumn{1}{|c|}{\cellcolor[HTML]{FFFFC7}}
-                                                   &
-I expect to see \omit only after tab marks or the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{FFFFC7}
-l.91 ...ticolumn{1}{|c|}{\cellcolor[HTML]{FFFFC7}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no 7 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow 
-                    {-2}{*}{\cellcolor [HTML]{FFFFC7}\textbf {Letalidad}}
-l.92 ...ellcolor[HTML]{FFFFC7}\textbf{Letalidad}}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no - in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no * in font nullfont!
-! Undefined control sequence.
-\@sharp ->\multirow {-2}{*}{\cellcolor 
-                                       [HTML]{FFFFC7}\textbf {Letalidad}}
-l.92 ...ellcolor[HTML]{FFFFC7}\textbf{Letalidad}}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no 7 in font nullfont!
-! Undefined control sequence.
-l.93 		\cellcolor
-                 [HTML]{FFFFC7} &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no 7 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{FFFFC7}
-l.94 ...lticolumn{1}{c|}{\cellcolor[HTML]{FFFFC7}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no 7 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{FFFFC7}
-l.95 ...lticolumn{1}{c|}{\cellcolor[HTML]{FFFFC7}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no 7 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{FFFFC7}
-l.96 ...lticolumn{1}{c|}{\cellcolor[HTML]{FFFFC7}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no 7 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{FFFFC7}
-l.97 ...lticolumn{1}{c|}{\cellcolor[HTML]{FFFFC7}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no 7 in font nullfont!
-! Undefined control sequence.
-\@sharp ->\cellcolor 
-                     [HTML]{FFFFC7}
-l.98 ...lticolumn{1}{c|}{\cellcolor[HTML]{FFFFC7}}
-                                                   &
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no ] in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no F in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no 7 in font nullfont!
-! Undefined control sequence.
-l.99 		\cellcolor
-                 [HTML]{FFFFC7} \\ \cline{2-2}
-(That makes 100 errors; please try again.) 
+)
+! Emergency stop.
+<*> ./tabla_letalidad_curso_vida.tex
+                                    
+*** (job aborted, no legal \end found)
+
+ 
 Here is how much of TeX's memory you used:
- 26 strings out of 478582
- 631 string characters out of 2843872
- 296951 words of memory out of 3000000
- 18312 multiletter control sequences out of 15000+600000
+ 36 strings out of 478582
+ 713 string characters out of 2843872
+ 292951 words of memory out of 3000000
+ 18321 multiletter control sequences out of 15000+600000
  469567 words of font info for 29 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 19i,7n,13p,177b,172s stack positions out of 10000i,1000n,20000p,200000b,80000s
-
+ 23i,12n,32p,536b,237s stack positions out of 10000i,1000n,20000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
