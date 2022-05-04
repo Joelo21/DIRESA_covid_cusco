@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.25)  4 MAY 2022 11:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.25)  4 MAY 2022 11:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1656,14 +1656,14 @@ Underfull \vbox (badness 3690) has occurred while \output is active []
  [2
 
 ]
-<../editorial/foto_editorial_cdc.png, id=155, 113.67468pt x 175.40532pt>
-File: ../editorial/foto_editorial_cdc.png Graphic file (type png)
-<use ../editorial/foto_editorial_cdc.png>
-Package pdftex.def Info: ../editorial/foto_editorial_cdc.png  used on input lin
-e 208.
-(pdftex.def)             Requested size: 142.26378pt x 219.52373pt.
+<../editorial/editorial_noemi_cdc.jpeg, id=155, 1567.8575pt x 1606.0pt>
+File: ../editorial/editorial_noemi_cdc.jpeg Graphic file (type jpg)
+<use ../editorial/editorial_noemi_cdc.jpeg>
+Package pdftex.def Info: ../editorial/editorial_noemi_cdc.jpeg  used on input l
+ine 208.
+(pdftex.def)             Requested size: 142.26378pt x 145.71002pt.
 
-[3 <../editorial/foto_editorial_cdc.png>]
+[3 <../editorial/editorial_noemi_cdc.jpeg>]
 Underfull \vbox (badness 8000) has occurred while \output is active []
 
  [4]
@@ -2900,10 +2900,10 @@ Package rerunfilecheck Info: File `boletin_covid.out' has not changed.
 ### simple group (level 1) entered at line 1326 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 43776 strings out of 478582
- 1016127 string characters out of 2844816
+ 43784 strings out of 478582
+ 1016405 string characters out of 2844816
  1469446 words of memory out of 3000000
- 60910 multiletter control sequences out of 15000+600000
+ 60916 multiletter control sequences out of 15000+600000
  519372 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,17n,131p,895b,630s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -2916,7 +2916,7 @@ b><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb>
 <C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb
 ><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb
 >
-Output written on boletin_covid.pdf (66 pages, 14237727 bytes).
+Output written on boletin_covid.pdf (66 pages, 14427033 bytes).
 PDF statistics:
  1655 PDF objects out of 1728 (max. 8388607)
  162 named destinations out of 1000 (max. 500000)
