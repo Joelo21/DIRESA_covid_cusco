@@ -37,7 +37,7 @@ label var genero "Género"
 label define genero 1 "Femenino" 2 "Masculino"
 label values genero genero
 
-* Defunciones
+* Defunciones 
 graph hbar (count) if defuncion == 1, ysize(5) xsize(6.1) ///
 over(genero) ascategory asyvar bar(1, color("$mycolor3")) bar(2, color("$mycolor7")) ///
 over(grupo_edad) blabel(total) ///

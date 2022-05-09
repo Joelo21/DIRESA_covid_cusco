@@ -30,9 +30,9 @@ replace mes = 5 if MES == "MAYO"
 keep dni mes linaje
 gen muestra = "netlab"
 keep dni mes linaje muestra
-*******************************************************************************
-save "${datos}\temporal\secuenciamiento_3", replace
 
+save "${datos}\temporal\secuenciamiento_3", replace
+*******************************************************************************
 import excel "${datos}\raw\base_netlab_mayo_junio.xlsx", sheet(Hoja1) firstrow clear
 
 gen mes_0= month(FECHACOLECTA)

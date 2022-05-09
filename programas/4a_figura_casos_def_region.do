@@ -1,4 +1,4 @@
-
+	
 use "${datos}\output\serie_semanal_region.dta", clear
 
 ********************************************************************************
@@ -164,9 +164,9 @@ if semana >=11 & semana<=53, ///
 * 2021
 twoway (line positivo semana_2, lcolor("$mycolor6") lwidth(medthick)) ///
 (scatter positivo semana_2, msize(vsmall) mcolor("$mycolor6") mlabel(positivo) mlabcolor("$mycolor6") mlabsize(tiny) connect() xline(1, lcolor("$mycolor1") lpattern(shortdash) lwidth(thick)) xline(13, lcolor("$mycolor2") lpattern(shortdash) lwidth(thick)) xline(15, lcolor("$mycolor3") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
-if semana_2 >=1 & semana_2<=$semana, ///
+if semana_2 >=33 & semana_2<=$semana, ///
 	ylabel(0(2000)12000, labsize(*0.6)) ///
-	tlabel(1(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17") ///
+	tlabel(33(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17") ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("") ///
 	graphregion(color(white)) ///
@@ -200,7 +200,7 @@ name(positivos_semanales_2021_2022	, replace)
 
 gr export "figuras\positivos_semanales_20_21_22.png", as(png) replace
 gr export "figuras\positivos_semanales_20_21_22.pdf", as(pdf) name("positivos_semanales_2021_2022") replace
-
+*/
 ********************************************************************************
 * Curva de Sintomaticos y Asintomaticos Semanales : +PR
 ********************************************************************************
@@ -227,9 +227,9 @@ twoway (line sintomatico semana_2, lcolor("$mycolor4") lwidth(medthick) lpattern
 (scatter sintomatico semana_2, msymbol(Th) msize(vsmall) mcolor("$mycolor4") mlabcolor("$mycolor4") mlabsize(tiny) connect()) ///
 (line asintomatico semana_2, lcolor("$mycolor7") lwidth(medthick) lpattern(dot)) ///
 (scatter asintomatico semana_2, msize(vsmall) mcolor("$mycolor7") mlabcolor("$mycolor7") mlabsize(tiny) msymbol(Sh) connect()) ///
-if semana_2 >=1 & semana_2 <=$semana, ///
+if semana_2 >=33 & semana_2 <=$semana, ///
 	ylabel(0(2000)10000, labsize(*0.6)) ///
-	tlabel(1(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17") ///
+	tlabel(33(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17") ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("") ///
 	graphregion(color(white)) ///
@@ -293,9 +293,9 @@ if semana>=1 & semana<=53, ///
 twoway (scatter sintomatico_pcr semana_2, msize(vsmall) mcolor("$mycolor5") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor5")) ///
 (scatter sintomatico_pr_sis semana_2, msize(vsmall) mcolor("$mycolor6") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor1")) ///
 (scatter sintomatico_ag semana_2, msize(vsmall) mcolor("$mycolor3") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor3") ) ///
-if semana_2>=1 & semana_2<=$semana, ///
+if semana_2>=33 & semana_2<=$semana, ///
 	ylabel(0(1000)9000, labsize(*0.6)) ///
-	tlabel(1(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17") ///
+	tlabel(33(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17") ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("") ///
 	graphregion(color(white)) ///
