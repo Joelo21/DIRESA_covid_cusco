@@ -36,7 +36,7 @@ drop var_max_10
 drop var_max_11
 drop var_max_12
 drop var_max_13
-  
+
 * Generar los excesos para cada semana epidemiológica y para cada provincia
 forvalues t=1/13 {
 gen exceso_`t' = d22_`t' - d19_`t'
