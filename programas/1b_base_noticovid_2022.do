@@ -61,7 +61,7 @@ tab sintomatico
 * Identificar a los sintomáticos por PCR
 gen sintomatico_pcr = sintomatico
 
-*keep dni positivo_pcr fecha_pcr fecha_inicio_noti fecha_inicio edad sexo departamento  distrito direccion sintomatico sintomatico_pcr distrito provincia ubigeo red  departamento direccion id
+keep dni positivo_pcr fecha_pcr fecha_inicio_noti fecha_inicio edad sexo departamento  distrito direccion sintomatico sintomatico_pcr distrito provincia ubigeo red  departamento direccion id
 
 * Mantener sólo positivos o negativos por PCR
 keep if positivo_pcr == 1 | positivo_pcr == 0
@@ -76,7 +76,7 @@ tostring dni, replace force
 ********************************************************************************
 * Juntar con la base del 2020 - 2021
 ********************************************************************************
-*append using "${datos}\output\base_noticovid_2020.dta", force
+append using "${datos}\output\base_noticovid_2020.dta", force
 append using "${datos}\output\base_noticovid_2021.dta", force
 
 save "${datos}\output\base_noticovid_2022.dta", replace

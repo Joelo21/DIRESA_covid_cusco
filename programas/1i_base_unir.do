@@ -119,6 +119,7 @@ replace positivo_prueba_ag = 1 if positivo_ag == 1
 gen positivo = 1 if positivo_pcr == 1 | positivo_pr == 1 | positivo_ag == 1
 
 * Generar prueba
+
 gen prueba = 1 if prueba_pcr == 1 | prueba_ag == 1 | prueba_pr == 1
 
 * Generar una variable que tome valores de las tres pruebas

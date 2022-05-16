@@ -61,7 +61,7 @@ tab sintomatico
 * Identificar a los sintomáticos por PCR
 gen sintomatico_pcr = sintomatico
 
-*keep dni positivo_pcr fecha_pcr fecha_inicio_noti fecha_inicio edad sexo departamento  distrito direccion sintomatico sintomatico_pcr distrito provincia ubigeo red  departamento direccion id
+keep dni positivo_pcr fecha_pcr fecha_inicio_noti fecha_inicio edad sexo departamento  distrito direccion sintomatico sintomatico_pcr distrito provincia ubigeo red  departamento direccion id
 
 * Mantener sólo positivos o negativos por PCR
 keep if positivo_pcr == 1 | positivo_pcr == 0
