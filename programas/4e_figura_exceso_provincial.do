@@ -10,6 +10,7 @@ merge 1:1 semana using "${datos}\output\defunciones_totales_provincias_2020_2021
 
 * Eliminar la semana mayor a 53
 drop if semana > 54
+
 drop exceso_1 
 drop exceso_2
 drop exceso_3 
@@ -36,6 +37,7 @@ drop var_max_10
 drop var_max_11
 drop var_max_12
 drop var_max_13
+*/
 
 * Generar los excesos para cada semana epidemiológica y para cada provincia
 forvalues t=1/13 {

@@ -52,7 +52,7 @@ drop if semana > $semana
 replace exceso = de_22 - de_19
 
 *Aqui cambia el # por cada semana#"
-sum exceso if semana == 18
+sum exceso if semana == 19
 local exceso_actual_2 = r(mean)
 
 * Graficamos

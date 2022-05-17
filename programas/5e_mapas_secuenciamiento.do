@@ -1,4 +1,3 @@
-
 shp2dta using "mapas\datos_distritales.shp", database("mapas\distrital_db") coordinates("mapas\distrital_co") genid(id) genc(c)  replace
 
 use "mapas\distrital_db", clear
