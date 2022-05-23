@@ -14,10 +14,11 @@ replace grupo_edad = 3 if EdadGE >= 18 & EdadGE <= 29
 replace grupo_edad = 4 if EdadGE >= 30 & EdadGE <= 39
 replace grupo_edad = 5 if EdadGE >= 40 & EdadGE <= 49
 replace grupo_edad = 6 if EdadGE >= 50 & EdadGE <= 59
-replace grupo_edad = 7 if EdadGE >= 60 & EdadGE <= 79
-replace grupo_edad = 8 if EdadGE >= 80 
-label variable grupo_edad "Grupo de EdadGE"
-label define grupo_edad 1 "5 a 11 años" 2 "12-17 años" 3 "18-29 años" 4 "30-39 años" 5 "40-49 años" 6 "50-59 años" 7 "60-79 años" 8 "80 a más años"	
+replace grupo_edad = 7 if EdadGE >= 60 & EdadGE <= 69
+replace grupo_edad = 8 if EdadGE >= 70 & EdadGE <= 79
+replace grupo_edad = 9 if EdadGE >= 80 
+label variable grupo_edad "Grupo de Edad"
+label define grupo_edad 1 "5 - 11 años" 2 "12-17 años" 3 "18-29 años" 4 "30-39 años" 5 "40-49 años" 6 "50-59 años" 7 "60-69 años" 8 "70-79 años" 9 "80 a más años"	
 label values grupo_edad grupo_edad
 tab grupo_edad
 
@@ -52,7 +53,7 @@ save "${datos}\output\base_vacunados_variables.dta", replace
 
 forvalues i = 1/2 {
 
-forvalues j=1/8 {
+forvalues j=1/9 {
 preserve
 keep if dosis == `i'
 keep if grupo_edad == `j'
@@ -76,7 +77,7 @@ forvalues i=1/2 {
 
 	use "${datos}\temporal\vacunados_`i'_1.dta", clear
 
-		forvalues j = 2/8 {
+		forvalues j = 2/9 {
 
 		merge 1:1 provincia_residencia using "${datos}\temporal\vacunados_`i'_`j'.dta", nogen
 
@@ -102,9 +103,9 @@ replace objetivo_1 = 64943 if provincia_residencia == 7
 replace objetivo_1 = 9077 if provincia_residencia == 8
 replace objetivo_1 = 26267 if provincia_residencia == 9
 replace objetivo_1 = 2968 if provincia_residencia == 10
-replace objetivo_1 = 7291 if provincia_residencia == 11
-replace objetivo_1 = 13915 if provincia_residencia == 12
-replace objetivo_1 = 8838 if provincia_residencia == 13
+replace objetivo_1 = 3003 if provincia_residencia == 11
+replace objetivo_1 = 7065 if provincia_residencia == 12
+replace objetivo_1 = 7134 if provincia_residencia == 13
 
 
 gen objetivo_2 = .
@@ -183,38 +184,53 @@ replace objetivo_6 = 9154 if provincia_residencia == 12
 replace objetivo_6 = 7680 if provincia_residencia == 13
 
 gen objetivo_7 = .
-replace objetivo_7 = 3244 if provincia_residencia == 1
-replace objetivo_7 = 8166 if provincia_residencia == 2
-replace objetivo_7 = 8295 if provincia_residencia == 3
-replace objetivo_7 = 5088 if provincia_residencia == 4
-replace objetivo_7 = 12240 if provincia_residencia == 5
-replace objetivo_7 = 9895 if provincia_residencia == 6
-replace objetivo_7 = 48021 if provincia_residencia == 7
-replace objetivo_7 = 7154 if provincia_residencia == 8
-replace objetivo_7 = 22055 if provincia_residencia == 9
-replace objetivo_7 = 4519 if provincia_residencia == 10
-replace objetivo_7 = 4739 if provincia_residencia == 11
-replace objetivo_7 = 9588 if provincia_residencia == 12
-replace objetivo_7 = 7662 if provincia_residencia == 13
+replace objetivo_7 = 1933 if provincia_residencia == 1
+replace objetivo_7 = 5074 if provincia_residencia == 2
+replace objetivo_7 = 5268 if provincia_residencia == 3
+replace objetivo_7 = 3147 if provincia_residencia == 4
+replace objetivo_7 = 7737 if provincia_residencia == 5
+replace objetivo_7 = 6207 if provincia_residencia == 6
+replace objetivo_7 = 31200 if provincia_residencia == 7
+replace objetivo_7 = 4459 if provincia_residencia == 8
+replace objetivo_7 = 14680 if provincia_residencia == 9
+replace objetivo_7 = 2729 if provincia_residencia == 10
+replace objetivo_7 = 3019 if provincia_residencia == 11
+replace objetivo_7 = 6120 if provincia_residencia == 12
+replace objetivo_7 = 4934 if provincia_residencia == 13
 
 gen objetivo_8 = .
-replace objetivo_8 = 894 if provincia_residencia == 1
-replace objetivo_8 = 2145 if provincia_residencia == 2
-replace objetivo_8 = 1813 if provincia_residencia == 3
-replace objetivo_8 = 1098 if provincia_residencia == 4
-replace objetivo_8 = 2690 if provincia_residencia == 5
-replace objetivo_8 = 2280 if provincia_residencia == 6
-replace objetivo_8 = 9093 if provincia_residencia == 7
-replace objetivo_8 = 1561 if provincia_residencia == 8
-replace objetivo_8 = 3752 if provincia_residencia == 9
-replace objetivo_8 = 1198 if provincia_residencia == 10
-replace objetivo_8 = 904 if provincia_residencia == 11
-replace objetivo_8 = 2147 if provincia_residencia == 12
-replace objetivo_8 = 1696 if provincia_residencia == 13
+replace objetivo_8 = 1311 if provincia_residencia == 1
+replace objetivo_8 = 3092 if provincia_residencia == 2
+replace objetivo_8 = 3037 if provincia_residencia == 3
+replace objetivo_8 = 1941 if provincia_residencia == 4
+replace objetivo_8 = 4503 if provincia_residencia == 5
+replace objetivo_8 = 3688 if provincia_residencia == 6
+replace objetivo_8 = 16821 if provincia_residencia == 7
+replace objetivo_8 = 2695 if provincia_residencia == 8
+replace objetivo_8 = 7375 if provincia_residencia == 9
+replace objetivo_8 = 1790 if provincia_residencia == 10
+replace objetivo_8 = 1720 if provincia_residencia == 11
+replace objetivo_8 = 3468 if provincia_residencia == 12
+replace objetivo_8 = 2728 if provincia_residencia == 13
+
+gen objetivo_9 = .
+replace objetivo_9 = 894 if provincia_residencia == 1
+replace objetivo_9 = 2145 if provincia_residencia == 2
+replace objetivo_9 = 1813 if provincia_residencia == 3
+replace objetivo_9 = 1098 if provincia_residencia == 4
+replace objetivo_9 = 2690 if provincia_residencia == 5
+replace objetivo_9 = 2280 if provincia_residencia == 6
+replace objetivo_9 = 9093 if provincia_residencia == 7
+replace objetivo_9 = 1561 if provincia_residencia == 8
+replace objetivo_9 = 3752 if provincia_residencia == 9
+replace objetivo_9 = 1198 if provincia_residencia == 10
+replace objetivo_9 = 904 if provincia_residencia == 11
+replace objetivo_9 = 2147 if provincia_residencia == 12
+replace objetivo_9 = 1696 if provincia_residencia == 13
 
 * Generar los porcentajes
 
-forvalues i=1/8 {
+forvalues i=1/9 {
 
 gen dos_dosis_`i' = numero_2_`i' /objetivo_`i'*100
 gen brecha_`i' = numero_1_`i'/objetivo_`i'*100
