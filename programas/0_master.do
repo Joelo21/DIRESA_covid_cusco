@@ -1,4 +1,3 @@
-*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------%
 * Programa:		  Programa para analizar toda la información sobre COVID-19 en la Región Cusco
 * Creado el:	  27 de octubre del 2021
 * Actualizado en: 31 de octubre del 2021
@@ -30,7 +29,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 25may2022
+global fecha 27may2022
 global semana 73
 
 * Tiempo de corrida: alrededor de 7 minutos
@@ -125,7 +124,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard" 
-
+x
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\MasterDofile"

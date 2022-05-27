@@ -5,10 +5,10 @@
 *------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------%	
 
 * Cargamos la data, previamente se hizo la limpieza en Excel (es un atarea hacerlo aquí).
-use "${datos}\output\data_series_region_2022.dta", clear
+use "${datos}\output\data_series_region.dta", clear
 
 * Para dias a inicios de semana
-drop if fecha < d(01jan2021)
+drop if fecha < d(01jan2022)
 
 gen numero = _n
 gen semana =.
