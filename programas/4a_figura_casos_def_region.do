@@ -25,7 +25,7 @@ twoway (line defuncion semana_2, lcolor("$mycolor2") lwidth(medthick)) ///
 (scatter defuncion semana_2, msize(vsmall) mcolor("$mycolor2") mlabel(defuncion) mlabcolor("$mycolor3") mlabsize(tiny) connect() xline(1, lcolor("$mycolor1") lpattern(shortdash) lwidth(thick)) xline(13, lcolor("$mycolor2") lpattern(shortdash) lwidth(thick)) xline(15, lcolor("$mycolor3") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
  if semana_2 >=1 & semana_2<=$semana, ///
 	ylabel(0(50)200, labsize(*0.6)) ///
-	tlabel(1(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17" 73 "21") ///
+	tlabel(1(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17" 73 "21" ) ///
 	ytitle("") ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	graphregion(color(white)) ///

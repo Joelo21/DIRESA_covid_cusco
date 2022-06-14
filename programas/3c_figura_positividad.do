@@ -82,7 +82,7 @@ twoway ///
   ,xtitle("Semanas Epidemiológicas", size(*0.6)) ///
   ytitle("Tasa de Incidencia", size(*0.6)) ///
   ylabel(0(200)1600, labsize(*0.60)) ///
-  xlabel(31(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13" 67 "15" 69 "17" 71 "19" 73 "21", labsize(*0.60)) ///
+  xlabel(31(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13" 67 "15" 69 "17" 71 "19" 73 "21" 75 "23", labsize(*0.60)) ///
   /*
   xline(21471.9, lcolor("$mycolor7") lpattern(shortdash) lwidth(mthick)) ///
   */ ///
