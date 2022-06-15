@@ -30,7 +30,7 @@ set more off
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
 global fecha 13jun2022
-global semana 74
+global semana 75
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -153,7 +153,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	do "programas/4d_figura_exceso_regional"
 	do "programas/4e_figura_exceso_provincial"
-
+x
 	* Graficos Hospitalización
 	*do "programas/4f_figuras_hospitales"
 	
