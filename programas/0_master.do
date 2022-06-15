@@ -29,8 +29,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 13jun2022
-global semana 75
+global fecha 15jun2022
+global semana 76
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -51,6 +51,9 @@ global mycolor5 "54 56 120"
 global mycolor6 "3 83 151"
 *global mycolor7 "116 116 52"
 global mycolor7 "52 103 81"
+
+global mycolor8 "249 249 249"
+
 colorpalette ///
  "$mycolor1" ///
  "$mycolor2" ///
@@ -59,7 +62,8 @@ colorpalette ///
  "$mycolor5" ///
  "$mycolor6" ///
  "$mycolor7" ///
-  , n(7)
+ "$mycolor8" ///
+  , n(8)
   
 gr export "figuras/paleta_colores.png", as(png) replace
 
@@ -124,7 +128,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard" 
-
+X
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
