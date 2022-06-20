@@ -3,7 +3,7 @@
 \beamer@sectionintoc {3}{Cobertura de Vacunación, Región Cusco}{28}{0}{3}
 \beamer@sectionintoc {4}{Indicadores de Gestión Hospitalaria}{32}{0}{4}
 \beamer@sectionintoc {5}{Indicadores por Provincias}{42}{0}{5}
-\beamer@sectionintoc {6}{Resumen }{47}{0}{6}
+\beamer@sectionintoc {6}{Resumen}{47}{0}{6}
 \beamer@sectionintoc {7}{Links Útiles\footnote {Agradecimiento: Diseño: Johar Cassa y Jason Cruz}}{52}{0}{7}
 \beamer@sectionintoc {8}{Apéndice}{54}{1}{8}
 \beamer@subsectionintoc {8}{1}{Vacunación por Provincias y Grupo de Edad}{55}{1}{8}

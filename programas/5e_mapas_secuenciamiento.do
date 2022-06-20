@@ -54,7 +54,7 @@ rename UBIGEO ubigeo
 
 sort ubigeo
 save "mapas\mapa_cusco_cusco", replace
-*/
+
 use "${datos}\output\datos_variantes", clear
 
 * Mantener sólo a las que tienen variante 
