@@ -35,10 +35,12 @@ quietly by dni: gen num_dupli = cond(_N==1,0,_n)
 gen dosis = .
 replace dosis = 1 if dupli == 0	
 replace dosis = 2 if dupli == 1 & num_dupli == 2
-replace dosis = 3 if num_dupli >2
+replace dosis = 3 if dupli == 2 & num_dupli == 3
+replace dosis = 4 if num_dupli > 3
 
 * Mantener una copia de los que tienen una dosis, dos dosis, y tres dosis
-keep if dosis == 1 | dosis == 2 | dosis == 3
+*keep if dosis == 1 | dosis == 2 | dosis == 3 | dosis == 4
+keep if dosis == 1 | dosis == 2
 
 * Mantener las variables de interés
 rename fecha_vacuna fecha_ultima_vacuna

@@ -7,7 +7,7 @@ drop if EdadGE > 109
 
 * Generar las categorías de las etapas de vida
 gen grupo_edad = .
-replace grupo_edad = 1 if EdadGE >=  5 & EdadGE <= 11
+replace grupo_edad = 1 if EdadGE >= 5 & EdadGE <= 11
 replace grupo_edad = 2 if EdadGE >= 12 & EdadGE <= 17
 replace grupo_edad = 3 if EdadGE >= 18 & EdadGE <= 29
 replace grupo_edad = 4 if EdadGE >= 30 & EdadGE <= 39
@@ -38,19 +38,26 @@ collapse (count) numero if dosis == 2, by(grupo_edad)
 rename numero dos
 save "${datos}\temporal\vacunados_segunda", replace
 restore
-
 /*
 preserve 
 gen numero = _n
 collapse (count) numero if dosis == 3, by(grupo_edad)
 rename numero tres
-save "datos\temporal\vacunados_tercera", replace
+save "${datos}\temporal\vacunados_tercera", replace
+restore 
+
+preserve 
+gen numero = _n
+collapse (count) numero if dosis == 4, by(grupo_edad)
+rename numero tres
+save "${datos}\temporal\vacunados_cuarta", replace
 restore 
 */
-
 use "${datos}\temporal\vacunados_primera", clear
 merge 1:1 grupo_edad using "${datos}\temporal\vacunados_segunda", nogen
-**merge 1:1 grupo_edad using "datos\temporal\vacunados_tercera", nogen
+*merge 1:1 grupo_edad using "${datos}\temporal\vacunados_tercera", nogen
+*merge 1:1 grupo_edad using "${datos}\temporal\vacunados_cuarta", nogen
+
 
 gen objetivo = .
 replace objetivo = 177961 if grupo_edad == 1
@@ -63,6 +70,7 @@ replace objetivo = 96507 if grupo_edad == 7
 replace objetivo = 54159 if grupo_edad == 8
 replace objetivo = 31271 if grupo_edad == 9
 	
+gen una_dosis = uno	/objetivo*100
 gen dos_dosis = dos/objetivo*100
 gen brecha_primera_segunda = uno/objetivo*100
 *gen tres_dosis = tres/objetivo*100

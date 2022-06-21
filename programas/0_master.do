@@ -29,7 +29,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 15jun2022
+global fecha 20jun2022
 global semana 76
 
 * Tiempo de corrida: alrededor de 7 minutos
@@ -128,7 +128,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard" 
-X
+
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
@@ -186,7 +186,7 @@ x
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"
 	do "programas\6c_figura_vacunacion_provincias"	
-*/
+
 	
 /*
 * 7. Figuras para el "Boletin COVID-19" Mensual
