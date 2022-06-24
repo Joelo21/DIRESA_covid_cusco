@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.15)  23 JUN 2022 18:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.15)  24 JUN 2022 02:13
 entering extended mode
 **./sala_covid.tex
 (sala_covid.tex
@@ -2800,19 +2800,13 @@ Overfull \vbox (13.28629pt too high) detected at line 1671
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package rerunfilecheck Warning: File `sala_covid.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `sala_covid.out':
-(rerunfilecheck)             Before: B3F615C2200E13BB150C3A4706513DF0;3550
-(rerunfilecheck)             After:  4CD69281670CD7D0366570E806B76345;3526.
+Package rerunfilecheck Info: File `sala_covid.out' has not changed.
+(rerunfilecheck)             Checksum: 4CD69281670CD7D0366570E806B76345;3526.
  ) 
 Here is how much of TeX's memory you used:
  42124 strings out of 478701
  996077 string characters out of 2856395
- 1397186 words of memory out of 3000000
+ 1397185 words of memory out of 3000000
  58941 multiletter control sequences out of 15000+600000
  473166 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2840,7 +2834,7 @@ ype1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX2/fonts/type1/public/lm/lms
 y10.pfb><C:/Program Files/MiKTeX2/fonts/type1/public/lm/lmsy6.pfb><C:/Program F
 iles/MiKTeX2/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/M
 iKTeX2/fonts/type1/public/newpx/npxsups-Regular.pfb>
-Output written on sala_covid.pdf (119 pages, 10530840 bytes).
+Output written on sala_covid.pdf (119 pages, 10530845 bytes).
 PDF statistics:
  1927 PDF objects out of 2073 (max. 8388607)
  346 named destinations out of 1000 (max. 500000)
