@@ -83,6 +83,7 @@ save "${datos}\output\letalidad_curso_vida_2021.dta", replace
 ******2022
 use "${datos}\output\base_covid.dta", clear
 
+/*
 **Generando Curso de Vida
 gen grupo_edad=.
 replace grupo_edad = 1 if edad >= 0 & edad <= 11
@@ -93,11 +94,27 @@ replace grupo_edad = 5 if edad >= 60
 label variable grupo_edad "Grupo Edad"
 label define grupo_edad 1 "Niños" 2 "Adolescente" 3 "Joven" 4 "Adulto" 5 "Adulto Mayor"
 label values grupo_edad grupo_edad
+*/
+
+**Generando Curso de Vida
+replace grupo_edad=.
+replace grupo_edad = 1 if edad >= 0 & edad <= 4
+replace grupo_edad = 2 if edad >= 5 & edad <= 8
+replace grupo_edad = 3 if edad >= 9 & edad <= 12
+replace grupo_edad = 4 if edad >= 13 & edad <= 16
+
+label variable grupo_edad "Grupo Edad"
+label define grupo_edad 1 "0-4 años" 2 "5-8 años" 3 "9-13 años" 4 "13-16 años" 
+label values grupo_edad grupo_edad
+
 
 *Limpiando Base
-drop if fecha_resultado < d(01jan2022)
+drop if fecha_resultado < d(01apr2022)
 keep if grupo_edad !=.
 sort grupo_edad
+sort fecha_resultado
+drop if positivo!=1
+
 
 *Fecha Resultado
 collapse (count) positivo defuncion, by (grupo_edad)

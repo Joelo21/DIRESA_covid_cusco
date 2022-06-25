@@ -10,16 +10,16 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
 	*****CASA******
-	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	global datos "H:\Mi unidad\Datos"
-	****CASA****** 
 	*global datos "H:\Mi unidad\Datos"
+	****CASA****** 
+	global datos "E:\Mi unidad\Datos"
 	
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -29,8 +29,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 20jun2022
-global semana 76
+global fecha 25jun2022
+global semana 77
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -52,8 +52,8 @@ global mycolor6 "3 83 151"
 *global mycolor7 "116 116 52"
 global mycolor7 "52 103 81"
 
-global mycolor8 "249 249 249"
-
+global mycolor8 "249 249 249" 
+global mycolor9 "255 255 255" 
 colorpalette ///
  "$mycolor1" ///
  "$mycolor2" ///
@@ -63,7 +63,8 @@ colorpalette ///
  "$mycolor6" ///
  "$mycolor7" ///
  "$mycolor8" ///
-  , n(8)
+ "$mycolor9" ///
+  , n(9)
   
 gr export "figuras/paleta_colores.png", as(png) replace
 
@@ -76,7 +77,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-
+/*
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -128,6 +129,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard" 
+X
 
 	** Cambiar la dirección si es necesario
 	*CASA
@@ -171,8 +173,8 @@ x
 	
 	* Tabla cero defunciones
 	**do "programas\4z_tabla_cero_defunciones.do"
-
-/*
+*
+*/
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
@@ -181,12 +183,12 @@ x
 	do "programas\5e_mapas_secuenciamiento"
 */
 
-
+/*
 * 6. Vacunados
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"
 	do "programas\6c_figura_vacunacion_provincias"	
-
+*/
 	
 /*
 * 7. Figuras para el "Boletin COVID-19" Mensual

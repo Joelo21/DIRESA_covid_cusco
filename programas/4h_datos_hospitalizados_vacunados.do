@@ -8,6 +8,7 @@ gen Hospitalizados = 1
 *Guardar
 save "${datos}\output\base_hospitalizados.dta", replace
 ********************************************************************************
+/*
 *Uniendo Base Hospitalizados y Base Vacunados
 use "${datos}\output\base_vacunados.dta", clear
 merge m:m dni using "${datos}\output\base_hospitalizados.dta",nogen
@@ -26,3 +27,11 @@ gen total_Hospitalizados = sum(Hospitalizados)
 
 
 save "${datos}\output\hospitalizados_vacunados.dta", replace
+*/
+********************************************************************************
+*Uniendo Base Hospitalizados y Defunciones
+use "${datos}\output\base_sinadef_2022.dta", clear
+merge m:m dni using "${datos}\output\base_hospitalizados.dta",nogen
+drop if Hospitalizados != 1
+sort fecha_sinadef
+keep if departamento == "CUSCO"

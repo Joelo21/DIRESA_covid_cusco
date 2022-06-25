@@ -68,6 +68,9 @@ gen semana_3 =.
 replace semana_3 = semana_2 - 52
 replace semana_3 = . if semana_3 < 0
 
+*Ordenando
+order semana semana_2 semana_3
+
 save "${datos}\output\base_hospitalizados.dta", replace
 ********************************************************************************
 *Graficamos Hospitalizacion 0 < 9 & 10 < 19

@@ -152,7 +152,7 @@ replace diferencia_mas_30 = 1 if (fecha_resultado - fecha_inicio) > 30 & menor_i
 replace fecha_inicio = . if diferencia_mas_30 == 1
 replace fecha_inicio = . if sintomatico == 0 & fecha_inicio != .
 
-*******************************************
+*************************************************
 * 5.4 Eliminar duplicados con todas las pruebas
 /*
 sort dni positivo_ag fecha_ag positivo_pr fecha_pr
