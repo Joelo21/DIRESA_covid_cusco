@@ -1,23 +1,22 @@
-\beamer@sectionintoc {1}{Indicadores Epidemiológicos, Nivel Nacional}{3}{0}{1}
-\beamer@sectionintoc {2}{Indicadores Epidemiológicos, Región Cusco}{11}{0}{2}
-\beamer@sectionintoc {3}{Cobertura de Vacunación, Región Cusco}{28}{0}{3}
-\beamer@sectionintoc {4}{Indicadores de Gestión Hospitalaria}{32}{0}{4}
-\beamer@sectionintoc {5}{Indicadores por Provincias}{42}{0}{5}
-\beamer@sectionintoc {6}{Resumen}{47}{0}{6}
-\beamer@sectionintoc {7}{Links Útiles\footnote {Agradecimiento: Diseño: Johar Cassa y Jason Cruz}}{52}{0}{7}
-\beamer@sectionintoc {8}{Apéndice}{54}{1}{8}
-\beamer@subsectionintoc {8}{1}{Vacunación por Provincias y Grupo de Edad}{55}{1}{8}
-\beamer@subsectionintoc {8}{2}{Acomayo}{62}{1}{8}
-\beamer@subsectionintoc {8}{3}{Anta}{66}{1}{8}
-\beamer@subsectionintoc {8}{4}{Calca}{70}{1}{8}
-\beamer@subsectionintoc {8}{5}{Canas}{74}{1}{8}
-\beamer@subsectionintoc {8}{6}{Canchis}{78}{1}{8}
-\beamer@subsectionintoc {8}{7}{Chumbivilcas}{82}{1}{8}
-\beamer@subsectionintoc {8}{8}{Cusco}{86}{1}{8}
-\beamer@subsectionintoc {8}{9}{Espinar}{90}{1}{8}
-\beamer@subsectionintoc {8}{10}{La Convención}{94}{1}{8}
-\beamer@subsectionintoc {8}{11}{Paruro}{98}{1}{8}
-\beamer@subsectionintoc {8}{12}{Paucartambo}{102}{1}{8}
-\beamer@subsectionintoc {8}{13}{Quispicanchi}{106}{1}{8}
-\beamer@subsectionintoc {8}{14}{Urubamba}{110}{1}{8}
-\beamer@subsectionintoc {8}{15}{Mapas Variantes}{114}{1}{8}
+\beamer@sectionintoc {1}{Indicadores Epidemiológicos, Región Cusco}{3}{0}{1}
+\beamer@sectionintoc {2}{Cobertura de Vacunación, Región Cusco}{21}{0}{2}
+\beamer@sectionintoc {3}{Indicadores de Gestión Hospitalaria}{25}{0}{3}
+\beamer@sectionintoc {4}{Indicadores por Provincias}{35}{0}{4}
+\beamer@sectionintoc {5}{Resumen}{40}{0}{5}
+\beamer@sectionintoc {6}{Links Útiles\footnote {Agradecimiento: Diseño: Johar Cassa y Jason Cruz}}{45}{0}{6}
+\beamer@sectionintoc {7}{Apéndice}{47}{1}{7}
+\beamer@subsectionintoc {7}{1}{Vacunación por Provincias y Grupo de Edad}{48}{1}{7}
+\beamer@subsectionintoc {7}{2}{Acomayo}{55}{1}{7}
+\beamer@subsectionintoc {7}{3}{Anta}{59}{1}{7}
+\beamer@subsectionintoc {7}{4}{Calca}{63}{1}{7}
+\beamer@subsectionintoc {7}{5}{Canas}{67}{1}{7}
+\beamer@subsectionintoc {7}{6}{Canchis}{71}{1}{7}
+\beamer@subsectionintoc {7}{7}{Chumbivilcas}{75}{1}{7}
+\beamer@subsectionintoc {7}{8}{Cusco}{79}{1}{7}
+\beamer@subsectionintoc {7}{9}{Espinar}{83}{1}{7}
+\beamer@subsectionintoc {7}{10}{La Convención}{87}{1}{7}
+\beamer@subsectionintoc {7}{11}{Paruro}{91}{1}{7}
+\beamer@subsectionintoc {7}{12}{Paucartambo}{95}{1}{7}
+\beamer@subsectionintoc {7}{13}{Quispicanchi}{99}{1}{7}
+\beamer@subsectionintoc {7}{14}{Urubamba}{103}{1}{7}
+\beamer@subsectionintoc {7}{15}{Mapas Variantes}{107}{1}{7}

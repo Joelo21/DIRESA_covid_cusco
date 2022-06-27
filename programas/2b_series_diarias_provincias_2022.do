@@ -8,7 +8,7 @@
 *-------------------------------------------------------------------------------%
 
 * Importar la base de datos 2022
-use "${datos}\output\base_covid_2022.dta", clear
+use "${datos}\output\base_covid.dta", clear
 
 forvalues i=1/13 {
 

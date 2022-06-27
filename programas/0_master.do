@@ -10,16 +10,16 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	*global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
 	*****CASA******
-	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	*global datos "H:\Mi unidad\Datos"
+	global datos "H:\Mi unidad\Datos"
 	****CASA****** 
-	global datos "E:\Mi unidad\Datos"
+	*global datos "E:\Mi unidad\Datos"
 	
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -29,7 +29,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 26jun2022
+global fecha 27jun2022
 global semana 77
 
 * Tiempo de corrida: alrededor de 7 minutos
@@ -51,9 +51,15 @@ global mycolor5 "54 56 120"
 global mycolor6 "3 83 151"
 *global mycolor7 "116 116 52"
 global mycolor7 "52 103 81"
-
 global mycolor8 "249 249 249" 
 global mycolor9 "255 255 255" 
+global mycolor10 "247 236 9"
+global mycolor11 "204 243 238"
+global mycolor12 "176 155 113" 
+global mycolor13 "63 78 79"
+global mycolor14 "3 196 161" 
+global mycolor15 "255 6 183"
+
 colorpalette ///
  "$mycolor1" ///
  "$mycolor2" ///
@@ -64,7 +70,13 @@ colorpalette ///
  "$mycolor7" ///
  "$mycolor8" ///
  "$mycolor9" ///
-  , n(9)
+ "$mycolor10" ///
+ "$mycolor11" ///
+ "$mycolor12" ///
+ "$mycolor13" ///
+ "$mycolor14" ///
+ "$mycolor15" ///   
+  ,n(15)
   
 gr export "figuras/paleta_colores.png", as(png) replace
 
@@ -77,7 +89,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-
+/*
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -189,8 +201,8 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\6b_figura_vacunacion"
 	do "programas\6c_figura_vacunacion_provincias"	
 */
-	
-/*
+*/
+
 * 7. Figuras para el "Boletin COVID-19" Mensual
 	do "programas\7a_base_noticovid_2021_variables"
 	*do "programas\7b_base_siscovid_pr_2021_variables"

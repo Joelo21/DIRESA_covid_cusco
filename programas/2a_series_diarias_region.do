@@ -11,6 +11,7 @@
 use "${datos}/output/base_covid.dta", clear
 *use "${datos}/output/base_covid_2022.dta", clear
 
+
 tempfile dpto_fecha_resultado dpto_fecha_recuperado dpto_fecha_inicio
 
 * Recodificar
