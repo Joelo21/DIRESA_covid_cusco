@@ -29,7 +29,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 25jun2022
+global fecha 26jun2022
 global semana 77
 
 * Tiempo de corrida: alrededor de 7 minutos
@@ -77,7 +77,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-/*
+
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -129,7 +129,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard" 
-X
+
 
 	** Cambiar la dirección si es necesario
 	*CASA
@@ -159,9 +159,9 @@ X
 
 	do "programas/4d_figura_exceso_regional"
 	do "programas/4e_figura_exceso_provincial"
-x
+
 	* Graficos Hospitalización
-	*do "programas/4f_figuras_hospitales"
+	do "programas/4f_figuras_hospitales"
 	
 	*Data Hospitalizados diarios
 	*do "programas/4g_figuras_hospitalizados"
@@ -174,14 +174,14 @@ x
 	* Tabla cero defunciones
 	**do "programas\4z_tabla_cero_defunciones.do"
 *
-*/
+
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
 	do "programas\5c_juntar"
 	do "programas\5d_figura_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
-*/
+
 
 /*
 * 6. Vacunados
