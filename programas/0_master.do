@@ -110,7 +110,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	do "programas/1i_base_unir"
 	*do "programas/1i_base_unir_2022"----
-x
+
 	*do "programas/1j_datos_mapa_calor" // semanal
 	do "programas/1j_datos_mapa_calor_2022"
 

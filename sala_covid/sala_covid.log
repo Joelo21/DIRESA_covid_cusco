@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.28)  28 JUN 2022 09:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.28)  28 JUN 2022 15:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1644,238 +1644,305 @@ LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
 ] [3
 
 ]
+<../sala_nacional/vacunas_nacional.jpeg, id=151, 1017.04968pt x 606.01407pt>
+File: ../sala_nacional/vacunas_nacional.jpeg Graphic file (type jpg)
+<use ../sala_nacional/vacunas_nacional.jpeg>
+Package pdftex.def Info: ../sala_nacional/vacunas_nacional.jpeg  used on input 
+line 295.
+(pdftex.def)             Requested size: 307.28987pt x 183.1002pt.
+ [4
+
+ <../sala_nacional/vacunas_nacional.jpeg>]
+<../sala_nacional/mortalidad_regional.png, id=157, 470.51573pt x 341.95122pt>
+File: ../sala_nacional/mortalidad_regional.png Graphic file (type png)
+<use ../sala_nacional/mortalidad_regional.png>
+Package pdftex.def Info: ../sala_nacional/mortalidad_regional.png  used on inpu
+t line 309.
+(pdftex.def)             Requested size: 230.46739pt x 167.49493pt.
+ [5
+
+ <../sala_nacional/mortalidad_regional.png>]
+<../sala_nacional/defunciones_regional.png, id=166, 665.48625pt x 442.65375pt>
+File: ../sala_nacional/defunciones_regional.png Graphic file (type png)
+<use ../sala_nacional/defunciones_regional.png>
+Package pdftex.def Info: ../sala_nacional/defunciones_regional.png  used on inp
+ut line 331.
+(pdftex.def)             Requested size: 169.01036pt x 112.41254pt.
+LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
+(Font)              scaled to size 6.0pt on input line 331.
+ [6
+
+ <../sala_nacional/defunciones_regional.png>]
+<../sala_nacional/rt_regional.png, id=174, 505.89pt x 361.35pt>
+File: ../sala_nacional/rt_regional.png Graphic file (type png)
+<use ../sala_nacional/rt_regional.png>
+Package pdftex.def Info: ../sala_nacional/rt_regional.png  used on input line 3
+47.
+(pdftex.def)             Requested size: 218.17786pt x 155.84062pt.
+ [7
+
+ <../sala_nacional/rt_regional.png (PNG copy)>]
+<../sala_nacional/camas_regional.png, id=181, 709.14937pt x 476.53032pt>
+File: ../sala_nacional/camas_regional.png Graphic file (type png)
+<use ../sala_nacional/camas_regional.png>
+Package pdftex.def Info: ../sala_nacional/camas_regional.png  used on input lin
+e 374.
+(pdftex.def)             Requested size: 184.3758pt x 123.89496pt.
+ [8
+
+ <../sala_nacional/camas_regional.png>]
+<../sala_nacional/uci_regional.png, id=188, 359.84438pt x 261.97874pt>
+File: ../sala_nacional/uci_regional.png Graphic file (type png)
+<use ../sala_nacional/uci_regional.png>
+Package pdftex.def Info: ../sala_nacional/uci_regional.png  used on input line 
+387.
+(pdftex.def)             Requested size: 230.46739pt x 167.79373pt.
+ [9
+
+ <../sala_nacional/uci_regional.png>]
+<../sala_nacional/nouci_regional.png, id=195, 362.10281pt x 267.24844pt>
+File: ../sala_nacional/nouci_regional.png Graphic file (type png)
+<use ../sala_nacional/nouci_regional.png>
+Package pdftex.def Info: ../sala_nacional/nouci_regional.png  used on input lin
+e 402.
+(pdftex.def)             Requested size: 230.46739pt x 170.09642pt.
+ [10
+
+ <../sala_nacional/nouci_regional.png>] [11
+
+]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/sintomaticos_20_21_22.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/sintomaticos_20_21_22.pdf, id=145, 397.485pt x 289.08pt>
+<../figuras/sintomaticos_20_21_22.pdf, id=209, 397.485pt x 289.08pt>
 File: ../figuras/sintomaticos_20_21_22.pdf Graphic file (type pdf)
 <use ../figuras/sintomaticos_20_21_22.pdf>
 Package pdftex.def Info: ../figuras/sintomaticos_20_21_22.pdf  used on input li
-ne 421.
+ne 416.
 (pdftex.def)             Requested size: 276.559pt x 201.13718pt.
-[4
+[12
 
  <../figuras/sintomaticos_20_21_22.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positivos_semanales_20_21_22.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positivos_semanales_20_21_22.pdf, id=161, 397.485pt x 289.08pt>
+<../figuras/positivos_semanales_20_21_22.pdf, id=225, 397.485pt x 289.08pt>
 File: ../figuras/positivos_semanales_20_21_22.pdf Graphic file (type pdf)
 <use ../figuras/positivos_semanales_20_21_22.pdf>
 Package pdftex.def Info: ../figuras/positivos_semanales_20_21_22.pdf  used on i
-nput line 431.
+nput line 426.
 (pdftex.def)             Requested size: 276.559pt x 201.13718pt.
-[5
+[13
 
  <../figuras/positivos_semanales_20_21_22.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/sinto_prueba_20_21_22.pdf): PDF i
 nclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/sinto_prueba_20_21_22.pdf, id=178, 397.485pt x 289.08pt>
+<../figuras/sinto_prueba_20_21_22.pdf, id=243, 397.485pt x 289.08pt>
 File: ../figuras/sinto_prueba_20_21_22.pdf Graphic file (type pdf)
 <use ../figuras/sinto_prueba_20_21_22.pdf>
 Package pdftex.def Info: ../figuras/sinto_prueba_20_21_22.pdf  used on input li
-ne 453.
+ne 448.
 (pdftex.def)             Requested size: 215.10196pt x 156.4405pt.
-[6
+[14
 
  <../figuras/sinto_prueba_20_21_22.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positivos_crecimiento_2021_2022.p
 df): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positivos_crecimiento_2021_2022.pdf, id=225, 397.485pt x 289.08pt>
+<../figuras/positivos_crecimiento_2021_2022.pdf, id=290, 397.485pt x 289.08pt>
 File: ../figuras/positivos_crecimiento_2021_2022.pdf Graphic file (type pdf)
 <use ../figuras/positivos_crecimiento_2021_2022.pdf>
 Package pdftex.def Info: ../figuras/positivos_crecimiento_2021_2022.pdf  used o
-n input line 463.
+n input line 458.
 (pdftex.def)             Requested size: 276.559pt x 201.13718pt.
-[7
+[15
 
  <../figuras/positivos_crecimiento_2021_2022.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_pcr.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_pcr.pdf, id=243, 397.485pt x 289.08pt>
+<../figuras/positividad_pcr.pdf, id=307, 397.485pt x 289.08pt>
 File: ../figuras/positividad_pcr.pdf Graphic file (type pdf)
 <use ../figuras/positividad_pcr.pdf>
-Package pdftex.def Info: ../figuras/positividad_pcr.pdf  used on input line 472
+Package pdftex.def Info: ../figuras/positividad_pcr.pdf  used on input line 467
 .
 (pdftex.def)             Requested size: 245.83282pt x 178.79105pt.
-[8
+[16
 
  <../figuras/positividad_pcr.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_ag.pdf): PDF inclusio
 n: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_ag.pdf, id=259, 397.485pt x 289.08pt>
+<../figuras/positividad_ag.pdf, id=323, 397.485pt x 289.08pt>
 File: ../figuras/positividad_ag.pdf Graphic file (type pdf)
 <use ../figuras/positividad_ag.pdf>
-Package pdftex.def Info: ../figuras/positividad_ag.pdf  used on input line 480.
+Package pdftex.def Info: ../figuras/positividad_ag.pdf  used on input line 475.
 
 (pdftex.def)             Requested size: 245.83282pt x 178.79105pt.
-[9
+[17
 
  <../figuras/positividad_ag.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/variantes.pdf, id=275, 397.485pt x 289.08pt>
+<../figuras/variantes.pdf, id=339, 397.485pt x 289.08pt>
 File: ../figuras/variantes.pdf Graphic file (type pdf)
 <use ../figuras/variantes.pdf>
-Package pdftex.def Info: ../figuras/variantes.pdf  used on input line 489.
+Package pdftex.def Info: ../figuras/variantes.pdf  used on input line 484.
 (pdftex.def)             Requested size: 276.559pt x 201.13718pt.
-[10
+[18
 
  <../figuras/variantes.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/subvariantes.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/subvariantes.pdf, id=292, 397.485pt x 289.08pt>
+<../figuras/subvariantes.pdf, id=356, 397.485pt x 289.08pt>
 File: ../figuras/subvariantes.pdf Graphic file (type pdf)
 <use ../figuras/subvariantes.pdf>
-Package pdftex.def Info: ../figuras/subvariantes.pdf  used on input line 498.
+Package pdftex.def Info: ../figuras/subvariantes.pdf  used on input line 493.
 (pdftex.def)             Requested size: 261.19826pt x 189.96852pt.
-[11
+[19
 
  <../figuras/subvariantes.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_provincial.pdf): PDF in
 clusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/variantes_provincial.pdf, id=310, 289.08pt x 337.5748pt>
+<../figuras/variantes_provincial.pdf, id=375, 289.08pt x 337.5748pt>
 File: ../figuras/variantes_provincial.pdf Graphic file (type pdf)
 <use ../figuras/variantes_provincial.pdf>
 Package pdftex.def Info: ../figuras/variantes_provincial.pdf  used on input lin
-e 512.
+e 507.
 (pdftex.def)             Requested size: 122.91406pt x 143.53177pt.
-[12
+[20
 
  <../figuras/variantes_provincial.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/defunciones_semanales_20_21_22.pd
 f): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/defunciones_semanales_20_21_22.pdf, id=339, 397.485pt x 289.08pt>
+<../figuras/defunciones_semanales_20_21_22.pdf, id=404, 397.485pt x 289.08pt>
 File: ../figuras/defunciones_semanales_20_21_22.pdf Graphic file (type pdf)
 <use ../figuras/defunciones_semanales_20_21_22.pdf>
 Package pdftex.def Info: ../figuras/defunciones_semanales_20_21_22.pdf  used on
- input line 536.
+ input line 531.
 (pdftex.def)             Requested size: 276.559pt x 187.27939pt.
-[13
+[21
 
  <../figuras/defunciones_semanales_20_21_22.pdf>]
-<../figuras/promedio_casos_defuncion_2020_2021_2022.png, id=360, 1274.7625pt x 
+<../figuras/promedio_casos_defuncion_2020_2021_2022.png, id=424, 1274.7625pt x 
 927.465pt>
 File: ../figuras/promedio_casos_defuncion_2020_2021_2022.png Graphic file (type
  png)
 <use ../figuras/promedio_casos_defuncion_2020_2021_2022.png>
 Package pdftex.def Info: ../figuras/promedio_casos_defuncion_2020_2021_2022.png
-  used on input line 545.
+  used on input line 540.
 (pdftex.def)             Requested size: 276.559pt x 196.8916pt.
- [14
+ [22
 
  <../figuras/promedio_casos_defuncion_2020_2021_2022.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/defunciones_tasa_crecimiento_21_2
 2.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allow
 ed
-<../figuras/defunciones_tasa_crecimiento_21_22.pdf, id=368, 397.485pt x 289.08p
+<../figuras/defunciones_tasa_crecimiento_21_22.pdf, id=432, 397.485pt x 289.08p
 t>
 File: ../figuras/defunciones_tasa_crecimiento_21_22.pdf Graphic file (type pdf)
 
 <use ../figuras/defunciones_tasa_crecimiento_21_22.pdf>
 Package pdftex.def Info: ../figuras/defunciones_tasa_crecimiento_21_22.pdf  use
-d on input line 555.
+d on input line 550.
 (pdftex.def)             Requested size: 276.559pt x 201.13718pt.
-[15
+[23
 
  <../figuras/defunciones_tasa_crecimiento_21_22.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_region_2022.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_region_2022.pdf, id=384, 397.485pt x 289.08pt>
+<../figuras/exceso_region_2022.pdf, id=448, 397.485pt x 289.08pt>
 File: ../figuras/exceso_region_2022.pdf Graphic file (type pdf)
 <use ../figuras/exceso_region_2022.pdf>
 Package pdftex.def Info: ../figuras/exceso_region_2022.pdf  used on input line 
-564.
+559.
 (pdftex.def)             Requested size: 276.559pt x 201.13718pt.
-[16
+[24
 
  <../figuras/exceso_region_2022.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_2021_2022.pdf): P
 DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_2021_2022.pdf, id=409, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_2021_2022.pdf, id=473, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_2021_2022.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_2021_2022.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_2021_2022.pdf  used on inpu
-t line 573.
+t line 568.
 (pdftex.def)             Requested size: 276.559pt x 201.13718pt.
-[17
+[25
 
  <../figuras/mortalidad_edad_2021_2022.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_80.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_80.pdf, id=425, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_80.pdf, id=490, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_80.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_80.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_80.pdf  used on input line 
-625.
+620.
 (pdftex.def)             Requested size: 92.1879pt x 67.04279pt.
 
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_70.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_70.pdf, id=426, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_70.pdf, id=491, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_70.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_70.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_70.pdf  used on input line 
-625.
+620.
 (pdftex.def)             Requested size: 92.1879pt x 67.04279pt.
 
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_60.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_60.pdf, id=427, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_60.pdf, id=492, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_60.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_60.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_60.pdf  used on input line 
-625.
+620.
 (pdftex.def)             Requested size: 92.1879pt x 67.04279pt.
 
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_50.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_50.pdf, id=428, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_50.pdf, id=493, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_50.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_50.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_50.pdf  used on input line 
-625.
+620.
 (pdftex.def)             Requested size: 92.1879pt x 67.04279pt.
 
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_40.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_40.pdf, id=429, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_40.pdf, id=494, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_40.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_40.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_40.pdf  used on input line 
-625.
+620.
 (pdftex.def)             Requested size: 92.1879pt x 67.04279pt.
 
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_30.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_30.pdf, id=430, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_30.pdf, id=495, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_30.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_30.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_30.pdf  used on input line 
-625.
+620.
 (pdftex.def)             Requested size: 92.1879pt x 67.04279pt.
 
-Overfull \vbox (12.87532pt too high) detected at line 625
+Overfull \vbox (12.87532pt too high) detected at line 620
  []
 
-[18
+[26
 
  <../figuras/mortalidad_edad_80.pdf> <../figuras/mortalidad_edad_70.pdf> <../fi
 guras/mortalidad_edad_60.pdf> <../figuras/mortalidad_edad_50.pdf> <../figuras/m
@@ -1883,1040 +1950,1041 @@ ortalidad_edad_40.pdf> <../figuras/mortalidad_edad_30.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_20.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_20.pdf, id=496, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_20.pdf, id=561, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_20.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_20.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_20.pdf  used on input line 
-658.
+653.
 (pdftex.def)             Requested size: 92.1879pt x 67.04279pt.
 
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_10.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_10.pdf, id=497, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_10.pdf, id=562, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_10.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_10.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_10.pdf  used on input line 
-658.
+653.
 (pdftex.def)             Requested size: 92.1879pt x 67.04279pt.
 
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_0.pdf): PDF inclu
 sion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_0.pdf, id=498, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_0.pdf, id=563, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_0.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_0.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_0.pdf  used on input line 6
-58.
+53.
 (pdftex.def)             Requested size: 92.1879pt x 67.04279pt.
 LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 658.
-[19
+(Font)              scaled to size 10.0pt on input line 653.
+[27
 
  <../figuras/mortalidad_edad_20.pdf> <../figuras/mortalidad_edad_10.pdf> <../fi
 guras/mortalidad_edad_0.pdf>] (../tablas/tabla_mortalidad_curso_vida.tex
 LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 12.
 )
-[20
+[28
 
-] [21
+] [29
 
 ]
-<../sala_nacional/Cobertura_Vacunacion_Provincias.jpg, id=548, 926.151pt x 539.
+<../sala_nacional/Cobertura_Vacunacion_Provincias.jpg, id=611, 926.151pt x 539.
 178pt>
 File: ../sala_nacional/Cobertura_Vacunacion_Provincias.jpg Graphic file (type j
 pg)
 <use ../sala_nacional/Cobertura_Vacunacion_Provincias.jpg>
 Package pdftex.def Info: ../sala_nacional/Cobertura_Vacunacion_Provincias.jpg  
-used on input line 712.
+used on input line 707.
 (pdftex.def)             Requested size: 307.28987pt x 177.29834pt.
- [22
+ [30
 
  <../sala_nacional/Cobertura_Vacunacion_Provincias.jpg>]
 pdfTeX warning (ext4): destination with the same identifier (name{cobertura_vac
 una<1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.721 \end{frame}
+l.716 \end{frame}
                  
 pdfTeX warning (ext4): destination with the same identifier (name{cobertura_vac
 una}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.721 \end{frame}
+l.716 \end{frame}
                  
-<../figuras/vacunacion_grupo_edad.png, id=557, 717.68124pt x 521.95pt>
+<../figuras/vacunacion_grupo_edad.png, id=620, 717.68124pt x 521.95pt>
 File: ../figuras/vacunacion_grupo_edad.png Graphic file (type png)
 <use ../figuras/vacunacion_grupo_edad.png>
 Package pdftex.def Info: ../figuras/vacunacion_grupo_edad.png  used on input li
-ne 721.
+ne 716.
 (pdftex.def)             Requested size: 245.83282pt x 174.73372pt.
- [23
+ [31
 
  <../figuras/vacunacion_grupo_edad.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_8.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion_provincial_edad_8.pdf, id=565, 397.485pt x 289.08pt>
+<../figuras/vacunacion_provincial_edad_8.pdf, id=629, 397.485pt x 289.08pt>
 File: ../figuras/vacunacion_provincial_edad_8.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion_provincial_edad_8.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_8.pdf  used on i
-nput line 736.
+nput line 731.
 (pdftex.def)             Requested size: 245.83282pt x 171.37672pt.
-[24
+[32
 
- <../figuras/vacunacion_provincial_edad_8.pdf>] [25
+ <../figuras/vacunacion_provincial_edad_8.pdf>] [33
 
 ]
-<../figuras/uci.png, id=606, 1274.7625pt x 927.465pt>
+<../figuras/uci.png, id=669, 1274.7625pt x 927.465pt>
 File: ../figuras/uci.png Graphic file (type png)
 <use ../figuras/uci.png>
-Package pdftex.def Info: ../figuras/uci.png  used on input line 763.
+Package pdftex.def Info: ../figuras/uci.png  used on input line 758.
 (pdftex.def)             Requested size: 276.559pt x 196.8916pt.
 
-Overfull \vbox (0.20943pt too high) detected at line 763
+Overfull \vbox (0.20943pt too high) detected at line 758
  []
 
-[26
+[34
 
  <../figuras/uci.png (PNG copy)>]
-<../figuras/nivel_3.png, id=615, 1274.7625pt x 927.465pt>
+<../figuras/nivel_3.png, id=678, 1274.7625pt x 927.465pt>
 File: ../figuras/nivel_3.png Graphic file (type png)
 <use ../figuras/nivel_3.png>
-Package pdftex.def Info: ../figuras/nivel_3.png  used on input line 772.
+Package pdftex.def Info: ../figuras/nivel_3.png  used on input line 767.
 (pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
- [27
+ [35
 
  <../figuras/nivel_3.png (PNG copy)>]
-<../figuras/h_regional_uci.png, id=623, 1274.7625pt x 927.465pt>
+<../figuras/h_regional_uci.png, id=686, 1274.7625pt x 927.465pt>
 File: ../figuras/h_regional_uci.png Graphic file (type png)
 <use ../figuras/h_regional_uci.png>
-Package pdftex.def Info: ../figuras/h_regional_uci.png  used on input line 781.
+Package pdftex.def Info: ../figuras/h_regional_uci.png  used on input line 776.
 
 (pdftex.def)             Requested size: 276.559pt x 196.8916pt.
 
-[28
+[36
 
  <../figuras/h_regional_uci.png (PNG copy)>]
-<../figuras/h_regional_nouci.png, id=631, 1274.7625pt x 927.465pt>
+<../figuras/h_regional_nouci.png, id=694, 1274.7625pt x 927.465pt>
 File: ../figuras/h_regional_nouci.png Graphic file (type png)
 <use ../figuras/h_regional_nouci.png>
-Package pdftex.def Info: ../figuras/h_regional_nouci.png  used on input line 80
-1.
+Package pdftex.def Info: ../figuras/h_regional_nouci.png  used on input line 79
+6.
 (pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
- [29
+ [37
 
  <../figuras/h_regional_nouci.png (PNG copy)>]
-<../figuras/h_lorena_uci.png, id=639, 1274.7625pt x 927.465pt>
+<../figuras/h_lorena_uci.png, id=703, 1274.7625pt x 927.465pt>
 File: ../figuras/h_lorena_uci.png Graphic file (type png)
 <use ../figuras/h_lorena_uci.png>
-Package pdftex.def Info: ../figuras/h_lorena_uci.png  used on input line 810.
+Package pdftex.def Info: ../figuras/h_lorena_uci.png  used on input line 805.
 (pdftex.def)             Requested size: 236.6145pt x 168.44771pt.
- [30
+ [38
 
  <../figuras/h_lorena_uci.png (PNG copy)>]
-<../figuras/h_lorena_nouci.png, id=647, 1274.7625pt x 927.465pt>
+<../figuras/h_lorena_nouci.png, id=711, 1274.7625pt x 927.465pt>
 File: ../figuras/h_lorena_nouci.png Graphic file (type png)
 <use ../figuras/h_lorena_nouci.png>
-Package pdftex.def Info: ../figuras/h_lorena_nouci.png  used on input line 829.
+Package pdftex.def Info: ../figuras/h_lorena_nouci.png  used on input line 824.
 
 (pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
- [31
+ [39
 
  <../figuras/h_lorena_nouci.png (PNG copy)>]
-<../figuras/h_adolfo_uci.png, id=656, 1274.7625pt x 927.465pt>
+<../figuras/h_adolfo_uci.png, id=719, 1274.7625pt x 927.465pt>
 File: ../figuras/h_adolfo_uci.png Graphic file (type png)
 <use ../figuras/h_adolfo_uci.png>
-Package pdftex.def Info: ../figuras/h_adolfo_uci.png  used on input line 838.
+Package pdftex.def Info: ../figuras/h_adolfo_uci.png  used on input line 833.
 (pdftex.def)             Requested size: 236.6145pt x 168.44771pt.
- [32
+ [40
 
  <../figuras/h_adolfo_uci.png (PNG copy)>]
-<../figuras/h_adolfo_nouci.png, id=664, 1274.7625pt x 927.465pt>
+<../figuras/h_adolfo_nouci.png, id=727, 1274.7625pt x 927.465pt>
 File: ../figuras/h_adolfo_nouci.png Graphic file (type png)
 <use ../figuras/h_adolfo_nouci.png>
-Package pdftex.def Info: ../figuras/h_adolfo_nouci.png  used on input line 858.
+Package pdftex.def Info: ../figuras/h_adolfo_nouci.png  used on input line 853.
 
 (pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
-[33
+[41
 
  <../figuras/h_adolfo_nouci.png (PNG copy)>]
-<../figuras/nivel_2.png, id=672, 1274.7625pt x 927.465pt>
+<../figuras/nivel_2.png, id=735, 1274.7625pt x 927.465pt>
 File: ../figuras/nivel_2.png Graphic file (type png)
 <use ../figuras/nivel_2.png>
-Package pdftex.def Info: ../figuras/nivel_2.png  used on input line 867.
+Package pdftex.def Info: ../figuras/nivel_2.png  used on input line 862.
 (pdftex.def)             Requested size: 245.83282pt x 175.01169pt.
- [34
+ [42
 
- <../figuras/nivel_2.png (PNG copy)>] [35
+ <../figuras/nivel_2.png (PNG copy)>] [43
 
-] (../tablas/tabla_incidencia_provincia.tex) [36
-
-]
-(../tablas/tabla_positividad_provincia.tex) [37
+] (../tablas/tabla_incidencia_provincia.tex) [44
 
 ]
-(../tablas/tabla_defunciones_cero_provincia.tex) [38
+(../tablas/tabla_positividad_provincia.tex) [45
 
 ]
-(../tablas/tabla_letalidad_mortalidad_provincia.tex) [39
-
-] [40
-
-] [41
-
-] [42
+(../tablas/tabla_defunciones_cero_provincia.tex) [46
 
 ]
-[43
+(../tablas/tabla_letalidad_mortalidad_provincia.tex) [47
 
-] [44
+] [48
+
+] [49
+
+] [50
 
 ]
+[51
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\footnote' on input line 1000.
-
-[45
-
-] [46
+] [52
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\translate ' on input line 1025.
+(hyperref)                removing `\footnote' on input line 995.
 
-[47
+[53
+
+] [54
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\translate ' on input line 1020.
+
+[55
 
 ]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_7.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion_provincial_edad_7.pdf, id=782, 397.485pt x 289.08pt>
+<../figuras/vacunacion_provincial_edad_7.pdf, id=844, 397.485pt x 289.08pt>
 File: ../figuras/vacunacion_provincial_edad_7.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion_provincial_edad_7.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_7.pdf  used on i
-nput line 1038.
+nput line 1033.
 (pdftex.def)             Requested size: 245.83282pt x 171.37672pt.
-[48
+[56
 
  <../figuras/vacunacion_provincial_edad_7.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_6.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion_provincial_edad_6.pdf, id=802, 397.485pt x 289.08pt>
+<../figuras/vacunacion_provincial_edad_6.pdf, id=864, 397.485pt x 289.08pt>
 File: ../figuras/vacunacion_provincial_edad_6.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion_provincial_edad_6.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_6.pdf  used on i
-nput line 1048.
+nput line 1043.
 (pdftex.def)             Requested size: 245.83282pt x 171.37672pt.
-[49
+[57
 
  <../figuras/vacunacion_provincial_edad_6.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_5.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion_provincial_edad_5.pdf, id=823, 397.485pt x 289.08pt>
+<../figuras/vacunacion_provincial_edad_5.pdf, id=884, 397.485pt x 289.08pt>
 File: ../figuras/vacunacion_provincial_edad_5.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion_provincial_edad_5.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_5.pdf  used on i
-nput line 1058.
+nput line 1053.
 (pdftex.def)             Requested size: 245.83282pt x 171.37672pt.
-[50
+[58
 
  <../figuras/vacunacion_provincial_edad_5.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_4.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion_provincial_edad_4.pdf, id=843, 397.485pt x 289.08pt>
+<../figuras/vacunacion_provincial_edad_4.pdf, id=904, 397.485pt x 289.08pt>
 File: ../figuras/vacunacion_provincial_edad_4.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion_provincial_edad_4.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_4.pdf  used on i
-nput line 1068.
+nput line 1063.
 (pdftex.def)             Requested size: 245.83282pt x 171.37672pt.
-[51
+[59
 
  <../figuras/vacunacion_provincial_edad_4.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_3.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion_provincial_edad_3.pdf, id=863, 397.485pt x 289.08pt>
+<../figuras/vacunacion_provincial_edad_3.pdf, id=924, 397.485pt x 289.08pt>
 File: ../figuras/vacunacion_provincial_edad_3.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion_provincial_edad_3.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_3.pdf  used on i
-nput line 1078.
+nput line 1073.
 (pdftex.def)             Requested size: 245.83282pt x 171.37672pt.
-[52
+[60
 
  <../figuras/vacunacion_provincial_edad_3.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_2.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion_provincial_edad_2.pdf, id=883, 397.485pt x 289.08pt>
+<../figuras/vacunacion_provincial_edad_2.pdf, id=944, 397.485pt x 289.08pt>
 File: ../figuras/vacunacion_provincial_edad_2.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion_provincial_edad_2.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_2.pdf  used on i
-nput line 1089.
+nput line 1084.
 (pdftex.def)             Requested size: 245.83282pt x 171.37672pt.
-[53
+[61
 
  <../figuras/vacunacion_provincial_edad_2.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_1.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion_provincial_edad_1.pdf, id=903, 397.485pt x 289.08pt>
+<../figuras/vacunacion_provincial_edad_1.pdf, id=965, 397.485pt x 289.08pt>
 File: ../figuras/vacunacion_provincial_edad_1.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion_provincial_edad_1.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_1.pdf  used on i
-nput line 1099.
+nput line 1094.
 (pdftex.def)             Requested size: 245.83282pt x 171.37672pt.
-[54
+[62
 
  <../figuras/vacunacion_provincial_edad_1.pdf>]
-<../figuras/sinto_prueba20_21_1.png, id=923, 717.68124pt x 521.95pt>
+<../figuras/sinto_prueba20_21_1.png, id=985, 717.68124pt x 521.95pt>
 File: ../figuras/sinto_prueba20_21_1.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_1.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_1.png  used on input line
- 1110.
+ 1105.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [55
+ [63
 
  <../figuras/sinto_prueba20_21_1.png (PNG copy)>]
 pdfTeX warning (ext4): destination with the same identifier (name{Acomayo<1>}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1119 \end{frame}
+l.1114 \end{frame}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{Acomayo}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1119 \end{frame}
+l.1114 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_1.png, id=934, 717.68124pt x 521.95pt>
+<../figuras/incidencia_mortalidad_20_21_1.png, id=995, 717.68124pt x 521.95pt>
 File: ../figuras/incidencia_mortalidad_20_21_1.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_1.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_1.png  used on 
-input line 1119.
+input line 1114.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [56
+ [64
 
  <../figuras/incidencia_mortalidad_20_21_1.png (PNG copy)>]
-<../figuras/positividad_20_21_1.png, id=942, 717.68124pt x 521.95pt>
+<../figuras/positividad_20_21_1.png, id=1003, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_1.png Graphic file (type png)
 <use ../figuras/positividad_20_21_1.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_1.png  used on input line
- 1128.
+ 1123.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [57
+ [65
 
  <../figuras/positividad_20_21_1.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_1.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_1.pdf, id=950, 397.485pt x 289.08pt>
+<../figuras/exceso_1.pdf, id=1011, 397.485pt x 289.08pt>
 File: ../figuras/exceso_1.pdf Graphic file (type pdf)
 <use ../figuras/exceso_1.pdf>
-Package pdftex.def Info: ../figuras/exceso_1.pdf  used on input line 1139.
+Package pdftex.def Info: ../figuras/exceso_1.pdf  used on input line 1134.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
-[58
+[66
 
  <../figuras/exceso_1.pdf>]
-<../figuras/sinto_prueba20_21_2.png, id=978, 717.68124pt x 521.95pt>
+<../figuras/sinto_prueba20_21_2.png, id=1039, 717.68124pt x 521.95pt>
 File: ../figuras/sinto_prueba20_21_2.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_2.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_2.png  used on input line
- 1150.
+ 1145.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [59
+ [67
 
  <../figuras/sinto_prueba20_21_2.png (PNG copy)>]
 pdfTeX warning (ext4): destination with the same identifier (name{Anta<1>}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1159 \end{frame}
+l.1154 \end{frame}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{Anta}) has be
 en already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1159 \end{frame}
+l.1154 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_2.png, id=988, 717.68124pt x 521.95pt>
+<../figuras/incidencia_mortalidad_20_21_2.png, id=1050, 717.68124pt x 521.95pt>
+
 File: ../figuras/incidencia_mortalidad_20_21_2.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_2.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_2.png  used on 
-input line 1159.
+input line 1154.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [60
+ [68
 
  <../figuras/incidencia_mortalidad_20_21_2.png (PNG copy)>]
-<../figuras/positividad_20_21_2.png, id=996, 717.68124pt x 521.95pt>
+<../figuras/positividad_20_21_2.png, id=1058, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_2.png Graphic file (type png)
 <use ../figuras/positividad_20_21_2.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_2.png  used on input line
- 1168.
+ 1163.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [61
+ [69
 
  <../figuras/positividad_20_21_2.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_2.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_2.pdf, id=1005, 397.485pt x 289.08pt>
+<../figuras/exceso_2.pdf, id=1066, 397.485pt x 289.08pt>
 File: ../figuras/exceso_2.pdf Graphic file (type pdf)
 <use ../figuras/exceso_2.pdf>
-Package pdftex.def Info: ../figuras/exceso_2.pdf  used on input line 1179.
+Package pdftex.def Info: ../figuras/exceso_2.pdf  used on input line 1174.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
-[62
+[70
 
  <../figuras/exceso_2.pdf>]
-<../figuras/sinto_prueba20_21_3.png, id=1033, 717.68124pt x 521.95pt>
+<../figuras/sinto_prueba20_21_3.png, id=1094, 717.68124pt x 521.95pt>
 File: ../figuras/sinto_prueba20_21_3.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_3.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_3.png  used on input line
- 1190.
+ 1185.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [63
+ [71
 
  <../figuras/sinto_prueba20_21_3.png (PNG copy)>]
 pdfTeX warning (ext4): destination with the same identifier (name{Calca<1>}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1199 \end{frame}
+l.1194 \end{frame}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{Calca}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1199 \end{frame}
+l.1194 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_3.png, id=1043, 717.68124pt x 521.95pt>
+<../figuras/incidencia_mortalidad_20_21_3.png, id=1104, 717.68124pt x 521.95pt>
 
 File: ../figuras/incidencia_mortalidad_20_21_3.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_3.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_3.png  used on 
-input line 1199.
+input line 1194.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [64
+ [72
 
  <../figuras/incidencia_mortalidad_20_21_3.png (PNG copy)>]
-<../figuras/positividad_20_21_3.png, id=1051, 717.68124pt x 521.95pt>
+<../figuras/positividad_20_21_3.png, id=1112, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_3.png Graphic file (type png)
 <use ../figuras/positividad_20_21_3.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_3.png  used on input line
- 1208.
+ 1203.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [65
+ [73
 
  <../figuras/positividad_20_21_3.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_3.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_3.pdf, id=1059, 397.485pt x 289.08pt>
+<../figuras/exceso_3.pdf, id=1121, 397.485pt x 289.08pt>
 File: ../figuras/exceso_3.pdf Graphic file (type pdf)
 <use ../figuras/exceso_3.pdf>
-Package pdftex.def Info: ../figuras/exceso_3.pdf  used on input line 1219.
+Package pdftex.def Info: ../figuras/exceso_3.pdf  used on input line 1214.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
-[66
+[74
 
  <../figuras/exceso_3.pdf>]
-<../figuras/sinto_prueba20_21_4.png, id=1087, 717.68124pt x 521.95pt>
+<../figuras/sinto_prueba20_21_4.png, id=1149, 717.68124pt x 521.95pt>
 File: ../figuras/sinto_prueba20_21_4.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_4.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_4.png  used on input line
- 1230.
+ 1225.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [67
+ [75
 
  <../figuras/sinto_prueba20_21_4.png (PNG copy)>]
 pdfTeX warning (ext4): destination with the same identifier (name{Canas<1>}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1239 \end{frame}
+l.1234 \end{frame}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{Canas}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1239 \end{frame}
+l.1234 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_4.png, id=1098, 717.68124pt x 521.95pt>
+<../figuras/incidencia_mortalidad_20_21_4.png, id=1159, 717.68124pt x 521.95pt>
 
 File: ../figuras/incidencia_mortalidad_20_21_4.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_4.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_4.png  used on 
-input line 1239.
+input line 1234.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [68
+ [76
 
  <../figuras/incidencia_mortalidad_20_21_4.png (PNG copy)>]
-<../figuras/positividad_20_21_4.png, id=1106, 717.68124pt x 521.95pt>
+<../figuras/positividad_20_21_4.png, id=1167, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_4.png Graphic file (type png)
 <use ../figuras/positividad_20_21_4.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_4.png  used on input line
- 1248.
+ 1243.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [69
+ [77
 
  <../figuras/positividad_20_21_4.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_4.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_4.pdf, id=1114, 397.485pt x 289.08pt>
+<../figuras/exceso_4.pdf, id=1175, 397.485pt x 289.08pt>
 File: ../figuras/exceso_4.pdf Graphic file (type pdf)
 <use ../figuras/exceso_4.pdf>
-Package pdftex.def Info: ../figuras/exceso_4.pdf  used on input line 1259.
+Package pdftex.def Info: ../figuras/exceso_4.pdf  used on input line 1254.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
-[70
+[78
 
  <../figuras/exceso_4.pdf>]
-<../figuras/sinto_prueba20_21_5.png, id=1142, 717.68124pt x 521.95pt>
+<../figuras/sinto_prueba20_21_5.png, id=1203, 717.68124pt x 521.95pt>
 File: ../figuras/sinto_prueba20_21_5.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_5.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_5.png  used on input line
- 1270.
+ 1265.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [71
+ [79
 
  <../figuras/sinto_prueba20_21_5.png (PNG copy)>]
 pdfTeX warning (ext4): destination with the same identifier (name{Canchis<1>}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1279 \end{frame}
+l.1274 \end{frame}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{Canchis}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1279 \end{frame}
+l.1274 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_5.png, id=1152, 717.68124pt x 521.95pt>
+<../figuras/incidencia_mortalidad_20_21_5.png, id=1214, 717.68124pt x 521.95pt>
 
 File: ../figuras/incidencia_mortalidad_20_21_5.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_5.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_5.png  used on 
-input line 1279.
+input line 1274.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [72
+ [80
 
  <../figuras/incidencia_mortalidad_20_21_5.png (PNG copy)>]
-<../figuras/positividad_20_21_5.png, id=1160, 717.68124pt x 521.95pt>
+<../figuras/positividad_20_21_5.png, id=1222, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_5.png Graphic file (type png)
 <use ../figuras/positividad_20_21_5.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_5.png  used on input line
- 1288.
+ 1283.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [73
+ [81
 
  <../figuras/positividad_20_21_5.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_5.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_5.pdf, id=1169, 397.485pt x 289.08pt>
+<../figuras/exceso_5.pdf, id=1230, 397.485pt x 289.08pt>
 File: ../figuras/exceso_5.pdf Graphic file (type pdf)
 <use ../figuras/exceso_5.pdf>
-Package pdftex.def Info: ../figuras/exceso_5.pdf  used on input line 1299.
+Package pdftex.def Info: ../figuras/exceso_5.pdf  used on input line 1294.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
-[74
+[82
 
  <../figuras/exceso_5.pdf>]
-<../figuras/sinto_prueba20_21_6.png, id=1197, 717.68124pt x 521.95pt>
+<../figuras/sinto_prueba20_21_6.png, id=1258, 717.68124pt x 521.95pt>
 File: ../figuras/sinto_prueba20_21_6.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_6.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_6.png  used on input line
- 1310.
+ 1305.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [75
+ [83
 
  <../figuras/sinto_prueba20_21_6.png (PNG copy)>]
 pdfTeX warning (ext4): destination with the same identifier (name{Chumbivilcas<
 1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1319 \end{frame}
+l.1314 \end{frame}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{Chumbivilcas}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1319 \end{frame}
+l.1314 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_6.png, id=1207, 717.68124pt x 521.95pt>
+<../figuras/incidencia_mortalidad_20_21_6.png, id=1268, 717.68124pt x 521.95pt>
 
 File: ../figuras/incidencia_mortalidad_20_21_6.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_6.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_6.png  used on 
-input line 1319.
+input line 1314.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [76
+ [84
 
  <../figuras/incidencia_mortalidad_20_21_6.png (PNG copy)>]
-<../figuras/positividad_20_21_6.png, id=1215, 717.68124pt x 521.95pt>
+<../figuras/positividad_20_21_6.png, id=1276, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_6.png Graphic file (type png)
 <use ../figuras/positividad_20_21_6.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_6.png  used on input line
- 1328.
+ 1323.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [77
+ [85
 
  <../figuras/positividad_20_21_6.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_6.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_6.pdf, id=1223, 397.485pt x 289.08pt>
+<../figuras/exceso_6.pdf, id=1285, 397.485pt x 289.08pt>
 File: ../figuras/exceso_6.pdf Graphic file (type pdf)
 <use ../figuras/exceso_6.pdf>
-Package pdftex.def Info: ../figuras/exceso_6.pdf  used on input line 1339.
+Package pdftex.def Info: ../figuras/exceso_6.pdf  used on input line 1334.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
-[78
+[86
 
  <../figuras/exceso_6.pdf>]
-<../figuras/sinto_prueba20_21_7.png, id=1251, 717.68124pt x 521.95pt>
+<../figuras/sinto_prueba20_21_7.png, id=1313, 717.68124pt x 521.95pt>
 File: ../figuras/sinto_prueba20_21_7.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_7.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_7.png  used on input line
- 1350.
+ 1345.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [79
+ [87
 
  <../figuras/sinto_prueba20_21_7.png (PNG copy)>]
 pdfTeX warning (ext4): destination with the same identifier (name{Cusco<1>}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1359 \end{frame}
+l.1354 \end{frame}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{Cusco}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1359 \end{frame}
+l.1354 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_7.png, id=1262, 717.68124pt x 521.95pt>
+<../figuras/incidencia_mortalidad_20_21_7.png, id=1323, 717.68124pt x 521.95pt>
 
 File: ../figuras/incidencia_mortalidad_20_21_7.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_7.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_7.png  used on 
-input line 1359.
+input line 1354.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [80
+ [88
 
  <../figuras/incidencia_mortalidad_20_21_7.png (PNG copy)>]
-<../figuras/positividad_20_21_7.png, id=1270, 717.68124pt x 521.95pt>
+<../figuras/positividad_20_21_7.png, id=1331, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_7.png Graphic file (type png)
 <use ../figuras/positividad_20_21_7.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_7.png  used on input line
- 1368.
+ 1363.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [81
+ [89
 
  <../figuras/positividad_20_21_7.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_7.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_7.pdf, id=1278, 397.485pt x 289.08pt>
+<../figuras/exceso_7.pdf, id=1339, 397.485pt x 289.08pt>
 File: ../figuras/exceso_7.pdf Graphic file (type pdf)
 <use ../figuras/exceso_7.pdf>
-Package pdftex.def Info: ../figuras/exceso_7.pdf  used on input line 1379.
+Package pdftex.def Info: ../figuras/exceso_7.pdf  used on input line 1374.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
-[82
+[90
 
  <../figuras/exceso_7.pdf>]
-<../figuras/sinto_prueba20_21_8.png, id=1306, 717.68124pt x 521.95pt>
+<../figuras/sinto_prueba20_21_8.png, id=1367, 717.68124pt x 521.95pt>
 File: ../figuras/sinto_prueba20_21_8.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_8.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_8.png  used on input line
- 1390.
+ 1385.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [83
+ [91
 
  <../figuras/sinto_prueba20_21_8.png (PNG copy)>]
 pdfTeX warning (ext4): destination with the same identifier (name{Espinar<1>}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1399 \end{frame}
+l.1394 \end{frame}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{Espinar}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1399 \end{frame}
+l.1394 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_8.png, id=1316, 717.68124pt x 521.95pt>
+<../figuras/incidencia_mortalidad_20_21_8.png, id=1378, 717.68124pt x 521.95pt>
 
 File: ../figuras/incidencia_mortalidad_20_21_8.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_8.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_8.png  used on 
-input line 1399.
+input line 1394.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [84
+ [92
 
  <../figuras/incidencia_mortalidad_20_21_8.png (PNG copy)>]
-<../figuras/positividad_20_21_8.png, id=1324, 717.68124pt x 521.95pt>
+<../figuras/positividad_20_21_8.png, id=1386, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_8.png Graphic file (type png)
 <use ../figuras/positividad_20_21_8.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_8.png  used on input line
- 1408.
+ 1403.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [85
+ [93
 
  <../figuras/positividad_20_21_8.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_8.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_8.pdf, id=1333, 397.485pt x 289.08pt>
+<../figuras/exceso_8.pdf, id=1394, 397.485pt x 289.08pt>
 File: ../figuras/exceso_8.pdf Graphic file (type pdf)
 <use ../figuras/exceso_8.pdf>
-Package pdftex.def Info: ../figuras/exceso_8.pdf  used on input line 1419.
+Package pdftex.def Info: ../figuras/exceso_8.pdf  used on input line 1414.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
-[86
+[94
 
  <../figuras/exceso_8.pdf>]
-<../figuras/sinto_prueba20_21_9.png, id=1361, 717.68124pt x 521.95pt>
+<../figuras/sinto_prueba20_21_9.png, id=1422, 717.68124pt x 521.95pt>
 File: ../figuras/sinto_prueba20_21_9.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_9.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_9.png  used on input line
- 1431.
+ 1426.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [87
+ [95
 
  <../figuras/sinto_prueba20_21_9.png (PNG copy)>]
-<../figuras/incidencia_mortalidad_20_21_9.png, id=1371, 717.68124pt x 521.95pt>
+<../figuras/incidencia_mortalidad_20_21_9.png, id=1432, 717.68124pt x 521.95pt>
 
 File: ../figuras/incidencia_mortalidad_20_21_9.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_9.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_9.png  used on 
-input line 1439.
+input line 1434.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [88
+ [96
 
  <../figuras/incidencia_mortalidad_20_21_9.png (PNG copy)>]
-<../figuras/positividad_20_21_9.png, id=1380, 717.68124pt x 521.95pt>
+<../figuras/positividad_20_21_9.png, id=1441, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_9.png Graphic file (type png)
 <use ../figuras/positividad_20_21_9.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_9.png  used on input line
- 1448.
+ 1443.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [89
+ [97
 
  <../figuras/positividad_20_21_9.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_9.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_9.pdf, id=1388, 397.485pt x 289.08pt>
+<../figuras/exceso_9.pdf, id=1450, 397.485pt x 289.08pt>
 File: ../figuras/exceso_9.pdf Graphic file (type pdf)
 <use ../figuras/exceso_9.pdf>
-Package pdftex.def Info: ../figuras/exceso_9.pdf  used on input line 1459.
+Package pdftex.def Info: ../figuras/exceso_9.pdf  used on input line 1454.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
-[90
+[98
 
  <../figuras/exceso_9.pdf>]
-<../figuras/sinto_prueba20_21_10.png, id=1416, 717.68124pt x 521.95pt>
+<../figuras/sinto_prueba20_21_10.png, id=1478, 717.68124pt x 521.95pt>
 File: ../figuras/sinto_prueba20_21_10.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_10.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_10.png  used on input lin
-e 1470.
+e 1465.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [91
+ [99
 
  <../figuras/sinto_prueba20_21_10.png (PNG copy)>]
 pdfTeX warning (ext4): destination with the same identifier (name{Paruro<1>}) h
 as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1479 \end{frame}
+l.1474 \end{frame}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{Paruro}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1479 \end{frame}
+l.1474 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_10.png, id=1427, 717.68124pt x 521.95pt
+<../figuras/incidencia_mortalidad_20_21_10.png, id=1488, 717.68124pt x 521.95pt
 >
 File: ../figuras/incidencia_mortalidad_20_21_10.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_10.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_10.png  used on
- input line 1479.
+ input line 1474.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [92
+ [100
 
  <../figuras/incidencia_mortalidad_20_21_10.png (PNG copy)>]
-<../figuras/positividad_20_21_10.png, id=1435, 717.68124pt x 521.95pt>
+<../figuras/positividad_20_21_10.png, id=1496, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_10.png Graphic file (type png)
 <use ../figuras/positividad_20_21_10.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_10.png  used on input lin
-e 1488.
+e 1483.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [93
+ [101
 
  <../figuras/positividad_20_21_10.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_10.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_10.pdf, id=1443, 397.485pt x 289.08pt>
+<../figuras/exceso_10.pdf, id=1504, 397.485pt x 289.08pt>
 File: ../figuras/exceso_10.pdf Graphic file (type pdf)
 <use ../figuras/exceso_10.pdf>
-Package pdftex.def Info: ../figuras/exceso_10.pdf  used on input line 1499.
+Package pdftex.def Info: ../figuras/exceso_10.pdf  used on input line 1494.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
-[94
+[102
 
  <../figuras/exceso_10.pdf>]
-<../figuras/sinto_prueba20_21_11.png, id=1471, 717.68124pt x 521.95pt>
+<../figuras/sinto_prueba20_21_11.png, id=1532, 717.68124pt x 521.95pt>
 File: ../figuras/sinto_prueba20_21_11.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_11.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_11.png  used on input lin
-e 1510.
+e 1505.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [95
+ [103
 
  <../figuras/sinto_prueba20_21_11.png (PNG copy)>]
 pdfTeX warning (ext4): destination with the same identifier (name{Paucartambo<1
 >}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1519 \end{frame}
+l.1514 \end{frame}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{Paucartambo})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1519 \end{frame}
+l.1514 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_11.png, id=1481, 717.68124pt x 521.95pt
+<../figuras/incidencia_mortalidad_20_21_11.png, id=1543, 717.68124pt x 521.95pt
 >
 File: ../figuras/incidencia_mortalidad_20_21_11.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_11.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_11.png  used on
- input line 1519.
+ input line 1514.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [96
+ [104
 
  <../figuras/incidencia_mortalidad_20_21_11.png (PNG copy)>]
-<../figuras/positividad_20_21_11.png, id=1489, 717.68124pt x 521.95pt>
+<../figuras/positividad_20_21_11.png, id=1551, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_11.png Graphic file (type png)
 <use ../figuras/positividad_20_21_11.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_11.png  used on input lin
-e 1528.
+e 1523.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [97
+ [105
 
  <../figuras/positividad_20_21_11.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_11.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_11.pdf, id=1498, 397.485pt x 289.08pt>
+<../figuras/exceso_11.pdf, id=1559, 397.485pt x 289.08pt>
 File: ../figuras/exceso_11.pdf Graphic file (type pdf)
 <use ../figuras/exceso_11.pdf>
-Package pdftex.def Info: ../figuras/exceso_11.pdf  used on input line 1539.
+Package pdftex.def Info: ../figuras/exceso_11.pdf  used on input line 1534.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
-[98
+[106
 
  <../figuras/exceso_11.pdf>]
-<../figuras/sinto_prueba20_21_12.png, id=1526, 717.68124pt x 521.95pt>
+<../figuras/sinto_prueba20_21_12.png, id=1587, 717.68124pt x 521.95pt>
 File: ../figuras/sinto_prueba20_21_12.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_12.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_12.png  used on input lin
-e 1551.
+e 1546.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [99
+ [107
 
  <../figuras/sinto_prueba20_21_12.png (PNG copy)>]
 pdfTeX warning (ext4): destination with the same identifier (name{Quispicanchi<
 1>}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1560 \end{frame}
+l.1555 \end{frame}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{Quispicanchi}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1560 \end{frame}
+l.1555 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_12.png, id=1536, 717.68124pt x 521.95pt
+<../figuras/incidencia_mortalidad_20_21_12.png, id=1597, 717.68124pt x 521.95pt
 >
 File: ../figuras/incidencia_mortalidad_20_21_12.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_12.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_12.png  used on
- input line 1560.
+ input line 1555.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [100
+ [108
 
  <../figuras/incidencia_mortalidad_20_21_12.png (PNG copy)>]
-<../figuras/positividad_20_21_12.png, id=1544, 717.68124pt x 521.95pt>
+<../figuras/positividad_20_21_12.png, id=1605, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_12.png Graphic file (type png)
 <use ../figuras/positividad_20_21_12.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_12.png  used on input lin
-e 1569.
+e 1564.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [101
+ [109
 
  <../figuras/positividad_20_21_12.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_12.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_12.pdf, id=1552, 397.485pt x 289.08pt>
+<../figuras/exceso_12.pdf, id=1614, 397.485pt x 289.08pt>
 File: ../figuras/exceso_12.pdf Graphic file (type pdf)
 <use ../figuras/exceso_12.pdf>
-Package pdftex.def Info: ../figuras/exceso_12.pdf  used on input line 1580.
+Package pdftex.def Info: ../figuras/exceso_12.pdf  used on input line 1575.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
-[102
+[110
 
  <../figuras/exceso_12.pdf>]
-<../figuras/sinto_prueba20_21_13.png, id=1580, 717.68124pt x 521.95pt>
+<../figuras/sinto_prueba20_21_13.png, id=1642, 717.68124pt x 521.95pt>
 File: ../figuras/sinto_prueba20_21_13.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_13.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_13.png  used on input lin
-e 1591.
+e 1586.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [103
+ [111
 
  <../figuras/sinto_prueba20_21_13.png (PNG copy)>]
 pdfTeX warning (ext4): destination with the same identifier (name{Urubamba<1>})
  has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1600 \end{frame}
+l.1595 \end{frame}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{Urubamba}) ha
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1600 \end{frame}
+l.1595 \end{frame}
                   
-<../figuras/incidencia_mortalidad_20_21_13.png, id=1591, 717.68124pt x 521.95pt
+<../figuras/incidencia_mortalidad_20_21_13.png, id=1652, 717.68124pt x 521.95pt
 >
 File: ../figuras/incidencia_mortalidad_20_21_13.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_13.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_13.png  used on
- input line 1600.
+ input line 1595.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
 LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 1600.
- [104
+(Font)              scaled to size 12.0pt on input line 1595.
+ [112
 
  <../figuras/incidencia_mortalidad_20_21_13.png (PNG copy)>]
-<../figuras/positividad_20_21_13.png, id=1599, 717.68124pt x 521.95pt>
+<../figuras/positividad_20_21_13.png, id=1660, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_13.png Graphic file (type png)
 <use ../figuras/positividad_20_21_13.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_13.png  used on input lin
-e 1609.
+e 1604.
 (pdftex.def)             Requested size: 245.83282pt x 171.96065pt.
- [105
+ [113
 
  <../figuras/positividad_20_21_13.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_13.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_13.pdf, id=1607, 397.485pt x 289.08pt>
+<../figuras/exceso_13.pdf, id=1668, 397.485pt x 289.08pt>
 File: ../figuras/exceso_13.pdf Graphic file (type pdf)
 <use ../figuras/exceso_13.pdf>
-Package pdftex.def Info: ../figuras/exceso_13.pdf  used on input line 1620.
+Package pdftex.def Info: ../figuras/exceso_13.pdf  used on input line 1615.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
-[106
+[114
 
  <../figuras/exceso_13.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_distrital_cusco.pdf): P
 DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/variantes_distrital_cusco.pdf, id=1636, 478.14204pt x 289.08pt>
+<../figuras/variantes_distrital_cusco.pdf, id=1697, 478.14204pt x 289.08pt>
 File: ../figuras/variantes_distrital_cusco.pdf Graphic file (type pdf)
 <use ../figuras/variantes_distrital_cusco.pdf>
 Package pdftex.def Info: ../figuras/variantes_distrital_cusco.pdf  used on inpu
-t line 1631.
+t line 1626.
 (pdftex.def)             Requested size: 199.73653pt x 120.75552pt.
-[107
+[115
 
  <../figuras/variantes_distrital_cusco.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_distrital.pdf): PDF inc
 lusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/variantes_distrital.pdf, id=1654, 289.08pt x 337.5748pt>
+<../figuras/variantes_distrital.pdf, id=1716, 289.08pt x 337.5748pt>
 File: ../figuras/variantes_distrital.pdf Graphic file (type pdf)
 <use ../figuras/variantes_distrital.pdf>
 Package pdftex.def Info: ../figuras/variantes_distrital.pdf  used on input line
- 1641.
+ 1636.
 (pdftex.def)             Requested size: 169.01036pt x 197.3594pt.
 
-Overfull \vbox (11.67006pt too high) detected at line 1641
+Overfull \vbox (11.67006pt too high) detected at line 1636
  []
 
-[108
+[116
 
  <../figuras/variantes_distrital.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_provincial_lambda.pdf):
  PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/variantes_provincial_lambda.pdf, id=1672, 289.08pt x 337.5748pt>
+<../figuras/variantes_provincial_lambda.pdf, id=1734, 289.08pt x 337.5748pt>
 File: ../figuras/variantes_provincial_lambda.pdf Graphic file (type pdf)
 <use ../figuras/variantes_provincial_lambda.pdf>
 Package pdftex.def Info: ../figuras/variantes_provincial_lambda.pdf  used on in
-put line 1651.
+put line 1646.
 (pdftex.def)             Requested size: 169.01036pt x 197.3594pt.
 LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 1651.
+(Font)              scaled to size 14.4pt on input line 1646.
 
-Overfull \vbox (11.67006pt too high) detected at line 1651
+Overfull \vbox (11.67006pt too high) detected at line 1646
  []
 
-[109
+[117
 
  <../figuras/variantes_provincial_lambda.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_provincial_gamma.pdf): 
 PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/variantes_provincial_gamma.pdf, id=1691, 289.08pt x 337.5748pt>
+<../figuras/variantes_provincial_gamma.pdf, id=1752, 289.08pt x 337.5748pt>
 File: ../figuras/variantes_provincial_gamma.pdf Graphic file (type pdf)
 <use ../figuras/variantes_provincial_gamma.pdf>
 Package pdftex.def Info: ../figuras/variantes_provincial_gamma.pdf  used on inp
-ut line 1661.
+ut line 1656.
 (pdftex.def)             Requested size: 169.01036pt x 197.3594pt.
 
-Overfull \vbox (11.67006pt too high) detected at line 1661
+Overfull \vbox (11.67006pt too high) detected at line 1656
  []
 
-[110
+[118
 
  <../figuras/variantes_provincial_gamma.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_provincial_delta.pdf): 
 PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/variantes_provincial_delta.pdf, id=1709, 289.08pt x 337.5748pt>
+<../figuras/variantes_provincial_delta.pdf, id=1770, 289.08pt x 337.5748pt>
 File: ../figuras/variantes_provincial_delta.pdf Graphic file (type pdf)
 <use ../figuras/variantes_provincial_delta.pdf>
 Package pdftex.def Info: ../figuras/variantes_provincial_delta.pdf  used on inp
-ut line 1671.
+ut line 1666.
 (pdftex.def)             Requested size: 169.01036pt x 197.3594pt.
 
-Overfull \vbox (11.67006pt too high) detected at line 1671
+Overfull \vbox (11.67006pt too high) detected at line 1666
  []
 
-[111
+[119
 
  <../figuras/variantes_provincial_delta.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_provincial_omicron.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/variantes_provincial_omicron.pdf, id=1727, 289.08pt x 337.5748pt>
+<../figuras/variantes_provincial_omicron.pdf, id=1788, 289.08pt x 337.5748pt>
 File: ../figuras/variantes_provincial_omicron.pdf Graphic file (type pdf)
 <use ../figuras/variantes_provincial_omicron.pdf>
 Package pdftex.def Info: ../figuras/variantes_provincial_omicron.pdf  used on i
-nput line 1681.
+nput line 1676.
 (pdftex.def)             Requested size: 169.01036pt x 197.3594pt.
 
-Overfull \vbox (11.67006pt too high) detected at line 1681
+Overfull \vbox (11.67006pt too high) detected at line 1676
  []
 
-[112
+[120
 
  <../figuras/variantes_provincial_omicron.pdf>]
 \tf@nav=\write6
@@ -2933,14 +3001,14 @@ Overfull \vbox (11.67006pt too high) detected at line 1681
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `sala_covid.out' has not changed.
-(rerunfilecheck)             Checksum: 75BE72B5C8A8A0B679ABAF5510C8F173;3253.
+(rerunfilecheck)             Checksum: 17D6BA2AF58E8AC4A70D54F46EB05A14;3526.
  ) 
 Here is how much of TeX's memory you used:
- 42536 strings out of 478582
- 1014262 string characters out of 2843872
+ 42632 strings out of 478582
+ 1016670 string characters out of 2843872
  1401292 words of memory out of 3000000
- 59460 multiletter control sequences out of 15000+600000
- 538481 words of font info for 94 fonts, out of 8000000 for 9000
+ 59530 multiletter control sequences out of 15000+600000
+ 541304 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,11n,122p,708b,777s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
@@ -2950,6 +3018,10 @@ placed by a fixed one
 
 pdfTeX warning (dest): name{provincias} has been referenced but does not exist,
  replaced by a fixed one
+
+
+pdfTeX warning (dest): name{epi_nacional} has been referenced but does not exis
+t, replaced by a fixed one
 
 {C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc
 }{C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C
@@ -2967,9 +3039,9 @@ fonts/symbols/msam10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/newpx/npxsups-Regular.pfb><C:/Users/DEI-02/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/newpx/zplb.pfb><C:/Users/DEI-02/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/newpx/zplr.pfb>
-Output written on sala_covid.pdf (112 pages, 9872549 bytes).
+Output written on sala_covid.pdf (120 pages, 11060168 bytes).
 PDF statistics:
- 1868 PDF objects out of 2073 (max. 8388607)
- 332 named destinations out of 1000 (max. 500000)
- 1171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1932 PDF objects out of 2073 (max. 8388607)
+ 350 named destinations out of 1000 (max. 500000)
+ 1214 words of extra memory for PDF output out of 10000 (max. 10000000)
 
