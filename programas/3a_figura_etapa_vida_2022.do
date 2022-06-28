@@ -8,7 +8,7 @@
 *-------------------------------------------------------------------------------%
 
 * Importar la base de datos
-use "${datos}\output\base_covid_2022.dta", clear
+use "${datos}\output\base_covid.dta", clear
 
 * Mantener sólo los datos del 2022
 drop if fecha_resultado < d(01jan2022)

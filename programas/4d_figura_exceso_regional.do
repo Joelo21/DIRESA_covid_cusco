@@ -49,10 +49,10 @@ text(180 $semana "{it:Exceso:`exceso_actual'}", place(n) box just(left) margin(l
 ********************************************************************************
 * 2022
 drop if semana > $semana
-gen exceso = de_22 - de_19
+replace exceso = de_22 - de_19
 
 *Aqui cambia el # por cada semana#"
-sum exceso if semana == 24
+sum exceso if semana == 25
 local exceso_actual_2 = r(mean)
 
 * Graficamos
