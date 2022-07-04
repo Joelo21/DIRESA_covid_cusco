@@ -58,7 +58,34 @@ graph pie lambda2 gamma2 delta2 otros2,
 	subtitle("2002")	
 	
 */
-* Definimos nuestra paleta 
+*Graficos de Barras Apiladas
+twoway (bar lambda mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor2")) ///
+(scatter lambda mes, msize(vsmall) mcolor("$mycolor2") mlabel(lambda) mlabcolor("$mycolor2") mlabsize(vsmall) connect()) ///
+(bar gamma mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor3")) ///
+(scatter gamma mes, msize(vsmall) mcolor("$mycolor3") mlabel(gamma) mlabcolor("$mycolor3") mlabsize(vsmall) connect()) ///
+(bar delta mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor6")) ///
+(scatter delta mes, msize(vsmall) mcolor("$mycolor6") mlabel(delta) mlabcolor("$mycolor6") mlabsize(vsmall) connect()) ///
+(bar omicron mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor7")) ///
+(scatter omicron mes, msize(vsmall) mcolor("$mycolor7") mlabel(omicron) mlabcolor("$mycolor7") mlabsize(vsmall) connect()) ///
+(bar otros mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor1") ) ///
+(scatter otros mes, msize(vsmall) mcolor("$mycolor1") mlabel(otros) mlabcolor("$mycolor1") mlabsize(vsmall) connect()) ///
+(line suma_total mes, color("$mycolor4") lwidth(tiny) lpattern(shortdash_dot) yaxis(2) yscale(axis(2)) ylabel(0(40)120, axis(2))) ///
+(scatter suma_total mes, msize(vsmall) mcolor("$mycolor8") mlabel(suma_total) mlabposition(12) mlabcolor("$mycolor8") mlabsize(vsmall) connect() yaxis(2) yscale(axis(2)) ylabel(0(40)120, axis(2))) ///
+,	xtitle("Mes", size(*0.7)) ///
+ ytitle("Porcentaje de las Variantes Econtradas", size(*0.7)) ///
+	graphregion(color(white)) ///
+	xlabel(735 "Abr" 736 "May" 737 "Jun" 738 "Jul" 739 "Ago" 740 "Sep" 741 "Oct" 742 "Nov" 743 "Dic" 744 "Ene" 745 "Feb" 746 "Mar" 747 "Abr" 748 "May" 749 "Jun") ///
+	legend(cols(3) label(1 "Lambda") label(2 "") label(3 "Gamma") label(4 "") label(5 "Delta") label(6 "")  label(7 "Omicron") label(8 "") label(9 "Otros") label(11 "Total de Muestra") label(12 "") order(11 1 3 5 7 9) size(*0.75) region(col(white))) ///
+	title("Variantes en la Región Cusco", box bexpand bcolor("$mycolor3") color(white)) ///
+	bgcolor(white) ///
+	ylabel(, nogrid) name(variantes_barras, replace)
+	
+gr export "figuras\variantes.png", as(png) replace
+gr export "figuras\variantes.pdf", as(pdf) replace
+
+
+/*
+* Definimos nuestra paleta - Antiguo
 twoway (line lambda mes, yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) lcolor("$mycolor2")) ///
 (scatter lambda mes, msize(vsmall) mcolor("$mycolor2") mlabel(lambda) mlabcolor("$mycolor2") mlabsize(vsmall) connect()) ///
 (line gamma mes, yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) lcolor("$mycolor3")) ///
@@ -80,5 +107,3 @@ twoway (line lambda mes, yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1))
 	bgcolor(white) ///
 	ylabel(, nogrid) name(variantes, replace)
 	
-gr export "figuras\variantes.png", as(png) replace
-gr export "figuras\variantes.pdf", as(pdf) replace

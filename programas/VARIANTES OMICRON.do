@@ -72,6 +72,47 @@ format linaje_omicron_1 linaje_omicron_2 linaje_omicron_3 linaje_omicron_4 linaj
 
 label var suma_total "Número de Sepas Secuenciadas"
 
+* Nuevo Grafico Barras Apiladas
+twoway (bar linaje_omicron_1 mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor12")) ///
+(scatter linaje_omicron_1 mes, msize(vsmall) mcolor("$mycolor12") mlabel(linaje_omicron_1) mlabcolor("$mycolor12") mlabsize(vsmall) connect()) ///
+(bar linaje_omicron_2 mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor6")) ///
+(scatter linaje_omicron_2 mes, msize(vsmall) mcolor("$mycolor6") mlabel(linaje_omicron_2) mlabcolor("$mycolor6") mlabsize(vsmall) connect()) ///
+(bar linaje_omicron_3 mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor2")) ///
+(scatter linaje_omicron_3 mes, msize(vsmall) mcolor("$mycolor2") mlabel(linaje_omicron_3) mlabcolor("$mycolor2") mlabsize(vsmall) connect()) ///
+(bar linaje_omicron_4 mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor4")) ///
+(scatter linaje_omicron_4 mes, msize(vsmall) mcolor("$mycolor4") mlabel(linaje_omicron_4) mlabcolor("$mycolor4") mlabsize(vsmall) connect()) ///
+(bar linaje_omicron_5 mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor11")) ///
+(scatter linaje_omicron_5 mes, msize(vsmall) mcolor("$mycolor11") mlabel(linaje_omicron_5) mlabcolor("$mycolor11") mlabsize(vsmall) connect()) ///
+(bar linaje_omicron_6 mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor1")) ///
+(scatter linaje_omicron_6 mes, msize(vsmall) mcolor("$mycolor1") mlabel(linaje_omicron_6) mlabcolor("$mycolor1") mlabsize(vsmall) connect()) ///
+(bar linaje_omicron_7 mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor13")) ///
+(scatter linaje_omicron_7 mes, msize(vsmall) mcolor("$mycolor13") mlabel(linaje_omicron_7) mlabcolor("$mycolor13") mlabsize(vsmall) connect()) ///
+(bar linaje_omicron_8 mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor3")) ///
+(scatter linaje_omicron_8 mes, msize(vsmall) mcolor("$mycolor3") mlabel(linaje_omicron_8) mlabcolor("$mycolor3") mlabsize(vsmall) connect()) ///
+(bar linaje_omicron_9 mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor8")) ///
+(scatter linaje_omicron_9 mes, msize(vsmall) mcolor("$mycolor8") mlabel(linaje_omicron_9) mlabcolor("$mycolor8") mlabsize(vsmall) connect()) ///
+(bar linaje_omicron_10 mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor8")) ///
+(scatter linaje_omicron_10 mes, msize(vsmall) mcolor("$mycolor8") mlabel(linaje_omicron_10) mlabcolor("$mycolor8") mlabsize(vsmall) connect()) ///
+(bar linaje_omicron_11 mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor8")) ///
+(scatter linaje_omicron_11 mes, msize(vsmall) mcolor("$mycolor8") mlabel(linaje_omicron_11) mlabcolor("$mycolor8") mlabsize(vsmall) connect()) ///
+(bar linaje_omicron_12 mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor8")) ///
+(scatter linaje_omicron_12 mes, msize(vsmall) mcolor("$mycolor8") mlabel(linaje_omicron_12) mlabcolor("$mycolor8") mlabsize(vsmall) connect()) ///
+(bar linaje_omicron_13 mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor7")) ///
+(scatter linaje_omicron_13 mes, msize(vsmall) mcolor("$mycolor7") mlabel(linaje_omicron_13) mlabcolor("$mycolor7") mlabsize(vsmall) connect()) ///
+(bar linaje_omicron_14 mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor6")) ///
+(scatter linaje_omicron_14 mes, msize(vsmall) mcolor("$mycolor6") mlabel(linaje_omicron_14) mlabcolor("$mycolor6") mlabsize(vsmall) connect()) ///
+(line suma_total mes, lcolor("$mycolor4") lpattern(shortdash_dot) lwidth(thick) yaxis(2) yscale(axis(2)) ylabel(0(40)120, axis(2))) ///
+(scatter suma_total mes, msize(vsmall) mcolor("$mycolor8") mlabel(suma_total) mlabposition(12) mlabcolor("$mycolor4") mlabsize(vsmall) connect() yaxis(2) yscale(axis(2)) ylabel(0(40)120, axis(2))) ///
+ ,	xtitle("Mes", size(*0.7)) ///
+ ytitle("Porcentaje de las Variantes Econtradas", size(*0.7)) ///
+	graphregion(color(white)) ///
+	xlabel(743 "Dic" 744 "Ene" 745 "Feb" 746 "Mar" 747 "Abr" 748 "May" 749 "Jun") ///
+legend(cols(5) label(1 "BA.1") label(3 "BA.1.1") label(5 "BA.1.1.1") label(7 "BA.2") label(9 "BA.2.3") label(11 "BA.2.9") label(13 "BA.2.10") label(15 "BA.2.12.1") label(17 "BA.2.13") label(19 "BA.2.23") label(21 "BA.2.36") label(23 "BA.2.38") label(25 "BA.4") label(27 "BA.5") label(29 "Total de Muestra") order(1 3 5 7 9 11 13 15 17 19 21 23 25 27 29) size(*0.45) region(col(white))) ///
+	title("Variantes en la Región Cusco", box bexpand bcolor("$mycolor3") color(white)) ///
+	bgcolor(white) ///
+	ylabel(, nogrid) name(variantes, replace)
+	
+/*
 * Definimos nuestra paleta 
 twoway (line linaje_omicron_1 mes, yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) lcolor("$mycolor2")) ///
 (scatter linaje_omicron_1 mes, msize(vsmall) mcolor("$mycolor2") mlabel(linaje_omicron_1) mlabcolor("$mycolor2") mlabsize(vsmall) connect()) ///
