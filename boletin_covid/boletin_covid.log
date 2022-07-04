@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.5.6)  4 JUL 2022 10:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.5.6)  4 JUL 2022 10:20
 entering extended mode
 **./boletin_covid.tex
 (boletin_covid.tex
@@ -1806,24 +1806,24 @@ File: ../editorial/2.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../editorial/2.pdf , page1 used on input line 323.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
  [9 <../editorial/2.pdf>]
-<../figuras/casos_etapavida_2022.png, id=305, 1132.23pt x 927.465pt>
+<../figuras/casos_etapavida_2022.png, id=305, 633.36626pt x 519.9425pt>
 File: ../figuras/casos_etapavida_2022.png Graphic file (type png)
 <use ../figuras/casos_etapavida_2022.png>
 Package pdftex.def Info: ../figuras/casos_etapavida_2022.png  used on input lin
 e 336.
-(pdftex.def)             Requested size: 364.90672pt x 298.9035pt.
+(pdftex.def)             Requested size: 364.90672pt x 299.56758pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10
 
  <../figuras/casos_etapavida_2022.png (PNG copy)>]
-<../figuras/defunciones_etapavida_2022.png, id=313, 1132.23pt x 927.465pt>
+<../figuras/defunciones_etapavida_2022.png, id=313, 633.36626pt x 519.9425pt>
 File: ../figuras/defunciones_etapavida_2022.png Graphic file (type png)
 <use ../figuras/defunciones_etapavida_2022.png>
 Package pdftex.def Info: ../figuras/defunciones_etapavida_2022.png  used on inp
 ut line 348.
-(pdftex.def)             Requested size: 364.90672pt x 298.9035pt.
+(pdftex.def)             Requested size: 364.90672pt x 299.56758pt.
  [11 <../figuras/defunciones_etapavida_2022.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../editorial/3.pdf): PDF inclusion: found PD
@@ -2148,12 +2148,12 @@ Package pdftex.def Info: ../figuras/exceso_region_2022.pdf  used on input line
 [24
 
  <../figuras/exceso_region_2022.pdf>]
-<../figuras/vacunacion_grupo_edad.png, id=707, 717.68124pt x 521.95pt>
+<../figuras/vacunacion_grupo_edad.png, id=707, 1274.7625pt x 927.465pt>
 File: ../figuras/vacunacion_grupo_edad.png Graphic file (type png)
 <use ../figuras/vacunacion_grupo_edad.png>
 Package pdftex.def Info: ../figuras/vacunacion_grupo_edad.png  used on input li
 ne 692.
-(pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
+(pdftex.def)             Requested size: 413.56392pt x 300.88478pt.
  [25
 
  <../figuras/vacunacion_grupo_edad.png (PNG copy)>]
@@ -2264,18 +2264,18 @@ Package pdftex.def Info: ../editorial/5.pdf , page1 used on input line 857.
 [31
 
  <../editorial/5.pdf>]
-<../figuras/incidencia_provincial_2022.png, id=841, 1132.23pt x 927.465pt>
+<../figuras/incidencia_provincial_2022.png, id=841, 633.36626pt x 519.9425pt>
 File: ../figuras/incidencia_provincial_2022.png Graphic file (type png)
 <use ../figuras/incidencia_provincial_2022.png>
 Package pdftex.def Info: ../figuras/incidencia_provincial_2022.png  used on inp
 ut line 867.
-(pdftex.def)             Requested size: 291.92834pt x 239.12563pt.
-<../figuras/mortalidad_provincial_2022.png, id=843, 1132.23pt x 927.465pt>
+(pdftex.def)             Requested size: 291.92834pt x 239.65247pt.
+<../figuras/mortalidad_provincial_2022.png, id=843, 633.36626pt x 519.9425pt>
 File: ../figuras/mortalidad_provincial_2022.png Graphic file (type png)
 <use ../figuras/mortalidad_provincial_2022.png>
 Package pdftex.def Info: ../figuras/mortalidad_provincial_2022.png  used on inp
 ut line 878.
-(pdftex.def)             Requested size: 291.92834pt x 239.12563pt.
+(pdftex.def)             Requested size: 291.92834pt x 239.65247pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2971,7 +2971,7 @@ s/PC/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/P
 C/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/PC/A
 ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/PC/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso12.pfb>
-Output written on boletin_covid.pdf (69 pages, 12341837 bytes).
+Output written on boletin_covid.pdf (69 pages, 12238609 bytes).
 PDF statistics:
  1678 PDF objects out of 1728 (max. 8388607)
  166 named destinations out of 1000 (max. 500000)
