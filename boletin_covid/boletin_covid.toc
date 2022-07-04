@@ -1,4 +1,4 @@
-\babel@toc {spanish}{}
+\babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Editorial}{3}{section*.2}%
 \contentsline {chapter}{Metodología}{7}{section*.4}%
 \contentsline {chapter}{Características Generales}{10}{section*.5}%
@@ -6,7 +6,7 @@
 \contentsline {chapter}{Análisis de Indicadores}{17}{section*.13}%
 \contentsline {chapter}{Evaluación para Provincias Priorizadas}{32}{section*.33}%
 \contentsline {chapter}{Variantes de COVID-19}{61}{section*.90}%
-\contentsline {chapter}{Defunciones Cero}{64}{section*.93}%
-\contentsline {chapter}{Resumen de Indicadores Covid19}{65}{section*.95}%
-\contentsline {chapter}{Agradecimientos}{66}{table.caption.96}%
-\contentsline {chapter}{Diseño y Edición}{67}{chapter*.97}%
+\contentsline {chapter}{Defunciones Cero}{65}{section*.94}%
+\contentsline {chapter}{Resumen de Indicadores Covid19}{66}{section*.96}%
+\contentsline {chapter}{Agradecimientos}{67}{table.caption.97}%
+\contentsline {chapter}{Diseño y Edición}{68}{chapter*.98}%

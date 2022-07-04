@@ -104,14 +104,16 @@ twoway (bar linaje_omicron_1 mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(
 (line suma_total mes, lcolor("$mycolor4") lpattern(shortdash_dot) lwidth(thick) yaxis(2) yscale(axis(2)) ylabel(0(40)120, axis(2))) ///
 (scatter suma_total mes, msize(vsmall) mcolor("$mycolor8") mlabel(suma_total) mlabposition(12) mlabcolor("$mycolor4") mlabsize(vsmall) connect() yaxis(2) yscale(axis(2)) ylabel(0(40)120, axis(2))) ///
  ,	xtitle("Mes", size(*0.7)) ///
- ytitle("Porcentaje de las Variantes Econtradas", size(*0.7)) ///
+ ytitle("Porcentaje de las Variantes Encontradas", size(*0.4)) ///
 	graphregion(color(white)) ///
 	xlabel(743 "Dic" 744 "Ene" 745 "Feb" 746 "Mar" 747 "Abr" 748 "May" 749 "Jun") ///
 legend(cols(5) label(1 "BA.1") label(3 "BA.1.1") label(5 "BA.1.1.1") label(7 "BA.2") label(9 "BA.2.3") label(11 "BA.2.9") label(13 "BA.2.10") label(15 "BA.2.12.1") label(17 "BA.2.13") label(19 "BA.2.23") label(21 "BA.2.36") label(23 "BA.2.38") label(25 "BA.4") label(27 "BA.5") label(29 "Total de Muestra") order(1 3 5 7 9 11 13 15 17 19 21 23 25 27 29) size(*0.45) region(col(white))) ///
-	title("Variantes en la Región Cusco", box bexpand bcolor("$mycolor3") color(white)) ///
+	title("Subvariantes en la Región Cusco", box bexpand bcolor("$mycolor3") color(white)) ///
 	bgcolor(white) ///
-	ylabel(, nogrid) name(variantes, replace)
+	ylabel(, nogrid) name(subvariantes, replace)
 	
+gr export "figuras\subvariantes.png", as(png) replace
+gr export "figuras\subvariantes.pdf", as(pdf) replace	
 /*
 * Definimos nuestra paleta 
 twoway (line linaje_omicron_1 mes, yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) lcolor("$mycolor2")) ///
