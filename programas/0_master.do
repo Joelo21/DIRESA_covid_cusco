@@ -29,8 +29,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 28jun2022
-global semana 78
+global fecha 01jul2022
+global semana 79
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -89,7 +89,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-
+/*
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -174,18 +174,18 @@ x
 
 	* Graficos Hospitalización
 	do "programas/4f_figuras_hospitales"
-	
+	*/
 	*Data Hospitalizados diarios
-	*do "programas/4g_figuras_hospitalizados"
+	do "programas/4g_figuras_hospitalizados"
 	
 	*Hospitalizados - Fallecidos - AltasMedicas - Vacunados
-	*do "programas/4h_datos_hospitalizados_vacunados"
-	*do "programas/4i_datos_fallecidos_vacunados"
-	*do "programas/4j_datos_altas_fallecidos_vacunados"
+	do "programas/4h_datos_hospitalizados_vacunados"
+	do "programas/4i_datos_fallecidos_vacunados"
+	do "programas/4j_datos_altas_fallecidos_vacunados"
 	
 	* Tabla cero defunciones
 	**do "programas\4z_tabla_cero_defunciones.do"
-*
+
 
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
@@ -193,16 +193,15 @@ x
 	do "programas\5c_juntar"
 	do "programas\5d_figura_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
+*/
 
 
-/*
 * 6. Vacunados
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"
 	do "programas\6c_figura_vacunacion_provincias"	
-*/
-*/
 
+/*
 * 7. Figuras para el "Boletin COVID-19" Mensual
 	do "programas\7a_base_noticovid_2021_variables"
 	*do "programas\7b_base_siscovid_pr_2021_variables"

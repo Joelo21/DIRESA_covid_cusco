@@ -15,11 +15,8 @@ gen promedio_casos = (positivo[_n-3] + positivo[_n-2] + positivo[_n-1] + positiv
 gen promedio_defunciones = (defuncion[_n-3] + defuncion[_n-2] + defuncion[_n-1] + defuncion[_n] + defuncion[_n+1] + defuncion[_n+2] + defuncion[_n+3])/7
 
 * Identificar la fecha mínima de casos y cuántos casos en promedio 
-
-
-************************************************************************************* PROMEDIO DE CASOS
+******************************************************************************** PROMEDIO DE CASOS
 * Primera ola
-
 * Identificar los cuántos casos en el mínimo y máximo
 sum promedio_casos if fecha >= d(01jul2020) & fecha <= d(31jan2021)
 gen casos_min_1 = r(min)
@@ -130,7 +127,7 @@ local fecha_m_2 = r(mean)
 sum promedio_defunciones if fecha > d(31dec2021)
 gen defunciones_min_3 = r(min)
 gen defunciones_max_3 = r(max)
-*
+
 sum fecha if (promedio_defunciones == defunciones_max_3) & fecha > d(31dec2021)
 gen fecha_defunciones_min_3 = r(mean)
 
