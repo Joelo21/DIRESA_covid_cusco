@@ -40,7 +40,7 @@ replace provincia_residencia = 11 if prov == "PAUCARTAMBO"
 replace provincia_residencia = 12 if prov == "QUISPICANCHI"
 replace provincia_residencia = 13 if prov == "URUBAMBA"
 label variable provincia_residencia "provincia de residencia"
-label define provincia_residencia 1 "Acomayo" 2 "Anta" 3 "Calca" 4 "Canas" 5 "Canchis" 6 "Chumbivilcas" 7 "Cusco" 8 "Espinar" 9 "La Convención" 10 "Paruro" 11 "Paucartambo" 12 "Quispicanchi" 13 "Urubambda"
+label define provincia_residencia 1 "Acomayo" 2 "Anta" 3 "Calca" 4 "Canas" 5 "Canchis" 6 "Chumbivilcas" 7 "Cusco" 8 "Espinar" 9 "La Convención" 10 "Paruro" 11 "Paucartambo" 12 "Quispicanchi" 13 "Urubamba"
 label values provincia_residencia provincia_residencia
 
 gen numero = _n
@@ -241,7 +241,7 @@ gen faltante_`i' = 100 - dos_dosis_`i' - brecha_`i'
 format dos_dosis_* brecha_* faltante_* %4.2f
 
 
-forvalues i=1/8 {
+forvalues i=1/9 {
 graph hbar dos_dosis_`i' brecha_`i' faltante_`i', ///
 over(provincia_residencia) stack ///
 plotregion(fcolor(white)) ///

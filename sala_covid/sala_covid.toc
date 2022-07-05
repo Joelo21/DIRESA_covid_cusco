@@ -6,17 +6,17 @@
 \beamer@sectionintoc {6}{Resumen}{48}{0}{6}
 \beamer@sectionintoc {7}{Apéndice}{54}{1}{7}
 \beamer@subsectionintoc {7}{1}{Vacunación por Provincias y Grupo de Edad}{55}{1}{7}
-\beamer@subsectionintoc {7}{2}{Acomayo}{62}{1}{7}
-\beamer@subsectionintoc {7}{3}{Anta}{66}{1}{7}
-\beamer@subsectionintoc {7}{4}{Calca}{70}{1}{7}
-\beamer@subsectionintoc {7}{5}{Canas}{74}{1}{7}
-\beamer@subsectionintoc {7}{6}{Canchis}{78}{1}{7}
-\beamer@subsectionintoc {7}{7}{Chumbivilcas}{82}{1}{7}
-\beamer@subsectionintoc {7}{8}{Cusco}{86}{1}{7}
-\beamer@subsectionintoc {7}{9}{Espinar}{90}{1}{7}
-\beamer@subsectionintoc {7}{10}{La Convención}{94}{1}{7}
-\beamer@subsectionintoc {7}{11}{Paruro}{98}{1}{7}
-\beamer@subsectionintoc {7}{12}{Paucartambo}{102}{1}{7}
-\beamer@subsectionintoc {7}{13}{Quispicanchi}{106}{1}{7}
-\beamer@subsectionintoc {7}{14}{Urubamba}{110}{1}{7}
-\beamer@subsectionintoc {7}{15}{Mapas Variantes}{114}{1}{7}
+\beamer@subsectionintoc {7}{2}{Acomayo}{64}{1}{7}
+\beamer@subsectionintoc {7}{3}{Anta}{68}{1}{7}
+\beamer@subsectionintoc {7}{4}{Calca}{72}{1}{7}
+\beamer@subsectionintoc {7}{5}{Canas}{76}{1}{7}
+\beamer@subsectionintoc {7}{6}{Canchis}{80}{1}{7}
+\beamer@subsectionintoc {7}{7}{Chumbivilcas}{84}{1}{7}
+\beamer@subsectionintoc {7}{8}{Cusco}{88}{1}{7}
+\beamer@subsectionintoc {7}{9}{Espinar}{92}{1}{7}
+\beamer@subsectionintoc {7}{10}{La Convención}{96}{1}{7}
+\beamer@subsectionintoc {7}{11}{Paruro}{100}{1}{7}
+\beamer@subsectionintoc {7}{12}{Paucartambo}{104}{1}{7}
+\beamer@subsectionintoc {7}{13}{Quispicanchi}{108}{1}{7}
+\beamer@subsectionintoc {7}{14}{Urubamba}{112}{1}{7}
+\beamer@subsectionintoc {7}{15}{Mapas Variantes}{116}{1}{7}
