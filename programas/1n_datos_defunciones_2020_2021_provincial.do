@@ -124,12 +124,9 @@ restore
 preserve
 collapse (sum) d20_*, by(semana_3)
 rename semana_3 semana
-
-
 forvalues i=1/13 {
 rename d20_`i' d22_`i'
 }
-
 save "${datos}\temporal\defuncion_semanal_provincias_2022", replace
 restore 
 

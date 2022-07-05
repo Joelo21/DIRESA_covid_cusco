@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.28)  4 JUL 2022 15:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.28)  5 JUL 2022 09:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3000,7 +3000,7 @@ Here is how much of TeX's memory you used:
  59524 multiletter control sequences out of 15000+600000
  541304 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,11n,122p,708b,777s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 128i,16n,122p,708b,777s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 pdfTeX warning (dest): name{resumen} has been referenced but does not exist, re
 placed by a fixed one
@@ -3029,7 +3029,7 @@ fonts/symbols/msam10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/newpx/npxsups-Regular.pfb><C:/Users/DEI-02/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/newpx/zplb.pfb><C:/Users/DEI-02/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/newpx/zplr.pfb>
-Output written on sala_covid.pdf (119 pages, 10551223 bytes).
+Output written on sala_covid.pdf (119 pages, 10554682 bytes).
 PDF statistics:
  1921 PDF objects out of 2073 (max. 8388607)
  347 named destinations out of 1000 (max. 500000)
