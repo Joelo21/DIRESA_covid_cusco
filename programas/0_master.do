@@ -96,7 +96,7 @@ global mycolor12 "176 155 113"
 global mycolor13 "63 78 79"
 global mycolor14 "3 196 161" 
 global mycolor15 "255 6 183"
-global mycolor16 "62 199 11"
+global mycolor16 "196 223 170"
 
 colorpalette ///
  "$mycolor1" ///
