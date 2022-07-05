@@ -99,8 +99,8 @@ twoway (bar linaje_omicron_1 mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(
 (scatter linaje_omicron_12 mes, msize(vsmall) mcolor("$mycolor8") mlabel(linaje_omicron_12) mlabcolor("$mycolor8") mlabsize(vsmall) connect()) ///
 (bar linaje_omicron_13 mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor7")) ///
 (scatter linaje_omicron_13 mes, msize(vsmall) mcolor("$mycolor7") mlabel(linaje_omicron_13) mlabcolor("$mycolor7") mlabsize(vsmall) connect()) ///
-(bar linaje_omicron_14 mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor6")) ///
-(scatter linaje_omicron_14 mes, msize(vsmall) mcolor("$mycolor6") mlabel(linaje_omicron_14) mlabcolor("$mycolor6") mlabsize(vsmall) connect()) ///
+(bar linaje_omicron_14 mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor16")) ///
+(scatter linaje_omicron_14 mes, msize(vsmall) mcolor("$mycolor16") mlabel(linaje_omicron_14) mlabcolor("$mycolor16") mlabsize(vsmall) connect()) ///
 (line suma_total mes, lcolor("$mycolor4") lpattern(shortdash_dot) lwidth(thick) yaxis(2) yscale(axis(2)) ylabel(0(40)120, axis(2))) ///
 (scatter suma_total mes, msize(vsmall) mcolor("$mycolor8") mlabel(suma_total) mlabposition(12) mlabcolor("$mycolor4") mlabsize(vsmall) connect() yaxis(2) yscale(axis(2)) ylabel(0(40)120, axis(2))) ///
  ,	xtitle("Mes", size(*0.7)) ///

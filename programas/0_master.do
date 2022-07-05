@@ -35,6 +35,43 @@ global semana 78
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
 
+* Programa:		  Programa para analizar toda la información sobre COVID-19 en la Región Cusco
+* Creado el:	  27 de octubre del 2021
+* Actualizado en: 31 de octubre del 2021
+*------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------%
+
+* Acción requerida --> Seleccionar el número de usuario (1 en mi caso) de acuerdo a la dirección (path) del siguiente comando
+
+clear all
+set more off
+
+* Acción requerida --> Cambiar la dirección (path) de su folder de replicación
+	****GERESA*****
+	global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
+	*****CASA******
+	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	cd "$path"
+
+* Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
+    ****GERESA******
+	global datos "H:\Mi unidad\Datos"
+	****CASA****** 
+	*global datos "E:\Mi unidad\Datos"
+	
+* Acción requerida: programas para realizar mapas
+*ssc install spmap
+*ssc install shp2dta
+*ssc install palettes
+*ssc install colrspace
+*ssc install estout, replace
+
+* Acción requerida: definir la fecha actual y la semana epidemiológica
+global fecha 05jul2022
+global semana 79
+
+* Tiempo de corrida: alrededor de 7 minutos
+timer on 1
+
 * Definir los colores de las gráficas
 * Colores
 *global mycolor1 "184 184 184" 
@@ -59,6 +96,7 @@ global mycolor12 "176 155 113"
 global mycolor13 "63 78 79"
 global mycolor14 "3 196 161" 
 global mycolor15 "255 6 183"
+global mycolor16 "62 199 11"
 
 colorpalette ///
  "$mycolor1" ///
@@ -75,8 +113,9 @@ colorpalette ///
  "$mycolor12" ///
  "$mycolor13" ///
  "$mycolor14" ///
- "$mycolor15" ///   
-  ,n(15)
+ "$mycolor15" ///  
+ "$mycolor16" ///   
+  ,n(16)
   
 gr export "figuras/paleta_colores.png", as(png) replace
 
