@@ -99,3 +99,29 @@ collapse (count) numero if dosis == 4, by(grupo_edad)
 rename numero tres
 save "${datos}\temporal\vacunados_cuarta_practicas", replace
 restore 
+
+use "${datos}\temporal\vacunados_primera_practicas", clear
+merge 1:1 grupo_edad using "${datos}\temporal\vacunados_segunda_practicas", nogen
+merge 1:1 grupo_edad using "${datos}\temporal\vacunados_tercera_practicas", nogen
+merge 1:1 grupo_edad using "${datos}\temporal\vacunados_cuarta_practicas", nogen
+
+gen objetivo = .
+replace objetivo = 177961 if grupo_edad == 1
+replace objetivo = 154802 if grupo_edad == 2
+replace objetivo = 318123 if grupo_edad == 3
+replace objetivo = 228775 if grupo_edad == 4
+replace objetivo = 187360 if grupo_edad == 5
+replace objetivo = 143692 if grupo_edad == 6
+replace objetivo = 96507 if grupo_edad == 7
+replace objetivo = 54159 if grupo_edad == 8
+replace objetivo = 31271 if grupo_edad == 9
+
+gen una_dosis = uno/objetivo*100
+gen dos_dosis = dos/objetivo*100
+gen tres_dosis = tres/objetivo*100
+
+format una_dosis dos_dosis tres_dosis %4.1f
+
+
+graph bar una_dosis dos_dosis tres_dosis, over(grupo_edad) plotregion(fcolor(white)) graphregion(fcolor(white)) ///
+bgcolor("$mycolor3") blabel(bar, position() color(black) format(%4.1f))
