@@ -27,7 +27,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 06jul2022
+global fecha 11jul2022
 global semana 79
 
 * Tiempo de corrida: alrededor de 7 minutos
@@ -89,7 +89,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-/*
+
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -134,15 +134,14 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/3c_figura_positividad"
 	*do "programas/3c_figura_positividad_2022"--
 
-	do "programas/3d_figura_promedio_casos_def"
+	*do "programas/3d_figura_promedio_casos_def"
 	*do "programas/3d_figura_promedio_casos_def_2022"--
 
 	do "programas/3e_sintomaticos"
 
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard" 
-
-
+x
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\MasterDofile"

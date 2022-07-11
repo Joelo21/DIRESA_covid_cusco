@@ -1,21 +1,21 @@
 
 use "${datos}\output\base_vacunados", clear
 
-drop if EdadGE < 5
-drop if missing(EdadGE)
-drop if EdadGE > 109
+drop if edad < 5
+drop if missing(edad)
+drop if edad > 109
 
 * Generar las categorías de las etapas de vida
 gen grupo_edad = .
-replace grupo_edad = 1 if EdadGE >= 5 & EdadGE <= 11
-replace grupo_edad = 2 if EdadGE >= 12 & EdadGE <= 17
-replace grupo_edad = 3 if EdadGE >= 18 & EdadGE <= 29
-replace grupo_edad = 4 if EdadGE >= 30 & EdadGE <= 39
-replace grupo_edad = 5 if EdadGE >= 40 & EdadGE <= 49
-replace grupo_edad = 6 if EdadGE >= 50 & EdadGE <= 59
-replace grupo_edad = 7 if EdadGE >= 60 & EdadGE <= 69
-replace grupo_edad = 8 if EdadGE >= 70 & EdadGE <= 79
-replace grupo_edad = 9 if EdadGE >= 80 
+replace grupo_edad = 1 if edad >= 5 & edad <= 11
+replace grupo_edad = 2 if edad >= 12 & edad <= 17
+replace grupo_edad = 3 if edad >= 18 & edad <= 29
+replace grupo_edad = 4 if edad >= 30 & edad <= 39
+replace grupo_edad = 5 if edad >= 40 & edad <= 49
+replace grupo_edad = 6 if edad >= 50 & edad <= 59
+replace grupo_edad = 7 if edad >= 60 & edad <= 69
+replace grupo_edad = 8 if edad >= 70 & edad <= 79
+replace grupo_edad = 9 if edad >= 80 
 label variable grupo_edad "Grupo de Edad"
 label define grupo_edad 1 "5 - 11 años" 2 "12-17 años" 3 "18-29 años" 4 "30-39 años" 5 "40-49 años" 6 "50-59 años" 7 "60-69 años" 8 "70-79 años" 9 "80 a más años"	
 label values grupo_edad grupo_edad

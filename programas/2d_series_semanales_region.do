@@ -52,6 +52,7 @@ replace semana_3 = . if semana_3 < 0
 gen positividad_pcr = positivo_pcr/prueba_pcr*100
 gen positividad_ag = positivo_ag/prueba_ag*100
 gen positividad_pr = positivo_pr/prueba_pr*100
+gen positividad = positivo/prueba*100
 
 * Etiquetar las variables
 label var semana "Semana Epidemiológica"
@@ -61,6 +62,7 @@ label var defuncion "Defunciones por COVID-19"
 label var defuncion_d "% Crecimiento de Defunciones"
 label var positivo "Casos Positivos"
 label var positivo_d "% Crecimiento de Casos"
+label var positividad "Tasa Positividad"
 label var sintomatico "Sintomáticos"
 label var asintomatico "Asintomáticos"
 label var sintomatico_pcr "Sintompaticos PCR"
@@ -69,7 +71,7 @@ label var sintomatico_ag "Sintomatico AG"
 
 * Definir los formatos de las variables, con comas y como porcentajes
 format positivo sintomatico asintomatico %11.0gc
-format defuncion_d positivo_d positividad_pcr positividad_ag %8.1f
+format defuncion_d positividad positivo_d positividad_pcr positividad_ag %8.1f
 recode sintomatico_ag (0=.) if semana <=53
 
 
