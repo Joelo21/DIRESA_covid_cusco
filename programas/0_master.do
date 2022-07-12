@@ -8,16 +8,16 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
 	*****CASA******
-	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	global datos "H:\Mi unidad\Datos"
+	*global datos "H:\Mi unidad\Datos"
 	****CASA****** 
-	*global datos "E:\Mi unidad\Datos"
+	global datos "E:\Mi unidad\Datos"
 	
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -115,8 +115,8 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/1j_datos_mapa_calor_2022"
 
 * 2. Generar datos a nivel regional y provincial
-	do "programas/2a_series_diarias_region"
-	*do "programas/2a_series_diarias_region_2022"
+	*do "programas/2a_series_diarias_region"
+	do "programas/2a_series_diarias_region_2022"
 	
 	do "programas/2b_series_diarias_provincias"
 	*do "programas/2b_series_diarias_provincias_2022"
@@ -141,7 +141,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard" 
-x
+
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
@@ -173,7 +173,7 @@ x
 
 	* Graficos Hospitalización
 	do "programas/4f_figuras_hospitales"
-*/
+
 	*Data Hospitalizados diarios
 	*do "programas/4g_figuras_hospitalizados"
 	
