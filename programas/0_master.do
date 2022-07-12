@@ -134,7 +134,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/3c_figura_positividad"
 	*do "programas/3c_figura_positividad_2022"--
 
-	*do "programas/3d_figura_promedio_casos_def"
+	do "programas/3d_figura_promedio_casos_def"
 	*do "programas/3d_figura_promedio_casos_def_2022"--
 
 	do "programas/3e_sintomaticos"
