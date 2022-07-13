@@ -68,7 +68,7 @@ replace grupo_edad = 7 if edad >= 60 & edad <= 69
 replace grupo_edad = 8 if edad >= 70 & edad <= 79
 replace grupo_edad = 9 if edad >= 80 
 label variable grupo_edad "Grupo de Edad"
-label define grupo_edad 1 "5 - 11 años" 2 "12-17 años" 3 "18-29 años" 4 "30-39 años" 5 "40-49 años" 6 "50-59 años" 7 "60-69 años" 8 "70-79 años" 9 "80 a más años"	
+label define grupo_edad 1 "5-11 años" 2 "12-17 años" 3 "18-29 años" 4 "30-39 años" 5 "40-49 años" 6 "50-59 años" 7 "60-69 años" 8 "70-79 años" 9 "80 a más años"	
 label values grupo_edad grupo_edad
 tab grupo_edad
 
@@ -124,4 +124,9 @@ format una_dosis dos_dosis tres_dosis %4.1f
 
 
 graph bar una_dosis dos_dosis tres_dosis, over(grupo_edad) plotregion(fcolor(white)) graphregion(fcolor(white)) ///
-bgcolor("$mycolor3") blabel(bar, position() color(black) format(%4.1f))
+title("COBERTURA VACUNACIÓN REGIÓN CUSCO POR GRUPO ETARIO", size(*0.7)) ///
+bgcolor("$mycolor3") ///
+bar(1, color("$mycolor3")) ///
+bar(2, color("$mycolor4")) ///
+bar(3, color("$mycolor2")) ///
+blabel(bar, position() color(black) format(%4.1f))

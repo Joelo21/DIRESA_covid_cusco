@@ -13,8 +13,8 @@ replace linaje_omicron = 9 if linaje == "BA.2.13"
 replace linaje_omicron = 10 if linaje == "BA.2.23"
 replace linaje_omicron = 11 if linaje == "BA.2.36"
 replace linaje_omicron = 12 if linaje == "BA.2.38"
-replace linaje_omicron = 13 if linaje == "BA.4"
-replace linaje_omicron = 14 if linaje == "BA.5"
+replace linaje_omicron = 13 if linaje == "BA.4" | linaje == "BA.4.1"
+replace linaje_omicron = 14 if linaje == "BA.5" | linaje == "BA.5.1" | linaje == "BA.5.2"| linaje == "BA.5.2.1" | linaje == "BA.5.5"
 
 forvalues i=1/14{
 preserve

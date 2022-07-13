@@ -12,7 +12,7 @@ format fecha_ingreso %td
 
 gen grupo_edad_hospitalizados = .
 replace grupo_edad_hospitalizados = 1 if edad >=  0 & edad <= 9
-replace grupo_edad_hospitalizados = 2 if edad >= 10 & edad <= 19
+replace grupo_edad_hospitalizados = 2 if edad >= 10 & edad <= 15
 replace grupo_edad_hospitalizados = 3 if edad >= 20 & edad <= 29
 replace grupo_edad_hospitalizados = 4 if edad >= 30 & edad <= 39
 replace grupo_edad_hospitalizados = 5 if edad >= 40 & edad <= 49

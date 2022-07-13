@@ -28,7 +28,7 @@ set more off
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
 global fecha 11jul2022
-global semana 79
+global semana 80
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -60,19 +60,6 @@ global mycolor14 "151 114 251"
 global mycolor15 "255 6 183"
 global mycolor16 "196 223 170"
 global mycolor17 "15 14 14"
-
-/*
-global mycolor8 "249 249 249" 
-global mycolor9 "255 255 255" 
-global mycolor10 "247 236 9"
-global mycolor11 "204 243 238"
-global mycolor12 "176 155 113" 
-global mycolor13 "63 78 79"
-global mycolor14 "3 196 161" 
-global mycolor15 "255 6 183"
-global mycolor16 "196 223 170"
-*/
-
 
 colorpalette ///
  "$mycolor1" ///
