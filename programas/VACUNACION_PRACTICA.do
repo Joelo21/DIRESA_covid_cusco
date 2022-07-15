@@ -1,3 +1,4 @@
+/*
 import delimited "${datos}\raw\vacunacovid.csv", varnames(1) encoding(UTF-8)  clear
 
 * DNI
@@ -99,7 +100,7 @@ collapse (count) numero if dosis == 4, by(grupo_edad)
 rename numero tres
 save "${datos}\temporal\vacunados_cuarta_practicas", replace
 restore 
-
+*/
 use "${datos}\temporal\vacunados_primera_practicas", clear
 merge 1:1 grupo_edad using "${datos}\temporal\vacunados_segunda_practicas", nogen
 merge 1:1 grupo_edad using "${datos}\temporal\vacunados_tercera_practicas", nogen
@@ -122,8 +123,7 @@ gen tres_dosis = tres/objetivo*100
 
 format una_dosis dos_dosis tres_dosis %4.1f
 
-
-graph bar una_dosis dos_dosis tres_dosis, over(grupo_edad) plotregion(fcolor(white)) graphregion(fcolor(white)) ///
+graph hbar una_dosis dos_dosis tres_dosis, over(grupo_edad) plotregion(fcolor(white)) graphregion(fcolor(white)) ///
 title("COBERTURA VACUNACIÓN REGIÓN CUSCO POR GRUPO ETARIO", size(*0.7)) ///
 bgcolor("$mycolor3") ///
 bar(1, color("$mycolor3")) ///
