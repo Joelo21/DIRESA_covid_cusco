@@ -7,7 +7,7 @@ gen mes = 05
 gen muestra = "netlab"
 
 save "${datos}\temporal\practica_secuenciamiento_mayo", replace
-
+*************************************************************************************
 import excel "${datos}\raw\base_netlab_junio_2022.xlsx", sheet(Hoja1) firstrow clear
 rename DNI dni
 rename LINAJE linaje
@@ -17,9 +17,18 @@ gen muestra = "netlab"
 
 save "${datos}\temporal\practica_secuenciamiento_junio", replace
 *************************************************************************************
+import excel "${datos}\raw\base_netlab_juLio_2022.xlsx", sheet(Hoja1) firstrow clear
+rename DNI dni
+rename LINAJE linaje
+rename FECHADEENVIO fecha
+gen mes = 07
+gen muestra = "netlab"
+
+save "${datos}\temporal\practica_secuenciamiento_julio", replace
+*************************************************************************************
 append using "${datos}\temporal\practica_secuenciamiento_mayo"
 append using "${datos}\temporal\practica_secuenciamiento_junio"
-
+append using "${datos}\temporal\practica_secuenciamiento_julio"
 *************************************************************************************
 replace muestra = "netlab" if muestra == ""
 destring dni, replace force
@@ -46,7 +55,7 @@ replace semana = 27 if fecha > d(02jul2022) & fecha <= d(09jul2022)
 replace semana = 28 if fecha > d(09jul2022) & fecha <= d(16jul2022)
 replace semana = semana[_n-7] + 1 if fecha > d(16jul2022)
 
-drop if linaje != "BA.5" &  linaje != "BA.5.1" & linaje != "BA.5.2" & linaje != "BA.5.2.1" & linaje != "BA.5.5"
+drop if linaje != "BA.5" &  linaje != "BA.5.1" & linaje != "BA.5.2" & linaje != "BA.5.2.1" & linaje != "BA.5.5" & linaje != "BA.5.6"
 
 gen linaje_omicron_B5 =.
 replace linaje_omicron_B5 = 1 if linaje == "BA.5"
@@ -54,8 +63,9 @@ replace linaje_omicron_B5 = 2 if linaje == "BA.5.1"
 replace linaje_omicron_B5 = 3 if linaje == "BA.5.2"
 replace linaje_omicron_B5 = 4 if linaje == "BA.5.2.1"
 replace linaje_omicron_B5 = 5 if linaje == "BA.5.5"
+replace linaje_omicron_B5 = 6 if linaje == "BA.5.6"
 
-label define linaje_omicron_B5 1 "BA.5" 2 "BA.5.1" 3 "BA.5.2" 4 "BA.5.2.1" 5 "BA.5.5"
+label define linaje_omicron_B5 1 "BA.5" 2 "BA.5.1" 3 "BA.5.2" 4 "BA.5.2.1" 5 "BA.5.5" 6 "BA.5.6"
 sort fecha
 
 forvalues i =1/5{
@@ -72,6 +82,7 @@ merge 1:1 semana using "${datos}\temporal\datos_linaje_B5_2", nogen
 merge 1:1 semana using "${datos}\temporal\datos_linaje_B5_3", nogen
 merge 1:1 semana using "${datos}\temporal\datos_linaje_B5_4", nogen
 merge 1:1 semana using "${datos}\temporal\datos_linaje_B5_5", nogen
+merge 1:1 semana using "${datos}\temporal\datos_linaje_B5_6", nogen
 
 recode * (.=0)
 sort semana

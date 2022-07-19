@@ -1,4 +1,4 @@
-/*
+
 import delimited "${datos}\raw\vacunacovid.csv", varnames(1) encoding(UTF-8)  clear
 
 * DNI

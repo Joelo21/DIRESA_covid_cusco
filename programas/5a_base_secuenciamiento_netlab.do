@@ -190,6 +190,17 @@ gen muestra = "netlab"
 keep dni mes linaje muestra
 save "${datos}\temporal\secuenciamiento_16", replace
 ************************************************************************
+import excel "${datos}\raw\base_netlab_julio_2022.xlsx", sheet(Hoja1) firstrow clear
+
+rename DNI dni
+rename LINAJE linaje
+gen mes = 19
+gen muestra = "netlab"
+
+keep dni mes linaje muestra
+save "${datos}\temporal\secuenciamiento_17", replace
+************************************************************************
+
 
 append using "${datos}\temporal\secuenciamiento_1"
 append using "${datos}\temporal\secuenciamiento_2"
@@ -207,6 +218,7 @@ append using "${datos}\temporal\secuenciamiento_13"
 append using "${datos}\temporal\secuenciamiento_14"
 append using "${datos}\temporal\secuenciamiento_15" 
 append using "${datos}\temporal\secuenciamiento_16"
+append using "${datos}\temporal\secuenciamiento_17"
 *sort mes
 
 sort dni
