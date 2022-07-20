@@ -6,7 +6,7 @@ replace linaje_omicron = 1 if linaje == "AY.119.1"
 replace linaje_omicron = 2 if linaje == "BA.1" | linaje == "BA.1.1" | linaje == "BA.1.1.1" | linaje == "BA.1.14.1" | linaje == "BA.1.15"
 replace linaje_omicron = 3 if linaje == "BA.2" | linaje == "Linaje BA.2" | linaje == "BA.2.3" | linaje == "Linaje BA.2.3" | linaje == "BA.2.9" | linaje == "Linaje BA.2.9" | linaje == "BA.2.10" | linaje == "BA.2.12.1" | linaje == "BA.2.13" | linaje == "BA.2.23" | linaje == "BA.2.36" | linaje == "BA.2.38" | linaje == "BA.2.42" | linaje == "BA.2.53"
 replace linaje_omicron = 4 if linaje == "BA.4" | linaje == "BA.4.1" 
-replace linaje_omicron = 5 if linaje == "BA.5" | linaje == "BA.5.1" | linaje == "BA.5.2"| linaje == "BA.5.2.1" | linaje == "BA.5.5" | linaje1 == "BA.5.6"
+replace linaje_omicron = 5 if linaje == "BA.5" | linaje == "BA.5.1" | linaje == "BA.5.2"| linaje == "BA.5.2.1" | linaje == "BA.5.5" | linaje == "BA.5.6"
 
 forvalues i=1/5 {
 preserve
