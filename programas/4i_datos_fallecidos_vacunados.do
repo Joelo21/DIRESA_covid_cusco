@@ -1,21 +1,27 @@
-*Fallecidos y vacunados
-**********************DATA FALLECIDOS VACUNADOS 2021-2022***********************
+*-------------------------------------------------------------------------------%
+
+* Programa: Datos Base Defunciones y Base Vacunados
+
+* Primera vez creado:     21 de Enero del 2022
+* Ultima actualizaciónb:  22 de Julio del 2022
+
+*-------------------------------------------------------------------------------%
+********************************************************************************
+*DATA FALLECIDOS VACUNADOS 2021-2022
+********************************************************************************
 use "${datos}\output\base_sinadef_2022.dta", clear
 gen fallecidos = 1
 merge m:m dni using "${datos}\output\base_vacunados.dta", nogen
 
-gen ESTADOVACUNA=.
-replace ESTADOVACUNA= 1 if fecha_ultima_vacuna == .
-replace ESTADOVACUNA= 2 if fecha_ultima_vacuna !=.
-replace dosis = 0 if dosis ==.
 
-**Obtener datos 2022
-*drop if fecha_sinadef <d(01jul2021)
+*Limpiando Datos Obtener datos 2022
+replace dosis = 0 if dosis ==.
+drop if fecha_sinadef <d(31dec2021)
 drop if fallecidos !=1
 drop if dni == ""
+format fecha_sinadef %td
 
-
-**Cantidad de Dosis
+*Cantidad de Dosis por Persona
 gen dosis0 = .
 replace dosis0 = 1 if dosis == 0
 gen dosis1 = .
@@ -25,8 +31,14 @@ replace dosis2 = 1 if dosis == 2
 gen dosis3 = .
 replace dosis3 = 1 if dosis == 3
 
+*Verificando duplicados
+sort dni
+duplicates report dni
+duplicates tag dni, gen(dupli_dni)
+quietly by dni: gen dup_dni= cond(_N==1,0,_n)
+
 /*
-*Fecha de Ingreso
+*Cantidad de Fallecidos por Fecha_Sinadef
 preserve
 collapse (count) fallecidos, by(fecha_sinadef)
 rename fecha_sinadef FECHA
@@ -35,20 +47,19 @@ gen total_fallecidos = sum(fallecidos)
 
 save "${datos}\output\base_fallecidos_vacunados.dta", replace
 
-/*
 ***********************************************************************************
-**TOTAL** 2021 - 2022**
-use "C:\Users\PC\Documents\PROGRAMAS GERESA 2022\2022 HOSPITALIZADOS - VARIANTES  PROGRAMAS\output\base_vacunados_fallecidos.dta", clear
+**Suma
+use "${datos}\output\base_fallecidos_vacunados.dta", clear
 drop if fecha_sinadef < d(01jul2021)
 collapse (count) fallecidos, by(fecha_sinadef)
 gen Total_Defunciones = sum(fallecidos)
 ***********************************************************************************
 *Sumar cantidad de Fallecidos 1ra dosis 2021
-use "C:\Users\PC\Documents\PROGRAMAS GERESA 2022\2022 HOSPITALIZADOS - VARIANTES  PROGRAMAS\output\base_vacunados_fallecidos.dta", clear
+use "${datos}\output\base_fallecidos_vacunados.dta", clear
 drop if fecha_sinadef > d(31dec2021)
 collapse (count) dosis1, by (fecha_sinadef)
 gen Total_Defunciones1 = sum(dosis1)
-save "C:\Users\PC\Documents\PROGRAMAS GERESA 2022\2022 HOSPITALIZADOS - VARIANTES  PROGRAMAS\output\sumdosis1.dta", replace
+save "${datos}\output\sumdosis1.dta", replace
 ********************************************************************************
 *Sumar cantidad de Fallecidos 2da dosis 2021
 use "C:\Users\PC\Documents\PROGRAMAS GERESA 2022\2022 HOSPITALIZADOS - VARIANTES  PROGRAMAS\output\base_vacunados_fallecidos.dta", clear
