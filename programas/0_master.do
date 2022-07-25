@@ -27,7 +27,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 22jul2022
+global fecha 25jul2022
 global semana 81
 
 * Tiempo de corrida: alrededor de 7 minutos
@@ -173,10 +173,10 @@ X
 
 	do "programas/4d_figura_exceso_regional"
 	do "programas/4e_figura_exceso_provincial"
-
+*/
 	* Graficos Hospitalización
 	do "programas/4f_figuras_hospitales"
-
+x
 	*Data Hospitalizados diarios
 	*do "programas/4g_figuras_hospitalizados"
 	
@@ -187,8 +187,8 @@ X
 	
 	* Tabla cero defunciones
 	**do "programas\4z_tabla_cero_defunciones.do"
-*/
 
+/*
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"

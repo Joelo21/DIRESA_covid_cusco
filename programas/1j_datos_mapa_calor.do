@@ -5,9 +5,9 @@ use "${datos}/output/base_covid.dta", clear
 *keep if positivo_molecular == 1 | positivo_rapida == 1 | positivo_antigenica == 1 
 keep if positivo_molecular == 1 | positivo_antigenica == 1 
 
-* Generar nueva fecha que sólo incluya las últimas cuatro semanas
+* Generar nueva fecha que sólo incluya las últimas 2 semanas
 gen fecha_mapa_4_semanas = .
-replace fecha_mapa_4_semanas = fecha_resultado if fecha_resultado >= d($fecha) - 28
+replace fecha_mapa_4_semanas = fecha_resultado if fecha_resultado >= d($fecha) - 14
 
 sort fecha_mapa_4_semanas
 *br fecha_mapa_4_semanas fecha_resultado if fecha_mapa_4_semanas != .
