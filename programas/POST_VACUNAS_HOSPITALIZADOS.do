@@ -71,7 +71,7 @@ tempfile no_inmunizados dosis_1 dosis_2 dosis_3
 *Inmunizados
 preserve
 ge numero = _n
-collapse (count) numero if dosis == 0, by (grupo_edad)
+collapse (count) numero if dosis == 0, by (hospitalizados)
 rename numero no_inmunizados
 tempfile no_inmunizados
 save "`no_inmunizados'"
@@ -80,7 +80,7 @@ restore
 *1 Dosis
 preserve
 ge numero = _n
-collapse (count) numero if dosis == 1, by (grupo_edad)
+collapse (count) numero if dosis == 1, by (hospitalizados)
 rename numero dosis_01
 tempfile dosis_1
 save "`dosis_1'"
@@ -89,7 +89,7 @@ restore
 *2 Dosis
 preserve
 ge numero = _n
-collapse (count) numero if dosis == 2, by (grupo_edad)
+collapse (count) numero if dosis == 2, by (hospitalizados)
 rename numero dosis_02
 tempfile dosis_2
 save "`dosis_2'"
@@ -98,7 +98,7 @@ restore
 *3 Dosis
 preserve
 ge numero = _n
-collapse (count) numero if dosis == 3, by (grupo_edad)
+collapse (count) numero if dosis == 3, by (hospitalizados)
 rename numero dosis_03
 tempfile dosis_3
 save "`dosis_3'"
@@ -106,9 +106,9 @@ restore
  
 *Merge 
 use "`no_inmunizados'", clear
-merge 1:1 grupo_edad using "`dosis_1'", nogenerate
-merge 1:1 grupo_edad using "`dosis_2'", nogenerate
-merge 1:1 grupo_edad using "`dosis_3'", nogenerate
+merge 1:1 hospitalizados using "`dosis_1'", nogenerate
+merge 1:1 hospitalizados using "`dosis_2'", nogenerate
+merge 1:1 hospitalizados using "`dosis_3'", nogenerate
 
 *Recodificando tabla
 recode no_inmunizados(.=0)
@@ -127,7 +127,18 @@ format sv_0 sv_1 sv_2 sv_3 %4.1f
 
 
 * Grafico
-
+graph bar sv_0 sv_1 sv_2 sv_3 , over(hospitalizados) stack ///
+plotregion(fcolor(white)) ///
+graphregion(fcolor(white)) ///
+bgcolor("$mycolor3") ///
+blabel(bar, position(inside) color(white)) ///
+bar(1, color("$mycolor3")) ///
+bar(2, color("$mycolor4")) ///
+bar(3, color("$mycolor2")) ///
+bar(4, color("$mycolor6")) ///
+blabel(bar, size(vsmall) format(%4.1f)) ///
+ytitle("Porcentaje (%)") ///
+ylabel(0(20)100, nogrid) ///
 
 
 save "${datos}\output\eddie_datos", replace
