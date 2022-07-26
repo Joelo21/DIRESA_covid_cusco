@@ -55,7 +55,7 @@ restore
 */
 use "${datos}\temporal\vacunados_primera", clear
 merge 1:1 grupo_edad using "${datos}\temporal\vacunados_segunda", nogen
-*merge 1:1 grupo_edad using "${datos}\temporal\vacunados_tercera", nogen
+merge 1:1 grupo_edad using "${datos}\temporal\vacunados_tercera", nogen
 *merge 1:1 grupo_edad using "${datos}\temporal\vacunados_cuarta", nogen
 
 

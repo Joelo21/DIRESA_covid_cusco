@@ -5,7 +5,7 @@ import excel "${datos}\raw\base_sinadef_2020_2021_2022_total.xlsx", sheet(Data1)
 rename PROVINCIADOMICILIO provincia
 
 * Generamos la fecha adecuando al formato conveniente y la ordenamos
-gen fecha = mdy(MES, DIA, AÑO)
+gen fecha = mdy(MES, DIA, AÑO)	
 format fecha %td
 
 append using "${datos}\temporal\defunciones_totales_region_2019_2020.dta", force
@@ -134,7 +134,7 @@ restore
 use "${datos}\temporal\defuncion_semanal_provincias_2020", clear
 merge 1:1 semana using "${datos}\temporal\defuncion_semanal_provincias_2021", nogen
 merge 1:1 semana using "${datos}\temporal\defuncion_semanal_provincias_2022", nogen
-drop if semana > 28 | semana == 0
+drop if semana > 29 | semana == 0
 
 * Guardar la base de datos
 save "${datos}\output\defunciones_totales_provincias_2020_2021_2022.dta", replace
