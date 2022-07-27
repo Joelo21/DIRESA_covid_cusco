@@ -64,6 +64,63 @@ label variable grupo_edad "Grupo de Edad"
 label define grupo_edad 1 "Niños" 2 "Adolescentes" 3 "Jovenes" 4 "Adultos" 5 "Adulto Mayor" 
 label values grupo_edad grupo_edad
 
+*Guardar datos
+save "${datos}\output\base_vacunados_hospitalizados", replace
+
+********************************************************************************
+**Reponemos datos No_imunicazados - Inmunizados
+use "${datos}\output\base_vacunados_hospitalizados", clear
+
+recode UCICONVM(.=0)
+recode UCISINVM(.=0)
+gen UCI=UCICONVM+UCISINVM
+*Datos Temporales
+tempfile no_inmunizados dosis_1 dosis_2 dosis_3 
+
+*Sumando Totales
+*Inmunizados
+preserve
+ge numero = _n
+collapse (count) numero if dosis == 0, by (UCI)
+rename numero no_inmunizados
+tempfile no_inmunizados
+save "`no_inmunizados'"
+restore 
+
+*1 Dosis
+preserve
+ge numero = _n
+collapse (count) numero if dosis == 1, by (UCI)
+rename numero dosis_01
+tempfile dosis_1
+save "`dosis_1'"
+restore 
+
+*2 Dosis
+preserve
+ge numero = _n
+collapse (count) numero if dosis == 2, by (UCI)
+rename numero dosis_02
+tempfile dosis_2
+save "`dosis_2'"
+restore 
+
+*3 Dosis
+preserve
+ge numero = _n
+collapse (count) numero if dosis == 3, by (UCI)
+rename numero dosis_03
+tempfile dosis_3
+save "`dosis_3'"
+restore
+ 
+*Guardar datos
+save "${datos}\output\base_vacunados_uci", replace
+
+
+********************************************************************************
+**Reponemos datos No_imunicazados - Inmunizados
+use "${datos}\output\base_vacunados_hospitalizados", clear
 *Datos Temporales
 tempfile no_inmunizados dosis_1 dosis_2 dosis_3 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.28)  4 JUL 2022 13:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.28)  27 JUL 2022 13:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1926,12 +1926,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/figura_sintoma.pdf>] [14 <../figuras/figura_signo.pdf> <../figuras
 /figura_comorbilidad.pdf>]
-<../figuras/sintomaticos_20_21_22.png, id=430, 1274.7625pt x 927.465pt>
+<../figuras/sintomaticos_20_21_22.png, id=430, 717.68124pt x 521.95pt>
 File: ../figuras/sintomaticos_20_21_22.png Graphic file (type png)
 <use ../figuras/sintomaticos_20_21_22.png>
 Package pdftex.def Info: ../figuras/sintomaticos_20_21_22.png  used on input li
 ne 404.
-(pdftex.def)             Requested size: 364.90672pt x 265.49072pt.
+(pdftex.def)             Requested size: 364.90672pt x 265.39455pt.
  [15
 
  <../figuras/sintomaticos_20_21_22.png (PNG copy)>]
@@ -2163,23 +2163,23 @@ Package pdftex.def Info: ../figuras/exceso_region_2022.pdf  used on input line
 [24
 
  <../figuras/exceso_region_2022.pdf>]
-<../figuras/vacunacion_grupo_edad.png, id=707, 1274.7625pt x 927.465pt>
+<../figuras/vacunacion_grupo_edad.png, id=707, 717.68124pt x 521.95pt>
 File: ../figuras/vacunacion_grupo_edad.png Graphic file (type png)
 <use ../figuras/vacunacion_grupo_edad.png>
 Package pdftex.def Info: ../figuras/vacunacion_grupo_edad.png  used on input li
 ne 692.
-(pdftex.def)             Requested size: 413.56392pt x 300.88478pt.
+(pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
  [25
 
  <../figuras/vacunacion_grupo_edad.png (PNG copy)>]
-<../sala_covid/../sala_nacional/Cobertura_Vacunacion_Provincias.jpg, id=715, 92
-6.151pt x 539.178pt>
+<../sala_covid/../sala_nacional/Cobertura_Vacunacion_Provincias.jpg, id=715, 91
+5.858pt x 513.774pt>
 File: ../sala_covid/../sala_nacional/Cobertura_Vacunacion_Provincias.jpg Graphi
 c file (type jpg)
 <use ../sala_covid/../sala_nacional/Cobertura_Vacunacion_Provincias.jpg>
 Package pdftex.def Info: ../sala_covid/../sala_nacional/Cobertura_Vacunacion_Pr
 ovincias.jpg  used on input line 702.
-(pdftex.def)             Requested size: 609.45396pt x 354.81372pt.
+(pdftex.def)             Requested size: 609.45396pt x 341.89845pt.
  [26 <../sala_covid/../sala_nacional/Cobertura_Vacunacion_Provincias.jpg>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/uci.pdf): PDF inclusion: found PD
@@ -2845,13 +2845,13 @@ File: ../figuras/variantes_provincial_delta.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../figuras/variantes_provincial_delta.pdf  used on inp
 ut line 1365.
 (pdftex.def)             Requested size: 194.61394pt x 227.26079pt.
-<../figuras/variantes_provincial_omicron.png, id=1444, 792.9625pt x 926.46124pt
+<../figuras/variantes_provincial_omicron.png, id=1444, 444.66125pt x 519.9425pt
 >
 File: ../figuras/variantes_provincial_omicron.png Graphic file (type png)
 <use ../figuras/variantes_provincial_omicron.png>
 Package pdftex.def Info: ../figuras/variantes_provincial_omicron.png  used on i
 nput line 1373.
-(pdftex.def)             Requested size: 194.61394pt x 227.37375pt.
+(pdftex.def)             Requested size: 194.61394pt x 227.56155pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -2976,14 +2976,8 @@ ne 1468.
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
-
-Package rerunfilecheck Warning: File `boletin_covid.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `boletin_covid.out':
-(rerunfilecheck)             Before: 063D532296D0B93F7DBDF5FC03CF0C6A;673
-(rerunfilecheck)             After:  1FE9D4CA095057B6D18DAEDEF5D4DC0A;1707.
+Package rerunfilecheck Info: File `boletin_covid.out' has not changed.
+(rerunfilecheck)             Checksum: 1FE9D4CA095057B6D18DAEDEF5D4DC0A;1707.
  )
 (\end occurred inside a group at level 1)
 
@@ -3006,7 +3000,7 @@ ss10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
 mss12.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
 lmssbx10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 lm/lmsso12.pfb>
-Output written on boletin_covid.pdf (70 pages, 12210222 bytes).
+Output written on boletin_covid.pdf (70 pages, 12059908 bytes).
 PDF statistics:
  1701 PDF objects out of 1728 (max. 8388607)
  168 named destinations out of 1000 (max. 500000)
