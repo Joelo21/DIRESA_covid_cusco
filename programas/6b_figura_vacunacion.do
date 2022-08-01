@@ -80,6 +80,10 @@ gen faltante = 100 - dos_dosis - brecha_primera_segunda
 *format dos_dosis brecha_primera_segunda tres_dosis faltante %4.1f
 format dos_dosis brecha_primera_segunda faltante %4.1f
 
+*Guardar datos
+save "${datos}\output\base_vacunados_graph", replace
+
+use "${datos}\output\base_vacunados_graph",clear
 * Gráfica
 graph hbar dos_dosis brecha_primera_segunda faltante, ///
 over(grupo_edad) stack ///
