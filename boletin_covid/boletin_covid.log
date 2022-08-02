@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.7.31)  2 AUG 2022 15:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.7.31)  2 AUG 2022 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1873,25 +1873,25 @@ File: ../editorial/2.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../editorial/2.pdf , page1 used on input line 310.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
  [9 <../editorial/2.pdf>]
-<../figuras/casos_etapavida_2022.png, id=326, 633.36626pt x 519.9425pt>
+<../figuras/casos_etapavida_2022.png, id=326, 367.76105pt x 301.9021pt>
 File: ../figuras/casos_etapavida_2022.png Graphic file (type png)
 <use ../figuras/casos_etapavida_2022.png>
 Package pdftex.def Info: ../figuras/casos_etapavida_2022.png  used on input lin
 e 323.
-(pdftex.def)             Requested size: 364.90672pt x 299.56758pt.
+(pdftex.def)             Requested size: 364.90672pt x 299.56578pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10
 
- <../figuras/casos_etapavida_2022.png (PNG copy)>]
-<../figuras/defunciones_etapavida_2022.png, id=334, 633.36626pt x 519.9425pt>
+ <../figuras/casos_etapavida_2022.png>]
+<../figuras/defunciones_etapavida_2022.png, id=334, 367.76105pt x 301.9021pt>
 File: ../figuras/defunciones_etapavida_2022.png Graphic file (type png)
 <use ../figuras/defunciones_etapavida_2022.png>
 Package pdftex.def Info: ../figuras/defunciones_etapavida_2022.png  used on inp
 ut line 335.
-(pdftex.def)             Requested size: 364.90672pt x 299.56758pt.
- [11 <../figuras/defunciones_etapavida_2022.png (PNG copy)>]
+(pdftex.def)             Requested size: 364.90672pt x 299.56578pt.
+ [11 <../figuras/defunciones_etapavida_2022.png>]
 
 pdfTeX warning: pdflatex.exe (file ../editorial/3.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
@@ -1978,15 +1978,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/figura_sintoma.pdf>] [14 <../figuras/figura_signo.pdf> <../figuras
 /figura_comorbilidad.pdf>]
-<../figuras/sintomaticos_20_21_22.png, id=458, 717.68124pt x 521.95pt>
+<../figuras/sintomaticos_20_21_22.png, id=458, 366.47552pt x 266.52766pt>
 File: ../figuras/sintomaticos_20_21_22.png Graphic file (type png)
 <use ../figuras/sintomaticos_20_21_22.png>
 Package pdftex.def Info: ../figuras/sintomaticos_20_21_22.png  used on input li
 ne 391.
-(pdftex.def)             Requested size: 364.90672pt x 265.39455pt.
+(pdftex.def)             Requested size: 364.90672pt x 265.38826pt.
  [15
 
- <../figuras/sintomaticos_20_21_22.png (PNG copy)>]
+ <../figuras/sintomaticos_20_21_22.png>]
 
 pdfTeX warning: pdflatex.exe (file ../editorial/4.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
@@ -2035,25 +2035,25 @@ Package pdftex.def Info: ../editorial/4.pdf , page1 used on input line 402.
 [16
 
  <../editorial/4.pdf>]
-<../figuras/tasa_incidencia_2021_2022.png, id=534, 717.68124pt x 521.95pt>
+<../figuras/tasa_incidencia_2021_2022.png, id=534, 437.9072pt x 318.47797pt>
 File: ../figuras/tasa_incidencia_2021_2022.png Graphic file (type png)
 <use ../figuras/tasa_incidencia_2021_2022.png>
 Package pdftex.def Info: ../figuras/tasa_incidencia_2021_2022.png  used on inpu
 t line 415.
-(pdftex.def)             Requested size: 437.88509pt x 318.46867pt.
+(pdftex.def)             Requested size: 437.88509pt x 318.48203pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17
 
- <../figuras/tasa_incidencia_2021_2022.png (PNG copy)>]
-<../figuras/positividad_diaria_2021_2022.png, id=542, 717.68124pt x 521.95pt>
+ <../figuras/tasa_incidencia_2021_2022.png>]
+<../figuras/positividad_diaria_2021_2022.png, id=542, 391.4625pt x 284.7pt>
 File: ../figuras/positividad_diaria_2021_2022.png Graphic file (type png)
 <use ../figuras/positividad_diaria_2021_2022.png>
 Package pdftex.def Info: ../figuras/positividad_diaria_2021_2022.png  used on i
 nput line 428.
-(pdftex.def)             Requested size: 389.23532pt x 283.08327pt.
- [18 <../figuras/positividad_diaria_2021_2022.png (PNG copy)>]
+(pdftex.def)             Requested size: 389.23532pt x 283.09628pt.
+ [18 <../figuras/positividad_diaria_2021_2022.png>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_pcr.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
@@ -2215,15 +2215,15 @@ Package pdftex.def Info: ../figuras/exceso_region_2022.pdf  used on input line
 [24
 
  <../figuras/exceso_region_2022.pdf>]
-<../figuras/vacunacion_grupo_edad.png, id=742, 717.68124pt x 521.95pt>
+<../figuras/vacunacion_grupo_edad.png, id=742, 415.30724pt x 302.16054pt>
 File: ../figuras/vacunacion_grupo_edad.png Graphic file (type png)
 <use ../figuras/vacunacion_grupo_edad.png>
 Package pdftex.def Info: ../figuras/vacunacion_grupo_edad.png  used on input li
 ne 678.
-(pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
+(pdftex.def)             Requested size: 413.56392pt x 300.9057pt.
  [25
 
- <../figuras/vacunacion_grupo_edad.png (PNG copy)>]
+ <../figuras/vacunacion_grupo_edad.png>]
 <../sala_covid/../sala_nacional/Cobertura_Vacunacion_Provincias.jpg, id=750, 91
 5.639pt x 513.774pt>
 File: ../sala_covid/../sala_nacional/Cobertura_Vacunacion_Provincias.jpg Graphi
@@ -2331,12 +2331,12 @@ Package pdftex.def Info: ../editorial/5.pdf , page1 used on input line 843.
 [31
 
  <../editorial/5.pdf>]
-<../figuras/incidencia_provincial_2022.png, id=883, 633.36626pt x 519.9425pt>
+<../figuras/incidencia_provincial_2022.png, id=883, 292.32289pt x 239.97346pt>
 File: ../figuras/incidencia_provincial_2022.png Graphic file (type png)
 <use ../figuras/incidencia_provincial_2022.png>
 Package pdftex.def Info: ../figuras/incidencia_provincial_2022.png  used on inp
 ut line 853.
-(pdftex.def)             Requested size: 291.92834pt x 239.65247pt.
+(pdftex.def)             Requested size: 291.92834pt x 239.6543pt.
 
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_provincial_2022.pdf): 
@@ -2352,7 +2352,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [32
 
- <../figuras/incidencia_provincial_2022.png (PNG copy)>]
+ <../figuras/incidencia_provincial_2022.png>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/incidencia_provincial_acumulada_2
 022.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
@@ -2405,12 +2405,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ] [36 <../figuras/incidencia_mortalidad_20_21_1.png (PNG copy)> <../figuras/pos
 itividad_20_21_1.png (PNG copy)>] [37 <../figuras/exceso_1.pdf>]
-<../figuras/incidencia_mortalidad_20_21_2.png, id=962, 717.68124pt x 521.95pt>
+<../figuras/incidencia_mortalidad_20_21_2.png, id=962, 416.71814pt x 303.06775p
+t>
 File: ../figuras/incidencia_mortalidad_20_21_2.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_2.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_2.png  used on 
 input line 925.
-(pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
+(pdftex.def)             Requested size: 413.56392pt x 300.79178pt.
 <../figuras/positividad_20_21_2.png, id=963, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_2.png Graphic file (type png)
 <use ../figuras/positividad_20_21_2.png>
@@ -2435,8 +2436,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [38
 
- <../figuras/incidencia_mortalidad_20_21_2.png (PNG copy)>] [39 <../figuras/pos
-itividad_20_21_2.png (PNG copy)> <../figuras/exceso_2.pdf>]
+ <../figuras/incidencia_mortalidad_20_21_2.png>] [39 <../figuras/positividad_20
+_21_2.png (PNG copy)> <../figuras/exceso_2.pdf>]
 <../figuras/incidencia_mortalidad_20_21_3.png, id=999, 717.68124pt x 521.95pt>
 File: ../figuras/incidencia_mortalidad_20_21_3.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_3.png>
@@ -2507,19 +2508,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_4.pdf>] [43 <../figuras/positividad_20
 _21_4.pdf> <../figuras/exceso_4.pdf>]
-<../figuras/incidencia_mortalidad_20_21_5.png, id=1094, 717.68124pt x 521.95pt>
-
+<../figuras/incidencia_mortalidad_20_21_5.png, id=1094, 416.71814pt x 303.06775
+pt>
 File: ../figuras/incidencia_mortalidad_20_21_5.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_5.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_5.png  used on 
 input line 1023.
-(pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
-<../figuras/positividad_20_21_5.png, id=1095, 717.68124pt x 521.95pt>
+(pdftex.def)             Requested size: 413.56392pt x 300.79178pt.
+<../figuras/positividad_20_21_5.png, id=1095, 342.20563pt x 248.87682pt>
 File: ../figuras/positividad_20_21_5.png Graphic file (type png)
 <use ../figuras/positividad_20_21_5.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_5.png  used on input line
  1031.
-(pdftex.def)             Requested size: 340.57811pt x 247.69785pt.
+(pdftex.def)             Requested size: 340.57811pt x 247.70276pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2538,21 +2539,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [44
 
- <../figuras/incidencia_mortalidad_20_21_5.png (PNG copy)>] [45 <../figuras/pos
-itividad_20_21_5.png (PNG copy)> <../figuras/exceso_5.pdf>]
-<../figuras/incidencia_mortalidad_20_21_6.png, id=1131, 717.68124pt x 521.95pt>
-
+ <../figuras/incidencia_mortalidad_20_21_5.png>] [45 <../figuras/positividad_20
+_21_5.png> <../figuras/exceso_5.pdf>]
+<../figuras/incidencia_mortalidad_20_21_6.png, id=1131, 416.71814pt x 303.06775
+pt>
 File: ../figuras/incidencia_mortalidad_20_21_6.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_6.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_6.png  used on 
 input line 1055.
-(pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
-<../figuras/positividad_20_21_6.png, id=1132, 717.68124pt x 521.95pt>
+(pdftex.def)             Requested size: 413.56392pt x 300.79178pt.
+<../figuras/positividad_20_21_6.png, id=1132, 342.20563pt x 248.87682pt>
 File: ../figuras/positividad_20_21_6.png Graphic file (type png)
 <use ../figuras/positividad_20_21_6.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_6.png  used on input line
  1063.
-(pdftex.def)             Requested size: 340.57811pt x 247.69785pt.
+(pdftex.def)             Requested size: 340.57811pt x 247.70276pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2571,15 +2572,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [46
 
- <../figuras/incidencia_mortalidad_20_21_6.png (PNG copy)>] [47 <../figuras/pos
-itividad_20_21_6.png (PNG copy)> <../figuras/exceso_6.pdf>]
-<../figuras/incidencia_mortalidad_20_21_7.png, id=1168, 717.68124pt x 521.95pt>
-
+ <../figuras/incidencia_mortalidad_20_21_6.png>] [47 <../figuras/positividad_20
+_21_6.png> <../figuras/exceso_6.pdf>]
+<../figuras/incidencia_mortalidad_20_21_7.png, id=1168, 416.71814pt x 303.06775
+pt>
 File: ../figuras/incidencia_mortalidad_20_21_7.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_7.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_7.png  used on 
 input line 1088.
-(pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
+(pdftex.def)             Requested size: 413.56392pt x 300.79178pt.
 <../figuras/positividad_20_21_7.png, id=1169, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_7.png Graphic file (type png)
 <use ../figuras/positividad_20_21_7.png>
@@ -2604,8 +2605,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [48
 
- <../figuras/incidencia_mortalidad_20_21_7.png (PNG copy)>] [49 <../figuras/pos
-itividad_20_21_7.png (PNG copy)> <../figuras/exceso_7.pdf>]
+ <../figuras/incidencia_mortalidad_20_21_7.png>] [49 <../figuras/positividad_20
+_21_7.png (PNG copy)> <../figuras/exceso_7.pdf>]
 <../figuras/incidencia_mortalidad_20_21_8.png, id=1206, 717.68124pt x 521.95pt>
 
 File: ../figuras/incidencia_mortalidad_20_21_8.png Graphic file (type png)
@@ -2639,19 +2640,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_8.png (PNG copy)>] [51 <../figuras/pos
 itividad_20_21_8.png (PNG copy)> <../figuras/exceso_8.pdf>]
-<../figuras/incidencia_mortalidad_20_21_9.png, id=1243, 717.68124pt x 521.95pt>
-
+<../figuras/incidencia_mortalidad_20_21_9.png, id=1243, 416.71814pt x 303.06775
+pt>
 File: ../figuras/incidencia_mortalidad_20_21_9.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_9.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_9.png  used on 
 input line 1152.
-(pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
-<../figuras/positividad_20_21_9.png, id=1244, 717.68124pt x 521.95pt>
+(pdftex.def)             Requested size: 413.56392pt x 300.79178pt.
+<../figuras/positividad_20_21_9.png, id=1244, 342.20563pt x 248.87682pt>
 File: ../figuras/positividad_20_21_9.png Graphic file (type png)
 <use ../figuras/positividad_20_21_9.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_9.png  used on input line
  1160.
-(pdftex.def)             Requested size: 340.57811pt x 247.69785pt.
+(pdftex.def)             Requested size: 340.57811pt x 247.70276pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2670,8 +2671,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [52
 
- <../figuras/incidencia_mortalidad_20_21_9.png (PNG copy)>] [53 <../figuras/pos
-itividad_20_21_9.png (PNG copy)> <../figuras/exceso_9.pdf>]
+ <../figuras/incidencia_mortalidad_20_21_9.png>] [53 <../figuras/positividad_20
+_21_9.png> <../figuras/exceso_9.pdf>]
 <../figuras/incidencia_mortalidad_20_21_10.png, id=1280, 717.68124pt x 521.95pt
 >
 File: ../figuras/incidencia_mortalidad_20_21_10.png Graphic file (type png)
@@ -2679,12 +2680,12 @@ File: ../figuras/incidencia_mortalidad_20_21_10.png Graphic file (type png)
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_10.png  used on
  input line 1184.
 (pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
-<../figuras/positividad_20_21_10.png, id=1281, 717.68124pt x 521.95pt>
+<../figuras/positividad_20_21_10.png, id=1281, 342.20563pt x 248.87682pt>
 File: ../figuras/positividad_20_21_10.png Graphic file (type png)
 <use ../figuras/positividad_20_21_10.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_10.png  used on input lin
 e 1192.
-(pdftex.def)             Requested size: 340.57811pt x 247.69785pt.
+(pdftex.def)             Requested size: 340.57811pt x 247.70276pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2704,14 +2705,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [54
 
  <../figuras/incidencia_mortalidad_20_21_10.png (PNG copy)>] [55 <../figuras/po
-sitividad_20_21_10.png (PNG copy)> <../figuras/exceso_10.pdf>]
-<../figuras/incidencia_mortalidad_20_21_11.png, id=1318, 717.68124pt x 521.95pt
->
+sitividad_20_21_10.png> <../figuras/exceso_10.pdf>]
+<../figuras/incidencia_mortalidad_20_21_11.png, id=1318, 416.71814pt x 303.0677
+5pt>
 File: ../figuras/incidencia_mortalidad_20_21_11.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_11.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_11.png  used on
  input line 1215.
-(pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
+(pdftex.def)             Requested size: 413.56392pt x 300.79178pt.
 <../figuras/positividad_20_21_11.png, id=1319, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_11.png Graphic file (type png)
 <use ../figuras/positividad_20_21_11.png>
@@ -2736,21 +2737,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [56
 
- <../figuras/incidencia_mortalidad_20_21_11.png (PNG copy)>] [57 <../figuras/po
-sitividad_20_21_11.png (PNG copy)> <../figuras/exceso_11.pdf>]
-<../figuras/incidencia_mortalidad_20_21_12.png, id=1355, 717.68124pt x 521.95pt
->
+ <../figuras/incidencia_mortalidad_20_21_11.png>] [57 <../figuras/positividad_2
+0_21_11.png (PNG copy)> <../figuras/exceso_11.pdf>]
+<../figuras/incidencia_mortalidad_20_21_12.png, id=1355, 416.71814pt x 303.0677
+5pt>
 File: ../figuras/incidencia_mortalidad_20_21_12.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_12.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_12.png  used on
  input line 1247.
-(pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
-<../figuras/positividad_20_21_12.png, id=1356, 717.68124pt x 521.95pt>
+(pdftex.def)             Requested size: 413.56392pt x 300.79178pt.
+<../figuras/positividad_20_21_12.png, id=1356, 342.20563pt x 248.87682pt>
 File: ../figuras/positividad_20_21_12.png Graphic file (type png)
 <use ../figuras/positividad_20_21_12.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_12.png  used on input lin
 e 1255.
-(pdftex.def)             Requested size: 340.57811pt x 247.69785pt.
+(pdftex.def)             Requested size: 340.57811pt x 247.70276pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2769,21 +2770,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [58
 
- <../figuras/incidencia_mortalidad_20_21_12.png (PNG copy)>] [59 <../figuras/po
-sitividad_20_21_12.png (PNG copy)> <../figuras/exceso_12.pdf>]
-<../figuras/incidencia_mortalidad_20_21_13.png, id=1392, 717.68124pt x 521.95pt
->
+ <../figuras/incidencia_mortalidad_20_21_12.png>] [59 <../figuras/positividad_2
+0_21_12.png> <../figuras/exceso_12.pdf>]
+<../figuras/incidencia_mortalidad_20_21_13.png, id=1392, 416.71814pt x 303.0677
+5pt>
 File: ../figuras/incidencia_mortalidad_20_21_13.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_13.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_13.png  used on
  input line 1279.
-(pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
-<../figuras/positividad_20_21_13.png, id=1393, 717.68124pt x 521.95pt>
+(pdftex.def)             Requested size: 413.56392pt x 300.79178pt.
+<../figuras/positividad_20_21_13.png, id=1393, 342.20563pt x 248.87682pt>
 File: ../figuras/positividad_20_21_13.png Graphic file (type png)
 <use ../figuras/positividad_20_21_13.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_13.png  used on input lin
 e 1287.
-(pdftex.def)             Requested size: 340.57811pt x 247.69785pt.
+(pdftex.def)             Requested size: 340.57811pt x 247.70276pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -2802,8 +2803,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [60
 
- <../figuras/incidencia_mortalidad_20_21_13.png (PNG copy)>] [61 <../figuras/po
-sitividad_20_21_13.png (PNG copy)> <../figuras/exceso_13.pdf>]
+ <../figuras/incidencia_mortalidad_20_21_13.png>] [61 <../figuras/positividad_2
+0_21_13.png> <../figuras/exceso_13.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../editorial/6.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
@@ -3057,7 +3058,7 @@ blic/lm/lmss10.pfb><C:/Users/Lucerito/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/lm/lmss12.pfb><C:/Users/Lucerito/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/lm/lmssbx10.pfb><C:/Users/Lucerito/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/lm/lmsso12.pfb>
-Output written on boletin_covid.pdf (72 pages, 10298230 bytes).
+Output written on boletin_covid.pdf (72 pages, 10029986 bytes).
 PDF statistics:
  1783 PDF objects out of 2073 (max. 8388607)
  170 named destinations out of 1000 (max. 500000)
