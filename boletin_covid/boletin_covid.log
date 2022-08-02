@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.7.31)  1 AUG 2022 15:03
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.28)  1 AUG 2022 15:07
->>>>>>> Stashed changes
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.28)  2 AUG 2022 11:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2170,27 +2166,23 @@ Package pdftex.def Info: ../figuras/exceso_region_2022.pdf  used on input line
 [24
 
  <../figuras/exceso_region_2022.pdf>]
-<<<<<<< Updated upstream
 <../figuras/vacunacion_grupo_edad.png, id=742, 717.68124pt x 521.95pt>
-=======
-<../figuras/vacunacion_grupo_edad.png, id=755, 1274.7625pt x 927.465pt>
->>>>>>> Stashed changes
 File: ../figuras/vacunacion_grupo_edad.png Graphic file (type png)
 <use ../figuras/vacunacion_grupo_edad.png>
 Package pdftex.def Info: ../figuras/vacunacion_grupo_edad.png  used on input li
 ne 677.
-(pdftex.def)             Requested size: 413.56392pt x 300.88478pt.
+(pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
  [25
 
  <../figuras/vacunacion_grupo_edad.png (PNG copy)>]
 <../sala_covid/../sala_nacional/Cobertura_Vacunacion_Provincias.jpg, id=750, 91
-5.858pt x 513.774pt>
+5.639pt x 513.774pt>
 File: ../sala_covid/../sala_nacional/Cobertura_Vacunacion_Provincias.jpg Graphi
 c file (type jpg)
 <use ../sala_covid/../sala_nacional/Cobertura_Vacunacion_Provincias.jpg>
 Package pdftex.def Info: ../sala_covid/../sala_nacional/Cobertura_Vacunacion_Pr
 ovincias.jpg  used on input line 687.
-(pdftex.def)             Requested size: 609.45396pt x 341.89845pt.
+(pdftex.def)             Requested size: 609.45396pt x 341.96901pt.
  [26 <../sala_covid/../sala_nacional/Cobertura_Vacunacion_Provincias.jpg>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/uci.pdf): PDF inclusion: found PD
@@ -2296,20 +2288,11 @@ File: ../figuras/incidencia_provincial_2022.png Graphic file (type png)
 Package pdftex.def Info: ../figuras/incidencia_provincial_2022.png  used on inp
 ut line 852.
 (pdftex.def)             Requested size: 291.92834pt x 239.65247pt.
-<<<<<<< Updated upstream
-<../figuras/mortalidad_provincial_2022.png, id=885, 633.36626pt x 519.9425pt>
-File: ../figuras/mortalidad_provincial_2022.png Graphic file (type png)
-<use ../figuras/mortalidad_provincial_2022.png>
-Package pdftex.def Info: ../figuras/mortalidad_provincial_2022.png  used on inp
-ut line 863.
-(pdftex.def)             Requested size: 291.92834pt x 239.65247pt.
-=======
->>>>>>> Stashed changes
 
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_provincial_2022.pdf): 
 PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_provincial_2022.pdf, id=898, 397.485pt x 289.08pt>
+<../figuras/mortalidad_provincial_2022.pdf, id=885, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_provincial_2022.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_provincial_2022.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_provincial_2022.pdf  used on inp
@@ -2336,25 +2319,15 @@ sed on input line 873.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< Updated upstream
-[33 <../figuras/mortalidad_provincial_2022.png (PNG copy)>] [34 <../figuras/inc
-idencia_provincial_acumulada_2022.pdf>]
-<../figuras/incidencia_mortalidad_20_21_1.png, id=916, 717.68124pt x 521.95pt>
-=======
 [33 <../figuras/mortalidad_provincial_2022.pdf>] [34 <../figuras/incidencia_pro
 vincial_acumulada_2022.pdf>]
-<../figuras/incidencia_mortalidad_20_21_1.png, id=939, 717.68124pt x 521.95pt>
->>>>>>> Stashed changes
+<../figuras/incidencia_mortalidad_20_21_1.png, id=926, 717.68124pt x 521.95pt>
 File: ../figuras/incidencia_mortalidad_20_21_1.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_1.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_1.png  used on 
 input line 889.
 (pdftex.def)             Requested size: 340.57811pt x 247.69785pt.
-<<<<<<< Updated upstream
-<../figuras/positividad_20_21_1.png, id=917, 717.68124pt x 521.95pt>
-=======
-<../figuras/positividad_20_21_1.png, id=940, 717.68124pt x 521.95pt>
->>>>>>> Stashed changes
+<../figuras/positividad_20_21_1.png, id=927, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_1.png Graphic file (type png)
 <use ../figuras/positividad_20_21_1.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_1.png  used on input line
@@ -2368,11 +2341,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_1.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/exceso_1.pdf, id=918, 397.485pt x 289.08pt>
-=======
-<../figuras/exceso_1.pdf, id=941, 397.485pt x 289.08pt>
->>>>>>> Stashed changes
+<../figuras/exceso_1.pdf, id=928, 397.485pt x 289.08pt>
 File: ../figuras/exceso_1.pdf Graphic file (type pdf)
 <use ../figuras/exceso_1.pdf>
 Package pdftex.def Info: ../figuras/exceso_1.pdf  used on input line 905.
@@ -2384,21 +2353,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_1.png (PNG copy)>] [36 <../figuras/pos
 itividad_20_21_1.png (PNG copy)> <../figuras/exceso_1.pdf>]
-<<<<<<< Updated upstream
-<../figuras/incidencia_mortalidad_20_21_2.png, id=955, 717.68124pt x 521.95pt>
-=======
-<../figuras/incidencia_mortalidad_20_21_2.png, id=978, 717.68124pt x 521.95pt>
->>>>>>> Stashed changes
+<../figuras/incidencia_mortalidad_20_21_2.png, id=965, 717.68124pt x 521.95pt>
 File: ../figuras/incidencia_mortalidad_20_21_2.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_2.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_2.png  used on 
 input line 923.
 (pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
-<<<<<<< Updated upstream
-<../figuras/positividad_20_21_2.png, id=956, 717.68124pt x 521.95pt>
-=======
-<../figuras/positividad_20_21_2.png, id=979, 717.68124pt x 521.95pt>
->>>>>>> Stashed changes
+<../figuras/positividad_20_21_2.png, id=966, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_2.png Graphic file (type png)
 <use ../figuras/positividad_20_21_2.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_2.png  used on input line
@@ -2412,11 +2373,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_2.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/exceso_2.pdf, id=957, 397.485pt x 289.08pt>
-=======
-<../figuras/exceso_2.pdf, id=980, 397.485pt x 289.08pt>
->>>>>>> Stashed changes
+<../figuras/exceso_2.pdf, id=967, 397.485pt x 289.08pt>
 File: ../figuras/exceso_2.pdf Graphic file (type pdf)
 <use ../figuras/exceso_2.pdf>
 Package pdftex.def Info: ../figuras/exceso_2.pdf  used on input line 939.
@@ -2428,22 +2385,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_2.png (PNG copy)>] [38 <../figuras/pos
 itividad_20_21_2.png (PNG copy)> <../figuras/exceso_2.pdf>]
-<<<<<<< Updated upstream
-<../figuras/incidencia_mortalidad_20_21_3.png, id=992, 717.68124pt x 521.95pt>
-=======
-<../figuras/incidencia_mortalidad_20_21_3.png, id=1015, 717.68124pt x 521.95pt>
+<../figuras/incidencia_mortalidad_20_21_3.png, id=1002, 717.68124pt x 521.95pt>
 
->>>>>>> Stashed changes
 File: ../figuras/incidencia_mortalidad_20_21_3.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_3.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_3.png  used on 
 input line 955.
 (pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
-<<<<<<< Updated upstream
-<../figuras/positividad_20_21_3.png, id=993, 717.68124pt x 521.95pt>
-=======
-<../figuras/positividad_20_21_3.png, id=1016, 717.68124pt x 521.95pt>
->>>>>>> Stashed changes
+<../figuras/positividad_20_21_3.png, id=1003, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_3.png Graphic file (type png)
 <use ../figuras/positividad_20_21_3.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_3.png  used on input line
@@ -2457,11 +2406,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_3.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/exceso_3.pdf, id=994, 397.485pt x 289.08pt>
-=======
-<../figuras/exceso_3.pdf, id=1017, 397.485pt x 289.08pt>
->>>>>>> Stashed changes
+<../figuras/exceso_3.pdf, id=1004, 397.485pt x 289.08pt>
 File: ../figuras/exceso_3.pdf Graphic file (type pdf)
 <use ../figuras/exceso_3.pdf>
 Package pdftex.def Info: ../figuras/exceso_3.pdf  used on input line 971.
@@ -2476,11 +2421,7 @@ itividad_20_21_3.png (PNG copy)> <../figuras/exceso_3.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/incidencia_mortalidad_20_21_4.pdf
 ): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/incidencia_mortalidad_20_21_4.pdf, id=1029, 397.485pt x 289.08pt>
-=======
-<../figuras/incidencia_mortalidad_20_21_4.pdf, id=1052, 397.485pt x 289.08pt>
->>>>>>> Stashed changes
+<../figuras/incidencia_mortalidad_20_21_4.pdf, id=1039, 397.485pt x 289.08pt>
 File: ../figuras/incidencia_mortalidad_20_21_4.pdf Graphic file (type pdf)
 <use ../figuras/incidencia_mortalidad_20_21_4.pdf>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_4.pdf  used on 
@@ -2490,11 +2431,7 @@ input line 987.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_20_21_4.pdf): PDF inc
 lusion: found PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/positividad_20_21_4.pdf, id=1030, 397.485pt x 289.08pt>
-=======
-<../figuras/positividad_20_21_4.pdf, id=1053, 397.485pt x 289.08pt>
->>>>>>> Stashed changes
+<../figuras/positividad_20_21_4.pdf, id=1040, 397.485pt x 289.08pt>
 File: ../figuras/positividad_20_21_4.pdf Graphic file (type pdf)
 <use ../figuras/positividad_20_21_4.pdf>
 Package pdftex.def Info: ../figuras/positividad_20_21_4.pdf  used on input line
@@ -2507,11 +2444,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_4.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/exceso_4.pdf, id=1031, 397.485pt x 289.08pt>
-=======
-<../figuras/exceso_4.pdf, id=1054, 397.485pt x 289.08pt>
->>>>>>> Stashed changes
+<../figuras/exceso_4.pdf, id=1041, 397.485pt x 289.08pt>
 File: ../figuras/exceso_4.pdf Graphic file (type pdf)
 <use ../figuras/exceso_4.pdf>
 Package pdftex.def Info: ../figuras/exceso_4.pdf  used on input line 1003.
@@ -2523,22 +2456,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_4.pdf>] [42 <../figuras/positividad_20
 _21_4.pdf> <../figuras/exceso_4.pdf>]
-<<<<<<< Updated upstream
-<../figuras/incidencia_mortalidad_20_21_5.png, id=1087, 717.68124pt x 521.95pt>
-=======
-<../figuras/incidencia_mortalidad_20_21_5.png, id=1110, 717.68124pt x 521.95pt>
->>>>>>> Stashed changes
+<../figuras/incidencia_mortalidad_20_21_5.png, id=1097, 717.68124pt x 521.95pt>
 
 File: ../figuras/incidencia_mortalidad_20_21_5.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_5.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_5.png  used on 
 input line 1020.
 (pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
-<<<<<<< Updated upstream
-<../figuras/positividad_20_21_5.png, id=1088, 717.68124pt x 521.95pt>
-=======
-<../figuras/positividad_20_21_5.png, id=1111, 717.68124pt x 521.95pt>
->>>>>>> Stashed changes
+<../figuras/positividad_20_21_5.png, id=1098, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_5.png Graphic file (type png)
 <use ../figuras/positividad_20_21_5.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_5.png  used on input line
@@ -2552,11 +2477,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_5.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/exceso_5.pdf, id=1089, 397.485pt x 289.08pt>
-=======
-<../figuras/exceso_5.pdf, id=1112, 397.485pt x 289.08pt>
->>>>>>> Stashed changes
+<../figuras/exceso_5.pdf, id=1099, 397.485pt x 289.08pt>
 File: ../figuras/exceso_5.pdf Graphic file (type pdf)
 <use ../figuras/exceso_5.pdf>
 Package pdftex.def Info: ../figuras/exceso_5.pdf  used on input line 1036.
@@ -2568,22 +2489,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_5.png (PNG copy)>] [44 <../figuras/pos
 itividad_20_21_5.png (PNG copy)> <../figuras/exceso_5.pdf>]
-<<<<<<< Updated upstream
-<../figuras/incidencia_mortalidad_20_21_6.png, id=1124, 717.68124pt x 521.95pt>
-=======
-<../figuras/incidencia_mortalidad_20_21_6.png, id=1147, 717.68124pt x 521.95pt>
->>>>>>> Stashed changes
+<../figuras/incidencia_mortalidad_20_21_6.png, id=1134, 717.68124pt x 521.95pt>
 
 File: ../figuras/incidencia_mortalidad_20_21_6.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_6.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_6.png  used on 
 input line 1052.
 (pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
-<<<<<<< Updated upstream
-<../figuras/positividad_20_21_6.png, id=1125, 717.68124pt x 521.95pt>
-=======
-<../figuras/positividad_20_21_6.png, id=1148, 717.68124pt x 521.95pt>
->>>>>>> Stashed changes
+<../figuras/positividad_20_21_6.png, id=1135, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_6.png Graphic file (type png)
 <use ../figuras/positividad_20_21_6.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_6.png  used on input line
@@ -2597,11 +2510,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_6.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/exceso_6.pdf, id=1126, 397.485pt x 289.08pt>
-=======
-<../figuras/exceso_6.pdf, id=1149, 397.485pt x 289.08pt>
->>>>>>> Stashed changes
+<../figuras/exceso_6.pdf, id=1136, 397.485pt x 289.08pt>
 File: ../figuras/exceso_6.pdf Graphic file (type pdf)
 <use ../figuras/exceso_6.pdf>
 Package pdftex.def Info: ../figuras/exceso_6.pdf  used on input line 1068.
@@ -2613,22 +2522,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_6.png (PNG copy)>] [46 <../figuras/pos
 itividad_20_21_6.png (PNG copy)> <../figuras/exceso_6.pdf>]
-<<<<<<< Updated upstream
-<../figuras/incidencia_mortalidad_20_21_7.png, id=1161, 717.68124pt x 521.95pt>
-=======
-<../figuras/incidencia_mortalidad_20_21_7.png, id=1184, 717.68124pt x 521.95pt>
->>>>>>> Stashed changes
+<../figuras/incidencia_mortalidad_20_21_7.png, id=1171, 717.68124pt x 521.95pt>
 
 File: ../figuras/incidencia_mortalidad_20_21_7.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_7.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_7.png  used on 
 input line 1085.
 (pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
-<<<<<<< Updated upstream
-<../figuras/positividad_20_21_7.png, id=1162, 717.68124pt x 521.95pt>
-=======
-<../figuras/positividad_20_21_7.png, id=1185, 717.68124pt x 521.95pt>
->>>>>>> Stashed changes
+<../figuras/positividad_20_21_7.png, id=1172, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_7.png Graphic file (type png)
 <use ../figuras/positividad_20_21_7.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_7.png  used on input line
@@ -2642,11 +2543,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_7.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/exceso_7.pdf, id=1163, 397.485pt x 289.08pt>
-=======
-<../figuras/exceso_7.pdf, id=1186, 397.485pt x 289.08pt>
->>>>>>> Stashed changes
+<../figuras/exceso_7.pdf, id=1173, 397.485pt x 289.08pt>
 File: ../figuras/exceso_7.pdf Graphic file (type pdf)
 <use ../figuras/exceso_7.pdf>
 Package pdftex.def Info: ../figuras/exceso_7.pdf  used on input line 1101.
@@ -2658,22 +2555,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_7.png (PNG copy)>] [48 <../figuras/pos
 itividad_20_21_7.png (PNG copy)> <../figuras/exceso_7.pdf>]
-<<<<<<< Updated upstream
-<../figuras/incidencia_mortalidad_20_21_8.png, id=1199, 717.68124pt x 521.95pt>
-=======
-<../figuras/incidencia_mortalidad_20_21_8.png, id=1222, 717.68124pt x 521.95pt>
->>>>>>> Stashed changes
+<../figuras/incidencia_mortalidad_20_21_8.png, id=1209, 717.68124pt x 521.95pt>
 
 File: ../figuras/incidencia_mortalidad_20_21_8.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_8.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_8.png  used on 
 input line 1117.
 (pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
-<<<<<<< Updated upstream
-<../figuras/positividad_20_21_8.png, id=1200, 717.68124pt x 521.95pt>
-=======
-<../figuras/positividad_20_21_8.png, id=1223, 717.68124pt x 521.95pt>
->>>>>>> Stashed changes
+<../figuras/positividad_20_21_8.png, id=1210, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_8.png Graphic file (type png)
 <use ../figuras/positividad_20_21_8.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_8.png  used on input line
@@ -2687,11 +2576,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_8.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/exceso_8.pdf, id=1201, 397.485pt x 289.08pt>
-=======
-<../figuras/exceso_8.pdf, id=1224, 397.485pt x 289.08pt>
->>>>>>> Stashed changes
+<../figuras/exceso_8.pdf, id=1211, 397.485pt x 289.08pt>
 File: ../figuras/exceso_8.pdf Graphic file (type pdf)
 <use ../figuras/exceso_8.pdf>
 Package pdftex.def Info: ../figuras/exceso_8.pdf  used on input line 1133.
@@ -2703,22 +2588,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_8.png (PNG copy)>] [50 <../figuras/pos
 itividad_20_21_8.png (PNG copy)> <../figuras/exceso_8.pdf>]
-<<<<<<< Updated upstream
-<../figuras/incidencia_mortalidad_20_21_9.png, id=1236, 717.68124pt x 521.95pt>
-=======
-<../figuras/incidencia_mortalidad_20_21_9.png, id=1259, 717.68124pt x 521.95pt>
->>>>>>> Stashed changes
+<../figuras/incidencia_mortalidad_20_21_9.png, id=1246, 717.68124pt x 521.95pt>
 
 File: ../figuras/incidencia_mortalidad_20_21_9.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_9.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_9.png  used on 
 input line 1149.
 (pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
-<<<<<<< Updated upstream
-<../figuras/positividad_20_21_9.png, id=1237, 717.68124pt x 521.95pt>
-=======
-<../figuras/positividad_20_21_9.png, id=1260, 717.68124pt x 521.95pt>
->>>>>>> Stashed changes
+<../figuras/positividad_20_21_9.png, id=1247, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_9.png Graphic file (type png)
 <use ../figuras/positividad_20_21_9.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_9.png  used on input line
@@ -2732,11 +2609,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_9.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/exceso_9.pdf, id=1238, 397.485pt x 289.08pt>
-=======
-<../figuras/exceso_9.pdf, id=1261, 397.485pt x 289.08pt>
->>>>>>> Stashed changes
+<../figuras/exceso_9.pdf, id=1248, 397.485pt x 289.08pt>
 File: ../figuras/exceso_9.pdf Graphic file (type pdf)
 <use ../figuras/exceso_9.pdf>
 Package pdftex.def Info: ../figuras/exceso_9.pdf  used on input line 1165.
@@ -2748,22 +2621,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_9.png (PNG copy)>] [52 <../figuras/pos
 itividad_20_21_9.png (PNG copy)> <../figuras/exceso_9.pdf>]
-<<<<<<< Updated upstream
-<../figuras/incidencia_mortalidad_20_21_10.png, id=1273, 717.68124pt x 521.95pt
-=======
-<../figuras/incidencia_mortalidad_20_21_10.png, id=1296, 717.68124pt x 521.95pt
->>>>>>> Stashed changes
+<../figuras/incidencia_mortalidad_20_21_10.png, id=1283, 717.68124pt x 521.95pt
 >
 File: ../figuras/incidencia_mortalidad_20_21_10.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_10.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_10.png  used on
  input line 1181.
 (pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
-<<<<<<< Updated upstream
-<../figuras/positividad_20_21_10.png, id=1274, 717.68124pt x 521.95pt>
-=======
-<../figuras/positividad_20_21_10.png, id=1297, 717.68124pt x 521.95pt>
->>>>>>> Stashed changes
+<../figuras/positividad_20_21_10.png, id=1284, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_10.png Graphic file (type png)
 <use ../figuras/positividad_20_21_10.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_10.png  used on input lin
@@ -2777,11 +2642,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_10.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/exceso_10.pdf, id=1275, 397.485pt x 289.08pt>
-=======
-<../figuras/exceso_10.pdf, id=1298, 397.485pt x 289.08pt>
->>>>>>> Stashed changes
+<../figuras/exceso_10.pdf, id=1285, 397.485pt x 289.08pt>
 File: ../figuras/exceso_10.pdf Graphic file (type pdf)
 <use ../figuras/exceso_10.pdf>
 Package pdftex.def Info: ../figuras/exceso_10.pdf  used on input line 1197.
@@ -2793,22 +2654,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_10.png (PNG copy)>] [54 <../figuras/po
 sitividad_20_21_10.png (PNG copy)> <../figuras/exceso_10.pdf>]
-<<<<<<< Updated upstream
-<../figuras/incidencia_mortalidad_20_21_11.png, id=1311, 717.68124pt x 521.95pt
-=======
-<../figuras/incidencia_mortalidad_20_21_11.png, id=1334, 717.68124pt x 521.95pt
->>>>>>> Stashed changes
+<../figuras/incidencia_mortalidad_20_21_11.png, id=1321, 717.68124pt x 521.95pt
 >
 File: ../figuras/incidencia_mortalidad_20_21_11.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_11.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_11.png  used on
  input line 1213.
 (pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
-<<<<<<< Updated upstream
-<../figuras/positividad_20_21_11.png, id=1312, 717.68124pt x 521.95pt>
-=======
-<../figuras/positividad_20_21_11.png, id=1335, 717.68124pt x 521.95pt>
->>>>>>> Stashed changes
+<../figuras/positividad_20_21_11.png, id=1322, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_11.png Graphic file (type png)
 <use ../figuras/positividad_20_21_11.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_11.png  used on input lin
@@ -2822,11 +2675,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_11.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/exceso_11.pdf, id=1313, 397.485pt x 289.08pt>
-=======
-<../figuras/exceso_11.pdf, id=1336, 397.485pt x 289.08pt>
->>>>>>> Stashed changes
+<../figuras/exceso_11.pdf, id=1323, 397.485pt x 289.08pt>
 File: ../figuras/exceso_11.pdf Graphic file (type pdf)
 <use ../figuras/exceso_11.pdf>
 Package pdftex.def Info: ../figuras/exceso_11.pdf  used on input line 1229.
@@ -2838,22 +2687,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_11.png (PNG copy)>] [56 <../figuras/po
 sitividad_20_21_11.png (PNG copy)> <../figuras/exceso_11.pdf>]
-<<<<<<< Updated upstream
-<../figuras/incidencia_mortalidad_20_21_12.png, id=1348, 717.68124pt x 521.95pt
-=======
-<../figuras/incidencia_mortalidad_20_21_12.png, id=1371, 717.68124pt x 521.95pt
->>>>>>> Stashed changes
+<../figuras/incidencia_mortalidad_20_21_12.png, id=1358, 717.68124pt x 521.95pt
 >
 File: ../figuras/incidencia_mortalidad_20_21_12.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_12.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_12.png  used on
  input line 1245.
 (pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
-<<<<<<< Updated upstream
-<../figuras/positividad_20_21_12.png, id=1349, 717.68124pt x 521.95pt>
-=======
-<../figuras/positividad_20_21_12.png, id=1372, 717.68124pt x 521.95pt>
->>>>>>> Stashed changes
+<../figuras/positividad_20_21_12.png, id=1359, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_12.png Graphic file (type png)
 <use ../figuras/positividad_20_21_12.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_12.png  used on input lin
@@ -2867,11 +2708,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_12.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/exceso_12.pdf, id=1350, 397.485pt x 289.08pt>
-=======
-<../figuras/exceso_12.pdf, id=1373, 397.485pt x 289.08pt>
->>>>>>> Stashed changes
+<../figuras/exceso_12.pdf, id=1360, 397.485pt x 289.08pt>
 File: ../figuras/exceso_12.pdf Graphic file (type pdf)
 <use ../figuras/exceso_12.pdf>
 Package pdftex.def Info: ../figuras/exceso_12.pdf  used on input line 1261.
@@ -2883,22 +2720,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_12.png (PNG copy)>] [58 <../figuras/po
 sitividad_20_21_12.png (PNG copy)> <../figuras/exceso_12.pdf>]
-<<<<<<< Updated upstream
-<../figuras/incidencia_mortalidad_20_21_13.png, id=1385, 717.68124pt x 521.95pt
-=======
-<../figuras/incidencia_mortalidad_20_21_13.png, id=1408, 717.68124pt x 521.95pt
->>>>>>> Stashed changes
+<../figuras/incidencia_mortalidad_20_21_13.png, id=1395, 717.68124pt x 521.95pt
 >
 File: ../figuras/incidencia_mortalidad_20_21_13.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_13.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_13.png  used on
  input line 1277.
 (pdftex.def)             Requested size: 413.56392pt x 300.77995pt.
-<<<<<<< Updated upstream
-<../figuras/positividad_20_21_13.png, id=1386, 717.68124pt x 521.95pt>
-=======
-<../figuras/positividad_20_21_13.png, id=1409, 717.68124pt x 521.95pt>
->>>>>>> Stashed changes
+<../figuras/positividad_20_21_13.png, id=1396, 717.68124pt x 521.95pt>
 File: ../figuras/positividad_20_21_13.png Graphic file (type png)
 <use ../figuras/positividad_20_21_13.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_13.png  used on input lin
@@ -2912,11 +2741,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_13.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/exceso_13.pdf, id=1387, 397.485pt x 289.08pt>
-=======
-<../figuras/exceso_13.pdf, id=1410, 397.485pt x 289.08pt>
->>>>>>> Stashed changes
+<../figuras/exceso_13.pdf, id=1397, 397.485pt x 289.08pt>
 File: ../figuras/exceso_13.pdf Graphic file (type pdf)
 <use ../figuras/exceso_13.pdf>
 Package pdftex.def Info: ../figuras/exceso_13.pdf  used on input line 1293.
@@ -2931,11 +2756,7 @@ sitividad_20_21_13.png (PNG copy)> <../figuras/exceso_13.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../editorial/6.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../editorial/6.pdf, id=1420, 597.55246pt x 845.07718pt>
-=======
-<../editorial/6.pdf, id=1443, 597.55246pt x 845.07718pt>
->>>>>>> Stashed changes
+<../editorial/6.pdf, id=1430, 597.55246pt x 845.07718pt>
 File: ../editorial/6.pdf Graphic file (type pdf)
 <use ../editorial/6.pdf>
 Package pdftex.def Info: ../editorial/6.pdf  used on input line 1303.
@@ -2956,11 +2777,7 @@ F version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ../editorial/6.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../editorial/6.pdf, id=1423, page=1, 597.55246pt x 845.07718pt>
-=======
-<../editorial/6.pdf, id=1446, page=1, 597.55246pt x 845.07718pt>
->>>>>>> Stashed changes
+<../editorial/6.pdf, id=1433, page=1, 597.55246pt x 845.07718pt>
 File: ../editorial/6.pdf Graphic file (type pdf)
 <use ../editorial/6.pdf, page 1>
 Package pdftex.def Info: ../editorial/6.pdf , page1 used on input line 1303.
@@ -2987,11 +2804,7 @@ Package pdftex.def Info: ../editorial/6.pdf , page1 used on input line 1303.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/variantes.pdf, id=1491, 397.485pt x 289.08pt>
-=======
-<../figuras/variantes.pdf, id=1514, 397.485pt x 289.08pt>
->>>>>>> Stashed changes
+<../figuras/variantes.pdf, id=1501, 397.485pt x 289.08pt>
 File: ../figuras/variantes.pdf Graphic file (type pdf)
 <use ../figuras/variantes.pdf>
 Package pdftex.def Info: ../figuras/variantes.pdf  used on input line 1315.
@@ -3000,11 +2813,7 @@ Package pdftex.def Info: ../figuras/variantes.pdf  used on input line 1315.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/subvariantes.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/subvariantes.pdf, id=1492, 397.485pt x 289.08pt>
-=======
-<../figuras/subvariantes.pdf, id=1515, 397.485pt x 289.08pt>
->>>>>>> Stashed changes
+<../figuras/subvariantes.pdf, id=1502, 397.485pt x 289.08pt>
 File: ../figuras/subvariantes.pdf Graphic file (type pdf)
 <use ../figuras/subvariantes.pdf>
 Package pdftex.def Info: ../figuras/subvariantes.pdf  used on input line 1323.
@@ -3016,11 +2825,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_provincial_lambda.pdf):
  PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/variantes_provincial_lambda.pdf, id=1494, 289.08pt x 337.5748pt>
-=======
-<../figuras/variantes_provincial_lambda.pdf, id=1517, 289.08pt x 337.5748pt>
->>>>>>> Stashed changes
+<../figuras/variantes_provincial_lambda.pdf, id=1504, 289.08pt x 337.5748pt>
 File: ../figuras/variantes_provincial_lambda.pdf Graphic file (type pdf)
 <use ../figuras/variantes_provincial_lambda.pdf>
 Package pdftex.def Info: ../figuras/variantes_provincial_lambda.pdf  used on in
@@ -3030,11 +2835,7 @@ put line 1336.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_provincial_gamma.pdf): 
 PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/variantes_provincial_gamma.pdf, id=1495, 289.08pt x 337.5748pt>
-=======
-<../figuras/variantes_provincial_gamma.pdf, id=1518, 289.08pt x 337.5748pt>
->>>>>>> Stashed changes
+<../figuras/variantes_provincial_gamma.pdf, id=1505, 289.08pt x 337.5748pt>
 File: ../figuras/variantes_provincial_gamma.pdf Graphic file (type pdf)
 <use ../figuras/variantes_provincial_gamma.pdf>
 Package pdftex.def Info: ../figuras/variantes_provincial_gamma.pdf  used on inp
@@ -3044,21 +2845,13 @@ ut line 1343.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_provincial_delta.pdf): 
 PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../figuras/variantes_provincial_delta.pdf, id=1496, 289.08pt x 337.5748pt>
-=======
-<../figuras/variantes_provincial_delta.pdf, id=1519, 289.08pt x 337.5748pt>
->>>>>>> Stashed changes
+<../figuras/variantes_provincial_delta.pdf, id=1506, 289.08pt x 337.5748pt>
 File: ../figuras/variantes_provincial_delta.pdf Graphic file (type pdf)
 <use ../figuras/variantes_provincial_delta.pdf>
 Package pdftex.def Info: ../figuras/variantes_provincial_delta.pdf  used on inp
 ut line 1350.
 (pdftex.def)             Requested size: 194.61394pt x 227.26079pt.
-<<<<<<< Updated upstream
-<../figuras/variantes_provincial_omicron.png, id=1497, 444.66125pt x 519.9425pt
-=======
-<../figuras/variantes_provincial_omicron.png, id=1520, 444.66125pt x 519.9425pt
->>>>>>> Stashed changes
+<../figuras/variantes_provincial_omicron.png, id=1507, 444.66125pt x 519.9425pt
 >
 File: ../figuras/variantes_provincial_omicron.png Graphic file (type png)
 <use ../figuras/variantes_provincial_omicron.png>
@@ -3077,11 +2870,7 @@ cron.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../editorial/7.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../editorial/7.pdf, id=1563, 597.55246pt x 845.07718pt>
-=======
-<../editorial/7.pdf, id=1586, 597.55246pt x 845.07718pt>
->>>>>>> Stashed changes
+<../editorial/7.pdf, id=1573, 597.55246pt x 845.07718pt>
 File: ../editorial/7.pdf Graphic file (type pdf)
 <use ../editorial/7.pdf>
 Package pdftex.def Info: ../editorial/7.pdf  used on input line 1371.
@@ -3102,11 +2891,7 @@ F version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ../editorial/7.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../editorial/7.pdf, id=1566, page=1, 597.55246pt x 845.07718pt>
-=======
-<../editorial/7.pdf, id=1589, page=1, 597.55246pt x 845.07718pt>
->>>>>>> Stashed changes
+<../editorial/7.pdf, id=1576, page=1, 597.55246pt x 845.07718pt>
 File: ../editorial/7.pdf Graphic file (type pdf)
 <use ../editorial/7.pdf, page 1>
 Package pdftex.def Info: ../editorial/7.pdf , page1 used on input line 1371.
@@ -3141,11 +2926,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 pdfTeX warning: pdflatex.exe (file ../editorial/pagina_final.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../editorial/pagina_final.pdf, id=1646, 597.55246pt x 845.07718pt>
-=======
-<../editorial/pagina_final.pdf, id=1669, 597.55246pt x 845.07718pt>
->>>>>>> Stashed changes
+<../editorial/pagina_final.pdf, id=1656, 597.55246pt x 845.07718pt>
 File: ../editorial/pagina_final.pdf Graphic file (type pdf)
 <use ../editorial/pagina_final.pdf>
 Package pdftex.def Info: ../editorial/pagina_final.pdf  used on input line 1453
@@ -3168,11 +2949,7 @@ n: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ../editorial/pagina_final.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<<<<<<< Updated upstream
-<../editorial/pagina_final.pdf, id=1649, page=1, 597.55246pt x 845.07718pt>
-=======
-<../editorial/pagina_final.pdf, id=1672, page=1, 597.55246pt x 845.07718pt>
->>>>>>> Stashed changes
+<../editorial/pagina_final.pdf, id=1659, page=1, 597.55246pt x 845.07718pt>
 File: ../editorial/pagina_final.pdf Graphic file (type pdf)
 <use ../editorial/pagina_final.pdf, page 1>
 Package pdftex.def Info: ../editorial/pagina_final.pdf , page1 used on input li
@@ -3219,21 +2996,6 @@ Here is how much of TeX's memory you used:
  60959 multiletter control sequences out of 15000+600000
  516981 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
-<<<<<<< Updated upstream
- 84i,17n,131p,1600b,698s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/Lucerito/AppData/Local/Programs/MiKTeX/fonts/enc/dvip
-s/lm/lm-ec.enc}{C:/Users/Lucerito/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
-/lm/lm-ts1.enc}{C:/Users/Lucerito/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
-/lm/lm-rm.enc}<C:/Users/Lucerito/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/lm/lmr12.pfb><C:/Users/Lucerito/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/lm/lmss10.pfb><C:/Users/Lucerito/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/lm/lmss12.pfb><C:/Users/Lucerito/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/lm/lmssbx10.pfb><C:/Users/Lucerito/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/lm/lmsso12.pfb>
-Output written on boletin_covid.pdf (71 pages, 10230764 bytes).
-PDF statistics:
- 1776 PDF objects out of 2073 (max. 8388607)
-=======
  84i,17n,131p,1600b,630s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/
 lm/lm-ec.enc}{C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/
@@ -3244,10 +3006,9 @@ ss10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
 mss12.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
 lmssbx10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 lm/lmsso12.pfb>
-Output written on boletin_covid.pdf (71 pages, 10322545 bytes).
+Output written on boletin_covid.pdf (71 pages, 10275417 bytes).
 PDF statistics:
- 1799 PDF objects out of 2073 (max. 8388607)
->>>>>>> Stashed changes
+ 1786 PDF objects out of 2073 (max. 8388607)
  169 named destinations out of 1000 (max. 500000)
  656 words of extra memory for PDF output out of 10000 (max. 10000000)
 
