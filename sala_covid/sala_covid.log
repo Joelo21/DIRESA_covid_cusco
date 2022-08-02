@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.28)  26 JUL 2022 13:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.28)  2 AUG 2022 10:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1990,14 +1990,14 @@ LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
 ] [29
 
 ]
-<../sala_nacional/Cobertura_Vacunacion_Provincias.jpg, id=607, 915.858pt x 513.
+<../sala_nacional/Cobertura_Vacunacion_Provincias.jpg, id=607, 915.639pt x 513.
 774pt>
 File: ../sala_nacional/Cobertura_Vacunacion_Provincias.jpg Graphic file (type j
 pg)
 <use ../sala_nacional/Cobertura_Vacunacion_Provincias.jpg>
 Package pdftex.def Info: ../sala_nacional/Cobertura_Vacunacion_Provincias.jpg  
 used on input line 715.
-(pdftex.def)             Requested size: 307.28987pt x 170.68108pt.
+(pdftex.def)             Requested size: 307.28987pt x 170.7194pt.
  [30
 
  <../sala_nacional/Cobertura_Vacunacion_Provincias.jpg>]
@@ -2121,22 +2121,19 @@ Package pdftex.def Info: ../figuras/nivel_2.png  used on input line 872.
 (../tablas/tabla_positividad_provincia.tex) [45
 
 ]
-(../tablas/tabla_defunciones_cero_provincia.tex)
-Overfull \vbox (2.09837pt too high) detected at line 922
- []
+(../tablas/tabla_defunciones_cero_provincia.tex) [46
 
-[46
-
-] (../tablas/tabla_letalidad_mortalidad_provincia.tex) [47
+]
+(../tablas/tabla_letalidad_mortalidad_provincia.tex) [47
 
 ] [48
 
 ] [49
 
-]
-[50
+] [50
 
-] [51
+]
+[51
 
 ] [52
 
@@ -3053,7 +3050,7 @@ fonts/symbols/msam10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/newpx/npxsups-Regular.pfb><C:/Users/DEI-02/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/newpx/zplb.pfb><C:/Users/DEI-02/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/newpx/zplr.pfb>
-Output written on sala_covid.pdf (121 pages, 10591462 bytes).
+Output written on sala_covid.pdf (121 pages, 10590445 bytes).
 PDF statistics:
  1957 PDF objects out of 2073 (max. 8388607)
  355 named destinations out of 1000 (max. 500000)
