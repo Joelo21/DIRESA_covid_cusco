@@ -66,14 +66,13 @@ label values grupo_edad grupo_edad
 
 *Guardar datos
 save "${datos}\output\base_vacunados_hospitalizados", replace
-
 ********************************************************************************
 **Reponemos datos No_imunicazados - Inmunizados
 use "${datos}\output\base_vacunados_hospitalizados", clear
-
 recode UCICONVM(.=0)
 recode UCISINVM(.=0)
 gen UCI=UCICONVM+UCISINVM
+
 *Datos Temporales
 tempfile no_inmunizados dosis_1 dosis_2 dosis_3 
 
@@ -114,10 +113,29 @@ tempfile dosis_3
 save "`dosis_3'"
 restore
  
+*Merge 
+use "`no_inmunizados'", clear
+merge 1:1 UCI using "`dosis_1'", nogenerate
+merge 1:1 UCI using "`dosis_2'", nogenerate
+merge 1:1 UCI using "`dosis_3'", nogenerate
+
+*Recodificando tabla
+recode no_inmunizados(.=0)
+recode dosis_01(.=0)
+recode dosis_02(.=0)
+recode dosis_03(.=0)
+
+*Porcentajes
+gen objetivo = no_inmunizados+dosis_01+dosis_02+dosis_03
+gen uci_0 = no_inmunizados/objetivo*100
+gen uci_1 = dosis_01/objetivo*100
+gen uci_2 = dosis_02/objetivo*100
+gen uci_3 = dosis_03/objetivo*100
+
+format uci_0 uci_1 uci_2 uci_3 %4.1f
+ 
 *Guardar datos
 save "${datos}\output\base_vacunados_uci", replace
-
-
 ********************************************************************************
 **Reponemos datos No_imunicazados - Inmunizados
 use "${datos}\output\base_vacunados_hospitalizados", clear
@@ -174,29 +192,13 @@ recode dosis_02(.=0)
 recode dosis_03(.=0)
 
 *Porcentajes
-gen objetivo = 436
-gen sv_0 = no_inmunizados/objetivo*100
-gen sv_1 = dosis_01/objetivo*100
-gen sv_2 = dosis_02/objetivo*100
-gen sv_3 = dosis_03/objetivo*100
+gen objetivo = no_inmunizados + dosis_01 + dosis_02 + dosis_03
+gen vh_0 = no_inmunizados/objetivo*100
+gen vh_1 = dosis_01/objetivo*100
+gen vh_2 = dosis_02/objetivo*100
+gen vh_3 = dosis_03/objetivo*100
 
-format sv_0 sv_1 sv_2 sv_3 %4.1f
+format vh_0 vh_1 vh_2 vh_3 %4.1f
 
-
-* Grafico
-graph bar sv_0 sv_1 sv_2 sv_3 , over(hospitalizados) stack ///
-plotregion(fcolor(white)) ///
-graphregion(fcolor(white)) ///
-bgcolor("$mycolor3") ///
-blabel(bar, position(inside) color(white)) ///
-bar(1, color("$mycolor3")) ///
-bar(2, color("$mycolor4")) ///
-bar(3, color("$mycolor2")) ///
-bar(4, color("$mycolor6")) ///
-blabel(bar, size(vsmall) format(%4.1f)) ///
-ytitle("Porcentaje (%)") ///
-ylabel(0(20)100, nogrid) ///
-
-
-save "${datos}\output\eddie_datos", replace
-*export excel using "${datos}/output/eddie_datos.xlsx", firstrow(variables) replace 
+*Guardar datos
+save "${datos}\output\base_vacunados_hospitalizados_dosis", replace

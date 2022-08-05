@@ -17,7 +17,7 @@ twoway (bar var1 semana, yaxis(1) yscale(range(0) axis(1) off)  barwidth(0.5 0.8
 (line ocupacion_per semana, lcolor("$mycolor4") sort yaxis(2) yscale(range(0) axis(2))) ///
 (line Limite1 semana, lcolor("$mycolor3") lpattern(dash) sort yaxis(2) yscale(range(0) axis(2) off)) ///
 (line Limite2 semana , lcolor("$mycolor2") lpattern(dash) sort yaxis(2) yscale(range(0) axis(2))) ///
-(scatter disponibilidad semana, msymbol(none) mlabel(disponibilidad) mlabcolor("$mycolor6") mlabsize(*0.75) mlabposition(.3))				///
+(scatter disponibilidad semana, msymbol(none) mlabel(disponibilidad) mlabcolor("$mycolor6") mlabsize(*0.75) mlabposition(.3)) ///
 (scatter ocupacion_per semana, msymbol(none) mlabel(ocupacion_per) mlabcolor(dark) mlabsize(*0.75) mlabposition(.3)) ///
 if semana>=32 & semana <=$semana									///
   ,xtitle("Semanas Epidemológicas", size(*0.7)) 				///

@@ -1,4 +1,3 @@
-
 use "${datos}\output\base_vacunados", clear
 
 drop if edad < 5
