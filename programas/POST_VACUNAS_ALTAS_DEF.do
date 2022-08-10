@@ -79,7 +79,9 @@ gen Alta_Medica_2 = dosis_02/objetivo*100
 gen Alta_Medica_3 = dosis_03/objetivo*100
 
 format Alta_Medica_0 Alta_Medica_1 Alta_Medica_2 Alta_Medica_3 %4.1f
- 
+tostring Alta_Medica, replace force 
+replace Alta_Medica = "Alta Hospitalaria" in 1
+
 *Guardar datos
 save "${datos}\output\base_vacunados_altas_medicas", replace
 
@@ -157,6 +159,8 @@ gen defuncion_3 = dosis_03/objetivo*100
 
 format defuncion_0 defuncion_1 defuncion_2 defuncion_3 %4.1f
  
+tostring defuncion, replace force 
+replace defuncion = "Defunción" in 1
 
 save "${datos}\output\base_vacunados_defunciones", replace
 

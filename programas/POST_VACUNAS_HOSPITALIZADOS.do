@@ -50,7 +50,7 @@ duplicates tag dni, gen(dupli_dni)
 quietly by dni: gen dup_dni= cond(_N==1,0,_n)
 
 *Eliminando Duplicados
-drop if FIaño ==! FVaño
+*drop if FIaño ==! FVaño
 duplicates drop dni, force
 
 *Generando Grupos Etarios
@@ -133,7 +133,10 @@ gen uci_2 = dosis_02/objetivo*100
 gen uci_3 = dosis_03/objetivo*100
 
 format uci_0 uci_1 uci_2 uci_3 %4.1f
- 
+tostring UCI, replace force 
+replace UCI = "NO UCI" in 1
+replace UCI = "UCI" in 2
+
 *Guardar datos
 save "${datos}\output\base_vacunados_uci", replace
 ********************************************************************************
@@ -199,6 +202,9 @@ gen vh_2 = dosis_02/objetivo*100
 gen vh_3 = dosis_03/objetivo*100
 
 format vh_0 vh_1 vh_2 vh_3 %4.1f
+tostring hospitalizados, replace force 
+replace hospitalizados = "Hospitalizados" in 1
+
 
 *Guardar datos
 save "${datos}\output\base_vacunados_hospitalizados_dosis", replace

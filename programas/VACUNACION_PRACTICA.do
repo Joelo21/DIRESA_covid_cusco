@@ -48,9 +48,7 @@ destring EdadGE, replace force
 destring edad, replace force
 
 save "${datos}\output\base_vacunados_practica", replace
-
 ********************************************************************************
-
 use "${datos}\output\base_vacunados_practica", clear
 
 drop if edad < 5
@@ -124,9 +122,8 @@ gen tres_dosis = tres/objetivo*100
 format una_dosis dos_dosis tres_dosis %4.1f
 
 *Grafico
- 
 graph bar una_dosis dos_dosis tres_dosis, xsize(8.1) ///
-over(grupo_edad) position plotregion(fcolor(white)) graphregion(fcolor(white) ) ///
+over(grupo_edad) plotregion(fcolor(white)) graphregion(fcolor(white) ) ///
 title("Cobertura Vacunación en la Región Cusco por Grupo Etario", box bexpand bcolor("$mycolor3") color(white)) ///
 bgcolor("$mycolor3") ///
 yline(83, lcolor("$mycolor2") lpattern(shortdash) lwidth(thick)) ///
@@ -140,6 +137,8 @@ b1title("Grupo de Edad", size(4.2)) ///
 ylabel(, nogrid) ///
 legend(cols(3) label(1 "1ra Dosis") label(2 "2da Dosis") label(3 "3ra Dosis") size(*0.8) region(col(white))) name(Dosis, replace) 
 
+graph export "figuras\vacunacion_grupo_edad_dosis.png", as(png) replace
+graph export "figuras\vacunacion_grupo_edad_dosis.pdf", as(pdf) replace
 ********************************************************************************
 use "${datos}\output\base_vacunados_practica", clear
 
@@ -176,15 +175,18 @@ replace provincia_residencia = 8 if prov == "ESPINAR"
 replace provincia_residencia = 9 if prov == "LA CONVENCION"
 replace provincia_residencia = 10 if prov == "PARURO"
 replace provincia_residencia = 11 if prov == "PAUCARTAMBO"
-replace provincia_residencia = 12 if prov == "QUISPICANCHI"
+replace provincia_residencia = 12 if prov == "QUISPICANCHIS"
 replace provincia_residencia = 13 if prov == "URUBAMBA"
 label variable provincia_residencia "provincia de residencia"
-label define provincia_residencia 1 "Acomayo" 2 "Anta" 3 "Calca" 4 "Canas" 5 "Canchis" 6 "Chumbivilcas" 7 "Cusco" 8 "Espinar" 9 "La Convención" 10 "Paruro" 11 "Paucartambo" 12 "Quispicanchi" 13 "Urubamba"
+label define provincia_residencia 1 "Acomayo" 2 "Anta" 3 "Calca" 4 "Canas" 5 "Canchis" 6 "Chumbivilcas" 7 "Cusco" 8 "Espinar" 9 "La Convención" 10 "Paruro" 11 "Paucartambo" 12 "Quispicanchis" 13 "Urubamba"
 label values provincia_residencia provincia_residencia
 
 gen numero = _n
-
-forvalues i = 1/3 {
+replace dosis = 4 if dosis > 4
+save "${datos}\output\base_vacunados_variables_practica.dta", replace
+********************************************************************************
+use "${datos}\output\base_vacunados_variables_practica.dta", clear
+forvalues i = 1/4 {
 	forvalues j=1/9 {
 	preserve
 	keep if dosis == `i'
@@ -196,10 +198,9 @@ forvalues i = 1/3 {
 	save "${datos}\temporal\vacunados_practicas_`i'_`j'.dta", replace
 	restore
 	}
-
 }
 
-forvalues i=1/3 {
+forvalues i=1/4 {
 		use "${datos}\temporal\vacunados_practicas_`i'_1.dta", clear
 		forvalues j = 2/9 {
 		merge 1:1 provincia_residencia using "${datos}\temporal\vacunados_practicas_`i'_`j'.dta", nogen
@@ -210,6 +211,7 @@ forvalues i=1/3 {
 use "${datos}\temporal\vacunados_practicas_1.dta", clear
 merge 1:1 provincia_residencia using "${datos}\temporal\vacunados_practicas_2.dta", nogen
 merge 1:1 provincia_residencia using "${datos}\temporal\vacunados_practicas_3.dta", nogen
+merge 1:1 provincia_residencia using "${datos}\temporal\vacunados_practicas_4.dta", nogen
 
 * Crear los objetivos
 gen objetivo_1 = .
@@ -355,26 +357,27 @@ forvalues i=1/9 {
 gen una_dosis_`i' = numero_1_`i' /objetivo_`i'*100
 gen dos_dosis_`i' = numero_2_`i'/objetivo_`i'*100
 gen tres_dosis_`i' = numero_3_`i'/objetivo_`i'*100
-}
+gen cuarta_dosis_`i' = numero_4_`i'/objetivo_`i'*100
+}l
 
 * Formato
-format una_dosis_* dos_dosis_* tres_dosis_* %4.2f
+format una_dosis_* dos_dosis_* tres_dosis_* cuarta_dosis_* %4.2f
 
 save "${datos}\output\vacunacion_practica_graficos", replace
+********************************************************************************
 use "${datos}\output\vacunacion_practica_graficos", clear
-
 forvalues i=1/9 {
-graph hbar una_dosis_`i' dos_dosis_`i' tres_dosis_`i', xsize(8.1) ///
-over(provincia_residencia) plotregion(fcolor(white)) graphregion(fcolor(white)) ///
+graph bar una_dosis_`i' dos_dosis_`i' tres_dosis_`i', xsize(8.1) ///
+over(provincia_residencia, label (angle(vertical))) plotregion(fcolor(white)) graphregion(fcolor(white)) ///
 bgcolor("$mycolor3") ///
-yline(83, lcolor("$mycolor2") lpattern(shortdash) lwidth(thick)) ///
-yline(74, lcolor("$mycolor16") lpattern(shortdash) lwidth(thick)) ///
-blabel(bar, size(small) position(inside) color("$mycolor9") format(%4.1f)) ///
+blabel(bar, size(9pt) position(outside) color(black) format(%4.1f)) ///
 bar(1, color("$mycolor6")) ///
 bar(2, color("$mycolor3")) ///
 bar(3, color("$mycolor7")) ///
 ytitle("Porcentaje (%)", size(4.2)) ///
 b1title("Grupo de Edad", size(4.2)) ///
-ylabel(, nogrid) ///
-legend(cols(3) label(1 "1ra Dosis") label(2 "2da Dosis") label(3 "3ra Dosis") size(*0.8) region(col(white))) name(provincia_practica_`i', replace) 
+ylabel(0(50)150, nogrid) ///
+legend(cols(3) label(1 "1ra Dosis") label(2 "2da Dosis") label(3 "3ra Dosis") size(*0.8) region(col(white))) name(vacunacion_practica_`i', replace) 
+graph export "figuras\vacunacion_provincial_edad_practica_`i'.png", as(png) replace
+graph export "figuras\vacunacion_provincial_edad_practica_`i'.pdf", as(pdf) replace
 }

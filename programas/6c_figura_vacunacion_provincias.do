@@ -37,39 +37,30 @@ replace provincia_residencia = 8 if prov == "ESPINAR"
 replace provincia_residencia = 9 if prov == "LA CONVENCION"
 replace provincia_residencia = 10 if prov == "PARURO"
 replace provincia_residencia = 11 if prov == "PAUCARTAMBO"
-replace provincia_residencia = 12 if prov == "QUISPICANCHI"
+replace provincia_residencia = 12 if prov == "QUISPICANCHIS"
 replace provincia_residencia = 13 if prov == "URUBAMBA"
 label variable provincia_residencia "provincia de residencia"
-label define provincia_residencia 1 "Acomayo" 2 "Anta" 3 "Calca" 4 "Canas" 5 "Canchis" 6 "Chumbivilcas" 7 "Cusco" 8 "Espinar" 9 "La Convención" 10 "Paruro" 11 "Paucartambo" 12 "Quispicanchi" 13 "Urubamba"
+label define provincia_residencia 1 "Acomayo" 2 "Anta" 3 "Calca" 4 "Canas" 5 "Canchis" 6 "Chumbivilcas" 7 "Cusco" 8 "Espinar" 9 "La Convención" 10 "Paruro" 11 "Paucartambo" 12 "Quispicanchis" 13 "Urubamba"
 label values provincia_residencia provincia_residencia
 
 gen numero = _n
-
 replace dosis = 2 if dosis == 3
-
 save "${datos}\output\base_vacunados_variables.dta", replace
 
-*use "${datos}\output\base_vacunados_variables.dta", clear
 
+use "${datos}\output\base_vacunados_variables.dta", clear
 forvalues i = 1/2 {
-
-forvalues j=1/9 {
-preserve
-keep if dosis == `i'
-keep if grupo_edad == `j'
-
-collapse (count) numero, by(provincia_residencia)
-
-*tsset fecha_resultado, daily
-*tsfill 
-
-rename numero numero_`i'_`j'
-
-save "${datos}\temporal\vacunados_`i'_`j'.dta", replace
-
-restore
-
-}
+	forvalues j=1/9 {
+	preserve
+	keep if dosis == `i'
+	keep if grupo_edad == `j'
+	collapse (count) numero, by(provincia_residencia)
+	*tsset fecha_resultado, daily
+	*tsfill 
+	rename numero numero_`i'_`j'
+	save "${datos}\temporal\vacunados_`i'_`j'.dta", replace
+	restore
+	}
 
 }
 
