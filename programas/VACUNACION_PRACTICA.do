@@ -353,31 +353,30 @@ replace objetivo_9 = 1696 if provincia_residencia == 13
 * Generar los porcentajes
 
 forvalues i=1/9 {
-
 gen una_dosis_`i' = numero_1_`i' /objetivo_`i'*100
 gen dos_dosis_`i' = numero_2_`i'/objetivo_`i'*100
 gen tres_dosis_`i' = numero_3_`i'/objetivo_`i'*100
 gen cuarta_dosis_`i' = numero_4_`i'/objetivo_`i'*100
-}l
+}
 
 * Formato
 format una_dosis_* dos_dosis_* tres_dosis_* cuarta_dosis_* %4.2f
 
 save "${datos}\output\vacunacion_practica_graficos", replace
 ********************************************************************************
-use "${datos}\output\vacunacion_practica_graficos", clear
-forvalues i=1/9 {
-graph bar una_dosis_`i' dos_dosis_`i' tres_dosis_`i', xsize(8.1) ///
-over(provincia_residencia, label (angle(vertical))) plotregion(fcolor(white)) graphregion(fcolor(white)) ///
-bgcolor("$mycolor3") ///
-blabel(bar, size(9pt) position(outside) color(black) format(%4.1f)) ///
-bar(1, color("$mycolor6")) ///
-bar(2, color("$mycolor3")) ///
-bar(3, color("$mycolor7")) ///
-ytitle("Porcentaje (%)", size(4.2)) ///
-b1title("Grupo de Edad", size(4.2)) ///
-ylabel(0(50)150, nogrid) ///
-legend(cols(3) label(1 "1ra Dosis") label(2 "2da Dosis") label(3 "3ra Dosis") size(*0.8) region(col(white))) name(vacunacion_practica_`i', replace) 
-graph export "figuras\vacunacion_provincial_edad_practica_`i'.png", as(png) replace
-graph export "figuras\vacunacion_provincial_edad_practica_`i'.pdf", as(pdf) replace
-}
+	use "${datos}\output\vacunacion_practica_graficos", clear
+	forvalues i=1/9 {
+	graph bar una_dosis_`i' dos_dosis_`i' tres_dosis_`i', xsize(8.1) ///
+	over(provincia_residencia, label (angle(vertical))) plotregion(fcolor(white)) graphregion(fcolor(white)) ///
+	bgcolor("$mycolor3") ///
+	blabel(bar, size(7pt) position(outside) color(black) format(%4.1f)) ///
+	bar(1, color("$mycolor6")) ///
+	bar(2, color("$mycolor3")) ///
+	bar(3, color("$mycolor7")) ///
+	ytitle("Porcentaje (%)", size(4.2)) ///
+	b1title("Grupo de Edad", size(4.2)) ///
+	ylabel(0(50)150, nogrid) ///
+	legend(cols(3) label(1 "1ra Dosis") label(2 "2da Dosis") label(3 "3ra Dosis") size(*0.8) region(col(white))) name(vacunacion_practica_`i', replace) 
+	graph export "figuras\vacunacion_provincial_edad_practica_`i'.png", as(png) replace
+	graph export "figuras\vacunacion_provincial_edad_practica_`i'.pdf", as(pdf) replace
+	}

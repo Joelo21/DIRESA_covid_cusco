@@ -85,3 +85,5 @@ name(exceso_region, replace)
 gr export "figuras\exceso_region.png", as(png) replace
 gr export "figuras\exceso_region.pdf", as(pdf) name(exceso_region) replace
 */
+
+save "${datos}\output\dashboard_exc_def.dta", replace

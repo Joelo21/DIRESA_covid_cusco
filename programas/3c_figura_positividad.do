@@ -94,3 +94,5 @@ twoway ///
     /*text(1000 $semana "{it:Actualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor4") fcolor("$mycolor4"))*/ name(tasa_incidencia, replace)
 
 graph export "figuras\tasa_incidencia_2021_2022.png", as(png) replace
+
+save "${datos}\output\dashboard_tasa_inci_posi.dta", replace
