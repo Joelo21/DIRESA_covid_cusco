@@ -10,7 +10,7 @@ collapse (sum) defuncion*, by(semana_2)
 
 * Mantener las últimas 9 semanas
 drop if semana > $semana
-drop if semana < $semana - 8 
+drop if semana < $semana - 7 
 
 * Transponer para hacer una la tabla en MS Excel
 xpose, varname clear 

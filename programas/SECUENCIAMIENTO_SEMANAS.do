@@ -17,7 +17,7 @@ gen muestra = "netlab"
 
 save "${datos}\temporal\practica_secuenciamiento_junio", replace
 *************************************************************************************
-import excel "${datos}\raw\base_netlab_juLio_2022.xlsx", sheet(Hoja1) firstrow clear
+import excel "${datos}\raw\base_netlab_julio_2022.xlsx", sheet(Hoja1) firstrow clear
 rename DNI dni
 rename LINAJE linaje
 rename FECHADEENVIO fecha
@@ -26,9 +26,20 @@ gen muestra = "netlab"
 
 save "${datos}\temporal\practica_secuenciamiento_julio", replace
 *************************************************************************************
+import excel "${datos}\raw\base_netlab_agosto_2022.xlsx", sheet(Hoja1) firstrow clear
+rename DNI dni
+rename LINAJE linaje
+rename FECHADEENVIO fecha
+gen mes = 07
+gen muestra = "netlab"
+tostring dni, replace force
+
+save "${datos}\temporal\practica_secuenciamiento_agosto", replace
+*************************************************************************************
 append using "${datos}\temporal\practica_secuenciamiento_mayo"
 append using "${datos}\temporal\practica_secuenciamiento_junio"
 append using "${datos}\temporal\practica_secuenciamiento_julio"
+append using "${datos}\temporal\practica_secuenciamiento_agosto"
 *************************************************************************************
 replace muestra = "netlab" if muestra == ""
 destring dni, replace force
@@ -97,5 +108,5 @@ blabel(bar, position(outside) color(black) format(%4.1f)) ///
 blabel(bar, size(vsmall) format(%11.0gc)) ///
 ytitle("Defunciones por COVID") ///
 ylabel(0(3)30, nogrid) ///
-legend(cols(2) label(1 "BA.5") label(2 "BA.5.1") label(3 "BA.5.2") label(4 "BA.5.2.1") label(5 "BA.5.5") size(*0.8) region(col(white))) name(Sub_v_omicron_b5, replace) 
+legend(cols(2) label(1 "BA.5") label(3 "BA.5.1") label(5 "BA.5.2") label(7 "BA.5.2.1") label(9 "BA.5.5") size(*0.8) region(col(white))) name(Sub_v_omicron_b5, replace) 
 

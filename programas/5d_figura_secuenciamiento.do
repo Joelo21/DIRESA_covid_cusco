@@ -74,7 +74,7 @@ twoway (bar lambda mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.
 ,	xtitle("Mes", size(*0.7)) ///
  ytitle("Porcentaje de las Variantes Econtradas", size(*0.7)) ///
 	graphregion(color(white)) ///
-	xlabel(735 "Abr" 736 "May" 737 "Jun" 738 "Jul" 739 "Ago" 740 "Sep" 741 "Oct" 742 "Nov" 743 "Dic" 744 "Ene" 745 "Feb" 746 "Mar" 747 "Abr" 748 "May" 749 "Jun" 750 "Jul") ///
+	xlabel(735 "Abr" 736 "May" 737 "Jun" 738 "Jul" 739 "Ago" 740 "Sep" 741 "Oct" 742 "Nov" 743 "Dic" 744 "Ene" 745 "Feb" 746 "Mar" 747 "Abr" 748 "May" 749 "Jun" 750 "Jul" 751 "Ago") ///
 	legend(cols(3) label(1 "Lambda") label(2 "") label(3 "Gamma") label(4 "") label(5 "Delta") label(6 "")  label(7 "Omicron") label(8 "") label(9 "Otros") label(11 "Total de Muestra") label(12 "") order(11 1 3 5 7 9) size(*0.75) region(col(white))) ///
 	title("Variantes en la Región Cusco", box bexpand bcolor("$mycolor3") color(white)) ///
 	bgcolor(white) ///
