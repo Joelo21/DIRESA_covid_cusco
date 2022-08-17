@@ -27,8 +27,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 15Aug2022
-global semana 84
+global fecha 16Aug2022
+global semana 85
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -166,7 +166,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	do "programas/4c_figura_inci_mort_positi_provincial"
-X
+*/
 	** Datos para los excesos de defunciones
 	*do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
 	do "programas/1m_datos_defunciones_2020_2021_regional"
@@ -174,7 +174,7 @@ X
 
 	do "programas/4d_figura_exceso_regional"
 	do "programas/4e_figura_exceso_provincial"
-
+/*
 	* Graficos Hospitalización
 	do "programas/4f_figuras_hospitales"
 
@@ -189,7 +189,7 @@ X
 	* Tabla cero defunciones
 	**do "programas\4z_tabla_cero_defunciones.do"
 
-*/
+
 
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
