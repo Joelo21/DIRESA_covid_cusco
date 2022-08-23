@@ -177,7 +177,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	* Graficos Hospitalización
 	do "programas/4f_figuras_hospitales"
-*/
+
 	*Data Hospitalizados diarios
 	*do "programas/4g_figuras_hospitalizados"
 	
@@ -196,14 +196,14 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\5d_figura_secuenciamiento"
 	do "programas\5d_figura_sub_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
+*/
 
-/*
 * 6. Vacunados
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"
 	do "programas\6c_figura_vacunacion_provincias"
 
-*/
+
 /*
 * 7. Figuras para el "Boletin COVID-19" Mensual
 	do "programas\7a_base_noticovid_2021_variables"
