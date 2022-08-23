@@ -34,7 +34,7 @@ label var semana "Semana Epidemiológica"
 *replace semana = _n 
 
 drop if semana > $semana
-label define semana 53 "1" 54 "2" 55 "3" 56 "4" 57 "5" 58 "6" 59 "7" 60 "8" 61 "9" 62 "10" 63 "11" 64 "12" 65 "13" 66"14" 67 "15" 68 "16" 69 "17" 70 "18" 71 "19" 72 "20" 73 "21" 74 "22", replace
+label define semana 53 "1" 54 "2" 55 "3" 56 "4" 57 "5" 58 "6" 59 "7" 60 "8" 61 "9" 62 "10" 63 "11" 64 "12" 65 "13" 66"14" 67 "15" 68 "16" 69 "17" 70 "18" 71 "19" 72 "20" 73 "21" 74 "22" , replace
 label values semana semana
 
 * Generamos las variables pertinentes.
@@ -56,7 +56,7 @@ twoway (line positividad_pcr semana, lcolor("$mycolor6") lwidth(medthick)) ///
   ,xtitle("Semanas Epidemiológicas", size(*0.6)) ///
   ytitle("Tasa de Positividad (%)", size(*0.6)) ///
   ylabel(0(10)80, labsize(*0.60)) ///
-  xlabel(32(2)$semana 54 "2" 56 "4" 58 "6" 60 "8" 62 "10" 64 "12" 66 "14" 68 "16" 70 "18" 72 "20" 74 "22" 76 "24" 78 "26" 80 "28" 82 "30" 84 "32", labsize(*0.60)) ///
+  xlabel(32(2)$semana 54 "2" 56 "4" 58 "6" 60 "8" 62 "10" 64 "12" 66 "14" 68 "16" 70 "18" 72 "20" 74 "22" 76 "24" 78 "26" 80 "28" 82 "30" 84 "32" 86 "34", labsize(*0.60)) ///
   plotregion(fcolor(white) lcolor(white)) ///
   graphregion(fcolor(white) lcolor(white)) ///
   bgcolor(white) ///
@@ -82,7 +82,7 @@ twoway ///
   ,xtitle("Semanas Epidemiológicas", size(*0.6)) ///
   ytitle("Tasa de Incidencia", size(*0.6)) ///
   ylabel(0(200)1600, labsize(*0.60)) ///
-  xlabel(31(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13" 67 "15" 69 "17" 71 "19" 73 "21" 75 "23" 77 "25" 79 "27" 81 "29" 83 "31", labsize(*0.60)) ///
+  xlabel(31(2)$semana 53 "1" 55 "3" 57 "5" 59 "7" 61 "9" 63 "11" 65 "13" 67 "15" 69 "17" 71 "19" 73 "21" 75 "23" 77 "25" 79 "27" 81 "29" 83 "31" 85 "33", labsize(*0.60)) ///
   /*
   xline(21471.9, lcolor("$mycolor7") lpattern(shortdash) lwidth(mthick)) ///
   */ ///

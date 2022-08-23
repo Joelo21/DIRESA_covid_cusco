@@ -66,7 +66,7 @@ replace semana = 27 if fecha > d(02jul2022) & fecha <= d(09jul2022)
 replace semana = 28 if fecha > d(09jul2022) & fecha <= d(16jul2022)
 replace semana = semana[_n-7] + 1 if fecha > d(16jul2022)
 
-drop if linaje != "BA.5.1" &  linaje != "BA.5.2" & linaje != "BA.5.2.1" & linaje != "BA.5.3" & linaje != "BA.5.3.1" & linaje != "BE.1" & linaje != "BA.5.3.2" & linaje != "BA.5.4" & linaje != "BA.5" & linaje != "BA.6" & linaje != "BA.5"
+drop if linaje != "BA.5.1" &  linaje != "BA.5.2" & linaje != "BA.5.2.1" & linaje != "BA.5.3" & linaje != "BA.5.3.1" & linaje != "BE.1" & linaje != "BA.5.3.2" & linaje != "BA.5" & linaje != "BA.6" & linaje != "BA.5"
 
 gen linaje_omicron_B5 =.
 replace linaje_omicron_B5 = 1 if linaje == "BA.5.1" 

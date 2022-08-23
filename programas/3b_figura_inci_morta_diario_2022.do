@@ -68,6 +68,7 @@ bar(1, color("$mycolor7")) ///
 blabel(bar, size(vsmall) format(%4.1f)) ///
 ytitle("Tasa de Mortalidad (defunciones/población*10,000)") ///
 ylabel(, nogrid) ///
+name(mortalidad, replace) ///
 /*text(30 6 "{it:Actualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor7") fcolor("$mycolor7")) name(mortalidad, replace) */
 
 * Exportar Figura
@@ -103,5 +104,7 @@ ytitle("Tasa de Incidencia (casos/población*10,000)") ///
 ylabel(, nogrid) ///
 text(500 6 "{it:Actualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor4") fcolor("$mycolor4")) ///
 name(incidencia, replace)
+
 * Exportar figura
 graph export "figuras\incidencia_provincial_2022.png", as(png) replace
+export delimited using "${datos}\output\dashboard_mort_inci.csv", replace

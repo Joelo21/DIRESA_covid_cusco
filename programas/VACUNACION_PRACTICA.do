@@ -369,7 +369,7 @@ save "${datos}\output\vacunacion_practica_graficos", replace
 	graph bar una_dosis_`i' dos_dosis_`i' tres_dosis_`i', xsize(8.1) ///
 	over(provincia_residencia, label (angle(vertical))) plotregion(fcolor(white)) graphregion(fcolor(white)) ///
 	bgcolor("$mycolor3") ///
-	blabel(bar, size(7pt) position(outside) color(black) format(%4.1f)) ///
+	blabel(bar, size(8pt) position(outside) orientation(vertical) color(black) format(%4.1f)) ///
 	bar(1, color("$mycolor6")) ///
 	bar(2, color("$mycolor3")) ///
 	bar(3, color("$mycolor7")) ///

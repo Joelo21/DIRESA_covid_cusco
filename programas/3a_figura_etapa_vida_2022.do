@@ -70,3 +70,4 @@ legend(label(1 "Femenino") label(2 "Masculino") size(*0.8) region(col(white))) n
 graph export "figuras\casos_etapavida_2022.png", as(png) replace
 
 save "${datos}\output\dashboard_casos_def.dta", replace
+export delimited using "${datos}\output\dashboard_casos_def.csv", replace
