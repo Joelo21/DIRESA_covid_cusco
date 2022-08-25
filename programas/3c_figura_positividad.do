@@ -34,8 +34,6 @@ label var semana "Semana Epidemiológica"
 *replace semana = _n 
 
 drop if semana > $semana
-label define semana 53 "1" 54 "2" 55 "3" 56 "4" 57 "5" 58 "6" 59 "7" 60 "8" 61 "9" 62 "10" 63 "11" 64 "12" 65 "13" 66"14" 67 "15" 68 "16" 69 "17" 70 "18" 71 "19" 72 "20" 73 "21" 74 "22" , replace
-label values semana semana
 
 * Generamos las variables pertinentes.
 *gen positividad = positivo/prueba*100
@@ -95,4 +93,4 @@ twoway ///
 
 graph export "figuras\tasa_incidencia_2021_2022.png", as(png) replace
 
-save "${datos}\output\dashboard_tasa_inci_posi.dta", replace
+export delimited using "${datos}\output\dashboard_tasa_inci_posi.csv", replace

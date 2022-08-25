@@ -139,6 +139,8 @@ legend(cols(3) label(1 "1ra Dosis") label(2 "2da Dosis") label(3 "3ra Dosis") si
 
 graph export "figuras\vacunacion_grupo_edad_dosis.png", as(png) replace
 graph export "figuras\vacunacion_grupo_edad_dosis.pdf", as(pdf) replace
+
+export delimited using "${datos}\output\dashboard_vacunacion_grupo_edad.csv", replace
 ********************************************************************************
 use "${datos}\output\base_vacunados_practica", clear
 

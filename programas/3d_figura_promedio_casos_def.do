@@ -217,3 +217,5 @@ if fecha>=d(20mar2020) & fecha <=d($fecha) ///
 
 gr export "figuras\promedio_casos_defuncion_2020_2021_2022.png", as(png) replace
 gr export "figuras\promedio_casos_defuncion_2020_2021_2022.pdf", as(pdf) replace
+
+export delimited using "${datos}\output\dashboard_promedio_cas_def.csv", replace
