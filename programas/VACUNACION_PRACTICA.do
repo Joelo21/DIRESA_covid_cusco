@@ -1,4 +1,3 @@
-
 import delimited "${datos}\raw\vacunacovid.csv", varnames(1) encoding(UTF-8)  clear
 
 * DNI
@@ -67,7 +66,7 @@ replace grupo_edad = 7 if edad >= 60 & edad <= 69
 replace grupo_edad = 8 if edad >= 70 & edad <= 79
 replace grupo_edad = 9 if edad >= 80 
 label variable grupo_edad "Grupo de Edad"
-label define grupo_edad 1 "5-11 años" 2 "12-17 años" 3 "18-29 años" 4 "30-39 años" 5 "40-49 años" 6 "50-59 años" 7 "60-69 años" 8 "70-79 años" 9 "80 a más años"	
+label define grupo_edad 1 "05-11 años" 2 "12-17 años" 3 "18-29 años" 4 "30-39 años" 5 "40-49 años" 6 "50-59 años" 7 "60-69 años" 8 "70-79 años" 9 "80 a más años"	
 label values grupo_edad grupo_edad
 tab grupo_edad
 
@@ -160,7 +159,7 @@ replace grupo_edad = 7 if edad >= 60 & edad <= 69
 replace grupo_edad = 8 if edad >= 70 & edad <= 79
 replace grupo_edad = 9 if edad >= 80 
 label variable grupo_edad "Grupo de Edad"
-label define grupo_edad 1 "5-11 años" 2 "12-17 años" 3 "18-29 años" 4 "30-39 años" 5 "40-49 años" 6 "50-59 años" 7 "60-69 años" 8 "70-79 años" 9 "80 a más años"	
+label define grupo_edad 1 "05-11 años" 2 "12-17 años" 3 "18-29 años" 4 "30-39 años" 5 "40-49 años" 6 "50-59 años" 7 "60-69 años" 8 "70-79 años" 9 "80 a más años"	
 label values grupo_edad grupo_edad
 tab grupo_edad
 
@@ -382,3 +381,5 @@ save "${datos}\output\vacunacion_practica_graficos", replace
 	graph export "figuras\vacunacion_provincial_edad_practica_`i'.png", as(png) replace
 	graph export "figuras\vacunacion_provincial_edad_practica_`i'.pdf", as(pdf) replace
 	}
+
+export delimited using "${datos}\output\dashboard_vacunacion_grupos_edades.csv", replace

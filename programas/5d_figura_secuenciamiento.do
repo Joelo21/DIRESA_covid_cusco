@@ -83,6 +83,7 @@ twoway (bar lambda mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.
 gr export "figuras\variantes.png", as(png) replace
 gr export "figuras\variantes.pdf", as(pdf) replace
 
+export delimited using "${datos}\output\dashboard_variantes.csv", replace
 
 /*
 * Definimos nuestra paleta - Antiguo

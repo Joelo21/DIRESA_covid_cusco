@@ -27,7 +27,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 24Aug2022
+global fecha 31Aug2022
 global semana 86
 
 * Tiempo de corrida: alrededor de 7 minutos
@@ -116,7 +116,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	*do "programas/1j_datos_mapa_calor" // semanal
 	do "programas/1j_datos_mapa_calor_2022"
-*/
+
 * 2. Generar datos a nivel regional y provincial
 	do "programas/2a_series_diarias_region"
 	*do "programas/2a_series_diarias_region_2022"
@@ -126,7 +126,6 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	do "programas/2c_panel_diario_provincias"
 	*do "programas/2c_panel_diario_provincias_2022"
-	
 
 * 3. Figuras para la "Sala Situacional COVID-19" diaria 
 	*do "programas/3a_figura_etapa_vida"--
@@ -145,7 +144,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard" 
-x
+
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
@@ -166,7 +165,7 @@ x
 
 	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	do "programas/4c_figura_inci_mort_positi_provincial"
-
+X
 	** Datos para los excesos de defunciones
 	*do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
 	do "programas/1m_datos_defunciones_2020_2021_regional"
