@@ -92,7 +92,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-
+/*
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -187,7 +187,7 @@ X
 	
 	* Tabla cero defunciones
 	**do "programas\4z_tabla_cero_defunciones.do"
-
+*/
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
@@ -195,8 +195,8 @@ X
 	do "programas\5d_figura_secuenciamiento"
 	do "programas\5d_figura_sub_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
-*/
 
+/*
 * 6. Vacunados
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"
