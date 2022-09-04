@@ -1,12 +1,12 @@
 \babel@toc {spanish}{}\relax 
 \contentsline {chapter}{Editorial}{3}{section*.2}%
-\contentsline {chapter}{Metodología}{7}{section*.4}%
-\contentsline {chapter}{Características Generales}{10}{section*.5}%
-\contentsline {chapter}{Características Clínicas}{13}{section*.8}%
-\contentsline {chapter}{Análisis de Indicadores}{17}{section*.13}%
-\contentsline {chapter}{Evaluación para Provincias Priorizadas}{32}{section*.33}%
-\contentsline {chapter}{Variantes de COVID-19}{63}{section*.90}%
-\contentsline {chapter}{Defunciones Cero}{67}{section*.94}%
-\contentsline {chapter}{Resumen de Indicadores Covid19}{68}{section*.96}%
-\contentsline {chapter}{Agradecimientos}{69}{table.caption.97}%
-\contentsline {chapter}{Diseño y Edición}{70}{chapter*.98}%
+\contentsline {chapter}{Metodología}{6}{section*.4}%
+\contentsline {chapter}{Características Generales}{9}{section*.5}%
+\contentsline {chapter}{Características Clínicas}{12}{section*.8}%
+\contentsline {chapter}{Análisis de Indicadores}{16}{section*.13}%
+\contentsline {chapter}{Evaluación para Provincias Priorizadas}{31}{section*.33}%
+\contentsline {chapter}{Variantes de COVID-19}{62}{section*.90}%
+\contentsline {chapter}{Defunciones Cero}{66}{section*.94}%
+\contentsline {chapter}{Resumen de Indicadores Covid19}{67}{section*.96}%
+\contentsline {chapter}{Agradecimientos}{68}{table.caption.97}%
+\contentsline {chapter}{Diseño y Edición}{69}{chapter*.98}%
