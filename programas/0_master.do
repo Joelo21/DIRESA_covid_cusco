@@ -27,8 +27,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 31Aug2022
-global semana 87
+global fecha 05Sep2022
+global semana 86
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -37,19 +37,12 @@ timer on 1
 * Colores
 *global mycolor1 "184 184 184" 
 global mycolor1 "221 165 230"
-*global mycolor2 "252 196 108"
 global mycolor2 "243 149 13" 
-*global mycolor3 "164 92 92"
 global mycolor3 "205 24 24"
-*global mycolor4 "76 60 52"
 global mycolor4 "164 93 93"
-*global mycolor5 "164 248 208"
 global mycolor5 "54 56 120"
-*global mycolor6 "20 20 20"  
 global mycolor6 "3 83 151"
-*global mycolor7 "116 116 52"
 global mycolor7 "52 103 81"
-
 global mycolor8 "217 248 196" 
 global mycolor9 "249 249 197" 
 global mycolor10 "250 217 161"
@@ -82,7 +75,7 @@ colorpalette ///
   ,n(17)
   
 gr export "figuras/paleta_colores.png", as(png) replace
-
+	
 * Se analiza los casos, defunciones, ocupación de camas, vacunas, variantes de COVID-19 en la Región Cusco
 * Para ello, se cuenta con distintas fuentes de información 
 ** 1. NOTICOVID: casos por prueba molecular
@@ -144,7 +137,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard" 
-x
+
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
@@ -165,7 +158,7 @@ x
 
 	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	do "programas/4c_figura_inci_mort_positi_provincial"
-X
+
 	** Datos para los excesos de defunciones
 	*do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
 	do "programas/1m_datos_defunciones_2020_2021_regional"
@@ -187,7 +180,7 @@ X
 	
 	* Tabla cero defunciones
 	**do "programas\4z_tabla_cero_defunciones.do"
-*/
+
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
@@ -196,7 +189,7 @@ X
 	do "programas\5d_figura_sub_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
 
-/*
+
 * 6. Vacunados
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"

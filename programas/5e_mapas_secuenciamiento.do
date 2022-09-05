@@ -94,9 +94,7 @@ gr export "figuras\variantes_distrital_cusco.pdf", as(pdf) replace
 shp2dta using "mapas\PROVINCIAS.shp", database("mapas\provincial_db") coordinates("mapas\provincial_co") genid(id) genc(c) replace
 
 use "mapas\provincial_db", clear
-
 keep if IDDPTO == "08"
-
 rename PROVINCIA provincia 
 
 sort provincia
@@ -107,19 +105,12 @@ use "${datos}\output\datos_variantes", clear
 
 * Mantener sólo a las que tienen variante 
 drop if variante == 6
-
 tostring dni, replace force
-
 merge 1:m dni using "${datos}\output\base_noticovid_2022"
-
 keep if _merge == 3
-
 sort provincia
-
 collapse (count) edad, by(provincia)
-
 rename edad variantes 
-
 save "${datos}\output\datos_variantes_provincias", replace
 
 merge 1:1 provincia using "mapas\mapa_provincial"
@@ -130,7 +121,7 @@ spmap variantes using "mapas\provincial_co", id(id) fcolor("$mycolor3" "$mycolor
 gr export "figuras\variantes_provincial.png", as(png) replace
 gr export "figuras\variantes_provincial.pdf", as(pdf) replace
 
-
+export delimited using "${datos}\output\dashboard_variantes_provincial.csv", replace
 ********************************************************************************
 * Para cada variantes
 

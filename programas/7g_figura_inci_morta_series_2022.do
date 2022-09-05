@@ -1,9 +1,9 @@
-use "${datos}\output\data_series_provincias_2022.dta", clear
+use "${datos}\output\data_series_provincias.dta", clear
 
 drop if fecha_resultado < d(02jan2022)
 gen semana = 1 if fecha_resultado >= d(02jan2022) & fecha_resultado <= d(08jan2022)
 replace semana = semana[_n-7] + 1 if fecha > d(08jan2022)
-drop if semana > 31
+drop if semana > 35
 
 collapse (max) total_positivo_* total_defuncion_*, by(semana)
 
@@ -147,7 +147,7 @@ twoway (line mortalidad_1 semana, lcolor("$mycolor1") lwidth(medthick)) ///
 (line mortalidad_12 semana, lcolor("$mycolor5") lwidth(medthick) lpattern(dash)) ///
 (line mortalidad_13 semana, lcolor("$mycolor6") lwidth(medthick) lpattern(dash)) ///
 if semana >=1, ///
-	ylabel(0(1)10, labsize(*0.6) nogrid) ///
+	ylabel(0(10)100, labsize(*0.6) nogrid) ///
 	tlabel(1(2)52, labsize(*0.60)) ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
 	ytitle("Mortalidad (defunciones/población*10,000)") ///
@@ -155,11 +155,10 @@ if semana >=1, ///
 	title("2022", box bexpand bcolor("$mycolor3") color(white)) ///
 	legend(label(1 "Acomayo") label(2 "Anta") label(3 "Calca")  label(4 "Canas")  label(5 "Canchis") label(6 "Chumbivilcas")  label(7 "Cusco")  label(8 "Espinar") label(9 "La Convención") label(10 "Quispicanchi") label(11 "Paruro") label(12 "Paucartambo") label(13 "Urubamba") size(*0.75) ring(0) position(2) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(morta_prov, replace)
 
-gr export "figuras\mortalidad_provincial_2022.png", as(png) replace
-gr export "figuras\mortalidad_provincial_2022.pdf", as(pdf) replace
+gr export "figuras\mortalidad_provincial.png", as(png) replace
+gr export "figuras\mortalidad_provincial.pdf", as(pdf) replace
 
 * Incidencia Pronvincial
-
 twoway (line incidencia_1 semana, lcolor("$mycolor1") lwidth(medthick)) ///
 (line incidencia_2 semana, lcolor("$mycolor2") lwidth(medthick)) ///
 (line incidencia_3 semana, lcolor("$mycolor3") lwidth(medthick)) ///
@@ -174,13 +173,13 @@ twoway (line incidencia_1 semana, lcolor("$mycolor1") lwidth(medthick)) ///
 (line incidencia_12 semana, lcolor("$mycolor5") lwidth(medthick) lpattern(dash)) ///
 (line incidencia_13 semana, lcolor("$mycolor6") lwidth(medthick) lpattern(dash)) ///
 if semana >=1, ///
-	ylabel(0(70)1000, labsize(*0.6) nogrid) ///
+	ylabel(0(500)2500, labsize(*0.6) nogrid) ///
 	tlabel(1(2)52, labsize(*0.60)) ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
 	ytitle("Incidencia (casos/población*10,000)") ///
 	graphregion(color(white)) ///
 	title("2022", box bexpand bcolor("$mycolor3") color(white)) ///
-	legend(label(1 "Acomayo") label(2 "Anta") label(3 "Calca")  label(4 "Canas")  label(5 "Canchis") label(6 "Chumbivilcas")  label(7 "Cusco")  label(8 "Espinar") label(9 "La Convención") label(10 "Quispicanchi") label(11 "Paruro") label(12 "Paucartambo") label(13 "Urubamba") size(*0.75) ring(0) position(2) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(inci_provi, replace)
+	legend(label(1 "Acomayo") label(2 "Anta") label(3 "Calca")  label(4 "Canas")  label(5 "Canchis") label(6 "Chumbivilcas")  label(7 "Cusco")  label(8 "Espinar") label(9 "La Convención") label(10 "Quispicanchi") label(11 "Paruro") label(12 "Paucartambo") label(13 "Urubamba") size(*0.45) ring(0) position(1) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(inci_provi, replace)
 	
 gr export "figuras\incidencia_provincial_acumulada_2022.png", as(png) replace
 gr export "figuras\incidencia_provincial_acumulada_2022.pdf", as(pdf) replace
