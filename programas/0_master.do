@@ -28,7 +28,7 @@ set more off
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
 global fecha 05Sep2022
-global semana 86
+global semana 87
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -137,7 +137,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard" 
-
+x
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
@@ -189,7 +189,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\5d_figura_sub_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
 
-
+x
 * 6. Vacunados
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"
