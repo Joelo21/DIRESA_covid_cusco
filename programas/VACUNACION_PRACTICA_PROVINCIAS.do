@@ -7,7 +7,7 @@ forvalues i = 1/4 {
 	collapse (count) numero, by(provincia_residencia)
 	*tsset fecha_resultado, daily
 	*tsfill 
-	rename numero grupo_edad_`i'_`j'
+	rename numero provincia_residencia`i'_`j'
 	save "${datos}\temporal\vacunados_practicas_provincias_`i'_`j'.dta", replace
 	restore
 	}
@@ -15,7 +15,7 @@ forvalues i = 1/4 {
 
 forvalues i=1/4 {
 		use "${datos}\temporal\vacunados_practicas_provincias_`i'_1.dta", clear
-		forvalues j = 2/9 {
+		forvalues j = 1/9 {
 		merge 1:1 provincia_residencia using "${datos}\temporal\vacunados_practicas_provincias_`i'_`j'.dta", nogen
 		}
 	save "${datos}\temporal\vacunados_practicas_provincias_`i'.dta", replace
@@ -166,10 +166,10 @@ replace objetivo_9 = 1696 if provincia_residencia == 13
 
 * Generar los porcentajes
 forvalues i=1/9 {
-gen una_dosis_`i' = grupo_edad_1_`i' /objetivo_`i'*100
-gen dos_dosis_`i' = grupo_edad_2_`i'/objetivo_`i'*100
-gen tres_dosis_`i' = grupo_edad_3_`i'/objetivo_`i'*100
-gen cuarta_dosis_`i' = grupo_edad_4_`i'/objetivo_`i'*100
+gen una_dosis_`i' = provincia_residencia1_`i' /objetivo_`i'*100
+gen dos_dosis_`i' = provincia_residencia2_`i'/objetivo_`i'*100
+gen tres_dosis_`i' = provincia_residencia3_`i'/objetivo_`i'*100
+gen cuarta_dosis_`i' = provincia_residencia4_`i'/objetivo_`i'*100
 }
 
 * Formato

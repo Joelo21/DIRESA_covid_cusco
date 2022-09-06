@@ -365,7 +365,7 @@ format una_dosis_* dos_dosis_* tres_dosis_* cuarta_dosis_* %4.2f
 
 save "${datos}\output\vacunacion_practica_graficos", replace
 ********************************************************************************
-	use "${datos}\output\vacunacion_practica_graficos", clear
+use "${datos}\output\vacunacion_practica_graficos", clear
 	forvalues i=1/9 {
 	graph bar una_dosis_`i' dos_dosis_`i' tres_dosis_`i', xsize(8.1) ///
 	over(provincia_residencia, label (angle(vertical))) plotregion(fcolor(white)) graphregion(fcolor(white)) ///
