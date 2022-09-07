@@ -198,9 +198,9 @@ format una_dosis_* dos_dosis_* tres_dosis_* cuarta_dosis_* %4.2f
 save "${datos}\output\vacunacion_practica_provincias_graficos", replace
 ********************************************************************************
 use "${datos}\output\vacunacion_practica_provincias_graficos", clear
-	forvalues i=1/1 {
+	forvalues i=1/13 {
 	graph bar una_dosis_`i' dos_dosis_`i' tres_dosis_`i', xsize(8.1) ///
-	over(provincia_residencia, label (angle(vertical))) plotregion(fcolor(white)) graphregion(fcolor(white)) ///
+	over(grupo_edad, label (angle(vertical))) plotregion(fcolor(white)) graphregion(fcolor(white)) ///
 	bgcolor("$mycolor3") ///
 	blabel(bar, size(8pt) position(outside) orientation(vertical) color(black) format(%4.1f)) ///
 	bar(1, color("$mycolor6")) ///
@@ -209,7 +209,8 @@ use "${datos}\output\vacunacion_practica_provincias_graficos", clear
 	ytitle("Porcentaje (%)", size(4.2)) ///
 	b1title("Provincias", size(4.2)) ///
 	ylabel(0(50)150, nogrid) ///
-	legend(cols(3) label(1 "1ra Dosis") label(2 "2da Dosis") label(3 "3ra Dosis") size(*0.8) region(col(white))) name(vacunacion_practica_provincias_`i', replace) 
+	legend(cols(3) label(1 "1ra Dosis") label(2 "2da Dosis") label(3 "3ra Dosis") size(*0.8) region(col(white))) ///
+	name(vacunacion__provincias_`i', replace)
 	}
 
 *export delimited using "${datos}\output\dashboard_vacunacion_grupos_edades.csv", replace
