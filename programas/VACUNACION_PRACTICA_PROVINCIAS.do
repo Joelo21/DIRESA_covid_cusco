@@ -212,7 +212,7 @@ use "${datos}\output\vacunacion_practica_provincias_graficos", clear
 	legend(cols(3) label(1 "1ra Dosis") label(2 "2da Dosis") label(3 "3ra Dosis") size(*0.8) region(col(white))) ///
 	name(vacunacion__provincias_`i', replace)
 	
-	graph export "figuras\vacunacion__provincias_`i'.pdf", as(png) replace
+	graph export "figuras\vacunacion__provincias_`i'.pdf", as(pdf) replace
 	}
 
 *export delimited using "${datos}\output\dashboard_vacunacion_grupos_edades.csv", replace
