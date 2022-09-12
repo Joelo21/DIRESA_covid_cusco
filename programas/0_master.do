@@ -27,15 +27,14 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 06Sep2022
-global semana 87
+global fecha 12Sep2022
+global semana 88
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
 
 * Definir los colores de las gráficas
 * Colores
-*global mycolor1 "184 184 184" 
 global mycolor1 "221 165 230"
 global mycolor2 "243 149 13" 
 global mycolor3 "205 24 24"
