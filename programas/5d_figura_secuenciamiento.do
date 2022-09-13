@@ -69,8 +69,8 @@ twoway (bar lambda mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.
 (scatter omicron mes, msize(vsmall) mcolor("$mycolor7") mlabel(omicron) mlabcolor("$mycolor7") mlabsize(vsmall) connect()) ///
 (bar otros mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor1") ) ///
 (scatter otros mes, msize(vsmall) mcolor("$mycolor1") mlabel(otros) mlabcolor("$mycolor1") mlabsize(vsmall) connect()) ///
-(line suma_total mes, color("$mycolor4") lwidth(tiny) lpattern(shortdash_dot) yaxis(2) yscale(axis(2)) ylabel(0(40)260, axis(2))) ///
-(scatter suma_total mes, msize(vsmall) mcolor("$mycolor17") mlabel(suma_total) mlabposition(12) mlabcolor("$mycolor17") mlabsize(vsmall) connect() yaxis(2) yscale(axis(2)) ylabel(0(40)260, axis(2))) ///
+(line suma_total mes, color("$mycolor4") lwidth(tiny) lpattern(shortdash_dot) yaxis(2) yscale(axis(2)) ylabel(0(40)240, axis(2))) ///
+(scatter suma_total mes, msize(vsmall) mcolor("$mycolor17") mlabel(suma_total) mlabposition(12) mlabcolor("$mycolor17") mlabsize(vsmall) connect() yaxis(2) yscale(axis(2)) ylabel(0(40)240, axis(2))) ///
 ,	xtitle("Mes", size(*0.7)) ///
  ytitle("Porcentaje de las Variantes Econtradas", size(*0.7)) ///
 	graphregion(color(white)) ///

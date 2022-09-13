@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.15)  12 SEP 2022 22:57
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.28)  12 SEP 2022 16:00
+>>>>>>> parent of f56440e (UPDATE SEM 36)
 entering extended mode
 **./sala_covid.tex
 (sala_covid.tex
@@ -2812,6 +2816,7 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{provincias} has been referenced but does not exis
 t, replaced by a fixed one
 
+<<<<<<< HEAD
 {C:/Program Files/MiKTeX2/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/Mi
 KTeX2/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX2/fonts/enc/dvips/lm
 /lm-mathsy.enc}{C:/Program Files/MiKTeX2/fonts/enc/dvips/lm/lm-ec.enc}{C:/Progr
@@ -2827,6 +2832,28 @@ y10.pfb><C:/Program Files/MiKTeX2/fonts/type1/public/lm/lmsy6.pfb><C:/Program F
 iles/MiKTeX2/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/M
 iKTeX2/fonts/type1/public/newpx/npxsups-Regular.pfb>
 Output written on sala_covid.pdf (114 pages, 8982422 bytes).
+=======
+pdfTeX warning (dest): name{provincias} has been referenced but does not exist,
+ replaced by a fixed one
+
+{C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc
+}{C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C
+:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{
+C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.
+enc}{C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newpx/npxsup
+s_T1.enc}<C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
+mmi10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
+lmmi6.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
+lmr10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
+lmr6.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
+msy10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
+lmsy6.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/symbols/msam10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/newpx/npxsups-Regular.pfb><C:/Users/DEI-02/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/newpx/zplb.pfb><C:/Users/DEI-02/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/newpx/zplr.pfb>
+Output written on sala_covid.pdf (114 pages, 8929809 bytes).
+>>>>>>> parent of f56440e (UPDATE SEM 36)
 PDF statistics:
  1925 PDF objects out of 2073 (max. 8388607)
  338 named destinations out of 1000 (max. 500000)
