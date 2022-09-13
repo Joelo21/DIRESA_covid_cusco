@@ -53,7 +53,7 @@ twoway (bar linaje_omicron_5 mes, barwidth(0.6) yaxis(1) ylabel(0(0.2)1) yscale(
 (scatter linaje_omicron_4 mes, msize(vsmall) mcolor("$mycolor17") mlabel(linaje_omicron_4) mlabcolor("$mycolor17") mlabsize(vsmall) connect()) ///
 (scatter linaje_omicron_5 mes, msize(vsmall) mcolor("$mycolor17") mlabel(linaje_omicron_5) mlabcolor("$mycolor17") mlabsize(vsmall) connect()) ///
 (line suma_total mes, lcolor("$mycolor4") lpattern(shortdash_dot) lwidth(thick) yaxis(2) yscale(axis(2)) ylabel(0(20)140, axis(2))) ///
-(scatter suma_total mes, msize(vsmall) mcolor("$mycolor17") mlabel(suma_total) mlabposition(12) mlabcolor("$mycolor17") mlabsize(vsmall) connect() yaxis(2) yscale(axis(2)) ylabel(0(20)180, axis(2))) ///
+(scatter suma_total mes, msize(vsmall) mcolor("$mycolor17") mlabel(suma_total) mlabposition(12) mlabcolor("$mycolor17") mlabsize(vsmall) connect() yaxis(2) yscale(axis(2)) ylabel(0(50)300, axis(2))) ///
  ,	xtitle("Mes", size(*0.7)) ///
  ytitle("Porcentaje de las Variantes Encontradas", size(*0.5)) ///
 	graphregion(color(white)) ///
