@@ -8,7 +8,7 @@
 use "${datos}\output\data_series_region.dta", clear
 
 * Para dias a inicios de semana
-drop if fecha < d(01jan2022)
+drop if fecha >= d(01jan2021)
 
 gen numero = _n
 gen semana =.
@@ -31,21 +31,21 @@ format positividad_pcr positividad_ag %12.0fc
 save "${datos}\output\data_positividad_diario_2022.dta", replace
 
 * Graficamos
-twoway (line positividad_pcr semana, lcolor("$mycolor6") lwidth(medthick)) ///
-(line positividad_ag semana, lcolor("$mycolor7") lwidth(medthick) lpattern(solid) xline(20426.5, lcolor("$mycolor3") lpattern(shortdash) lwidth(mthick))) ///
-(scatter positividad_pcr semana, msymbol(none) mlabel(positividad_pcr) mlabcolor("$mycolor6") mlabsize(*0.9) mlabposition(12)) ///
-(scatter positividad_ag semana, msymbol(i) mlabel(positividad_ag) mlabcolor("$mycolor7") mlabsize(*0.9) mlabposition(12)) ///
+twoway (line positividad_pcr fecha, lcolor("$mycolor6") lwidth(medthick)) ///
+(line positividad_ag fecha, lcolor("$mycolor7") lwidth(medthick) lpattern(solid) xline(20426.5, lcolor("$mycolor3") lpattern(shortdash) lwidth(mthick))) ///
+(scatter positividad_pcr fecha, msymbol(none) mlabel(positividad_pcr) mlabcolor("$mycolor6") mlabsize(*0.9) mlabposition(12)) ///
+(scatter positividad_ag fecha, msymbol(i) mlabel(positividad_ag) mlabcolor("$mycolor7") mlabsize(*0.9) mlabposition(12)) ///
   ,  ysize(5) xsize(6.1) ///
   xtitle("Semanas Epidemiológicas", size(*0.6)) ///
   ytitle("Tasa de Positividad (%)", size(*0.6)) ///
   ylabel(0(10)80, labsize(*0.60)) ///
-  xlabel(1(2)$semana, labsize(*0.60)) ///
+  xlabel(1(2)fecha, labsize(*0.60)) ///
   plotregion(fcolor(white) lcolor(white)) ///
   graphregion(fcolor(white) lcolor(white)) ///
   bgcolor(white) ///
   ylabel(, nogrid) xlabel(, nogrid) ///
   legend(cols(2) label(1 "Positividad PCR (%)") label(2 "Positividad AG (%)") label(3 " ") label (4 " ") size(*0.6) order(1 2 3 4) region(fcolor(white) lcolor(white))) ///
-  text(70 $semana "{it:Actualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor4") fcolor("$mycolor4")) name(tasa_posi, replace)
+  text(70 fecha "{it:Actualizado al}" "{it:$fecha}", place(sw) box just(left) margin(l+4 t+1 b+1) width(21) size(small) color(white) bcolor("$mycolor4") fcolor("$mycolor4")) name(tasa_posi, replace)
   
 graph export "figuras\positividad_diaria_2022.png", as(png) replace  
 

@@ -213,6 +213,7 @@ use "${datos}\output\vacunacion_practica_provincias_graficos", clear
 	name(vacunacion__provincias_`i', replace)
 	
 	graph export "figuras\vacunacion__provincias_`i'.pdf", as(pdf) replace
+	graph export "figuras\vacunacion__provincias_`i'.png", as(png) replace
 	}
 
 *export delimited using "${datos}\output\dashboard_vacunacion_grupos_edades.csv", replace

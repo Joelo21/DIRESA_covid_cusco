@@ -5,7 +5,12 @@ import excel "${datos}\raw\base_altas_medicas.xlsx",firstrow sheet(Hoja1) clear
 
 rename Numerodedocumento DNI
 rename TIPOALTA ESTADO
+sort FECHADEALTA
+ 
+gen Hosp_UCI = 1
+drop if Condición == "con_uci_ventilador"
 
+collapse (sum) Hosp_UCI, by(FECHADEALTA)
 *Guardar
 save "${datos}\output\base_altasmedicas.dta", replace
 ********************************************************************************
