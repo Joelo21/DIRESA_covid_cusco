@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.11.15)  21 SEP 2022 15:30
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.28)  27 SEP 2022 12:03
+>>>>>>> Stashed changes
 entering extended mode
 **./sala_covid.tex
 (sala_covid.tex
@@ -1920,7 +1924,7 @@ Package pdftex.def Info: ../figuras/nivel_2.png  used on input line 864.
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\translate ' on input line 1022.
+(hyperref)                removing `\translate ' on input line 1023.
 
 [47
 
@@ -1929,7 +1933,7 @@ File: ../figuras/vacunacion_provincial_edad_practica_9.pdf Graphic file (type p
 df)
 <use ../figuras/vacunacion_provincial_edad_practica_9.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_practica_9.pdf  
-used on input line 1035.
+used on input line 1036.
 (pdftex.def)             Requested size: 307.28987pt x 144.09329pt.
  [48
 
@@ -1938,13 +1942,17 @@ used on input line 1035.
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_practi
 ca_8.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> al
 lowed
+<<<<<<< Updated upstream
 <../figuras/vacunacion_provincial_edad_practica_8.pdf, id=806, 585.38701pt x 28
+=======
+<../figuras/vacunacion_provincial_edad_practica_8.pdf, id=805, 585.38701pt x 28
+>>>>>>> Stashed changes
 9.08pt>
 File: ../figuras/vacunacion_provincial_edad_practica_8.pdf Graphic file (type p
 df)
 <use ../figuras/vacunacion_provincial_edad_practica_8.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_practica_8.pdf  
-used on input line 1045.
+used on input line 1046.
 (pdftex.def)             Requested size: 307.28987pt x 144.09329pt.
 [49
 
@@ -1953,13 +1961,17 @@ used on input line 1045.
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_practi
 ca_7.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> al
 lowed
+<<<<<<< Updated upstream
 <../figuras/vacunacion_provincial_edad_practica_7.pdf, id=827, 585.38701pt x 28
+=======
+<../figuras/vacunacion_provincial_edad_practica_7.pdf, id=826, 585.38701pt x 28
+>>>>>>> Stashed changes
 9.08pt>
 File: ../figuras/vacunacion_provincial_edad_practica_7.pdf Graphic file (type p
 df)
 <use ../figuras/vacunacion_provincial_edad_practica_7.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_practica_7.pdf  
-used on input line 1055.
+used on input line 1056.
 (pdftex.def)             Requested size: 307.28987pt x 144.09329pt.
 [50
 
@@ -1968,13 +1980,17 @@ used on input line 1055.
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_practi
 ca_6.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> al
 lowed
+<<<<<<< Updated upstream
 <../figuras/vacunacion_provincial_edad_practica_6.pdf, id=847, 585.38701pt x 28
+=======
+<../figuras/vacunacion_provincial_edad_practica_6.pdf, id=846, 585.38701pt x 28
+>>>>>>> Stashed changes
 9.08pt>
 File: ../figuras/vacunacion_provincial_edad_practica_6.pdf Graphic file (type p
 df)
 <use ../figuras/vacunacion_provincial_edad_practica_6.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_practica_6.pdf  
-used on input line 1065.
+used on input line 1066.
 (pdftex.def)             Requested size: 307.28987pt x 144.09329pt.
 [51
 
@@ -1983,13 +1999,17 @@ used on input line 1065.
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_practi
 ca_5.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> al
 lowed
+<<<<<<< Updated upstream
 <../figuras/vacunacion_provincial_edad_practica_5.pdf, id=867, 585.38701pt x 28
+=======
+<../figuras/vacunacion_provincial_edad_practica_5.pdf, id=866, 585.38701pt x 28
+>>>>>>> Stashed changes
 9.08pt>
 File: ../figuras/vacunacion_provincial_edad_practica_5.pdf Graphic file (type p
 df)
 <use ../figuras/vacunacion_provincial_edad_practica_5.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_practica_5.pdf  
-used on input line 1075.
+used on input line 1076.
 (pdftex.def)             Requested size: 307.28987pt x 144.09329pt.
 [52
 
@@ -1998,13 +2018,17 @@ used on input line 1075.
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_practi
 ca_4.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> al
 lowed
+<<<<<<< Updated upstream
 <../figuras/vacunacion_provincial_edad_practica_4.pdf, id=887, 585.38701pt x 28
+=======
+<../figuras/vacunacion_provincial_edad_practica_4.pdf, id=886, 585.38701pt x 28
+>>>>>>> Stashed changes
 9.08pt>
 File: ../figuras/vacunacion_provincial_edad_practica_4.pdf Graphic file (type p
 df)
 <use ../figuras/vacunacion_provincial_edad_practica_4.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_practica_4.pdf  
-used on input line 1085.
+used on input line 1086.
 (pdftex.def)             Requested size: 307.28987pt x 144.09329pt.
 [53
 
@@ -2013,13 +2037,17 @@ used on input line 1085.
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_practi
 ca_3.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> al
 lowed
+<<<<<<< Updated upstream
 <../figuras/vacunacion_provincial_edad_practica_3.pdf, id=907, 585.38701pt x 28
+=======
+<../figuras/vacunacion_provincial_edad_practica_3.pdf, id=906, 585.38701pt x 28
+>>>>>>> Stashed changes
 9.08pt>
 File: ../figuras/vacunacion_provincial_edad_practica_3.pdf Graphic file (type p
 df)
 <use ../figuras/vacunacion_provincial_edad_practica_3.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_practica_3.pdf  
-used on input line 1095.
+used on input line 1096.
 (pdftex.def)             Requested size: 307.28987pt x 144.09329pt.
 [54
 
@@ -2028,13 +2056,17 @@ used on input line 1095.
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_practi
 ca_2.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> al
 lowed
+<<<<<<< Updated upstream
 <../figuras/vacunacion_provincial_edad_practica_2.pdf, id=927, 585.38701pt x 28
+=======
+<../figuras/vacunacion_provincial_edad_practica_2.pdf, id=926, 585.38701pt x 28
+>>>>>>> Stashed changes
 9.08pt>
 File: ../figuras/vacunacion_provincial_edad_practica_2.pdf Graphic file (type p
 df)
 <use ../figuras/vacunacion_provincial_edad_practica_2.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_practica_2.pdf  
-used on input line 1106.
+used on input line 1107.
 (pdftex.def)             Requested size: 307.28987pt x 144.09329pt.
 [55
 
@@ -2043,22 +2075,30 @@ used on input line 1106.
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_provincial_edad_practi
 ca_1.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> al
 lowed
+<<<<<<< Updated upstream
 <../figuras/vacunacion_provincial_edad_practica_1.pdf, id=948, 585.38701pt x 28
+=======
+<../figuras/vacunacion_provincial_edad_practica_1.pdf, id=947, 585.38701pt x 28
+>>>>>>> Stashed changes
 9.08pt>
 File: ../figuras/vacunacion_provincial_edad_practica_1.pdf Graphic file (type p
 df)
 <use ../figuras/vacunacion_provincial_edad_practica_1.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_provincial_edad_practica_1.pdf  
-used on input line 1116.
+used on input line 1117.
 (pdftex.def)             Requested size: 307.28987pt x 144.09329pt.
 [56
 
  <../figuras/vacunacion_provincial_edad_practica_1.pdf>]
+<<<<<<< Updated upstream
 <../figuras/sinto_prueba20_21_1.png, id=968, 580.1675pt x 422.57875pt>
+=======
+<../figuras/sinto_prueba20_21_1.png, id=967, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/sinto_prueba20_21_1.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_1.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_1.png  used on input line
- 1127.
+ 1128.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [57
 
@@ -2067,28 +2107,43 @@ tion with the same identifier (name{Acomayo<1>}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
+<<<<<<< Updated upstream
 l.1136 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Acomayo}) has been already used, duplicate ignored
+=======
+l.1137 \end{frame}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{Acomayo}) has
+ been already used, duplicate ignored
+>>>>>>> Stashed changes
 <to be read again> 
                    \relax 
-l.1136 \end{frame}
+l.1137 \end{frame}
                   
+<<<<<<< Updated upstream
 <../figuras/incidencia_mortalidad_20_21_1.png, id=978, 580.1675pt x 422.57875pt
+=======
+<../figuras/incidencia_mortalidad_20_21_1.png, id=977, 580.1675pt x 422.57875pt
+>>>>>>> Stashed changes
 >
 File: ../figuras/incidencia_mortalidad_20_21_1.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_1.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_1.png  used on 
-input line 1136.
+input line 1137.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [58
 
  <../figuras/incidencia_mortalidad_20_21_1.png (PNG copy)>]
+<<<<<<< Updated upstream
 <../figuras/positividad_20_21_1.png, id=986, 580.1675pt x 422.57875pt>
+=======
+<../figuras/positividad_20_21_1.png, id=985, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/positividad_20_21_1.png Graphic file (type png)
 <use ../figuras/positividad_20_21_1.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_1.png  used on input line
- 1145.
+ 1146.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [59
 
@@ -2096,19 +2151,27 @@ Package pdftex.def Info: ../figuras/positividad_20_21_1.png  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_1.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/exceso_1.pdf, id=994, 397.485pt x 289.08pt>
+=======
+<../figuras/exceso_1.pdf, id=993, 397.485pt x 289.08pt>
+>>>>>>> Stashed changes
 File: ../figuras/exceso_1.pdf Graphic file (type pdf)
 <use ../figuras/exceso_1.pdf>
-Package pdftex.def Info: ../figuras/exceso_1.pdf  used on input line 1156.
+Package pdftex.def Info: ../figuras/exceso_1.pdf  used on input line 1157.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [60
 
  <../figuras/exceso_1.pdf>]
+<<<<<<< Updated upstream
 <../figuras/sinto_prueba20_21_2.png, id=1022, 580.1675pt x 422.57875pt>
+=======
+<../figuras/sinto_prueba20_21_2.png, id=1021, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/sinto_prueba20_21_2.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_2.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_2.png  used on input line
- 1167.
+ 1168.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [61
 
@@ -2117,28 +2180,43 @@ tion with the same identifier (name{Anta<1>}) has been already used, duplicate
 ignored
 <to be read again> 
                    \relax 
+<<<<<<< Updated upstream
 l.1176 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Anta}) has been already used, duplicate ignored
+=======
+l.1177 \end{frame}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{Anta}) has be
+en already used, duplicate ignored
+>>>>>>> Stashed changes
 <to be read again> 
                    \relax 
-l.1176 \end{frame}
+l.1177 \end{frame}
                   
+<<<<<<< Updated upstream
 <../figuras/incidencia_mortalidad_20_21_2.png, id=1033, 580.1675pt x 422.57875p
+=======
+<../figuras/incidencia_mortalidad_20_21_2.png, id=1032, 580.1675pt x 422.57875p
+>>>>>>> Stashed changes
 t>
 File: ../figuras/incidencia_mortalidad_20_21_2.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_2.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_2.png  used on 
-input line 1176.
+input line 1177.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [62
 
  <../figuras/incidencia_mortalidad_20_21_2.png (PNG copy)>]
+<<<<<<< Updated upstream
 <../figuras/positividad_20_21_2.png, id=1041, 580.1675pt x 422.57875pt>
+=======
+<../figuras/positividad_20_21_2.png, id=1040, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/positividad_20_21_2.png Graphic file (type png)
 <use ../figuras/positividad_20_21_2.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_2.png  used on input line
- 1185.
+ 1186.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [63
 
@@ -2146,19 +2224,27 @@ Package pdftex.def Info: ../figuras/positividad_20_21_2.png  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_2.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/exceso_2.pdf, id=1049, 397.485pt x 289.08pt>
+=======
+<../figuras/exceso_2.pdf, id=1048, 397.485pt x 289.08pt>
+>>>>>>> Stashed changes
 File: ../figuras/exceso_2.pdf Graphic file (type pdf)
 <use ../figuras/exceso_2.pdf>
-Package pdftex.def Info: ../figuras/exceso_2.pdf  used on input line 1196.
+Package pdftex.def Info: ../figuras/exceso_2.pdf  used on input line 1197.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [64
 
  <../figuras/exceso_2.pdf>]
+<<<<<<< Updated upstream
 <../figuras/sinto_prueba20_21_3.png, id=1077, 580.1675pt x 422.57875pt>
+=======
+<../figuras/sinto_prueba20_21_3.png, id=1076, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/sinto_prueba20_21_3.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_3.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_3.png  used on input line
- 1207.
+ 1208.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [65
 
@@ -2167,28 +2253,43 @@ tion with the same identifier (name{Calca<1>}) has been already used, duplicate
  ignored
 <to be read again> 
                    \relax 
+<<<<<<< Updated upstream
 l.1216 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Calca}) has been already used, duplicate ignored
+=======
+l.1217 \end{frame}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{Calca}) has b
+een already used, duplicate ignored
+>>>>>>> Stashed changes
 <to be read again> 
                    \relax 
-l.1216 \end{frame}
+l.1217 \end{frame}
                   
+<<<<<<< Updated upstream
 <../figuras/incidencia_mortalidad_20_21_3.png, id=1087, 580.1675pt x 422.57875p
+=======
+<../figuras/incidencia_mortalidad_20_21_3.png, id=1086, 580.1675pt x 422.57875p
+>>>>>>> Stashed changes
 t>
 File: ../figuras/incidencia_mortalidad_20_21_3.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_3.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_3.png  used on 
-input line 1216.
+input line 1217.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [66
 
  <../figuras/incidencia_mortalidad_20_21_3.png (PNG copy)>]
+<<<<<<< Updated upstream
 <../figuras/positividad_20_21_3.png, id=1095, 580.1675pt x 422.57875pt>
+=======
+<../figuras/positividad_20_21_3.png, id=1094, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/positividad_20_21_3.png Graphic file (type png)
 <use ../figuras/positividad_20_21_3.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_3.png  used on input line
- 1225.
+ 1226.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [67
 
@@ -2196,19 +2297,27 @@ Package pdftex.def Info: ../figuras/positividad_20_21_3.png  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_3.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/exceso_3.pdf, id=1104, 397.485pt x 289.08pt>
+=======
+<../figuras/exceso_3.pdf, id=1103, 397.485pt x 289.08pt>
+>>>>>>> Stashed changes
 File: ../figuras/exceso_3.pdf Graphic file (type pdf)
 <use ../figuras/exceso_3.pdf>
-Package pdftex.def Info: ../figuras/exceso_3.pdf  used on input line 1236.
+Package pdftex.def Info: ../figuras/exceso_3.pdf  used on input line 1237.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [68
 
  <../figuras/exceso_3.pdf>]
+<<<<<<< Updated upstream
 <../figuras/sinto_prueba20_21_4.png, id=1132, 580.1675pt x 422.57875pt>
+=======
+<../figuras/sinto_prueba20_21_4.png, id=1131, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/sinto_prueba20_21_4.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_4.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_4.png  used on input line
- 1247.
+ 1248.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [69
 
@@ -2217,28 +2326,43 @@ tion with the same identifier (name{Canas<1>}) has been already used, duplicate
  ignored
 <to be read again> 
                    \relax 
+<<<<<<< Updated upstream
 l.1256 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Canas}) has been already used, duplicate ignored
+=======
+l.1257 \end{frame}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{Canas}) has b
+een already used, duplicate ignored
+>>>>>>> Stashed changes
 <to be read again> 
                    \relax 
-l.1256 \end{frame}
+l.1257 \end{frame}
                   
+<<<<<<< Updated upstream
 <../figuras/incidencia_mortalidad_20_21_4.png, id=1142, 580.1675pt x 422.57875p
+=======
+<../figuras/incidencia_mortalidad_20_21_4.png, id=1141, 580.1675pt x 422.57875p
+>>>>>>> Stashed changes
 t>
 File: ../figuras/incidencia_mortalidad_20_21_4.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_4.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_4.png  used on 
-input line 1256.
+input line 1257.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [70
 
  <../figuras/incidencia_mortalidad_20_21_4.png (PNG copy)>]
+<<<<<<< Updated upstream
 <../figuras/positividad_20_21_4.png, id=1150, 580.1675pt x 422.57875pt>
+=======
+<../figuras/positividad_20_21_4.png, id=1149, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/positividad_20_21_4.png Graphic file (type png)
 <use ../figuras/positividad_20_21_4.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_4.png  used on input line
- 1265.
+ 1266.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [71
 
@@ -2246,19 +2370,27 @@ Package pdftex.def Info: ../figuras/positividad_20_21_4.png  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_4.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/exceso_4.pdf, id=1158, 397.485pt x 289.08pt>
+=======
+<../figuras/exceso_4.pdf, id=1157, 397.485pt x 289.08pt>
+>>>>>>> Stashed changes
 File: ../figuras/exceso_4.pdf Graphic file (type pdf)
 <use ../figuras/exceso_4.pdf>
-Package pdftex.def Info: ../figuras/exceso_4.pdf  used on input line 1276.
+Package pdftex.def Info: ../figuras/exceso_4.pdf  used on input line 1277.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [72
 
  <../figuras/exceso_4.pdf>]
+<<<<<<< Updated upstream
 <../figuras/sinto_prueba20_21_5.png, id=1186, 580.1675pt x 422.57875pt>
+=======
+<../figuras/sinto_prueba20_21_5.png, id=1185, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/sinto_prueba20_21_5.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_5.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_5.png  used on input line
- 1287.
+ 1288.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [73
 
@@ -2267,28 +2399,43 @@ tion with the same identifier (name{Canchis<1>}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
+<<<<<<< Updated upstream
 l.1296 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Canchis}) has been already used, duplicate ignored
+=======
+l.1297 \end{frame}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{Canchis}) has
+ been already used, duplicate ignored
+>>>>>>> Stashed changes
 <to be read again> 
                    \relax 
-l.1296 \end{frame}
+l.1297 \end{frame}
                   
+<<<<<<< Updated upstream
 <../figuras/incidencia_mortalidad_20_21_5.png, id=1197, 580.1675pt x 422.57875p
+=======
+<../figuras/incidencia_mortalidad_20_21_5.png, id=1196, 580.1675pt x 422.57875p
+>>>>>>> Stashed changes
 t>
 File: ../figuras/incidencia_mortalidad_20_21_5.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_5.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_5.png  used on 
-input line 1296.
+input line 1297.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [74
 
  <../figuras/incidencia_mortalidad_20_21_5.png (PNG copy)>]
+<<<<<<< Updated upstream
 <../figuras/positividad_20_21_5.png, id=1205, 580.1675pt x 422.57875pt>
+=======
+<../figuras/positividad_20_21_5.png, id=1204, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/positividad_20_21_5.png Graphic file (type png)
 <use ../figuras/positividad_20_21_5.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_5.png  used on input line
- 1305.
+ 1306.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [75
 
@@ -2296,19 +2443,27 @@ Package pdftex.def Info: ../figuras/positividad_20_21_5.png  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_5.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/exceso_5.pdf, id=1213, 397.485pt x 289.08pt>
+=======
+<../figuras/exceso_5.pdf, id=1212, 397.485pt x 289.08pt>
+>>>>>>> Stashed changes
 File: ../figuras/exceso_5.pdf Graphic file (type pdf)
 <use ../figuras/exceso_5.pdf>
-Package pdftex.def Info: ../figuras/exceso_5.pdf  used on input line 1316.
+Package pdftex.def Info: ../figuras/exceso_5.pdf  used on input line 1317.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [76
 
  <../figuras/exceso_5.pdf>]
+<<<<<<< Updated upstream
 <../figuras/sinto_prueba20_21_6.png, id=1241, 580.1675pt x 422.57875pt>
+=======
+<../figuras/sinto_prueba20_21_6.png, id=1240, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/sinto_prueba20_21_6.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_6.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_6.png  used on input line
- 1327.
+ 1328.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [77
 
@@ -2317,28 +2472,43 @@ tion with the same identifier (name{Chumbivilcas<1>}) has been already used, du
 plicate ignored
 <to be read again> 
                    \relax 
+<<<<<<< Updated upstream
 l.1336 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Chumbivilcas}) has been already used, duplicate ignored
+=======
+l.1337 \end{frame}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{Chumbivilcas}
+) has been already used, duplicate ignored
+>>>>>>> Stashed changes
 <to be read again> 
                    \relax 
-l.1336 \end{frame}
+l.1337 \end{frame}
                   
+<<<<<<< Updated upstream
 <../figuras/incidencia_mortalidad_20_21_6.png, id=1251, 580.1675pt x 422.57875p
+=======
+<../figuras/incidencia_mortalidad_20_21_6.png, id=1250, 580.1675pt x 422.57875p
+>>>>>>> Stashed changes
 t>
 File: ../figuras/incidencia_mortalidad_20_21_6.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_6.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_6.png  used on 
-input line 1336.
+input line 1337.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [78
 
  <../figuras/incidencia_mortalidad_20_21_6.png (PNG copy)>]
+<<<<<<< Updated upstream
 <../figuras/positividad_20_21_6.png, id=1259, 580.1675pt x 422.57875pt>
+=======
+<../figuras/positividad_20_21_6.png, id=1258, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/positividad_20_21_6.png Graphic file (type png)
 <use ../figuras/positividad_20_21_6.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_6.png  used on input line
- 1345.
+ 1346.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [79
 
@@ -2346,19 +2516,27 @@ Package pdftex.def Info: ../figuras/positividad_20_21_6.png  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_6.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/exceso_6.pdf, id=1268, 397.485pt x 289.08pt>
+=======
+<../figuras/exceso_6.pdf, id=1267, 397.485pt x 289.08pt>
+>>>>>>> Stashed changes
 File: ../figuras/exceso_6.pdf Graphic file (type pdf)
 <use ../figuras/exceso_6.pdf>
-Package pdftex.def Info: ../figuras/exceso_6.pdf  used on input line 1356.
+Package pdftex.def Info: ../figuras/exceso_6.pdf  used on input line 1357.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [80
 
  <../figuras/exceso_6.pdf>]
+<<<<<<< Updated upstream
 <../figuras/sinto_prueba20_21_7.png, id=1296, 580.1675pt x 422.57875pt>
+=======
+<../figuras/sinto_prueba20_21_7.png, id=1295, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/sinto_prueba20_21_7.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_7.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_7.png  used on input line
- 1367.
+ 1368.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [81
 
@@ -2367,28 +2545,43 @@ tion with the same identifier (name{Cusco<1>}) has been already used, duplicate
  ignored
 <to be read again> 
                    \relax 
+<<<<<<< Updated upstream
 l.1376 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Cusco}) has been already used, duplicate ignored
+=======
+l.1377 \end{frame}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{Cusco}) has b
+een already used, duplicate ignored
+>>>>>>> Stashed changes
 <to be read again> 
                    \relax 
-l.1376 \end{frame}
+l.1377 \end{frame}
                   
+<<<<<<< Updated upstream
 <../figuras/incidencia_mortalidad_20_21_7.png, id=1306, 580.1675pt x 422.57875p
+=======
+<../figuras/incidencia_mortalidad_20_21_7.png, id=1305, 580.1675pt x 422.57875p
+>>>>>>> Stashed changes
 t>
 File: ../figuras/incidencia_mortalidad_20_21_7.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_7.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_7.png  used on 
-input line 1376.
+input line 1377.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [82
 
  <../figuras/incidencia_mortalidad_20_21_7.png (PNG copy)>]
+<<<<<<< Updated upstream
 <../figuras/positividad_20_21_7.png, id=1314, 580.1675pt x 422.57875pt>
+=======
+<../figuras/positividad_20_21_7.png, id=1313, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/positividad_20_21_7.png Graphic file (type png)
 <use ../figuras/positividad_20_21_7.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_7.png  used on input line
- 1385.
+ 1386.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [83
 
@@ -2396,19 +2589,27 @@ Package pdftex.def Info: ../figuras/positividad_20_21_7.png  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_7.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/exceso_7.pdf, id=1322, 397.485pt x 289.08pt>
+=======
+<../figuras/exceso_7.pdf, id=1321, 397.485pt x 289.08pt>
+>>>>>>> Stashed changes
 File: ../figuras/exceso_7.pdf Graphic file (type pdf)
 <use ../figuras/exceso_7.pdf>
-Package pdftex.def Info: ../figuras/exceso_7.pdf  used on input line 1396.
+Package pdftex.def Info: ../figuras/exceso_7.pdf  used on input line 1397.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [84
 
  <../figuras/exceso_7.pdf>]
+<<<<<<< Updated upstream
 <../figuras/sinto_prueba20_21_8.png, id=1350, 580.1675pt x 422.57875pt>
+=======
+<../figuras/sinto_prueba20_21_8.png, id=1349, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/sinto_prueba20_21_8.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_8.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_8.png  used on input line
- 1407.
+ 1408.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [85
 
@@ -2417,28 +2618,43 @@ tion with the same identifier (name{Espinar<1>}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
+<<<<<<< Updated upstream
 l.1416 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Espinar}) has been already used, duplicate ignored
+=======
+l.1417 \end{frame}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{Espinar}) has
+ been already used, duplicate ignored
+>>>>>>> Stashed changes
 <to be read again> 
                    \relax 
-l.1416 \end{frame}
+l.1417 \end{frame}
                   
+<<<<<<< Updated upstream
 <../figuras/incidencia_mortalidad_20_21_8.png, id=1361, 580.1675pt x 422.57875p
+=======
+<../figuras/incidencia_mortalidad_20_21_8.png, id=1360, 580.1675pt x 422.57875p
+>>>>>>> Stashed changes
 t>
 File: ../figuras/incidencia_mortalidad_20_21_8.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_8.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_8.png  used on 
-input line 1416.
+input line 1417.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [86
 
  <../figuras/incidencia_mortalidad_20_21_8.png (PNG copy)>]
+<<<<<<< Updated upstream
 <../figuras/positividad_20_21_8.png, id=1369, 580.1675pt x 422.57875pt>
+=======
+<../figuras/positividad_20_21_8.png, id=1368, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/positividad_20_21_8.png Graphic file (type png)
 <use ../figuras/positividad_20_21_8.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_8.png  used on input line
- 1425.
+ 1426.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [87
 
@@ -2446,38 +2662,54 @@ Package pdftex.def Info: ../figuras/positividad_20_21_8.png  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_8.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/exceso_8.pdf, id=1377, 397.485pt x 289.08pt>
+=======
+<../figuras/exceso_8.pdf, id=1376, 397.485pt x 289.08pt>
+>>>>>>> Stashed changes
 File: ../figuras/exceso_8.pdf Graphic file (type pdf)
 <use ../figuras/exceso_8.pdf>
-Package pdftex.def Info: ../figuras/exceso_8.pdf  used on input line 1436.
+Package pdftex.def Info: ../figuras/exceso_8.pdf  used on input line 1437.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [88
 
  <../figuras/exceso_8.pdf>]
+<<<<<<< Updated upstream
 <../figuras/sinto_prueba20_21_9.png, id=1405, 580.1675pt x 422.57875pt>
+=======
+<../figuras/sinto_prueba20_21_9.png, id=1404, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/sinto_prueba20_21_9.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_9.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_9.png  used on input line
- 1448.
+ 1449.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [89
 
  <../figuras/sinto_prueba20_21_9.png (PNG copy)>]
+<<<<<<< Updated upstream
 <../figuras/incidencia_mortalidad_20_21_9.png, id=1415, 580.1675pt x 422.57875p
+=======
+<../figuras/incidencia_mortalidad_20_21_9.png, id=1414, 580.1675pt x 422.57875p
+>>>>>>> Stashed changes
 t>
 File: ../figuras/incidencia_mortalidad_20_21_9.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_9.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_9.png  used on 
-input line 1456.
+input line 1457.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [90
 
  <../figuras/incidencia_mortalidad_20_21_9.png (PNG copy)>]
+<<<<<<< Updated upstream
 <../figuras/positividad_20_21_9.png, id=1424, 580.1675pt x 422.57875pt>
+=======
+<../figuras/positividad_20_21_9.png, id=1423, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/positividad_20_21_9.png Graphic file (type png)
 <use ../figuras/positividad_20_21_9.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_9.png  used on input line
- 1465.
+ 1466.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [91
 
@@ -2485,19 +2717,27 @@ Package pdftex.def Info: ../figuras/positividad_20_21_9.png  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_9.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/exceso_9.pdf, id=1433, 397.485pt x 289.08pt>
+=======
+<../figuras/exceso_9.pdf, id=1432, 397.485pt x 289.08pt>
+>>>>>>> Stashed changes
 File: ../figuras/exceso_9.pdf Graphic file (type pdf)
 <use ../figuras/exceso_9.pdf>
-Package pdftex.def Info: ../figuras/exceso_9.pdf  used on input line 1476.
+Package pdftex.def Info: ../figuras/exceso_9.pdf  used on input line 1477.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [92
 
  <../figuras/exceso_9.pdf>]
+<<<<<<< Updated upstream
 <../figuras/sinto_prueba20_21_10.png, id=1461, 580.1675pt x 422.57875pt>
+=======
+<../figuras/sinto_prueba20_21_10.png, id=1460, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/sinto_prueba20_21_10.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_10.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_10.png  used on input lin
-e 1487.
+e 1488.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [93
 
@@ -2506,28 +2746,43 @@ ation with the same identifier (name{Paruro<1>}) has been already used, duplica
 te ignored
 <to be read again> 
                    \relax 
+<<<<<<< Updated upstream
 l.1496 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Paruro}) has been already used, duplicate ignored
+=======
+l.1497 \end{frame}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{Paruro}) has 
+been already used, duplicate ignored
+>>>>>>> Stashed changes
 <to be read again> 
                    \relax 
-l.1496 \end{frame}
+l.1497 \end{frame}
                   
+<<<<<<< Updated upstream
 <../figuras/incidencia_mortalidad_20_21_10.png, id=1471, 580.1675pt x 422.57875
+=======
+<../figuras/incidencia_mortalidad_20_21_10.png, id=1470, 580.1675pt x 422.57875
+>>>>>>> Stashed changes
 pt>
 File: ../figuras/incidencia_mortalidad_20_21_10.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_10.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_10.png  used on
- input line 1496.
+ input line 1497.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [94
 
  <../figuras/incidencia_mortalidad_20_21_10.png (PNG copy)>]
+<<<<<<< Updated upstream
 <../figuras/positividad_20_21_10.png, id=1479, 580.1675pt x 422.57875pt>
+=======
+<../figuras/positividad_20_21_10.png, id=1478, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/positividad_20_21_10.png Graphic file (type png)
 <use ../figuras/positividad_20_21_10.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_10.png  used on input lin
-e 1505.
+e 1506.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [95
 
@@ -2535,19 +2790,27 @@ e 1505.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_10.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/exceso_10.pdf, id=1487, 397.485pt x 289.08pt>
+=======
+<../figuras/exceso_10.pdf, id=1486, 397.485pt x 289.08pt>
+>>>>>>> Stashed changes
 File: ../figuras/exceso_10.pdf Graphic file (type pdf)
 <use ../figuras/exceso_10.pdf>
-Package pdftex.def Info: ../figuras/exceso_10.pdf  used on input line 1516.
+Package pdftex.def Info: ../figuras/exceso_10.pdf  used on input line 1517.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [96
 
  <../figuras/exceso_10.pdf>]
+<<<<<<< Updated upstream
 <../figuras/sinto_prueba20_21_11.png, id=1515, 580.1675pt x 422.57875pt>
+=======
+<../figuras/sinto_prueba20_21_11.png, id=1514, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/sinto_prueba20_21_11.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_11.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_11.png  used on input lin
-e 1527.
+e 1528.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [97
 
@@ -2556,28 +2819,43 @@ ation with the same identifier (name{Paucartambo<1>}) has been already used, du
 plicate ignored
 <to be read again> 
                    \relax 
+<<<<<<< Updated upstream
 l.1536 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Paucartambo}) has been already used, duplicate ignored
+=======
+l.1537 \end{frame}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{Paucartambo})
+ has been already used, duplicate ignored
+>>>>>>> Stashed changes
 <to be read again> 
                    \relax 
-l.1536 \end{frame}
+l.1537 \end{frame}
                   
+<<<<<<< Updated upstream
 <../figuras/incidencia_mortalidad_20_21_11.png, id=1526, 580.1675pt x 422.57875
+=======
+<../figuras/incidencia_mortalidad_20_21_11.png, id=1525, 580.1675pt x 422.57875
+>>>>>>> Stashed changes
 pt>
 File: ../figuras/incidencia_mortalidad_20_21_11.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_11.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_11.png  used on
- input line 1536.
+ input line 1537.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [98
 
  <../figuras/incidencia_mortalidad_20_21_11.png (PNG copy)>]
+<<<<<<< Updated upstream
 <../figuras/positividad_20_21_11.png, id=1534, 580.1675pt x 422.57875pt>
+=======
+<../figuras/positividad_20_21_11.png, id=1533, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/positividad_20_21_11.png Graphic file (type png)
 <use ../figuras/positividad_20_21_11.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_11.png  used on input lin
-e 1545.
+e 1546.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [99
 
@@ -2585,19 +2863,27 @@ e 1545.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_11.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/exceso_11.pdf, id=1542, 397.485pt x 289.08pt>
+=======
+<../figuras/exceso_11.pdf, id=1541, 397.485pt x 289.08pt>
+>>>>>>> Stashed changes
 File: ../figuras/exceso_11.pdf Graphic file (type pdf)
 <use ../figuras/exceso_11.pdf>
-Package pdftex.def Info: ../figuras/exceso_11.pdf  used on input line 1556.
+Package pdftex.def Info: ../figuras/exceso_11.pdf  used on input line 1557.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [100
 
  <../figuras/exceso_11.pdf>]
+<<<<<<< Updated upstream
 <../figuras/sinto_prueba20_21_12.png, id=1570, 580.1675pt x 422.57875pt>
+=======
+<../figuras/sinto_prueba20_21_12.png, id=1569, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/sinto_prueba20_21_12.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_12.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_12.png  used on input lin
-e 1568.
+e 1569.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [101
 
@@ -2606,28 +2892,43 @@ ation with the same identifier (name{Quispicanchi<1>}) has been already used, d
 uplicate ignored
 <to be read again> 
                    \relax 
+<<<<<<< Updated upstream
 l.1577 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Quispicanchi}) has been already used, duplicate ignored
+=======
+l.1578 \end{frame}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{Quispicanchi}
+) has been already used, duplicate ignored
+>>>>>>> Stashed changes
 <to be read again> 
                    \relax 
-l.1577 \end{frame}
+l.1578 \end{frame}
                   
+<<<<<<< Updated upstream
 <../figuras/incidencia_mortalidad_20_21_12.png, id=1580, 580.1675pt x 422.57875
+=======
+<../figuras/incidencia_mortalidad_20_21_12.png, id=1579, 580.1675pt x 422.57875
+>>>>>>> Stashed changes
 pt>
 File: ../figuras/incidencia_mortalidad_20_21_12.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_12.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_12.png  used on
- input line 1577.
+ input line 1578.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [102
 
  <../figuras/incidencia_mortalidad_20_21_12.png (PNG copy)>]
+<<<<<<< Updated upstream
 <../figuras/positividad_20_21_12.png, id=1588, 580.1675pt x 422.57875pt>
+=======
+<../figuras/positividad_20_21_12.png, id=1587, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/positividad_20_21_12.png Graphic file (type png)
 <use ../figuras/positividad_20_21_12.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_12.png  used on input lin
-e 1586.
+e 1587.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [103
 
@@ -2635,19 +2936,27 @@ e 1586.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_12.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/exceso_12.pdf, id=1597, 397.485pt x 289.08pt>
+=======
+<../figuras/exceso_12.pdf, id=1596, 397.485pt x 289.08pt>
+>>>>>>> Stashed changes
 File: ../figuras/exceso_12.pdf Graphic file (type pdf)
 <use ../figuras/exceso_12.pdf>
-Package pdftex.def Info: ../figuras/exceso_12.pdf  used on input line 1597.
+Package pdftex.def Info: ../figuras/exceso_12.pdf  used on input line 1598.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [104
 
  <../figuras/exceso_12.pdf>]
+<<<<<<< Updated upstream
 <../figuras/sinto_prueba20_21_13.png, id=1625, 580.1675pt x 422.57875pt>
+=======
+<../figuras/sinto_prueba20_21_13.png, id=1624, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/sinto_prueba20_21_13.png Graphic file (type png)
 <use ../figuras/sinto_prueba20_21_13.png>
 Package pdftex.def Info: ../figuras/sinto_prueba20_21_13.png  used on input lin
-e 1608.
+e 1609.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [105
 
@@ -2656,28 +2965,48 @@ ation with the same identifier (name{Urubamba<1>}) has been already used, dupli
 cate ignored
 <to be read again> 
                    \relax 
+<<<<<<< Updated upstream
 l.1617 \end{frame}
                   pdfTeX warning (ext4): destination with the same identifier (
 name{Urubamba}) has been already used, duplicate ignored
+=======
+l.1618 \end{frame}
+                  
+pdfTeX warning (ext4): destination with the same identifier (name{Urubamba}) ha
+s been already used, duplicate ignored
+>>>>>>> Stashed changes
 <to be read again> 
                    \relax 
-l.1617 \end{frame}
+l.1618 \end{frame}
                   
+<<<<<<< Updated upstream
 <../figuras/incidencia_mortalidad_20_21_13.png, id=1635, 580.1675pt x 422.57875
+=======
+<../figuras/incidencia_mortalidad_20_21_13.png, id=1634, 580.1675pt x 422.57875
+>>>>>>> Stashed changes
 pt>
 File: ../figuras/incidencia_mortalidad_20_21_13.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_13.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_13.png  used on
- input line 1617.
+ input line 1618.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
+<<<<<<< Updated upstream
  [106
 
  <../figuras/incidencia_mortalidad_20_21_13.png (PNG copy)>]
 <../figuras/positividad_20_21_13.png, id=1643, 580.1675pt x 422.57875pt>
+=======
+LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 1618.
+ [106
+
+ <../figuras/incidencia_mortalidad_20_21_13.png (PNG copy)>]
+<../figuras/positividad_20_21_13.png, id=1642, 580.1675pt x 422.57875pt>
+>>>>>>> Stashed changes
 File: ../figuras/positividad_20_21_13.png Graphic file (type png)
 <use ../figuras/positividad_20_21_13.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_13.png  used on input lin
-e 1626.
+e 1627.
 (pdftex.def)             Requested size: 245.83282pt x 170.61603pt.
  [107
 
@@ -2685,10 +3014,14 @@ e 1626.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_13.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/exceso_13.pdf, id=1651, 397.485pt x 289.08pt>
+=======
+<../figuras/exceso_13.pdf, id=1650, 397.485pt x 289.08pt>
+>>>>>>> Stashed changes
 File: ../figuras/exceso_13.pdf Graphic file (type pdf)
 <use ../figuras/exceso_13.pdf>
-Package pdftex.def Info: ../figuras/exceso_13.pdf  used on input line 1637.
+Package pdftex.def Info: ../figuras/exceso_13.pdf  used on input line 1638.
 (pdftex.def)             Requested size: 245.83282pt x 166.47285pt.
 [108
 
@@ -2696,11 +3029,15 @@ Package pdftex.def Info: ../figuras/exceso_13.pdf  used on input line 1637.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_distrital_cusco.pdf): P
 DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/variantes_distrital_cusco.pdf, id=1680, 478.14204pt x 289.08pt>
+=======
+<../figuras/variantes_distrital_cusco.pdf, id=1679, 478.14204pt x 289.08pt>
+>>>>>>> Stashed changes
 File: ../figuras/variantes_distrital_cusco.pdf Graphic file (type pdf)
 <use ../figuras/variantes_distrital_cusco.pdf>
 Package pdftex.def Info: ../figuras/variantes_distrital_cusco.pdf  used on inpu
-t line 1648.
+t line 1649.
 (pdftex.def)             Requested size: 199.73653pt x 120.75552pt.
 [109
 
@@ -2708,14 +3045,22 @@ t line 1648.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_distrital.pdf): PDF inc
 lusion: found PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/variantes_distrital.pdf, id=1699, 289.08pt x 337.5748pt>
+=======
+<../figuras/variantes_distrital.pdf, id=1698, 289.08pt x 337.5748pt>
+>>>>>>> Stashed changes
 File: ../figuras/variantes_distrital.pdf Graphic file (type pdf)
 <use ../figuras/variantes_distrital.pdf>
 Package pdftex.def Info: ../figuras/variantes_distrital.pdf  used on input line
- 1658.
+ 1659.
 (pdftex.def)             Requested size: 169.01036pt x 197.3594pt.
 
+<<<<<<< Updated upstream
 Overfull \vbox (13.28629pt too high) detected at line 1658
+=======
+Overfull \vbox (11.67006pt too high) detected at line 1659
+>>>>>>> Stashed changes
  []
 
 [110
@@ -2724,14 +3069,25 @@ Overfull \vbox (13.28629pt too high) detected at line 1658
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_provincial_lambda.pdf):
  PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/variantes_provincial_lambda.pdf, id=1717, 289.08pt x 337.5748pt>
+=======
+<../figuras/variantes_provincial_lambda.pdf, id=1716, 289.08pt x 337.5748pt>
+>>>>>>> Stashed changes
 File: ../figuras/variantes_provincial_lambda.pdf Graphic file (type pdf)
 <use ../figuras/variantes_provincial_lambda.pdf>
 Package pdftex.def Info: ../figuras/variantes_provincial_lambda.pdf  used on in
-put line 1668.
+put line 1669.
 (pdftex.def)             Requested size: 169.01036pt x 197.3594pt.
+<<<<<<< Updated upstream
 
 Overfull \vbox (13.28629pt too high) detected at line 1668
+=======
+LaTeX Font Info:    Font shape `T1/zplTLF/b/n' will be
+(Font)              scaled to size 14.4pt on input line 1669.
+
+Overfull \vbox (11.67006pt too high) detected at line 1669
+>>>>>>> Stashed changes
  []
 
 [111
@@ -2740,14 +3096,22 @@ Overfull \vbox (13.28629pt too high) detected at line 1668
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_provincial_gamma.pdf): 
 PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/variantes_provincial_gamma.pdf, id=1735, 289.08pt x 337.5748pt>
+=======
+<../figuras/variantes_provincial_gamma.pdf, id=1734, 289.08pt x 337.5748pt>
+>>>>>>> Stashed changes
 File: ../figuras/variantes_provincial_gamma.pdf Graphic file (type pdf)
 <use ../figuras/variantes_provincial_gamma.pdf>
 Package pdftex.def Info: ../figuras/variantes_provincial_gamma.pdf  used on inp
-ut line 1678.
+ut line 1679.
 (pdftex.def)             Requested size: 169.01036pt x 197.3594pt.
 
+<<<<<<< Updated upstream
 Overfull \vbox (13.28629pt too high) detected at line 1678
+=======
+Overfull \vbox (11.67006pt too high) detected at line 1679
+>>>>>>> Stashed changes
  []
 
 [112
@@ -2756,14 +3120,22 @@ Overfull \vbox (13.28629pt too high) detected at line 1678
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_provincial_delta.pdf): 
 PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/variantes_provincial_delta.pdf, id=1753, 289.08pt x 337.5748pt>
+=======
+<../figuras/variantes_provincial_delta.pdf, id=1752, 289.08pt x 337.5748pt>
+>>>>>>> Stashed changes
 File: ../figuras/variantes_provincial_delta.pdf Graphic file (type pdf)
 <use ../figuras/variantes_provincial_delta.pdf>
 Package pdftex.def Info: ../figuras/variantes_provincial_delta.pdf  used on inp
-ut line 1688.
+ut line 1689.
 (pdftex.def)             Requested size: 169.01036pt x 197.3594pt.
 
+<<<<<<< Updated upstream
 Overfull \vbox (13.28629pt too high) detected at line 1688
+=======
+Overfull \vbox (11.67006pt too high) detected at line 1689
+>>>>>>> Stashed changes
  []
 
 [113
@@ -2772,14 +3144,22 @@ Overfull \vbox (13.28629pt too high) detected at line 1688
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_provincial_omicron.pdf)
 : PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/variantes_provincial_omicron.pdf, id=1771, 289.08pt x 337.5748pt>
+=======
+<../figuras/variantes_provincial_omicron.pdf, id=1770, 289.08pt x 337.5748pt>
+>>>>>>> Stashed changes
 File: ../figuras/variantes_provincial_omicron.pdf Graphic file (type pdf)
 <use ../figuras/variantes_provincial_omicron.pdf>
 Package pdftex.def Info: ../figuras/variantes_provincial_omicron.pdf  used on i
-nput line 1698.
+nput line 1699.
 (pdftex.def)             Requested size: 169.01036pt x 197.3594pt.
 
+<<<<<<< Updated upstream
 Overfull \vbox (13.28629pt too high) detected at line 1698
+=======
+Overfull \vbox (11.67006pt too high) detected at line 1699
+>>>>>>> Stashed changes
  []
 
 [114
@@ -2808,6 +3188,7 @@ Here is how much of TeX's memory you used:
  58924 multiletter control sequences out of 15000+600000
  470398 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
+<<<<<<< Updated upstream
  128i,11n,122p,709b,757s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{provincias} has been referenced but does not exis
 t, replaced by a fixed one
@@ -2829,6 +3210,32 @@ iKTeX2/fonts/type1/public/newpx/npxsups-Regular.pfb>
 Output written on sala_covid.pdf (114 pages, 9003527 bytes).
 PDF statistics:
  1925 PDF objects out of 2073 (max. 8388607)
+=======
+ 128i,11n,122p,708b,777s stack positions out of 10000i,1000n,20000p,200000b,80000s
+
+pdfTeX warning (dest): name{provincias} has been referenced but does not exist,
+ replaced by a fixed one
+
+{C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc
+}{C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C
+:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{
+C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtx/ntx-ec-tlf.
+enc}{C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newpx/npxsup
+s_T1.enc}<C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
+mmi10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
+lmmi6.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
+lmr10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
+lmr6.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
+msy10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
+lmsy6.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/symbols/msam10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/newpx/npxsups-Regular.pfb><C:/Users/DEI-02/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/newpx/zplb.pfb><C:/Users/DEI-02/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/newpx/zplr.pfb>
+Output written on sala_covid.pdf (114 pages, 8959215 bytes).
+PDF statistics:
+ 1912 PDF objects out of 2073 (max. 8388607)
+>>>>>>> Stashed changes
  338 named destinations out of 1000 (max. 500000)
  1191 words of extra memory for PDF output out of 10000 (max. 10000000)
 

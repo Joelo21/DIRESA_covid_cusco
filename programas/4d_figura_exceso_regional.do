@@ -49,14 +49,14 @@ text(180 $semana "{it:Exceso:`exceso_actual'}", place(n) box just(left) margin(l
 ********************************************************************************
 * 2022
 drop if semana > $semana
-gen exceso = de_22 - de_19
+gen exceso = de_22 - de_20
 
 *Aqui cambia el # por cada semana#"
-sum exceso if semana == 37
+sum exceso if semana == 38
 local exceso_actual_2 = r(mean)
 
 * Graficamos
-twoway (line de_19 semana, yaxis(1) yscale(range(0) axis(1)) lcolor("$mycolor3")) ///
+twoway (line de_20 semana, yaxis(1) yscale(range(0) axis(1)) lcolor("$mycolor3")) ///
 (line de_22 semana, yaxis(1) yscale(range(0) axis(1)) lcolor("$mycolor2")) ///
 if semana>=1 & semana <=52 ///
   ,xtitle("Semanas Epidemológicas", size(*0.9)) ///
@@ -64,7 +64,7 @@ if semana>=1 & semana <=52 ///
   xlabel(1(4)53, labsize(*0.8)) ///
   ylabel(0(100)400, labsize(*0.8)) ///
   graphregion(color(white)) ///
-  legend(label(1 "2019") label(2 "2022") size(*0.8) region(col(white))) ///
+  legend(label(1 "2020") label(2 "2022") size(*0.8) region(col(white))) ///
 name(de22, replace) ///
 title("2022", box bexpand bcolor("$mycolor3") color(white)) ///
 bgcolor(white) xlabel(, nogrid) ylabel(, nogrid) ///

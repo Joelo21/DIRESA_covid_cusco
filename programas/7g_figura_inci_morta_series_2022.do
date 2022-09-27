@@ -3,7 +3,7 @@ use "${datos}\output\data_series_provincias.dta", clear
 drop if fecha_resultado < d(02jan2022)
 gen semana = 1 if fecha_resultado >= d(02jan2022) & fecha_resultado <= d(08jan2022)
 replace semana = semana[_n-7] + 1 if fecha > d(08jan2022)
-drop if semana > 35
+drop if semana > 38
 
 collapse (max) total_positivo_* total_defuncion_*, by(semana)
 

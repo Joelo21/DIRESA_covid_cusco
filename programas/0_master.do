@@ -27,8 +27,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 19Sep2022
-global semana 89
+global fecha 26Sep2022
+global semana 90
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -84,7 +84,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-
+/*
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -145,6 +145,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
 	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
 
+
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	do "programas/2d_series_semanales_region" // Generar datos semanales region
 	*do "programas/2d_series_semanales_region_2022"--
@@ -188,14 +189,14 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\5d_figura_sub_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
 
-x
+
 * 6. Vacunados
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"
 	do "programas\6c_figura_vacunacion_provincias"
+*/
 
 
-/*
 * 7. Figuras para el "Boletin COVID-19" Mensual
 	do "programas\7a_base_noticovid_2021_variables"
 	*do "programas\7b_base_siscovid_pr_2021_variables"

@@ -13,8 +13,8 @@ drop if semana > 55
 
 * Generar los excesos para cada semana epidemiológica y para cada provincia
 forvalues t=1/13 {
-gen exceso_`t' = d22_`t' - d19_`t'
-sum exceso_`t' if semana == 37
+gen exceso_`t' = d22_`t' - d20_`t'
+sum exceso_`t' if semana == 38
 local exceso_prov_`t' = r(mean)
 }
 
@@ -55,7 +55,7 @@ if semana>=1 & semana <=53 ///
 
 * 2021
 * Graficamos 
-twoway (line d19_`i' semana, lcolor("$mycolor3")) ///
+twoway (line d20_`i' semana, lcolor("$mycolor3")) ///
 (line d21_`i' semana, lcolor("$mycolor6") lpattern(solid) ) ///
 if semana>=1 & semana <=52 ///
   ,xtitle("Semanas Epidemológicas", size(*0.9)) ///
@@ -64,7 +64,7 @@ if semana>=1 & semana <=52 ///
   ylabel(0(`division')`maximo', labsize(*0.8)) ///
   graphregion(color(white)) ///
   name(p21_`i', replace) ///
-  legend(label(1 "2019") label(2 "2021") size(*0.6) region(col(white))) ///
+  legend(label(1 "2020") label(2 "2021") size(*0.6) region(col(white))) ///
   title("2021", box bexpand bcolor("$mycolor3") color(white)) ///
   bgcolor(white) xlabel(, nogrid) ylabel(, nogrid) ///
   /* text(`posicion' $semana "{it:Exceso: `exceso_prov_`i''}", place(n) box just(left) margin(l+1 t+1 b+1) width(20) size(small) color(white) bcolor("$mycolor2") fcolor("$mycolor2")) */
@@ -72,7 +72,7 @@ if semana>=1 & semana <=52 ///
  
 * 2022
 * Graficamos 
-twoway (line d19_`i' semana, lcolor("$mycolor3")) ///
+twoway (line d20_`i' semana, lcolor("$mycolor3")) ///
 (line d22_`i' semana, lcolor("$mycolor6") lpattern(solid)) ///
 if semana>=1 & semana <=52 ///
   ,xtitle("Semanas Epidemológicas", size(*0.9)) ///
@@ -81,7 +81,7 @@ if semana>=1 & semana <=52 ///
   ylabel(0(`division')`maximo', labsize(*0.8)) ///
   graphregion(color(white)) ///
   name(p22_`i', replace) ///
-  legend(label(1 "2019") label(2 "2022") size(*0.6) region(col(white))) ///
+  legend(label(1 "2020") label(2 "2022") size(*0.6) region(col(white))) ///
   title("2022", box bexpand bcolor("$mycolor3") color(white)) ///
   bgcolor(white) xlabel(, nogrid) ylabel(, nogrid) ///
   text(`posicion' 49 "{it:Exceso: `exceso_prov_`i''}", place(n) box just(left) margin(l+1 t+1 b+1) width(20) size(small) color(white) bcolor("$mycolor2") fcolor("$mycolor2"))

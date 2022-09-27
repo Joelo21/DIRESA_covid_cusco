@@ -527,3 +527,5 @@ if semana_3 >=1, ///
 	*gr export "figuras\mortalidad_edad_30_2022.pdf", as(pdf) replace
 */
 save "${datos}\output\dashboard_mort_inci.dta", replace
+
+ export delimited using "${datos}\output\dashboard_mortalidad_region.csv", replace

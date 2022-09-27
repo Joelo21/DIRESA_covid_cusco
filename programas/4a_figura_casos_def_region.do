@@ -141,7 +141,7 @@ twoway (line positivo_d semana_3, lcolor("$mycolor6") lwidth(medthick) lpattern(
 
 gr export "figuras\positivos_crecimiento_2021_2022.png", as(png) replace
 gr export "figuras\positivos_crecimiento_2021_2022.pdf", as(pdf) name("positivos_2020_21_22") replace
-*/
+
 ********************************************************************************
 * Curva Total de Casos Positivos Semanales ::  +PR
 ********************************************************************************
@@ -405,4 +405,5 @@ gr export "figuras\positividad_ambas.png", as(png) replace
 graph export "figuras\positividad_ambas.pdf", as(pdf) replace
 
 */
- 
+
+ export delimited using "${datos}\output\dashboard_sintomaticos_20_21_22.csv", replace
