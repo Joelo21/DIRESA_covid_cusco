@@ -163,5 +163,3 @@ tostring defuncion, replace force
 replace defuncion = "Defunción" in 1
 
 save "${datos}\output\base_vacunados_defunciones", replace
-
-

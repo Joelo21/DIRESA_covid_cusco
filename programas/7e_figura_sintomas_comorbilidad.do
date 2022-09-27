@@ -83,6 +83,7 @@ name(sintomas, replace)
 *graph export "figuras\figura_sintoma.png", as(png) name("sintomas") replace
 graph export "figuras\figura_sintoma.pdf", as(pdf) name("sintomas") replace
 
+export delimited using "${datos}\output\dashboard_sintoma.csv", replace
 ********************************************************************************
 use "${datos}\output\data_boletin.dta", clear
 
@@ -153,7 +154,7 @@ name(comorbilidad, replace)
 *graph export "figuras\figura_comorbilidad.png", as(png) name("comorbilidad") replace
 graph export "figuras\figura_comorbilidad.pdf", as(pdf) name("comorbilidad") replace
 
-
+export delimited using "${datos}\output\dashboard_comorbilidades.csv", replace
 ******************************************************************************** 
 * Signos
 use "${datos}\output\data_boletin.dta", clear
@@ -217,3 +218,5 @@ name(signo, replace)
 
 *graph export "figuras\figura_signo.png", as(png) name("signo") replace
 graph export "figuras\figura_signo.pdf", as(pdf) name("signo") replace
+
+export delimited using "${datos}\output\dashboard_signos.csv", replace

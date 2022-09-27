@@ -194,7 +194,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\6a_base_vacunados"
 	do "programas\6b_figura_vacunacion"
 	do "programas\6c_figura_vacunacion_provincias"
-*/
+
 
 
 * 7. Figuras para el "Boletin COVID-19" Mensual
@@ -206,7 +206,12 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\7f_lugar_fallecimiento"
 	*do "programas\7g_figura_inci_morta_series"
 	do "programas\7g_figura_inci_morta_series_2022"
+*/
 
-
+* 8. Figuras Post_Vacunas Altas, Defunciónes, UCI Y NOUCI
+	do "programas/POST_VACUNAS_ALTAS_DEF"
+	do "programas/POST_VACUNAS_HOSPITALIZADOS"
+	do "programas/UNION_POST_VACUNAS"
+	
 timer off 1
 timer list
