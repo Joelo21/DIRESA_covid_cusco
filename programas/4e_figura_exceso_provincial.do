@@ -14,7 +14,7 @@ drop if semana > 55
 * Generar los excesos para cada semana epidemiológica y para cada provincia
 forvalues t=1/13 {
 gen exceso_`t' = d22_`t' - d20_`t'
-sum exceso_`t' if semana == 38
+sum exceso_`t' if semana == 39
 local exceso_prov_`t' = r(mean)
 }
 

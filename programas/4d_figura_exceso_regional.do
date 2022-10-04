@@ -52,7 +52,7 @@ drop if semana > $semana
 gen exceso = de_22 - de_20
 
 *Aqui cambia el # por cada semana#"
-sum exceso if semana == 38
+sum exceso if semana == 39
 local exceso_actual_2 = r(mean)
 
 * Graficamos
@@ -86,4 +86,4 @@ gr export "figuras\exceso_region.png", as(png) replace
 gr export "figuras\exceso_region.pdf", as(pdf) name(exceso_region) replace
 */
 
-save "${datos}\output\dashboard_exc_def.dta", replace
+export delimited using "${datos}\output\dashboard_exceso_regional.csv", replace

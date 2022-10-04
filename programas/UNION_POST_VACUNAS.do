@@ -73,6 +73,5 @@ ylabel(0(20)100, nogrid) ///
 legend(label(1 "No Inmunizados") label(2 "1ra Dosis") label(3 "2da Dosis") label(4 "3ra Dosis")size(*0.8) region(col(white))) name(DEF,replace)
 graph export "figuras\post_vacunas_def.png", as(png) replace
 
-/*
-graph combine UCI HOSP ALT_MED DEF 
-graphregion(color(white)) ///
+
+export delimited using "${datos}\output\dashboard_postvacunas.csv", replace
