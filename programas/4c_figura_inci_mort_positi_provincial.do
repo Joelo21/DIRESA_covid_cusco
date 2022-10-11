@@ -31,7 +31,7 @@ if semana >=11 & semana<=53, ///
 twoway (line mortalidad_`i' semana_2, yaxis(1) ylabel(0(0.5)2) yscale(range(0(0.5)3) axis(1) off) lcolor("$mycolor2")) ///
 (line incidencia_`i' semana_2, lcolor("$mycolor6") yaxis(2) yscale(axis(2)) ylabel(0(50)200, axis(2))) ///
 if semana_2 >=1 & semana_2<=$semana, ///
-	tlabel(1(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17" 73 "21" 77 "25" 81 "29" 85 "33" 89 "37", labsize(*0.75)) ///
+	tlabel(1(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17" 73 "21" 77 "25" 81 "29" 85 "33" 89 "37" 93 "41", labsize(*0.75)) ///
 	xtitle("Semanas Epidemológicas", size(*0.7)) ///
 	graphregion(color(white)) ///
 	legend(label(1 "Mortalidad") label(2 "Incidencia") size(*0.75) region(col(white))) ///
@@ -73,7 +73,7 @@ if semana >=11 & semana <=53, ///
 twoway (line positividad_pcr_`i' semana_2, lcolor("$mycolor5")  lpattern(shortdash)) ///
 (line positividad_ag_`i' semana_2,  lcolor("$mycolor3")  lpattern(shortdash)) ///
 if semana_2 >=1 & semana_2<=$semana, ///
-	tlabel(1(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17" 73 "21" 77 "25" 81 "29" 85 "33" 89 "37", labsize(*0.75)) ///
+	tlabel(1(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17" 73 "21" 77 "25" 81 "29" 85 "33" 89 "37" 93 "41", labsize(*0.75)) ///
 	ylabel(0(20)100) ///
 	xtitle("Semanas Epidemológicas", size(*0.7)) ///
 	ytitle("Tasa de Positividad") ///
@@ -101,7 +101,7 @@ twoway (scatter positivo_prueba_pcr_`i' semana_2, msize(vsmall) mcolor("$mycolor
 (scatter positivo_prueba_ag_`i' semana_2, msize(vsmall) mcolor("$mycolor3") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor3") ) ///
 if semana_2>=1 & semana_2<=$semana, ///
 	ylabel(0(50)600, labsize(*0.6)) ///
-	tlabel(1(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17" 73 "21" 77 "25" 81 "29" 85 "33" 89 "37", labsize(*0.75)) ///
+	tlabel(1(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17" 73 "21" 77 "25" 81 "29" 85 "33" 89 "37" 93 "41", labsize(*0.75)) ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("") ///
 	graphregion(color(white)) ///
@@ -120,7 +120,7 @@ twoway (scatter positivo_prueba_pcr_`i' semana_2, msize(vsmall) mcolor("$mycolor
 (scatter positivo_prueba_ag_`i' semana_2, msize(vsmall) mcolor("$mycolor3") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor3") ) ///
 if semana_2>=1 & semana_2<=$semana, ///
 	ylabel(0(1000)10000, labsize(*0.6)) ///
-	tlabel(1(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17" 73 "21" 77 "25" 81 "29" 85 "33" 89 "37", labsize(*0.75)) ///
+	tlabel(1(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17" 73 "21" 77 "25" 81 "29" 85 "33" 89 "37" 93 "41", labsize(*0.75)) ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("") ///
 	graphregion(color(white)) ///
@@ -138,7 +138,7 @@ twoway (scatter positivo_prueba_pcr_`i' semana_2, msize(vsmall) mcolor("$mycolor
 (scatter positivo_prueba_ag_`i' semana_2, msize(vsmall) mcolor("$mycolor3") msymbol(Th)  connect(dash) lpattern(dash) lcolor("$mycolor3") ) ///
 if semana_2>=1 & semana_2<=$semana, ///
 	ylabel(0(500)3000, labsize(*0.6)) ///
-	tlabel(1(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17" 73 "21" 77 "25" 81 "29" 85 "33" 89 "37", labsize(*0.75)) ///
+	tlabel(1(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17" 73 "21" 77 "25" 81 "29" 85 "33" 89 "37" 93 "41", labsize(*0.75)) ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("") ///
 	graphregion(color(white)) ///

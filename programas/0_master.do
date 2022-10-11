@@ -27,7 +27,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 05Oct2022
+global fecha 11Oct2022
 global semana 92
 
 * Tiempo de corrida: alrededor de 7 minutos
@@ -84,7 +84,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
 
-
+/*
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -111,27 +111,18 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 * 2. Generar datos a nivel regional y provincial
 	do "programas/2a_series_diarias_region"
-	*do "programas/2a_series_diarias_region_2022"
-
 	do "programas/2b_series_diarias_provincias"
-	*do "programas/2b_series_diarias_provincias_2022"
-
 	do "programas/2c_panel_diario_provincias"
-	*do "programas/2c_panel_diario_provincias_2022"
 
 * 3. Figuras para la "Sala Situacional COVID-19" diaria 
 	*do "programas/3a_figura_etapa_vida"--
 	do "programas/3a_figura_etapa_vida_2022"
 
 	*do "programas/3b_figura_inci_morta_diario"--
-	do "programas/3b_figura_inci_morta_diario_2022" 
-
+	do "programas/3b_figura_inci_morta_diario_2022"
+	
 	do "programas/3c_figura_positividad"
-	*do "programas/3c_figura_positividad_2022"--
-
 	do "programas/3d_figura_promedio_casos_def"
-	*do "programas/3d_figura_promedio_casos_def_2022"--
-
 	do "programas/3e_sintomaticos"
 
 	* Para la actualización del Dashboard COVID-19 en la página web
@@ -144,18 +135,13 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	* Ocupación de camas (semanalmente)
 	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
 	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
-x
+
 
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	do "programas/2d_series_semanales_region" // Generar datos semanales region
-	*do "programas/2d_series_semanales_region_2022"--
-
 	do "programas/4a_figura_casos_def_region"
-	*do "programas/4a_figura_casos_def_region_2022"--
-
 	do "programas/4b_figura_mort_edad_region"
-	*do "programas/4b_figura_mort_edad_region_2022"--
-
+	
 	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	do "programas/4c_figura_inci_mort_positi_provincial"
 
@@ -166,6 +152,7 @@ x
 
 	do "programas/4d_figura_exceso_regional"
 	do "programas/4e_figura_exceso_provincial"
+
 
 	* Graficos Hospitalización
 	do "programas/4f_figuras_hospitales"
@@ -179,8 +166,8 @@ x
 	*do "programas/4j_datos_altas_fallecidos_vacunados"
 	
 	* Tabla cero defunciones
-	**do "programas\4z_tabla_cero_defunciones.do"
-x
+	do "programas\4z_tabla_cero_defunciones.do"
+
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
@@ -189,15 +176,15 @@ x
 	do "programas\5d_figura_sub_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
 
-*/
+
 * 6. Vacunados
 	*do "programas\6a_base_vacunados"
 	*do "programas\6b_figura_vacunacion"
 	*do "programas\6c_figura_vacunacion_provincias"
 	do "programas\6d_vacunacion"
 	do "programas\6e_vacunacion_provincias" 
-/*
 
+/*
 * 7. Figuras para el "Boletin COVID-19" Mensual
 	do "programas\7a_base_noticovid_2021_variables"
 	*do "programas\7b_base_siscovid_pr_2021_variables"
@@ -207,11 +194,16 @@ x
 	do "programas\7f_lugar_fallecimiento"
 	*do "programas\7g_figura_inci_morta_series"
 	do "programas\7g_figura_inci_morta_series_2022"
-
+*/
+	
 * 8. Figuras Post_Vacunas Altas, Defunciónes, UCI Y NOUCI
-	do "programas/POST_VACUNAS_ALTAS_DEF"
-	do "programas/POST_VACUNAS_HOSPITALIZADOS"
-	do "programas/UNION_POST_VACUNAS"
+	do "programas/8a_Post_Vacunas_Altas_Def"
+	do "programas/8b_Post_Vacunas_Hospitalizados"
+	do "programas/8c_Union_Post_Vacunas_Graph"
+*/
+
+* 9. Tablas
+	do "programas/9a_Tablas_Curso_Vida"
 	
 timer off 1
 timer list

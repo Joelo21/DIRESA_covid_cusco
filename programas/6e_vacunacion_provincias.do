@@ -207,7 +207,7 @@ use "${datos}\output\vacunacion_practica_provincias_graficos", clear
 	bar(2, color("$mycolor3")) ///
 	bar(3, color("$mycolor7")) ///
 	ytitle("Porcentaje (%)", size(4.2)) ///
-	b1title("Provincias", size(4.2)) ///
+	b1title("Grupos Etarios", size(4.2)) ///
 	ylabel(0(50)150, nogrid) ///
 	legend(cols(3) label(1 "1ra Dosis") label(2 "2da Dosis") label(3 "3ra Dosis") size(*0.8) region(col(white))) ///
 	name(vacunacion__provincias_`i', replace)
@@ -216,4 +216,4 @@ use "${datos}\output\vacunacion_practica_provincias_graficos", clear
 	graph export "figuras\vacunacion__provincias_`i'.png", as(png) replace
 	}
 
-*export delimited using "${datos}\output\dashboard_vacunacion_grupos_edades.csv", replace
+export delimited using "${datos}\output\dashboard_vacunacion_grupos_edades.csv", replace

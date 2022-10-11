@@ -85,7 +85,7 @@ restore
 use "${datos}\temporal\defuncion_semanal_region_2020", clear
 merge 1:1 semana using "${datos}\temporal\defuncion_semanal_region_2021", nogen
 merge 1:1 semana using "${datos}\temporal\defuncion_semanal_region_2022", nogen
-drop if semana > 39 | semana == 0
+drop if semana > 40 | semana == 0
 
 * Guardar la base de datos
 save "${datos}\output\defunciones_totales_2020_2021.dta", replace
