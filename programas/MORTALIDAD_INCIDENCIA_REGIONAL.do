@@ -43,7 +43,6 @@ if semana_2 >=1 & semana_2<=$semana, ///
 	name(mortalidad_incidencia_2021, replace)
 	
 *2022
-
 twoway (line mortalidad_regional semana_3, yaxis(2) yscale(axis(2)) ylabel(0(100)500,axis(2)) lcolor("$mycolor2")) ///
 (line incidencia_regional semana_3, lcolor("$mycolor6") ytitle(" ")) ///
 if semana_3 >=1 & semana_3<=53, ///

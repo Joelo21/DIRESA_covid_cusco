@@ -27,8 +27,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 11Oct2022
-global semana 92
+global fecha 12Oct2022
+global semana 93
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -83,8 +83,10 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 4. Referencias y Contrareferencias: ocupación de camas UCI, no-UCI, UCIN, en los hospitales de la Región
 ** 5. SICOVAC-HIS, MINSA: vacunación COVID-19
 ** 6. NETLAB, UNSAAC, UPCH: laboratorios que secuencian las variantes de COVID-19
+** 7. GRAFICOS DE BOLETIN: graficos presentes en el boletin mensual.
+** 8. POSTVACUNADOS: graficos post-vacunas semanales.
+** 9. TABLAS: tabla curso de vida 2020 - 2022 semana.
 
-/*
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -127,13 +129,11 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard" 
-
+x
 	** Cambiar la dirección si es necesario
 	*CASA
-	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
 	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
 	* Ocupación de camas (semanalmente)
-	*do "C:\Users\user\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
 	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
 
 
