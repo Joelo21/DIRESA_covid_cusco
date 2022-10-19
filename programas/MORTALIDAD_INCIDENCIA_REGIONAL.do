@@ -55,4 +55,3 @@ if semana_3 >=1 & semana_3<=53, ///
 	title("2020", box bexpand bcolor("$mycolor3") color(white)) ///
 	bgcolor(white) ///	
 	name(mortalidad_incidencia_2022, replace)
-*/
