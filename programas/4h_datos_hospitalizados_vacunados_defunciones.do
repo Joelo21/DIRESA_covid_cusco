@@ -10,8 +10,25 @@
 *HOSPITALIZADOS Y CON VACUNAS
 ********************************************************************************
 * Importar la base de datos Hospitalizados
-import excel "${datos}\raw\base_hospitalizados.xlsx",firstrow sheet(Hoja1) clear
-rename DNI dni
+import excel "${datos}\raw\base_hospitalizados.xls", firstrow cellrange(A6:X500) sheet(HOSPITALIZADOS) clear
+
+*Changes Names Columnn's
+rename A N°
+rename B INSTITUCIÓN
+rename C REGIONES
+rename D HOSPITAL
+rename E NOMBRE_Y_APELLIDOS
+rename F TIPODOC
+rename G dni
+rename H EDAD
+rename I SEXO
+rename J TIPO_SEGURO
+rename K RESULTADO_PRUEBAS
+rename U FECHA_DE_INGRESO
+rename V FECHA_Y_HORA_SEGUIMIENTO
+rename W AMBIENTE
+rename X FECHA_DE_NACIMIENTO
+
 gen Hospitalizados = 1
 
 *Guardar
@@ -19,8 +36,8 @@ save "${datos}\output\base_hospitalizados.dta", replace
 ********************************************************************************
 *Uniendo Base Hospitalizados y Base Vacunados
 ********************************************************************************
-use "${datos}\output\base_vacunados.dta", clear
-merge m:1 dni using "${datos}\output\base_hospitalizados.dta",nogen
+use "${datos}\output\base_vacunados_practica.dta", clear
+merge m:m dni using "${datos}\output\base_hospitalizados.dta",nogen
 
 drop if Hospitalizados != 1
 gen ESTADOVACUNA =.

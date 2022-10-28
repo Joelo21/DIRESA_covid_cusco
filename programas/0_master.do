@@ -27,8 +27,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 25Oct2022
-global semana 94
+global fecha 28Oct2022
+global semana 95
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -129,7 +129,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard" 
-
+x
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
@@ -160,10 +160,10 @@ x
 	*Data Hospitalizados diarios
 	*do "programas/4g_figuras_hospitalizados"
 	
-	*Hospitalizados - Fallecidos - AltasMedicas - Vacunados
-	*do "programas/4h_datos_hospitalizados_vacunados_defunciones"
-	*do "programas/4i_datos_fallecidos_vacunados"
-	*do "programas/4j_datos_altas_fallecidos_vacunados"
+	*Hospitalizados - Fallecidos - AltasMedicas - Vacunados "SOLO DATOS"
+	do "programas/4h_datos_hospitalizados_vacunados_defunciones"
+	do "programas/4i_datos_fallecidos_vacunados"
+	do "programas/4j_datos_altas_fallecidos_vacunados"
 	
 x
 * 5. Secuenciamiento

@@ -11,7 +11,7 @@
 ********************************************************************************
 use "${datos}\output\base_sinadef_2022.dta", clear
 gen fallecidos = 1
-merge m:m dni using "${datos}\output\base_vacunados.dta", nogen
+merge m:m dni using "${datos}\output\base_vacunados_practica.dta", nogen
 
 
 *Limpiando Datos Obtener datos 2022
@@ -46,7 +46,7 @@ gen total_fallecidos = sum(fallecidos)
 */
 
 save "${datos}\output\base_fallecidos_vacunados.dta", replace
-
+/*
 ***********************************************************************************
 **Suma
 use "${datos}\output\base_fallecidos_vacunados.dta", clear
