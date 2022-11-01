@@ -8,16 +8,16 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
 	*****CASA******
-	*global path "C:\Users\user\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\Joelo\Documents\GitHub\GERESA_covid_cusco"
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	global datos "H:\Mi unidad\Datos"
+	*global datos "H:\Mi unidad\Datos"
 	****CASA****** 
-	*global datos "E:\Mi unidad\Datos"
+	global datos "H:\Mi unidad\Datos"
 	
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -27,7 +27,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 28Oct2022
+global fecha 01Nov2022
 global semana 95
 
 * Tiempo de corrida: alrededor de 7 minutos
