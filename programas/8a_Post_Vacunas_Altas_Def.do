@@ -113,7 +113,7 @@ restore
 
 *1 Dosis
 preserve
-**#
+
 ge numero = _n
 collapse (count) numero if dosis == 1, by (defuncion)
 rename numero dosis_01

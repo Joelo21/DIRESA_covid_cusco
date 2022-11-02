@@ -52,7 +52,7 @@ drop if semana > $semana
 gen exceso = de_22 - de_20
 
 *Aqui cambia el # por cada semana#"
-sum exceso if semana == 40
+sum exceso if semana == 43
 local exceso_actual_2 = r(mean)
 
 * Graficamos

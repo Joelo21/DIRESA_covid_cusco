@@ -56,7 +56,7 @@ twoway (line positividad_pcr semana, lcolor("$mycolor6") lwidth(medthick)) ///
   ,xtitle("Semanas Epidemiológicas", size(*0.6)) ///
   ytitle("Tasa de Positividad (%)", size(*0.6)) ///
   ylabel(0(10)80, labsize(*0.60)) ///
-  xlabel(32(2)$semana 54 "2" 56 "4" 58 "6" 60 "8" 62 "10" 64 "12" 66 "14" 68 "16" 70 "18" 72 "20" 74 "22" 76 "24" 78 "26" 80 "28" 82 "30" 84 "32" 86 "34" 88 "36" 90 "38" 92 "40" 94 "42", labsize(*0.60)) ///
+  xlabel(32(2)$semana 54 "2" 56 "4" 58 "6" 60 "8" 62 "10" 64 "12" 66 "14" 68 "16" 70 "18" 72 "20" 74 "22" 76 "24" 78 "26" 80 "28" 82 "30" 84 "32" 86 "34" 88 "36" 90 "38" 92 "40" 94 "42" 96 "44", labsize(*0.60)) ///
   plotregion(fcolor(white) lcolor(white)) ///
   graphregion(fcolor(white) lcolor(white)) ///
   bgcolor(white) ///
