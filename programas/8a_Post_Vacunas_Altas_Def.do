@@ -4,7 +4,11 @@ keep dni dosis fecha_ultima_vacuna
 save "${datos}\output\base_vacunados_practica_eddie", replace
 ********************************************************************************
 ***Base Hospitalizados
-import excel "${datos}\raw\base_altas_medicas.xlsx", sheet("Hoja1") firstrow clear
+import excel "${datos}\raw\base_altas_medicas.xls",firstrow cellrange(A3:P10000) sheet(ALTA MÉDICA) clear
+
+*Eliminando datos vacios
+drop if N == .
+
 rename Numerodedocumento dni
 rename Edad edad
 rename FECHADEINGRESO fecha_ingreso

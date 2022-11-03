@@ -28,7 +28,7 @@ set more off
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
 global fecha 02Nov2022
-global semana 96
+global semana 95
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -87,6 +87,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 8. POSTVACUNADOS: graficos post-vacunas semanales.
 ** 9. TABLAS: tabla curso de vida 2020 - 2022 semana.
 
+/*
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -129,7 +130,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard" 
-x
+
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
@@ -165,9 +166,7 @@ x
 	do "programas/4i_datos_fallecidos_vacunados"
 	do "programas/4j_datos_altas_fallecidos_vacunados"
 	
-X
-*/
-/*
+
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
@@ -194,14 +193,14 @@ X
 	do "programas\7f_lugar_fallecimiento"
 	*do "programas\7g_figura_inci_morta_series"
 	do "programas\7g_figura_inci_morta_series_2022"
-
+/*
 
 * 8. Figuras Post_Vacunas Altas, Defunciónes, UCI Y NOUCI
 	do "programas/8a_Post_Vacunas_Altas_Def"
 	do "programas/8b_Post_Vacunas_Hospitalizados"
 	do "programas/8c_Union_Post_Vacunas_Graph"
 
-*/
+
 * 9. Tablas
 	do "programas/9a_Tablas_Curso_Vida"
 	do "programas\4z_tabla_cero_defunciones.do"
