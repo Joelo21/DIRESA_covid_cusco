@@ -20,7 +20,7 @@ blabel(bar, size(vsmall) format(%4.1f)) ///
 ytitle("Porcentaje (%)")  ///
 ylabel(0(20)100, nogrid) ///
 legend(label(1 "No Inmunizados") label(2 "1ra Dosis") label(3 "2da Dosis") label(4 "3ra Dosis")size(*0.8) region(col(white))) name(UCI,replace)
-graph export "figuras\post_vacunas_uci", as(png) replace
+graph export "figuras\post_vacunas_uci.png", as(png) replace
 
 *Grafico
 graph bar vh_0 vh_1 vh_2 vh_3, over(hospitalizados) stack ///
@@ -37,7 +37,7 @@ blabel(bar, size(vsmall) format(%4.1f)) ///
 ytitle("Porcentaje (%)") ///
 ylabel(0(20)100, nogrid) ///
 legend(label(1 "No Inmunizados") label(2 "1ra Dosis") label(3 "2da Dosis") label(4 "3ra Dosis")size(*0.8) region(col(white))) name(HOSP,replace)
-graph export "figuras\post_vacunas_hosp", as(png) replace
+graph export "figuras\post_vacunas_hosp.png", as(png) replace
 
 * Grafico
 graph bar Alta_Medica_0 Alta_Medica_1 Alta_Medica_2 Alta_Medica_3 , over(Alta_Medica) stack ///
@@ -54,7 +54,7 @@ blabel(bar, size(vsmall) format(%4.1f)) ///
 ytitle("Porcentaje (%)") ///
 ylabel(0(20)100, nogrid) ///
 legend(label(1 "No Inmunizados") label(2 "1ra Dosis") label(3 "2da Dosis") label(4 "3ra Dosis")size(*0.8) region(col(white))) name(ALT_MED,replace)
-graph export "figuras\post_vacunas_altmed", as(png) replace
+graph export "figuras\post_vacunas_altmed.png", as(png) replace
 
 * Grafico
 graph bar defuncion_0 defuncion_1 defuncion_2 defuncion_3 , over(defuncion) stack ///
@@ -71,7 +71,7 @@ blabel(bar, size(vsmall) format(%4.1f)) ///
 ytitle("Porcentaje (%)") ///
 ylabel(0(20)100, nogrid) ///
 legend(label(1 "No Inmunizados") label(2 "1ra Dosis") label(3 "2da Dosis") label(4 "3ra Dosis")size(*0.8) region(col(white))) name(DEF,replace)
-graph export "figuras\post_vacunas_def", as(png) replace
+graph export "figuras\post_vacunas_def.png", as(png) replace
 
 
 export delimited using "${datos}\output\dashboard_postvacunas.csv", replace

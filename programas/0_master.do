@@ -8,16 +8,16 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
 	*****CASA******
-	*global path "C:\Users\Joelo\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\Joelo\Documents\GitHub\GERESA_covid_cusco"
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	global datos "H:\Mi unidad\Datos"
-	****CASA****** 
 	*global datos "H:\Mi unidad\Datos"
+	****CASA****** 
+	global datos "H:\Mi unidad\Datos"
 	
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -181,7 +181,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas\6c_figura_vacunacion_provincias"
 	do "programas\6d_vacunacion"
 	do "programas\6e_vacunacion_provincias" 
-*/
+
 
 
 * 7. Figuras para el "Boletin COVID-19" Mensual
@@ -193,14 +193,14 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\7f_lugar_fallecimiento"
 	*do "programas\7g_figura_inci_morta_series"
 	do "programas\7g_figura_inci_morta_series_2022"
-/*
+*/
 
 * 8. Figuras Post_Vacunas Altas, Defunciónes, UCI Y NOUCI
 	do "programas/8a_Post_Vacunas_Altas_Def"
 	do "programas/8b_Post_Vacunas_Hospitalizados"
 	do "programas/8c_Union_Post_Vacunas_Graph"
 
-
+/*
 * 9. Tablas
 	do "programas/9a_Tablas_Curso_Vida"
 	do "programas\4z_tabla_cero_defunciones.do"
