@@ -32,6 +32,11 @@ replace semana_2 = . if semana_2 < 0
 
 label var semana_2 "Semana"
 
+*Generar las semanas epidemiologicas del 2022
+gen semana_3 = .
+replace semana_3 = semana_2 - 53
+replace semana_3 = . if semana_3 < 0
+
 *save "datos/temporal/data_semanal_`i'.dta", replace
 
 * Mortalidad e Incidencia

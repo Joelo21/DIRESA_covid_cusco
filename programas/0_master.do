@@ -8,16 +8,16 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	*global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
 	*****CASA******
-	global path "C:\Users\Joelo\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\Joelo\Documents\GitHub\GERESA_covid_cusco"
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	*global datos "H:\Mi unidad\Datos"
-	****CASA****** 
 	global datos "H:\Mi unidad\Datos"
+	****CASA****** 
+	*global datos "H:\Mi unidad\Datos"
 	
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -27,8 +27,8 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 02Nov2022
-global semana 95
+global fecha 07Nov2022
+global semana 96
 
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
@@ -87,7 +87,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 8. POSTVACUNADOS: graficos post-vacunas semanales.
 ** 9. TABLAS: tabla curso de vida 2020 - 2022 semana.
 
-/*
+
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -154,7 +154,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/4d_figura_exceso_regional"
 	do "programas/4e_figura_exceso_provincial"
 
-
+x
 	* Graficos Hospitalización
 	do "programas/4f_figuras_hospitales"
 
@@ -174,7 +174,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\5d_figura_secuenciamiento"
 	do "programas\5d_figura_sub_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
-
+*/
 * 6. Vacunados
 	*do "programas\6a_base_vacunados"
 	*do "programas\6b_figura_vacunacion"
@@ -183,7 +183,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\6e_vacunacion_provincias" 
 
 
-
+/*
 * 7. Figuras para el "Boletin COVID-19" Mensual
 	do "programas\7a_base_noticovid_2021_variables"
 	*do "programas\7b_base_siscovid_pr_2021_variables"
@@ -193,7 +193,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\7f_lugar_fallecimiento"
 	*do "programas\7g_figura_inci_morta_series"
 	do "programas\7g_figura_inci_morta_series_2022"
-*/
+
 
 * 8. Figuras Post_Vacunas Altas, Defunciónes, UCI Y NOUCI
 	do "programas/8a_Post_Vacunas_Altas_Def"
@@ -204,6 +204,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 * 9. Tablas
 	do "programas/9a_Tablas_Curso_Vida"
 	do "programas\4z_tabla_cero_defunciones.do"
+*/
 	
 timer off 1
 timer list

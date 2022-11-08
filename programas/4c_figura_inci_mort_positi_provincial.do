@@ -112,6 +112,8 @@ if semana_2>=1 & semana_2<=$semana, ///
 	name(sinto_prueba20_21_`i', replace)
 	gr export "figuras\sinto_prueba20_21_`i'.png", as(png) replace
 	*gr export "figuras\sinto_prueba20_21_`i'", as(pdf) name ("sinto_prueba20_21_`i'") replace
+	
+	export delimited using "${datos}\output\dashboard_provincias_01.csv", replace
 }
 
 * 2021 CUSCO
