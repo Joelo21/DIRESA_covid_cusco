@@ -27,7 +27,7 @@ set more off
 *ssc install estout, replace
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 09Nov2022
+global fecha 16Nov2022
 global semana 97
 
 * Tiempo de corrida: alrededor de 7 minutos
@@ -87,7 +87,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 8. POSTVACUNADOS: graficos post-vacunas semanales.
 ** 9. TABLAS: tabla curso de vida 2020 - 2022 semana.
 
-
+/*
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -130,7 +130,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard" 
-x
+
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
@@ -162,11 +162,11 @@ x
 	*do "programas/4g_figuras_hospitalizados"
 	
 	*Hospitalizados - Fallecidos - AltasMedicas - Vacunados "SOLO DATOS"
-	do "programas/4h_datos_hospitalizados_vacunados_defunciones"
-	do "programas/4i_datos_fallecidos_vacunados"
-	do "programas/4j_datos_altas_fallecidos_vacunados"
+	*do "programas/4h_datos_hospitalizados_vacunados_defunciones"
+	*do "programas/4i_datos_fallecidos_vacunados"
+	*do "programas/4j_datos_altas_fallecidos_vacunados"
 	
-
+x
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"

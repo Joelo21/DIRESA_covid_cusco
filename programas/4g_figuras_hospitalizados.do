@@ -3,11 +3,29 @@
 * Creado el:	  02 de febrero del 2022
 * Actualizado en: 10 de febrero del 2022
 *------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------%
-import excel "${datos}\raw\base_hospitalizados.xlsx", sheet(Hoja1) firstrow clear
+* Importar la base de datos Hospitalizados
+import excel "${datos}\raw\base_hospitalizados.xls", firstrow cellrange(A6:X500) sheet(HOSPITALIZADOS) clear
+
+*Changes Names Columnn's
+rename A N°
+rename B INSTITUCIÓN
+rename C REGIONES
+rename D HOSPITAL
+rename E NOMBRE_Y_APELLIDOS
+rename F TIPODOC
+rename G dni
+rename H EDAD
+rename I SEXO
+rename J TIPO_SEGURO
+rename K RESULTADO_PRUEBAS
+rename U FECHA_DE_INGRESO
+rename V FECHA_Y_HORA_SEGUIMIENTO
+rename W AMBIENTE
+rename X FECHA_DE_NACIMIENTO
 
 gen hospitalizados = 1
 rename EDAD edad
-gen fecha_ingreso = date(FECHADEINGRESO, "DMY")
+gen fecha_ingreso = date(FECHA_DE_INGRESO, "DMY")
 format fecha_ingreso %td
 
 gen grupo_edad_hospitalizados = .
