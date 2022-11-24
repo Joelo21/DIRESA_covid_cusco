@@ -93,6 +93,7 @@ order semana semana_2 semana_3
 
 
 save "${datos}\output\base_hospitalizados.dta", replace
+/*
 ********************************************************************************
 *Graficamos Hospitalizacion 0 < 9 & 10 < 19
 forvalues i=1/9 {
