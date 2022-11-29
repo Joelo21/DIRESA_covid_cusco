@@ -24,12 +24,11 @@ set more off
 *ssc install shp2dta
 *ssc install palettes
 *ssc install colrspace
-*ssc install estout, replace
+*ssc install estout
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 23Nov2022
+global fecha 29Nov2022
 global semana 99
-
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
 
@@ -53,6 +52,7 @@ global mycolor15 "255 6 183"
 global mycolor16 "196 223 170"
 global mycolor17 "15 14 14"
 
+
 colorpalette ///
  "$mycolor1" ///
  "$mycolor2" ///
@@ -72,9 +72,10 @@ colorpalette ///
  "$mycolor16" ///   
  "$mycolor17" /// 
   ,n(17)
-  
+ 
+
 gr export "figuras/paleta_colores.png", as(png) replace
-	
+ 
 * Se analiza los casos, defunciones, ocupación de camas, vacunas, variantes de COVID-19 en la Región Cusco
 * Para ello, se cuenta con distintas fuentes de información 
 ** 1. NOTICOVID: casos por prueba molecular
@@ -87,7 +88,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 8. POSTVACUNADOS: graficos post-vacunas semanales.
 ** 9. TABLAS: tabla curso de vida 2020 - 2022 semana.
 
-
+/*
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -130,7 +131,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard" 
-x
+
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
@@ -157,7 +158,7 @@ x
 */
 	* Graficos Hospitalización
 	do "programas/4f_figuras_hospitales"
-
+*/
 	*Data Hospitalizados diarios
 	*do "programas/4g_figuras_hospitalizados"
 	
@@ -174,7 +175,7 @@ x
 	do "programas\5d_figura_secuenciamiento"
 	do "programas\5d_figura_sub_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
-
+*/
 * 6. Vacunados
 	*do "programas\6a_base_vacunados"
 	*do "programas\6b_figura_vacunacion"
@@ -193,8 +194,8 @@ x
 	do "programas\7f_lugar_fallecimiento"
 	*do "programas\7g_figura_inci_morta_series"
 	do "programas\7g_figura_inci_morta_series_2022"
-*/
-x
+
+
 * 8. Figuras Post_Vacunas Altas, Defunciónes, UCI Y NOUCI
 	do "programas/8a_Post_Vacunas_Altas_Def"
 	do "programas/8b_Post_Vacunas_Hospitalizados"
