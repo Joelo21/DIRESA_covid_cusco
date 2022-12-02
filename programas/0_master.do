@@ -8,16 +8,16 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
 	*****CASA******
-	*global path "C:\Users\Joelo\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\Joelo\Documents\GitHub\GERESA_covid_cusco"
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	global datos "H:\Mi unidad\Datos"
-	****CASA****** 
 	*global datos "H:\Mi unidad\Datos"
+	****CASA****** 
+	global datos "H:\Mi unidad\Datos"
 	
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -167,7 +167,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/4i_datos_fallecidos_vacunados"
 	*do "programas/4j_datos_altas_fallecidos_vacunados"
 
-
+*/
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
@@ -185,7 +185,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\6e_vacunacion_provincias" 
 */
 
-
+/*
 * 7. Figuras para el "Boletin COVID-19" Mensual
 	do "programas\7a_base_noticovid_2021_variables"
 	*do "programas\7b_base_siscovid_pr_2021_variables"
