@@ -3,7 +3,7 @@ use "${datos}\output\data_series_provincias.dta", clear
 drop if fecha_resultado < d(02jan2022)
 gen semana = 1 if fecha_resultado >= d(02jan2022) & fecha_resultado <= d(08jan2022)
 replace semana = semana[_n-7] + 1 if fecha > d(08jan2022)
-drop if semana > 38
+drop if semana > 48
 
 collapse (max) total_positivo_* total_defuncion_*, by(semana)
 
@@ -153,7 +153,7 @@ if semana >=1, ///
 	ytitle("Mortalidad (defunciones/población*10,000)") ///
 	graphregion(color(white)) ///
 	title("2022", box bexpand bcolor("$mycolor3") color(white)) ///
-	legend(label(1 "Acomayo") label(2 "Anta") label(3 "Calca")  label(4 "Canas")  label(5 "Canchis") label(6 "Chumbivilcas")  label(7 "Cusco")  label(8 "Espinar") label(9 "La Convención") label(10 "Quispicanchi") label(11 "Paruro") label(12 "Paucartambo") label(13 "Urubamba") size(*0.75) ring(0) position(2) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(morta_prov, replace)
+	legend(label(1 "Acomayo") label(2 "Anta") label(3 "Calca")  label(4 "Canas")  label(5 "Canchis") label(6 "Chumbivilcas")  label(7 "Cusco")  label(8 "Espinar") label(9 "La Convención") label(10 "Quispicanchi") label(11 "Paruro") label(12 "Paucartambo") label(13 "Urubamba") size(*0.75) ring(0) position(.1) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(morta_prov, replace)
 
 gr export "figuras\mortalidad_provincial.png", as(png) replace
 gr export "figuras\mortalidad_provincial.pdf", as(pdf) replace
@@ -179,7 +179,7 @@ if semana >=1, ///
 	ytitle("Incidencia (casos/población*10,000)") ///
 	graphregion(color(white)) ///
 	title("2022", box bexpand bcolor("$mycolor3") color(white)) ///
-	legend(label(1 "Acomayo") label(2 "Anta") label(3 "Calca")  label(4 "Canas")  label(5 "Canchis") label(6 "Chumbivilcas")  label(7 "Cusco")  label(8 "Espinar") label(9 "La Convención") label(10 "Quispicanchi") label(11 "Paruro") label(12 "Paucartambo") label(13 "Urubamba") size(*0.45) ring(0) position(1) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(inci_provi, replace)
+	legend(label(1 "Acomayo") label(2 "Anta") label(3 "Calca")  label(4 "Canas")  label(5 "Canchis") label(6 "Chumbivilcas")  label(7 "Cusco")  label(8 "Espinar") label(9 "La Convención") label(10 "Quispicanchi") label(11 "Paruro") label(12 "Paucartambo") label(13 "Urubamba") size(*0.45) ring(0) position(.1) bmargin(large) color(gs1) c(1) region(col(white))) legend(size(tiny)) name(inci_provi, replace)
 	
 gr export "figuras\incidencia_provincial_acumulada_2022.png", as(png) replace
 gr export "figuras\incidencia_provincial_acumulada_2022.pdf", as(pdf) replace
