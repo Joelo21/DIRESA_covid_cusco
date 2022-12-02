@@ -8,16 +8,16 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	*global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
 	*****CASA******
-	global path "C:\Users\Joelo\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\Joelo\Documents\GitHub\GERESA_covid_cusco"
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	*global datos "H:\Mi unidad\Datos"
-	****CASA****** 
 	global datos "H:\Mi unidad\Datos"
+	****CASA****** 
+	*global datos "H:\Mi unidad\Datos"
 	
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -137,7 +137,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
 	* Ocupación de camas (semanalmente)
 	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
-
+*/
 
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	do "programas/2d_series_semanales_region" // Generar datos semanales region
@@ -158,7 +158,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	* Graficos Hospitalización
 	do "programas/4f_figuras_hospitales"
-
+x
 	*Data Hospitalizados diarios
 	*do "programas/4g_figuras_hospitalizados"
 	

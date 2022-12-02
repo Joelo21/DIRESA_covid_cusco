@@ -89,7 +89,7 @@ twoway (bar linaje_omicron_5 mes, barwidth(0.6) yaxis(1) ylabel(0(0.2)1) yscale(
 (bar linaje_omicron_2 mes, barwidth(0.6) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor4")) ///
 (bar linaje_omicron_3 mes, barwidth(0.6) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor3")) ///
 (bar linaje_omicron_1 mes, barwidth(0.6) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.2)1) axis(1)) color("$mycolor1")) ///
-(scatter linaje_omicron_1 mes, msize(vsmall) mcolor("$mycolor17") mlabel(linaje_omicron_1) mlabcolor("$mycolor17") mlabsize(vsmall) connect()) ///
+
 (scatter linaje_omicron_2 mes, msize(vsmall) mcolor("$mycolor17") mlabel(linaje_omicron_2) mlabcolor("$mycolor17") mlabsize(vsmall) connect()) ///
 (scatter linaje_omicron_3 mes, msize(vsmall) mcolor("$mycolor17") mlabel(linaje_omicron_3) mlabcolor("$mycolor17") mlabsize(vsmall) connect()) ///
 (scatter linaje_omicron_4 mes, msize(vsmall) mcolor("$mycolor17") mlabel(linaje_omicron_4) mlabcolor("$mycolor17") mlabsize(vsmall) connect()) ///
