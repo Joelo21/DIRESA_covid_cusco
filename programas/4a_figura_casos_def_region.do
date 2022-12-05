@@ -53,7 +53,7 @@ twoway (line defuncion_d semana_2, lcolor("$mycolor6") lwidth(medthick) lpattern
 (scatter defuncion_d semana_2, msize(vsmall) mcolor("$mycolor6") mlabel(defuncion_d) mlabcolor("$mycolor2") mlabsize(tiny) connect() xline(1, lcolor("$mycolor1") lpattern(shortdash) lwidth(thick)) xline(13, lcolor("$mycolor2") lpattern(shortdash) lwidth(thick)) xline(15, lcolor("$mycolor3") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
  if semana_2 >=1 & semana_2<=$semana, ///
 	ylabel(-500(100)200, labsize(*0.6)) ///
-	tlabel(1(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17" 73 "21" 77 "25" 81 "29" 85 "33" 89 "37" 93 "41" 97 "45") ///
+	tlabel(1(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17" 73 "21" 77 "25" 81 "29" 85 "33" 89 "37" 93 "41" 97 "45" 101 "49") ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("% Crecimiento de Defunciones") ///
 	graphregion(color(white)) ///
@@ -76,7 +76,7 @@ twoway (line positivo_d semana_2, lcolor("$mycolor6") lwidth(medthick) lpattern(
 (scatter positivo_d semana_2, msize(vsmall) mcolor("$mycolor6") mlabel(positivo_d) mlabcolor("$mycolor6") mlabsize(tiny) connect() xline(1, lcolor("$mycolor1") lpattern(shortdash) lwidth(thick)) xline(13, lcolor("$mycolor2") lpattern(shortdash) lwidth(thick)) xline(15, lcolor("$mycolor3") lpattern(shortdash) lwidth(thick)) xline(53, lcolor("$mycolor7") lpattern(shortdash) lwidth(thick))) ///
  if semana_2 >=1 & semana_2<=$semana, ///
 	ylabel(-300(50)100, labsize(*0.6)) ///
-	tlabel(1(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17" 73 "21" 77 "25" 81 "29" 85 "33" 89 "37" 93 "41" 97 "45") ///
+	tlabel(1(4)$semana 53 "1" 57 "5" 61 "9" 65 "13" 69 "17" 73 "21" 77 "25" 81 "29" 85 "33" 89 "37" 93 "41" 97 "45" 101 "49") ///
 	xtitle("Semanas Epidemiológicas", size(*0.7)) ///
 	ytitle("% Crecimiento de Casos") ///
 	graphregion(color(white)) ///

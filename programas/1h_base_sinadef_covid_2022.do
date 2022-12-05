@@ -19,7 +19,7 @@ keep if DEPARTAMENTO == "CUSCO"
 drop if Nº == .
 drop if ESTADO == "ANULACIÓN SOLICITADA" | ESTADO == "ANULADO"
 
-gen distrito = DISTRITORESDIDENCIAHABITUAL
+gen distrito = DISTRITOHABITUALRESIDENCIA 
 gen departamento = DEPARTAMENTO
 gen direccion = DIRECCIONDEDOMICILIO
 

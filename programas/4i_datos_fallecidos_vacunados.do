@@ -37,13 +37,13 @@ duplicates report dni
 duplicates tag dni, gen(dupli_dni)
 quietly by dni: gen dup_dni= cond(_N==1,0,_n)
 
-/*
+
 *Cantidad de Fallecidos por Fecha_Sinadef
 preserve
 collapse (count) fallecidos, by(fecha_sinadef)
 rename fecha_sinadef FECHA
 gen total_fallecidos = sum(fallecidos)
-*/
+
 
 save "${datos}\output\base_fallecidos_vacunados.dta", replace
 /*
@@ -96,4 +96,4 @@ collapse (count) dosis3, by (fecha_sinadef)
 gen Total_Defunciones6 = sum(dosis3)
 save "C:\Users\PC\Documents\PROGRAMAS GERESA 2022\2022 HOSPITALIZADOS - VARIANTES  PROGRAMAS\output\sumdosis6.dta", replace
 ***********************************************************************************
-*/
+

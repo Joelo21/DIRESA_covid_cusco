@@ -27,8 +27,8 @@ set more off
 *ssc install estout
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 29Nov2022
-global semana 99
+global fecha 05Dec2022
+global semana 100
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
 
@@ -106,7 +106,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/1g_base_sinadef_covid_2020"
 	*do "programas/1h_base_sinadef_covid_2021"
 	do "programas/1h_base_sinadef_covid_2022"
-
+*/
 	do "programas/1i_base_unir"
 	*do "programas/1i_base_unir_2022"----
 
@@ -137,7 +137,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
 	* Ocupación de camas (semanalmente)
 	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
-*/
+
 
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	do "programas/2d_series_semanales_region" // Generar datos semanales region
@@ -168,6 +168,7 @@ x
 	*do "programas/4j_datos_altas_fallecidos_vacunados"
 
 */
+/*
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
 	do "programas\5b_base_secuenciamiento_upch"
