@@ -4,9 +4,9 @@
 \contentsline {chapter}{Características Generales}{10}{section*.5}%
 \contentsline {chapter}{Características Clínicas}{13}{section*.8}%
 \contentsline {chapter}{Análisis de Indicadores}{17}{section*.13}%
-\contentsline {chapter}{Evaluación para Provincias Priorizadas}{36}{section*.37}%
-\contentsline {chapter}{Variantes de COVID-19}{67}{section*.94}%
-\contentsline {chapter}{Defunciones Cero}{71}{section*.98}%
-\contentsline {chapter}{Resumen de Indicadores Covid19}{72}{section*.100}%
-\contentsline {chapter}{Agradecimientos}{73}{table.caption.101}%
-\contentsline {chapter}{Diseño y Edición}{74}{chapter*.102}%
+\contentsline {chapter}{Evaluación para Provincias Priorizadas}{38}{section*.41}%
+\contentsline {chapter}{Variantes de COVID-19}{69}{section*.98}%
+\contentsline {chapter}{Defunciones Cero}{73}{section*.102}%
+\contentsline {chapter}{Resumen de Indicadores Covid19}{74}{section*.104}%
+\contentsline {chapter}{Agradecimientos}{75}{table.caption.105}%
+\contentsline {chapter}{Diseño y Edición}{76}{chapter*.106}%
