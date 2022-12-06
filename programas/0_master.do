@@ -106,7 +106,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/1g_base_sinadef_covid_2020"
 	*do "programas/1h_base_sinadef_covid_2021"
 	do "programas/1h_base_sinadef_covid_2022"
-*/
+
 	do "programas/1i_base_unir"
 	*do "programas/1i_base_unir_2022"----
 
@@ -117,7 +117,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/2a_series_diarias_region"
 	do "programas/2b_series_diarias_provincias"
 	do "programas/2c_panel_diario_provincias"
-
+*/
 * 3. Figuras para la "Sala Situacional COVID-19" diaria 
 	*do "programas/3a_figura_etapa_vida"--
 	do "programas/3a_figura_etapa_vida_2022"
