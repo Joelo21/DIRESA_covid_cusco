@@ -1,14 +1,18 @@
+<<<<<<< Updated upstream
 This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.7.31)  7 DEC 2022 11:46
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.28)  6 DEC 2022 14:23
+>>>>>>> Stashed changes
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./boletin_covid.tex
 (boletin_covid.tex
-LaTeX2e <2022-06-01> patch level 5
-L3 programming layer <2022-07-04>
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
 Document Class: book 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
 File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -24,26 +28,25 @@ File: bk12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2022/06/26 3.77 The Babel package
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/02/26 3.73 The Babel package
 \babel@savecnt=\count194
 \U@D=\dimen139
 \l@unhyphenated=\language79
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def
-)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count195
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanis
-h.ldf
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.
+ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks16
 \es@quotdepth=\count196
@@ -52,70 +55,62 @@ Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
 Package babel Info: Making > an active character on input line 722.
 ))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\ba
-bel-spanish.tex
-Package babel Info: Importing font and identification data for spanish
-(babel)             from babel-es.ini. Reported on input line 11.
-)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen140
 \WF@size=\dimen141
 \c@WF@wrappedlines=\count197
-\WF@box=\box51
+\WF@box=\box50
 \WF@everypar=\toks19
 Package: wrapfig 2003/01/31  v 3.6
-) (C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.c
-fg
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.
-def
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.de
+f
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.st
-y
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
- (C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
 \col@sep=\dimen142
-\ar@mcellbox=\box52
+\ar@mcellbox=\box51
 \extrarowheight=\dimen143
 \NC@list=\toks20
 \extratabsurround=\skip49
 \backup@length=\skip50
-\ar@cellbox=\box53
+\ar@cellbox=\box52
 )
 \everycr=\toks21
 \minrowclearance=\skip51
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex-dev/graphics\mathcol
-or.ltx)
 \rownum=\count198
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
-Package xcolor Info: Model `RGB' extended on input line 1369.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.st
-y
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks22
 \symAMSa=\mathgroup4
@@ -123,52 +118,42 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2022/04/08 v2.17n AMS math features
+)) (C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
 \@mathmargin=\skip52
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks23
 \ex@=\dimen144
-)) (C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.st
-y
+))
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen145
-) (C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
-Package: amsopn 2022/04/08 v2.04 operator names
+)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
 )
 \inf@bad=\count199
 LaTeX Info: Redefining \frac on input line 234.
 \uproot@=\count266
 \leftroot@=\count267
 LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
 \classnum@=\count268
 \DOTSCASE@=\count269
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box54
-\strutbox@=\box55
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
 \big@size=\dimen146
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 \macc@depth=\count270
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
 \c@MaxMatrixCols=\count271
 \dotsspace@=\muskip16
 \c@parentequation=\count272
@@ -188,16 +173,17 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \multlinegap=\skip53
 \multlinetaggap=\skip54
 \mathdisplay@stack=\toks27
-LaTeX Info: Redefining \[ on input line 2953.
-LaTeX Info: Redefining \] on input line 2954.
-) (C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/bbm\bbm.sty
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/bbm\bbm.sty
 Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
 LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
 (Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
 (Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks28
 \thm@bodyfont=\toks29
@@ -209,13 +195,13 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip57
 \dth@everypar=\toks33
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.st
-y
-Package: pdfpages 2022/05/22 v0.5v Insert pages of external PDF documents (AM)
- (C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
+
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count277
 \calc@Bcount=\count278
@@ -228,27 +214,26 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count279
 \calc@Cskip=\skip60
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 \ESO@tempdima=\dimen155
 \ESO@tempdimb=\dimen156
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks34
 ))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.st
-y
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.st
-y
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphic
-s.cfg
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
+cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
@@ -260,65 +245,61 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
 \AM@pageheight=\dimen160
 \AM@fboxrule=\dimen161
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.de
-f
-File: pppdftex.def 2022/05/22 v0.5v Pdfpages driver for pdfTeX (AM)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count280
-\AM@pagebox=\box56
+\AM@pagebox=\box55
 \AM@global@opts=\toks35
 \AM@pagecnt=\count281
 \AM@toc@title=\toks36
 \c@AM@survey=\count282
-\AM@templatesizebox=\box57
-)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/psfrag\psfrag.sty
+\AM@templatesizebox=\box56
+) (C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/psfrag\psfrag.sty
 Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
 \pfg@pcount=\count283
 \pfg@scount=\count284
 \pfg@temp=\write3
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
-f.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf.
+sty
 Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarer
-r.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.
+sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+) (C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdef
-inekeys.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefin
+ekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.
-sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.st
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.st
 y
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkey
-s.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.
+sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexc
-mds.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmd
+s.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
-f-base.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
+base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -327,19 +308,18 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sy
-s.cfg
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.
+cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.
-sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.st
+y
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
-
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+ (C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-) (C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+) (C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@col@width=\dimen162
 \TX@old@table=\dimen163
@@ -349,7 +329,7 @@ Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 \TX@cols=\count285
 \TX@ftn=\toks37
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTleft=\skip61
 \LTright=\skip62
@@ -357,35 +337,31 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTpost=\skip64
 \LTchunksize=\count286
 \LTcapwidth=\dimen167
-\LT@head=\box58
-\LT@firsthead=\box59
-\LT@foot=\box60
-\LT@lastfoot=\box61
-\LT@gbox=\box62
+\LT@head=\box57
+\LT@firsthead=\box58
+\LT@foot=\box59
+\LT@lastfoot=\box60
+\LT@gbox=\box61
 \LT@cols=\count287
 \LT@rows=\count288
 \c@LT@tables=\count289
 \c@LT@chunks=\count290
 \LT@p@ftn=\toks38
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/breakurl\breakurl.st
-y
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/breakurl\breakurl.sty
 Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
-Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.te
-x
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.t
-ex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks39
 \XKV@tempa@toks=\toks40
 )
 \XKV@depth=\count291
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+)) (C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 )
 
@@ -395,31 +371,30 @@ Package breakurl Warning: You are using breakurl while processing via pdflatex.
 (breakurl)                 on input line 48.
 
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.st
-y
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip65
 \enit@outerparindent=\dimen168
 \enit@toks=\toks41
-\enit@inbox=\box63
+\enit@inbox=\box62
 \enit@count@id=\count292
 \enitdp@description=\count293
-) (C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
-\UL@box=\box64
-\UL@hyphenbox=\box65
+) (C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
+\UL@box=\box63
+\UL@hyphenbox=\box64
 \UL@skip=\skip66
 \UL@hook=\toks42
 \UL@height=\dimen169
 \UL@pe=\count294
 \UL@pixel=\dimen170
-\ULC@box=\box66
+\ULC@box=\box65
 Package: ulem 2019/11/18
 \ULdepth=\dimen171
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.
-sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.st
+y
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
- (C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+ (C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count295
@@ -441,12 +416,11 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count311
 \c@blind@pangrammax=\count312
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.
-sty
-Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
-
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.st
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.st
 y
+Package: mathtools 2022/02/07 v1.28a mathematical typesetting tools
+
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 \g_MT_multlinerow_int=\count313
@@ -458,26 +432,26 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 \l_MT_below_intertext_sep=\dimen176
 \l_MT_above_shortintertext_sep=\dimen177
 \l_MT_below_shortintertext_sep=\dimen178
-\xmathstrut@box=\box67
+\xmathstrut@box=\box66
 \xmathstrut@dim=\dimen179
-) (C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/breqn\breqn.sty
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2022-07-04 L3 programming layer (loader) 
+) (C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/breqn\breqn.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-
-pdftex.def
-File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
+ftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count314
-\l__pdf_internal_box=\box68
+\l__pdf_internal_box=\box67
 ))
 Package: breqn 2021/10/28 v0.98l Breaking equations
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/breqn\flexisym.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/breqn\flexisym.sty
 Package: flexisym 2021/10/28 v0.98l Make math characters macros
 LaTeX Info: Redefining \textprime on input line 299.
 LaTeX Info: Redefining \not on input line 357.
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/breqn\cmbase.sym
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/breqn\cmbase.sym
 File: cmbase.sym 2007/12/19 v0.92
 LaTeX Info: Redefining \hbar on input line 324.
 LaTeX Info: Redefining \surd on input line 326.
@@ -503,7 +477,7 @@ LaTeX Info: Redefining \cdots on input line 357.
 LaTeX Info: Redefining \vdots on input line 360.
 LaTeX Info: Redefining \ddots on input line 365.
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/breqn\mathstyle.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/breqn\mathstyle.sty
 Package: mathstyle 2021/10/28 v0.98l Tracking mathstyle implicitly
 LaTeX Info: Redefining \displaystyle on input line 95.
 LaTeX Info: Redefining \textstyle on input line 97.
@@ -535,11 +509,11 @@ LaTeX Info: Redefining \genfrac on input line 149.
 \eqrightskip=\skip72
 \eq@vspan=\skip73
 \eq@binoffset=\muskip21
-\EQ@box=\box69
-\EQ@copy=\box70
-\EQ@numbox=\box71
+\EQ@box=\box68
+\EQ@copy=\box69
+\EQ@numbox=\box70
 \eq@wdNum=\dimen185
-\GRP@numbox=\box72
+\GRP@numbox=\box71
 \grp@wdNum=\dimen186
 \eq@lines=\count322
 \eq@curline=\count323
@@ -566,16 +540,15 @@ LaTeX Info: Redefining \genfrac on input line 149.
 \EQ@continue=\toks44
 \lr@level=\count327
 \GRP@queue=\toks45
-\GRP@box=\box73
-\GRP@wholebox=\box74
+\GRP@box=\box72
+\GRP@wholebox=\box73
 \darraycolsep=\skip74
 \cur@row=\count328
 \cur@col=\count329
 \conditionsep=\skip75
-)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.st
+) (C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.st
 y
-Package: fancyhdr 2022/05/18 v4.0.3 Extensive control of page headers and foote
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
 \f@nch@headwidth=\skip76
 \f@nch@O@elh=\skip77
@@ -586,10 +559,10 @@ rs
 \f@nch@O@erf=\skip82
 \f@nch@O@olf=\skip83
 \f@nch@O@orf=\skip84
-) (C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/fnpct\fnpct.sty
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\
-l3keys2e.sty
-Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
+) (C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/fnpct\fnpct.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3
+keys2e.sty
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
 )
 Package: fnpct 2022/02/27 v1.1a footnotes' interaction with punctuation
 \l__fnpct_collection_int=\count330
@@ -601,25 +574,22 @@ Package: fnpct 2022/02/27 v1.1a footnotes' interaction with punctuation
 \l__fnpct_before_collect_dim=\dimen265
 \l__fnpct_after_collect_dim=\dimen266
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/translations\transla
-tions.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/translations\translati
+ons.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
  (CN)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.st
-y
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count331
 )))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.s
-ty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2022/02/28 v3.6a Customizing captions (AR)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
-Package: caption 2022/03/01 v3.6b Customizing captions (AR)
-
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
-Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2022/02/28 v2.3a caption3 kernel (AR)
 \caption@tempdima=\dimen267
 \captionmargin=\dimen268
 \caption@leftmargin=\dimen269
@@ -634,50 +604,45 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count333
 Package caption Info: longtable package is loaded.
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.st
-y
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: wrapfig package is loaded.
 )
 \c@subfigure=\count334
 \c@subtable=\count335
-)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/newpx\newpxtext.sty
+) (C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/newpx\newpxtext.sty
 Package: newpxtext 2022/01/30 v1.504(Michael Sharpe) latex and unicode latex su
 pport for TeXGyrePagellaX
 
 `newpxtext' v1.504, 2022/01/30 Text macros taking advantage of TeXGyre Pagella 
 and its extensions (msharpe)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
-) (C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.st
-y
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.te
-x
+)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
 \integerpart=\count336
 \decimalpart=\count337
 )
 Package: xstring 2021/07/21 v1.84 String manipulations (CT)
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.st
-y)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
 LaTeX Font Info:    Setting zplLF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting zplTLF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting zplOsF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting zplTOsF sub-encoding to TS1/0 on input line 24.
 \zpl@cnt=\count338
-
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.st
-y
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
 Package: fontaxes 2020/07/21 v1.0e Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
 LaTeX Info: Redefining \itshape on input line 31.
@@ -693,38 +658,36 @@ LaTeX Info: Redefining \textulc on input line 49.
 LaTeX Info: Redefining \nustyle on input line 254.
 LaTeX Info: Redefining \textsu on input line 492.
 LaTeX Info: Redefining \oldstylenums on input line 581.
-) (C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+) (C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+zplTLF on input line
  112.
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/newpx\t1zpltlf.fd
+
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/newpx\t1zpltlf.fd
 File: t1zpltlf.fd 2021/05/25 v1.0 font definition file for T1/zpl/TLF
 )
 LaTeX Font Info:    Font shape `T1/zplTLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 112.
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/verdana\verdana.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/verdana\verdana.sty
 Package: verdana 
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.st
-y
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\three
-parttable.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\threepa
+rttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box75
+\@tempboxb=\box74
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/tabulary\tabulary.st
-y
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/tabulary\tabulary.sty
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
 \TY@count=\count339
 \TY@linewidth=\dimen275
 \tymin=\dimen276
 \tymax=\dimen277
 \TY@tablewidth=\dimen278
-)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.st
+) (C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.st
 y
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen279
@@ -744,38 +707,35 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count342
 \@lastruleclass=\count343
 \@thisrulewidth=\dimen291
-) (C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+) (C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count344
 \float@exts=\toks46
-\float@box=\box76
+\float@box=\box75
 \@float@everytoks=\toks47
-\@floatcapt=\box77
+\@floatcapt=\box76
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.st
-y
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \c@r@tfl@t=\count345
 \rotFPtop=\skip85
 \rotFPbot=\skip86
-\rot@float@box=\box78
+\rot@float@box=\box77
 \rot@mess@toks=\toks48
-)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.st
+) (C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/appendix\appendix.st
 y
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
 \c@@pps=\count346
 \c@@ppsavesec=\count347
 \c@@ppsaveapp=\count348
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.st
-y
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip87
 \multirow@cntb=\count349
 \multirow@dima=\skip88
 \bigstrutjot=\dimen292
-) (C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+) (C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip89
 \bibsep=\skip90
@@ -788,47 +748,47 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@assumption2=\count354
 \c@lemma=\count355
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\ti
-kz.sty
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.s
-ty
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz
 .sty
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
-til-common.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.s
+ty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfuti
+l-common.tex
 \pgfutil@everybye=\toks49
 \pgfutil@tempdima=\dimen293
 \pgfutil@tempdimb=\dimen294
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
-til-common-lists.tex))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
-til-latex.def
-\pgfutil@abb=\box79
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfuti
+l-common-lists.tex))
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfuti
+l-latex.def
+\pgfutil@abb=\box78
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfr
-cs.code.tex
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.t
-ex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs
+.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex
+)
 Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
 Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfco
-re.sty
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfs
-ys.sty
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsys.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore
+.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys
+.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ys.code.tex
 Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
-eys.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
+s.code.tex
 \pgfkeys@pathtoks=\toks50
 \pgfkeys@temptoks=\toks51
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
-eysfiltered.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
+sfiltered.code.tex
 \pgfkeys@tmptoks=\toks52
 ))
 \pgf@x=\dimen295
@@ -852,75 +812,75 @@ eysfiltered.code.tex
 \t@pgf@tokc=\toks55
 \pgf@sys@id@count=\count360
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-f.cfg
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.
+cfg
 File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsys-pdftex.def
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ys-pdftex.def
 File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsys-common-pdf.def
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ys-common-pdf.def
 File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 )))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsyssoftpath.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+yssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfsyssoftpath@smallbuffer@items=\count361
 \pgfsyssoftpath@bigbuffer@items=\count362
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
-fsysprotocol.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfs
+ysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-core.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+re.code.tex
 Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.c
-ode.tex
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathca
-lc.code.tex
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathut
-il.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpa
-rser.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.cod
+e.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc
+.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil
+.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpars
+er.code.tex
 \pgfmath@dimen=\dimen305
 \pgfmath@count=\count363
-\pgfmath@box=\box80
+\pgfmath@box=\box79
 \pgfmath@toks=\toks56
 \pgfmath@stack@operand=\toks57
 \pgfmath@stack@operation=\toks58
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.code.tex
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.basic.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.trigonometric.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.random.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.comparison.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.base.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.round.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.misc.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfu
-nctions.integerarithmetics.code.tex)))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfl
-oat.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.basic.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.trigonometric.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.random.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.comparison.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.base.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.round.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.misc.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunc
+tions.integerarithmetics.code.tex)))
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloa
+t.code.tex
 \c@pgfmathroundto@lastzeros=\count364
 ))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.co
-de.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepoints.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code
+.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repoints.code.tex
 File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@picminx=\dimen306
 \pgf@picmaxx=\dimen307
@@ -937,133 +897,132 @@ File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@zx=\dimen318
 \pgf@zy=\dimen319
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepathconstruct.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@path@lastx=\dimen320
 \pgf@path@lasty=\dimen321
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepathusage.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repathusage.code.tex
 File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@shorten@end@additional=\dimen322
 \pgf@shorten@start@additional=\dimen323
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corescopes.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+rescopes.code.tex
 File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfpic=\box81
-\pgf@hbox=\box82
-\pgf@layerbox@main=\box83
+\pgfpic=\box80
+\pgf@hbox=\box81
+\pgf@layerbox@main=\box82
 \pgf@picture@serial@count=\count365
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coregraphicstate.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+regraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgflinewidth=\dimen324
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coretransformations.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+retransformations.code.tex
 File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@pt@x=\dimen325
 \pgf@pt@y=\dimen326
 \pgf@pt@temp=\dimen327
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corequick.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+requick.code.tex
 File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coreobjects.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reobjects.code.tex
 File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepathprocessing.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corearrows.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+rearrows.code.tex
 File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfarrowsep=\dimen328
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coreshade.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reshade.code.tex
 File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen329
 \pgf@sys@shading@range@num=\count366
 \pgf@shadingcount=\count367
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coreimage.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reimage.code.tex
 File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coreexternal.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+reexternal.code.tex
 File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfexternal@startupbox=\box84
+\pgfexternal@startupbox=\box83
 ))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corelayers.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+relayers.code.tex
 File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-coretransparency.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+retransparency.code.tex
 File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corepatterns.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+repatterns.code.tex
 File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
-corerdf.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfco
+rerdf.code.tex
 File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
-uleshapes.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+eshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box85
+\pgfnodeparttextbox=\box84
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
-uleplot.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+eplot.code.tex
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pg
-fcomp-version-0-65.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
+omp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@nodesepstart=\dimen330
 \pgf@nodesepend=\dimen331
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pg
-fcomp-version-1-18.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfc
+omp-version-1-18.sty
 Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 ))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor
-.sty
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkey
-s.sty
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfk
-eys.code.tex))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.c
-ode.tex))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgff
-or.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.s
+ty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.
+sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkey
+s.code.tex))
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.cod
+e.tex))
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor
+.code.tex
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.c
-ode.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.cod
+e.tex)
 \pgffor@iter=\dimen332
 \pgffor@skip=\dimen333
 \pgffor@stack=\toks59
 \pgffor@toks=\toks60
 ))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz\tikz.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz\tikz.code.tex
 Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
-ibraryplothandlers.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@plot@mark@count=\count368
 \pgfplotmarksize=\dimen334
@@ -1076,17 +1035,17 @@ File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@lastmovetoy=\dimen340
 \tikzleveldistance=\dimen341
 \tikzsiblingdistance=\dimen342
-\tikz@figbox=\box86
-\tikz@figbox@bg=\box87
-\tikz@tempbox=\box88
-\tikz@tempbox@bg=\box89
+\tikz@figbox=\box85
+\tikz@figbox@bg=\box86
+\tikz@tempbox=\box87
+\tikz@tempbox@bg=\box88
 \tikztreelevel=\count369
 \tikznumberofchildren=\count370
 \tikznumberofcurrentchild=\count371
 \tikz@fig@count=\count372
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
-ulematrix.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+ematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfmatrixcurrentrow=\count373
 \pgfmatrixcurrentcolumn=\count374
@@ -1094,225 +1053,207 @@ File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 \tikz@expandcount=\count376
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarytopaths.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarypositioning.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
 Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks61
 \verbatim@line=\toks62
 \verbatim@in@stream=\read4
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibraryarrows.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
-ibraryarrows.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryarrows.code.tex
 File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \arrowsize=\dimen343
 ))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibraryshapes.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibraryshapes.geometric.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shap
-es\pgflibraryshapes.geometric.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes
+\pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibraryshapes.misc.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryshapes.misc.code.tex
 File: tikzlibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shap
-es\pgflibraryshapes.misc.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes
+\pgflibraryshapes.misc.code.tex
 File: pgflibraryshapes.misc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibraryshapes.symbols.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryshapes.symbols.code.tex
 File: tikzlibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shap
-es\pgflibraryshapes.symbols.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes
+\pgflibraryshapes.symbols.code.tex
 File: pgflibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibraryshapes.arrows.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryshapes.arrows.code.tex
 File: tikzlibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shap
-es\pgflibraryshapes.arrows.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes
+\pgflibraryshapes.arrows.code.tex
 File: pgflibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibraryshapes.callouts.code.tex
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shap
-es\pgflibraryshapes.callouts.code.tex))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibraryshapes.multipart.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryshapes.callouts.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes
+\pgflibraryshapes.callouts.code.tex))
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryshapes.multipart.code.tex
 File: tikzlibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shap
-es\pgflibraryshapes.multipart.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes
+\pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodepartlowerbox=\box90
-\pgfnodeparttwobox=\box91
-\pgfnodepartthreebox=\box92
-\pgfnodepartfourbox=\box93
-\pgfnodeparttwentybox=\box94
-\pgfnodepartnineteenbox=\box95
-\pgfnodeparteighteenbox=\box96
-\pgfnodepartseventeenbox=\box97
-\pgfnodepartsixteenbox=\box98
-\pgfnodepartfifteenbox=\box99
-\pgfnodepartfourteenbox=\box100
-\pgfnodepartthirteenbox=\box101
-\pgfnodeparttwelvebox=\box102
-\pgfnodepartelevenbox=\box103
-\pgfnodeparttenbox=\box104
-\pgfnodepartninebox=\box105
-\pgfnodeparteightbox=\box106
-\pgfnodepartsevenbox=\box107
-\pgfnodepartsixbox=\box108
-\pgfnodepartfivebox=\box109
+\pgfnodepartlowerbox=\box89
+\pgfnodeparttwobox=\box90
+\pgfnodepartthreebox=\box91
+\pgfnodepartfourbox=\box92
+\pgfnodeparttwentybox=\box93
+\pgfnodepartnineteenbox=\box94
+\pgfnodeparteighteenbox=\box95
+\pgfnodepartseventeenbox=\box96
+\pgfnodepartsixteenbox=\box97
+\pgfnodepartfifteenbox=\box98
+\pgfnodepartfourteenbox=\box99
+\pgfnodepartthirteenbox=\box100
+\pgfnodeparttwelvebox=\box101
+\pgfnodepartelevenbox=\box102
+\pgfnodeparttenbox=\box103
+\pgfnodepartninebox=\box104
+\pgfnodeparteightbox=\box105
+\pgfnodepartsevenbox=\box106
+\pgfnodepartsixbox=\box107
+\pgfnodepartfivebox=\box108
 )))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.st
-y
-Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescap
-e.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.
+sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxma
-cro.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacr
+o.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
-Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
-
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.st
-y
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\get
-titlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count377
-)
 \@linkdim=\dimen344
-\Hy@linkcounter=\count378
-\Hy@pagecounter=\count379
+\Hy@linkcounter=\count377
+\Hy@pagecounter=\count378
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.st
-y
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.
-sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.st
+y
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count380
-
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count379
+ (C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4045.
-Package hyperref Info: Hyper figures OFF on input line 4162.
-Package hyperref Info: Link nesting OFF on input line 4167.
-Package hyperref Info: Hyper index ON on input line 4170.
-Package hyperref Info: Plain pages OFF on input line 4177.
-Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4018.
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4408.
-\c@Hy@tempcnt=\count381
-
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count380
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip22
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4746.
+LaTeX Info: Redefining \url on input line 4749.
 \XeTeXLinkMargin=\dimen345
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintc
-alc.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcal
+c.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count382
+\Fld@menulength=\count381
 \Field@Width=\dimen346
 \Fld@charsize=\dimen347
-Package hyperref Info: Hyper figures OFF on input line 6024.
-Package hyperref Info: Link nesting OFF on input line 6029.
-Package hyperref Info: Hyper index ON on input line 6032.
-Package hyperref Info: backreferencing OFF on input line 6039.
-Package hyperref Info: Link coloring ON on input line 6042.
-Package hyperref Info: Link coloring with OCG OFF on input line 6049.
-Package hyperref Info: PDF/A mode OFF on input line 6054.
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring ON on input line 6045.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.st
-y
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count383
-\c@Item=\count384
-\c@Hfootnote=\count385
+\Hy@abspage=\count382
+\c@Item=\count383
+\c@Hfootnote=\count384
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2022-06-20 v7.00s Hyperref driver for pdfTeX
-
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.s
-ty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count386
-\c@bookmark@seq@number=\count387
+\Fld@listcount=\count385
+\c@bookmark@seq@number=\count386
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerun
-filecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfi
+lecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniq
-uecounter.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\unique
+counter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-85.
+86.
 )
 \Hy@SectionHShift=\skip91
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@word=\toks63
 \SOUL@lasttoken=\toks64
@@ -1324,29 +1265,30 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen349
 \SOUL@ulht=\dimen350
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
-\c@tracingmulticols=\count388
-\mult@box=\box110
+\c@tracingmulticols=\count387
+\mult@box=\box109
 \multicol@leftmargin=\dimen351
-\c@unbalance=\count389
-\c@collectmore=\count390
-\doublecol@number=\count391
-\multicoltolerance=\count392
-\multicolpretolerance=\count393
+\c@unbalance=\count388
+\c@collectmore=\count389
+\doublecol@number=\count390
+\multicoltolerance=\count391
+\multicolpretolerance=\count392
 \full@width=\dimen352
 \page@free=\dimen353
 \premulticols=\dimen354
 \postmulticols=\dimen355
 \multicolsep=\skip93
 \multicolbaselineskip=\skip94
-\partial@page=\box111
-\last@line=\box112
+\partial@page=\box110
+\last@line=\box111
 \maxbalancingoverflow=\dimen356
-\mult@rightbox=\box113
-\mult@grightbox=\box114
-\mult@firstbox=\box115
-\mult@gfirstbox=\box116
+\mult@rightbox=\box112
+\mult@grightbox=\box113
+\mult@firstbox=\box114
+\mult@gfirstbox=\box115
+\@tempa=\box116
 \@tempa=\box117
 \@tempa=\box118
 \@tempa=\box119
@@ -1382,19 +1324,18 @@ Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
 \@tempa=\box149
 \@tempa=\box150
 \@tempa=\box151
-\@tempa=\box152
-\c@minrows=\count394
-\c@columnbadness=\count395
-\c@finalcolumnbadness=\count396
+\c@minrows=\count393
+\c@columnbadness=\count394
+\c@finalcolumnbadness=\count395
 \last@try=\dimen357
 \multicolovershoot=\dimen358
 \multicolundershoot=\dimen359
-\mult@nat@firstbox=\box153
-\colbreak@box=\box154
-\mc@col@check@num=\count397
+\mult@nat@firstbox=\box152
+\colbreak@box=\box153
+\mc@col@check@num=\count396
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
-Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
@@ -1428,112 +1369,111 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.st
-y
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
-revision.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.re
+vision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
-code.tex
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsc
-ore.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.co
+de.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscor
+e.code.tex
 \t@pgfplots@toka=\toks68
 \t@pgfplots@tokb=\toks69
 \t@pgfplots@tokc=\toks70
 \pgfplots@tmpa=\dimen360
-\c@pgfplots@coordindex=\count398
-\c@pgfplots@scanlineindex=\count399
+\c@pgfplots@coordindex=\count397
+\c@pgfplots@scanlineindex=\count398
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfpl
-otssysgeneric.code.tex))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfp
-lotslibrary.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcom
-patib\pgfplotsoldpgfsupp_loader.code.tex
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
-ibraryfpu.code.tex))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
-lotsutil.code.tex
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
-ture\pgfplotsliststructure.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
-ture\pgfplotsliststructureext.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
-ture\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count400
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplot
+ssysgeneric.code.tex))
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplo
+tslibrary.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompa
+tib\pgfplotsoldpgfsupp_loader.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryfpu.code.tex))
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tsutil.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsliststructure.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsliststructureext.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count399
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
-ture\pgfplotsmatrix.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\
-pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count401
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsmatrix.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pg
+fplotstableshared.code.tex
+\c@pgfplotstable@counta=\count400
 \t@pgfplotstable@a=\toks71
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruc
-ture\pgfplotsdeque.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
-lotsbinary.code.tex
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
-lotsbinary.data.code.tex))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
-lotsutil.verb.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfl
-ibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count402
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructu
+re\pgfplotsdeque.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tsbinary.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tsbinary.data.code.tex))
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tsutil.verb.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflib
+rarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count401
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfli
-brarypgfplots.surfshading.pgfsys-pdftex.def)))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
-lotscolormap.code.tex
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfp
-lotscolor.code.tex))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotss
-tackedplots.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsp
-lothandlers.code.tex
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsm
-eshplothandler.code.tex
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsm
-eshplotimage.code.tex)))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
-scaling.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsc
-oordprocessing.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
-errorbars.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
-markers.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotst
-icks.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.
-paths.code.tex)
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarydecorations.code.tex
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
-uledecorations.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibr
+arypgfplots.surfshading.pgfsys-pdftex.def)))
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tscolormap.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplo
+tscolor.code.tex))
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotssta
+ckedplots.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplo
+thandlers.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmes
+hplothandler.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmes
+hplotimage.code.tex)))
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.sc
+aling.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoo
+rdprocessing.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.er
+rorbars.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.ma
+rkers.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotstic
+ks.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.pa
+ths.code.tex)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodul
+edecorations.code.tex
 \pgfdecoratedcompleteddistance=\dimen361
 \pgfdecoratedremainingdistance=\dimen362
 \pgfdecoratedinputsegmentcompleteddistance=\dimen363
 \pgfdecoratedinputsegmentremainingdistance=\dimen364
 \pgf@decorate@distancetomove=\dimen365
-\pgf@decorate@repeatstate=\count403
+\pgf@decorate@repeatstate=\count402
 \pgfdecorationsegmentamplitude=\dimen366
 \pgfdecorationsegmentlength=\dimen367
 )
-\tikz@lib@dec@box=\box155
+\tikz@lib@dec@box=\box154
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/deco
-rations\pgflibrarydecorations.pathmorphing.code.tex))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/deco
-rations\pgflibrarydecorations.pathreplacing.code.tex))
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikz
-librarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count404
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decora
+tions\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decora
+tions\pgflibrarydecorations.pathreplacing.code.tex))
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzli
+brarypgfplots.contourlua.code.tex)
+\pgfplots@numplots=\count403
 \pgfplots@xmin@reg=\dimen368
 \pgfplots@xmax@reg=\dimen369
 \pgfplots@ymin@reg=\dimen370
@@ -1541,23 +1481,23 @@ librarypgfplots.contourlua.code.tex)
 \pgfplots@zmin@reg=\dimen372
 \pgfplots@zmax@reg=\dimen373
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
-tikz/libraries\tikzlibraryplotmarks.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/ti
+kz/libraries\tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
-ibraryplotmarks.code.tex
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflib
+raryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
 11.
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
-File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (boletin_covid.aux
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
 )
 \openout1 = `boletin_covid.aux'.
 
@@ -1582,23 +1522,23 @@ LaTeX Font Info:    ... okay on input line 111.
 LaTeX Info: Redefining \. on input line 111.
 LaTeX Info: Redefining \% on input line 111.
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
-.mkii
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
+kii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count405
+\scratchcounter=\count404
 \scratchdimen=\dimen374
-\scratchbox=\box156
-\nofMPsegments=\count406
-\nofMParguments=\count407
+\scratchbox=\box155
+\nofMPsegments=\count405
+\nofMParguments=\count406
 \everyMPshowfont=\toks72
-\MPscratchCnt=\count408
+\MPscratchCnt=\count407
 \MPscratchDim=\dimen375
-\MPnumerator=\count409
-\makeMPintoPDFobject=\count410
+\MPnumerator=\count408
+\makeMPintoPDFobject=\count409
 \everyMPtoPDFconversion=\toks73
 )
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\t
-ranslations-basic-dictionary-spanish.trsl
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tra
+nslations-basic-dictionary-spanish.trsl
 File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
 nslations-basic-dictionary')
 )
@@ -1610,11 +1550,26 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@mv@tabular=\count411
-\c@mv@boldtabular=\count412
+\c@mv@tabular=\count410
+\c@mv@boldtabular=\count411
 Package hyperref Info: Link coloring ON on input line 111.
- (boletin_covid.out)
-(boletin_covid.out)
+
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\getti
+tlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count412
+)
+LaTeX Info: Redefining \ref on input line 111.
+LaTeX Info: Redefining \pageref on input line 111.
+LaTeX Info: Redefining \nameref on input line 111.
+ (boletin_covid.out) (boletin_covid.out)
 \@outlinefile=\write5
 \openout5 = `boletin_covid.out'.
 
@@ -1692,8 +1647,8 @@ l.194 	\tableofcontents
                         [1
 
 
-{C:/Users/Lucerito/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (boletin_
-covid.toc
+{C:/Users/DEI-02/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (boletin_co
+vid.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 )
@@ -1706,22 +1661,31 @@ Underfull \vbox (badness 1038) has occurred while \output is active []
  [2
 
 ]
-<../editorial/editorial_karla.png, id=160, 115.93312pt x 144.54pt>
-File: ../editorial/editorial_karla.png Graphic file (type png)
-<use ../editorial/editorial_karla.png>
-Package pdftex.def Info: ../editorial/editorial_karla.png  used on input line 2
-10.
-(pdftex.def)             Requested size: 142.26378pt x 177.38393pt.
+
+! LaTeX Error: File `../editorial/editorial_karla' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 		cm]{../editorial/editorial_karla}
+                                         
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps,.ep
+s
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
 221.
-
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmss.fd
-File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmss.fd
+File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-[3 <../editorial/editorial_karla.png>]
+[3]
 Underfull \vbox (badness 8000) has occurred while \output is active []
 
  [4]
+<<<<<<< Updated upstream
 <../editorial/imag_karla1.png, id=173, 538.26094pt x 244.66406pt>
 File: ../editorial/imag_karla1.png Graphic file (type png)
 <use ../editorial/imag_karla1.png>
@@ -1732,11 +1696,43 @@ File: ../editorial/imag_karla2.png Graphic file (type png)
 <use ../editorial/imag_karla2.png>
 Package pdftex.def Info: ../editorial/imag_karla2.png  used on input line 245.
 (pdftex.def)             Requested size: 389.23532pt x 199.98549pt.
+=======
+
+! LaTeX Error: File `../editorial/imag_karla1' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.245 ...0.80\linewidth]{../editorial/imag_karla1}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps,.ep
+s
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `../editorial/imag_karla2' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.248 ...0.80\linewidth]{../editorial/imag_karla2}
+                                                  
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps,.ep
+s
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+>>>>>>> Stashed changes
 
 
 pdfTeX warning: pdflatex.exe (file ../editorial/1.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<../editorial/1.pdf, id=175, 597.55246pt x 845.07718pt>
+<../editorial/1.pdf, id=170, 597.55246pt x 845.07718pt>
 File: ../editorial/1.pdf Graphic file (type pdf)
 <use ../editorial/1.pdf>
 Package pdftex.def Info: ../editorial/1.pdf  used on input line 254.
@@ -1757,7 +1753,7 @@ F version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ../editorial/1.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<../editorial/1.pdf, id=178, page=1, 597.55246pt x 845.07718pt>
+<../editorial/1.pdf, id=173, page=1, 597.55246pt x 845.07718pt>
 File: ../editorial/1.pdf Graphic file (type pdf)
 <use ../editorial/1.pdf, page 1>
 Package pdftex.def Info: ../editorial/1.pdf , page1 used on input line 254.
@@ -1766,7 +1762,7 @@ File: ../editorial/1.pdf Graphic file (type pdf)
 <use ../editorial/1.pdf, page 1>
 Package pdftex.def Info: ../editorial/1.pdf , page1 used on input line 254.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-[5 <../editorial/imag_karla1.png> <../editorial/imag_karla2.png>]
+[5]
 File: ../editorial/1.pdf Graphic file (type pdf)
 <use ../editorial/1.pdf, page 1>
 Package pdftex.def Info: ../editorial/1.pdf , page1 used on input line 254.
@@ -1783,26 +1779,26 @@ Package pdftex.def Info: ../editorial/1.pdf , page1 used on input line 254.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
 87.
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
 87.
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
 287.
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
 287.
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 287.
@@ -1813,13 +1809,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    Trying to load font information for U+msa on input line 287
 .
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 287
 .
 
-(C:\Users\Lucerito\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(C:\Users\DEI-02\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 [7
@@ -1828,7 +1824,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 pdfTeX warning: pdflatex.exe (file ../editorial/2.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<../editorial/2.pdf, id=264, 597.55246pt x 845.07718pt>
+<../editorial/2.pdf, id=257, 597.55246pt x 845.07718pt>
 File: ../editorial/2.pdf Graphic file (type pdf)
 <use ../editorial/2.pdf>
 Package pdftex.def Info: ../editorial/2.pdf  used on input line 302.
@@ -1849,7 +1845,7 @@ F version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ../editorial/2.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<../editorial/2.pdf, id=267, page=1, 597.55246pt x 845.07718pt>
+<../editorial/2.pdf, id=260, page=1, 597.55246pt x 845.07718pt>
 File: ../editorial/2.pdf Graphic file (type pdf)
 <use ../editorial/2.pdf, page 1>
 Package pdftex.def Info: ../editorial/2.pdf , page1 used on input line 302.
@@ -1872,7 +1868,7 @@ File: ../editorial/2.pdf Graphic file (type pdf)
 Package pdftex.def Info: ../editorial/2.pdf , page1 used on input line 302.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
  [9 <../editorial/2.pdf>]
-<../figuras/casos_etapavida_2022.png, id=348, 1127.21124pt x 924.45375pt>
+<../figuras/casos_etapavida_2022.png, id=341, 1127.21124pt x 924.45375pt>
 File: ../figuras/casos_etapavida_2022.png Graphic file (type png)
 <use ../figuras/casos_etapavida_2022.png>
 Package pdftex.def Info: ../figuras/casos_etapavida_2022.png  used on input lin
@@ -1884,7 +1880,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [10
 
  <../figuras/casos_etapavida_2022.png (PNG copy)>]
-<../figuras/defunciones_etapavida_2022.png, id=356, 1127.21124pt x 924.45375pt>
+<../figuras/defunciones_etapavida_2022.png, id=349, 1127.21124pt x 924.45375pt>
 
 File: ../figuras/defunciones_etapavida_2022.png Graphic file (type png)
 <use ../figuras/defunciones_etapavida_2022.png>
@@ -1895,7 +1891,7 @@ ut line 324.
 
 pdfTeX warning: pdflatex.exe (file ../editorial/3.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<../editorial/3.pdf, id=362, 597.55246pt x 845.07718pt>
+<../editorial/3.pdf, id=355, 597.55246pt x 845.07718pt>
 File: ../editorial/3.pdf Graphic file (type pdf)
 <use ../editorial/3.pdf>
 Package pdftex.def Info: ../editorial/3.pdf  used on input line 336.
@@ -1916,7 +1912,7 @@ F version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ../editorial/3.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<../editorial/3.pdf, id=365, page=1, 597.55246pt x 845.07718pt>
+<../editorial/3.pdf, id=358, page=1, 597.55246pt x 845.07718pt>
 File: ../editorial/3.pdf Graphic file (type pdf)
 <use ../editorial/3.pdf, page 1>
 Package pdftex.def Info: ../editorial/3.pdf , page1 used on input line 336.
@@ -1943,7 +1939,7 @@ Package pdftex.def Info: ../editorial/3.pdf , page1 used on input line 336.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/figura_sintoma.pdf): PDF inclusio
 n: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/figura_sintoma.pdf, id=444, 397.485pt x 289.08pt>
+<../figuras/figura_sintoma.pdf, id=437, 397.485pt x 289.08pt>
 File: ../figuras/figura_sintoma.pdf Graphic file (type pdf)
 <use ../figuras/figura_sintoma.pdf>
 Package pdftex.def Info: ../figuras/figura_sintoma.pdf  used on input line 352.
@@ -1953,7 +1949,7 @@ Package pdftex.def Info: ../figuras/figura_sintoma.pdf  used on input line 352.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/figura_signo.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/figura_signo.pdf, id=445, 397.485pt x 289.08pt>
+<../figuras/figura_signo.pdf, id=438, 397.485pt x 289.08pt>
 File: ../figuras/figura_signo.pdf Graphic file (type pdf)
 <use ../figuras/figura_signo.pdf>
 Package pdftex.def Info: ../figuras/figura_signo.pdf  used on input line 360.
@@ -1965,7 +1961,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/figura_comorbilidad.pdf): PDF inc
 lusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/figura_comorbilidad.pdf, id=446, 397.485pt x 289.08pt>
+<../figuras/figura_comorbilidad.pdf, id=439, 397.485pt x 289.08pt>
 File: ../figuras/figura_comorbilidad.pdf Graphic file (type pdf)
 <use ../figuras/figura_comorbilidad.pdf>
 Package pdftex.def Info: ../figuras/figura_comorbilidad.pdf  used on input line
@@ -1978,7 +1974,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/figura_sintoma.pdf>] [14 <../figuras/figura_signo.pdf> <../figuras
 /figura_comorbilidad.pdf>]
-<../figuras/sintomaticos_20_21_22.png, id=489, 1270.7475pt x 924.45375pt>
+<../figuras/sintomaticos_20_21_22.png, id=482, 1270.7475pt x 924.45375pt>
 File: ../figuras/sintomaticos_20_21_22.png Graphic file (type png)
 <use ../figuras/sintomaticos_20_21_22.png>
 Package pdftex.def Info: ../figuras/sintomaticos_20_21_22.png  used on input li
@@ -1990,7 +1986,7 @@ ne 381.
 
 pdfTeX warning: pdflatex.exe (file ../editorial/4.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<../editorial/4.pdf, id=495, 597.55246pt x 845.07718pt>
+<../editorial/4.pdf, id=488, 597.55246pt x 845.07718pt>
 File: ../editorial/4.pdf Graphic file (type pdf)
 <use ../editorial/4.pdf>
 Package pdftex.def Info: ../editorial/4.pdf  used on input line 392.
@@ -2011,7 +2007,7 @@ F version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ../editorial/4.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<../editorial/4.pdf, id=498, page=1, 597.55246pt x 845.07718pt>
+<../editorial/4.pdf, id=491, page=1, 597.55246pt x 845.07718pt>
 File: ../editorial/4.pdf Graphic file (type pdf)
 <use ../editorial/4.pdf, page 1>
 Package pdftex.def Info: ../editorial/4.pdf , page1 used on input line 392.
@@ -2035,7 +2031,7 @@ Package pdftex.def Info: ../editorial/4.pdf , page1 used on input line 392.
 [16
 
  <../editorial/4.pdf>]
-<../figuras/tasa_incidencia_2021_2022.png, id=574, 1270.7475pt x 924.45375pt>
+<../figuras/tasa_incidencia_2021_2022.png, id=567, 1270.7475pt x 924.45375pt>
 File: ../figuras/tasa_incidencia_2021_2022.png Graphic file (type png)
 <use ../figuras/tasa_incidencia_2021_2022.png>
 Package pdftex.def Info: ../figuras/tasa_incidencia_2021_2022.png  used on inpu
@@ -2047,7 +2043,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [17
 
  <../figuras/tasa_incidencia_2021_2022.png (PNG copy)>]
-<../figuras/positividad_diaria_2021_2022.png, id=582, 1270.7475pt x 924.45375pt
+<../figuras/positividad_diaria_2021_2022.png, id=575, 1270.7475pt x 924.45375pt
 >
 File: ../figuras/positividad_diaria_2021_2022.png Graphic file (type png)
 <use ../figuras/positividad_diaria_2021_2022.png>
@@ -2058,7 +2054,7 @@ nput line 419.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_pcr.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_pcr.pdf, id=593, 397.485pt x 289.08pt>
+<../figuras/positividad_pcr.pdf, id=586, 397.485pt x 289.08pt>
 File: ../figuras/positividad_pcr.pdf Graphic file (type pdf)
 <use ../figuras/positividad_pcr.pdf>
 Package pdftex.def Info: ../figuras/positividad_pcr.pdf  used on input line 433
@@ -2074,7 +2070,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_ag.pdf): PDF inclusio
 n: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_ag.pdf, id=608, 397.485pt x 289.08pt>
+<../figuras/positividad_ag.pdf, id=601, 397.485pt x 289.08pt>
 File: ../figuras/positividad_ag.pdf Graphic file (type pdf)
 <use ../figuras/positividad_ag.pdf>
 Package pdftex.def Info: ../figuras/positividad_ag.pdf  used on input line 444.
@@ -2090,7 +2086,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_2021_2022.pdf): P
 DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_2021_2022.pdf, id=624, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_2021_2022.pdf, id=617, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_2021_2022.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_2021_2022.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_2021_2022.pdf  used on inpu
@@ -2100,7 +2096,7 @@ t line 559.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_80.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_80.pdf, id=627, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_80.pdf, id=620, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_80.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_80.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_80.pdf  used on input line 
@@ -2110,7 +2106,7 @@ Package pdftex.def Info: ../figuras/mortalidad_edad_80.pdf  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_70.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_70.pdf, id=628, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_70.pdf, id=621, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_70.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_70.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_70.pdf  used on input line 
@@ -2120,7 +2116,7 @@ Package pdftex.def Info: ../figuras/mortalidad_edad_70.pdf  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_60.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_60.pdf, id=629, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_60.pdf, id=622, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_60.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_60.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_60.pdf  used on input line 
@@ -2130,7 +2126,7 @@ Package pdftex.def Info: ../figuras/mortalidad_edad_60.pdf  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_50.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_50.pdf, id=630, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_50.pdf, id=623, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_50.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_50.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_50.pdf  used on input line 
@@ -2140,7 +2136,7 @@ Package pdftex.def Info: ../figuras/mortalidad_edad_50.pdf  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_40.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_40.pdf, id=631, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_40.pdf, id=624, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_40.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_40.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_40.pdf  used on input line 
@@ -2150,7 +2146,7 @@ Package pdftex.def Info: ../figuras/mortalidad_edad_40.pdf  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_30.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_30.pdf, id=632, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_30.pdf, id=625, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_30.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_30.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_30.pdf  used on input line 
@@ -2163,7 +2159,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_20.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_20.pdf, id=633, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_20.pdf, id=626, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_20.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_20.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_20.pdf  used on input line 
@@ -2173,7 +2169,7 @@ Package pdftex.def Info: ../figuras/mortalidad_edad_20.pdf  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_10.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_10.pdf, id=634, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_10.pdf, id=627, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_10.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_10.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_10.pdf  used on input line 
@@ -2183,7 +2179,7 @@ Package pdftex.def Info: ../figuras/mortalidad_edad_10.pdf  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/mortalidad_edad_0.pdf): PDF inclu
 sion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/mortalidad_edad_0.pdf, id=635, 397.485pt x 289.08pt>
+<../figuras/mortalidad_edad_0.pdf, id=628, 397.485pt x 289.08pt>
 File: ../figuras/mortalidad_edad_0.pdf Graphic file (type pdf)
 <use ../figuras/mortalidad_edad_0.pdf>
 Package pdftex.def Info: ../figuras/mortalidad_edad_0.pdf  used on input line 6
@@ -2207,7 +2203,7 @@ s/mortalidad_edad_10.pdf> <../figuras/mortalidad_edad_0.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_region_2022.pdf): PDF incl
 usion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_region_2022.pdf, id=753, 397.485pt x 289.08pt>
+<../figuras/exceso_region_2022.pdf, id=746, 397.485pt x 289.08pt>
 File: ../figuras/exceso_region_2022.pdf Graphic file (type pdf)
 <use ../figuras/exceso_region_2022.pdf>
 Package pdftex.def Info: ../figuras/exceso_region_2022.pdf  used on input line 
@@ -2219,7 +2215,7 @@ Package pdftex.def Info: ../figuras/exceso_region_2022.pdf  used on input line
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion_grupo_edad_dosis.pdf):
  PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion_grupo_edad_dosis.pdf, id=782, 585.38701pt x 289.08pt>
+<../figuras/vacunacion_grupo_edad_dosis.pdf, id=775, 585.38701pt x 289.08pt>
 File: ../figuras/vacunacion_grupo_edad_dosis.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion_grupo_edad_dosis.pdf>
 Package pdftex.def Info: ../figuras/vacunacion_grupo_edad_dosis.pdf  used on in
@@ -2228,7 +2224,7 @@ put line 668.
 [25
 
  <../figuras/vacunacion_grupo_edad_dosis.pdf>]
-<../sala_covid/../sala_nacional/Cobertura_Vacunacion_Provincias.jpg, id=800, 91
+<../sala_covid/../sala_nacional/Cobertura_Vacunacion_Provincias.jpg, id=793, 91
 5.858pt x 513.774pt>
 File: ../sala_covid/../sala_nacional/Cobertura_Vacunacion_Provincias.jpg Graphi
 c file (type jpg)
@@ -2240,7 +2236,7 @@ ovincias.jpg  used on input line 678.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion__provincias_1.pdf): PD
 F inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion__provincias_1.pdf, id=809, 585.38701pt x 289.08pt>
+<../figuras/vacunacion__provincias_1.pdf, id=802, 585.38701pt x 289.08pt>
 File: ../figuras/vacunacion__provincias_1.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion__provincias_1.pdf>
 Package pdftex.def Info: ../figuras/vacunacion__provincias_1.pdf  used on input
@@ -2250,7 +2246,7 @@ Package pdftex.def Info: ../figuras/vacunacion__provincias_1.pdf  used on input
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion__provincias_2.pdf): PD
 F inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion__provincias_2.pdf, id=810, 585.38701pt x 289.08pt>
+<../figuras/vacunacion__provincias_2.pdf, id=803, 585.38701pt x 289.08pt>
 File: ../figuras/vacunacion__provincias_2.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion__provincias_2.pdf>
 Package pdftex.def Info: ../figuras/vacunacion__provincias_2.pdf  used on input
@@ -2260,7 +2256,7 @@ Package pdftex.def Info: ../figuras/vacunacion__provincias_2.pdf  used on input
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion__provincias_3.pdf): PD
 F inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion__provincias_3.pdf, id=811, 585.38701pt x 289.08pt>
+<../figuras/vacunacion__provincias_3.pdf, id=804, 585.38701pt x 289.08pt>
 File: ../figuras/vacunacion__provincias_3.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion__provincias_3.pdf>
 Package pdftex.def Info: ../figuras/vacunacion__provincias_3.pdf  used on input
@@ -2270,7 +2266,7 @@ Package pdftex.def Info: ../figuras/vacunacion__provincias_3.pdf  used on input
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion__provincias_4.pdf): PD
 F inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion__provincias_4.pdf, id=812, 585.38701pt x 289.08pt>
+<../figuras/vacunacion__provincias_4.pdf, id=805, 585.38701pt x 289.08pt>
 File: ../figuras/vacunacion__provincias_4.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion__provincias_4.pdf>
 Package pdftex.def Info: ../figuras/vacunacion__provincias_4.pdf  used on input
@@ -2280,7 +2276,7 @@ Package pdftex.def Info: ../figuras/vacunacion__provincias_4.pdf  used on input
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion__provincias_5.pdf): PD
 F inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion__provincias_5.pdf, id=813, 585.38701pt x 289.08pt>
+<../figuras/vacunacion__provincias_5.pdf, id=806, 585.38701pt x 289.08pt>
 File: ../figuras/vacunacion__provincias_5.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion__provincias_5.pdf>
 Package pdftex.def Info: ../figuras/vacunacion__provincias_5.pdf  used on input
@@ -2290,7 +2286,7 @@ Package pdftex.def Info: ../figuras/vacunacion__provincias_5.pdf  used on input
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion__provincias_6.pdf): PD
 F inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion__provincias_6.pdf, id=814, 585.38701pt x 289.08pt>
+<../figuras/vacunacion__provincias_6.pdf, id=807, 585.38701pt x 289.08pt>
 File: ../figuras/vacunacion__provincias_6.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion__provincias_6.pdf>
 Package pdftex.def Info: ../figuras/vacunacion__provincias_6.pdf  used on input
@@ -2306,7 +2302,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion__provincias_7.pdf): PD
 F inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion__provincias_7.pdf, id=815, 585.38701pt x 289.08pt>
+<../figuras/vacunacion__provincias_7.pdf, id=808, 585.38701pt x 289.08pt>
 File: ../figuras/vacunacion__provincias_7.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion__provincias_7.pdf>
 Package pdftex.def Info: ../figuras/vacunacion__provincias_7.pdf  used on input
@@ -2316,7 +2312,7 @@ Package pdftex.def Info: ../figuras/vacunacion__provincias_7.pdf  used on input
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion__provincias_8.pdf): PD
 F inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion__provincias_8.pdf, id=816, 585.38701pt x 289.08pt>
+<../figuras/vacunacion__provincias_8.pdf, id=809, 585.38701pt x 289.08pt>
 File: ../figuras/vacunacion__provincias_8.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion__provincias_8.pdf>
 Package pdftex.def Info: ../figuras/vacunacion__provincias_8.pdf  used on input
@@ -2326,7 +2322,7 @@ Package pdftex.def Info: ../figuras/vacunacion__provincias_8.pdf  used on input
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion__provincias_9.pdf): PD
 F inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion__provincias_9.pdf, id=817, 585.38701pt x 289.08pt>
+<../figuras/vacunacion__provincias_9.pdf, id=810, 585.38701pt x 289.08pt>
 File: ../figuras/vacunacion__provincias_9.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion__provincias_9.pdf>
 Package pdftex.def Info: ../figuras/vacunacion__provincias_9.pdf  used on input
@@ -2336,7 +2332,7 @@ Package pdftex.def Info: ../figuras/vacunacion__provincias_9.pdf  used on input
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion__provincias_10.pdf): P
 DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion__provincias_10.pdf, id=818, 585.38701pt x 289.08pt>
+<../figuras/vacunacion__provincias_10.pdf, id=811, 585.38701pt x 289.08pt>
 File: ../figuras/vacunacion__provincias_10.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion__provincias_10.pdf>
 Package pdftex.def Info: ../figuras/vacunacion__provincias_10.pdf  used on inpu
@@ -2352,7 +2348,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion__provincias_11.pdf): P
 DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion__provincias_11.pdf, id=819, 585.38701pt x 289.08pt>
+<../figuras/vacunacion__provincias_11.pdf, id=812, 585.38701pt x 289.08pt>
 File: ../figuras/vacunacion__provincias_11.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion__provincias_11.pdf>
 Package pdftex.def Info: ../figuras/vacunacion__provincias_11.pdf  used on inpu
@@ -2362,7 +2358,7 @@ t line 879.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion__provincias_12.pdf): P
 DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion__provincias_12.pdf, id=820, 585.38701pt x 289.08pt>
+<../figuras/vacunacion__provincias_12.pdf, id=813, 585.38701pt x 289.08pt>
 File: ../figuras/vacunacion__provincias_12.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion__provincias_12.pdf>
 Package pdftex.def Info: ../figuras/vacunacion__provincias_12.pdf  used on inpu
@@ -2372,7 +2368,7 @@ t line 887.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/vacunacion__provincias_13.pdf): P
 DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/vacunacion__provincias_13.pdf, id=821, 585.38701pt x 289.08pt>
+<../figuras/vacunacion__provincias_13.pdf, id=814, 585.38701pt x 289.08pt>
 File: ../figuras/vacunacion__provincias_13.pdf Graphic file (type pdf)
 <use ../figuras/vacunacion__provincias_13.pdf>
 Package pdftex.def Info: ../figuras/vacunacion__provincias_13.pdf  used on inpu
@@ -2393,9 +2389,10 @@ n__provincias_6.pdf>] [29 <../figuras/vacunacion__provincias_7.pdf> <../figuras
 guras/vacunacion__provincias_10.pdf>] [30 <../figuras/vacunacion__provincias_11
 .pdf> <../figuras/vacunacion__provincias_12.pdf> <../figuras/vacunacion__provin
 cias_13.pdf>]
-<../figuras/post_vacunas_def.png, id=974, 580.1675pt x 422.57875pt>
+<../figuras/post_vacunas_def.png, id=967, 1270.7475pt x 924.45375pt>
 File: ../figuras/post_vacunas_def.png Graphic file (type png)
 <use ../figuras/post_vacunas_def.png>
+<<<<<<< Updated upstream
 Package pdftex.def Info: ../figuras/post_vacunas_def.png  used on input line 90
 9.
 (pdftex.def)             Requested size: 413.56392pt x 301.23235pt.
@@ -2405,27 +2402,44 @@ File: ../figuras/post_vacunas_altmed.png Graphic file (type png)
 Package pdftex.def Info: ../figuras/post_vacunas_altmed.png  used on input line
  919.
 (pdftex.def)             Requested size: 345.44829pt x 251.61479pt.
+=======
+Package pdftex.def Info: ../figuras/post_vacunas_def.png  used on input line 91
+2.
+(pdftex.def)             Requested size: 413.56392pt x 300.86708pt.
+<../figuras/post_vacunas_altmed.png, id=970, 1270.7475pt x 924.45375pt>
+File: ../figuras/post_vacunas_altmed.png Graphic file (type png)
+<use ../figuras/post_vacunas_altmed.png>
+Package pdftex.def Info: ../figuras/post_vacunas_altmed.png  used on input line
+ 922.
+(pdftex.def)             Requested size: 345.44829pt x 251.31267pt.
+>>>>>>> Stashed changes
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figuras/post_vacunas_uci.png, id=978, 1263.72125pt x 918.43124pt>
+<../figuras/post_vacunas_uci.png, id=971, 1270.7475pt x 924.45375pt>
 File: ../figuras/post_vacunas_uci.png Graphic file (type png)
 <use ../figuras/post_vacunas_uci.png>
+<<<<<<< Updated upstream
 Package pdftex.def Info: ../figuras/post_vacunas_uci.png  used on input line 92
 7.
 (pdftex.def)             Requested size: 345.44829pt x 251.06285pt.
+=======
+Package pdftex.def Info: ../figuras/post_vacunas_uci.png  used on input line 93
+0.
+(pdftex.def)             Requested size: 345.44829pt x 251.31267pt.
+>>>>>>> Stashed changes
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [31
 
- <../figuras/post_vacunas_def.png>] [32 <../figuras/post_vacunas_altmed.png> <.
-./figuras/post_vacunas_uci.png>]
+ <../figuras/post_vacunas_def.png (PNG copy)>] [32 <../figuras/post_vacunas_alt
+med.png (PNG copy)> <../figuras/post_vacunas_uci.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/uci.pdf): PDF inclusion: found PD
 F version <1.6>, but at most version <1.5> allowed
-<../figuras/uci.pdf, id=992, 397.485pt x 289.08pt>
+<../figuras/uci.pdf, id=985, 397.485pt x 289.08pt>
 File: ../figuras/uci.pdf Graphic file (type pdf)
 <use ../figuras/uci.pdf>
 Package pdftex.def Info: ../figuras/uci.pdf  used on input line 940.
@@ -2436,7 +2450,7 @@ Package pdftex.def Info: ../figuras/uci.pdf  used on input line 940.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/nivel_3.pdf): PDF inclusion: foun
 d PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/nivel_3.pdf, id=1010, 397.485pt x 289.08pt>
+<../figuras/nivel_3.pdf, id=1003, 397.485pt x 289.08pt>
 File: ../figuras/nivel_3.pdf Graphic file (type pdf)
 <use ../figuras/nivel_3.pdf>
 Package pdftex.def Info: ../figuras/nivel_3.pdf  used on input line 953.
@@ -2447,7 +2461,7 @@ Package pdftex.def Info: ../figuras/nivel_3.pdf  used on input line 953.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/nivel_2.pdf): PDF inclusion: foun
 d PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/nivel_2.pdf, id=1027, 397.485pt x 289.08pt>
+<../figuras/nivel_2.pdf, id=1020, 397.485pt x 289.08pt>
 File: ../figuras/nivel_2.pdf Graphic file (type pdf)
 <use ../figuras/nivel_2.pdf>
 Package pdftex.def Info: ../figuras/nivel_2.pdf  used on input line 965.
@@ -2472,7 +2486,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1--975
 
 pdfTeX warning: pdflatex.exe (file ../editorial/5.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<../editorial/5.pdf, id=1049, 597.55246pt x 845.07718pt>
+<../editorial/5.pdf, id=1042, 597.55246pt x 845.07718pt>
 File: ../editorial/5.pdf Graphic file (type pdf)
 <use ../editorial/5.pdf>
 Package pdftex.def Info: ../editorial/5.pdf  used on input line 987.
@@ -2493,7 +2507,7 @@ F version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ../editorial/5.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<../editorial/5.pdf, id=1052, page=1, 597.55246pt x 845.07718pt>
+<../editorial/5.pdf, id=1045, page=1, 597.55246pt x 845.07718pt>
 File: ../editorial/5.pdf Graphic file (type pdf)
 <use ../editorial/5.pdf, page 1>
 Package pdftex.def Info: ../editorial/5.pdf , page1 used on input line 987.
@@ -2517,14 +2531,14 @@ Package pdftex.def Info: ../editorial/5.pdf , page1 used on input line 987.
 [37
 
  <../editorial/5.pdf>]
-<../figuras/incidencia_provincial_2022.png, id=1128, 1127.21124pt x 924.45375pt
+<../figuras/incidencia_provincial_2022.png, id=1121, 1127.21124pt x 924.45375pt
 >
 File: ../figuras/incidencia_provincial_2022.png Graphic file (type png)
 <use ../figuras/incidencia_provincial_2022.png>
 Package pdftex.def Info: ../figuras/incidencia_provincial_2022.png  used on inp
 ut line 997.
 (pdftex.def)             Requested size: 291.92834pt x 239.42131pt.
-<../figuras/mortalidad_provincial_2022.png, id=1130, 1127.21124pt x 924.45375pt
+<../figuras/mortalidad_provincial_2022.png, id=1123, 1127.21124pt x 924.45375pt
 >
 File: ../figuras/mortalidad_provincial_2022.png Graphic file (type png)
 <use ../figuras/mortalidad_provincial_2022.png>
@@ -2542,7 +2556,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 pdfTeX warning: pdflatex.exe (file ../figuras/incidencia_provincial_acumulada_2
 022.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> all
 owed
-<../figuras/incidencia_provincial_acumulada_2022.pdf, id=1138, 397.485pt x 289.
+<../figuras/incidencia_provincial_acumulada_2022.pdf, id=1131, 397.485pt x 289.
 08pt>
 File: ../figuras/incidencia_provincial_acumulada_2022.pdf Graphic file (type pd
 f)
@@ -2555,7 +2569,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [39 <../figuras/mortalidad_provincial_2022.png (PNG copy)>] [40 <../figuras/inc
 idencia_provincial_acumulada_2022.pdf>]
-<../figuras/incidencia_mortalidad_20_21_1.png, id=1161, 1270.7475pt x 924.45375
+<../figuras/incidencia_mortalidad_20_21_1.png, id=1154, 1270.7475pt x 924.45375
 pt>
 File: ../figuras/incidencia_mortalidad_20_21_1.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_1.png>
@@ -2566,7 +2580,7 @@ input line 1035.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../figuras/positividad_20_21_1.png, id=1162, 1270.7475pt x 924.45375pt>
+<../figuras/positividad_20_21_1.png, id=1155, 1270.7475pt x 924.45375pt>
 File: ../figuras/positividad_20_21_1.png Graphic file (type png)
 <use ../figuras/positividad_20_21_1.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_1.png  used on input line
@@ -2579,7 +2593,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_1.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_1.pdf, id=1163, 397.485pt x 289.08pt>
+<../figuras/exceso_1.pdf, id=1156, 397.485pt x 289.08pt>
 File: ../figuras/exceso_1.pdf Graphic file (type pdf)
 <use ../figuras/exceso_1.pdf>
 Package pdftex.def Info: ../figuras/exceso_1.pdf  used on input line 1051.
@@ -2591,14 +2605,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ] [42 <../figuras/incidencia_mortalidad_20_21_1.png (PNG copy)> <../figuras/pos
 itividad_20_21_1.png (PNG copy)>] [43 <../figuras/exceso_1.pdf>]
-<../figuras/incidencia_mortalidad_20_21_2.png, id=1204, 1270.7475pt x 924.45375
+<../figuras/incidencia_mortalidad_20_21_2.png, id=1197, 1270.7475pt x 924.45375
 pt>
 File: ../figuras/incidencia_mortalidad_20_21_2.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_2.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_2.png  used on 
 input line 1068.
 (pdftex.def)             Requested size: 413.56392pt x 300.86708pt.
-<../figuras/positividad_20_21_2.png, id=1205, 1270.7475pt x 924.45375pt>
+<../figuras/positividad_20_21_2.png, id=1198, 1270.7475pt x 924.45375pt>
 File: ../figuras/positividad_20_21_2.png Graphic file (type png)
 <use ../figuras/positividad_20_21_2.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_2.png  used on input line
@@ -2612,7 +2626,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_2.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_2.pdf, id=1206, 397.485pt x 289.08pt>
+<../figuras/exceso_2.pdf, id=1199, 397.485pt x 289.08pt>
 File: ../figuras/exceso_2.pdf Graphic file (type pdf)
 <use ../figuras/exceso_2.pdf>
 Package pdftex.def Info: ../figuras/exceso_2.pdf  used on input line 1084.
@@ -2624,14 +2638,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_2.png (PNG copy)>] [45 <../figuras/pos
 itividad_20_21_2.png (PNG copy)> <../figuras/exceso_2.pdf>]
-<../figuras/incidencia_mortalidad_20_21_3.png, id=1241, 1270.7475pt x 924.45375
+<../figuras/incidencia_mortalidad_20_21_3.png, id=1234, 1270.7475pt x 924.45375
 pt>
 File: ../figuras/incidencia_mortalidad_20_21_3.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_3.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_3.png  used on 
 input line 1100.
 (pdftex.def)             Requested size: 413.56392pt x 300.86708pt.
-<../figuras/positividad_20_21_3.png, id=1242, 1270.7475pt x 924.45375pt>
+<../figuras/positividad_20_21_3.png, id=1235, 1270.7475pt x 924.45375pt>
 File: ../figuras/positividad_20_21_3.png Graphic file (type png)
 <use ../figuras/positividad_20_21_3.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_3.png  used on input line
@@ -2645,7 +2659,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_3.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_3.pdf, id=1243, 397.485pt x 289.08pt>
+<../figuras/exceso_3.pdf, id=1236, 397.485pt x 289.08pt>
 File: ../figuras/exceso_3.pdf Graphic file (type pdf)
 <use ../figuras/exceso_3.pdf>
 Package pdftex.def Info: ../figuras/exceso_3.pdf  used on input line 1116.
@@ -2660,7 +2674,7 @@ itividad_20_21_3.png (PNG copy)> <../figuras/exceso_3.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../figuras/incidencia_mortalidad_20_21_4.pdf
 ): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/incidencia_mortalidad_20_21_4.pdf, id=1278, 397.485pt x 289.08pt>
+<../figuras/incidencia_mortalidad_20_21_4.pdf, id=1271, 397.485pt x 289.08pt>
 File: ../figuras/incidencia_mortalidad_20_21_4.pdf Graphic file (type pdf)
 <use ../figuras/incidencia_mortalidad_20_21_4.pdf>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_4.pdf  used on 
@@ -2670,7 +2684,7 @@ input line 1134.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/positividad_20_21_4.pdf): PDF inc
 lusion: found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/positividad_20_21_4.pdf, id=1279, 397.485pt x 289.08pt>
+<../figuras/positividad_20_21_4.pdf, id=1272, 397.485pt x 289.08pt>
 File: ../figuras/positividad_20_21_4.pdf Graphic file (type pdf)
 <use ../figuras/positividad_20_21_4.pdf>
 Package pdftex.def Info: ../figuras/positividad_20_21_4.pdf  used on input line
@@ -2683,7 +2697,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_4.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_4.pdf, id=1280, 397.485pt x 289.08pt>
+<../figuras/exceso_4.pdf, id=1273, 397.485pt x 289.08pt>
 File: ../figuras/exceso_4.pdf Graphic file (type pdf)
 <use ../figuras/exceso_4.pdf>
 Package pdftex.def Info: ../figuras/exceso_4.pdf  used on input line 1150.
@@ -2695,14 +2709,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_4.pdf>] [49 <../figuras/positividad_20
 _21_4.pdf> <../figuras/exceso_4.pdf>]
-<../figuras/incidencia_mortalidad_20_21_5.png, id=1336, 1270.7475pt x 924.45375
+<../figuras/incidencia_mortalidad_20_21_5.png, id=1329, 1270.7475pt x 924.45375
 pt>
 File: ../figuras/incidencia_mortalidad_20_21_5.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_5.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_5.png  used on 
 input line 1166.
 (pdftex.def)             Requested size: 413.56392pt x 300.86708pt.
-<../figuras/positividad_20_21_5.png, id=1337, 1270.7475pt x 924.45375pt>
+<../figuras/positividad_20_21_5.png, id=1330, 1270.7475pt x 924.45375pt>
 File: ../figuras/positividad_20_21_5.png Graphic file (type png)
 <use ../figuras/positividad_20_21_5.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_5.png  used on input line
@@ -2716,7 +2730,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_5.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_5.pdf, id=1338, 397.485pt x 289.08pt>
+<../figuras/exceso_5.pdf, id=1331, 397.485pt x 289.08pt>
 File: ../figuras/exceso_5.pdf Graphic file (type pdf)
 <use ../figuras/exceso_5.pdf>
 Package pdftex.def Info: ../figuras/exceso_5.pdf  used on input line 1182.
@@ -2728,14 +2742,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_5.png (PNG copy)>] [51 <../figuras/pos
 itividad_20_21_5.png (PNG copy)> <../figuras/exceso_5.pdf>]
-<../figuras/incidencia_mortalidad_20_21_6.png, id=1373, 1270.7475pt x 924.45375
+<../figuras/incidencia_mortalidad_20_21_6.png, id=1366, 1270.7475pt x 924.45375
 pt>
 File: ../figuras/incidencia_mortalidad_20_21_6.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_6.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_6.png  used on 
 input line 1199.
 (pdftex.def)             Requested size: 413.56392pt x 300.86708pt.
-<../figuras/positividad_20_21_6.png, id=1374, 1270.7475pt x 924.45375pt>
+<../figuras/positividad_20_21_6.png, id=1367, 1270.7475pt x 924.45375pt>
 File: ../figuras/positividad_20_21_6.png Graphic file (type png)
 <use ../figuras/positividad_20_21_6.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_6.png  used on input line
@@ -2749,7 +2763,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_6.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_6.pdf, id=1375, 397.485pt x 289.08pt>
+<../figuras/exceso_6.pdf, id=1368, 397.485pt x 289.08pt>
 File: ../figuras/exceso_6.pdf Graphic file (type pdf)
 <use ../figuras/exceso_6.pdf>
 Package pdftex.def Info: ../figuras/exceso_6.pdf  used on input line 1215.
@@ -2761,14 +2775,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_6.png (PNG copy)>] [53 <../figuras/pos
 itividad_20_21_6.png (PNG copy)> <../figuras/exceso_6.pdf>]
-<../figuras/incidencia_mortalidad_20_21_7.png, id=1410, 1270.7475pt x 924.45375
+<../figuras/incidencia_mortalidad_20_21_7.png, id=1403, 1270.7475pt x 924.45375
 pt>
 File: ../figuras/incidencia_mortalidad_20_21_7.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_7.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_7.png  used on 
 input line 1232.
 (pdftex.def)             Requested size: 413.56392pt x 300.86708pt.
-<../figuras/positividad_20_21_7.png, id=1411, 1270.7475pt x 924.45375pt>
+<../figuras/positividad_20_21_7.png, id=1404, 1270.7475pt x 924.45375pt>
 File: ../figuras/positividad_20_21_7.png Graphic file (type png)
 <use ../figuras/positividad_20_21_7.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_7.png  used on input line
@@ -2782,7 +2796,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_7.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_7.pdf, id=1412, 397.485pt x 289.08pt>
+<../figuras/exceso_7.pdf, id=1405, 397.485pt x 289.08pt>
 File: ../figuras/exceso_7.pdf Graphic file (type pdf)
 <use ../figuras/exceso_7.pdf>
 Package pdftex.def Info: ../figuras/exceso_7.pdf  used on input line 1248.
@@ -2794,14 +2808,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_7.png (PNG copy)>] [55 <../figuras/pos
 itividad_20_21_7.png (PNG copy)> <../figuras/exceso_7.pdf>]
-<../figuras/incidencia_mortalidad_20_21_8.png, id=1448, 1270.7475pt x 924.45375
+<../figuras/incidencia_mortalidad_20_21_8.png, id=1441, 1270.7475pt x 924.45375
 pt>
 File: ../figuras/incidencia_mortalidad_20_21_8.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_8.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_8.png  used on 
 input line 1264.
 (pdftex.def)             Requested size: 413.56392pt x 300.86708pt.
-<../figuras/positividad_20_21_8.png, id=1449, 1270.7475pt x 924.45375pt>
+<../figuras/positividad_20_21_8.png, id=1442, 1270.7475pt x 924.45375pt>
 File: ../figuras/positividad_20_21_8.png Graphic file (type png)
 <use ../figuras/positividad_20_21_8.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_8.png  used on input line
@@ -2815,7 +2829,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_8.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_8.pdf, id=1450, 397.485pt x 289.08pt>
+<../figuras/exceso_8.pdf, id=1443, 397.485pt x 289.08pt>
 File: ../figuras/exceso_8.pdf Graphic file (type pdf)
 <use ../figuras/exceso_8.pdf>
 Package pdftex.def Info: ../figuras/exceso_8.pdf  used on input line 1280.
@@ -2827,14 +2841,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_8.png (PNG copy)>] [57 <../figuras/pos
 itividad_20_21_8.png (PNG copy)> <../figuras/exceso_8.pdf>]
-<../figuras/incidencia_mortalidad_20_21_9.png, id=1485, 1270.7475pt x 924.45375
+<../figuras/incidencia_mortalidad_20_21_9.png, id=1478, 1270.7475pt x 924.45375
 pt>
 File: ../figuras/incidencia_mortalidad_20_21_9.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_9.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_9.png  used on 
 input line 1296.
 (pdftex.def)             Requested size: 413.56392pt x 300.86708pt.
-<../figuras/positividad_20_21_9.png, id=1486, 1270.7475pt x 924.45375pt>
+<../figuras/positividad_20_21_9.png, id=1479, 1270.7475pt x 924.45375pt>
 File: ../figuras/positividad_20_21_9.png Graphic file (type png)
 <use ../figuras/positividad_20_21_9.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_9.png  used on input line
@@ -2848,7 +2862,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_9.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_9.pdf, id=1487, 397.485pt x 289.08pt>
+<../figuras/exceso_9.pdf, id=1480, 397.485pt x 289.08pt>
 File: ../figuras/exceso_9.pdf Graphic file (type pdf)
 <use ../figuras/exceso_9.pdf>
 Package pdftex.def Info: ../figuras/exceso_9.pdf  used on input line 1312.
@@ -2860,14 +2874,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_9.png (PNG copy)>] [59 <../figuras/pos
 itividad_20_21_9.png (PNG copy)> <../figuras/exceso_9.pdf>]
-<../figuras/incidencia_mortalidad_20_21_10.png, id=1522, 1270.7475pt x 924.4537
+<../figuras/incidencia_mortalidad_20_21_10.png, id=1515, 1270.7475pt x 924.4537
 5pt>
 File: ../figuras/incidencia_mortalidad_20_21_10.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_10.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_10.png  used on
  input line 1328.
 (pdftex.def)             Requested size: 413.56392pt x 300.86708pt.
-<../figuras/positividad_20_21_10.png, id=1523, 1270.7475pt x 924.45375pt>
+<../figuras/positividad_20_21_10.png, id=1516, 1270.7475pt x 924.45375pt>
 File: ../figuras/positividad_20_21_10.png Graphic file (type png)
 <use ../figuras/positividad_20_21_10.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_10.png  used on input lin
@@ -2881,7 +2895,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_10.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_10.pdf, id=1524, 397.485pt x 289.08pt>
+<../figuras/exceso_10.pdf, id=1517, 397.485pt x 289.08pt>
 File: ../figuras/exceso_10.pdf Graphic file (type pdf)
 <use ../figuras/exceso_10.pdf>
 Package pdftex.def Info: ../figuras/exceso_10.pdf  used on input line 1344.
@@ -2893,14 +2907,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_10.png (PNG copy)>] [61 <../figuras/po
 sitividad_20_21_10.png (PNG copy)> <../figuras/exceso_10.pdf>]
-<../figuras/incidencia_mortalidad_20_21_11.png, id=1560, 1270.7475pt x 924.4537
+<../figuras/incidencia_mortalidad_20_21_11.png, id=1553, 1270.7475pt x 924.4537
 5pt>
 File: ../figuras/incidencia_mortalidad_20_21_11.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_11.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_11.png  used on
  input line 1359.
 (pdftex.def)             Requested size: 413.56392pt x 300.86708pt.
-<../figuras/positividad_20_21_11.png, id=1561, 1270.7475pt x 924.45375pt>
+<../figuras/positividad_20_21_11.png, id=1554, 1270.7475pt x 924.45375pt>
 File: ../figuras/positividad_20_21_11.png Graphic file (type png)
 <use ../figuras/positividad_20_21_11.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_11.png  used on input lin
@@ -2914,7 +2928,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_11.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_11.pdf, id=1562, 397.485pt x 289.08pt>
+<../figuras/exceso_11.pdf, id=1555, 397.485pt x 289.08pt>
 File: ../figuras/exceso_11.pdf Graphic file (type pdf)
 <use ../figuras/exceso_11.pdf>
 Package pdftex.def Info: ../figuras/exceso_11.pdf  used on input line 1375.
@@ -2926,14 +2940,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_11.png (PNG copy)>] [63 <../figuras/po
 sitividad_20_21_11.png (PNG copy)> <../figuras/exceso_11.pdf>]
-<../figuras/incidencia_mortalidad_20_21_12.png, id=1597, 1270.7475pt x 924.4537
+<../figuras/incidencia_mortalidad_20_21_12.png, id=1590, 1270.7475pt x 924.4537
 5pt>
 File: ../figuras/incidencia_mortalidad_20_21_12.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_12.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_12.png  used on
  input line 1391.
 (pdftex.def)             Requested size: 413.56392pt x 300.86708pt.
-<../figuras/positividad_20_21_12.png, id=1598, 1270.7475pt x 924.45375pt>
+<../figuras/positividad_20_21_12.png, id=1591, 1270.7475pt x 924.45375pt>
 File: ../figuras/positividad_20_21_12.png Graphic file (type png)
 <use ../figuras/positividad_20_21_12.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_12.png  used on input lin
@@ -2947,7 +2961,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_12.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_12.pdf, id=1599, 397.485pt x 289.08pt>
+<../figuras/exceso_12.pdf, id=1592, 397.485pt x 289.08pt>
 File: ../figuras/exceso_12.pdf Graphic file (type pdf)
 <use ../figuras/exceso_12.pdf>
 Package pdftex.def Info: ../figuras/exceso_12.pdf  used on input line 1407.
@@ -2959,14 +2973,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
  <../figuras/incidencia_mortalidad_20_21_12.png (PNG copy)>] [65 <../figuras/po
 sitividad_20_21_12.png (PNG copy)> <../figuras/exceso_12.pdf>]
-<../figuras/incidencia_mortalidad_20_21_13.png, id=1634, 1270.7475pt x 924.4537
+<../figuras/incidencia_mortalidad_20_21_13.png, id=1627, 1270.7475pt x 924.4537
 5pt>
 File: ../figuras/incidencia_mortalidad_20_21_13.png Graphic file (type png)
 <use ../figuras/incidencia_mortalidad_20_21_13.png>
 Package pdftex.def Info: ../figuras/incidencia_mortalidad_20_21_13.png  used on
  input line 1423.
 (pdftex.def)             Requested size: 413.56392pt x 300.86708pt.
-<../figuras/positividad_20_21_13.png, id=1635, 1270.7475pt x 924.45375pt>
+<../figuras/positividad_20_21_13.png, id=1628, 1270.7475pt x 924.45375pt>
 File: ../figuras/positividad_20_21_13.png Graphic file (type png)
 <use ../figuras/positividad_20_21_13.png>
 Package pdftex.def Info: ../figuras/positividad_20_21_13.png  used on input lin
@@ -2980,7 +2994,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/exceso_13.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/exceso_13.pdf, id=1636, 397.485pt x 289.08pt>
+<../figuras/exceso_13.pdf, id=1629, 397.485pt x 289.08pt>
 File: ../figuras/exceso_13.pdf Graphic file (type pdf)
 <use ../figuras/exceso_13.pdf>
 Package pdftex.def Info: ../figuras/exceso_13.pdf  used on input line 1439.
@@ -2995,7 +3009,7 @@ sitividad_20_21_13.png (PNG copy)> <../figuras/exceso_13.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ../editorial/6.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<../editorial/6.pdf, id=1669, 597.55246pt x 845.07718pt>
+<../editorial/6.pdf, id=1662, 597.55246pt x 845.07718pt>
 File: ../editorial/6.pdf Graphic file (type pdf)
 <use ../editorial/6.pdf>
 Package pdftex.def Info: ../editorial/6.pdf  used on input line 1449.
@@ -3016,7 +3030,7 @@ F version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ../editorial/6.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<../editorial/6.pdf, id=1672, page=1, 597.55246pt x 845.07718pt>
+<../editorial/6.pdf, id=1665, page=1, 597.55246pt x 845.07718pt>
 File: ../editorial/6.pdf Graphic file (type pdf)
 <use ../editorial/6.pdf, page 1>
 Package pdftex.def Info: ../editorial/6.pdf , page1 used on input line 1449.
@@ -3043,7 +3057,7 @@ Package pdftex.def Info: ../editorial/6.pdf , page1 used on input line 1449.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes.pdf): PDF inclusion: fo
 und PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/variantes.pdf, id=1749, 397.485pt x 289.08pt>
+<../figuras/variantes.pdf, id=1742, 397.485pt x 289.08pt>
 File: ../figuras/variantes.pdf Graphic file (type pdf)
 <use ../figuras/variantes.pdf>
 Package pdftex.def Info: ../figuras/variantes.pdf  used on input line 1461.
@@ -3052,7 +3066,7 @@ Package pdftex.def Info: ../figuras/variantes.pdf  used on input line 1461.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/subvariantes.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
-<../figuras/subvariantes.pdf, id=1750, 397.485pt x 289.08pt>
+<../figuras/subvariantes.pdf, id=1743, 397.485pt x 289.08pt>
 File: ../figuras/subvariantes.pdf Graphic file (type pdf)
 <use ../figuras/subvariantes.pdf>
 Package pdftex.def Info: ../figuras/subvariantes.pdf  used on input line 1469.
@@ -3066,7 +3080,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_provincial_lambda.pdf):
  PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/variantes_provincial_lambda.pdf, id=1769, 289.08pt x 337.57483pt>
+=======
+<../figuras/variantes_provincial_lambda.pdf, id=1761, 289.08pt x 337.57483pt>
+>>>>>>> Stashed changes
 File: ../figuras/variantes_provincial_lambda.pdf Graphic file (type pdf)
 <use ../figuras/variantes_provincial_lambda.pdf>
 Package pdftex.def Info: ../figuras/variantes_provincial_lambda.pdf  used on in
@@ -3076,7 +3094,11 @@ put line 1482.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_provincial_gamma.pdf): 
 PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/variantes_provincial_gamma.pdf, id=1770, 289.08pt x 337.57483pt>
+=======
+<../figuras/variantes_provincial_gamma.pdf, id=1762, 289.08pt x 337.57483pt>
+>>>>>>> Stashed changes
 File: ../figuras/variantes_provincial_gamma.pdf Graphic file (type pdf)
 <use ../figuras/variantes_provincial_gamma.pdf>
 Package pdftex.def Info: ../figuras/variantes_provincial_gamma.pdf  used on inp
@@ -3086,13 +3108,21 @@ ut line 1489.
 
 pdfTeX warning: pdflatex.exe (file ../figuras/variantes_provincial_delta.pdf): 
 PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<<<<<<< Updated upstream
 <../figuras/variantes_provincial_delta.pdf, id=1771, 289.08pt x 337.57483pt>
+=======
+<../figuras/variantes_provincial_delta.pdf, id=1763, 289.08pt x 337.57483pt>
+>>>>>>> Stashed changes
 File: ../figuras/variantes_provincial_delta.pdf Graphic file (type pdf)
 <use ../figuras/variantes_provincial_delta.pdf>
 Package pdftex.def Info: ../figuras/variantes_provincial_delta.pdf  used on inp
 ut line 1496.
 (pdftex.def)             Requested size: 194.61394pt x 227.26082pt.
+<<<<<<< Updated upstream
 <../figuras/variantes_provincial_omicron.png, id=1772, 442.65375pt x 515.9275pt
+=======
+<../figuras/variantes_provincial_omicron.png, id=1764, 442.65375pt x 515.9275pt
+>>>>>>> Stashed changes
 >
 File: ../figuras/variantes_provincial_omicron.png Graphic file (type png)
 <use ../figuras/variantes_provincial_omicron.png>
@@ -3108,7 +3138,7 @@ al_delta.pdf> <../figuras/variantes_provincial_omicron.png (PNG copy)>]
 
 pdfTeX warning: pdflatex.exe (file ../editorial/7.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<../editorial/7.pdf, id=1821, 597.55246pt x 845.07718pt>
+<../editorial/7.pdf, id=1814, 597.55246pt x 845.07718pt>
 File: ../editorial/7.pdf Graphic file (type pdf)
 <use ../editorial/7.pdf>
 Package pdftex.def Info: ../editorial/7.pdf  used on input line 1518.
@@ -3129,7 +3159,7 @@ F version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ../editorial/7.pdf): PDF inclusion: found PD
 F version <1.7>, but at most version <1.5> allowed
-<../editorial/7.pdf, id=1824, page=1, 597.55246pt x 845.07718pt>
+<../editorial/7.pdf, id=1817, page=1, 597.55246pt x 845.07718pt>
 File: ../editorial/7.pdf Graphic file (type pdf)
 <use ../editorial/7.pdf, page 1>
 Package pdftex.def Info: ../editorial/7.pdf , page1 used on input line 1518.
@@ -3164,7 +3194,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 pdfTeX warning: pdflatex.exe (file ../editorial/pagina_final.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<../editorial/pagina_final.pdf, id=1913, 597.55246pt x 845.07718pt>
+<../editorial/pagina_final.pdf, id=1906, 597.55246pt x 845.07718pt>
 File: ../editorial/pagina_final.pdf Graphic file (type pdf)
 <use ../editorial/pagina_final.pdf>
 Package pdftex.def Info: ../editorial/pagina_final.pdf  used on input line 1601
@@ -3187,7 +3217,7 @@ n: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ../editorial/pagina_final.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<../editorial/pagina_final.pdf, id=1916, page=1, 597.55246pt x 845.07718pt>
+<../editorial/pagina_final.pdf, id=1909, page=1, 597.55246pt x 845.07718pt>
 File: ../editorial/pagina_final.pdf Graphic file (type pdf)
 <use ../editorial/pagina_final.pdf, page 1>
 Package pdftex.def Info: ../editorial/pagina_final.pdf , page1 used on input li
@@ -3217,8 +3247,8 @@ Package pdftex.def Info: ../editorial/pagina_final.pdf , page1 used on input li
 ne 1601.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
  [77 <../editorial/pagina_final.pdf>] (boletin_covid.aux
-LaTeX Info: Redefining \. on input line 22.
-LaTeX Info: Redefining \% on input line 22.
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
 )
 Package rerunfilecheck Info: File `boletin_covid.out' has not changed.
 (rerunfilecheck)             Checksum: D7B3C53921BCE787ABBD5E8B61C89369;1711.
@@ -3228,12 +3258,13 @@ Package rerunfilecheck Info: File `boletin_covid.out' has not changed.
 ### simple group (level 1) entered at line 1554 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 44146 strings out of 478338
- 1029876 string characters out of 2835284
- 1474588 words of memory out of 3000000
- 61468 multiletter control sequences out of 15000+600000
+ 44053 strings out of 478582
+ 1026860 string characters out of 2843872
+ 1460446 words of memory out of 3000000
+ 61130 multiletter control sequences out of 15000+600000
  516981 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
+<<<<<<< Updated upstream
  84i,17n,131p,1423b,698s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Lucerito/AppData/Local/Programs/MiKTeX/fonts/enc/dvip
 s/lm/lm-ec.enc}{C:/Users/Lucerito/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
@@ -3245,8 +3276,21 @@ blic/lm/lmss10.pfb><C:/Users/Lucerito/AppData/Local/Programs/MiKTeX/fonts/type1
 pe1/public/lm/lmssbx10.pfb><C:/Users/Lucerito/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/lm/lmsso12.pfb>
 Output written on boletin_covid.pdf (78 pages, 16275746 bytes).
+=======
+ 84i,17n,131p,1418b,630s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/
+lm/lm-ec.enc}{C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/
+lm-rm.enc}{C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-
+ts1.enc}<C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
+r12.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lm
+ss10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
+mss12.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
+lmssbx10.pfb><C:/Users/DEI-02/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+lm/lmsso12.pfb>
+Output written on boletin_covid.pdf (78 pages, 15000380 bytes).
+>>>>>>> Stashed changes
 PDF statistics:
- 2045 PDF objects out of 2073 (max. 8388607)
+ 2038 PDF objects out of 2073 (max. 8388607)
  184 named destinations out of 1000 (max. 500000)
- 746 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 731 words of extra memory for PDF output out of 10000 (max. 10000000)
 

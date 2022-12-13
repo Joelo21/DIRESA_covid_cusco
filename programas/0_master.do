@@ -27,15 +27,15 @@ set more off
 *ssc install estout
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 05Dec2022
-global semana 100
+global fecha 12Dec2022
+global semana 101
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
 
 * Definir los colores de las gráficas
 * Colores
 global mycolor1 "221 165 230"
-global mycolor2 "243 149 13" 
+global mycolor2 "243 149 13" 	
 global mycolor3 "205 24 24"
 global mycolor4 "164 93 93"
 global mycolor5 "54 56 120"
@@ -117,7 +117,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas/2a_series_diarias_region"
 	do "programas/2b_series_diarias_provincias"
 	do "programas/2c_panel_diario_provincias"
-*/
+
 * 3. Figuras para la "Sala Situacional COVID-19" diaria 
 	*do "programas/3a_figura_etapa_vida"--
 	do "programas/3a_figura_etapa_vida_2022"
@@ -157,8 +157,8 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 
 	* Graficos Hospitalización
-	do "programas/4f_figuras_hospitales"
-x
+	*do "programas/4f_figuras_hospitales"
+
 	*Data Hospitalizados diarios
 	*do "programas/4g_figuras_hospitalizados"
 	
@@ -167,7 +167,7 @@ x
 	*do "programas/4i_datos_fallecidos_vacunados"
 	*do "programas/4j_datos_altas_fallecidos_vacunados"
 
-*/
+
 /*
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
@@ -177,14 +177,14 @@ x
 	do "programas\5d_figura_sub_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
 */
-/*
+
 * 6. Vacunados
 	*do "programas\6a_base_vacunados"
 	*do "programas\6b_figura_vacunacion"
 	*do "programas\6c_figura_vacunacion_provincias"
 	do "programas\6d_vacunacion"
 	do "programas\6e_vacunacion_provincias" 
-*/
+
 
 /*
 * 7. Figuras para el "Boletin COVID-19" Mensual
@@ -197,13 +197,11 @@ x
 	*do "programas\7g_figura_inci_morta_series"
 	do "programas\7g_figura_inci_morta_series_2022"
 
-/*
 * 8. Figuras Post_Vacunas Altas, Defunciónes, UCI Y NOUCI
 	do "programas/8a_Post_Vacunas_Altas_Def"
 	do "programas/8b_Post_Vacunas_Hospitalizados"
 	do "programas/8c_Union_Post_Vacunas_Graph"
 
-/*
 * 9. Tablas
 	do "programas/9a_Tablas_Curso_Vida"
 	do "programas\4z_tabla_cero_defunciones.do"

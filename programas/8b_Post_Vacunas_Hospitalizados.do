@@ -5,7 +5,7 @@ save "${datos}\output\base_vacunados_practica_eddie", replace
 ********************************************************************************
 ***Base Hospitalizados
 * Importar la base de datos Hospitalizados
-import excel "${datos}\raw\base_hospitalizados.xls", firstrow cellrange(A6:X500) sheet(HOSPITALIZADOS) clear
+import excel "${datos}\raw\base_hospitalizados.xls", firstrow cellrange(A6:Z500) sheet(HOSPITALIZADOS) clear
 
 *Changes Names Columnn's
 rename A N°
@@ -15,14 +15,14 @@ rename D HOSPITAL
 rename E NOMBRE_Y_APELLIDOS
 rename F TIPODOC
 rename G dni
-rename H EDAD
-rename I SEXO
-rename J TIPO_SEGURO
-rename K RESULTADO_PRUEBAS
-rename U FECHA_DE_INGRESO
-rename V FECHA_Y_HORA_SEGUIMIENTO
-rename W AMBIENTE
-rename X FECHA_DE_NACIMIENTO
+rename Años EDAD
+rename K SEXO
+rename L TIPO_SEGURO
+rename M RESULTADO_PRUEBAS
+rename W FECHA_DE_INGRESO
+rename X FECHA_Y_HORA_SEGUIMIENTO
+rename Y AMBIENTE
+rename Z FECHA_DE_NACIMIENTO
 
 rename EDAD edad
 rename FECHA_DE_INGRESO fecha_ingreso
