@@ -8,16 +8,16 @@ set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
 	*****CASA******
-	*global path "C:\Users\Joelo\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\Joelo\Documents\GitHub\GERESA_covid_cusco"
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	global datos "H:\Mi unidad\Datos"
-	****CASA****** 
 	*global datos "H:\Mi unidad\Datos"
+	****CASA****** 
+	global datos "H:\Mi unidad\Datos"
 	
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
