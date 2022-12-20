@@ -72,10 +72,10 @@ twoway (bar lambda mes, barwidth(0.5) yaxis(1) ylabel(0(0.2)1) yscale(range(0(0.
 (line suma_total mes, color("$mycolor4") lwidth(tiny) lpattern(shortdash_dot) yaxis(2) yscale(axis(2)) ylabel(0(40)240, axis(2))) ///
 (scatter suma_total mes, msize(vsmall) mcolor("$mycolor17") mlabel(suma_total) mlabposition(12) mlabcolor("$mycolor17") mlabsize(vsmall) connect() yaxis(2) yscale(axis(2)) ylabel(0(50)300, axis(2))) ///
 ,	xtitle("Mes", size(*0.7)) ///
- ytitle("Porcentaje de las Variantes Econtradas", size(*0.7)) ///
+ ytitle("Porcentaje de las Variantes Econtradas", size(*0.6)) ///
 	graphregion(color(white)) ///
-	xlabel(735 "Abr" 736 "May" 737 "Jun" 738 "Jul" 739 "Ago" 740 "Sep" 741 "Oct" 742 "Nov" 743 "Dic" 744 "Ene" 745 "Feb" 746 "Mar" 747 "Abr" 748 "May" 749 "Jun" 750 "Jul" 751 "Ago" 752 "Set" 753 "Oct" 754 "Nov") ///
-	legend(cols(3) label(1 "Lambda") label(2 "") label(3 "Gamma") label(4 "") label(5 "Delta") label(6 "")  label(7 "Omicron") label(8 "") label(9 "Otros") label(11 "Total de Muestra") label(12 "") order(11 1 3 5 7 9) size(*0.75) region(col(white))) ///
+	xlabel(735 "Abr" 736 "May" 737 "Jun" 738 "Jul" 739 "Ago" 740 "Sep" 741 "Oct" 742 "Nov" 743 "Dic" 744 "Ene" 745 "Feb" 746 "Mar" 747 "Abr" 748 "May" 749 "Jun" 750 "Jul" 751 "Ago" 752 "Set" 753 "Oct" 754 "Nov" 755 "Dic") ///
+	legend(cols(3) label(1 "Lambda") label(2 "") label(3 "Gamma") label(4 "") label(5 "Delta") label(6 "")  label(7 "Omicron") label(8 "") label(9 "Otros") label(11 "Total de Muestra") label(12 "") order(11 1 3 5 7 9) size(*0.65) region(col(white))) ///
 	title("Variantes en la Región Cusco", box bexpand bcolor("$mycolor3") color(white)) ///
 	bgcolor(white) ///
 	ylabel(, nogrid) name(variantes_barras, replace)

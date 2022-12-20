@@ -109,7 +109,7 @@ twoway (bar linaje_omicron_5 mes, barwidth(0.6) yaxis(1) ylabel(0(0.2)1) yscale(
  ,	xtitle("Mes", size(*0.7)) ///
  ytitle("Porcentaje de las Variantes Encontradas", size(*0.5)) ///
 	graphregion(color(white)) ///
-	xlabel(743 "Dic" 744 "Ene" 745 "Feb" 746 "Mar" 747 "Abr" 748 "May" 749 "Jun" 750 "Jul" 751 "Ago" 752 "Set" 753 "Oct" 754 "Nov") ///
+	xlabel(743 "Dic" 744 "Ene" 745 "Feb" 746 "Mar" 747 "Abr" 748 "May" 749 "Jun" 750 "Jul" 751 "Ago" 752 "Set" 753 "Oct" 754 "Nov" 755 "Dic") ///
 legend(cols(5) label(1 "BA.5") label(2 "BA.4") label(3 "BQ.1.5") label(4 "BQ.1") label(5 "XBB.2") label(6 "BQ.1.10") label(7 "CH.1.1") label(8 "BG.3") label(9 "BE.1.1") label(10 "BE.1") label(11 "BF.7") label(12 "BC.2") label(13 "BA.1") label(14 "BA.2") label(15 "AY.119.1") label (16 "Total de Muestra") order(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16) size(*0.45) region(col(white))) ///
 	title("Subvariantes en la Región Cusco", box bexpand bcolor("$mycolor3") color(white)) ///
 	bgcolor(white) ///

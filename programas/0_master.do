@@ -3,21 +3,21 @@
 * Actualizado en: 31 de octubre del 2021
 *------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------%
 * Acción requerida --> Seleccionar el número de usuario (1 en mi caso) de acuerdo a la dirección (path) del siguiente comando
-clear all
+*clear all
 set more off
 
 * Acción requerida --> Cambiar la dirección (path) de su folder de replicación
 	****GERESA*****
-	*global path "C:\Users\DEI-02\Documents\GitHub\GERESA_covid_cusco"
+	global path "C:\Users\DEIS-02\Documents\GitHub\GERESA_covid_cusco"
 	*****CASA******
-	global path "C:\Users\Joelo\Documents\GitHub\GERESA_covid_cusco"
+	*global path "C:\Users\Joelo\Documents\GitHub\GERESA_covid_cusco"
 	cd "$path"
 
 * Directorio de los datos: Por ser data confidencial, se guardan los datos en otra carpeta que no este libremente disponible
     ****GERESA******
-	*global datos "H:\Mi unidad\Datos"
+	global datos "G:\Mi unidad\Datos"
 	****CASA****** 
-	global datos "H:\Mi unidad\Datos"
+	*global datos "H:\Mi unidad\Datos"
 	
 * Acción requerida: programas para realizar mapas
 *ssc install spmap
@@ -27,8 +27,8 @@ set more off
 *ssc install estout
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 12Dec2022
-global semana 101
+global fecha 20Dec2022
+global semana 102
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
 
@@ -94,14 +94,14 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	**do "programas/0b_codigo_establecimiento"
 	*do "programas/1a_base_noticovid_2020"
 	*do "programas/1b_base_noticovid_2021"
-	do "programas/1b_base_noticovid_2022"
+	*do "programas/1b_base_noticovid_2022"
 
 	*do "programas/1c_base_siscovid_pr_2020"
 	*do "programas/1d_base_siscovid_pr_2021"
 
 	*do "programas/1e_base_siscovid_ag_2021_1"
 	*do "programas/1f_base_siscovid_ag_2021_2"
-	do "programas/1f_base_siscovid_ag_2022_1"
+	*do "programas/1f_base_siscovid_ag_2022_1"
 
 	*do "programas/1g_base_sinadef_covid_2020"
 	*do "programas/1h_base_sinadef_covid_2021"
@@ -146,7 +146,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	
 	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	do "programas/4c_figura_inci_mort_positi_provincial"
-
+*/
 	** Datos para los excesos de defunciones
 	*do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
 	do "programas/1m_datos_defunciones_2020_2021_regional"
@@ -154,7 +154,6 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	do "programas/4d_figura_exceso_regional"
 	do "programas/4e_figura_exceso_provincial"
-
 
 	* Graficos Hospitalización
 	*do "programas/4f_figuras_hospitales"
@@ -176,7 +175,8 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\5d_figura_secuenciamiento"
 	do "programas\5d_figura_sub_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
-*/
+	*/
+	/*
 
 * 6. Vacunados
 	*do "programas\6a_base_vacunados"

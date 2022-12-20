@@ -244,6 +244,17 @@ tostring dni, replace force
 keep dni mes linaje muestra
 save "${datos}\temporal\secuenciamiento_21", replace
 ************************************************************************
+import excel "${datos}\raw\base_netlab_diciembre_2022.xlsx", sheet(Hoja1) firstrow clear
+
+rename DNI dni
+rename LINAJE linaje
+gen mes = 24
+gen muestra = "netlab"
+tostring dni, replace force
+
+keep dni mes linaje muestra
+save "${datos}\temporal\secuenciamiento_22", replace
+************************************************************************
 
 
 append using "${datos}\temporal\secuenciamiento_1"
@@ -267,6 +278,7 @@ append using "${datos}\temporal\secuenciamiento_18"
 append using "${datos}\temporal\secuenciamiento_19"
 append using "${datos}\temporal\secuenciamiento_20"
 append using "${datos}\temporal\secuenciamiento_21"
+append using "${datos}\temporal\secuenciamiento_22"
 *sort mes
 
 sort dni
