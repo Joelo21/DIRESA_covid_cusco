@@ -15,7 +15,7 @@ forvalues i=1/13 {
 ********************************************************************************
 
 * 2020
-twoway (line mortalidad_`i' semana, yaxis(1) ylabel(0(0.5)2) yscale(range(0(0.5)3) axis(1)) lcolor("$mycolor2")) ///
+twoway (line mortalidad_`i' semana_2, yaxis(1) ylabel(0(0.5)2) yscale(range(0(0.5)3) axis(1)) lcolor("$mycolor2")) ///
 (line incidencia_`i' semana, lcolor("$mycolor6") yaxis(2) yscale(axis(2) off) ylabel(0(10)60, axis(2))) ///
 if semana >=11 & semana<=53, ///
 	tlabel(1(4)53) ///

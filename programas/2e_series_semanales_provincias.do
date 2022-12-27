@@ -85,6 +85,6 @@ merge 1:1 semana using "${datos}/temporal/data_semanal_`j'.dta", nogen
 
 }
 
-
+keep semana_2 semana_3 defuncion_1 defuncion_2 defuncion_3 defuncion_4 defuncion_5 defuncion_6 defuncion_7 defuncion_8 defuncion_9 defuncion_10 defuncion_11 defuncion_12 defuncion_13
 
 save "${datos}/output/serie_semanal_provincias.dta", replace

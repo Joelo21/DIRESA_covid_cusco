@@ -27,8 +27,9 @@ set more off
 *ssc install estout
 
 * Acción requerida: definir la fecha actual y la semana epidemiológica
-global fecha 21Dec2022
+global fecha 27Dec2022
 global semana 103
+
 * Tiempo de corrida: alrededor de 7 minutos
 timer on 1
 
@@ -88,7 +89,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 ** 8. POSTVACUNADOS: graficos post-vacunas semanales.
 ** 9. TABLAS: tabla curso de vida 2020 - 2022 semana.
 
-
+/*
 * 1. Construir las base de datos 2020 - 2021 - 2022
 	**do "programas/0a_codigo_ubigeo"
 	**do "programas/0b_codigo_establecimiento"
@@ -131,7 +132,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	* Para la actualización del Dashboard COVID-19 en la página web
 	do "programas/1k_datos_dashboard" 
-x
+
 	** Cambiar la dirección si es necesario
 	*CASA
 	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\MasterDofile"
@@ -145,8 +146,8 @@ x
 	do "programas/4b_figura_mort_edad_region"
 	
 	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
-	do "programas/4c_figura_inci_mort_positi_provincial"
-*/
+	*do "programas/4c_figura_inci_mort_positi_provincial"
+/*
 	** Datos para los excesos de defunciones
 	*do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
 	do "programas/1m_datos_defunciones_2020_2021_regional"
@@ -154,9 +155,9 @@ x
 
 	do "programas/4d_figura_exceso_regional"
 	do "programas/4e_figura_exceso_provincial"
-
+*/
 	* Graficos Hospitalización
-	*do "programas/4f_figuras_hospitales"
+	do "programas/4f_figuras_hospitales"
 
 	*Data Hospitalizados diarios
 	*do "programas/4g_figuras_hospitalizados"
@@ -166,7 +167,7 @@ x
 	*do "programas/4i_datos_fallecidos_vacunados"
 	*do "programas/4j_datos_altas_fallecidos_vacunados"
 
-
+*/
 /*
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
@@ -176,8 +177,7 @@ x
 	do "programas\5d_figura_sub_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
 	*/
-	/*
-
+	
 * 6. Vacunados
 	*do "programas\6a_base_vacunados"
 	*do "programas\6b_figura_vacunacion"
