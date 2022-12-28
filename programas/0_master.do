@@ -139,7 +139,6 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	* Ocupación de camas (semanalmente)
 	*do "C:\Users\DEI-02\Documents\GitHub\GERESA_dashboard\data\source1_camas\main"
 
-
 * 4. Figuras para la "Sala Situacional COVID-19" Semanal
 	do "programas/2d_series_semanales_region" // Generar datos semanales region
 	do "programas/4a_figura_casos_def_region"
@@ -147,7 +146,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	
 	do "programas/2e_series_semanales_provincias" // Generar datos semanales provincias
 	*do "programas/4c_figura_inci_mort_positi_provincial"
-/*
+*/
 	** Datos para los excesos de defunciones
 	*do "programas/1l_datos_defunciones_reg_prov_2019" // datos del 2019
 	do "programas/1m_datos_defunciones_2020_2021_regional"
@@ -155,9 +154,9 @@ gr export "figuras/paleta_colores.png", as(png) replace
 
 	do "programas/4d_figura_exceso_regional"
 	do "programas/4e_figura_exceso_provincial"
-*/
+
 	* Graficos Hospitalización
-	do "programas/4f_figuras_hospitales"
+	*do "programas/4f_figuras_hospitales"
 
 	*Data Hospitalizados diarios
 	*do "programas/4g_figuras_hospitalizados"
@@ -167,7 +166,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	*do "programas/4i_datos_fallecidos_vacunados"
 	*do "programas/4j_datos_altas_fallecidos_vacunados"
 
-*/
+
 /*
 * 5. Secuenciamiento
 	do "programas\5a_base_secuenciamiento_netlab"
@@ -177,7 +176,7 @@ gr export "figuras/paleta_colores.png", as(png) replace
 	do "programas\5d_figura_sub_secuenciamiento"
 	do "programas\5e_mapas_secuenciamiento"
 	*/
-	
+/*
 * 6. Vacunados
 	*do "programas\6a_base_vacunados"
 	*do "programas\6b_figura_vacunacion"

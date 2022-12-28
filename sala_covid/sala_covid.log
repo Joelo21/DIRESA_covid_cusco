@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.19)  27 DEC 2022 15:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.12.19)  28 DEC 2022 08:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3187,7 +3187,7 @@ Package rerunfilecheck Info: File `sala_covid.out' has not changed.
 Here is how much of TeX's memory you used:
  42831 strings out of 475385
  1024000 string characters out of 2775962
- 1447049 words of memory out of 3000000
+ 1446049 words of memory out of 3000000
  62893 multiletter control sequences out of 15000+600000
  538481 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -3212,7 +3212,7 @@ ublic/lm/lmsy10.pfb><C:/Users/DEIS-02/AppData/Local/Programs/MiKTeX/fonts/type1
 iKTeX/fonts/type1/public/newpx/npxsups-Regular.pfb><C:/Users/DEIS-02/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/newpx/zplb.pfb><C:/Users/DEIS-02/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/newpx/zplr.pfb>
-Output written on sala_covid.pdf (128 pages, 10399370 bytes).
+Output written on sala_covid.pdf (128 pages, 10408618 bytes).
 PDF statistics:
  2172 PDF objects out of 2487 (max. 8388607)
  366 named destinations out of 1000 (max. 500000)
