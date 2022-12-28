@@ -150,7 +150,7 @@ if semana >=1, ///
 	ylabel(0(10)100, labsize(*0.6) nogrid) ///
 	tlabel(1(2)52, labsize(*0.60)) ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
-	ytitle("Mortalidad (defunciones/población*10,000)") ///
+	ytitle("Mortalidad (defunciones/población*10,000)", size(*0.9)) ///
 	graphregion(color(white)) ///
 	title("2022", box bexpand bcolor("$mycolor3") color(white)) ///
  legend(label(1 "Acomayo") label(2 "Anta") label(3 "Calca")  label(4 "Canas")  label(5 "Canchis") label(6 "Chumbivilcas")  label(7 "Cusco")  label(8 "Espinar") label(9 "La Convención") label(10 "Quispicanchi") label(11 "Paruro") label(12 "Paucartambo") label(13 "Urubamba") size(*0.45) ring(0) position(.1) bmargin(large) color(gs1) c(1) region(col(white))) legend(col(6)) legend(size(tiny)) name(morta_prov, replace)
@@ -176,7 +176,7 @@ if semana >=1, ///
 	ylabel(0(500)2500, labsize(*0.6) nogrid) ///
 	tlabel(1(2)52, labsize(*0.60)) ///
 	xtitle("Semana Epidemiológica", size(*0.7)) ///
-	ytitle("Incidencia (casos/población*10,000)") ///
+	ytitle("Incidencia (casos/población*10,000)", size(*0.9)) ///
 	graphregion(color(white)) ///
 	title("2022", box bexpand bcolor("$mycolor3") color(white)) ///
 	legend(label(1 "Acomayo") label(2 "Anta") label(3 "Calca")  label(4 "Canas")  label(5 "Canchis") label(6 "Chumbivilcas")  label(7 "Cusco")  label(8 "Espinar") label(9 "La Convención") label(10 "Quispicanchi") label(11 "Paruro") label(12 "Paucartambo") label(13 "Urubamba") size(*0.45) ring(0) position(.1) bmargin(large) color(gs1) c(1) region(col(white))) legend(col(6)) legend(size(tiny)) name(inci_provi, replace)

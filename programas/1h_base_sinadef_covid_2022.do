@@ -13,7 +13,7 @@
 * 2020
 
 * Importar la base de datos
-import excel "${datos}\raw\base_sinadef_2022.xlsx", sheet("DATA") firstrow clear
+import excel "${datos}\raw\base_sinadef_2022.xlsx", sheet("Data1") firstrow clear
 
 keep if DEPARTAMENTO == "CUSCO"
 drop if Nº == .
