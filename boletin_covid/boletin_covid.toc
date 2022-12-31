@@ -8,5 +8,5 @@
 \contentsline {chapter}{Variantes de COVID-19}{67}{section*.94}%
 \contentsline {chapter}{Defunciones Cero}{71}{section*.98}%
 \contentsline {chapter}{Resumen de Indicadores Covid19}{72}{section*.100}%
-\contentsline {chapter}{Agradecimientos}{73}{table.caption.101}%
-\contentsline {chapter}{Diseño y Edición}{74}{chapter*.102}%
+\contentsline {chapter}{Agradecimientos}{73}{table.caption.102}%
+\contentsline {chapter}{Diseño y Edición}{74}{chapter*.103}%
